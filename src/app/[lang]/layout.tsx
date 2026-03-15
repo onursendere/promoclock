@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Lora } from "next/font/google";
 import Script from "next/script";
 import "../globals.css";
 import { i18n, type Locale } from "@/lib/i18n/config";
@@ -8,6 +8,12 @@ import { getDictionary } from "@/lib/i18n/get-dictionary";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const lora = Lora({
+  variable: "--font-lora",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export async function generateStaticParams() {
@@ -83,7 +89,7 @@ export default async function LangLayout({
           `}
         </Script>
       </head>
-      <body className={`${geistSans.variable} font-sans antialiased bg-background text-foreground`}>
+      <body className={`${geistSans.variable} ${lora.variable} font-sans antialiased bg-background text-foreground`}>
         {children}
       </body>
     </html>

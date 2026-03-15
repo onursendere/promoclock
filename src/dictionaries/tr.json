@@ -11,7 +11,8 @@
       "howItWorks": "Nasıl Çalışır",
       "eligibility": "Uygunluk",
       "schedule": "Takvim",
-      "faq": "SSS"
+      "faq": "SSS",
+      "devTools": "Araçlar"
     }
   },
   "hero": {
@@ -145,6 +146,21 @@
         "answer": "PromoClock, Onur Sendere (X'te @onursendere) tarafından dünya genelindeki Claude kullanıcılarının yoğun olmayan promosyon penceresinde olup olmadıklarını anında anlamalarına yardımcı olmak için geliştirilmiştir. Bağımsız bir projedir ve Anthropic ile herhangi bir bağlantısı yoktur."
       }
     ]
+  },
+  "devTools": {
+    "title": "GELİŞTİRİCİ ARAÇLARI",
+    "subtitle": "Claude promosyon durumunu iş akışınıza entegre edin. API, terminal prompt'u, takvim senkronizasyonu — tarayıcıya gerek yok.",
+    "apiTitle": "JSON API & Terminal Entegrasyonu",
+    "apiDescription": "Herkese açık /api/status endpoint'i, promosyon durumunu gerçek zamanlı JSON olarak döner. ZSH/Bash prompt'unuza bağlayın, terminalinizde 🟢 2X veya 🔴 1X görün.",
+    "tryApi": "API'yi dene",
+    "calendarTitle": "Takvim Senkronizasyonu (.ics)",
+    "calendarDescription": "Tüm yoğun ve yoğun olmayan saatleri takviminize ekleyen tek bir .ics dosyası indirin — hatırlatıcılarla birlikte.",
+    "calendarFeature1": "Doğru UTC saatleriyle günlük off-peak / peak blokları",
+    "calendarFeature2": "Her geçiş öncesi yerleşik hatırlatıcılar",
+    "calendarFeature3": "Google Takvim, Apple Takvim, Outlook ile çalışır",
+    "calendarDownload": "Takvime Ekle",
+    "notifTitle": "Tarayıcı Bildirimleri ve Sesli Uyarılar",
+    "notifDescription": "Başlıktaki zil simgesini etkinleştirerek, Claude off-peak moduna geçtiği anda tarayıcı bildirimi ve yumuşak bir zil sesi alın. PromoClock'u arka plan sekmesinde açık bırakın ve 2x limitleri asla kaçırmayın."
   },
   "footer": {
     "crafted": "Shrewsbury, UK'de Claude ile sevgiyle yapıldı.",

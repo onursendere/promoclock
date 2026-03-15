@@ -31,6 +31,7 @@ export interface Dictionary {
       eligibility: string;
       schedule: string;
       faq: string;
+      devTools: string;
     };
   };
   hero: {
@@ -98,6 +99,21 @@ export interface Dictionary {
       question: string;
       answer: string;
     }[];
+  };
+  devTools: {
+    title: string;
+    subtitle: string;
+    apiTitle: string;
+    apiDescription: string;
+    tryApi: string;
+    calendarTitle: string;
+    calendarDescription: string;
+    calendarFeature1: string;
+    calendarFeature2: string;
+    calendarFeature3: string;
+    calendarDownload: string;
+    notifTitle: string;
+    notifDescription: string;
   };
   footer: {
     crafted: string;

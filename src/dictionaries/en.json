@@ -11,7 +11,8 @@
       "howItWorks": "How It Works",
       "eligibility": "Eligibility",
       "schedule": "Schedule",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "devTools": "Tools"
     }
   },
   "hero": {
@@ -145,6 +146,21 @@
         "answer": "PromoClock was built by Onur Sendere (@onursendere on X) to help Claude users worldwide instantly understand whether they are in the off-peak promotion window. It is an independent project and is not affiliated with Anthropic."
       }
     ]
+  },
+  "devTools": {
+    "title": "DEVELOPER TOOLS",
+    "subtitle": "Integrate Claude's promotion status into your workflow. API endpoint, terminal prompt, calendar sync — no browser needed.",
+    "apiTitle": "JSON API & Terminal Integration",
+    "apiDescription": "A public /api/status endpoint returns real-time promotion status as JSON. Pipe it into your ZSH/Bash prompt so you see 🟢 2X or 🔴 1X right in your terminal.",
+    "tryApi": "Try the live API",
+    "calendarTitle": "Calendar Sync (.ics)",
+    "calendarDescription": "Download a single .ics file that adds every peak and off-peak window to your calendar — with reminders. Works with Google Calendar, Apple Calendar, and Outlook.",
+    "calendarFeature1": "Daily off-peak / peak blocks with correct UTC times",
+    "calendarFeature2": "Built-in reminders before each transition",
+    "calendarFeature3": "Works with Google Calendar, Apple Calendar, Outlook",
+    "calendarDownload": "Add to Calendar",
+    "notifTitle": "Browser Notifications & Sound Alerts",
+    "notifDescription": "Enable the bell icon in the header to receive a browser notification and a gentle chime the instant Claude switches to off-peak mode. Keep PromoClock open in a background tab and never miss 2x limits again."
   },
   "footer": {
     "crafted": "Lovingly built with Claude in Shrewsbury, UK.",

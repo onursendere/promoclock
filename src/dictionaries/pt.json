@@ -11,7 +11,8 @@
       "howItWorks": "Como Funciona",
       "eligibility": "Elegibilidade",
       "schedule": "Horários",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "devTools": "Ferramentas"
     }
   },
   "hero": {
@@ -145,6 +146,21 @@
         "answer": "O PromoClock foi criado por Onur Sendere (@onursendere no X) para ajudar usuários do Claude a entender instantaneamente se estão na janela de promoção. É um projeto independente e não é afiliado à Anthropic."
       }
     ]
+  },
+  "devTools": {
+    "title": "FERRAMENTAS PARA DEVS",
+    "subtitle": "Integre o status da promoção Claude ao seu workflow. API, terminal, calendário — sem precisar do navegador.",
+    "apiTitle": "API JSON & Integração Terminal",
+    "apiDescription": "O endpoint /api/status retorna o status em tempo real como JSON. Use no seu prompt ZSH/Bash para ver 🟢 2X ou 🔴 1X direto no terminal.",
+    "tryApi": "Testar a API",
+    "calendarTitle": "Sincronização de Calendário (.ics)",
+    "calendarDescription": "Baixe um arquivo .ics que adiciona todos os horários peak/off-peak ao seu calendário — com lembretes.",
+    "calendarFeature1": "Blocos diários off-peak / peak com horários UTC corretos",
+    "calendarFeature2": "Lembretes embutidos antes de cada transição",
+    "calendarFeature3": "Funciona com Google Agenda, Apple Calendar, Outlook",
+    "calendarDownload": "Adicionar ao Calendário",
+    "notifTitle": "Notificações do Navegador e Alertas Sonoros",
+    "notifDescription": "Ative o ícone do sino no cabeçalho para receber notificações e um som suave quando Claude entrar no modo off-peak."
   },
   "footer": {
     "crafted": "Feito com amor com Claude em Shrewsbury, UK.",

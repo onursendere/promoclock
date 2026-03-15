@@ -11,7 +11,8 @@
       "howItWorks": "仕組み",
       "eligibility": "対象条件",
       "schedule": "スケジュール",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "devTools": "ツール"
     }
   },
   "hero": {
@@ -145,6 +146,21 @@
         "answer": "PromoClockはOnur Sendere（Xで@onursendere）が開発しました。世界中のClaudeユーザーがオフピークプロモーションウィンドウにいるかどうかを即座に理解できるよう設計されています。独立したプロジェクトであり、Anthropicとは関連していません。"
       }
     ]
+  },
+  "devTools": {
+    "title": "開発者ツール",
+    "subtitle": "Claudeプロモーションステータスをワークフローに統合。API、ターミナル、カレンダー同期 — ブラウザ不要。",
+    "apiTitle": "JSON API & ターミナル統合",
+    "apiDescription": "/api/statusエンドポイントがリアルタイムのプロモーションステータスをJSONで返します。ZSH/Bashプロンプトで🟢 2Xまたは🔴 1Xを表示。",
+    "tryApi": "APIを試す",
+    "calendarTitle": "カレンダー同期（.ics）",
+    "calendarDescription": "すべてのピーク/オフピーク時間帯をカレンダーに追加する.icsファイルをダウンロード — リマインダー付き。",
+    "calendarFeature1": "正確なUTC時刻での日次オフピーク/ピークブロック",
+    "calendarFeature2": "各切り替え前のビルトインリマインダー",
+    "calendarFeature3": "Googleカレンダー、Appleカレンダー、Outlookに対応",
+    "calendarDownload": "カレンダーに追加",
+    "notifTitle": "ブラウザ通知とサウンドアラート",
+    "notifDescription": "ヘッダーのベルアイコンを有効にして、Claudeがオフピークモードに切り替わった瞬間にブラウザ通知と優しいチャイムを受け取りましょう。"
   },
   "footer": {
     "crafted": "Shrewsbury, UKにてClaudeと共に愛情を込めて制作。",

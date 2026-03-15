@@ -2,16 +2,16 @@
 
 :root {
   --background: #F5F0EB;
-  --foreground: #3D3B36;
-  --primary: #8B7EC8;
-  --primary-light: #A99ADE;
-  --secondary: #85836F;
-  --accent-green: #7CAE7A;
-  --accent-blue: #7BA7B0;
+  --foreground: #2A2825;
+  --primary: #6B5CA5;
+  --primary-light: #8B7EC8;
+  --secondary: #5C5A4A;
+  --accent-green: #4D8B4A;
+  --accent-blue: #4A8A96;
   --surface: #FFFFFF;
   --surface-warm: #EFE6D6;
-  --border: #D8D3CC;
-  --muted: #A4A6A0;
+  --border: #C8C3BC;
+  --muted: #7A7C78;
 }
 
 @theme inline {
@@ -27,6 +27,7 @@
   --color-border: var(--border);
   --color-muted: var(--muted);
   --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-lora);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -43,4 +44,8 @@ html {
 ::selection {
   background: var(--primary);
   color: white;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif), Georgia, serif;
 }
