@@ -6,13 +6,24 @@ Real-time tracker for the Claude March 2026 off-peak promotion. Instantly shows 
 
 ## Features
 
+### Core Features
 - **Real-time timezone detection** — automatically reads your device timezone via `Intl.DateTimeFormat`
 - **Instant status display** — shows if you're in the 2x limit off-peak window right now
 - **Countdown timer** — live countdown to the next status change
 - **10 languages** — English, Hindi, Japanese, French, Portuguese, Korean, Spanish, German, Chinese (Simplified), Turkish
 - **Global schedule table** — peak/off-peak hours for 10 major cities
+- **Animated badge** — subtle shimmer effect on promotion badge
+
+### Developer Tools
+- **JSON API** (`/api/status`) — real-time promotion status for terminal integration
+- **Calendar sync** (`/api/calendar`) — downloadable .ics file with all peak/off-peak blocks and reminders
+- **Web push notifications** — browser notifications with sound alerts on status changes
+- **Terminal prompt integration** — ZSH/Bash snippets to show 🟢 2X or 🔴 1X in your prompt
+
+### SEO & Discoverability
 - **GEO-optimized** — JSON-LD schema (SoftwareApplication, FAQPage, HowTo), semantic HTML, hreflang tags
-- **Minimalist design** — warm, calm aesthetic inspired by wellness/spiritual design patterns
+- **LLM-friendly** — `/llms.txt` and `/llms-full.txt` for AI discoverability
+- **Sitemap & robots.txt** — proper indexing directives for search engines and LLM crawlers
 
 ## Promotion Details
 
@@ -21,6 +32,47 @@ Real-time tracker for the Claude March 2026 off-peak promotion. Instantly shows 
 - **Off-peak (2x limits):** All other weekday hours + entire weekend
 - **Eligible plans:** Free, Pro, Max, Team
 - **DST note:** US Daylight Saving Time started March 8, 2026 → ET = EDT (UTC-4)
+
+## API Usage
+
+### JSON Status Endpoint
+
+```bash
+curl https://promoclock.co/api/status
+```
+
+Response:
+```json
+{
+  "emoji": "🟢",
+  "label": "2X — Off-peak limits active",
+  "limitsMultiplier": 2,
+  "isOffPeak": true,
+  "nextChange": "2026-03-16T18:00:00.000Z",
+  "minutesUntilChange": 960
+}
+```
+
+### Terminal Prompt Integration
+
+Add to your `~/.zshrc`:
+```bash
+claude_status() {
+  local status=$(curl -s https://promoclock.co/api/status | jq -r '.emoji + " " + (.limitsMultiplier | tostring) + "X"')
+  echo "$status"
+}
+
+PROMPT='$(claude_status) %~ %# '
+```
+
+### Calendar Sync
+
+Download .ics file with all promotion events:
+```bash
+curl -O https://promoclock.co/api/calendar
+```
+
+Or visit in browser to add to Google Calendar, Apple Calendar, or Outlook.
 
 ## Tech Stack
 

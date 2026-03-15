@@ -85,7 +85,10 @@ export default function HeroSection({ dict }: HeroProps) {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-warm/80 text-xs tracking-widest text-secondary mb-8 relative overflow-hidden"
         >
           <motion.div
-            className="absolute inset-0 bg-linear-to-r from-transparent via-white/20 to-transparent"
+            className="absolute inset-0"
+            style={{
+              background: "linear-gradient(to right, transparent, rgba(255,255,255,0.2), transparent)",
+            }}
             animate={{
               x: ["-100%", "200%"],
             }}
