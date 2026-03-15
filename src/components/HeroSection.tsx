@@ -78,10 +78,26 @@ export default function HeroSection({ dict }: HeroProps) {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="w-full max-w-3xl mx-auto text-center"
       >
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-warm/80 text-xs tracking-widest text-secondary mb-8">
-          <span className={`w-2 h-2 rounded-full ${getDotColor()} ${status.isActive && status.isOffPeak ? "animate-pulse" : ""}`} />
-          {dict.hero.badge}
-        </div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-warm/80 text-xs tracking-widest text-secondary mb-8 relative overflow-hidden"
+        >
+          <motion.div
+            className="absolute inset-0 bg-linear-to-r from-transparent via-white/20 to-transparent"
+            animate={{
+              x: ["-100%", "200%"],
+            }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              ease: "linear",
+            }}
+          />
+          <span className={`w-2 h-2 rounded-full ${getDotColor()} ${status.isActive && status.isOffPeak ? "animate-pulse" : ""} relative z-10`} />
+          <span className="relative z-10">{dict.hero.badge}</span>
+        </motion.div>
 
         <motion.h1
           key={getStatusText()}
