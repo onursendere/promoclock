@@ -142,12 +142,12 @@
       },
       {
         "question": "PromoClock是什么？",
-        "answer": "PromoClock是一个独立的社区工具，帮助全球Claude用户即时了解是否在促销窗口内。它与Anthropic无关。"
+        "answer": "PromoClock由Onur Sendere（X上@onursendere）开发，帮助全球Claude用户即时了解是否在促销窗口内。这是一个独立项目，与Anthropic无关。"
       }
     ]
   },
   "footer": {
-    "crafted": "以对用户体验和AI集成的热情精心打造。",
+    "crafted": "在英国Shrewsbury与Claude一起用爱打造。",
     "digiwingsPromo": "需要为您的业务定制GEO优化的网络解决方案？",
     "digiwingsCta": "访问我的一人数字代理机构",
     "buymeacoffee": "帮您省去了时区计算？请我喝杯咖啡",

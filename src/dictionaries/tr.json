@@ -142,12 +142,12 @@
       },
       {
         "question": "PromoClock nedir ve kim tarafından yapıldı?",
-        "answer": "PromoClock, dünya genelindeki Claude kullanıcılarının yoğun olmayan promosyon penceresinde olup olmadıklarını anında anlamalarına yardımcı olmak için tasarlanmış bağımsız, topluluk yapımı bir araçtır. Anthropic ile bağlantısı yoktur."
+        "answer": "PromoClock, Onur Sendere (X'te @onursendere) tarafından dünya genelindeki Claude kullanıcılarının yoğun olmayan promosyon penceresinde olup olmadıklarını anında anlamalarına yardımcı olmak için geliştirilmiştir. Bağımsız bir projedir ve Anthropic ile herhangi bir bağlantısı yoktur."
       }
     ]
   },
   "footer": {
-    "crafted": "Kullanıcı deneyimi ve yapay zeka entegrasyonuna duyulan tutkuyla tasarlandı.",
+    "crafted": "Shrewsbury, UK'de Claude ile sevgiyle yapıldı.",
     "digiwingsPromo": "İşletmeniz için özel tasarımlı, GEO ile optimize edilmiş web çözümlerine mi ihtiyacınız var?",
     "digiwingsCta": "Tek kişilik dijital ajansımı ziyaret edin",
     "buymeacoffee": "Saat dilimi karmaşasından kurtulmanıza yardımcı olduysa, bana bir kahve ısmarlayabilirsiniz",

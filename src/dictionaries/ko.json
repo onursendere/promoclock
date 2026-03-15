@@ -142,12 +142,12 @@
       },
       {
         "question": "PromoClock은 무엇이며 누가 만들었나요?",
-        "answer": "PromoClock은 전 세계 Claude 사용자들이 비피크 프로모션 윈도우에 있는지 즉시 이해할 수 있도록 설계된 독립적인 커뮤니티 도구입니다. Anthropic과 관련이 없습니다."
+        "answer": "PromoClock은 Onur Sendere(X에서 @onursendere)가 전 세계 Claude 사용자들이 비피크 프로모션 윈도우에 있는지 즉시 알 수 있도록 만들었습니다. 독립적인 프로젝트이며 Anthropic과 관련이 없습니다."
       }
     ]
   },
   "footer": {
-    "crafted": "사용자 경험과 AI 통합에 대한 열정으로 제작되었습니다.",
+    "crafted": "Shrewsbury, UK에서 Claude와 함께 사랑을 담아 제작했습니다.",
     "digiwingsPromo": "비즈니스를 위한 맞춤형 GEO 최적화 웹 솔루션이 필요하신가요?",
     "digiwingsCta": "1인 디지털 에이전시 방문하기",
     "buymeacoffee": "시간대 계산을 건너뛸 수 있었나요? 커피 한 잔 사주세요",

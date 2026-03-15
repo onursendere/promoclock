@@ -142,12 +142,12 @@
       },
       {
         "question": "O que é o PromoClock?",
-        "answer": "O PromoClock é uma ferramenta independente da comunidade para ajudar usuários do Claude a entender instantaneamente se estão na janela de promoção. Não é afiliado à Anthropic."
+        "answer": "O PromoClock foi criado por Onur Sendere (@onursendere no X) para ajudar usuários do Claude a entender instantaneamente se estão na janela de promoção. É um projeto independente e não é afiliado à Anthropic."
       }
     ]
   },
   "footer": {
-    "crafted": "Criado com paixão pela experiência do usuário e integração de IA.",
+    "crafted": "Feito com amor com Claude em Shrewsbury, UK.",
     "digiwingsPromo": "Precisa de soluções web personalizadas e otimizadas para GEO?",
     "digiwingsCta": "Visite minha agência digital",
     "buymeacoffee": "Ajudou a evitar cálculos de fuso horário? Me pague um café",

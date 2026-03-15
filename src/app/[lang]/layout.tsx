@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import Script from "next/script";
 import "../globals.css";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
@@ -68,6 +69,20 @@ export default async function LangLayout({
 
   return (
     <html lang={lang} className="scroll-smooth">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-MN3F77SZVF"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MN3F77SZVF');
+          `}
+        </Script>
+      </head>
       <body className={`${geistSans.variable} font-sans antialiased bg-background text-foreground`}>
         {children}
       </body>

@@ -142,12 +142,12 @@
       },
       {
         "question": "What is PromoClock and who built it?",
-        "answer": "PromoClock is an independent, community-built tool designed to help Claude users worldwide instantly understand whether they are in the off-peak promotion window. It is not affiliated with Anthropic."
+        "answer": "PromoClock was built by Onur Sendere (@onursendere on X) to help Claude users worldwide instantly understand whether they are in the off-peak promotion window. It is an independent project and is not affiliated with Anthropic."
       }
     ]
   },
   "footer": {
-    "crafted": "Crafted with passion for user experience and AI integration.",
+    "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
     "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",
     "digiwingsCta": "Visit my one-person digital agency",
     "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",

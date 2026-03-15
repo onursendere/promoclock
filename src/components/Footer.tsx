@@ -74,8 +74,12 @@ export default function Footer({ dict }: { dict: Dictionary }) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 text-sm font-medium text-primary hover:text-primary-light transition-colors group"
             >
-              <svg width="28" height="28" viewBox="0 0 100 100" fill="currentColor" className="opacity-80 group-hover:opacity-100 transition-opacity">
-                <path d="M50 15c-2 0-4 1-5.5 2.5L30 32c-4 4-6 9-6 14.5 0 8 4 15 10 19l-12 12c-1.5 1.5-2 3.5-1 5.5 1 1.5 3 2.5 5 2.5h48c2 0 4-1 5-2.5 1-2 .5-4-1-5.5l-12-12c6-4 10-11 10-19 0-5.5-2-10.5-6-14.5L55.5 17.5C54 16 52 15 50 15zm0 8l14.5 14.5c2.5 2.5 4 6 4 9.5 0 7-5.5 12.5-12.5 13.5V50h-12v10.5C37 59.5 31.5 54 31.5 47c0-3.5 1.5-7 4-9.5L50 23z"/>
+              <svg width="22" height="22" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="opacity-80 group-hover:opacity-100 transition-opacity shrink-0">
+                <path d="M50 20 C40 20 30 28 28 40 C26 52 32 60 40 66 L50 74 L60 66 C68 60 74 52 72 40 C70 28 60 20 50 20Z" fill="currentColor" opacity="0.15"/>
+                <path d="M50 28 C44 28 38 33 36 42 C34 50 38 56 44 60 L50 65 L56 60 C62 56 66 50 64 42 C62 33 56 28 50 28Z" stroke="currentColor" strokeWidth="3" fill="none"/>
+                <circle cx="50" cy="44" r="4" fill="currentColor"/>
+                <path d="M50 48 L50 58" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/>
+                <path d="M42 76 C42 76 46 70 50 70 C54 70 58 76 58 76" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
               </svg>
               <span>{dict.footer.digiwingsCta}</span>
               <span className="group-hover:translate-x-0.5 transition-transform">→</span>

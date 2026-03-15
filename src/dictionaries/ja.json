@@ -142,12 +142,12 @@
       },
       {
         "question": "PromoClockとは何ですか？誰が作りましたか？",
-        "answer": "PromoClockは世界中のClaudeユーザーがオフピークプロモーションウィンドウにいるかどうかを即座に理解できるよう設計された、独立したコミュニティ製ツールです。Anthropicとは関連していません。"
+        "answer": "PromoClockはOnur Sendere（Xで@onursendere）が開発しました。世界中のClaudeユーザーがオフピークプロモーションウィンドウにいるかどうかを即座に理解できるよう設計されています。独立したプロジェクトであり、Anthropicとは関連していません。"
       }
     ]
   },
   "footer": {
-    "crafted": "ユーザー体験とAI統合への情熱を込めて制作。",
+    "crafted": "Shrewsbury, UKにてClaudeと共に愛情を込めて制作。",
     "digiwingsPromo": "ビジネス向けのカスタムGEO最適化ウェブソリューションが必要ですか？",
     "digiwingsCta": "ワンパーソンデジタルエージェンシーをご覧ください",
     "buymeacoffee": "タイムゾーンの計算を省けましたか？コーヒーをおごってください",

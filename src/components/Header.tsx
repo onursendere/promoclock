@@ -6,6 +6,7 @@ import { Globe, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { i18n, localeNames, type Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
+import PromoClockLogo from "@/components/PromoClockLogo";
 
 interface HeaderProps {
   dict: Dictionary;
@@ -35,8 +36,8 @@ export default function Header({ dict, lang }: HeaderProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <a href={`/${lang}`} className="text-lg font-semibold tracking-tight text-foreground">
-          {dict.header.logo}
+        <a href={`/${lang}`} className="flex items-center">
+          <PromoClockLogo size={28} />
         </a>
 
         <div className="hidden md:flex items-center gap-8">
