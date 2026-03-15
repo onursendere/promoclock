@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "PromoClock — Claude 2026年3月オフピークプロモーショントラッカー",
+    "description": "Claudeの2倍制限オフピークウィンドウにいるかどうかを即座に確認。2026年3月プロモーション用のリアルタイムタイムゾーン検出。",
+    "ogTitle": "PromoClock — 今、Claudeの2倍制限ウィンドウにいますか？",
+    "ogDescription": "タイムゾーンの計算をやめましょう。PromoClockがClaude 2026年3月オフピークプロモーションがあなたの現地時間で有効かどうかを即座にお知らせします。"
+  },
+  "header": {
+    "logo": "PromoClock",
+    "nav": {
+      "howItWorks": "仕組み",
+      "eligibility": "対象条件",
+      "schedule": "スケジュール",
+      "faq": "FAQ"
+    }
+  },
+  "hero": {
+    "badge": "CLAUDE 2026年3月プロモーション",
+    "promotionActive": "現在、制限が2倍になっています",
+    "promotionInactive": "標準制限が適用中",
+    "promotionExpired": "プロモーションは終了しました",
+    "promotionNotStarted": "プロモーションは3月13日に開始",
+    "activeSubtitle": "オフピークウィンドウにいます。すべてのClaude環境で2倍のメッセージとコンテキスト制限をお楽しみください。",
+    "inactiveSubtitle": "現在ピーク時間帯です。2倍制限はまもなく戻ります。",
+    "expiredSubtitle": "Claude 2026年3月プロモーションは2026年3月27日午後11:59 PTに終了しました。",
+    "notStartedSubtitle": "オフピークプロモーションは2026年3月13日に開始されます。もうすぐです。",
+    "countdownLabel": "次のステータス変更まで",
+    "yourTimezone": "タイムゾーン",
+    "yourLocalTime": "現地時間",
+    "days": "日",
+    "hours": "時間",
+    "minutes": "分",
+    "seconds": "秒",
+    "peakHours": "ピーク時間（標準制限）",
+    "offPeakHours": "オフピーク時間（2倍制限）",
+    "weekdays": "平日",
+    "allWeekend": "週末全日（2倍制限）"
+  },
+  "howItWorks": {
+    "title": "仕組み",
+    "subtitle": "シンプルに — Claudeでの作業に集中できます。",
+    "steps": [
+      {
+        "title": "タイムゾーンを自動検出",
+        "description": "PromoClockを開いた瞬間、デバイスのタイムゾーンを自動的に読み取ります。セットアップや設定は不要です。"
+      },
+      {
+        "title": "リアルタイムで計算",
+        "description": "エンジンがあなたの現地時間をAnthropicの公式ピークウィンドウ（平日8 AM – 2 PM ET）と比較し、米国夏時間を考慮します。"
+      },
+      {
+        "title": "ステータスを即座に表示",
+        "description": "明確なリアルタイム表示で、現在制限が2倍かどうか、次の変更までのカウントダウンを確認できます。"
+      }
+    ]
+  },
+  "eligibility": {
+    "title": "対象条件",
+    "subtitle": "お使いのClaudeプランが2026年3月オフピークプロモーションの対象かどうかを確認してください。",
+    "eligible": "対象",
+    "notEligible": "対象外",
+    "plans": [
+      {
+        "name": "Free",
+        "status": true,
+        "description": "制限に最も頻繁に達する大規模なユーザーベース。2倍の容量はプラットフォームを探索する重要な機会です。"
+      },
+      {
+        "name": "Pro",
+        "status": true,
+        "description": "個人のプロフェッショナルとパワーユーザー。Claude Codeを使用する開発者に特に価値があります。"
+      },
+      {
+        "name": "Max",
+        "status": true,
+        "description": "自律エージェントや大量データ処理を行う上級ユーザー。2倍の制限で大規模プロジェクトを中断なく進められます。"
+      },
+      {
+        "name": "Team",
+        "status": true,
+        "description": "中小企業のワークスペース。Claude Coworkでのコラボレーションを強化します。"
+      },
+      {
+        "name": "Enterprise",
+        "status": false,
+        "description": "Enterpriseプランは専用容量とカスタム契約があるため、このリテールプロモーションから除外されています。"
+      }
+    ],
+    "platforms": {
+      "title": "すべてのClaude環境で利用可能",
+      "items": ["Web (claude.ai)", "デスクトップ (Mac / Windows)", "モバイル (iOS / Android)", "Claude Cowork", "Claude Code (ターミナル)", "Excel & PowerPointアドイン"]
+    },
+    "note": "オフピークボーナス使用量は週間使用制限を消費しません。完全に独立したボーナスプールとして機能します。"
+  },
+  "schedule": {
+    "title": "グローバルスケジュール",
+    "subtitle": "世界の主要都市で2倍制限がいつ有効かを確認。ピーク時間：平日8:00 AM – 2:00 PM ET（12:00 – 18:00 UTC）。",
+    "tableHeaders": {
+      "city": "都市 / 地域",
+      "timezone": "タイムゾーン",
+      "peakHours": "ピーク時間（標準）",
+      "offPeakHours": "オフピーク（2倍制限）"
+    },
+    "weekdayLabel": "平日",
+    "weekendLabel": "週末全日 → 2倍制限"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "Claude 2026年3月オフピークプロモーションについて知っておくべきすべてのこと。",
+    "items": [
+      {
+        "question": "Claude 2026年3月オフピークプロモーションとは何ですか？",
+        "answer": "Anthropicは2026年3月13日から27日まで、オフピーク時間中のメッセージとコンテキスト制限を2倍にするプロモーションを開始しました。これによりサーバー負荷を一日を通じてより均等に分散させます。"
+      },
+      {
+        "question": "オフピーク時間は正確にいつですか？",
+        "answer": "オフピーク時間は、平日の東部時間（ET）午前8時から午後2時以外のすべての時間です。平日の夕方と夜、および週末全体が2倍制限の対象です。"
+      },
+      {
+        "question": "私のタイムゾーンではClaudeはいつオフピークですか？",
+        "answer": "PromoClockはデバイスのタイムゾーンを自動的に検出し、正確なローカルのピーク/オフピークウィンドウを表示します。"
+      },
+      {
+        "question": "どのClaudeプランが対象ですか？",
+        "answer": "Free、Pro、Max、Teamのすべてのプランが対象です。Enterpriseプランは除外されています。"
+      },
+      {
+        "question": "オフピーク使用量は週間制限から差し引かれますか？",
+        "answer": "いいえ。オフピーク時間中に獲得した追加容量は、完全に独立したボーナスプールとして機能します。"
+      },
+      {
+        "question": "プロモーションを手動で有効にする必要がありますか？",
+        "answer": "いいえ。プロモーションは2026年3月13日から27日まで、対象のすべてのプランに自動的に適用されます。"
+      },
+      {
+        "question": "2倍制限はどのプラットフォームで適用されますか？",
+        "answer": "2倍制限はすべてのClaude環境で適用されます：claude.ai、デスクトップアプリ、モバイルアプリ、Claude Cowork、Claude Code、Excel/PowerPointアドイン。"
+      },
+      {
+        "question": "米国夏時間はプロモーションにどう影響しますか？",
+        "answer": "夏時間は2026年3月8日に始まりました。プロモーション期間中、東部時間はEDT（UTC-4）、太平洋時間はPDT（UTC-7）です。PromoClockはこれをすべての計算で自動的に考慮します。"
+      },
+      {
+        "question": "PromoClockとは何ですか？誰が作りましたか？",
+        "answer": "PromoClockは世界中のClaudeユーザーがオフピークプロモーションウィンドウにいるかどうかを即座に理解できるよう設計された、独立したコミュニティ製ツールです。Anthropicとは関連していません。"
+      }
+    ]
+  },
+  "footer": {
+    "crafted": "ユーザー体験とAI統合への情熱を込めて制作。",
+    "digiwingsPromo": "ビジネス向けのカスタムGEO最適化ウェブソリューションが必要ですか？",
+    "digiwingsCta": "ワンパーソンデジタルエージェンシーをご覧ください",
+    "buymeacoffee": "タイムゾーンの計算を省けましたか？コーヒーをおごってください",
+    "disclaimer": "PromoClockは独立したプロジェクトであり、AnthropicやClaudeとは関連していません。情報提供のみを目的としています。",
+    "rights": "© 2026 PromoClock. Onur Sendere制作。"
+  }
+}

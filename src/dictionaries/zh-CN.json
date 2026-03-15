@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "PromoClock — Claude 2026年3月非高峰时段促销追踪器",
+    "description": "即时查看您是否在Claude的2倍限额非高峰窗口内。为2026年3月促销提供实时时区检测。",
+    "ogTitle": "PromoClock — 您现在在Claude的2倍限额窗口内吗？",
+    "ogDescription": "不用再计算时区了。PromoClock即时告诉您Claude 2026年3月非高峰促销是否在您的本地时间内活跃。"
+  },
+  "header": {
+    "logo": "PromoClock",
+    "nav": {
+      "howItWorks": "工作原理",
+      "eligibility": "资格条件",
+      "schedule": "时间表",
+      "faq": "常见问题"
+    }
+  },
+  "hero": {
+    "badge": "CLAUDE 2026年3月促销",
+    "promotionActive": "您的限额现在已翻倍",
+    "promotionInactive": "标准限额生效中",
+    "promotionExpired": "促销已结束",
+    "promotionNotStarted": "促销将于3月13日开始",
+    "activeSubtitle": "您在非高峰窗口内。在所有Claude界面上享受2倍消息和上下文限额。",
+    "inactiveSubtitle": "您目前在高峰时段。翻倍限额即将恢复。",
+    "expiredSubtitle": "Claude 2026年3月促销于2026年3月27日太平洋时间晚上11:59结束。",
+    "notStartedSubtitle": "非高峰促销将于2026年3月13日开始。请稍后查看。",
+    "countdownLabel": "距下次状态变更",
+    "yourTimezone": "您的时区",
+    "yourLocalTime": "您的本地时间",
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒",
+    "peakHours": "高峰时段（标准限额）",
+    "offPeakHours": "非高峰时段（2倍限额）",
+    "weekdays": "工作日",
+    "allWeekend": "整个周末（2倍限额）"
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "subtitle": "我们保持简单——让您专注于使用Claude进行创作。",
+    "steps": [
+      {
+        "title": "自动检测时区",
+        "description": "打开PromoClock时，我们会自动读取您设备的时区。无需设置或配置。"
+      },
+      {
+        "title": "实时计算",
+        "description": "我们的引擎将您的本地时间与Anthropic的官方高峰窗口（东部时间工作日上午8点至下午2点）进行比较，并考虑美国夏令时。"
+      },
+      {
+        "title": "即时查看状态",
+        "description": "清晰的实时显示告诉您当前限额是否翻倍——加上到下次变更的倒计时。"
+      }
+    ]
+  },
+  "eligibility": {
+    "title": "资格条件",
+    "subtitle": "检查您的Claude计划是否有资格参加2026年3月非高峰促销。",
+    "eligible": "有资格",
+    "notEligible": "无资格",
+    "plans": [
+      {
+        "name": "Free",
+        "status": true,
+        "description": "最常达到限额的庞大用户群。2倍容量是探索平台的关键机会。"
+      },
+      {
+        "name": "Pro",
+        "status": true,
+        "description": "个人专业人士和高级用户。对使用Claude Code的开发者尤其有价值。"
+      },
+      {
+        "name": "Max",
+        "status": true,
+        "description": "运行自主代理和大量数据处理的高级用户。翻倍限额使大型项目能够不间断地进行。"
+      },
+      {
+        "name": "Team",
+        "status": true,
+        "description": "中小企业工作空间。增强Claude Cowork上的协作互动。"
+      },
+      {
+        "name": "Enterprise",
+        "status": false,
+        "description": "企业计划有专用容量和定制合同，因此不在此零售促销范围内。"
+      }
+    ],
+    "platforms": {
+      "title": "在所有Claude界面上可用",
+      "items": ["网页 (claude.ai)", "桌面端 (Mac / Windows)", "移动端 (iOS / Android)", "Claude Cowork", "Claude Code (终端)", "Excel和PowerPoint插件"]
+    },
+    "note": "非高峰奖励使用量不会消耗您的每周使用限额。它作为完全独立的奖励池运行。"
+  },
+  "schedule": {
+    "title": "全球时间表",
+    "subtitle": "查看全球主要城市2倍限额的活跃时间。高峰时段：工作日东部时间上午8:00至下午2:00（UTC 12:00–18:00）。",
+    "tableHeaders": {
+      "city": "城市/地区",
+      "timezone": "时区",
+      "peakHours": "高峰时段（标准）",
+      "offPeakHours": "非高峰（2倍限额）"
+    },
+    "weekdayLabel": "工作日",
+    "weekendLabel": "整个周末 → 2倍限额"
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "关于Claude 2026年3月非高峰促销您需要知道的一切。",
+    "items": [
+      {
+        "question": "Claude 2026年3月非高峰促销是什么？",
+        "answer": "Anthropic推出了2026年3月13日至27日的促销活动，在非高峰时段将消息和上下文限额翻倍，以更均匀地分配服务器负载。"
+      },
+      {
+        "question": "非高峰时段具体是什么时候？",
+        "answer": "非高峰时段是工作日东部时间上午8点至下午2点之外的所有时间。工作日晚上和夜间，加上整个周末都享受2倍限额。"
+      },
+      {
+        "question": "在我的时区Claude什么时候是非高峰？",
+        "answer": "PromoClock会自动检测您设备的时区，显示您精确的本地高峰/非高峰窗口。"
+      },
+      {
+        "question": "哪些Claude计划有资格？",
+        "answer": "Free、Pro、Max和Team计划都有资格。Enterprise计划因有专用容量而被排除。"
+      },
+      {
+        "question": "非高峰使用量会计入我的每周限额吗？",
+        "answer": "不会。非高峰时段获得的额外容量作为完全独立的奖励池运行。"
+      },
+      {
+        "question": "我需要手动激活促销吗？",
+        "answer": "不需要。促销在2026年3月13日至27日期间自动应用于所有符合条件的计划。"
+      },
+      {
+        "question": "2倍限额适用于哪些平台？",
+        "answer": "翻倍限额适用于所有Claude界面：claude.ai、桌面和移动应用、Claude Cowork、Claude Code以及Excel/PowerPoint插件。"
+      },
+      {
+        "question": "美国夏令时如何影响促销？",
+        "answer": "夏令时于2026年3月8日开始。促销期间，东部时间为EDT（UTC-4），太平洋时间为PDT（UTC-7）。PromoClock在所有计算中自动考虑这一点。"
+      },
+      {
+        "question": "PromoClock是什么？",
+        "answer": "PromoClock是一个独立的社区工具，帮助全球Claude用户即时了解是否在促销窗口内。它与Anthropic无关。"
+      }
+    ]
+  },
+  "footer": {
+    "crafted": "以对用户体验和AI集成的热情精心打造。",
+    "digiwingsPromo": "需要为您的业务定制GEO优化的网络解决方案？",
+    "digiwingsCta": "访问我的一人数字代理机构",
+    "buymeacoffee": "帮您省去了时区计算？请我喝杯咖啡",
+    "disclaimer": "PromoClock是独立项目，与Anthropic或Claude无关。仅供参考。",
+    "rights": "© 2026 PromoClock。由Onur Sendere制作。"
+  }
+}

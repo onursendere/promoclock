@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "PromoClock — Claude Mart 2026 Yoğun Olmayan Saat Promosyon Takipçisi",
+    "description": "Claude'un 2 kat limit promosyon penceresinde olup olmadığınızı anında kontrol edin. Mart 2026 promosyonu için gerçek zamanlı saat dilimi algılama.",
+    "ogTitle": "PromoClock — Şu An Claude'un 2 Kat Limit Penceresinde misiniz?",
+    "ogDescription": "Saat dilimi hesaplamalarıyla uğraşmayı bırakın. PromoClock, Claude'un Mart 2026 promosyonunun yerel saatinizde aktif olup olmadığını anında söyler."
+  },
+  "header": {
+    "logo": "PromoClock",
+    "nav": {
+      "howItWorks": "Nasıl Çalışır",
+      "eligibility": "Uygunluk",
+      "schedule": "Takvim",
+      "faq": "SSS"
+    }
+  },
+  "hero": {
+    "badge": "CLAUDE MART 2026 PROMOSYONU",
+    "promotionActive": "LİMİTLERİNİZ ŞU AN İKİ KATINA ÇIKTI",
+    "promotionInactive": "STANDART LİMİTLER AKTİF",
+    "promotionExpired": "PROMOSYON SONA ERDİ",
+    "promotionNotStarted": "PROMOSYON 13 MART'TA BAŞLIYOR",
+    "activeSubtitle": "Yoğun olmayan saat dilimindesiniz. Tüm Claude yüzeylerinde 2 kat mesaj ve bağlam limitinin tadını çıkarın.",
+    "inactiveSubtitle": "Şu an yoğun saatlerdesiniz. İki katına çıkmış limitler yakında geri dönecek.",
+    "expiredSubtitle": "Claude Mart 2026 promosyonu 27 Mart 2026 saat 23:59 PT'de sona erdi.",
+    "notStartedSubtitle": "Yoğun olmayan saat promosyonu 13 Mart 2026'da başlıyor. Yakında tekrar kontrol edin.",
+    "countdownLabel": "Sonraki durum değişikliğine kalan",
+    "yourTimezone": "Saat diliminiz",
+    "yourLocalTime": "Yerel saatiniz",
+    "days": "GÜN",
+    "hours": "SAAT",
+    "minutes": "DAK",
+    "seconds": "SAN",
+    "peakHours": "Yoğun Saatler (Standart Limit)",
+    "offPeakHours": "Yoğun Olmayan Saatler (2 Kat Limit)",
+    "weekdays": "Hafta İçi",
+    "allWeekend": "Tüm Hafta Sonu (2 Kat Limit)"
+  },
+  "howItWorks": {
+    "title": "NASIL ÇALIŞIR",
+    "subtitle": "Basit tutuyoruz — siz Claude ile üretmeye odaklanın.",
+    "steps": [
+      {
+        "title": "SAAT DİLİMİNİZİ ALGILIYORUZ",
+        "description": "PromoClock'u açtığınız an, cihazınızın saat dilimini otomatik olarak okuruz. Kurulum veya yapılandırma gerekmez."
+      },
+      {
+        "title": "GERÇEK ZAMANLI HESAPLIYORUZ",
+        "description": "Motorumuz, yerel saatinizi Anthropic'in resmi yoğun saatleriyle (Hafta içi 08:00 – 14:00 ET) karşılaştırır ve ABD yaz saati uygulamasını hesaba katar."
+      },
+      {
+        "title": "DURUMUNUZU ANINDA GÖRÜRSÜNÜz",
+        "description": "Net ve gerçek zamanlı bir gösterge, limitleriniznin şu an iki katına çıkıp çıkmadığını ve bir sonraki değişikliğe kalan süreyi gösterir."
+      }
+    ]
+  },
+  "eligibility": {
+    "title": "UYGUNLUK",
+    "subtitle": "Claude planınızın Mart 2026 yoğun olmayan saat promosyonuna uygun olup olmadığını kontrol edin.",
+    "eligible": "Uygun",
+    "notEligible": "Uygun Değil",
+    "plans": [
+      {
+        "name": "Free",
+        "status": true,
+        "description": "Limitlere en çok takılan devasa kullanıcı kitlesi. 2 kat kapasite, platformu keşfetmek için kritik bir fırsat."
+      },
+      {
+        "name": "Pro",
+        "status": true,
+        "description": "Bireysel profesyoneller ve yoğun kullanıcılar. Claude Code kullanan geliştiriciler için özellikle değerli."
+      },
+      {
+        "name": "Max",
+        "status": true,
+        "description": "Otonom ajanlar ve yoğun veri işleme yapan ileri düzey kullanıcılar. İki katına çıkan limitler, büyük projelerin kesintisiz ilerlemesini sağlar."
+      },
+      {
+        "name": "Team",
+        "status": true,
+        "description": "Küçük ve orta ölçekli işletme çalışma alanları. Claude Cowork üzerindeki işbirliği etkileşimlerini artırır."
+      },
+      {
+        "name": "Enterprise",
+        "status": false,
+        "description": "Enterprise planları özel kapasite ve özel sözleşmelere sahip olduğundan bu perakende promosyonunun dışındadır."
+      }
+    ],
+    "platforms": {
+      "title": "Tüm Claude yüzeylerinde geçerli",
+      "items": ["Web (claude.ai)", "Masaüstü (Mac / Windows)", "Mobil (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Excel ve PowerPoint Eklentileri"]
+    },
+    "note": "Yoğun olmayan saatlerde kazanılan ekstra kullanım, haftalık kullanım limitlerini tüketmez. Tamamen bağımsız bir bonus havuzu olarak işler."
+  },
+  "schedule": {
+    "title": "KÜRESEL TAKVİM",
+    "subtitle": "Dünyanın büyük şehirlerinde 2 kat limitin ne zaman aktif olduğunu görün. Yoğun saatler: Hafta içi 08:00 – 14:00 ET (12:00 – 18:00 UTC).",
+    "tableHeaders": {
+      "city": "Şehir / Bölge",
+      "timezone": "Saat Dilimi",
+      "peakHours": "Yoğun Saatler (Standart)",
+      "offPeakHours": "Yoğun Olmayan (2 Kat Limit)"
+    },
+    "weekdayLabel": "Hafta İçi",
+    "weekendLabel": "Tüm Hafta Sonu → 2 Kat Limit"
+  },
+  "faq": {
+    "title": "SIKÇA SORULAN SORULAR",
+    "subtitle": "Claude'un Mart 2026 yoğun olmayan saat promosyonu hakkında bilmeniz gereken her şey.",
+    "items": [
+      {
+        "question": "Claude Mart 2026 yoğun olmayan saat promosyonu nedir?",
+        "answer": "Anthropic, 13-27 Mart 2026 tarihleri arasında yoğun olmayan saatlerde mesaj ve bağlam limitlerini iki katına çıkaran bir promosyon başlattı. Bu, sunucu yükünü gün içine daha dengeli dağıtırken kullanıcılara talebin düşük olduğu zamanlarda daha fazla kapasite sunar."
+      },
+      {
+        "question": "Yoğun olmayan saatler tam olarak ne zaman?",
+        "answer": "Yoğun olmayan saatler, hafta içi Doğu Zaman Dilimi'ne (ET) göre sabah 08:00 ile öğleden sonra 14:00 dışındaki tüm saatlerdir. Hafta içi akşam ve geceler ile hafta sonunun tamamı (Cumartesi ve Pazar, 24 saat) 2 kat limit kapsamındadır. Not: ABD Yaz Saati Uygulaması 8 Mart 2026'da başladığı için promosyon döneminde ET, EDT (UTC-4) anlamına gelir."
+      },
+      {
+        "question": "Kendi saat dilimimde Claude ne zaman yoğun olmayan saatlerde?",
+        "answer": "PromoClock cihazınızın saat dilimini otomatik olarak algılar ve yerel yoğun/yoğun olmayan pencerelerinizi gösterir. Sayfanın üst kısmındaki ana bölüm, mevcut durumunuzu gerçek zamanlı olarak gösterir."
+      },
+      {
+        "question": "Hangi Claude planları uygun?",
+        "answer": "Free, Pro, Max ve Team planlarının tümü uygundur. Enterprise planları, özel kapasite ve özel sözleşmelere sahip oldukları için hariç tutulmuştur."
+      },
+      {
+        "question": "Yoğun olmayan saat kullanımı haftalık limitlerimi tüketir mi?",
+        "answer": "Hayır. Yoğun olmayan saatlerde kazanılan ekstra kapasite, tamamen bağımsız bir bonus havuzu olarak çalışır. Standart haftalık kullanım tahsisatınızı tüketmez."
+      },
+      {
+        "question": "Promosyonu manuel olarak aktif etmem gerekiyor mu?",
+        "answer": "Hayır, aktivasyona gerek yoktur. Promosyon, 13-27 Mart 2026 tarihleri arasında tüm uygun planlara otomatik olarak uygulanır."
+      },
+      {
+        "question": "2 kat limit hangi platformlarda geçerli?",
+        "answer": "İki katına çıkan limitler tüm Claude yüzeylerinde geçerlidir: claude.ai web arayüzü, masaüstü uygulamaları (Mac ve Windows), mobil uygulamalar (iOS ve Android), Claude Cowork, Claude Code (terminal) ve Excel ile PowerPoint eklentileri."
+      },
+      {
+        "question": "ABD Yaz Saati Uygulaması promosyonu nasıl etkiler?",
+        "answer": "Yaz saati uygulaması 8 Mart 2026'da, promosyon başlamadan beş gün önce yürürlüğe girdi. Promosyon döneminde (13-27 Mart) Doğu Zaman Dilimi EDT (UTC-4) ve Pasifik Zaman Dilimi PDT (UTC-7) olarak işler. PromoClock bunu tüm hesaplamalarda otomatik olarak dikkate alır."
+      },
+      {
+        "question": "PromoClock nedir ve kim tarafından yapıldı?",
+        "answer": "PromoClock, dünya genelindeki Claude kullanıcılarının yoğun olmayan promosyon penceresinde olup olmadıklarını anında anlamalarına yardımcı olmak için tasarlanmış bağımsız, topluluk yapımı bir araçtır. Anthropic ile bağlantısı yoktur."
+      }
+    ]
+  },
+  "footer": {
+    "crafted": "Kullanıcı deneyimi ve yapay zeka entegrasyonuna duyulan tutkuyla tasarlandı.",
+    "digiwingsPromo": "İşletmeniz için özel tasarımlı, GEO ile optimize edilmiş web çözümlerine mi ihtiyacınız var?",
+    "digiwingsCta": "Tek kişilik dijital ajansımı ziyaret edin",
+    "buymeacoffee": "Saat dilimi karmaşasından kurtulmanıza yardımcı olduysa, bana bir kahve ısmarlayabilirsiniz",
+    "disclaimer": "PromoClock bağımsız bir projedir ve Anthropic veya Claude ile herhangi bir bağlantısı yoktur. Yalnızca bilgilendirme amaçlıdır.",
+    "rights": "© 2026 PromoClock. Onur Sendere tarafından geliştirildi."
+  }
+}

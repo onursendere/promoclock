@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "PromoClock — Claude 2026년 3월 비피크 프로모션 트래커",
+    "description": "Claude의 2배 제한 비피크 윈도우에 있는지 즉시 확인하세요. 2026년 3월 프로모션을 위한 실시간 시간대 감지.",
+    "ogTitle": "PromoClock — 지금 Claude의 2배 제한 윈도우에 있나요?",
+    "ogDescription": "시간대 계산을 그만하세요. PromoClock이 Claude 2026년 3월 비피크 프로모션이 현지 시간에 활성화되어 있는지 즉시 알려줍니다."
+  },
+  "header": {
+    "logo": "PromoClock",
+    "nav": {
+      "howItWorks": "작동 방식",
+      "eligibility": "자격 요건",
+      "schedule": "시간표",
+      "faq": "FAQ"
+    }
+  },
+  "hero": {
+    "badge": "CLAUDE 2026년 3월 프로모션",
+    "promotionActive": "지금 제한이 2배로 늘어났습니다",
+    "promotionInactive": "표준 제한 적용 중",
+    "promotionExpired": "프로모션이 종료되었습니다",
+    "promotionNotStarted": "프로모션은 3월 13일에 시작됩니다",
+    "activeSubtitle": "비피크 윈도우에 있습니다. 모든 Claude 환경에서 2배 메시지 및 컨텍스트 제한을 즐기세요.",
+    "inactiveSubtitle": "현재 피크 시간대입니다. 2배 제한이 곧 돌아옵니다.",
+    "expiredSubtitle": "Claude 2026년 3월 프로모션은 2026년 3월 27일 오후 11:59 PT에 종료되었습니다.",
+    "notStartedSubtitle": "비피크 프로모션은 2026년 3월 13일에 시작됩니다. 곧 다시 확인하세요.",
+    "countdownLabel": "다음 상태 변경까지",
+    "yourTimezone": "시간대",
+    "yourLocalTime": "현지 시간",
+    "days": "일",
+    "hours": "시간",
+    "minutes": "분",
+    "seconds": "초",
+    "peakHours": "피크 시간 (표준 제한)",
+    "offPeakHours": "비피크 시간 (2배 제한)",
+    "weekdays": "평일",
+    "allWeekend": "주말 전체 (2배 제한)"
+  },
+  "howItWorks": {
+    "title": "작동 방식",
+    "subtitle": "간단하게 유지합니다 — Claude로 만드는 데 집중하세요.",
+    "steps": [
+      {
+        "title": "시간대 자동 감지",
+        "description": "PromoClock을 열면 기기의 시간대를 자동으로 읽습니다. 설정이나 구성이 필요 없습니다."
+      },
+      {
+        "title": "실시간 계산",
+        "description": "엔진이 현지 시간을 Anthropic의 공식 피크 윈도우(평일 오전 8시 – 오후 2시 ET)와 비교하며 미국 서머타임을 고려합니다."
+      },
+      {
+        "title": "즉시 상태 확인",
+        "description": "명확한 실시간 표시로 현재 제한이 2배인지, 다음 변경까지의 카운트다운을 확인할 수 있습니다."
+      }
+    ]
+  },
+  "eligibility": {
+    "title": "자격 요건",
+    "subtitle": "Claude 플랜이 2026년 3월 비피크 프로모션 대상인지 확인하세요.",
+    "eligible": "대상",
+    "notEligible": "대상 아님",
+    "plans": [
+      {
+        "name": "Free",
+        "status": true,
+        "description": "제한에 가장 자주 도달하는 거대한 사용자 기반. 2배 용량은 플랫폼 탐색의 중요한 기회입니다."
+      },
+      {
+        "name": "Pro",
+        "status": true,
+        "description": "개인 전문가 및 파워 유저. Claude Code를 사용하는 개발자에게 특히 유용합니다."
+      },
+      {
+        "name": "Max",
+        "status": true,
+        "description": "자율 에이전트와 대용량 데이터 처리를 하는 고급 사용자. 2배 제한으로 대규모 프로젝트를 중단 없이 진행할 수 있습니다."
+      },
+      {
+        "name": "Team",
+        "status": true,
+        "description": "중소기업 워크스페이스. Claude Cowork에서의 협업 상호작용을 향상시킵니다."
+      },
+      {
+        "name": "Enterprise",
+        "status": false,
+        "description": "Enterprise 플랜은 전용 용량과 맞춤 계약이 있으므로 이 리테일 프로모션에서 제외됩니다."
+      }
+    ],
+    "platforms": {
+      "title": "모든 Claude 환경에서 사용 가능",
+      "items": ["웹 (claude.ai)", "데스크톱 (Mac / Windows)", "모바일 (iOS / Android)", "Claude Cowork", "Claude Code (터미널)", "Excel & PowerPoint 추가 기능"]
+    },
+    "note": "비피크 보너스 사용량은 주간 사용 제한을 소비하지 않습니다. 완전히 독립적인 보너스 풀로 작동합니다."
+  },
+  "schedule": {
+    "title": "글로벌 시간표",
+    "subtitle": "주요 도시에서 2배 제한이 활성화되는 시간을 확인하세요. 피크 시간: 평일 오전 8:00 – 오후 2:00 ET (12:00 – 18:00 UTC).",
+    "tableHeaders": {
+      "city": "도시 / 지역",
+      "timezone": "시간대",
+      "peakHours": "피크 시간 (표준)",
+      "offPeakHours": "비피크 (2배 제한)"
+    },
+    "weekdayLabel": "평일",
+    "weekendLabel": "주말 전체 → 2배 제한"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "subtitle": "Claude 2026년 3월 비피크 프로모션에 대해 알아야 할 모든 것.",
+    "items": [
+      {
+        "question": "Claude 2026년 3월 비피크 프로모션이란?",
+        "answer": "Anthropic은 2026년 3월 13일부터 27일까지 비피크 시간에 메시지 및 컨텍스트 제한을 2배로 늘리는 프로모션을 시작했습니다."
+      },
+      {
+        "question": "비피크 시간은 정확히 언제인가요?",
+        "answer": "비피크 시간은 평일 동부 시간(ET) 오전 8시부터 오후 2시 외의 모든 시간입니다. 평일 저녁과 밤, 그리고 주말 전체가 2배 제한 대상입니다."
+      },
+      {
+        "question": "내 시간대에서 Claude는 언제 비피크인가요?",
+        "answer": "PromoClock은 기기의 시간대를 자동으로 감지하여 정확한 현지 피크/비피크 윈도우를 표시합니다."
+      },
+      {
+        "question": "어떤 Claude 플랜이 대상인가요?",
+        "answer": "Free, Pro, Max, Team 플랜 모두 대상입니다. Enterprise 플랜은 전용 용량이 있어 제외됩니다."
+      },
+      {
+        "question": "비피크 사용량이 주간 제한에서 차감되나요?",
+        "answer": "아니요. 비피크 시간에 얻은 추가 용량은 완전히 독립적인 보너스 풀로 작동합니다."
+      },
+      {
+        "question": "프로모션을 수동으로 활성화해야 하나요?",
+        "answer": "아니요. 프로모션은 2026년 3월 13일부터 27일까지 모든 대상 플랜에 자동 적용됩니다."
+      },
+      {
+        "question": "2배 제한은 어떤 플랫폼에서 적용되나요?",
+        "answer": "2배 제한은 모든 Claude 환경에 적용됩니다: claude.ai, 데스크톱/모바일 앱, Claude Cowork, Claude Code, Excel/PowerPoint 추가 기능."
+      },
+      {
+        "question": "미국 서머타임은 프로모션에 어떤 영향을 미치나요?",
+        "answer": "서머타임은 2026년 3월 8일에 시작되었습니다. 프로모션 기간 동안 동부 시간은 EDT(UTC-4), 태평양 시간은 PDT(UTC-7)입니다. PromoClock은 이를 자동으로 고려합니다."
+      },
+      {
+        "question": "PromoClock은 무엇이며 누가 만들었나요?",
+        "answer": "PromoClock은 전 세계 Claude 사용자들이 비피크 프로모션 윈도우에 있는지 즉시 이해할 수 있도록 설계된 독립적인 커뮤니티 도구입니다. Anthropic과 관련이 없습니다."
+      }
+    ]
+  },
+  "footer": {
+    "crafted": "사용자 경험과 AI 통합에 대한 열정으로 제작되었습니다.",
+    "digiwingsPromo": "비즈니스를 위한 맞춤형 GEO 최적화 웹 솔루션이 필요하신가요?",
+    "digiwingsCta": "1인 디지털 에이전시 방문하기",
+    "buymeacoffee": "시간대 계산을 건너뛸 수 있었나요? 커피 한 잔 사주세요",
+    "disclaimer": "PromoClock은 Anthropic 또는 Claude와 관련 없는 독립 프로젝트입니다. 정보 제공 목적으로만 사용됩니다.",
+    "rights": "© 2026 PromoClock. Onur Sendere 제작."
+  }
+}

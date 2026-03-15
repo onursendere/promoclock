@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "PromoClock — Claude March 2026 Off-Peak Promotion Tracker",
+    "description": "Instantly check if you're in Claude's 2x limit off-peak window. Real-time timezone detection for the March 2026 promotion. Free, Pro, Max & Team plans.",
+    "ogTitle": "PromoClock — Are You in Claude's 2x Limit Window Right Now?",
+    "ogDescription": "Stop doing timezone math. PromoClock instantly tells you if Claude's March 2026 off-peak promotion is active in your local time."
+  },
+  "header": {
+    "logo": "PromoClock",
+    "nav": {
+      "howItWorks": "How It Works",
+      "eligibility": "Eligibility",
+      "schedule": "Schedule",
+      "faq": "FAQ"
+    }
+  },
+  "hero": {
+    "badge": "CLAUDE MARCH 2026 PROMOTION",
+    "promotionActive": "YOUR LIMITS ARE DOUBLED RIGHT NOW",
+    "promotionInactive": "STANDARD LIMITS ACTIVE",
+    "promotionExpired": "PROMOTION HAS ENDED",
+    "promotionNotStarted": "PROMOTION STARTS MARCH 13",
+    "activeSubtitle": "You're in the off-peak window. Enjoy 2x messages and context limits across all Claude surfaces.",
+    "inactiveSubtitle": "You're currently in peak hours. Your doubled limits return soon.",
+    "expiredSubtitle": "The Claude March 2026 promotion ended on March 27, 2026 at 11:59 PM PT.",
+    "notStartedSubtitle": "The off-peak promotion begins on March 13, 2026. Check back soon.",
+    "countdownLabel": "Until next status change",
+    "yourTimezone": "Your timezone",
+    "yourLocalTime": "Your local time",
+    "days": "DAYS",
+    "hours": "HOURS",
+    "minutes": "MIN",
+    "seconds": "SEC",
+    "peakHours": "Peak Hours (Standard Limits)",
+    "offPeakHours": "Off-Peak Hours (2x Limits)",
+    "weekdays": "Weekdays",
+    "allWeekend": "All Weekend (2x Limits)"
+  },
+  "howItWorks": {
+    "title": "HOW IT WORKS",
+    "subtitle": "We keep it simple so you can focus on what matters — building with Claude.",
+    "steps": [
+      {
+        "title": "WE DETECT YOUR TIMEZONE",
+        "description": "The moment you open PromoClock, we read your device's timezone automatically. No setup, no configuration needed."
+      },
+      {
+        "title": "WE CALCULATE IN REAL TIME",
+        "description": "Our engine compares your local time against Anthropic's official peak window (8 AM – 2 PM ET, weekdays) accounting for US Daylight Saving Time."
+      },
+      {
+        "title": "YOU SEE YOUR STATUS INSTANTLY",
+        "description": "A clear, real-time display tells you whether your limits are doubled right now — plus a countdown to the next change."
+      }
+    ]
+  },
+  "eligibility": {
+    "title": "ELIGIBILITY",
+    "subtitle": "Check if your Claude plan qualifies for the March 2026 off-peak promotion.",
+    "eligible": "Eligible",
+    "notEligible": "Not Eligible",
+    "plans": [
+      {
+        "name": "Free",
+        "status": true,
+        "description": "The massive user base hitting limits most often. 2x capacity is a critical opportunity to explore the platform."
+      },
+      {
+        "name": "Pro",
+        "status": true,
+        "description": "Individual professionals and power users. Especially valuable for developers using Claude Code."
+      },
+      {
+        "name": "Max",
+        "status": true,
+        "description": "Advanced users running autonomous agents and heavy data processing. Doubled limits enable uninterrupted work on large projects."
+      },
+      {
+        "name": "Team",
+        "status": true,
+        "description": "Small and medium business workspaces. Enhances collaborative interactions on Claude Cowork."
+      },
+      {
+        "name": "Enterprise",
+        "status": false,
+        "description": "Enterprise plans have dedicated capacity and custom contracts, so they are excluded from this retail promotion."
+      }
+    ],
+    "platforms": {
+      "title": "Available on all Claude surfaces",
+      "items": ["Web (claude.ai)", "Desktop (Mac / Windows)", "Mobile (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Excel & PowerPoint Add-ins"]
+    },
+    "note": "Off-peak bonus usage does not count against your weekly usage limits. It operates as a completely independent bonus pool."
+  },
+  "schedule": {
+    "title": "GLOBAL SCHEDULE",
+    "subtitle": "See when the 2x limits are active in major cities around the world. Peak hours are weekdays 8:00 AM – 2:00 PM ET (12:00 – 18:00 UTC).",
+    "tableHeaders": {
+      "city": "City / Region",
+      "timezone": "Timezone",
+      "peakHours": "Peak Hours (Standard)",
+      "offPeakHours": "Off-Peak (2x Limits)"
+    },
+    "weekdayLabel": "Weekdays",
+    "weekendLabel": "All Weekend → 2x Limits"
+  },
+  "faq": {
+    "title": "QUESTIONS ANSWERED",
+    "subtitle": "Everything you need to know about Claude's March 2026 off-peak promotion.",
+    "items": [
+      {
+        "question": "What is the Claude March 2026 off-peak promotion?",
+        "answer": "Anthropic launched a promotion from March 13 to March 27, 2026 that doubles message and context limits during off-peak hours. This helps distribute server load more evenly throughout the day while giving users more capacity when demand is lower."
+      },
+      {
+        "question": "When exactly are off-peak hours?",
+        "answer": "Off-peak hours are all times outside of weekday 8:00 AM to 2:00 PM Eastern Time (ET). This means weekday evenings and nights, plus the entire weekend (Saturday and Sunday, 24 hours) qualify for 2x limits. Note: Since US Daylight Saving Time started on March 8, 2026, ET refers to EDT (UTC-4) during the promotion period."
+      },
+      {
+        "question": "What time is Claude off-peak in my timezone?",
+        "answer": "PromoClock automatically detects your device timezone and shows your exact local peak and off-peak windows. The hero section at the top of this page displays your current status in real time."
+      },
+      {
+        "question": "Which Claude plans are eligible?",
+        "answer": "Free, Pro, Max, and Team plans are all eligible. Enterprise plans are excluded because they have dedicated capacity and custom contracts."
+      },
+      {
+        "question": "Does off-peak usage count against my weekly limits?",
+        "answer": "No. The extra capacity earned during off-peak hours operates as a completely independent bonus pool. It does not consume your standard weekly usage allocation."
+      },
+      {
+        "question": "Do I need to activate the promotion manually?",
+        "answer": "No activation is needed. The promotion is applied automatically to all eligible plans between March 13 and March 27, 2026."
+      },
+      {
+        "question": "On which platforms does the 2x limit apply?",
+        "answer": "The doubled limits apply across all Claude surfaces: the web interface at claude.ai, desktop apps (Mac and Windows), mobile apps (iOS and Android), Claude Cowork, Claude Code (terminal), and the Excel and PowerPoint add-ins."
+      },
+      {
+        "question": "How does US Daylight Saving Time affect the promotion?",
+        "answer": "DST began on March 8, 2026 — five days before the promotion started. During the promotion period (March 13–27), Eastern Time is EDT (UTC-4) and Pacific Time is PDT (UTC-7). PromoClock accounts for this automatically in all calculations."
+      },
+      {
+        "question": "What is PromoClock and who built it?",
+        "answer": "PromoClock is an independent, community-built tool designed to help Claude users worldwide instantly understand whether they are in the off-peak promotion window. It is not affiliated with Anthropic."
+      }
+    ]
+  },
+  "footer": {
+    "crafted": "Crafted with passion for user experience and AI integration.",
+    "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",
+    "digiwingsCta": "Visit my one-person digital agency",
+    "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
+    "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
+    "rights": "© 2026 PromoClock. Built by Onur Sendere."
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "PromoClock — Rastreador da Promoção Fora de Pico Claude Março 2026",
+    "description": "Verifique instantaneamente se você está na janela de limites 2x do Claude. Detecção de fuso horário em tempo real para a promoção de março de 2026.",
+    "ogTitle": "PromoClock — Você está na janela de limites 2x do Claude agora?",
+    "ogDescription": "Pare de calcular fusos horários. O PromoClock informa instantaneamente se a promoção fora de pico do Claude março 2026 está ativa no seu horário local."
+  },
+  "header": {
+    "logo": "PromoClock",
+    "nav": {
+      "howItWorks": "Como Funciona",
+      "eligibility": "Elegibilidade",
+      "schedule": "Horários",
+      "faq": "FAQ"
+    }
+  },
+  "hero": {
+    "badge": "PROMOÇÃO CLAUDE MARÇO 2026",
+    "promotionActive": "SEUS LIMITES ESTÃO DOBRADOS AGORA",
+    "promotionInactive": "LIMITES PADRÃO ATIVOS",
+    "promotionExpired": "A PROMOÇÃO TERMINOU",
+    "promotionNotStarted": "A PROMOÇÃO COMEÇA EM 13 DE MARÇO",
+    "activeSubtitle": "Você está na janela fora de pico. Aproveite 2x mensagens e limites de contexto em todas as interfaces do Claude.",
+    "inactiveSubtitle": "Você está no horário de pico. Seus limites dobrados voltam em breve.",
+    "expiredSubtitle": "A promoção Claude março 2026 terminou em 27 de março de 2026 às 23:59 PT.",
+    "notStartedSubtitle": "A promoção fora de pico começa em 13 de março de 2026. Volte em breve.",
+    "countdownLabel": "Até a próxima mudança de status",
+    "yourTimezone": "Seu fuso horário",
+    "yourLocalTime": "Sua hora local",
+    "days": "DIAS",
+    "hours": "HORAS",
+    "minutes": "MIN",
+    "seconds": "SEG",
+    "peakHours": "Horário de Pico (Limites Padrão)",
+    "offPeakHours": "Fora de Pico (Limites 2x)",
+    "weekdays": "Dias úteis",
+    "allWeekend": "Todo o Fim de Semana (Limites 2x)"
+  },
+  "howItWorks": {
+    "title": "COMO FUNCIONA",
+    "subtitle": "Mantemos simples — para você focar no que importa: criar com o Claude.",
+    "steps": [
+      {
+        "title": "DETECTAMOS SEU FUSO HORÁRIO",
+        "description": "Ao abrir o PromoClock, lemos automaticamente o fuso horário do seu dispositivo. Sem configuração necessária."
+      },
+      {
+        "title": "CALCULAMOS EM TEMPO REAL",
+        "description": "Nosso motor compara seu horário local com a janela de pico oficial da Anthropic (8h – 14h ET, dias úteis) considerando o horário de verão dos EUA."
+      },
+      {
+        "title": "VOCÊ VÊ SEU STATUS",
+        "description": "Uma exibição clara e em tempo real indica se seus limites estão dobrados — mais uma contagem regressiva até a próxima mudança."
+      }
+    ]
+  },
+  "eligibility": {
+    "title": "ELEGIBILIDADE",
+    "subtitle": "Verifique se seu plano Claude é elegível para a promoção fora de pico de março 2026.",
+    "eligible": "Elegível",
+    "notEligible": "Não Elegível",
+    "plans": [
+      {
+        "name": "Free",
+        "status": true,
+        "description": "A enorme base de usuários que mais atinge os limites. Capacidade 2x é uma oportunidade crítica para explorar a plataforma."
+      },
+      {
+        "name": "Pro",
+        "status": true,
+        "description": "Profissionais individuais e usuários avançados. Especialmente valioso para desenvolvedores usando Claude Code."
+      },
+      {
+        "name": "Max",
+        "status": true,
+        "description": "Usuários avançados rodando agentes autônomos e processamento pesado de dados. Limites dobrados permitem trabalho ininterrupto."
+      },
+      {
+        "name": "Team",
+        "status": true,
+        "description": "Espaços de trabalho para PMEs. Melhora interações colaborativas no Claude Cowork."
+      },
+      {
+        "name": "Enterprise",
+        "status": false,
+        "description": "Planos Enterprise têm capacidade dedicada e contratos personalizados, por isso estão excluídos desta promoção."
+      }
+    ],
+    "platforms": {
+      "title": "Disponível em todas as interfaces do Claude",
+      "items": ["Web (claude.ai)", "Desktop (Mac / Windows)", "Mobile (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Suplementos Excel e PowerPoint"]
+    },
+    "note": "O uso bônus fora de pico não consome seus limites semanais. Funciona como um pool de bônus completamente independente."
+  },
+  "schedule": {
+    "title": "HORÁRIOS GLOBAIS",
+    "subtitle": "Veja quando os limites 2x estão ativos nas principais cidades. Horário de pico: dias úteis 8:00 – 14:00 ET (12:00 – 18:00 UTC).",
+    "tableHeaders": {
+      "city": "Cidade / Região",
+      "timezone": "Fuso Horário",
+      "peakHours": "Horário de Pico (Padrão)",
+      "offPeakHours": "Fora de Pico (2x)"
+    },
+    "weekdayLabel": "Dias úteis",
+    "weekendLabel": "Fim de semana inteiro → Limites 2x"
+  },
+  "faq": {
+    "title": "PERGUNTAS RESPONDIDAS",
+    "subtitle": "Tudo que você precisa saber sobre a promoção fora de pico Claude março 2026.",
+    "items": [
+      {
+        "question": "O que é a promoção fora de pico Claude março 2026?",
+        "answer": "A Anthropic lançou uma promoção de 13 a 27 de março de 2026 que dobra os limites de mensagens e contexto durante horários fora de pico para distribuir melhor a carga do servidor."
+      },
+      {
+        "question": "Quando exatamente são os horários fora de pico?",
+        "answer": "Horários fora de pico são todos os momentos fora de 8h às 14h Hora do Leste (ET) em dias úteis. Noites e madrugadas em dias úteis, mais o fim de semana inteiro são elegíveis para limites 2x."
+      },
+      {
+        "question": "A que horas o Claude está fora de pico no meu fuso horário?",
+        "answer": "O PromoClock detecta automaticamente o fuso horário do seu dispositivo e mostra suas janelas locais exatas."
+      },
+      {
+        "question": "Quais planos Claude são elegíveis?",
+        "answer": "Os planos Free, Pro, Max e Team são todos elegíveis. Planos Enterprise são excluídos por terem capacidade dedicada."
+      },
+      {
+        "question": "O uso fora de pico conta contra meus limites semanais?",
+        "answer": "Não. A capacidade extra obtida fora de pico funciona como um pool de bônus independente."
+      },
+      {
+        "question": "Preciso ativar a promoção manualmente?",
+        "answer": "Não. A promoção é aplicada automaticamente a todos os planos elegíveis entre 13 e 27 de março de 2026."
+      },
+      {
+        "question": "Em quais plataformas o limite 2x se aplica?",
+        "answer": "Os limites dobrados se aplicam em todas as interfaces: claude.ai, apps desktop e mobile, Claude Cowork, Claude Code e suplementos Excel/PowerPoint."
+      },
+      {
+        "question": "Como o horário de verão dos EUA afeta a promoção?",
+        "answer": "O DST começou em 8 de março de 2026. Durante a promoção, a Hora do Leste é EDT (UTC-4) e a Hora do Pacífico é PDT (UTC-7). O PromoClock considera isso automaticamente."
+      },
+      {
+        "question": "O que é o PromoClock?",
+        "answer": "O PromoClock é uma ferramenta independente da comunidade para ajudar usuários do Claude a entender instantaneamente se estão na janela de promoção. Não é afiliado à Anthropic."
+      }
+    ]
+  },
+  "footer": {
+    "crafted": "Criado com paixão pela experiência do usuário e integração de IA.",
+    "digiwingsPromo": "Precisa de soluções web personalizadas e otimizadas para GEO?",
+    "digiwingsCta": "Visite minha agência digital",
+    "buymeacoffee": "Ajudou a evitar cálculos de fuso horário? Me pague um café",
+    "disclaimer": "PromoClock é um projeto independente não afiliado à Anthropic ou Claude. Apenas para fins informativos.",
+    "rights": "© 2026 PromoClock. Criado por Onur Sendere."
+  }
+}
