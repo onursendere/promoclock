@@ -72,9 +72,12 @@ export default function Footer({ dict }: { dict: Dictionary }) {
               href="https://digiwings.co.uk/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary-light transition-colors group"
+              className="inline-flex items-center gap-3 text-sm font-medium text-primary hover:text-primary-light transition-colors group"
             >
-              {dict.footer.digiwingsCta}
+              <svg width="28" height="28" viewBox="0 0 100 100" fill="currentColor" className="opacity-80 group-hover:opacity-100 transition-opacity">
+                <path d="M50 15c-2 0-4 1-5.5 2.5L30 32c-4 4-6 9-6 14.5 0 8 4 15 10 19l-12 12c-1.5 1.5-2 3.5-1 5.5 1 1.5 3 2.5 5 2.5h48c2 0 4-1 5-2.5 1-2 .5-4-1-5.5l-12-12c6-4 10-11 10-19 0-5.5-2-10.5-6-14.5L55.5 17.5C54 16 52 15 50 15zm0 8l14.5 14.5c2.5 2.5 4 6 4 9.5 0 7-5.5 12.5-12.5 13.5V50h-12v10.5C37 59.5 31.5 54 31.5 47c0-3.5 1.5-7 4-9.5L50 23z"/>
+              </svg>
+              <span>{dict.footer.digiwingsCta}</span>
               <span className="group-hover:translate-x-0.5 transition-transform">→</span>
             </a>
           </div>

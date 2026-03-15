@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PromoClock
 
-## Getting Started
+Real-time tracker for the Claude March 2026 off-peak promotion. Instantly shows whether your limits are doubled based on your local timezone.
 
-First, run the development server:
+**Live:** [promoclock.co](https://promoclock.co)
+
+## Features
+
+- **Real-time timezone detection** — automatically reads your device timezone via `Intl.DateTimeFormat`
+- **Instant status display** — shows if you're in the 2x limit off-peak window right now
+- **Countdown timer** — live countdown to the next status change
+- **10 languages** — English, Hindi, Japanese, French, Portuguese, Korean, Spanish, German, Chinese (Simplified), Turkish
+- **Global schedule table** — peak/off-peak hours for 10 major cities
+- **GEO-optimized** — JSON-LD schema (SoftwareApplication, FAQPage, HowTo), semantic HTML, hreflang tags
+- **Minimalist design** — warm, calm aesthetic inspired by wellness/spiritual design patterns
+
+## Promotion Details
+
+- **Period:** March 13 – March 27, 2026 (11:59 PM PT)
+- **Peak hours:** Weekdays 8:00 AM – 2:00 PM ET (12:00 – 18:00 UTC)
+- **Off-peak (2x limits):** All other weekday hours + entire weekend
+- **Eligible plans:** Free, Pro, Max, Team
+- **DST note:** US Daylight Saving Time started March 8, 2026 → ET = EDT (UTC-4)
+
+## Tech Stack
+
+- Next.js 16 (App Router, standalone output)
+- Tailwind CSS v4
+- Framer Motion
+- TypeScript
+- Docker (multi-stage build)
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Docker
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+docker build -t promoclock .
+docker run -p 3000:3000 promoclock
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Disclaimer
 
-## Learn More
+PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by [Onur Sendere](https://github.com/onursendere) · [Digiwings](https://digiwings.co.uk/)
