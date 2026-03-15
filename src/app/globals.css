@@ -2,16 +2,16 @@
 
 :root {
   --background: #F5F0EB;
-  --foreground: #2A2825;
-  --primary: #6B5CA5;
-  --primary-light: #8B7EC8;
-  --secondary: #5C5A4A;
-  --accent-green: #4D8B4A;
-  --accent-blue: #4A8A96;
+  --foreground: #1A1816;
+  --primary: #5A4A8F;
+  --primary-light: #7B6CB8;
+  --secondary: #3D3B30;
+  --accent-green: #2D6B2A;
+  --accent-blue: #2A6A76;
   --surface: #FFFFFF;
   --surface-warm: #EFE6D6;
-  --border: #C8C3BC;
-  --muted: #7A7C78;
+  --border: #B8B3AC;
+  --muted: #5A5C58;
 }
 
 @theme inline {
@@ -46,6 +46,15 @@ html {
   color: white;
 }
 
-h1, h2, h3 {
-  font-family: var(--font-serif), Georgia, serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-lora), Georgia, serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.font-serif {
+  font-family: var(--font-lora), Georgia, serif;
 }
