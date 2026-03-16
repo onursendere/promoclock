@@ -2,16 +2,17 @@
 
 :root {
   --background: #F5F0EB;
-  --foreground: #1A1816;
-  --primary: #5A4A8F;
-  --primary-light: #7B6CB8;
-  --secondary: #3D3B30;
-  --accent-green: #2D6B2A;
-  --accent-blue: #2A6A76;
+  --foreground: #0D0C0B;
+  --primary: #4A3A7F;
+  --primary-light: #6B5CA8;
+  --secondary: #2D2B20;
+  --accent-green: #1D5B1A;
+  --accent-blue: #1A5A66;
+  --accent-red: #8B3A3A;
   --surface: #FFFFFF;
   --surface-warm: #EFE6D6;
-  --border: #B8B3AC;
-  --muted: #5A5C58;
+  --border: #A8A3AC;
+  --muted: #4A4C48;
 }
 
 @theme inline {
@@ -22,6 +23,7 @@
   --color-secondary: var(--secondary);
   --color-accent-green: var(--accent-green);
   --color-accent-blue: var(--accent-blue);
+  --color-accent-red: var(--accent-red);
   --color-surface: var(--surface);
   --color-surface-warm: var(--surface-warm);
   --color-border: var(--border);

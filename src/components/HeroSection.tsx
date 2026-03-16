@@ -11,17 +11,17 @@ interface HeroProps {
 function CountdownDigit({ value, label }: { value: number; label: string }) {
   return (
     <div className="flex flex-col items-center">
-      <div className="relative w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center bg-surface rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.06)]">
+      <div className="relative w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center bg-surface rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.08)] border border-border/30">
         <motion.span
           key={value}
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-2xl sm:text-3xl font-semibold text-foreground tabular-nums"
+          className="text-3xl sm:text-4xl font-bold text-foreground tabular-nums"
         >
           {String(value).padStart(2, "0")}
         </motion.span>
       </div>
-      <span className="mt-2 text-[10px] sm:text-xs tracking-widest text-muted uppercase">
+      <span className="mt-3 text-xs sm:text-sm tracking-widest text-secondary uppercase font-semibold">
         {label}
       </span>
     </div>
@@ -57,7 +57,7 @@ export default function HeroSection({ dict }: HeroProps) {
   const getDotColor = () => {
     if (!status.isLoaded) return "bg-muted";
     if (status.isOffPeak && status.isActive) return "bg-accent-green";
-    if (status.isPeak && status.isActive) return "bg-accent-blue";
+    if (status.isPeak && status.isActive) return "bg-accent-red";
     return "bg-muted";
   };
 
@@ -82,7 +82,7 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-warm/80 text-xs tracking-widest text-secondary mb-8 relative overflow-hidden"
+          className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-surface-warm/90 text-xs sm:text-sm tracking-widest text-secondary mb-8 relative overflow-hidden font-semibold"
         >
           <motion.div
             className="absolute inset-0"
@@ -107,7 +107,7 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-tight mb-6"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6 px-4"
         >
           {getStatusText()}
         </motion.h1>
@@ -117,21 +117,21 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.1 }}
-          className="text-base sm:text-lg text-secondary max-w-xl mx-auto mb-10 leading-relaxed"
+          className="text-lg sm:text-xl text-secondary max-w-2xl mx-auto mb-12 px-4 leading-relaxed font-medium"
         >
           {getSubtitleText()}
         </motion.p>
 
         {status.isLoaded && (
-          <div className="flex items-center justify-center gap-4 text-sm text-muted mb-10">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 text-sm sm:text-base text-muted mb-10 px-4">
             <div className="flex items-center gap-2">
-              <span className="text-secondary font-medium">{dict.hero.yourTimezone}:</span>
-              <span>{status.userTimezone}</span>
+              <span className="text-secondary font-semibold">{dict.hero.yourTimezone}:</span>
+              <span className="font-medium">{status.userTimezone}</span>
             </div>
-            <span className="text-border">|</span>
+            <span className="hidden sm:inline text-border">|</span>
             <div className="flex items-center gap-2">
-              <span className="text-secondary font-medium">{dict.hero.yourLocalTime}:</span>
-              <time className="tabular-nums">{localTimeStr}</time>
+              <span className="text-secondary font-semibold">{dict.hero.yourLocalTime}:</span>
+              <time className="tabular-nums font-medium">{localTimeStr}</time>
             </div>
           </div>
         )}
@@ -142,10 +142,10 @@ export default function HeroSection({ dict }: HeroProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <p className="text-xs tracking-widest text-muted uppercase mb-4">
+            <p className="text-sm sm:text-base tracking-widest text-secondary uppercase mb-6 font-semibold">
               {dict.hero.countdownLabel}
             </p>
-            <div className="flex items-center justify-center gap-3 sm:gap-5">
+            <div className="flex items-center justify-center gap-4 sm:gap-6">
               {status.countdown.days > 0 && (
                 <CountdownDigit value={status.countdown.days} label={dict.hero.days} />
               )}
@@ -162,10 +162,10 @@ export default function HeroSection({ dict }: HeroProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <p className="text-xs tracking-widest text-muted uppercase mb-4">
+            <p className="text-sm sm:text-base tracking-widest text-secondary uppercase mb-6 font-semibold">
               {dict.hero.countdownLabel}
             </p>
-            <div className="flex items-center justify-center gap-3 sm:gap-5">
+            <div className="flex items-center justify-center gap-4 sm:gap-6">
               <CountdownDigit value={status.countdown.days} label={dict.hero.days} />
               <CountdownDigit value={status.countdown.hours} label={dict.hero.hours} />
               <CountdownDigit value={status.countdown.minutes} label={dict.hero.minutes} />
