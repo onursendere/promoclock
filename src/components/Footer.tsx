@@ -12,9 +12,13 @@ export default function Footer({ dict }: { dict: Dictionary }) {
             href="https://buymeacoffee.com/onursendere"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-5 py-3 rounded-full bg-surface hover:bg-surface-warm/80 text-sm text-secondary hover:text-foreground transition-all shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_4px_20px_rgba(0,0,0,0.08)]"
+            className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl font-semibold text-base transition-all shadow-[0_4px_20px_rgba(0,0,0,0.12)] hover:shadow-[0_6px_28px_rgba(0,0,0,0.18)] hover:scale-105 active:scale-100"
+            style={{
+              background: '#FFDD00',
+              color: '#000000',
+            }}
           >
-            <Coffee size={18} className="text-primary" />
+            <Coffee size={20} strokeWidth={2.5} />
             {dict.footer.buymeacoffee}
           </a>
 

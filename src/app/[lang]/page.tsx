@@ -9,6 +9,7 @@ import FAQ from "@/components/FAQ";
 import DeveloperTools from "@/components/DeveloperTools";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
+import BuyMeCoffeeFloat from "@/components/BuyMeCoffeeFloat";
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
@@ -36,6 +37,7 @@ export default async function Home({
         <DeveloperTools dict={dict} />
       </main>
       <Footer dict={dict} />
+      <BuyMeCoffeeFloat />
     </>
   );
 }
