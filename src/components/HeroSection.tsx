@@ -20,7 +20,7 @@ function CountdownDigit({
   return (
     <div className="flex flex-col items-center">
       <div
-        className="relative w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.1)] border"
+        className="relative w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.1)] border"
         style={{
           background: isPeak ? "rgba(139,58,58,0.08)" : "rgba(29,91,26,0.08)",
           borderColor: isPeak ? "rgba(139,58,58,0.2)" : "rgba(29,91,26,0.2)",
@@ -30,13 +30,13 @@ function CountdownDigit({
           key={value}
           initial={{ opacity: 0, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-3xl sm:text-4xl font-bold tabular-nums"
+          className="text-2xl sm:text-3xl font-bold tabular-nums"
           style={{ color: isPeak ? "#8B3A3A" : "#1D5B1A" }}
         >
           {String(value).padStart(2, "0")}
         </motion.span>
       </div>
-      <span className="mt-3 text-xs sm:text-sm tracking-widest text-secondary uppercase font-semibold">
+      <span className="mt-2 text-xs tracking-widest text-secondary uppercase font-semibold">
         {label}
       </span>
     </div>
@@ -77,7 +77,7 @@ export default function HeroSection({ dict }: HeroProps) {
     : "#1D5B1A";
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center pt-24 pb-16 px-4">
+    <section className="min-h-dvh flex flex-col items-center justify-center pt-20 pb-4 px-4">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -90,7 +90,7 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.4 }}
-          className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full mb-8 relative overflow-hidden font-bold text-sm sm:text-base tracking-wide"
+          className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full mb-3 relative overflow-hidden font-bold text-sm sm:text-base tracking-wide"
           style={{
             background: badgeBg,
             color: "#FFFFFF",
@@ -119,7 +119,7 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6 px-4"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-3 px-4"
           style={{
             color: !status.isLoaded
               ? "var(--foreground)"
@@ -137,14 +137,14 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.1 }}
-          className="text-base sm:text-lg text-secondary max-w-2xl mx-auto mb-10 px-4 leading-relaxed font-medium"
+          className="text-sm sm:text-base text-secondary max-w-2xl mx-auto mb-3 px-4 leading-relaxed font-medium"
         >
           {getSubtitleText()}
         </motion.p>
 
         {/* Timezone info */}
         {status.isLoaded && (
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm text-muted mb-10 px-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-4 text-sm text-muted mb-3 px-4">
             <div className="flex items-center gap-1.5">
               <span className="text-secondary font-semibold">{dict.hero.yourTimezone}:</span>
               <span className="font-medium">{status.userTimezone}</span>
@@ -164,10 +164,10 @@ export default function HeroSection({ dict }: HeroProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <p className="text-xs sm:text-sm tracking-widest text-secondary uppercase mb-6 font-semibold">
+            <p className="text-xs tracking-widest text-secondary uppercase mb-3 font-semibold">
               {dict.hero.countdownLabel}
             </p>
-            <div className="flex items-center justify-center gap-3 sm:gap-5">
+            <div className="flex items-center justify-center gap-2 sm:gap-4">
               {status.countdown.days > 0 && (
                 <CountdownDigit
                   value={status.countdown.days}
@@ -193,6 +193,32 @@ export default function HeroSection({ dict }: HeroProps) {
             </div>
           </motion.div>
         )}
+
+        {/* Wiro.ai sponsor */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mt-5"
+        >
+          <a
+            href="https://wiro.ai?ref=promoclock"
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="inline-flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-surface border border-border hover:border-[#00C37A]/50 transition-colors group"
+          >
+            <span className="text-[10px] text-muted uppercase tracking-widest font-semibold shrink-0">Sponsored</span>
+            <span className="w-px h-3.5 bg-border shrink-0" />
+            <img
+              src="https://wiro.ai/images/logos/logo/logo.png"
+              alt="Wiro"
+              className="h-4 w-auto shrink-0"
+            />
+            <span className="text-xs text-secondary group-hover:text-foreground transition-colors hidden sm:inline">One API. Hundreds of AI Models.</span>
+            <span className="text-[11px] font-bold font-mono bg-[rgba(0,195,122,0.1)] text-[#00A862] border border-[rgba(0,195,122,0.25)] px-2 py-0.5 rounded-full shrink-0">WIRO10</span>
+          </a>
+        </motion.div>
+
       </motion.div>
     </section>
   );
