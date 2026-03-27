@@ -1,10 +1,54 @@
 "use client";
 
+import { useMemo } from "react";
 import { motion } from "framer-motion";
 import { CITY_SCHEDULES } from "@/lib/promotion";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
+const PEAK_START_UTC = 13;
+const PEAK_END_UTC = 19;
+
+function computeCityRow(ianaTimezone: string) {
+  const now = new Date();
+  const ref = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 0, 0, 0));
+
+  const peakStart = new Date(ref);
+  peakStart.setUTCHours(PEAK_START_UTC, 0, 0, 0);
+  const peakEnd = new Date(ref);
+  peakEnd.setUTCHours(PEAK_END_UTC, 0, 0, 0);
+
+  const timeFmt = (d: Date) =>
+    new Intl.DateTimeFormat("en-GB", {
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+      timeZone: ianaTimezone,
+    }).format(d);
+
+  const tzAbbr =
+    new Intl.DateTimeFormat("en-US", { timeZoneName: "short", timeZone: ianaTimezone })
+      .formatToParts(peakStart)
+      .find((p) => p.type === "timeZoneName")?.value ?? ianaTimezone;
+
+  const utcOffset =
+    new Intl.DateTimeFormat("en-US", { timeZoneName: "shortOffset", timeZone: ianaTimezone })
+      .formatToParts(peakStart)
+      .find((p) => p.type === "timeZoneName")?.value ?? "";
+
+  return {
+    timezone: tzAbbr,
+    utcOffset,
+    peakLocal: `${timeFmt(peakStart)} – ${timeFmt(peakEnd)}`,
+    offPeakLocal: `${timeFmt(peakEnd)} – ${timeFmt(peakStart)}`,
+  };
+}
+
 export default function Schedule({ dict }: { dict: Dictionary }) {
+  const rows = useMemo(
+    () => CITY_SCHEDULES.map((c) => ({ ...c, ...computeCityRow(c.ianaTimezone) })),
+    []
+  );
+
   return (
     <section id="schedule" className="py-24 px-4" aria-label={dict.schedule.title}>
       <div className="max-w-5xl mx-auto">
@@ -33,7 +77,7 @@ export default function Schedule({ dict }: { dict: Dictionary }) {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <caption className="sr-only">
-                Global off-peak promotion schedule for Claude March 2026
+                Global peak hours schedule for Claude session limits
               </caption>
               <thead>
                 <tr className="border-b border-border/50">
@@ -52,7 +96,7 @@ export default function Schedule({ dict }: { dict: Dictionary }) {
                 </tr>
               </thead>
               <tbody>
-                {CITY_SCHEDULES.map((city, i) => (
+                {rows.map((city, i) => (
                   <tr
                     key={city.city}
                     className={`border-b border-border/30 last:border-0 ${

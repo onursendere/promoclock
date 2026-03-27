@@ -17,14 +17,14 @@
   },
   "hero": {
     "badge": "CLAUDE 세션 제한",
-    "promotionActive": "비피크 — 느린 제한",
-    "promotionInactive": "피크 시간 — 빠른 제한",
-    "promotionExpired": "비피크 — 느린 제한",
-    "promotionNotStarted": "비피크 — 느린 제한",
-    "activeSubtitle": "비피크 — 5시간 세션 제한이 더 느리게 소모됩니다. 토큰 집약적 작업에 아이디얼합니다.",
-    "inactiveSubtitle": "피크 시간(월–금 GMT 13시–19시) — 세션 제한이 더 빠르게 소모됩니다. 주간 제한 바뀔지 않음.",
-    "expiredSubtitle": "비피크 — 5시간 세션 제한이 더 느리게 소모됩니다.",
-    "notStartedSubtitle": "비피크 — 5시간 세션 제한이 더 느리게 소모됩니다.",
+    "promotionActive": "비피크 — 정상 소모 속도",
+    "promotionInactive": "피크 시간 — 제한 더 빠르게 소모됨",
+    "promotionExpired": "비피크 — 정상 소모 속도",
+    "promotionNotStarted": "비피크 — 정상 소모 속도",
+    "activeSubtitle": "비피크 — 5시간 세션 제한이 정상 속도로 소모됩니다. 토큰 집약적 작업에 이상적입니다.",
+    "inactiveSubtitle": "피크 시간(월–금 GMT 13시–19시) — 세션 제한이 더 빠르게 소모됩니다. 주간 제한 변동 없음.",
+    "expiredSubtitle": "비피크 — 5시간 세션 제한이 정상 속도로 소모됩니다.",
+    "notStartedSubtitle": "비피크 — 5시간 세션 제한이 정상 속도로 소모됩니다.",
     "countdownLabel": "다음 상태 변경까지",
     "yourTimezone": "시간대",
     "yourLocalTime": "현지 시간",
@@ -33,9 +33,9 @@
     "minutes": "분",
     "seconds": "초",
     "peakHours": "피크 시간 (빠른 소모)",
-    "offPeakHours": "비피크 시간 (느린 소모)",
+    "offPeakHours": "비피크 시간 (정상 속도)",
     "weekdays": "평일",
-    "allWeekend": "주말 전체 (느린 소모)"
+    "allWeekend": "주말 전체 (정상 속도)"
   },
   "howItWorks": {
     "title": "작동 방식",
@@ -51,7 +51,7 @@
       },
       {
         "title": "즉시 상태 확인",
-        "description": "명확한 실시간 표시로 현재 제한이 2배인지, 다음 변경까지의 카운트다운을 확인할 수 있습니다."
+        "description": "명확한 실시간 표시로 현재 피크 시간인지(제한 빠르게 소모) 비피크인지(정상 속도)를 확인하고 다음 변경까지 카운트다운을 볼 수 있습니다."
       }
     ]
   },
@@ -91,7 +91,7 @@
       "title": "모든 Claude 환경에서 사용 가능",
       "items": ["웹 (claude.ai)", "데스크톱 (Mac / Windows)", "모바일 (iOS / Android)", "Claude Cowork", "Claude Code (터미널)", "Excel & PowerPoint 추가 기능"]
     },
-    "note": "주간 제한은 바뀔지 않습니다. 피크 시간돈(월–금 GMT 13시–19시)에만 세션 제한이 더 빠르게 소모됩니다."
+    "note": "주간 제한은 변동 없습니다. 피크 시간(월–금 GMT 13시–19시)에만 세션 제한이 더 빠르게 소모됩니다."
   },
   "schedule": {
     "title": "글로벌 시간표",
@@ -100,10 +100,10 @@
       "city": "도시 / 지역",
       "timezone": "시간대",
       "peakHours": "피크 (빠름)",
-      "offPeakHours": "비피크 (느림)"
+      "offPeakHours": "비피크 (정상)"
     },
     "weekdayLabel": "평일",
-    "weekendLabel": "주말 전체 → 느린 소모"
+    "weekendLabel": "주말 전체 → 정상 속도"
   },
   "faq": {
     "title": "자주 묻는 질문",
@@ -115,7 +115,7 @@
       },
       {
         "question": "피크 시간은 정확히 언제인가요?",
-        "answer": "피크 시간은 월–금 GMT 13시–19시(PST 5시–11시)입니다. 평일 저녁·밤과 주말 전체는 느린 소모의 비피크입니다."
+        "answer": "피크 시간은 월–금 GMT 13시–19시(PST 5시–11시)입니다. 평일 저녁·밤과 주말 전체는 정상 속도의 비피크입니다."
       },
       {
         "question": "내 시간대의 피크 시간은 언제인가요?",
@@ -131,7 +131,7 @@
       },
       {
         "question": "세션 제한을 어떻게 최대화하나요?",
-        "answer": "토큰 집약적 작업을 비피크(평일 저녁·밤, 주말)로 이동하세요. 해당 시간에 제한이 더 느리게 소모됩니다."
+        "answer": "토큰 집약적 작업을 비피크(평일 저녁·밤, 주말)로 이동하세요. 해당 시간에 제한이 정상 속도로 소모됩니다."
       },
       {
         "question": "2026년 3월 프로모션은요?",
@@ -156,7 +156,7 @@
     "calendarFeature3": "Google 캘린더, Apple 캘린더, Outlook 호환",
     "calendarDownload": "캘린더에 추가",
     "notifTitle": "브라우저 알림 & 소리 알림",
-    "notifDescription": "헤더의 벨 아이콘을 활성화하면 Claude가 오프피크 모드로 전환되는 순간 브라우저 알림과 부드러운 차임을 받을 수 있습니다."
+    "notifDescription": "헤더의 벨 아이콘을 활성화하면 Claude가 비피크(정상 속도)로 전환되는 순간 브라우저 알림과 부드러운 차임을 받을 수 있습니다."
   },
   "footer": {
     "crafted": "Shrewsbury, UK에서 Claude와 함께 사랑을 담아 제작했습니다.",

@@ -17,14 +17,14 @@
   },
   "hero": {
     "badge": "LIMITES DE SESSION CLAUDE",
-    "promotionActive": "HEURES CREUSES — LIMITES PLUS LENTES",
+    "promotionActive": "HEURES CREUSES — LIMITES NORMALES",
     "promotionInactive": "HEURES DE POINTE — LIMITES PLUS RAPIDES",
-    "promotionExpired": "HEURES CREUSES — LIMITES PLUS LENTES",
-    "promotionNotStarted": "HEURES CREUSES — LIMITES PLUS LENTES",
-    "activeSubtitle": "Heures creuses — vos limites de session 5h s'écoulent plus lentement. Idéal pour les tâches intensives en tokens.",
+    "promotionExpired": "HEURES CREUSES — LIMITES NORMALES",
+    "promotionNotStarted": "HEURES CREUSES — LIMITES NORMALES",
+    "activeSubtitle": "Heures creuses — vos limites de session 5h s'écoulent à vitesse normale. Idéal pour les tâches intensives en tokens.",
     "inactiveSubtitle": "Heures de pointe (lun–ven 13h–19h GMT) — les limites de session s'écoulent plus vite. Limites hebdomadaires inchangées.",
-    "expiredSubtitle": "Heures creuses — vos limites de session 5h s'écoulent plus lentement.",
-    "notStartedSubtitle": "Heures creuses — vos limites de session 5h s'écoulent plus lentement.",
+    "expiredSubtitle": "Heures creuses — vos limites de session 5h s'écoulent à vitesse normale.",
+    "notStartedSubtitle": "Heures creuses — vos limites de session 5h s'écoulent à vitesse normale.",
     "countdownLabel": "Jusqu'au prochain changement",
     "yourTimezone": "Votre fuseau horaire",
     "yourLocalTime": "Votre heure locale",
@@ -33,9 +33,9 @@
     "minutes": "MIN",
     "seconds": "SEC",
     "peakHours": "Heures de pointe (Limites plus rapides)",
-    "offPeakHours": "Heures creuses (Limites plus lentes)",
+    "offPeakHours": "Heures creuses (Vitesse normale)",
     "weekdays": "Jours ouvrables",
-    "allWeekend": "Tout le week-end (Limites plus lentes)"
+    "allWeekend": "Tout le week-end (Vitesse normale)"
   },
   "howItWorks": {
     "title": "COMMENT ÇA MARCHE",
@@ -51,7 +51,7 @@
       },
       {
         "title": "VOUS VOYEZ VOTRE STATUT",
-        "description": "Un affichage clair indique si vous êtes en heures de pointe (limites plus rapides) ou en heures creuses (plus lentes) — avec un compte à rebours."
+        "description": "Un affichage clair indique si vous êtes en heures de pointe (limites plus rapides) ou en heures creuses (vitesse normale) — avec un compte à rebours."
       }
     ]
   },
@@ -100,10 +100,10 @@
       "city": "Ville / Région",
       "timezone": "Fuseau horaire",
       "peakHours": "Heures de pointe (Limites rapides)",
-      "offPeakHours": "Heures creuses (Limites lentes)"
+      "offPeakHours": "Heures creuses (Vitesse normale)"
     },
     "weekdayLabel": "Jours ouvrables",
-    "weekendLabel": "Tout le week-end → Limites plus lentes"
+    "weekendLabel": "Tout le week-end → Vitesse normale"
   },
   "faq": {
     "title": "QUESTIONS RÉPONDUES",
@@ -115,7 +115,7 @@
       },
       {
         "question": "Quand sont exactement les heures de pointe ?",
-        "answer": "Les heures de pointe sont les lundi–vendredi de 13h à 19h GMT (5h–11h PST). Les soirées, nuits en semaine et tout le week-end sont des heures creuses avec des limites qui s'écoulent plus lentement."
+        "answer": "Les heures de pointe sont les lundi–vendredi de 13h à 19h GMT (5h–11h PST). Les soirées, nuits en semaine et tout le week-end sont des heures creuses avec des limites qui s'écoulent à vitesse normale."
       },
       {
         "question": "À quelle heure sont les heures de pointe dans mon fuseau ?",
@@ -131,7 +131,7 @@
       },
       {
         "question": "Comment maximiser mes limites de session ?",
-        "answer": "Décalez les tâches intensives en tokens vers les heures creuses (soirées/nuits en semaine et tout le week-end). Les limites s'écoulent plus lentement pendant ces périodes."
+        "answer": "Décalez les tâches intensives en tokens vers les heures creuses (soirées/nuits en semaine et tout le week-end). Les limites s'écoulent à vitesse normale pendant ces périodes."
       },
       {
         "question": "Sur quelles plateformes cela s'applique-t-il ?",
@@ -160,7 +160,7 @@
     "calendarFeature3": "Compatible Google Agenda, Apple Calendrier, Outlook",
     "calendarDownload": "Ajouter au Calendrier",
     "notifTitle": "Notifications Navigateur & Alertes Sonores",
-    "notifDescription": "Activez l'icône cloche dans l'en-tête pour recevoir une notification et un carillon doux dès que Claude passe en mode off-peak."
+    "notifDescription": "Activez l'icône cloche dans l'en-tête pour recevoir une notification et un carillon doux dès que Claude passe en heures creuses (vitesse normale)."
   },
   "footer": {
     "crafted": "Conçu avec amour avec Claude à Shrewsbury, UK.",

@@ -16,15 +16,15 @@
     }
   },
   "hero": {
-    "badge": "CLAUDE OTURUM LİMİTLERİ",
-    "promotionActive": "YOĞUN OLMAYAN SAATLER — YAVAŞ LİMİTLER",
-    "promotionInactive": "YOĞUN SAATLER — HIZLI LİMİTLER",
-    "promotionExpired": "YOĞUN OLMAYAN SAATLER — YAVAŞ LİMİTLER",
-    "promotionNotStarted": "YOĞUN OLMAYAN SAATLER — YAVAŞ LİMİTLER",
-    "activeSubtitle": "Yoğun olmayan saatler — 5 saatlik oturum limitiniz daha yavaş ilerler. Token-yoğun işler için en iyi zaman.",
-    "inactiveSubtitle": "Yoğun saatler (hafta içi 5am-11am PT / 1pm-7pm GMT) — oturum limitleri daha hızlı ilerler. Haftalık limitler değişmedi.",
-    "expiredSubtitle": "Yoğun olmayan saatler — 5 saatlik oturum limitiniz daha yavaş ilerler. Token-yoğun işler için en iyi zaman.",
-    "notStartedSubtitle": "Yoğun olmayan saatler — 5 saatlik oturum limitiniz daha yavaş ilerler. Token-yoğun işler için en iyi zaman.",
+    "badge": "CLAUDE YOĞUN SAATLER",
+    "promotionActive": "YOĞUN OLMAYAN — NORMAL LIMIT",
+    "promotionInactive": "YOĞUN SAATLER — LİMİTLER DAHA HIZLI TÜKENİYOR",
+    "promotionExpired": "YOĞUN OLMAYAN — NORMAL LIMIT",
+    "promotionNotStarted": "YOĞUN OLMAYAN — NORMAL LIMIT",
+    "activeSubtitle": "Yoğun olmayan saatler — oturum limitleri normal hızda tükeniyor. Token-yoğun işler için en uygun zaman.",
+    "inactiveSubtitle": "Yoğun saatler (hafta içi 5am–11am PT / 1pm–7pm GMT) — oturum limitleri normalden hızlı tükeniyor. Haftalık limitler değişmedi.",
+    "expiredSubtitle": "Yoğun olmayan saatler — oturum limitleri normal hızda tükeniyor. Token-yoğun işler için en uygun zaman.",
+    "notStartedSubtitle": "Yoğun olmayan saatler — oturum limitleri normal hızda tükeniyor. Token-yoğun işler için en uygun zaman.",
     "countdownLabel": "Sonraki durum değişikliğine kalan",
     "yourTimezone": "Saat diliminiz",
     "yourLocalTime": "Yerel saatiniz",
@@ -32,10 +32,10 @@
     "hours": "SAAT",
     "minutes": "DAK",
     "seconds": "SAN",
-    "peakHours": "Yoğun Saatler (Hızlı Oturum Limitleri)",
-    "offPeakHours": "Yoğun Olmayan Saatler (Yavaş Oturum Limitleri)",
+    "peakHours": "Yoğun Saatler (Limitler Daha Hızlı Tükeniyor)",
+    "offPeakHours": "Yoğun Olmayan Saatler (Normal Hız)",
     "weekdays": "Hafta İçi",
-    "allWeekend": "Tüm Hafta Sonu (Yavaş Limitler)"
+    "allWeekend": "Tüm Hafta Sonu (Normal Limitler)"
   },
   "howItWorks": {
     "title": "NASIL ÇALIŞIR",
@@ -51,95 +51,95 @@
       },
       {
         "title": "DURUMUNUZU ANINDA GÖRÜRSÜNÜz",
-        "description": "Net ve gerçek zamanlı bir gösterge, limitleriniznin şu an iki katına çıkıp çıkmadığını ve bir sonraki değişikliğe kalan süreyi gösterir."
+        "description": "Net gerçek zamanlı ekran, yoğun saatte mi (limitler hızlı tükeniyor) yoksa yoğun olmayan saatte mi (normal hız) olduğunuzu gösterir — sonraki değişikliğe kadar geri sayımla."
       }
     ]
   },
   "eligibility": {
-    "title": "UYGUNLUK",
-    "subtitle": "Claude planınızın Mart 2026 yoğun olmayan saat promosyonuna uygun olup olmadığını kontrol edin.",
-    "eligible": "Uygun",
-    "notEligible": "Uygun Değil",
+    "title": "ETKİLENENLER",
+    "subtitle": "Oturum limiti ayarlamaları tüm Claude abonelik seviyelerine uygulanır.",
+    "eligible": "Etkileniyor",
+    "notEligible": "Etkilenmiyor",
     "plans": [
       {
         "name": "Free",
         "status": true,
-        "description": "Limitlere en çok takılan devasa kullanıcı kitlesi. 2 kat kapasite, platformu keşfetmek için kritik bir fırsat."
+        "description": "Yoğun saatlerde oturum limitleri normalden hızlı tükeniyor. Token-yoğun işleri yoğun olmayan saatlere taşıyın."
       },
       {
         "name": "Pro",
         "status": true,
-        "description": "Bireysel profesyoneller ve yoğun kullanıcılar. Claude Code kullanan geliştiriciler için özellikle değerli."
+        "description": "Pro kullanıcıların ~%7'si daha önce ulaşamadıkları limitlere ulaşabilir. Ağır iş yükleri için yoğun olmayan saatler idealdir."
       },
       {
         "name": "Max",
         "status": true,
-        "description": "Otonom ajanlar ve yoğun veri işleme yapan ileri düzey kullanıcılar. İki katına çıkan limitler, büyük projelerin kesintisiz ilerlemesini sağlar."
+        "description": "Yoğun saatlerde oturum limitleri normalden hızlı tükeniyor. Otonom ajanları ve veri işlemesini yoğun olmayan saatlere programlayın."
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Küçük ve orta ölçekli işletme çalışma alanları. Claude Cowork üzerindeki işbirliği etkileşimlerini artırır."
+        "description": "Team çalışma alanları etkileniyor. Ağır iş yüklerini yoğun olmayan saatler için koordine edin."
       },
       {
         "name": "Enterprise",
         "status": false,
-        "description": "Enterprise planları özel kapasite ve özel sözleşmelere sahip olduğundan bu perakende promosyonunun dışındadır."
+        "description": "Enterprise planları özel kapasite ve özel sözleşmelere sahip olduğundan bu oturum limiti ayarlamalarından etkilenmiyor."
       }
     ],
     "platforms": {
       "title": "Tüm Claude yüzeylerinde geçerli",
       "items": ["Web (claude.ai)", "Masaüstü (Mac / Windows)", "Mobil (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Excel ve PowerPoint Eklentileri"]
     },
-    "note": "Yoğun olmayan saatlerde kazanılan ekstra kullanım, haftalık kullanım limitlerini tüketmez. Tamamen bağımsız bir bonus havuzu olarak işler."
+    "note": "Haftalık limitler değişmedi. Yoğun saatlerde (hafta içi 5am–11am PT / 1pm–7pm GMT) oturum limitleri normalden hızlı tükeniyor. Bu düzenin ne zaman bozulacağı bilinmiyor."
   },
   "schedule": {
     "title": "KÜRESEL TAKVİM",
-    "subtitle": "Dünyanın büyük şehirlerinde 2 kat limitin ne zaman aktif olduğunu görün. Yoğun saatler: Hafta içi 08:00 – 14:00 ET (12:00 – 18:00 UTC).",
+    "subtitle": "Büyük şehirlerde yoğun saatlerin ne zaman gerçekleşteğini görün. Yoğun saatlerde oturum limitleri normalden hızlı tükeniyor. Pik: hafta içi 1pm–7pm GMT / 5am–11am PT.",
     "tableHeaders": {
       "city": "Şehir / Bölge",
       "timezone": "Saat Dilimi",
-      "peakHours": "Yoğun Saatler (Standart)",
-      "offPeakHours": "Yoğun Olmayan (2 Kat Limit)"
+      "peakHours": "Yoğun Saatler (Hızlı Tükenme)",
+      "offPeakHours": "Yoğun Olmayan (Normal Hız)"
     },
     "weekdayLabel": "Hafta İçi",
-    "weekendLabel": "Tüm Hafta Sonu → 2 Kat Limit"
+    "weekendLabel": "Tüm Hafta Sonu → Normal Hız"
   },
   "faq": {
     "title": "SIKÇA SORULAN SORULAR",
-    "subtitle": "Claude'un Mart 2026 yoğun olmayan saat promosyonu hakkında bilmeniz gereken her şey.",
+    "subtitle": "Claude oturum limitleri sistemi hakkında bilmeniz gereken her şey.",
     "items": [
       {
-        "question": "Claude Mart 2026 yoğun olmayan saat promosyonu nedir?",
-        "answer": "Anthropic, 13-27 Mart 2026 tarihleri arasında yoğun olmayan saatlerde mesaj ve bağlam limitlerini iki katına çıkaran bir promosyon başlattı. Bu, sunucu yükünü gün içine daha dengeli dağıtırken kullanıcılara talebin düşük olduğu zamanlarda daha fazla kapasite sunar."
+        "question": "Claude oturum limitlerinde ne değişti?",
+        "answer": "27 Mart 2026'dan itibaren Claude, yoğun saatlerde oturum limitlerinin normalden hızlı tükenmesini sağlayan bir sistem uyguluyor. Yoğun saatler dışında — hafta içi akşamları, geceler ve tüm hafta sonu — limitler normal hızda tükeniyor. Haftalık limitler değişmedi. Bu düzenin ne zaman bozulacağı bilinmiyor."
       },
       {
-        "question": "Yoğun olmayan saatler tam olarak ne zaman?",
-        "answer": "Yoğun olmayan saatler, hafta içi Doğu Zaman Dilimi'ne (ET) göre sabah 08:00 ile öğleden sonra 14:00 dışındaki tüm saatlerdir. Hafta içi akşam ve geceler ile hafta sonunun tamamı (Cumartesi ve Pazar, 24 saat) 2 kat limit kapsamındadır. Not: ABD Yaz Saati Uygulaması 8 Mart 2026'da başladığı için promosyon döneminde ET, EDT (UTC-4) anlamına gelir."
+        "question": "Yoğun saatler tam olarak ne zaman?",
+        "answer": "Yoğun saatler hafta içi 5am–11am Pacific Time / 1pm–7pm GMT. Hafta içi akşamları, geceler ve tüm hafta sonu (Cumartesi ve Pazar, 24 saat) yoğun olmayan saatlerdir — bu saatlerde limitler normal hızda tükeniyor."
       },
       {
-        "question": "Kendi saat dilimimde Claude ne zaman yoğun olmayan saatlerde?",
-        "answer": "PromoClock cihazınızın saat dilimini otomatik olarak algılar ve yerel yoğun/yoğun olmayan pencerelerinizi gösterir. Sayfanın üst kısmındaki ana bölüm, mevcut durumunuzu gerçek zamanlı olarak gösterir."
+        "question": "Benim saat dilimimde yoğun saatler ne zaman?",
+        "answer": "PromoClock cihazınızın saat dilimini otomatik olarak algılar ve sayfanın üstünde gerçek zamanlı durumunuzu gösterir."
       },
       {
-        "question": "Hangi Claude planları uygun?",
-        "answer": "Free, Pro, Max ve Team planlarının tümü uygundur. Enterprise planları, özel kapasite ve özel sözleşmelere sahip oldukları için hariç tutulmuştur."
+        "question": "Hangi Claude planları etkileniyor?",
+        "answer": "Free, Pro, Max ve Team planlarının tamamı etkileniyor. Enterprise planları özel kapasite ve özel sözleşmelere sahip olduğundan etkilenmiyor."
       },
       {
-        "question": "Yoğun olmayan saat kullanımı haftalık limitlerimi tüketir mi?",
-        "answer": "Hayır. Yoğun olmayan saatlerde kazanılan ekstra kapasite, tamamen bağımsız bir bonus havuzu olarak çalışır. Standart haftalık kullanım tahsisatınızı tüketmez."
+        "question": "Haftalık limitler değişiyor mu?",
+        "answer": "Hayır. Haftalık limitler aynı kalıyor. Yoğun saatlerde oturum limitlerinin tükenme hızı değişti. Pro kullanıcıların ~%7'si daha önce ulaşamadıkları limitlere ulaşabilir."
       },
       {
-        "question": "Promosyonu manuel olarak aktif etmem gerekiyor mu?",
-        "answer": "Hayır, aktivasyona gerek yoktur. Promosyon, 13-27 Mart 2026 tarihleri arasında tüm uygun planlara otomatik olarak uygulanır."
+        "question": "Oturum limitlerini nasıl maksimize edebilirim?",
+        "answer": "Token-yoğun işleri yoğun olmayan saatlere (hafta içi akşam/gece ve hafta sonu) taşıyın. Bu saatlerde oturum limitleri normal hızda tükeniyor."
       },
       {
-        "question": "2 kat limit hangi platformlarda geçerli?",
-        "answer": "İki katına çıkan limitler tüm Claude yüzeylerinde geçerlidir: claude.ai web arayüzü, masaüstü uygulamaları (Mac ve Windows), mobil uygulamalar (iOS ve Android), Claude Cowork, Claude Code (terminal) ve Excel ile PowerPoint eklentileri."
+        "question": "Hangi platformlarda geçerli?",
+        "answer": "Tüm Claude yüzeylerinde geçerli: claude.ai web, masaüstü (Mac ve Windows), mobil (iOS ve Android), Claude Cowork, Claude Code (terminal) ve Excel/PowerPoint eklentileri."
       },
       {
-        "question": "ABD Yaz Saati Uygulaması promosyonu nasıl etkiler?",
-        "answer": "Yaz saati uygulaması 8 Mart 2026'da, promosyon başlamadan beş gün önce yürürlüğe girdi. Promosyon döneminde (13-27 Mart) Doğu Zaman Dilimi EDT (UTC-4) ve Pasifik Zaman Dilimi PDT (UTC-7) olarak işler. PromoClock bunu tüm hesaplamalarda otomatik olarak dikkate alır."
+        "question": "Mart 2026 promosynonu ne oldu?",
+        "answer": "Claude Mart 2026 yoğun olmayan saat promosynonu (2x limit) 13–27 Mart 2026 arasında yaşandı ve sona erdi. Mevcut sistem (yoğun saatlerde limitler hızlı tükeniyor) 27 Mart 2026'da devreye girdi. Aşağıdaki arşiv bölümüne bakın."
       },
       {
         "question": "PromoClock nedir ve kim tarafından yapıldı?",
@@ -149,9 +149,9 @@
   },
   "devTools": {
     "title": "GELİŞTİRİCİ ARAÇLARI",
-    "subtitle": "Claude promosyon durumunu iş akışınıza entegre edin. API, terminal prompt'u, takvim senkronizasyonu — tarayıcıya gerek yok.",
+    "subtitle": "Claude yoğun saat durumunu iş akışınıza entegre edin. API, terminal prompt'u, takvim senkronizasyonu — tarayıcıya gerek yok.",
     "apiTitle": "JSON API & Terminal Entegrasyonu",
-    "apiDescription": "Herkese açık /api/status endpoint'i, promosyon durumunu gerçek zamanlı JSON olarak döner. ZSH/Bash prompt'unuza bağlayın, terminalinizde 🟢 2X veya 🔴 1X görün.",
+    "apiDescription": "Herkese açık /api/status endpoint'i, yoğun saat durumunu gerçek zamanlı JSON olarak döner. ZSH/Bash prompt'unuza entegre edin.",
     "tryApi": "API'yi dene",
     "calendarTitle": "Takvim Senkronizasyonu (.ics)",
     "calendarDescription": "Tüm yoğun ve yoğun olmayan saatleri takviminize ekleyen tek bir .ics dosyası indirin — hatırlatıcılarla birlikte.",
@@ -160,7 +160,7 @@
     "calendarFeature3": "Google Takvim, Apple Takvim, Outlook ile çalışır",
     "calendarDownload": "Takvime Ekle",
     "notifTitle": "Tarayıcı Bildirimleri ve Sesli Uyarılar",
-    "notifDescription": "Başlıktaki zil simgesini etkinleştirerek, Claude off-peak moduna geçtiği anda tarayıcı bildirimi ve yumuşak bir zil sesi alın. PromoClock'u arka plan sekmesinde açık bırakın ve 2x limitleri asla kaçırmayın."
+    "notifDescription": "Başlıktaki zil simgesini etkinleştirin — Claude yoğun olmayan moda geçtiğinde (limitler normal hıza döndüğünde) anında tarayıcı bildirimi ve yumuşak bir zil sesi alın."
   },
   "footer": {
     "crafted": "Shrewsbury, UK'de Claude ile sevgiyle yapıldı.",

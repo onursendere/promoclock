@@ -17,14 +17,14 @@
   },
   "hero": {
     "badge": "LÍMITES DE SESIÓN CLAUDE",
-    "promotionActive": "FUERA DE PICO — LÍMITES MÁS LENTOS",
+    "promotionActive": "FUERA DE PICO — LÍMITES NORMALES",
     "promotionInactive": "HORAS PICO — LÍMITES MÁS RÁPIDOS",
-    "promotionExpired": "FUERA DE PICO — LÍMITES MÁS LENTOS",
-    "promotionNotStarted": "FUERA DE PICO — LÍMITES MÁS LENTOS",
-    "activeSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen más lento. Ideal para tareas intensivas en tokens.",
+    "promotionExpired": "FUERA DE PICO — LÍMITES NORMALES",
+    "promotionNotStarted": "FUERA DE PICO — LÍMITES NORMALES",
+    "activeSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen a velocidad normal. Ideal para tareas intensivas en tokens.",
     "inactiveSubtitle": "Horas pico (lun–vie 13h–19h GMT) — los límites de sesión se consumen más rápido. Límites semanales sin cambios.",
-    "expiredSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen más lento.",
-    "notStartedSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen más lento.",
+    "expiredSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen a velocidad normal.",
+    "notStartedSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen a velocidad normal.",
     "countdownLabel": "Hasta el próximo cambio de estado",
     "yourTimezone": "Tu zona horaria",
     "yourLocalTime": "Tu hora local",
@@ -33,9 +33,9 @@
     "minutes": "MIN",
     "seconds": "SEG",
     "peakHours": "Horas Pico (Límites Más Rápidos)",
-    "offPeakHours": "Fuera de Pico (Límites Más Lentos)",
+    "offPeakHours": "Fuera de Pico (Velocidad Normal)",
     "weekdays": "Días laborables",
-    "allWeekend": "Fin de Semana Completo (Más Lento)"
+    "allWeekend": "Fin de Semana Completo (Velocidad Normal)"
   },
   "howItWorks": {
     "title": "CÓMO FUNCIONA",
@@ -51,7 +51,7 @@
       },
       {
         "title": "VES TU ESTADO AL INSTANTE",
-        "description": "Una pantalla clara indica si estás en horas pico (límites más rápidos) o fuera de pico (más lentos) — con cuenta regresiva."
+        "description": "Una pantalla clara indica si estás en horas pico (límites más rápidos) o fuera de pico (velocidad normal) — con cuenta regresiva."
       }
     ]
   },
@@ -100,10 +100,10 @@
       "city": "Ciudad / Región",
       "timezone": "Zona Horaria",
       "peakHours": "Horas Pico (Más Rápido)",
-      "offPeakHours": "Fuera de Pico (Más Lento)"
+      "offPeakHours": "Fuera de Pico (Velocidad Normal)"
     },
     "weekdayLabel": "Días laborables",
-    "weekendLabel": "Fin de semana completo → Límites más lentos"
+    "weekendLabel": "Fin de semana completo → Velocidad normal"
   },
   "faq": {
     "title": "PREGUNTAS RESPONDIDAS",
@@ -115,7 +115,7 @@
       },
       {
         "question": "¿Cuándo son exactamente las horas pico?",
-        "answer": "Las horas pico son lunes–viernes de 13h a 19h GMT (5h–11h PST). Las tardes/noches entre semana y todo el fin de semana son horas fuera de pico con límites más lentos."
+        "answer": "Las horas pico son lunes–viernes de 13h a 19h GMT (5h–11h PST). Las tardes/noches entre semana y todo el fin de semana son horas fuera de pico con velocidad normal."
       },
       {
         "question": "¿Cuándo son las horas pico en mi zona horaria?",
@@ -131,7 +131,7 @@
       },
       {
         "question": "¿Cómo maximizo mis límites de sesión?",
-        "answer": "Mueve las tareas intensivas en tokens a horas fuera de pico (tardes/noches entre semana y fin de semana). Los límites se consumen más lento en esas horas."
+        "answer": "Mueve las tareas intensivas en tokens a horas fuera de pico (tardes/noches entre semana y fin de semana). En esas horas los límites se consumen a velocidad normal."
       },
       {
         "question": "¿Qué pasó con la promoción de marzo 2026?",
@@ -156,7 +156,7 @@
     "calendarFeature3": "Compatible con Google Calendar, Apple Calendar, Outlook",
     "calendarDownload": "Agregar al Calendario",
     "notifTitle": "Notificaciones del Navegador y Alertas de Sonido",
-    "notifDescription": "Activa el ícono de campana en el encabezado para recibir notificaciones y un sonido suave cuando Claude entre en modo off-peak."
+    "notifDescription": "Activa el ícono de campana en el encabezado para recibir notificaciones y un sonido suave cuando Claude entre en modo fuera de pico (velocidad normal)."
   },
   "footer": {
     "crafted": "Hecho con amor con Claude en Shrewsbury, UK.",

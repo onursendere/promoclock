@@ -107,81 +107,18 @@ export function getCountdown(targetTimestamp: number, now: Date = new Date()) {
 
 export interface CitySchedule {
   city: string;
-  timezone: string;
-  utcOffset: string;
-  peakLocal: string;
-  offPeakLocal: string;
+  ianaTimezone: string;
 }
 
 export const CITY_SCHEDULES: CitySchedule[] = [
-  {
-    city: "New York",
-    timezone: "EDT",
-    utcOffset: "UTC-4",
-    peakLocal: "09:00 – 15:00",
-    offPeakLocal: "15:00 – 09:00",
-  },
-  {
-    city: "San Francisco",
-    timezone: "PDT",
-    utcOffset: "UTC-7",
-    peakLocal: "06:00 – 12:00",
-    offPeakLocal: "12:00 – 06:00",
-  },
-  {
-    city: "London",
-    timezone: "BST",
-    utcOffset: "UTC+1",
-    peakLocal: "14:00 – 20:00",
-    offPeakLocal: "20:00 – 14:00",
-  },
-  {
-    city: "Paris",
-    timezone: "CEST",
-    utcOffset: "UTC+2",
-    peakLocal: "15:00 – 21:00",
-    offPeakLocal: "21:00 – 15:00",
-  },
-  {
-    city: "Istanbul",
-    timezone: "TRT",
-    utcOffset: "UTC+3",
-    peakLocal: "16:00 – 22:00",
-    offPeakLocal: "22:00 – 16:00",
-  },
-  {
-    city: "New Delhi",
-    timezone: "IST",
-    utcOffset: "UTC+5:30",
-    peakLocal: "18:30 – 00:30",
-    offPeakLocal: "00:30 – 18:30",
-  },
-  {
-    city: "Tokyo",
-    timezone: "JST",
-    utcOffset: "UTC+9",
-    peakLocal: "22:00 – 04:00",
-    offPeakLocal: "04:00 – 22:00",
-  },
-  {
-    city: "Seoul",
-    timezone: "KST",
-    utcOffset: "UTC+9",
-    peakLocal: "22:00 – 04:00",
-    offPeakLocal: "04:00 – 22:00",
-  },
-  {
-    city: "Beijing",
-    timezone: "CST",
-    utcOffset: "UTC+8",
-    peakLocal: "21:00 – 03:00",
-    offPeakLocal: "03:00 – 21:00",
-  },
-  {
-    city: "São Paulo",
-    timezone: "BRT",
-    utcOffset: "UTC-3",
-    peakLocal: "10:00 – 16:00",
-    offPeakLocal: "16:00 – 10:00",
-  },
+  { city: "New York", ianaTimezone: "America/New_York" },
+  { city: "San Francisco", ianaTimezone: "America/Los_Angeles" },
+  { city: "London", ianaTimezone: "Europe/London" },
+  { city: "Paris", ianaTimezone: "Europe/Paris" },
+  { city: "Istanbul", ianaTimezone: "Europe/Istanbul" },
+  { city: "New Delhi", ianaTimezone: "Asia/Kolkata" },
+  { city: "Tokyo", ianaTimezone: "Asia/Tokyo" },
+  { city: "Seoul", ianaTimezone: "Asia/Seoul" },
+  { city: "Beijing", ianaTimezone: "Asia/Shanghai" },
+  { city: "São Paulo", ianaTimezone: "America/Sao_Paulo" },
 ];

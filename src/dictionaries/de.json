@@ -17,14 +17,14 @@
   },
   "hero": {
     "badge": "CLAUDE SITZUNGSLIMITS",
-    "promotionActive": "NEBENZEITEN — LANGSAMERE LIMITS",
+    "promotionActive": "NEBENZEITEN — NORMALE LIMITS",
     "promotionInactive": "HAUPTZEITEN — SCHNELLERE LIMITS",
-    "promotionExpired": "NEBENZEITEN — LANGSAMERE LIMITS",
-    "promotionNotStarted": "NEBENZEITEN — LANGSAMERE LIMITS",
-    "activeSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden langsamer verbraucht. Ideal für token-intensive Aufgaben.",
+    "promotionExpired": "NEBENZEITEN — NORMALE LIMITS",
+    "promotionNotStarted": "NEBENZEITEN — NORMALE LIMITS",
+    "activeSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden mit normaler Geschwindigkeit verbraucht. Ideal für token-intensive Aufgaben.",
     "inactiveSubtitle": "Hauptzeiten (Mo–Fr 13–19 Uhr GMT) — Sitzungslimits werden schneller verbraucht. Wöchentliche Limits unverändert.",
-    "expiredSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden langsamer verbraucht.",
-    "notStartedSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden langsamer verbraucht.",
+    "expiredSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden mit normaler Geschwindigkeit verbraucht.",
+    "notStartedSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden mit normaler Geschwindigkeit verbraucht.",
     "countdownLabel": "Bis zur nächsten Statusänderung",
     "yourTimezone": "Ihre Zeitzone",
     "yourLocalTime": "Ihre Ortszeit",
@@ -33,9 +33,9 @@
     "minutes": "MIN",
     "seconds": "SEK",
     "peakHours": "Hauptzeiten (Schnellere Limits)",
-    "offPeakHours": "Nebenzeiten (Langsamere Limits)",
+    "offPeakHours": "Nebenzeiten (Normale Limits)",
     "weekdays": "Werktage",
-    "allWeekend": "Ganzes Wochenende (Langsamere Limits)"
+    "allWeekend": "Ganzes Wochenende (Normale Limits)"
   },
   "howItWorks": {
     "title": "SO FUNKTIONIERT'S",
@@ -51,7 +51,7 @@
       },
       {
         "title": "SIE SEHEN IHREN STATUS SOFORT",
-        "description": "Eine klare Anzeige zeigt, ob Sie in Hauptzeiten (schnellere Limits) oder Nebenzeiten (langsamere Limits) sind — mit Countdown."
+        "description": "Eine klare Anzeige zeigt, ob Sie in Hauptzeiten (schnellere Limits) oder Nebenzeiten (normale Limits) sind — mit Countdown."
       }
     ]
   },
@@ -100,10 +100,10 @@
       "city": "Stadt / Region",
       "timezone": "Zeitzone",
       "peakHours": "Hauptzeiten (Schneller)",
-      "offPeakHours": "Nebenzeiten (Langsamer)"
+      "offPeakHours": "Nebenzeiten (Normal)"
     },
     "weekdayLabel": "Werktage",
-    "weekendLabel": "Ganzes Wochenende → Langsamere Limits"
+    "weekendLabel": "Ganzes Wochenende → Normale Limits"
   },
   "faq": {
     "title": "HÄUFIG GESTELLTE FRAGEN",
@@ -115,7 +115,7 @@
       },
       {
         "question": "Wann genau sind Hauptzeiten?",
-        "answer": "Hauptzeiten sind Mo–Fr 13–19 Uhr GMT (5–11 Uhr PST). Werktags-Abende, -Nächte und das gesamte Wochenende sind Nebenzeiten mit langsameren Limits."
+        "answer": "Hauptzeiten sind Mo–Fr 13–19 Uhr GMT (5–11 Uhr PST). Werktags-Abende, -Nächte und das gesamte Wochenende sind Nebenzeiten mit normaler Limit-Geschwindigkeit."
       },
       {
         "question": "Wann sind Hauptzeiten in meiner Zeitzone?",
@@ -131,7 +131,7 @@
       },
       {
         "question": "Wie maximiere ich meine Sitzungslimits?",
-        "answer": "Verschieben Sie token-intensive Aufgaben in Nebenzeiten (Werktags-Abende/-Nächte und Wochenende). Dort werden Limits langsamer verbraucht."
+        "answer": "Verschieben Sie token-intensive Aufgaben in Nebenzeiten (Werktags-Abende/-Nächte und Wochenende). Dort werden Limits mit normaler Geschwindigkeit verbraucht."
       },
       {
         "question": "Was ist mit der März-2026-Promotion?",
@@ -156,7 +156,7 @@
     "calendarFeature3": "Kompatibel mit Google Kalender, Apple Kalender, Outlook",
     "calendarDownload": "Zum Kalender hinzufügen",
     "notifTitle": "Browser-Benachrichtigungen & Ton-Alerts",
-    "notifDescription": "Aktivieren Sie das Glockensymbol im Header, um eine Benachrichtigung und einen sanften Klang zu erhalten, sobald Claude in den Off-Peak-Modus wechselt."
+    "notifDescription": "Aktivieren Sie das Glockensymbol im Header, um eine Benachrichtigung und einen sanften Klang zu erhalten, sobald Claude in die Nebenzeiten wechselt (normale Limits)."
   },
   "footer": {
     "crafted": "Mit Liebe mit Claude in Shrewsbury, UK erstellt.",

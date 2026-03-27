@@ -1,90 +1,57 @@
 import { NextResponse } from "next/server";
 
-const PROMO_START = Date.UTC(2026, 2, 13, 0, 0, 0);
-const PROMO_END = Date.UTC(2026, 2, 28, 6, 59, 0);
-// New peak hours system (March 27, 2026 update)
-// Peak hours: weekdays 5am-11am PT / 1pm-7pm GMT
+// Peak hours: weekdays 5am-11am PT / 1pm-7pm GMT (13:00-19:00 UTC)
 const PEAK_START_UTC = 13;
 const PEAK_END_UTC = 19;
 
 export const dynamic = "force-dynamic";
 
+function getNextChange(now: Date, dayUTC: number, isPeak: boolean, isWeekend: boolean): Date {
+  const year = now.getUTCFullYear();
+  const month = now.getUTCMonth();
+  const date = now.getUTCDate();
+  const hourUTC = now.getUTCHours();
+
+  if (isWeekend) {
+    const daysToMonday = dayUTC === 6 ? 2 : 1;
+    return new Date(Date.UTC(year, month, date + daysToMonday, PEAK_START_UTC, 0, 0));
+  }
+  if (isPeak) {
+    return new Date(Date.UTC(year, month, date, PEAK_END_UTC, 0, 0));
+  }
+  if (hourUTC < PEAK_START_UTC) {
+    return new Date(Date.UTC(year, month, date, PEAK_START_UTC, 0, 0));
+  }
+  const tomorrowDay = (dayUTC + 1) % 7;
+  if (tomorrowDay === 6) return new Date(Date.UTC(year, month, date + 3, PEAK_START_UTC, 0, 0));
+  if (tomorrowDay === 0) return new Date(Date.UTC(year, month, date + 2, PEAK_START_UTC, 0, 0));
+  return new Date(Date.UTC(year, month, date + 1, PEAK_START_UTC, 0, 0));
+}
+
 export function GET() {
   const now = new Date();
-  const nowUTC = now.getTime();
-
-  const isNotStarted = nowUTC < PROMO_START;
-  const isExpired = nowUTC > PROMO_END;
-
-  // Promotion ended - now showing peak hours status
-  if (isNotStarted || isExpired) {
-    const dayUTC = now.getUTCDay();
-    const hourUTC = now.getUTCHours();
-    const isWeekend = dayUTC === 0 || dayUTC === 6;
-    const isPeak = !isWeekend && hourUTC >= PEAK_START_UTC && hourUTC < PEAK_END_UTC;
-    const isOffPeak = !isPeak;
-    
-    return NextResponse.json({
-      status: isOffPeak ? "off_peak" : "peak",
-      isOffPeak: isOffPeak,
-      isPeak: isPeak,
-      sessionLimitSpeed: isPeak ? "faster" : "slower",
-      emoji: isPeak ? "🔴" : "🟢",
-      label: isPeak ? "Peak Hours — Faster Session Limits" : "Off-Peak — Slower Session Limits",
-      peakHours: "Weekdays 5am-11am PT / 1pm-7pm GMT",
-      timestamp: now.toISOString(),
-      utcHour: now.getUTCHours(),
-      utcDay: now.getUTCDay(),
-    });
-  }
-
   const dayUTC = now.getUTCDay();
   const hourUTC = now.getUTCHours();
   const isWeekend = dayUTC === 0 || dayUTC === 6;
   const isPeak = !isWeekend && hourUTC >= PEAK_START_UTC && hourUTC < PEAK_END_UTC;
   const isOffPeak = !isPeak;
-
-  // This code path should never be reached since promo is expired
-  // But keeping it for backwards compatibility
-  const year = now.getUTCFullYear();
-  const month = now.getUTCMonth();
-  const date = now.getUTCDate();
-  let nextChange: number;
-
-  if (isWeekend) {
-    const daysToMonday = dayUTC === 6 ? 2 : 1;
-    nextChange = Date.UTC(year, month, date + daysToMonday, PEAK_START_UTC, 0, 0);
-  } else if (isPeak) {
-    nextChange = Date.UTC(year, month, date, PEAK_END_UTC, 0, 0);
-  } else if (hourUTC < PEAK_START_UTC) {
-    nextChange = Date.UTC(year, month, date, PEAK_START_UTC, 0, 0);
-  } else {
-    const tomorrowDay = (dayUTC + 1) % 7;
-    if (tomorrowDay === 6) {
-      nextChange = Date.UTC(year, month, date + 3, PEAK_START_UTC, 0, 0);
-    } else if (tomorrowDay === 0) {
-      nextChange = Date.UTC(year, month, date + 2, PEAK_START_UTC, 0, 0);
-    } else {
-      nextChange = Date.UTC(year, month, date + 1, PEAK_START_UTC, 0, 0);
-    }
-  }
-
-  const msUntilChange = nextChange - nowUTC;
+  const nextChange = getNextChange(now, dayUTC, isPeak, isWeekend);
+  const msUntilChange = nextChange.getTime() - now.getTime();
 
   return NextResponse.json({
-    status: isOffPeak ? "off_peak" : "peak",
-    isOffPeak,
+    status: isPeak ? "peak" : "off_peak",
     isPeak,
+    isOffPeak,
     isWeekend,
-    sessionLimitSpeed: isPeak ? "faster" : "slower",
-    emoji: isPeak ? "�" : "�",
-    label: isPeak ? "Peak Hours — Faster Session Limits" : "Off-Peak — Slower Session Limits",
-    nextChange: new Date(nextChange).toISOString(),
+    sessionLimitSpeed: isPeak ? "faster_than_normal" : "normal",
+    emoji: isPeak ? "🔴" : "🟢",
+    label: isPeak ? "Peak Hours — Limits Drain Faster" : "Off-Peak — Normal Speed",
+    peakHours: "Weekdays 5am–11am PT / 1pm–7pm GMT",
+    nextChange: nextChange.toISOString(),
     minutesUntilChange: Math.floor(msUntilChange / 60000),
-    peakWindowUTC: `${PEAK_START_UTC}:00–${PEAK_END_UTC}:00 weekdays`,
-    peakHours: "Weekdays 5am-11am PT / 1pm-7pm GMT",
     timestamp: now.toISOString(),
     utcHour: hourUTC,
     utcDay: dayUTC,
+    note: "No known end date for peak hours adjustment. Weekly limits unchanged.",
   });
 }
