@@ -1,41 +1,37 @@
 # PromoClock
 
-Real-time tracker for the Claude March 2026 off-peak promotion. Instantly shows whether your limits are doubled based on your local timezone.
+PromoClock started as a real-time tracker for the Claude March 2026 off-peak promotion (2x session limits, March 13–27, 2026). When that promotion ended, the site evolved into a permanent awareness tool: Claude's session limits drain faster during peak hours (weekdays 1pm–7pm GMT), and most users don't know when those hours are in their timezone.
 
 **Live:** [promoclock.co](https://promoclock.co)
 
+## What it does
+
+Instantly tells you whether Claude's session limits are draining at normal speed or faster, based on your local timezone. No setup needed — open the page and you know.
+
+- **Peak hours (weekdays 13:00–19:00 UTC / 5am–11am PT):** session limits drain faster
+- **Off-peak (evenings, nights, weekends):** normal speed
+- **Weekly limits are unchanged** — only the rate of consumption within a session differs
+
 ## Features
 
-### Core Features
-- **Real-time timezone detection** — automatically reads your device timezone via `Intl.DateTimeFormat`
-- **Instant status display** — shows if you're in the 2x limit off-peak window right now
-- **Countdown timer** — live countdown to the next status change
-- **10 languages** — English, Hindi, Japanese, French, Portuguese, Korean, Spanish, German, Chinese (Simplified), Turkish
-- **Global schedule table** — peak/off-peak hours for 10 major cities
-- **Animated badge** — subtle shimmer effect on promotion badge
+### Core
+- **Real-time timezone detection** — reads your device timezone automatically via `Intl.DateTimeFormat`
+- **Instant status display** — clear peak/off-peak badge with live countdown to next change
+- **Global schedule table** — DST-aware local times for 10 major cities (IANA timezone names)
+- **10 languages** — English, Turkish, French, German, Spanish, Portuguese, Korean, Hindi, Japanese, Chinese (Simplified)
+- **Promotion history archive** — documents the March 2026 2x promotion for reference
 
 ### Developer Tools
-- **JSON API** (`/api/status`) — real-time promotion status for terminal integration
-- **Calendar sync** (`/api/calendar`) — downloadable .ics file with all peak/off-peak blocks and reminders
-- **Web push notifications** — browser notifications with sound alerts on status changes
-- **Terminal prompt integration** — ZSH/Bash snippets to show 🟢 2X or 🔴 1X in your prompt
+- **JSON API** (`/api/status`) — real-time peak hours status, rate-limited at 60 req/min per IP
+- **Terminal prompt integration** — ZSH/Bash snippets to show status in your prompt or statusline
+- **Browser notifications** — sound alert when Claude switches to off-peak mode
 
 ### SEO & Discoverability
 - **GEO-optimized** — JSON-LD schema (SoftwareApplication, FAQPage, HowTo), semantic HTML, hreflang tags
 - **LLM-friendly** — `/llms.txt` and `/llms-full.txt` for AI discoverability
-- **Sitemap & robots.txt** — proper indexing directives for search engines and LLM crawlers
+- **Sitemap & robots.txt** — proper indexing directives
 
-## Promotion Details
-
-- **Period:** March 13 – March 27, 2026 (11:59 PM PT)
-- **Peak hours:** Weekdays 8:00 AM – 2:00 PM ET (12:00 – 18:00 UTC)
-- **Off-peak (2x limits):** All other weekday hours + entire weekend
-- **Eligible plans:** Free, Pro, Max, Team
-- **DST note:** US Daylight Saving Time started March 8, 2026 → ET = EDT (UTC-4)
-
-## API Usage
-
-### JSON Status Endpoint
+## API
 
 ```bash
 curl https://promoclock.co/api/status
@@ -44,35 +40,22 @@ curl https://promoclock.co/api/status
 Response:
 ```json
 {
-  "emoji": "🟢",
-  "label": "2X — Off-peak limits active",
-  "limitsMultiplier": 2,
-  "isOffPeak": true,
-  "nextChange": "2026-03-16T18:00:00.000Z",
-  "minutesUntilChange": 960
+  "status": "peak",
+  "isPeak": true,
+  "isOffPeak": false,
+  "isWeekend": false,
+  "sessionLimitSpeed": "faster_than_normal",
+  "emoji": "🔴",
+  "label": "Peak Hours — Limits Drain Faster",
+  "peakHours": "Weekdays 5am–11am PT / 1pm–7pm GMT",
+  "nextChange": "2026-03-27T19:00:00.000Z",
+  "minutesUntilChange": 334,
+  "timestamp": "2026-03-27T13:25:00.000Z",
+  "note": "No known end date for peak hours adjustment. Weekly limits unchanged."
 }
 ```
 
-### Terminal Prompt Integration
-
-Add to your `~/.zshrc`:
-```bash
-claude_status() {
-  local status=$(curl -s https://promoclock.co/api/status | jq -r '.emoji + " " + (.limitsMultiplier | tostring) + "X"')
-  echo "$status"
-}
-
-PROMPT='$(claude_status) %~ %# '
-```
-
-### Calendar Sync
-
-Download .ics file with all promotion events:
-```bash
-curl -O https://promoclock.co/api/calendar
-```
-
-Or visit in browser to add to Google Calendar, Apple Calendar, or Outlook.
+Rate limit: 60 requests/minute per IP. Returns `429` with `Retry-After` header when exceeded.
 
 ## Tech Stack
 
@@ -80,7 +63,7 @@ Or visit in browser to add to Google Calendar, Apple Calendar, or Outlook.
 - Tailwind CSS v4
 - Framer Motion
 - TypeScript
-- Docker (multi-stage build)
+- Docker (multi-stage build), deployed on Hetzner
 
 ## Development
 
@@ -93,7 +76,7 @@ npm run dev
 
 ```bash
 docker build -t promoclock .
-docker run -p 3000:3000 promoclock
+docker run --network host -e PORT=3001 -e HOSTNAME=0.0.0.0 promoclock
 ```
 
 ## Disclaimer
