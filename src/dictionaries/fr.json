@@ -9,7 +9,7 @@
     "logo": "PromoClock",
     "nav": {
       "howItWorks": "Comment ça marche",
-      "eligibility": "Éligibilité",
+      "eligibility": "Plans",
       "schedule": "Horaires",
       "faq": "FAQ",
       "devTools": "Outils"
@@ -149,16 +149,10 @@
   },
   "devTools": {
     "title": "OUTILS DÉVELOPPEUR",
-    "subtitle": "Intégrez le statut des heures de pointe Claude dans votre workflow. API, terminal, synchronisation calendrier — sans navigateur.",
+    "subtitle": "Intégrez le statut des heures de pointe Claude dans votre workflow. API et terminal — sans navigateur.",
     "apiTitle": "API JSON & Intégration Terminal",
     "apiDescription": "L'endpoint /api/status renvoie le statut des heures de pointe en temps réel en JSON. Intégrez-le dans votre prompt ZSH/Bash.",
     "tryApi": "Essayer l'API",
-    "calendarTitle": "Synchronisation Calendrier (.ics)",
-    "calendarDescription": "Téléchargez un fichier .ics qui ajoute tous les créneaux peak/off-peak à votre calendrier — avec rappels.",
-    "calendarFeature1": "Blocs quotidiens off-peak / peak avec horaires UTC",
-    "calendarFeature2": "Rappels intégrés avant chaque transition",
-    "calendarFeature3": "Compatible Google Agenda, Apple Calendrier, Outlook",
-    "calendarDownload": "Ajouter au Calendrier",
     "notifTitle": "Notifications Navigateur & Alertes Sonores",
     "notifDescription": "Activez l'icône cloche dans l'en-tête pour recevoir une notification et un carillon doux dès que Claude passe en heures creuses (vitesse normale)."
   },

@@ -9,7 +9,7 @@
     "logo": "PromoClock",
     "nav": {
       "howItWorks": "Como Funciona",
-      "eligibility": "Elegibilidade",
+      "eligibility": "Planos",
       "schedule": "Horários",
       "faq": "FAQ",
       "devTools": "Ferramentas"
@@ -145,16 +145,10 @@
   },
   "devTools": {
     "title": "FERRAMENTAS PARA DEVS",
-    "subtitle": "Integre o status de horário de pico do Claude ao seu workflow. API, terminal, calendário — sem navegador.",
+    "subtitle": "Integre o status de horário de pico do Claude ao seu workflow. API e terminal — sem navegador.",
     "apiTitle": "JSON API & Integração de Terminal",
     "apiDescription": "O endpoint /api/status retorna o status de horário de pico em tempo real como JSON. Integre ao seu prompt ZSH/Bash.",
     "tryApi": "Testar a API",
-    "calendarTitle": "Sincronização de Calendário (.ics)",
-    "calendarDescription": "Baixe um arquivo .ics que adiciona todos os horários peak/off-peak ao seu calendário — com lembretes.",
-    "calendarFeature1": "Blocos diários off-peak / peak com horários UTC corretos",
-    "calendarFeature2": "Lembretes embutidos antes de cada transição",
-    "calendarFeature3": "Funciona com Google Agenda, Apple Calendar, Outlook",
-    "calendarDownload": "Adicionar ao Calendário",
     "notifTitle": "Notificações do Navegador e Alertas Sonoros",
     "notifDescription": "Ative o ícono do sino no cabeçalho para receber notificações e um som suave quando Claude entrar no modo fora de pico (velocidade normal)."
   },

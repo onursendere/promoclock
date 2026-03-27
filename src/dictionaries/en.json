@@ -9,7 +9,7 @@
     "logo": "PromoClock",
     "nav": {
       "howItWorks": "How It Works",
-      "eligibility": "Eligibility",
+      "eligibility": "Plans",
       "schedule": "Schedule",
       "faq": "FAQ",
       "devTools": "Tools"
@@ -149,16 +149,10 @@
   },
   "devTools": {
     "title": "DEVELOPER TOOLS",
-    "subtitle": "Integrate Claude's peak hours status into your workflow. API endpoint, terminal prompt, calendar sync — no browser needed.",
+    "subtitle": "Integrate Claude's peak hours status into your workflow. API endpoint and terminal prompt — no browser needed.",
     "apiTitle": "JSON API & Terminal Integration",
     "apiDescription": "A public /api/status endpoint returns real-time peak hours status as JSON. Pipe it into your ZSH/Bash prompt to see your current status right in your terminal.",
     "tryApi": "Try the live API",
-    "calendarTitle": "Calendar Sync (.ics)",
-    "calendarDescription": "Download a single .ics file that adds every peak and off-peak window to your calendar — with reminders. Works with Google Calendar, Apple Calendar, and Outlook.",
-    "calendarFeature1": "Daily off-peak / peak blocks with correct UTC times",
-    "calendarFeature2": "Built-in reminders before each transition",
-    "calendarFeature3": "Works with Google Calendar, Apple Calendar, Outlook",
-    "calendarDownload": "Add to Calendar",
     "notifTitle": "Browser Notifications & Sound Alerts",
     "notifDescription": "Enable the bell icon in the header to receive a browser notification and a gentle chime the instant Claude switches to off-peak mode — when session limits return to normal speed."
   },

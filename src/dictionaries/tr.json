@@ -9,7 +9,7 @@
     "logo": "PromoClock",
     "nav": {
       "howItWorks": "Nasıl Çalışır",
-      "eligibility": "Uygunluk",
+      "eligibility": "Planlar",
       "schedule": "Takvim",
       "faq": "SSS",
       "devTools": "Araçlar"
@@ -149,16 +149,10 @@
   },
   "devTools": {
     "title": "GELİŞTİRİCİ ARAÇLARI",
-    "subtitle": "Claude yoğun saat durumunu iş akışınıza entegre edin. API, terminal prompt'u, takvim senkronizasyonu — tarayıcıya gerek yok.",
+    "subtitle": "Claude yoğun saat durumunu iş akışınıza entegre edin. API endpoint ve terminal prompt'u — tarayıcıya gerek yok.",
     "apiTitle": "JSON API & Terminal Entegrasyonu",
     "apiDescription": "Herkese açık /api/status endpoint'i, yoğun saat durumunu gerçek zamanlı JSON olarak döner. ZSH/Bash prompt'unuza entegre edin.",
-    "tryApi": "API'yi dene",
-    "calendarTitle": "Takvim Senkronizasyonu (.ics)",
-    "calendarDescription": "Tüm yoğun ve yoğun olmayan saatleri takviminize ekleyen tek bir .ics dosyası indirin — hatırlatıcılarla birlikte.",
-    "calendarFeature1": "Doğru UTC saatleriyle günlük off-peak / peak blokları",
-    "calendarFeature2": "Her geçiş öncesi yerleşik hatırlatıcılar",
-    "calendarFeature3": "Google Takvim, Apple Takvim, Outlook ile çalışır",
-    "calendarDownload": "Takvime Ekle",
+    "tryApi": "Canlı API'yi dene",
     "notifTitle": "Tarayıcı Bildirimleri ve Sesli Uyarılar",
     "notifDescription": "Başlıktaki zil simgesini etkinleştirin — Claude yoğun olmayan moda geçtiğinde (limitler normal hıza döndüğünde) anında tarayıcı bildirimi ve yumuşak bir zil sesi alın."
   },

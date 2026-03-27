@@ -9,7 +9,7 @@
     "logo": "PromoClock",
     "nav": {
       "howItWorks": "So funktioniert's",
-      "eligibility": "Berechtigung",
+      "eligibility": "Pläne",
       "schedule": "Zeitplan",
       "faq": "FAQ",
       "devTools": "Tools"
@@ -145,16 +145,10 @@
   },
   "devTools": {
     "title": "ENTWICKLER-TOOLS",
-    "subtitle": "Integrieren Sie Claudes Hauptzeiten-Status in Ihren Workflow. API, Terminal-Prompt, Kalender-Sync — kein Browser nötig.",
+    "subtitle": "Integrieren Sie Claudes Hauptzeiten-Status in Ihren Workflow. API-Endpunkt und Terminal-Prompt — kein Browser nötig.",
     "apiTitle": "JSON API & Terminal-Integration",
     "apiDescription": "Der /api/status Endpunkt liefert den Echtzeit-Hauptzeiten-Status als JSON. Integrieren Sie ihn in Ihren ZSH/Bash-Prompt.",
     "tryApi": "API ausprobieren",
-    "calendarTitle": "Kalender-Sync (.ics)",
-    "calendarDescription": "Laden Sie eine .ics-Datei herunter, die alle Peak/Off-Peak-Zeitfenster in Ihren Kalender einträgt — mit Erinnerungen.",
-    "calendarFeature1": "Tägliche Off-Peak/Peak-Blöcke mit korrekten UTC-Zeiten",
-    "calendarFeature2": "Eingebaute Erinnerungen vor jedem Wechsel",
-    "calendarFeature3": "Kompatibel mit Google Kalender, Apple Kalender, Outlook",
-    "calendarDownload": "Zum Kalender hinzufügen",
     "notifTitle": "Browser-Benachrichtigungen & Ton-Alerts",
     "notifDescription": "Aktivieren Sie das Glockensymbol im Header, um eine Benachrichtigung und einen sanften Klang zu erhalten, sobald Claude in die Nebenzeiten wechselt (normale Limits)."
   },

@@ -9,7 +9,7 @@
     "logo": "PromoClock",
     "nav": {
       "howItWorks": "工作原理",
-      "eligibility": "资格条件",
+      "eligibility": "计划",
       "schedule": "时间表",
       "faq": "常见问题",
       "devTools": "工具"
@@ -145,16 +145,10 @@
   },
   "devTools": {
     "title": "开发者工具",
-    "subtitle": "将Claude高峰时段状态集成到您的工作流程中。API、终端、日历——无需浏览器。",
+    "subtitle": "将Claude高峰时段状态集成到您的工作流程中。API和终端——无需浏览器。",
     "apiTitle": "JSON API & 终端集成",
     "apiDescription": "/api/status端点实时返回高峰时段状态JSON。集成到您的ZSH/Bash提示符中。",
     "tryApi": "试用API",
-    "calendarTitle": "日历同步（.ics）",
-    "calendarDescription": "下载一个.ics文件，将所有高峰/非高峰时段添加到您的日历中——带提醒。",
-    "calendarFeature1": "每日非高峰/高峰时段块，含正确UTC时间",
-    "calendarFeature2": "每次切换前的内置提醒",
-    "calendarFeature3": "兼容Google日历、Apple日历、Outlook",
-    "calendarDownload": "添加到日历",
     "notifTitle": "浏览器通知和声音提醒",
     "notifDescription": "启用标题栏的铃铛图标，当Claude切换到非高峰（正常速度）时立即收到浏览器通知和柔和铃声。"
   },

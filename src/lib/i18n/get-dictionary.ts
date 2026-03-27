@@ -106,12 +106,6 @@ export interface Dictionary {
     apiTitle: string;
     apiDescription: string;
     tryApi: string;
-    calendarTitle: string;
-    calendarDescription: string;
-    calendarFeature1: string;
-    calendarFeature2: string;
-    calendarFeature3: string;
-    calendarDownload: string;
     notifTitle: string;
     notifDescription: string;
   };

@@ -9,7 +9,7 @@
     "logo": "PromoClock",
     "nav": {
       "howItWorks": "작동 방식",
-      "eligibility": "자격 요건",
+      "eligibility": "플랜",
       "schedule": "시간표",
       "faq": "FAQ",
       "devTools": "도구"
@@ -145,16 +145,10 @@
   },
   "devTools": {
     "title": "개발자 도구",
-    "subtitle": "Claude 피크 시간 상태를 워크플로에 통합하세요. API, 터미널, 캘린더 — 브라우저 불필요.",
+    "subtitle": "Claude 피크 시간 상태를 워크플로에 통합하세요. API와 터미널 — 브라우저 불필요.",
     "apiTitle": "JSON API & 터미널 통합",
     "apiDescription": "/api/status 엔드포인트가 실시간 피크 시간 상태를 JSON으로 반환합니다. ZSH/Bash 프롬프트에 통합하세요.",
     "tryApi": "API 체험하기",
-    "calendarTitle": "캘린더 동기화 (.ics)",
-    "calendarDescription": "모든 피크/오프피크 시간대를 캘린더에 추가하는 .ics 파일을 다운로드하세요 — 알림 포함.",
-    "calendarFeature1": "정확한 UTC 시간의 일일 오프피크 / 피크 블록",
-    "calendarFeature2": "각 전환 전 내장 알림",
-    "calendarFeature3": "Google 캘린더, Apple 캘린더, Outlook 호환",
-    "calendarDownload": "캘린더에 추가",
     "notifTitle": "브라우저 알림 & 소리 알림",
     "notifDescription": "헤더의 벨 아이콘을 활성화하면 Claude가 비피크(정상 속도)로 전환되는 순간 브라우저 알림과 부드러운 차임을 받을 수 있습니다."
   },
