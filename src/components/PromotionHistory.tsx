@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Archive, ExternalLink } from "lucide-react";
+import { Archive } from "lucide-react";
 
 const PAST_PROMOTIONS = [
   {
@@ -10,16 +10,6 @@ const PAST_PROMOTIONS = [
     description:
       "Anthropic ran a 2x session limits promotion during off-peak hours (outside weekdays 8 AM – 2 PM ET). Free, Pro, Max, and Team plans received doubled message and context limits during off-peak windows.",
     status: "ENDED",
-    sources: [
-      {
-        label: "ghacks.net — Claude doubled usage limits",
-        url: "https://www.ghacks.net/2026/03/14/anthropic-doubled-claude-usage-limits-for-free-pro-max-and-teams-users/",
-      },
-      {
-        label: "theregister.com — Claude 2x limits article",
-        url: "https://www.theregister.com/2026/03/14/anthropic_doubles_claude_usage_limits/",
-      },
-    ],
   },
 ];
 
@@ -76,28 +66,6 @@ export default function PromotionHistory() {
                 {promo.description}
               </p>
 
-              {promo.sources.length > 0 && (
-                <div className="border-t border-border pt-4">
-                  <p className="text-xs font-semibold text-muted uppercase tracking-widest mb-3">
-                    Sources
-                  </p>
-                  <ul className="space-y-2">
-                    {promo.sources.map((src, j) => (
-                      <li key={j}>
-                        <a
-                          href={src.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 text-xs text-secondary hover:text-foreground transition-colors"
-                        >
-                          <ExternalLink size={12} className="shrink-0" />
-                          {src.label}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
             </motion.div>
           ))}
         </div>
