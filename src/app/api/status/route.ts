@@ -2,8 +2,10 @@ import { NextResponse } from "next/server";
 
 const PROMO_START = Date.UTC(2026, 2, 13, 0, 0, 0);
 const PROMO_END = Date.UTC(2026, 2, 28, 6, 59, 0);
-const PEAK_START_UTC = 12;
-const PEAK_END_UTC = 18;
+// New peak hours system (March 27, 2026 update)
+// Peak hours: weekdays 5am-11am PT / 1pm-7pm GMT
+const PEAK_START_UTC = 13;
+const PEAK_END_UTC = 19;
 
 export const dynamic = "force-dynamic";
 
@@ -14,32 +16,22 @@ export function GET() {
   const isNotStarted = nowUTC < PROMO_START;
   const isExpired = nowUTC > PROMO_END;
 
-  if (isNotStarted) {
+  // Promotion ended - now showing peak hours status
+  if (isNotStarted || isExpired) {
+    const dayUTC = now.getUTCDay();
+    const hourUTC = now.getUTCHours();
+    const isWeekend = dayUTC === 0 || dayUTC === 6;
+    const isPeak = !isWeekend && hourUTC >= PEAK_START_UTC && hourUTC < PEAK_END_UTC;
+    const isOffPeak = !isPeak;
+    
     return NextResponse.json({
-      status: "not_started",
-      isOffPeak: false,
-      isPeak: false,
-      limitsMultiplier: 1,
-      emoji: "⏳",
-      label: "1X — Promotion starts March 13",
-      promotionStart: new Date(PROMO_START).toISOString(),
-      promotionEnd: new Date(PROMO_END).toISOString(),
-      timestamp: now.toISOString(),
-      utcHour: now.getUTCHours(),
-      utcDay: now.getUTCDay(),
-    });
-  }
-
-  if (isExpired) {
-    return NextResponse.json({
-      status: "expired",
-      isOffPeak: false,
-      isPeak: false,
-      limitsMultiplier: 1,
-      emoji: "⏹️",
-      label: "1X — Promotion ended",
-      promotionStart: new Date(PROMO_START).toISOString(),
-      promotionEnd: new Date(PROMO_END).toISOString(),
+      status: isOffPeak ? "off_peak" : "peak",
+      isOffPeak: isOffPeak,
+      isPeak: isPeak,
+      sessionLimitSpeed: isPeak ? "faster" : "slower",
+      emoji: isPeak ? "🔴" : "🟢",
+      label: isPeak ? "Peak Hours — Faster Session Limits" : "Off-Peak — Slower Session Limits",
+      peakHours: "Weekdays 5am-11am PT / 1pm-7pm GMT",
       timestamp: now.toISOString(),
       utcHour: now.getUTCHours(),
       utcDay: now.getUTCDay(),
@@ -52,7 +44,8 @@ export function GET() {
   const isPeak = !isWeekend && hourUTC >= PEAK_START_UTC && hourUTC < PEAK_END_UTC;
   const isOffPeak = !isPeak;
 
-  // Calculate next change
+  // This code path should never be reached since promo is expired
+  // But keeping it for backwards compatibility
   const year = now.getUTCFullYear();
   const month = now.getUTCMonth();
   const date = now.getUTCDate();
@@ -76,22 +69,20 @@ export function GET() {
     }
   }
 
-  nextChange = Math.min(nextChange, PROMO_END);
   const msUntilChange = nextChange - nowUTC;
 
   return NextResponse.json({
-    status: "active",
+    status: isOffPeak ? "off_peak" : "peak",
     isOffPeak,
     isPeak,
     isWeekend,
-    limitsMultiplier: isOffPeak ? 2 : 1,
-    emoji: isOffPeak ? "🟢" : "🔴",
-    label: isOffPeak ? "2X — Off-peak limits active" : "1X — Peak hours (standard limits)",
+    sessionLimitSpeed: isPeak ? "faster" : "slower",
+    emoji: isPeak ? "�" : "�",
+    label: isPeak ? "Peak Hours — Faster Session Limits" : "Off-Peak — Slower Session Limits",
     nextChange: new Date(nextChange).toISOString(),
     minutesUntilChange: Math.floor(msUntilChange / 60000),
     peakWindowUTC: `${PEAK_START_UTC}:00–${PEAK_END_UTC}:00 weekdays`,
-    promotionStart: new Date(PROMO_START).toISOString(),
-    promotionEnd: new Date(PROMO_END).toISOString(),
+    peakHours: "Weekdays 5am-11am PT / 1pm-7pm GMT",
     timestamp: now.toISOString(),
     utcHour: hourUTC,
     utcDay: dayUTC,

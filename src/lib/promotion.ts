@@ -15,8 +15,10 @@ export interface PromotionStatus {
 const PROMO_START = Date.UTC(2026, 2, 13, 0, 0, 0);
 const PROMO_END = Date.UTC(2026, 2, 28, 6, 59, 0);
 
-const PEAK_START_UTC = 12;
-const PEAK_END_UTC = 18;
+// New peak hours system (March 27, 2026 update)
+// Peak hours: weekdays 5am-11am PT / 1pm-7pm GMT
+const PEAK_START_UTC = 13;
+const PEAK_END_UTC = 19;
 
 export function getPromotionStatus(now: Date = new Date()): PromotionStatus {
   const nowUTC = now.getTime();
@@ -155,70 +157,70 @@ export const CITY_SCHEDULES: CitySchedule[] = [
     city: "New York",
     timezone: "EDT",
     utcOffset: "UTC-4",
-    peakLocal: "08:00 – 14:00",
-    offPeakLocal: "14:00 – 08:00",
+    peakLocal: "09:00 – 15:00",
+    offPeakLocal: "15:00 – 09:00",
   },
   {
     city: "San Francisco",
     timezone: "PDT",
     utcOffset: "UTC-7",
-    peakLocal: "05:00 – 11:00",
-    offPeakLocal: "11:00 – 05:00",
+    peakLocal: "06:00 – 12:00",
+    offPeakLocal: "12:00 – 06:00",
   },
   {
     city: "London",
-    timezone: "GMT",
-    utcOffset: "UTC+0",
-    peakLocal: "12:00 – 18:00",
-    offPeakLocal: "18:00 – 12:00",
+    timezone: "BST",
+    utcOffset: "UTC+1",
+    peakLocal: "14:00 – 20:00",
+    offPeakLocal: "20:00 – 14:00",
   },
   {
     city: "Paris",
-    timezone: "CET",
-    utcOffset: "UTC+1",
-    peakLocal: "13:00 – 19:00",
-    offPeakLocal: "19:00 – 13:00",
+    timezone: "CEST",
+    utcOffset: "UTC+2",
+    peakLocal: "15:00 – 21:00",
+    offPeakLocal: "21:00 – 15:00",
   },
   {
     city: "Istanbul",
     timezone: "TRT",
     utcOffset: "UTC+3",
-    peakLocal: "15:00 – 21:00",
-    offPeakLocal: "21:00 – 15:00",
+    peakLocal: "16:00 – 22:00",
+    offPeakLocal: "22:00 – 16:00",
   },
   {
     city: "New Delhi",
     timezone: "IST",
     utcOffset: "UTC+5:30",
-    peakLocal: "17:30 – 23:30",
-    offPeakLocal: "23:30 – 17:30",
+    peakLocal: "18:30 – 00:30",
+    offPeakLocal: "00:30 – 18:30",
   },
   {
     city: "Tokyo",
     timezone: "JST",
     utcOffset: "UTC+9",
-    peakLocal: "21:00 – 03:00",
-    offPeakLocal: "03:00 – 21:00",
+    peakLocal: "22:00 – 04:00",
+    offPeakLocal: "04:00 – 22:00",
   },
   {
     city: "Seoul",
     timezone: "KST",
     utcOffset: "UTC+9",
-    peakLocal: "21:00 – 03:00",
-    offPeakLocal: "03:00 – 21:00",
+    peakLocal: "22:00 – 04:00",
+    offPeakLocal: "04:00 – 22:00",
   },
   {
     city: "Beijing",
     timezone: "CST",
     utcOffset: "UTC+8",
-    peakLocal: "20:00 – 02:00",
-    offPeakLocal: "02:00 – 20:00",
+    peakLocal: "21:00 – 03:00",
+    offPeakLocal: "03:00 – 21:00",
   },
   {
     city: "São Paulo",
     timezone: "BRT",
     utcOffset: "UTC-3",
-    peakLocal: "09:00 – 15:00",
-    offPeakLocal: "15:00 – 09:00",
+    peakLocal: "10:00 – 16:00",
+    offPeakLocal: "16:00 – 10:00",
   },
 ];

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Mart 2026 Yoğun Olmayan Saat Promosyon Takipçisi",
-    "description": "Claude'un 2 kat limit promosyon penceresinde olup olmadığınızı anında kontrol edin. Mart 2026 promosyonu için gerçek zamanlı saat dilimi algılama.",
-    "ogTitle": "PromoClock — Şu An Claude'un 2 Kat Limit Penceresinde misiniz?",
-    "ogDescription": "Saat dilimi hesaplamalarıyla uğraşmayı bırakın. PromoClock, Claude'un Mart 2026 promosyonunun yerel saatinizde aktif olup olmadığını anında söyler."
+    "title": "PromoClock — Claude Oturum Limitleri Takipçisi",
+    "description": "Claude'un yoğun saatlerini kendi saat diliminizde takip edin. Oturum limitleri yoğun saatlerde (hafta içi 5am-11am PT / 1pm-7pm GMT) daha hızlı ilerler. Free, Pro, Max & Team planları için gerçek zamanlı durum.",
+    "ogTitle": "PromoClock — Şu An Claude'un Yoğun Saatlerinde misiniz?",
+    "ogDescription": "Saat dilimi hesaplamalarıyla uğraşmayı bırakın. PromoClock, Claude'un oturum limitlerinin daha hızlı ilerlediği yoğun saatlerde olup olmadığınızı anında söyler."
   },
   "header": {
     "logo": "PromoClock",
@@ -16,15 +16,15 @@
     }
   },
   "hero": {
-    "badge": "CLAUDE MART 2026 PROMOSYONU",
-    "promotionActive": "2X LİMİTLER ŞU AN AKTİF",
-    "promotionInactive": "STANDART LİMİTLER (1X) AKTİF",
-    "promotionExpired": "PROMOSYON SONA ERDİ",
-    "promotionNotStarted": "PROMOSYON 13 MART'TA BAŞLIYOR",
-    "activeSubtitle": "Yoğun olmayan saatlerde 2 kat mesaj ve bağlam limiti aktif. Tüm Claude platformlarında geçerli.",
-    "inactiveSubtitle": "Yoğun saatler — standart limitler geçerli. 2X limitler yakında geri dönecek.",
-    "expiredSubtitle": "Claude Mart 2026 promosyonu 27 Mart 2026 saat 23:59 PT'de sona erdi.",
-    "notStartedSubtitle": "Yoğun olmayan saat promosyonu 13 Mart 2026'da başlıyor. Yakında tekrar kontrol edin.",
+    "badge": "CLAUDE OTURUM LİMİTLERİ",
+    "promotionActive": "YOĞUN OLMAYAN SAATLER — YAVAŞ LİMİTLER",
+    "promotionInactive": "YOĞUN SAATLER — HIZLI LİMİTLER",
+    "promotionExpired": "YOĞUN OLMAYAN SAATLER — YAVAŞ LİMİTLER",
+    "promotionNotStarted": "YOĞUN OLMAYAN SAATLER — YAVAŞ LİMİTLER",
+    "activeSubtitle": "Yoğun olmayan saatler — 5 saatlik oturum limitiniz daha yavaş ilerler. Token-yoğun işler için en iyi zaman.",
+    "inactiveSubtitle": "Yoğun saatler (hafta içi 5am-11am PT / 1pm-7pm GMT) — oturum limitleri daha hızlı ilerler. Haftalık limitler değişmedi.",
+    "expiredSubtitle": "Yoğun olmayan saatler — 5 saatlik oturum limitiniz daha yavaş ilerler. Token-yoğun işler için en iyi zaman.",
+    "notStartedSubtitle": "Yoğun olmayan saatler — 5 saatlik oturum limitiniz daha yavaş ilerler. Token-yoğun işler için en iyi zaman.",
     "countdownLabel": "Sonraki durum değişikliğine kalan",
     "yourTimezone": "Saat diliminiz",
     "yourLocalTime": "Yerel saatiniz",
@@ -32,10 +32,10 @@
     "hours": "SAAT",
     "minutes": "DAK",
     "seconds": "SAN",
-    "peakHours": "Yoğun Saatler (Standart Limit)",
-    "offPeakHours": "Yoğun Olmayan Saatler (2 Kat Limit)",
+    "peakHours": "Yoğun Saatler (Hızlı Oturum Limitleri)",
+    "offPeakHours": "Yoğun Olmayan Saatler (Yavaş Oturum Limitleri)",
     "weekdays": "Hafta İçi",
-    "allWeekend": "Tüm Hafta Sonu (2 Kat Limit)"
+    "allWeekend": "Tüm Hafta Sonu (Yavaş Limitler)"
   },
   "howItWorks": {
     "title": "NASIL ÇALIŞIR",
