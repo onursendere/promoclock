@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Suivi de la Promotion Heures Creuses Claude Mars 2026",
-    "description": "Vérifiez instantanément si vous êtes dans la fenêtre de limites 2x de Claude. Détection de fuseau horaire en temps réel pour la promotion de mars 2026.",
-    "ogTitle": "PromoClock — Êtes-vous dans la fenêtre de limites 2x de Claude en ce moment ?",
-    "ogDescription": "Arrêtez de calculer les fuseaux horaires. PromoClock vous indique instantanément si la promotion heures creuses de Claude mars 2026 est active dans votre heure locale."
+    "title": "PromoClock — Suivi des Limites de Session Claude",
+    "description": "Suivez les heures de pointe Claude dans votre fuseau horaire. Les limites de session s'écoulent plus vite pendant les heures de pointe (lundi–vendredi 13h–19h GMT). Statut temps réel pour Free, Pro, Max & Team.",
+    "ogTitle": "PromoClock — Êtes-vous dans les heures de pointe Claude en ce moment ?",
+    "ogDescription": "Arrêtez de calculer les fuseaux horaires. PromoClock vous indique instantanément si vous êtes dans les heures de pointe où les limites de session s'écoulent plus vite."
   },
   "header": {
     "logo": "PromoClock",
@@ -16,15 +16,15 @@
     }
   },
   "hero": {
-    "badge": "PROMOTION CLAUDE MARS 2026",
-    "promotionActive": "LIMITES 2X ACTIVES MAINTENANT",
-    "promotionInactive": "LIMITES STANDARD (1X) ACTIVES",
-    "promotionExpired": "LA PROMOTION EST TERMINÉE",
-    "promotionNotStarted": "LA PROMOTION COMMENCE LE 13 MARS",
-    "activeSubtitle": "Heures creuses — limites 2x de messages et contexte actives sur toutes les plateformes Claude.",
-    "inactiveSubtitle": "Heures de pointe — limites standard appliquées. Les limites 2X reviennent bientôt.",
-    "expiredSubtitle": "La promotion Claude mars 2026 s'est terminée le 27 mars 2026 à 23h59 PT.",
-    "notStartedSubtitle": "La promotion heures creuses commence le 13 mars 2026. Revenez bientôt.",
+    "badge": "LIMITES DE SESSION CLAUDE",
+    "promotionActive": "HEURES CREUSES — LIMITES PLUS LENTES",
+    "promotionInactive": "HEURES DE POINTE — LIMITES PLUS RAPIDES",
+    "promotionExpired": "HEURES CREUSES — LIMITES PLUS LENTES",
+    "promotionNotStarted": "HEURES CREUSES — LIMITES PLUS LENTES",
+    "activeSubtitle": "Heures creuses — vos limites de session 5h s'écoulent plus lentement. Idéal pour les tâches intensives en tokens.",
+    "inactiveSubtitle": "Heures de pointe (lun–ven 13h–19h GMT) — les limites de session s'écoulent plus vite. Limites hebdomadaires inchangées.",
+    "expiredSubtitle": "Heures creuses — vos limites de session 5h s'écoulent plus lentement.",
+    "notStartedSubtitle": "Heures creuses — vos limites de session 5h s'écoulent plus lentement.",
     "countdownLabel": "Jusqu'au prochain changement",
     "yourTimezone": "Votre fuseau horaire",
     "yourLocalTime": "Votre heure locale",
@@ -32,10 +32,10 @@
     "hours": "HEURES",
     "minutes": "MIN",
     "seconds": "SEC",
-    "peakHours": "Heures de pointe (Limites standard)",
-    "offPeakHours": "Heures creuses (Limites 2x)",
+    "peakHours": "Heures de pointe (Limites plus rapides)",
+    "offPeakHours": "Heures creuses (Limites plus lentes)",
     "weekdays": "Jours ouvrables",
-    "allWeekend": "Tout le week-end (Limites 2x)"
+    "allWeekend": "Tout le week-end (Limites plus lentes)"
   },
   "howItWorks": {
     "title": "COMMENT ÇA MARCHE",
@@ -47,111 +47,111 @@
       },
       {
         "title": "NOUS CALCULONS EN TEMPS RÉEL",
-        "description": "Notre moteur compare votre heure locale avec la fenêtre de pointe officielle d'Anthropic (8h – 14h ET, jours ouvrables) en tenant compte du changement d'heure américain."
+        "description": "Notre moteur compare votre heure locale avec les heures de pointe Claude (lun–ven 13h–19h GMT / 5h–11h PST) en temps réel."
       },
       {
         "title": "VOUS VOYEZ VOTRE STATUT",
-        "description": "Un affichage clair et en temps réel vous indique si vos limites sont doublées — plus un compte à rebours jusqu'au prochain changement."
+        "description": "Un affichage clair indique si vous êtes en heures de pointe (limites plus rapides) ou en heures creuses (plus lentes) — avec un compte à rebours."
       }
     ]
   },
   "eligibility": {
-    "title": "ÉLIGIBILITÉ",
-    "subtitle": "Vérifiez si votre plan Claude est éligible à la promotion heures creuses de mars 2026.",
-    "eligible": "Éligible",
-    "notEligible": "Non éligible",
+    "title": "QUI EST CONCERNÉ",
+    "subtitle": "L'ajustement des limites de session s'applique à tous les niveaux d'abonnement Claude.",
+    "eligible": "Concerné",
+    "notEligible": "Non concerné",
     "plans": [
       {
         "name": "Free",
         "status": true,
-        "description": "L'immense base d'utilisateurs touchant les limites le plus souvent. La capacité 2x est une opportunité critique pour explorer la plateforme."
+        "description": "Les limites de session s'écoulent plus vite pendant les heures de pointe. Décalez les tâches intensives en tokens vers les heures creuses."
       },
       {
         "name": "Pro",
         "status": true,
-        "description": "Professionnels individuels et utilisateurs intensifs. Particulièrement précieux pour les développeurs utilisant Claude Code."
+        "description": "~7% des utilisateurs Pro atteindront des limites qu'ils n'auraient pas atteintes avant. Les heures creuses sont idéales pour les charges lourdes."
       },
       {
         "name": "Max",
         "status": true,
-        "description": "Utilisateurs avancés exécutant des agents autonomes et du traitement de données intensif. Les limites doublées permettent un travail ininterrompu."
+        "description": "Les limites de session s'écoulent plus vite pendant les heures de pointe. Planifiez agents et traitements de données en heures creuses."
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Espaces de travail pour PME. Améliore les interactions collaboratives sur Claude Cowork."
+        "description": "Les espaces Team sont concernés. Coordonnez les charges lourdes en heures creuses."
       },
       {
         "name": "Enterprise",
         "status": false,
-        "description": "Les plans Enterprise disposent de capacité dédiée et de contrats personnalisés, ils sont donc exclus de cette promotion."
+        "description": "Les plans Enterprise ont une capacité dédiée et des contrats personnalisés — non concernés par ces ajustements."
       }
     ],
     "platforms": {
       "title": "Disponible sur toutes les interfaces Claude",
       "items": ["Web (claude.ai)", "Bureau (Mac / Windows)", "Mobile (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Compléments Excel et PowerPoint"]
     },
-    "note": "L'utilisation bonus heures creuses ne consomme pas vos limites d'utilisation hebdomadaires. Elle fonctionne comme un pool bonus entièrement indépendant."
+    "note": "Les limites hebdomadaires restent inchangées. Les limites de session s'écoulent seulement plus vite pendant les heures de pointe (lun–ven 13h–19h GMT)."
   },
   "schedule": {
     "title": "HORAIRES MONDIAUX",
-    "subtitle": "Consultez les heures d'activation des limites 2x dans les grandes villes. Heures de pointe : jours ouvrables 8h – 14h ET (12:00 – 18:00 UTC).",
+    "subtitle": "Consultez les heures de pointe (limites plus rapides) dans les grandes villes. Heures de pointe : lun–ven 13h–19h GMT / 5h–11h PST.",
     "tableHeaders": {
       "city": "Ville / Région",
       "timezone": "Fuseau horaire",
-      "peakHours": "Heures de pointe (Standard)",
-      "offPeakHours": "Heures creuses (2x)"
+      "peakHours": "Heures de pointe (Limites rapides)",
+      "offPeakHours": "Heures creuses (Limites lentes)"
     },
     "weekdayLabel": "Jours ouvrables",
-    "weekendLabel": "Tout le week-end → Limites 2x"
+    "weekendLabel": "Tout le week-end → Limites plus lentes"
   },
   "faq": {
     "title": "QUESTIONS RÉPONDUES",
-    "subtitle": "Tout ce que vous devez savoir sur la promotion heures creuses Claude mars 2026.",
+    "subtitle": "Tout ce que vous devez savoir sur le système de limites de session Claude.",
     "items": [
       {
-        "question": "Qu'est-ce que la promotion heures creuses Claude mars 2026 ?",
-        "answer": "Anthropic a lancé une promotion du 13 au 27 mars 2026 qui double les limites de messages et de contexte pendant les heures creuses pour mieux répartir la charge serveur."
+        "question": "Qu'est-ce qui a changé avec les limites de session Claude ?",
+        "answer": "À partir du 27 mars 2026, Claude a ajusté le fonctionnement des limites de session de 5h. Pendant les heures de pointe (lun–ven 13h–19h GMT), les limites s'écoulent plus vite. Les limites hebdomadaires restent inchangées — seule leur distribution dans la semaine change."
       },
       {
-        "question": "Quand exactement sont les heures creuses ?",
-        "answer": "Les heures creuses sont tous les moments en dehors de 8h à 14h heure de l'Est (ET) les jours ouvrables. Les soirées et nuits en semaine, plus tout le week-end sont éligibles aux limites 2x."
+        "question": "Quand sont exactement les heures de pointe ?",
+        "answer": "Les heures de pointe sont les lundi–vendredi de 13h à 19h GMT (5h–11h PST). Les soirées, nuits en semaine et tout le week-end sont des heures creuses avec des limites qui s'écoulent plus lentement."
       },
       {
-        "question": "À quelle heure Claude est-il en heures creuses dans mon fuseau ?",
-        "answer": "PromoClock détecte automatiquement le fuseau horaire de votre appareil et affiche vos fenêtres locales exactes."
+        "question": "À quelle heure sont les heures de pointe dans mon fuseau ?",
+        "answer": "PromoClock détecte automatiquement votre fuseau horaire et affiche votre statut en temps réel en haut de page."
       },
       {
-        "question": "Quels plans Claude sont éligibles ?",
-        "answer": "Les plans Free, Pro, Max et Team sont tous éligibles. Les plans Enterprise sont exclus car ils disposent de capacité dédiée."
+        "question": "Quels plans sont concernés ?",
+        "answer": "Les plans Free, Pro, Max et Team sont tous concernés. Les plans Enterprise ne le sont pas car ils ont une capacité dédiée."
       },
       {
-        "question": "L'utilisation heures creuses compte-t-elle contre mes limites hebdomadaires ?",
-        "answer": "Non. La capacité supplémentaire obtenue pendant les heures creuses fonctionne comme un pool bonus indépendant."
+        "question": "Mes limites hebdomadaires changent-elles ?",
+        "answer": "Non. Vos limites hebdomadaires restent exactement les mêmes. Seule la vitesse à laquelle vous consommez vos limites de session 5h pendant les heures de pointe a changé."
       },
       {
-        "question": "Dois-je activer la promotion manuellement ?",
-        "answer": "Non. La promotion est appliquée automatiquement à tous les plans éligibles entre le 13 et le 27 mars 2026."
+        "question": "Comment maximiser mes limites de session ?",
+        "answer": "Décalez les tâches intensives en tokens vers les heures creuses (soirées/nuits en semaine et tout le week-end). Les limites s'écoulent plus lentement pendant ces périodes."
       },
       {
-        "question": "Sur quelles plateformes la limite 2x s'applique-t-elle ?",
-        "answer": "Les limites doublées s'appliquent sur toutes les interfaces : claude.ai, apps bureau et mobile, Claude Cowork, Claude Code et les compléments Excel/PowerPoint."
+        "question": "Sur quelles plateformes cela s'applique-t-il ?",
+        "answer": "Les ajustements de limites de session s'appliquent sur toutes les interfaces Claude : claude.ai, apps bureau et mobile, Claude Cowork, Claude Code et les compléments Excel/PowerPoint."
       },
       {
-        "question": "Comment le changement d'heure américain affecte-t-il la promotion ?",
-        "answer": "Le DST a commencé le 8 mars 2026. Pendant la promotion, l'heure de l'Est est EDT (UTC-4) et l'heure du Pacifique est PDT (UTC-7). PromoClock en tient compte automatiquement."
+        "question": "Que s'est-il passé avec la promotion mars 2026 ?",
+        "answer": "La promotion heures creuses Claude mars 2026 (limites 2x) s'est déroulée du 13 au 27 mars 2026 et est terminée. Consultez la section archives ci-dessous."
       },
       {
         "question": "Qu'est-ce que PromoClock ?",
-        "answer": "PromoClock a été créé par Onur Sendere (@onursendere sur X) pour aider les utilisateurs de Claude à comprendre instantanément s'ils sont dans la fenêtre de promotion. C'est un projet indépendant non affilié à Anthropic."
+        "answer": "PromoClock a été créé par Onur Sendere (@onursendere sur X) pour aider les utilisateurs de Claude à savoir instantanément s'ils sont en heures de pointe. Projet indépendant, non affilié à Anthropic."
       }
     ]
   },
   "devTools": {
     "title": "OUTILS DÉVELOPPEUR",
-    "subtitle": "Intégrez le statut de la promotion Claude dans votre workflow. API, terminal, synchronisation calendrier — sans navigateur.",
+    "subtitle": "Intégrez le statut des heures de pointe Claude dans votre workflow. API, terminal, synchronisation calendrier — sans navigateur.",
     "apiTitle": "API JSON & Intégration Terminal",
-    "apiDescription": "L'endpoint /api/status renvoie le statut en temps réel en JSON. Affichez 🟢 2X ou 🔴 1X directement dans votre prompt ZSH/Bash.",
+    "apiDescription": "L'endpoint /api/status renvoie le statut des heures de pointe en temps réel en JSON. Intégrez-le dans votre prompt ZSH/Bash.",
     "tryApi": "Essayer l'API",
     "calendarTitle": "Synchronisation Calendrier (.ics)",
     "calendarDescription": "Téléchargez un fichier .ics qui ajoute tous les créneaux peak/off-peak à votre calendrier — avec rappels.",

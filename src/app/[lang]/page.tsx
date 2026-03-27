@@ -7,6 +7,7 @@ import Eligibility from "@/components/Eligibility";
 import Schedule from "@/components/Schedule";
 import FAQ from "@/components/FAQ";
 import DeveloperTools from "@/components/DeveloperTools";
+import PromotionHistory from "@/components/PromotionHistory";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import BuyMeCoffeeFloat from "@/components/BuyMeCoffeeFloat";
@@ -35,6 +36,7 @@ export default async function Home({
         <Schedule dict={dict} />
         <FAQ dict={dict} />
         <DeveloperTools dict={dict} />
+        <PromotionHistory />
       </main>
       <Footer dict={dict} />
       <BuyMeCoffeeFloat />

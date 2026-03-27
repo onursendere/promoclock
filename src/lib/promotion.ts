@@ -12,62 +12,23 @@ export interface PromotionStatus {
   promotionEndUTC: number;
 }
 
-const PROMO_START = Date.UTC(2026, 2, 13, 0, 0, 0);
-const PROMO_END = Date.UTC(2026, 2, 28, 6, 59, 0);
+// March 2026 2x promotion (ended) — kept for archive section
+export const PROMO_START = Date.UTC(2026, 2, 13, 0, 0, 0);
+export const PROMO_END = Date.UTC(2026, 2, 28, 6, 59, 0);
 
-// New peak hours system (March 27, 2026 update)
-// Peak hours: weekdays 5am-11am PT / 1pm-7pm GMT
+// Session limits peak hours system (March 27, 2026 update)
+// Peak hours: weekdays 1pm–7pm GMT / 5am–11am PST (13:00–19:00 UTC)
 const PEAK_START_UTC = 13;
 const PEAK_END_UTC = 19;
 
 export function getPromotionStatus(now: Date = new Date()): PromotionStatus {
-  const nowUTC = now.getTime();
   const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
-  const isNotStarted = nowUTC < PROMO_START;
-  const isExpired = nowUTC > PROMO_END;
-
-  if (isNotStarted) {
-    return {
-      isActive: false,
-      isOffPeak: false,
-      isPeak: false,
-      isExpired: false,
-      isNotStarted: true,
-      isWeekend: false,
-      nextChangeTimestamp: PROMO_START,
-      userTimezone,
-      userLocalTime: now,
-      promotionStartUTC: PROMO_START,
-      promotionEndUTC: PROMO_END,
-    };
-  }
-
-  if (isExpired) {
-    return {
-      isActive: false,
-      isOffPeak: false,
-      isPeak: false,
-      isExpired: true,
-      isNotStarted: false,
-      isWeekend: false,
-      nextChangeTimestamp: 0,
-      userTimezone,
-      userLocalTime: now,
-      promotionStartUTC: PROMO_START,
-      promotionEndUTC: PROMO_END,
-    };
-  }
 
   const dayUTC = now.getUTCDay();
   const hourUTC = now.getUTCHours();
   const isWeekend = dayUTC === 0 || dayUTC === 6;
 
-  let isPeak = false;
-  if (!isWeekend) {
-    isPeak = hourUTC >= PEAK_START_UTC && hourUTC < PEAK_END_UTC;
-  }
-
+  const isPeak = !isWeekend && hourUTC >= PEAK_START_UTC && hourUTC < PEAK_END_UTC;
   const isOffPeak = !isPeak;
 
   const nextChangeTimestamp = calculateNextChange(now, isWeekend, isPeak);
@@ -79,7 +40,7 @@ export function getPromotionStatus(now: Date = new Date()): PromotionStatus {
     isExpired: false,
     isNotStarted: false,
     isWeekend,
-    nextChangeTimestamp: Math.min(nextChangeTimestamp, PROMO_END),
+    nextChangeTimestamp,
     userTimezone,
     userLocalTime: now,
     promotionStartUTC: PROMO_START,

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude 2026年3月オフピークプロモーショントラッカー",
-    "description": "Claudeの2倍制限オフピークウィンドウにいるかどうかを即座に確認。2026年3月プロモーション用のリアルタイムタイムゾーン検出。",
-    "ogTitle": "PromoClock — 今、Claudeの2倍制限ウィンドウにいますか？",
-    "ogDescription": "タイムゾーンの計算をやめましょう。PromoClockがClaude 2026年3月オフピークプロモーションがあなたの現地時間で有効かどうかを即座にお知らせします。"
+    "title": "PromoClock — Claudeセッション制限トラッカー",
+    "description": "お使いのタイムゾーンでClaudeのピーク時間を確認。ピーク時間（月〜金 13時〜19時 GMT）にセッション制限が速く消費されます。Free, Pro, Max & Teamのリアルタイム状態。",
+    "ogTitle": "PromoClock — 今、Claudeのピーク時間ですか？",
+    "ogDescription": "タイムゾーンの計算をやめましょう。PromoClockがセッション制限が速く消費されるピーク時間かどうかを即座にお知らせします。"
   },
   "header": {
     "logo": "PromoClock",
@@ -16,15 +16,15 @@
     }
   },
   "hero": {
-    "badge": "CLAUDE 2026年3月プロモーション",
-    "promotionActive": "2X制限が現在有効",
-    "promotionInactive": "標準制限(1X)が有効",
-    "promotionExpired": "プロモーションは終了しました",
-    "promotionNotStarted": "プロモーションは3月13日に開始",
-    "activeSubtitle": "オフピーク時間帯 — すべてのClaudeプラットフォームで2倍のメッセージとコンテキスト制限が有効。",
-    "inactiveSubtitle": "ピーク時間帯 — 標準制限が適用。2X制限はまもなく戻ります。",
-    "expiredSubtitle": "Claude 2026年3月プロモーションは2026年3月27日午後11:59 PTに終了しました。",
-    "notStartedSubtitle": "オフピークプロモーションは2026年3月13日に開始されます。もうすぐです。",
+    "badge": "CLAUDEセッション制限",
+    "promotionActive": "オフピーク — 低速消費",
+    "promotionInactive": "ピーク時間 — 高速消費",
+    "promotionExpired": "オフピーク — 低速消費",
+    "promotionNotStarted": "オフピーク — 低速消費",
+    "activeSubtitle": "オフピーク — 5時間セッション制限がゆっくり消費されます。トークン集約的な作業に最適。",
+    "inactiveSubtitle": "ピーク時間（月〜金 GMT 13時〜19時）— セッション制限が速く消費されます。週間制限は変わりません。",
+    "expiredSubtitle": "オフピーク — 5時間セッション制限がゆっくり消費されます。",
+    "notStartedSubtitle": "オフピーク — 5時間セッション制限がゆっくり消費されます。",
     "countdownLabel": "次のステータス変更まで",
     "yourTimezone": "タイムゾーン",
     "yourLocalTime": "現地時間",
@@ -32,10 +32,10 @@
     "hours": "時間",
     "minutes": "分",
     "seconds": "秒",
-    "peakHours": "ピーク時間（標準制限）",
-    "offPeakHours": "オフピーク時間（2倍制限）",
+    "peakHours": "ピーク時間（高速消費）",
+    "offPeakHours": "オフピーク時間（低速消費）",
     "weekdays": "平日",
-    "allWeekend": "週末全日（2倍制限）"
+    "allWeekend": "週末全日（低速消費）"
   },
   "howItWorks": {
     "title": "仕組み",
@@ -47,7 +47,7 @@
       },
       {
         "title": "リアルタイムで計算",
-        "description": "エンジンがあなたの現地時間をAnthropicの公式ピークウィンドウ（平日8 AM – 2 PM ET）と比較し、米国夏時間を考慮します。"
+        "description": "エンジンがあなたの現地時間をClaudeのピーク時間（月〜金 GMT 13時〜19時 / PST 5時〜11時）とリアルタイムで比較します。"
       },
       {
         "title": "ステータスを即座に表示",
@@ -57,101 +57,97 @@
   },
   "eligibility": {
     "title": "対象条件",
-    "subtitle": "お使いのClaudeプランが2026年3月オフピークプロモーションの対象かどうかを確認してください。",
-    "eligible": "対象",
-    "notEligible": "対象外",
+    "subtitle": "セッション制限の調整はすべてのClaudeサブスクリプションレベルに適用されます。",
+    "eligible": "影響あり",
+    "notEligible": "影響なし",
     "plans": [
       {
         "name": "Free",
         "status": true,
-        "description": "制限に最も頻繁に達する大規模なユーザーベース。2倍の容量はプラットフォームを探索する重要な機会です。"
+        "description": "ピーク時間中にセッション制限が速く消費されます。トークン集約的な作業はオフピークに移動しましょう。"
       },
       {
         "name": "Pro",
         "status": true,
-        "description": "個人のプロフェッショナルとパワーユーザー。Claude Codeを使用する開発者に特に価値があります。"
+        "description": "~7%のProユーザーが以前は達しなかった制限に達する可能性があります。重い作業にはオフピークが最適です。"
       },
       {
         "name": "Max",
         "status": true,
-        "description": "自律エージェントや大量データ処理を行う上級ユーザー。2倍の制限で大規模プロジェクトを中断なく進められます。"
+        "description": "ピーク時間中にセッション制限が速く消費されます。エージェントやデータ処理はオフピークにスケジュールしましょう。"
       },
       {
         "name": "Team",
         "status": true,
-        "description": "中小企業のワークスペース。Claude Coworkでのコラボレーションを強化します。"
+        "description": "Teamワークスペースも影響を受けます。重い作業はオフピーク時間帯に調整しましょう。"
       },
       {
         "name": "Enterprise",
         "status": false,
-        "description": "Enterpriseプランは専用容量とカスタム契約があるため、このリテールプロモーションから除外されています。"
+        "description": "Enterpriseプランは専用容量とカスタム契約があるため、この調整の影響を受けません。"
       }
     ],
     "platforms": {
       "title": "すべてのClaude環境で利用可能",
       "items": ["Web (claude.ai)", "デスクトップ (Mac / Windows)", "モバイル (iOS / Android)", "Claude Cowork", "Claude Code (ターミナル)", "Excel & PowerPointアドイン"]
     },
-    "note": "オフピークボーナス使用量は週間使用制限を消費しません。完全に独立したボーナスプールとして機能します。"
+    "note": "週間制限は変わりません。セッション制限はピーク時間（月〜金 GMT 13時〜19時）にのみ速く消費されます。"
   },
   "schedule": {
     "title": "グローバルスケジュール",
-    "subtitle": "世界の主要都市で2倍制限がいつ有効かを確認。ピーク時間：平日8:00 AM – 2:00 PM ET（12:00 – 18:00 UTC）。",
+    "subtitle": "主要都市のピーク時間（高速消費）を確認。ピーク：月〜金 GMT 13時〜19時 / PST 5時〜11時。",
     "tableHeaders": {
       "city": "都市 / 地域",
       "timezone": "タイムゾーン",
-      "peakHours": "ピーク時間（標準）",
-      "offPeakHours": "オフピーク（2倍制限）"
+      "peakHours": "ピーク時間（高速）",
+      "offPeakHours": "オフピーク（低速）"
     },
     "weekdayLabel": "平日",
-    "weekendLabel": "週末全日 → 2倍制限"
+    "weekendLabel": "週末全日 → 低速消費"
   },
   "faq": {
     "title": "よくある質問",
-    "subtitle": "Claude 2026年3月オフピークプロモーションについて知っておくべきすべてのこと。",
+    "subtitle": "Claudeセッション制限システムについてのすべて。",
     "items": [
       {
-        "question": "Claude 2026年3月オフピークプロモーションとは何ですか？",
-        "answer": "Anthropicは2026年3月13日から27日まで、オフピーク時間中のメッセージとコンテキスト制限を2倍にするプロモーションを開始しました。これによりサーバー負荷を一日を通じてより均等に分散させます。"
+        "question": "Claudeのセッション制限は何が変わりましたか？",
+        "answer": "2026年3月27日から、Claudeは5時間セッション制限を調整しました。ピーク時間（月〜金 GMT 13時〜19時）にセッション制限が速く消費されます。週間制限は変わりません — 週間の配分方法が変わるだけです。"
       },
       {
-        "question": "オフピーク時間は正確にいつですか？",
-        "answer": "オフピーク時間は、平日の東部時間（ET）午前8時から午後2時以外のすべての時間です。平日の夕方と夜、および週末全体が2倍制限の対象です。"
+        "question": "ピーク時間は正確にいつですか？",
+        "answer": "ピーク時間は月〜金 GMT 13時〜19時（PST 5時〜11時）です。平日の夕方・夜と週末全体はオフピークで低速消費です。"
       },
       {
-        "question": "私のタイムゾーンではClaudeはいつオフピークですか？",
-        "answer": "PromoClockはデバイスのタイムゾーンを自動的に検出し、正確なローカルのピーク/オフピークウィンドウを表示します。"
+        "question": "私のタイムゾーンのピーク時間はいつですか？",
+        "answer": "PromoClockが自動的にタイムゾーンを検出し、ページ上部にリアルタイムの状態を表示します。"
       },
       {
-        "question": "どのClaudeプランが対象ですか？",
-        "answer": "Free、Pro、Max、Teamのすべてのプランが対象です。Enterpriseプランは除外されています。"
+        "question": "どのプランが影響を受けますか？",
+        "answer": "Free、Pro、Max、Teamのすべてが影響を受けます。Enterpriseは専用容量があるため影響なし。"
       },
       {
-        "question": "オフピーク使用量は週間制限から差し引かれますか？",
-        "answer": "いいえ。オフピーク時間中に獲得した追加容量は、完全に独立したボーナスプールとして機能します。"
+        "question": "週間制限は変わりますか？",
+        "answer": "いいえ。週間制限は同じです。~7%のユーザー（特にPro）が以前は達しなかった制限に達する可能性があります。"
       },
       {
-        "question": "プロモーションを手動で有効にする必要がありますか？",
-        "answer": "いいえ。プロモーションは2026年3月13日から27日まで、対象のすべてのプランに自動的に適用されます。"
+        "question": "セッション制限を最大化するには？",
+        "answer": "トークン集約的な作業をオフピーク（平日夕方・夜、週末）に移動しましょう。その時間帯は制限の消費が遅くなります。"
       },
       {
-        "question": "2倍制限はどのプラットフォームで適用されますか？",
-        "answer": "2倍制限はすべてのClaude環境で適用されます：claude.ai、デスクトップアプリ、モバイルアプリ、Claude Cowork、Claude Code、Excel/PowerPointアドイン。"
+        "question": "2026年3月のプロモーションはどうなりましたか？",
+        "answer": "Claude 2026年3月オフピークプロモーション（2倍制限）は3月13日から27日まで実施され、終了しました。下のアーカイブセクションをご覧ください。"
       },
       {
-        "question": "米国夏時間はプロモーションにどう影響しますか？",
-        "answer": "夏時間は2026年3月8日に始まりました。プロモーション期間中、東部時間はEDT（UTC-4）、太平洋時間はPDT（UTC-7）です。PromoClockはこれをすべての計算で自動的に考慮します。"
-      },
-      {
-        "question": "PromoClockとは何ですか？誰が作りましたか？",
-        "answer": "PromoClockはOnur Sendere（Xで@onursendere）が開発しました。世界中のClaudeユーザーがオフピークプロモーションウィンドウにいるかどうかを即座に理解できるよう設計されています。独立したプロジェクトであり、Anthropicとは関連していません。"
+        "question": "PromoClockとは何ですか？",
+        "answer": "PromoClockはOnur Sendere（Xで@onursendere）が開発しました。ClaudeユーザーがピーĿク時間かどうかを即座に確認できるよう設計された独立したプロジェクトで、Anthropicとは関連していません。"
       }
     ]
   },
   "devTools": {
     "title": "開発者ツール",
-    "subtitle": "Claudeプロモーションステータスをワークフローに統合。API、ターミナル、カレンダー同期 — ブラウザ不要。",
+    "subtitle": "ClaudeピーĿク時間の状態をワークフローに統合。API、ターミナル、カレンダー — ブラウザ不要。",
     "apiTitle": "JSON API & ターミナル統合",
-    "apiDescription": "/api/statusエンドポイントがリアルタイムのプロモーションステータスをJSONで返します。ZSH/Bashプロンプトで🟢 2Xまたは🔴 1Xを表示。",
+    "apiDescription": "/api/statusエンドポイントがリアルタイムのピーク時間状態をJSONで返します。ZSH/Bashプロンプトに統合しましょう。",
     "tryApi": "APIを試す",
     "calendarTitle": "カレンダー同期（.ics）",
     "calendarDescription": "すべてのピーク/オフピーク時間帯をカレンダーに追加する.icsファイルをダウンロード — リマインダー付き。",

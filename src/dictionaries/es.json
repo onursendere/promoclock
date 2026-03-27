@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Rastreador de la Promoción Fuera de Horas Pico Claude Marzo 2026",
-    "description": "Verifica al instante si estás en la ventana de límites 2x de Claude. Detección de zona horaria en tiempo real para la promoción de marzo 2026.",
-    "ogTitle": "PromoClock — ¿Estás en la ventana de límites 2x de Claude ahora mismo?",
-    "ogDescription": "Deja de calcular zonas horarias. PromoClock te indica al instante si la promoción fuera de pico de Claude marzo 2026 está activa en tu hora local."
+    "title": "PromoClock — Rastreador de Límites de Sesión Claude",
+    "description": "Rastrea las horas pico de Claude en tu zona horaria. Los límites de sesión se consumen más rápido durante horas pico (lun–vie 13h–19h GMT). Estado en tiempo real para Free, Pro, Max & Team.",
+    "ogTitle": "PromoClock — ¿Estás en las horas pico de Claude ahora?",
+    "ogDescription": "Deja de calcular zonas horarias. PromoClock te indica al instante si estás en horas pico donde los límites de sesión se consumen más rápido."
   },
   "header": {
     "logo": "PromoClock",
@@ -16,15 +16,15 @@
     }
   },
   "hero": {
-    "badge": "PROMOCIÓN CLAUDE MARZO 2026",
-    "promotionActive": "LÍMITES 2X ACTIVOS AHORA",
-    "promotionInactive": "LÍMITES ESTÁNDAR (1X) ACTIVOS",
-    "promotionExpired": "LA PROMOCIÓN HA TERMINADO",
-    "promotionNotStarted": "LA PROMOCIÓN COMIENZA EL 13 DE MARZO",
-    "activeSubtitle": "Horas fuera de pico — límites 2x de mensajes y contexto activos en todas las plataformas Claude.",
-    "inactiveSubtitle": "Horas pico — límites estándar aplicados. Los límites 2X volverán pronto.",
-    "expiredSubtitle": "La promoción Claude marzo 2026 terminó el 27 de marzo de 2026 a las 11:59 PM PT.",
-    "notStartedSubtitle": "La promoción fuera de pico comienza el 13 de marzo de 2026. Vuelve pronto.",
+    "badge": "LÍMITES DE SESIÓN CLAUDE",
+    "promotionActive": "FUERA DE PICO — LÍMITES MÁS LENTOS",
+    "promotionInactive": "HORAS PICO — LÍMITES MÁS RÁPIDOS",
+    "promotionExpired": "FUERA DE PICO — LÍMITES MÁS LENTOS",
+    "promotionNotStarted": "FUERA DE PICO — LÍMITES MÁS LENTOS",
+    "activeSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen más lento. Ideal para tareas intensivas en tokens.",
+    "inactiveSubtitle": "Horas pico (lun–vie 13h–19h GMT) — los límites de sesión se consumen más rápido. Límites semanales sin cambios.",
+    "expiredSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen más lento.",
+    "notStartedSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen más lento.",
     "countdownLabel": "Hasta el próximo cambio de estado",
     "yourTimezone": "Tu zona horaria",
     "yourLocalTime": "Tu hora local",
@@ -32,10 +32,10 @@
     "hours": "HORAS",
     "minutes": "MIN",
     "seconds": "SEG",
-    "peakHours": "Horas Pico (Límites Estándar)",
-    "offPeakHours": "Fuera de Pico (Límites 2x)",
+    "peakHours": "Horas Pico (Límites Más Rápidos)",
+    "offPeakHours": "Fuera de Pico (Límites Más Lentos)",
     "weekdays": "Días laborables",
-    "allWeekend": "Todo el Fin de Semana (Límites 2x)"
+    "allWeekend": "Fin de Semana Completo (Más Lento)"
   },
   "howItWorks": {
     "title": "CÓMO FUNCIONA",
@@ -47,111 +47,107 @@
       },
       {
         "title": "CALCULAMOS EN TIEMPO REAL",
-        "description": "Nuestro motor compara tu hora local con la ventana pico oficial de Anthropic (8 AM – 2 PM ET, días laborables) considerando el horario de verano de EE.UU."
+        "description": "Nuestro motor compara tu hora local con las horas pico de Claude (lun–vie 13h–19h GMT / 5h–11h PST) en tiempo real."
       },
       {
         "title": "VES TU ESTADO AL INSTANTE",
-        "description": "Una pantalla clara y en tiempo real te indica si tus límites están duplicados — más una cuenta regresiva hasta el próximo cambio."
+        "description": "Una pantalla clara indica si estás en horas pico (límites más rápidos) o fuera de pico (más lentos) — con cuenta regresiva."
       }
     ]
   },
   "eligibility": {
     "title": "ELEGIBILIDAD",
-    "subtitle": "Verifica si tu plan de Claude es elegible para la promoción fuera de pico de marzo 2026.",
-    "eligible": "Elegible",
-    "notEligible": "No Elegible",
+    "subtitle": "Los ajustes de límites de sesión aplican a todos los niveles de suscripción Claude.",
+    "eligible": "Afectado",
+    "notEligible": "No afectado",
     "plans": [
       {
         "name": "Free",
         "status": true,
-        "description": "La enorme base de usuarios que más alcanza los límites. La capacidad 2x es una oportunidad crítica para explorar la plataforma."
+        "description": "Los límites de sesión se consumen más rápido en horas pico. Mueve las tareas intensivas en tokens a horas fuera de pico."
       },
       {
         "name": "Pro",
         "status": true,
-        "description": "Profesionales individuales y usuarios avanzados. Especialmente valioso para desarrolladores usando Claude Code."
+        "description": "~7% de usuarios Pro alcanzarán límites que antes no alcanzaban. Las horas fuera de pico son ideales para cargas pesadas."
       },
       {
         "name": "Max",
         "status": true,
-        "description": "Usuarios avanzados con agentes autónomos y procesamiento intensivo de datos. Los límites duplicados permiten trabajo ininterrumpido."
+        "description": "Los límites de sesión se consumen más rápido en horas pico. Programa agentes y procesamiento de datos en horas fuera de pico."
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Espacios de trabajo para PYMEs. Mejora las interacciones colaborativas en Claude Cowork."
+        "description": "Los espacios Team están afectados. Coordina cargas pesadas para horas fuera de pico."
       },
       {
         "name": "Enterprise",
         "status": false,
-        "description": "Los planes Enterprise tienen capacidad dedicada y contratos personalizados, por lo que están excluidos de esta promoción."
+        "description": "Los planes Enterprise tienen capacidad dedicada y contratos personalizados — no afectados por estos ajustes."
       }
     ],
     "platforms": {
       "title": "Disponible en todas las interfaces de Claude",
       "items": ["Web (claude.ai)", "Escritorio (Mac / Windows)", "Móvil (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Complementos Excel y PowerPoint"]
     },
-    "note": "El uso de bonificación fuera de pico no consume tus límites de uso semanal. Funciona como un pool de bonificación completamente independiente."
+    "note": "Los límites semanales no cambian. Los límites de sesión solo se consumen más rápido durante horas pico (lun–vie 13h–19h GMT)."
   },
   "schedule": {
     "title": "HORARIO GLOBAL",
-    "subtitle": "Consulta cuándo los límites 2x están activos en las principales ciudades. Horas pico: días laborables 8:00 – 14:00 ET (12:00 – 18:00 UTC).",
+    "subtitle": "Consulta las horas pico (límites más rápidos) en las principales ciudades. Horas pico: lun–vie 13h–19h GMT / 5h–11h PST.",
     "tableHeaders": {
       "city": "Ciudad / Región",
       "timezone": "Zona Horaria",
-      "peakHours": "Horas Pico (Estándar)",
-      "offPeakHours": "Fuera de Pico (2x)"
+      "peakHours": "Horas Pico (Más Rápido)",
+      "offPeakHours": "Fuera de Pico (Más Lento)"
     },
     "weekdayLabel": "Días laborables",
-    "weekendLabel": "Fin de semana completo → Límites 2x"
+    "weekendLabel": "Fin de semana completo → Límites más lentos"
   },
   "faq": {
     "title": "PREGUNTAS RESPONDIDAS",
-    "subtitle": "Todo lo que necesitas saber sobre la promoción fuera de pico Claude marzo 2026.",
+    "subtitle": "Todo sobre el sistema de límites de sesión Claude.",
     "items": [
       {
-        "question": "¿Qué es la promoción fuera de pico Claude marzo 2026?",
-        "answer": "Anthropic lanzó una promoción del 13 al 27 de marzo de 2026 que duplica los límites de mensajes y contexto durante horas fuera de pico para distribuir mejor la carga del servidor."
+        "question": "¿Qué cambió con los límites de sesión de Claude?",
+        "answer": "Desde el 27 de marzo de 2026, Claude ajustó los límites de sesión de 5h. En horas pico (lun–vie 13h–19h GMT), los límites se consumen más rápido. Los límites semanales no cambian — solo cambia cómo se distribuyen en la semana."
       },
       {
-        "question": "¿Cuándo exactamente son las horas fuera de pico?",
-        "answer": "Las horas fuera de pico son todos los momentos fuera de 8 AM a 2 PM Hora del Este (ET) en días laborables. Las tardes y noches entre semana, más todo el fin de semana son elegibles para límites 2x."
+        "question": "¿Cuándo son exactamente las horas pico?",
+        "answer": "Las horas pico son lunes–viernes de 13h a 19h GMT (5h–11h PST). Las tardes/noches entre semana y todo el fin de semana son horas fuera de pico con límites más lentos."
       },
       {
-        "question": "¿A qué hora está Claude fuera de pico en mi zona horaria?",
-        "answer": "PromoClock detecta automáticamente la zona horaria de tu dispositivo y muestra tus ventanas locales exactas."
+        "question": "¿Cuándo son las horas pico en mi zona horaria?",
+        "answer": "PromoClock detecta automáticamente tu zona horaria y muestra tu estado actual en tiempo real al inicio de la página."
       },
       {
-        "question": "¿Qué planes de Claude son elegibles?",
-        "answer": "Los planes Free, Pro, Max y Team son todos elegibles. Los planes Enterprise están excluidos por tener capacidad dedicada."
+        "question": "¿Qué planes están afectados?",
+        "answer": "Los planes Free, Pro, Max y Team están todos afectados. Los planes Enterprise no, por tener capacidad dedicada."
       },
       {
-        "question": "¿El uso fuera de pico cuenta contra mis límites semanales?",
-        "answer": "No. La capacidad extra obtenida fuera de pico funciona como un pool de bonificación independiente."
+        "question": "¿Cambian mis límites semanales?",
+        "answer": "No. Tus límites semanales siguen iguales. ~7% de usuarios (especialmente Pro) alcanzarán límites que antes no alcanzaban."
       },
       {
-        "question": "¿Necesito activar la promoción manualmente?",
-        "answer": "No. La promoción se aplica automáticamente a todos los planes elegibles entre el 13 y el 27 de marzo de 2026."
+        "question": "¿Cómo maximizo mis límites de sesión?",
+        "answer": "Mueve las tareas intensivas en tokens a horas fuera de pico (tardes/noches entre semana y fin de semana). Los límites se consumen más lento en esas horas."
       },
       {
-        "question": "¿En qué plataformas se aplica el límite 2x?",
-        "answer": "Los límites duplicados se aplican en todas las interfaces: claude.ai, apps de escritorio y móvil, Claude Cowork, Claude Code y complementos Excel/PowerPoint."
-      },
-      {
-        "question": "¿Cómo afecta el horario de verano de EE.UU. a la promoción?",
-        "answer": "El DST comenzó el 8 de marzo de 2026. Durante la promoción, la Hora del Este es EDT (UTC-4) y la Hora del Pacífico es PDT (UTC-7). PromoClock lo considera automáticamente."
+        "question": "¿Qué pasó con la promoción de marzo 2026?",
+        "answer": "La promoción fuera de pico Claude marzo 2026 (límites 2x) corrió del 13 al 27 de marzo de 2026 y ha terminado. Consulta la sección de archivo abajo."
       },
       {
         "question": "¿Qué es PromoClock?",
-        "answer": "PromoClock fue creado por Onur Sendere (@onursendere en X) para ayudar a los usuarios de Claude a entender si están en la ventana de promoción. Es un proyecto independiente y no está afiliado con Anthropic."
+        "answer": "PromoClock fue creado por Onur Sendere (@onursendere en X) para ayudar a los usuarios de Claude a saber instantáneamente si están en horas pico. Proyecto independiente, no afiliado a Anthropic."
       }
     ]
   },
   "devTools": {
     "title": "HERRAMIENTAS PARA DEVS",
-    "subtitle": "Integra el estado de la promoción Claude en tu workflow. API, terminal, calendario — sin necesidad de navegador.",
-    "apiTitle": "API JSON & Integración Terminal",
-    "apiDescription": "El endpoint /api/status devuelve el estado en tiempo real como JSON. Muestra 🟢 2X o 🔴 1X directamente en tu prompt ZSH/Bash.",
+    "subtitle": "Integra el estado de horas pico de Claude en tu workflow. API, terminal, calendario — sin navegador.",
+    "apiTitle": "JSON API e Integración de Terminal",
+    "apiDescription": "El endpoint /api/status devuelve el estado de horas pico en tiempo real como JSON. Intégralo en tu prompt ZSH/Bash.",
     "tryApi": "Probar la API",
     "calendarTitle": "Sincronización de Calendario (.ics)",
     "calendarDescription": "Descarga un archivo .ics que agrega todos los horarios peak/off-peak a tu calendario — con recordatorios.",

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude März 2026 Nebenzeiten-Promotion-Tracker",
-    "description": "Prüfen Sie sofort, ob Sie im 2x-Limit-Fenster von Claude sind. Echtzeit-Zeitzonenerkennung für die März-2026-Promotion.",
-    "ogTitle": "PromoClock — Sind Sie gerade im 2x-Limit-Fenster von Claude?",
-    "ogDescription": "Hören Sie auf, Zeitzonen zu berechnen. PromoClock sagt Ihnen sofort, ob die Claude März 2026 Nebenzeiten-Promotion in Ihrer Ortszeit aktiv ist."
+    "title": "PromoClock — Claude Sitzungslimits-Tracker",
+    "description": "Verfolgen Sie Claudes Hauptzeiten in Ihrer Zeitzone. Sitzungslimits werden in Hauptzeiten (Mo–Fr 13–19 Uhr GMT) schneller verbraucht. Echtzeit-Status für Free, Pro, Max & Team.",
+    "ogTitle": "PromoClock — Sind Sie gerade in Claudes Hauptzeiten?",
+    "ogDescription": "Hören Sie auf, Zeitzonen zu berechnen. PromoClock zeigt sofort, ob Sie in Claudes Hauptzeiten sind, wo Sitzungslimits schneller ablaufen."
   },
   "header": {
     "logo": "PromoClock",
@@ -16,15 +16,15 @@
     }
   },
   "hero": {
-    "badge": "CLAUDE MÄRZ 2026 PROMOTION",
-    "promotionActive": "2X LIMITS JETZT AKTIV",
-    "promotionInactive": "STANDARDLIMITS (1X) AKTIV",
-    "promotionExpired": "DIE PROMOTION IST BEENDET",
-    "promotionNotStarted": "PROMOTION STARTET AM 13. MÄRZ",
-    "activeSubtitle": "Nebenzeiten — 2x Nachrichten- und Kontextlimits auf allen Claude-Plattformen aktiv.",
-    "inactiveSubtitle": "Hauptzeiten — Standardlimits gelten. 2X Limits kehren bald zurück.",
-    "expiredSubtitle": "Die Claude März 2026 Promotion endete am 27. März 2026 um 23:59 Uhr PT.",
-    "notStartedSubtitle": "Die Nebenzeiten-Promotion beginnt am 13. März 2026. Schauen Sie bald wieder vorbei.",
+    "badge": "CLAUDE SITZUNGSLIMITS",
+    "promotionActive": "NEBENZEITEN — LANGSAMERE LIMITS",
+    "promotionInactive": "HAUPTZEITEN — SCHNELLERE LIMITS",
+    "promotionExpired": "NEBENZEITEN — LANGSAMERE LIMITS",
+    "promotionNotStarted": "NEBENZEITEN — LANGSAMERE LIMITS",
+    "activeSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden langsamer verbraucht. Ideal für token-intensive Aufgaben.",
+    "inactiveSubtitle": "Hauptzeiten (Mo–Fr 13–19 Uhr GMT) — Sitzungslimits werden schneller verbraucht. Wöchentliche Limits unverändert.",
+    "expiredSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden langsamer verbraucht.",
+    "notStartedSubtitle": "Nebenzeiten — Ihre 5h-Sitzungslimits werden langsamer verbraucht.",
     "countdownLabel": "Bis zur nächsten Statusänderung",
     "yourTimezone": "Ihre Zeitzone",
     "yourLocalTime": "Ihre Ortszeit",
@@ -32,10 +32,10 @@
     "hours": "STD",
     "minutes": "MIN",
     "seconds": "SEK",
-    "peakHours": "Hauptzeiten (Standardlimits)",
-    "offPeakHours": "Nebenzeiten (2x Limits)",
+    "peakHours": "Hauptzeiten (Schnellere Limits)",
+    "offPeakHours": "Nebenzeiten (Langsamere Limits)",
     "weekdays": "Werktage",
-    "allWeekend": "Ganzes Wochenende (2x Limits)"
+    "allWeekend": "Ganzes Wochenende (Langsamere Limits)"
   },
   "howItWorks": {
     "title": "SO FUNKTIONIERT'S",
@@ -47,111 +47,107 @@
       },
       {
         "title": "WIR BERECHNEN IN ECHTZEIT",
-        "description": "Unsere Engine vergleicht Ihre Ortszeit mit Anthropics offiziellem Hauptzeitfenster (8 – 14 Uhr ET, werktags) unter Berücksichtigung der US-Sommerzeit."
+        "description": "Unsere Engine vergleicht Ihre Ortszeit mit Claudes Hauptzeiten (Mo–Fr 13–19 Uhr GMT / 5–11 Uhr PST) in Echtzeit."
       },
       {
         "title": "SIE SEHEN IHREN STATUS SOFORT",
-        "description": "Eine klare Echtzeitanzeige zeigt, ob Ihre Limits verdoppelt sind — plus einen Countdown bis zur nächsten Änderung."
+        "description": "Eine klare Anzeige zeigt, ob Sie in Hauptzeiten (schnellere Limits) oder Nebenzeiten (langsamere Limits) sind — mit Countdown."
       }
     ]
   },
   "eligibility": {
-    "title": "BERECHTIGUNG",
-    "subtitle": "Prüfen Sie, ob Ihr Claude-Plan für die Nebenzeiten-Promotion März 2026 berechtigt ist.",
-    "eligible": "Berechtigt",
-    "notEligible": "Nicht berechtigt",
+    "title": "WER IST BETROFFEN",
+    "subtitle": "Die Sitzungslimit-Anpassungen gelten für alle Claude-Abostufen.",
+    "eligible": "Betroffen",
+    "notEligible": "Nicht betroffen",
     "plans": [
       {
         "name": "Free",
         "status": true,
-        "description": "Die riesige Nutzerbasis, die am häufigsten an Limits stößt. 2x Kapazität ist eine entscheidende Gelegenheit, die Plattform zu erkunden."
+        "description": "Sitzungslimits werden in Hauptzeiten schneller verbraucht. Verschieben Sie token-intensive Aufgaben in Nebenzeiten."
       },
       {
         "name": "Pro",
         "status": true,
-        "description": "Einzelne Profis und Power-User. Besonders wertvoll für Entwickler, die Claude Code nutzen."
+        "description": "~7% der Pro-Nutzer werden Limits erreichen, die sie vorher nicht erreicht hätten. Nebenzeiten sind ideal für schwere Arbeitslast."
       },
       {
         "name": "Max",
         "status": true,
-        "description": "Fortgeschrittene Nutzer mit autonomen Agenten und intensiver Datenverarbeitung. Verdoppelte Limits ermöglichen unterbrechungsfreies Arbeiten."
+        "description": "Sitzungslimits werden in Hauptzeiten schneller verbraucht. Planen Sie Agenten und Datenverarbeitung in Nebenzeiten."
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Arbeitsräume für KMU. Verbessert die Zusammenarbeit in Claude Cowork."
+        "description": "Team-Arbeitsräume sind betroffen. Koordinieren Sie schwere Workloads für Nebenzeiten."
       },
       {
         "name": "Enterprise",
         "status": false,
-        "description": "Enterprise-Pläne haben dedizierte Kapazität und individuelle Verträge und sind daher von dieser Promotion ausgeschlossen."
+        "description": "Enterprise-Pläne haben dedizierte Kapazität und individuelle Verträge — nicht von diesen Anpassungen betroffen."
       }
     ],
     "platforms": {
       "title": "Auf allen Claude-Oberflächen verfügbar",
       "items": ["Web (claude.ai)", "Desktop (Mac / Windows)", "Mobil (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Excel- & PowerPoint-Add-Ins"]
     },
-    "note": "Die Nebenzeiten-Bonusnutzung verbraucht nicht Ihre wöchentlichen Nutzungslimits. Sie funktioniert als vollständig unabhängiger Bonuspool."
+    "note": "Wöchentliche Limits bleiben unverändert. Sitzungslimits werden nur in Hauptzeiten (Mo–Fr 13–19 Uhr GMT) schneller verbraucht."
   },
   "schedule": {
     "title": "GLOBALER ZEITPLAN",
-    "subtitle": "Sehen Sie, wann die 2x-Limits in den wichtigsten Städten aktiv sind. Hauptzeiten: werktags 8:00 – 14:00 ET (12:00 – 18:00 UTC).",
+    "subtitle": "Sehen Sie, wann Hauptzeiten (schnellere Limits) in den wichtigsten Städten sind. Hauptzeiten: Mo–Fr 13–19 Uhr GMT / 5–11 Uhr PST.",
     "tableHeaders": {
       "city": "Stadt / Region",
       "timezone": "Zeitzone",
-      "peakHours": "Hauptzeiten (Standard)",
-      "offPeakHours": "Nebenzeiten (2x)"
+      "peakHours": "Hauptzeiten (Schneller)",
+      "offPeakHours": "Nebenzeiten (Langsamer)"
     },
     "weekdayLabel": "Werktage",
-    "weekendLabel": "Ganzes Wochenende → 2x Limits"
+    "weekendLabel": "Ganzes Wochenende → Langsamere Limits"
   },
   "faq": {
     "title": "HÄUFIG GESTELLTE FRAGEN",
-    "subtitle": "Alles, was Sie über die Claude März 2026 Nebenzeiten-Promotion wissen müssen.",
+    "subtitle": "Alles über Claudes Sitzungslimit-System.",
     "items": [
       {
-        "question": "Was ist die Claude März 2026 Nebenzeiten-Promotion?",
-        "answer": "Anthropic hat vom 13. bis 27. März 2026 eine Promotion gestartet, die Nachrichten- und Kontextlimits während der Nebenzeiten verdoppelt."
+        "question": "Was hat sich bei Claudes Sitzungslimits geändert?",
+        "answer": "Ab 27. März 2026 hat Claude die 5h-Sitzungslimits angepasst. In Hauptzeiten (Mo–Fr 13–19 Uhr GMT) werden Limits schneller verbraucht. Wöchentliche Limits bleiben gleich — nur ihre Verteilung in der Woche ändert sich."
       },
       {
-        "question": "Wann genau sind Nebenzeiten?",
-        "answer": "Nebenzeiten sind alle Zeiten außerhalb von 8 bis 14 Uhr Eastern Time (ET) an Werktagen. Werktags-Abende und -Nächte sowie das gesamte Wochenende qualifizieren für 2x Limits."
+        "question": "Wann genau sind Hauptzeiten?",
+        "answer": "Hauptzeiten sind Mo–Fr 13–19 Uhr GMT (5–11 Uhr PST). Werktags-Abende, -Nächte und das gesamte Wochenende sind Nebenzeiten mit langsameren Limits."
       },
       {
-        "question": "Wann ist Claude in meiner Zeitzone außerhalb der Hauptzeiten?",
-        "answer": "PromoClock erkennt automatisch die Zeitzone Ihres Geräts und zeigt Ihre genauen lokalen Haupt-/Nebenzeitfenster an."
+        "question": "Wann sind Hauptzeiten in meiner Zeitzone?",
+        "answer": "PromoClock erkennt automatisch Ihre Zeitzone und zeigt Ihren aktuellen Status in Echtzeit oben auf der Seite."
       },
       {
-        "question": "Welche Claude-Pläne sind berechtigt?",
-        "answer": "Free, Pro, Max und Team sind alle berechtigt. Enterprise-Pläne sind ausgeschlossen."
+        "question": "Welche Pläne sind betroffen?",
+        "answer": "Free, Pro, Max und Team sind alle betroffen. Enterprise-Pläne nicht, da sie dedizierte Kapazität haben."
       },
       {
-        "question": "Zählt die Nebenzeiten-Nutzung gegen meine wöchentlichen Limits?",
-        "answer": "Nein. Die zusätzliche Kapazität in den Nebenzeiten funktioniert als unabhängiger Bonuspool."
+        "question": "Ändern sich meine wöchentlichen Limits?",
+        "answer": "Nein. Ihre wöchentlichen Limits bleiben gleich. ~7% der Nutzer (besonders Pro) werden Limits erreichen, die sie vorher nicht erreicht hätten."
       },
       {
-        "question": "Muss ich die Promotion manuell aktivieren?",
-        "answer": "Nein. Die Promotion wird automatisch auf alle berechtigten Pläne zwischen dem 13. und 27. März 2026 angewendet."
+        "question": "Wie maximiere ich meine Sitzungslimits?",
+        "answer": "Verschieben Sie token-intensive Aufgaben in Nebenzeiten (Werktags-Abende/-Nächte und Wochenende). Dort werden Limits langsamer verbraucht."
       },
       {
-        "question": "Auf welchen Plattformen gilt das 2x-Limit?",
-        "answer": "Die verdoppelten Limits gelten auf allen Oberflächen: claude.ai, Desktop- und Mobil-Apps, Claude Cowork, Claude Code und Excel/PowerPoint-Add-Ins."
-      },
-      {
-        "question": "Wie beeinflusst die US-Sommerzeit die Promotion?",
-        "answer": "Die Sommerzeit begann am 8. März 2026. Während der Promotion ist Eastern Time EDT (UTC-4) und Pacific Time PDT (UTC-7). PromoClock berücksichtigt dies automatisch."
+        "question": "Was ist mit der März-2026-Promotion?",
+        "answer": "Die Claude März 2026 Nebenzeiten-Promotion (2x Limits) lief vom 13.–27. März 2026 und ist beendet. Siehe Archiv-Bereich unten."
       },
       {
         "question": "Was ist PromoClock?",
-        "answer": "PromoClock wurde von Onur Sendere (@onursendere auf X) entwickelt, um Claude-Nutzern weltweit sofort zu zeigen, ob sie im Promotions-Fenster sind. Es ist ein unabhängiges Projekt und nicht mit Anthropic verbunden."
+        "answer": "PromoClock wurde von Onur Sendere (@onursendere auf X) erstellt, um Claude-Nutzern sofort zu zeigen, ob sie in Hauptzeiten sind. Unabhängiges Projekt, nicht mit Anthropic verbunden."
       }
     ]
   },
   "devTools": {
     "title": "ENTWICKLER-TOOLS",
-    "subtitle": "Integrieren Sie den Claude-Promotion-Status in Ihren Workflow. API, Terminal-Prompt, Kalender-Sync — kein Browser nötig.",
+    "subtitle": "Integrieren Sie Claudes Hauptzeiten-Status in Ihren Workflow. API, Terminal-Prompt, Kalender-Sync — kein Browser nötig.",
     "apiTitle": "JSON API & Terminal-Integration",
-    "apiDescription": "Der /api/status Endpunkt liefert den Echtzeit-Status als JSON. Zeigen Sie 🟢 2X oder 🔴 1X direkt in Ihrem ZSH/Bash-Prompt an.",
+    "apiDescription": "Der /api/status Endpunkt liefert den Echtzeit-Hauptzeiten-Status als JSON. Integrieren Sie ihn in Ihren ZSH/Bash-Prompt.",
     "tryApi": "API ausprobieren",
     "calendarTitle": "Kalender-Sync (.ics)",
     "calendarDescription": "Laden Sie eine .ics-Datei herunter, die alle Peak/Off-Peak-Zeitfenster in Ihren Kalender einträgt — mit Erinnerungen.",
