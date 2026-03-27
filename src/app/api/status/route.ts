@@ -1,10 +1,40 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 // Peak hours: weekdays 5am-11am PT / 1pm-7pm GMT (13:00-19:00 UTC)
 const PEAK_START_UTC = 13;
 const PEAK_END_UTC = 19;
 
 export const dynamic = "force-dynamic";
+
+// In-memory rate limiter: 60 req/min per IP
+const RATE_LIMIT = 60;
+const WINDOW_MS = 60_000;
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
+
+function checkRateLimit(ip: string): { allowed: boolean; retryAfter: number } {
+  const now = Date.now();
+  const entry = rateLimitMap.get(ip);
+
+  if (!entry || now > entry.resetAt) {
+    rateLimitMap.set(ip, { count: 1, resetAt: now + WINDOW_MS });
+    return { allowed: true, retryAfter: 0 };
+  }
+
+  if (entry.count >= RATE_LIMIT) {
+    return { allowed: false, retryAfter: Math.ceil((entry.resetAt - now) / 1000) };
+  }
+
+  entry.count++;
+  return { allowed: true, retryAfter: 0 };
+}
+
+// Periodic cleanup to prevent memory growth
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, entry] of rateLimitMap) {
+    if (now > entry.resetAt) rateLimitMap.delete(ip);
+  }
+}, WINDOW_MS);
 
 function getNextChange(now: Date, dayUTC: number, isPeak: boolean, isWeekend: boolean): Date {
   const year = now.getUTCFullYear();
@@ -28,7 +58,20 @@ function getNextChange(now: Date, dayUTC: number, isPeak: boolean, isWeekend: bo
   return new Date(Date.UTC(year, month, date + 1, PEAK_START_UTC, 0, 0));
 }
 
-export function GET() {
+export function GET(request: NextRequest) {
+  const ip =
+    request.headers.get("x-forwarded-for")?.split(",")[0].trim() ??
+    request.headers.get("x-real-ip") ??
+    "unknown";
+
+  const { allowed, retryAfter } = checkRateLimit(ip);
+  if (!allowed) {
+    return NextResponse.json(
+      { error: "Too many requests", retryAfter },
+      { status: 429, headers: { "Retry-After": String(retryAfter) } }
+    );
+  }
+
   const now = new Date();
   const dayUTC = now.getUTCDay();
   const hourUTC = now.getUTCHours();
@@ -38,7 +81,10 @@ export function GET() {
   const nextChange = getNextChange(now, dayUTC, isPeak, isWeekend);
   const msUntilChange = nextChange.getTime() - now.getTime();
 
-  return NextResponse.json({
+  const secondsUntilChange = Math.floor(msUntilChange / 1000);
+  const cacheMaxAge = Math.min(secondsUntilChange, 60);
+
+  const response = NextResponse.json({
     status: isPeak ? "peak" : "off_peak",
     isPeak,
     isOffPeak,
@@ -54,4 +100,7 @@ export function GET() {
     utcDay: dayUTC,
     note: "No known end date for peak hours adjustment. Weekly limits unchanged.",
   });
+
+  response.headers.set("Cache-Control", `public, s-maxage=${cacheMaxAge}, stale-while-revalidate=10`);
+  return response;
 }
