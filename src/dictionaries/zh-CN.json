@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude会话限额追踪器",
-    "description": "在您的时区追踪Claude高峰时段。高峰时段（周一至周五 13时–19时 GMT）会话限额消耗更快。Free, Pro, Max & Team实时状态。",
-    "ogTitle": "PromoClock — 现在是Claude的高峰时段吗？",
-    "ogDescription": "不用再计算时区了。PromoClock即时告诉您是否处于会话限额消耗更快的高峰时段。"
+    "title": "PromoClock — Claude 高峰时段追踪器",
+    "description": "即时了解 Claude 会话限额何时消耗更快。您所在时区的实时高峰时段状态 — Free, Pro, Max & Team。无需配置。",
+    "ogTitle": "PromoClock — Claude 的限额现在消耗更快吗？",
+    "ogDescription": "无需猜测。PromoClock 即时显示您是否正处于 Claude 的高峰时段。"
   },
   "header": {
     "logo": "PromoClock",

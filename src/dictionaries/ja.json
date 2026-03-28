@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claudeセッション制限トラッカー",
-    "description": "お使いのタイムゾーンでClaudeのピーク時間を確認。ピーク時間（月〜金 13時〜19時 GMT）にセッション制限が速く消費されます。Free, Pro, Max & Teamのリアルタイム状態。",
-    "ogTitle": "PromoClock — 今、Claudeのピーク時間ですか？",
-    "ogDescription": "タイムゾーンの計算をやめましょう。PromoClockがセッション制限が速く消費されるピーク時間かどうかを即座にお知らせします。"
+    "title": "PromoClock — Claudeピーク時間トラッカー",
+    "description": "Claudeのセッション制限がいつ速く消費されるかをすぐに把握。あなたのタイムゾーンでリアルタイムのピーク時間状態 — Free, Pro, Max & Team。設定不要。",
+    "ogTitle": "PromoClock — 今、Claudeの制限は速く消費されていますか？",
+    "ogDescription": "推測をやめましょう。PromoClockが今ピーク時間かどうかを即座にお知らせします。"
   },
   "header": {
     "logo": "PromoClock",

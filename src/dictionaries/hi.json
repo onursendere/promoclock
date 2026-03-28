@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude सेशन लिमिट ट्रैकर",
-    "description": "अपने टाइमज़ोन में Claude के पीक आवर्स ट्रैक करें। पीक आवर्स (सोम–शुक्र 13h–19h GMT) में सेशन लिमिट तेज़ी से खर्च होती है। Free, Pro, Max & Team के लिए रियल-टाइम स्टेटस।",
-    "ogTitle": "PromoClock — क्या अभी Claude के पीक आवर्स चल रहे हैं?",
-    "ogDescription": "टाइमज़ोन गणित करना बंद करें। PromoClock तुरंत बताता है कि सेशन लिमिट तेज़ी से खर्च होने वाले पीक आवर्स चल रहे हैं या नहीं।"
+    "title": "PromoClock — Claude पीक आवर्स ट्रैकर",
+    "description": "जानें कब Claude के सेशन लिमिट तेज़ी से खर्च होते हैं। अपने टाइमज़ोन में रियल-टाइम पीक आवर्स स्टेटस — Free, Pro, Max & Team। कोई सेटअप नहीं।",
+    "ogTitle": "PromoClock — क्या अभी Claude के लिमिट तेज़ी से खर्च हो रहे हैं?",
+    "ogDescription": "अनुमान लगाना बंद करें। PromoClock तुरंत बताता है कि अभी Claude के पीक आवर्स हैं या नहीं।"
   },
   "header": {
     "logo": "PromoClock",

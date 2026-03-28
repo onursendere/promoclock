@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Rastreador de Límites de Sesión Claude",
-    "description": "Rastrea las horas pico de Claude en tu zona horaria. Los límites de sesión se consumen más rápido durante horas pico (lun–vie 13h–19h GMT). Estado en tiempo real para Free, Pro, Max & Team.",
-    "ogTitle": "PromoClock — ¿Estás en las horas pico de Claude ahora?",
-    "ogDescription": "Deja de calcular zonas horarias. PromoClock te indica al instante si estás en horas pico donde los límites de sesión se consumen más rápido."
+    "title": "PromoClock — Rastreador de horas pico de Claude",
+    "description": "Sabe al instante cuándo los límites de sesión de Claude se agotan más rápido. Estado en tiempo real para tu zona horaria — Free, Pro, Max & Team. Sin configuración.",
+    "ogTitle": "PromoClock — ¿Los límites de Claude se agotan más rápido ahora?",
+    "ogDescription": "Deja de adivinar. PromoClock muestra al instante si estás en las horas pico de Claude, cuando los límites de sesión se agotan más rápido."
   },
   "header": {
     "logo": "PromoClock",

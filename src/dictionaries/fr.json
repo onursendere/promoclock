@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Suivi des Limites de Session Claude",
-    "description": "Suivez les heures de pointe Claude dans votre fuseau horaire. Les limites de session s'écoulent plus vite pendant les heures de pointe (lundi–vendredi 13h–19h GMT). Statut temps réel pour Free, Pro, Max & Team.",
-    "ogTitle": "PromoClock — Êtes-vous dans les heures de pointe Claude en ce moment ?",
-    "ogDescription": "Arrêtez de calculer les fuseaux horaires. PromoClock vous indique instantanément si vous êtes dans les heures de pointe où les limites de session s'écoulent plus vite."
+    "title": "PromoClock — Suivi des heures de pointe Claude",
+    "description": "Sachez instantanément quand les limites de session Claude s'épuisent plus vite. Statut en temps réel pour votre fuseau horaire — Free, Pro, Max & Team. Sans configuration.",
+    "ogTitle": "PromoClock — Les limites de Claude s'épuisent-elles plus vite en ce moment ?",
+    "ogDescription": "Arrêtez de calculer. PromoClock vous indique instantanément si vous êtes dans les heures de pointe de Claude."
   },
   "header": {
     "logo": "PromoClock",

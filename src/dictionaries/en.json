@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Session Limits Tracker",
-    "description": "Track Claude's peak hours in your timezone. Session limits move faster during peak hours (weekdays 5am-11am PT / 1pm-7pm GMT). Real-time status for Free, Pro, Max & Team plans.",
-    "ogTitle": "PromoClock — Are You in Claude's Peak Hours Right Now?",
-    "ogDescription": "Stop doing timezone math. PromoClock instantly tells you if you're in Claude's peak hours where session limits move faster."
+    "title": "PromoClock — Claude Peak Hours Tracker",
+    "description": "Know instantly when Claude's session limits drain faster. Real-time peak hours status for your timezone — Free, Pro, Max & Team. No setup needed.",
+    "ogTitle": "PromoClock — Are Claude's limits draining faster right now?",
+    "ogDescription": "Stop guessing. PromoClock shows instantly whether you're in Claude's peak hours, when session limits drain faster than usual."
   },
   "header": {
     "logo": "PromoClock",

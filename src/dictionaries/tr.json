@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Oturum Limitleri Takipçisi",
-    "description": "Claude'un yoğun saatlerini kendi saat diliminizde takip edin. Oturum limitleri yoğun saatlerde (hafta içi 5am-11am PT / 1pm-7pm GMT) daha hızlı ilerler. Free, Pro, Max & Team planları için gerçek zamanlı durum.",
-    "ogTitle": "PromoClock — Şu An Claude'un Yoğun Saatlerinde misiniz?",
-    "ogDescription": "Saat dilimi hesaplamalarıyla uğraşmayı bırakın. PromoClock, Claude'un oturum limitlerinin daha hızlı ilerlediği yoğun saatlerde olup olmadığınızı anında söyler."
+    "title": "PromoClock — Claude Yoğun Saat Takipçisi",
+    "description": "Claude'un oturum limitlerinin ne zaman daha hızlı tükendiğini anında öğrenin. Kendi saat diliminizde gerçek zamanlı yoğun saat durumu — Free, Pro, Max & Team. Kurulum gerektirmez.",
+    "ogTitle": "PromoClock — Claude'un limitleri şu an daha hızlı mı tükeniyor?",
+    "ogDescription": "Tahmin etmeyi bırakın. PromoClock, Claude'un yoğun saatlerinde olup olmadığınızı anında gösterir."
   },
   "header": {
     "logo": "PromoClock",

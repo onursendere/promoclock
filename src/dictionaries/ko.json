@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude 세션 제한 트래커",
-    "description": "Claude 피크 시간대를 내 시간대로 확인하세요. 피크 시간(월–금 13시–19시 GMT)에 세션 제한이 더 빠르게 소모됩니다. Free, Pro, Max & Team 실시간 상태.",
-    "ogTitle": "PromoClock — 지금 Claude 피크 시간인가요?",
-    "ogDescription": "시간대 계산을 그만하세요. PromoClock이 세션 제한이 더 빠르게 소모되는 피크 시간인지 즉시 알려줍니다."
+    "title": "PromoClock — Claude 피크 타임 트래커",
+    "description": "Claude 세션 한도가 언제 더 빨리 소진되는지 즉시 확인하세요. 내 시간대 기준 실시간 피크 타임 상태 — Free, Pro, Max & Team. 설정 불필요.",
+    "ogTitle": "PromoClock — 지금 Claude 한도가 더 빨리 소진되고 있나요?",
+    "ogDescription": "추측은 그만. PromoClock이 지금 Claude 피크 타임인지 즉시 알려드립니다."
   },
   "header": {
     "logo": "PromoClock",

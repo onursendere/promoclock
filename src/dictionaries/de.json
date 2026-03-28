@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Sitzungslimits-Tracker",
-    "description": "Verfolgen Sie Claudes Hauptzeiten in Ihrer Zeitzone. Sitzungslimits werden in Hauptzeiten (Mo–Fr 13–19 Uhr GMT) schneller verbraucht. Echtzeit-Status für Free, Pro, Max & Team.",
-    "ogTitle": "PromoClock — Sind Sie gerade in Claudes Hauptzeiten?",
-    "ogDescription": "Hören Sie auf, Zeitzonen zu berechnen. PromoClock zeigt sofort, ob Sie in Claudes Hauptzeiten sind, wo Sitzungslimits schneller ablaufen."
+    "title": "PromoClock — Claude Hauptzeiten-Tracker",
+    "description": "Erfahren Sie sofort, wann Claudes Sitzungslimits schneller verbraucht werden. Echtzeit-Status für Ihre Zeitzone — Free, Pro, Max & Team. Kein Setup erforderlich.",
+    "ogTitle": "PromoClock — Werden Claudes Limits gerade schneller verbraucht?",
+    "ogDescription": "Schluss mit Zeitzonenrechnerei. PromoClock zeigt sofort, ob Sie sich in Claudes Hauptzeiten befinden."
   },
   "header": {
     "logo": "PromoClock",
