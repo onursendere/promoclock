@@ -157,6 +157,10 @@
     "notifTitle": "Browser Notifications & Sound Alerts",
     "notifDescription": "Enable the bell icon in the header to receive a browser notification and a gentle chime the instant Claude switches to off-peak mode — when session limits return to normal speed."
   },
+  "sponsors": {
+    "stackopticHeadline": "Paste any URL. Get the full picture.",
+    "stackopticSub": "Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan."
+  },
   "footer": {
     "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
     "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",

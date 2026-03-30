@@ -157,6 +157,10 @@
     "notifTitle": "Tarayıcı Bildirimleri ve Sesli Uyarılar",
     "notifDescription": "Başlıktaki zil simgesini etkinleştirin — Claude yoğun olmayan moda geçtiğinde (limitler normal hıza döndüğünde) anında tarayıcı bildirimi ve yumuşak bir zil sesi alın."
   },
+  "sponsors": {
+    "stackopticHeadline": "Herhangi bir URL yapıştır. Tam resmi gör.",
+    "stackopticSub": "Performans, SEO, güvenlik, AI görünürlüğü, tech stack — 18 modül, tek tarama."
+  },
   "footer": {
     "crafted": "Shrewsbury, UK'de Claude ile sevgiyle yapıldı.",
     "digiwingsPromo": "İşletmeniz için özel tasarımlı, GEO ile optimize edilmiş web çözümlerine mi ihtiyacınız var?",

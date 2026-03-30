@@ -157,6 +157,10 @@
     "notifTitle": "Notifications Navigateur & Alertes Sonores",
     "notifDescription": "Activez l'icône cloche dans l'en-tête pour recevoir une notification et un carillon doux dès que Claude passe en heures creuses (vitesse normale)."
   },
+  "sponsors": {
+    "stackopticHeadline": "Collez n'importe quelle URL. Voyez tout.",
+    "stackopticSub": "Performance, SEO, sécurité, visibilité IA, stack technique — 18 modules, un seul scan."
+  },
   "footer": {
     "crafted": "Conçu avec amour avec Claude à Shrewsbury, UK.",
     "digiwingsPromo": "Besoin de solutions web sur mesure et optimisées GEO pour votre entreprise ?",

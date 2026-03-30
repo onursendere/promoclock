@@ -153,6 +153,10 @@
     "notifTitle": "ブラウザ通知とサウンドアラート",
     "notifDescription": "ヘッダーのベルアイコンを有効にして、Claudeがオフピーク（通常速度）に切り替わった瞬間にブラウザ通知と優しいチャイムを受け取りましょう。"
   },
+  "sponsors": {
+    "stackopticHeadline": "URLを貼り付けてください。全体像を把握しましょう。",
+    "stackopticSub": "パフォーマンス、SEO、セキュリティ、AI可視性、技術スタック — 18モジュール、1回のスキャン。"
+  },
   "footer": {
     "crafted": "Shrewsbury, UKにてClaudeと共に愛情を込めて制作。",
     "digiwingsPromo": "ビジネス向けのカスタムGEO最適化ウェブソリューションが必要ですか？",

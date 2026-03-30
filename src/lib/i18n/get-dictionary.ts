@@ -110,6 +110,10 @@ export interface Dictionary {
     notifTitle: string;
     notifDescription: string;
   };
+  sponsors: {
+    stackopticHeadline: string;
+    stackopticSub: string;
+  };
   footer: {
     crafted: string;
     digiwingsPromo: string;

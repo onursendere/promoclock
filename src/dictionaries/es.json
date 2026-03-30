@@ -153,6 +153,10 @@
     "notifTitle": "Notificaciones del Navegador y Alertas de Sonido",
     "notifDescription": "Activa el ícono de campana en el encabezado para recibir notificaciones y un sonido suave cuando Claude entre en modo fuera de pico (velocidad normal)."
   },
+  "sponsors": {
+    "stackopticHeadline": "Pega cualquier URL. Obtén el panorama completo.",
+    "stackopticSub": "Rendimiento, SEO, seguridad, visibilidad IA, stack tecnológico — 18 módulos, un escaneo."
+  },
   "footer": {
     "crafted": "Hecho con amor con Claude en Shrewsbury, UK.",
     "digiwingsPromo": "¿Necesitas soluciones web personalizadas y optimizadas para GEO?",

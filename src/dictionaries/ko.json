@@ -153,6 +153,10 @@
     "notifTitle": "브라우저 알림 & 소리 알림",
     "notifDescription": "헤더의 벨 아이콘을 활성화하면 Claude가 비피크(정상 속도)로 전환되는 순간 브라우저 알림과 부드러운 차임을 받을 수 있습니다."
   },
+  "sponsors": {
+    "stackopticHeadline": "URL을 붙여넣으세요. 전체 그림을 확인하세요.",
+    "stackopticSub": "성능, SEO, 보안, AI 가시성, 기술 스택 — 18개 모듈, 단 한 번의 스캔."
+  },
   "footer": {
     "crafted": "Shrewsbury, UK에서 Claude와 함께 사랑을 담아 제작했습니다.",
     "digiwingsPromo": "비즈니스를 위한 맞춤형 GEO 최적화 웹 솔루션이 필요하신가요?",

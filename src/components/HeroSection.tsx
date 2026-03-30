@@ -289,10 +289,10 @@ export default function HeroSection({ dict }: HeroProps) {
             <span className="hidden sm:block w-px h-10 bg-border/60 shrink-0" />
             <div className="flex flex-col items-center sm:items-start gap-0.5">
               <span className="text-sm font-semibold text-foreground group-hover:text-[#2D2B6E] transition-colors leading-tight">
-                Paste any URL. Get the full picture.
+                {dict.sponsors.stackopticHeadline}
               </span>
               <span className="text-xs text-muted leading-tight">
-                Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.
+                {dict.sponsors.stackopticSub}
               </span>
             </div>
           </motion.a>

@@ -153,6 +153,10 @@
     "notifTitle": "Browser-Benachrichtigungen & Ton-Alerts",
     "notifDescription": "Aktivieren Sie das Glockensymbol im Header, um eine Benachrichtigung und einen sanften Klang zu erhalten, sobald Claude in die Nebenzeiten wechselt (normale Limits)."
   },
+  "sponsors": {
+    "stackopticHeadline": "Beliebige URL einfügen. Das große Bild sehen.",
+    "stackopticSub": "Performance, SEO, Sicherheit, AI-Sichtbarkeit, Tech-Stack — 18 Module, ein Scan."
+  },
   "footer": {
     "crafted": "Mit Liebe mit Claude in Shrewsbury, UK erstellt.",
     "digiwingsPromo": "Brauchen Sie maßgeschneiderte, GEO-optimierte Web-Lösungen für Ihr Unternehmen?",

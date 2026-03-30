@@ -153,6 +153,10 @@
     "notifTitle": "浏览器通知和声音提醒",
     "notifDescription": "启用标题栏的铃铛图标，当Claude切换到非高峰（正常速度）时立即收到浏览器通知和柔和铃声。"
   },
+  "sponsors": {
+    "stackopticHeadline": "粘贴任意URL，获取完整视图。",
+    "stackopticSub": "性能、SEO、安全、AI可见性、技术栈 — 18个模块，一次扫描。"
+  },
   "footer": {
     "crafted": "在英国Shrewsbury与Claude一起用爱打造。",
     "digiwingsPromo": "需要为您的业务定制GEO优化的网络解决方案？",
