@@ -133,7 +133,7 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.4 }}
-          className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full mb-2 sm:mb-3 relative overflow-hidden font-bold text-sm sm:text-base tracking-wide"
+          className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full mb-0 sm:mb-1 relative overflow-hidden font-bold text-sm sm:text-base tracking-wide"
           style={{
             background: badgeBg,
             color: "#FFFFFF",
@@ -265,40 +265,37 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.35 }}
-          className="mt-5 sm:mt-9"
+          className="mt-4 sm:mt-7"
         >
-          <a
+          <motion.a
             href="https://stackoptic.com?ref=promoclock"
             target="_blank"
             rel="noopener noreferrer sponsored"
-            className="relative inline-flex flex-col sm:flex-row items-center gap-2.5 sm:gap-3 px-4 sm:px-5 py-3 rounded-2xl overflow-hidden bg-surface border border-[#2D2B6E]/20 hover:border-[#2D2B6E]/50 hover:shadow-[0_4px_20px_rgba(45,43,110,0.12)] transition-all group"
+            animate={{
+              boxShadow: [
+                "0 0 0 1.5px rgba(45,43,110,0.18), 0 2px 10px rgba(45,43,110,0.06)",
+                "0 0 0 2.5px rgba(45,43,110,0.42), 0 4px 22px rgba(45,43,110,0.15)",
+                "0 0 0 1.5px rgba(45,43,110,0.18), 0 2px 10px rgba(45,43,110,0.06)",
+              ],
+            }}
+            transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
+            className="inline-flex flex-col sm:flex-row items-center gap-3 sm:gap-4 px-5 sm:px-6 py-3.5 rounded-2xl bg-surface border border-transparent hover:border-[#2D2B6E]/40 transition-colors group"
           >
-            {/* shimmer */}
-            <motion.div
-              className="absolute inset-0 pointer-events-none"
-              style={{ background: "linear-gradient(to right, transparent, rgba(45,43,110,0.06), transparent)" }}
-              animate={{ x: ["-100%", "200%"] }}
-              transition={{ duration: 3.5, repeat: Infinity, ease: "linear" }}
+            <img
+              src="/stackoptic-logo.png"
+              alt="StackOptic"
+              className="h-8 w-auto shrink-0 mix-blend-multiply"
             />
-            <div className="relative z-10 flex items-center gap-2.5 shrink-0">
-              <span className="text-[9px] text-muted/50 uppercase tracking-widest font-light shrink-0">Sponsored</span>
-              <span className="w-px h-3.5 bg-border shrink-0" />
-              <img
-                src="/stackoptic-logo.png"
-                alt="StackOptic"
-                className="h-6 w-auto shrink-0 mix-blend-multiply"
-              />
-            </div>
-            <span className="hidden sm:block relative z-10 w-px h-8 bg-border/60 shrink-0" />
-            <div className="relative z-10 flex flex-col items-center sm:items-start gap-0.5">
-              <span className="text-xs font-semibold text-foreground group-hover:text-[#2D2B6E] transition-colors leading-tight">
+            <span className="hidden sm:block w-px h-10 bg-border/60 shrink-0" />
+            <div className="flex flex-col items-center sm:items-start gap-0.5">
+              <span className="text-sm font-semibold text-foreground group-hover:text-[#2D2B6E] transition-colors leading-tight">
                 Paste any URL. Get the full picture.
               </span>
-              <span className="text-[11px] text-muted leading-tight">
+              <span className="text-xs text-muted leading-tight">
                 Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.
               </span>
             </div>
-          </a>
+          </motion.a>
         </motion.div>
 
         {/* Wiro.ai sponsor */}
