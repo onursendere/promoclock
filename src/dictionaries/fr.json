@@ -35,7 +35,8 @@
     "peakHours": "Heures de pointe (Limites plus rapides)",
     "offPeakHours": "Heures creuses (Vitesse normale)",
     "weekdays": "Jours ouvrables",
-    "allWeekend": "Tout le week-end (Vitesse normale)"
+    "allWeekend": "Tout le week-end (vitesse normale)",
+    "sinceLastChange": "depuis le dernier changement"
   },
   "howItWorks": {
     "title": "COMMENT ÇA MARCHE",

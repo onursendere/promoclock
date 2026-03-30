@@ -35,7 +35,8 @@
     "peakHours": "ピーク時間（高速消費）",
     "offPeakHours": "オフピーク時間（通常速度）",
     "weekdays": "平日",
-    "allWeekend": "週末全日（通常速度）"
+    "allWeekend": "週末全日（通常速度）",
+    "sinceLastChange": "最後の変更から"
   },
   "howItWorks": {
     "title": "仕組み",

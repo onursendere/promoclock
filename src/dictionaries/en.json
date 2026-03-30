@@ -35,7 +35,8 @@
     "peakHours": "Peak Hours (Limits Drain Faster)",
     "offPeakHours": "Off-Peak Hours (Normal Speed)",
     "weekdays": "Weekdays",
-    "allWeekend": "All Weekend (Normal Limits)"
+    "allWeekend": "All Weekend (Normal Speed)",
+    "sinceLastChange": "since last status change"
   },
   "howItWorks": {
     "title": "HOW IT WORKS",

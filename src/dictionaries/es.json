@@ -35,7 +35,8 @@
     "peakHours": "Horas Pico (Límites Más Rápidos)",
     "offPeakHours": "Fuera de Pico (Velocidad Normal)",
     "weekdays": "Días laborables",
-    "allWeekend": "Fin de Semana Completo (Velocidad Normal)"
+    "allWeekend": "Todo el fin de semana (velocidad normal)",
+    "sinceLastChange": "desde el último cambio"
   },
   "howItWorks": {
     "title": "CÓMO FUNCIONA",

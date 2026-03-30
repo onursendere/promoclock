@@ -35,7 +35,8 @@
     "peakHours": "Yoğun Saatler (Limitler Daha Hızlı Tükeniyor)",
     "offPeakHours": "Yoğun Olmayan Saatler (Normal Hız)",
     "weekdays": "Hafta İçi",
-    "allWeekend": "Tüm Hafta Sonu (Normal Limitler)"
+    "allWeekend": "Tüm Hafta Sonu (Normal Hız)",
+    "sinceLastChange": "son durum değişikliğinden beri"
   },
   "howItWorks": {
     "title": "NASIL ÇALIŞIR",

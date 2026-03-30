@@ -35,7 +35,8 @@
     "peakHours": "피크 시간 (빠른 소모)",
     "offPeakHours": "비피크 시간 (정상 속도)",
     "weekdays": "평일",
-    "allWeekend": "주말 전체 (정상 속도)"
+    "allWeekend": "주말 전체 (정상 속도)",
+    "sinceLastChange": "마지막 상태 변경 후"
   },
   "howItWorks": {
     "title": "작동 방식",

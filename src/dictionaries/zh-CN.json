@@ -35,7 +35,8 @@
     "peakHours": "高峰时段（消耗较快）",
     "offPeakHours": "非高峰时段（正常速度）",
     "weekdays": "工作日",
-    "allWeekend": "整个周末（正常速度）"
+    "allWeekend": "整个周末（正常速度）",
+    "sinceLastChange": "自上次状态变更"
   },
   "howItWorks": {
     "title": "工作原理",

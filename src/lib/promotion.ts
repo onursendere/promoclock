@@ -6,6 +6,7 @@ export interface PromotionStatus {
   isNotStarted: boolean;
   isWeekend: boolean;
   nextChangeTimestamp: number;
+  lastChangeTimestamp: number;
   userTimezone: string;
   userLocalTime: Date;
   promotionStartUTC: number;
@@ -32,6 +33,7 @@ export function getPromotionStatus(now: Date = new Date()): PromotionStatus {
   const isOffPeak = !isPeak;
 
   const nextChangeTimestamp = calculateNextChange(now, isWeekend, isPeak);
+  const lastChangeTimestamp = calculateLastChange(now, isWeekend, isPeak);
 
   return {
     isActive: true,
@@ -41,11 +43,40 @@ export function getPromotionStatus(now: Date = new Date()): PromotionStatus {
     isNotStarted: false,
     isWeekend,
     nextChangeTimestamp,
+    lastChangeTimestamp,
     userTimezone,
     userLocalTime: now,
     promotionStartUTC: PROMO_START,
     promotionEndUTC: PROMO_END,
   };
+}
+
+function calculateLastChange(
+  now: Date,
+  isWeekend: boolean,
+  isPeak: boolean
+): number {
+  const year = now.getUTCFullYear();
+  const month = now.getUTCMonth();
+  const date = now.getUTCDate();
+  const dayUTC = now.getUTCDay();
+  const hourUTC = now.getUTCHours();
+
+  if (isPeak) {
+    return Date.UTC(year, month, date, PEAK_START_UTC, 0, 0);
+  }
+
+  if (isWeekend) {
+    const daysBack = dayUTC === 6 ? 1 : 2;
+    return Date.UTC(year, month, date - daysBack, PEAK_END_UTC, 0, 0);
+  }
+
+  if (hourUTC >= PEAK_END_UTC) {
+    return Date.UTC(year, month, date, PEAK_END_UTC, 0, 0);
+  }
+
+  const daysBack = dayUTC === 1 ? 3 : 1;
+  return Date.UTC(year, month, date - daysBack, PEAK_END_UTC, 0, 0);
 }
 
 function calculateNextChange(

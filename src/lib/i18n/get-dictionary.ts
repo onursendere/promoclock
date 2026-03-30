@@ -55,6 +55,7 @@ export interface Dictionary {
     offPeakHours: string;
     weekdays: string;
     allWeekend: string;
+    sinceLastChange: string;
   };
   howItWorks: {
     title: string;

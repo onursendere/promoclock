@@ -35,7 +35,8 @@
     "peakHours": "Hauptzeiten (Limits laufen schneller ab)",
     "offPeakHours": "Nebenzeiten (Normale Limits)",
     "weekdays": "Werktage",
-    "allWeekend": "Ganzes Wochenende (Normale Verbrauchsrate)"
+    "allWeekend": "Ganzes Wochenende (Normale Verbrauchsrate)",
+    "sinceLastChange": "seit letzter Statusänderung"
   },
   "howItWorks": {
     "title": "SO FUNKTIONIERT'S",

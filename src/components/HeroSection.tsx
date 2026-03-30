@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { usePromotionStatus } from "@/hooks/usePromotionStatus";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
@@ -39,6 +40,48 @@ function CountdownDigit({
       <span className="mt-2 text-xs tracking-widest text-secondary uppercase font-semibold">
         {label}
       </span>
+    </div>
+  );
+}
+
+function ElapsedClock({
+  lastChangeTimestamp,
+  label,
+  isPeak,
+}: {
+  lastChangeTimestamp: number;
+  label: string;
+  isPeak: boolean;
+}) {
+  const [elapsed, setElapsed] = useState({ h: 0, m: 0, s: 0 });
+
+  useEffect(() => {
+    const tick = () => {
+      const diff = Math.max(0, Date.now() - lastChangeTimestamp);
+      const totalSec = Math.floor(diff / 1000);
+      setElapsed({
+        h: Math.floor(totalSec / 3600),
+        m: Math.floor((totalSec % 3600) / 60),
+        s: totalSec % 60,
+      });
+    };
+    tick();
+    const id = setInterval(tick, 1000);
+    return () => clearInterval(id);
+  }, [lastChangeTimestamp]);
+
+  const color = isPeak ? "#8B3A3A" : "#1D5B1A";
+  const fmt = (n: number) => String(n).padStart(2, "0");
+
+  return (
+    <div className="inline-flex items-center gap-2 text-xs text-muted">
+      <span
+        className="tabular-nums font-mono font-semibold text-sm"
+        style={{ color }}
+      >
+        {fmt(elapsed.h)}:{fmt(elapsed.m)}:{fmt(elapsed.s)}
+      </span>
+      <span>{label}</span>
     </div>
   );
 }
@@ -191,6 +234,22 @@ export default function HeroSection({ dict }: HeroProps) {
                 isPeak={isPeak}
               />
             </div>
+          </motion.div>
+        )}
+
+        {/* Elapsed since last change */}
+        {status.isLoaded && status.lastChangeTimestamp > 0 && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.35 }}
+            className="mt-4 sm:mt-5"
+          >
+            <ElapsedClock
+              lastChangeTimestamp={status.lastChangeTimestamp}
+              label={dict.hero.sinceLastChange}
+              isPeak={isPeak}
+            />
           </motion.div>
         )}
 

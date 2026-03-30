@@ -27,6 +27,7 @@ export function usePromotionStatus(): PromotionState {
     isNotStarted: true,
     isWeekend: false,
     nextChangeTimestamp: 0,
+    lastChangeTimestamp: 0,
     userTimezone: "",
     userLocalTime: new Date(),
     promotionStartUTC: 0,
