@@ -260,12 +260,46 @@ export default function HeroSection({ dict }: HeroProps) {
           </motion.div>
         )}
 
+        {/* StackOptic sponsor */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.35 }}
+          className="mt-5 sm:mt-9"
+        >
+          <a
+            href="https://stackoptic.com?ref=promoclock"
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="inline-flex flex-col sm:flex-row items-center gap-2.5 sm:gap-3 px-4 sm:px-5 py-3 rounded-2xl bg-surface border border-border hover:border-[#2D2B6E]/40 hover:shadow-[0_2px_12px_rgba(45,43,110,0.1)] transition-all group"
+          >
+            <div className="flex items-center gap-2.5 shrink-0">
+              <span className="text-[10px] text-muted uppercase tracking-widest font-semibold shrink-0">Sponsored</span>
+              <span className="w-px h-3.5 bg-border shrink-0" />
+              <img
+                src="/stackoptic-logo.png"
+                alt="StackOptic"
+                className="h-5 w-auto shrink-0 mix-blend-multiply"
+              />
+            </div>
+            <span className="hidden sm:block w-px h-8 bg-border shrink-0" />
+            <div className="flex flex-col items-center sm:items-start gap-0.5">
+              <span className="text-xs font-semibold text-foreground group-hover:text-[#2D2B6E] transition-colors leading-tight">
+                Paste any URL. See everything under the hood.
+              </span>
+              <span className="text-[11px] text-muted leading-tight">
+                Find out in seconds — Completely free to start. Paid plans launching soon.
+              </span>
+            </div>
+          </a>
+        </motion.div>
+
         {/* Wiro.ai sponsor */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="mt-5 sm:mt-9"
+          className="mt-3"
         >
           <a
             href="https://wiro.ai?ref=promoclock"
