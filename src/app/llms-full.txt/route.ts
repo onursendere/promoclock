@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export function GET() {
   const content = `# PromoClock — Complete Reference
 > Real-time tracker for Claude's peak hours — session limits drain faster during peak time
-> Built by Onur Şendere (@onursendere) — https://promoclock.co
+> Built by Onur Şendere / Digiwings — https://promoclock.co
 
 ## Overview
 PromoClock is a free, independent, open-source web application that shows in real time whether Claude's session limits are currently draining faster than normal (peak hours) or at normal speed (off-peak). It automatically detects the user's timezone and displays a live countdown to the next status change.
@@ -97,6 +97,9 @@ end
 - 10 languages: en, tr, fr, de, es, pt, ko, hi, ja, zh-CN
 - Deployed on Docker + Caddy (Hetzner VPS) with Cloudflare CDN
 
+## About the Author
+Onur Şendere is an independent developer and founder of Digiwings, a one-person digital agency based in Shrewsbury, UK, specialising in bespoke, GEO-optimised web solutions. PromoClock is an independent open-source project, not affiliated with Anthropic.
+
 ## FAQ
 Q: What is the peak hours system?
 A: Since March 27, 2026, Claude session limits drain faster during weekday peak hours (13:00–19:00 UTC). Outside these hours — weekday evenings, nights, and all weekend — limits drain at normal speed. Weekly limits are unchanged.
@@ -116,7 +119,8 @@ A: Onur Şendere (@onursendere on X). Independent project, not affiliated with A
 ## Links
 - Website: https://promoclock.co
 - GitHub: https://github.com/onursendere/promoclock
-- Author: https://x.com/onursendere
+- Author (X): https://x.com/onursendere
+- Author (GitHub): https://github.com/onursendere
 - Agency: https://digiwings.co.uk
 `;
 

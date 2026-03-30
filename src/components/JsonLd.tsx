@@ -9,6 +9,23 @@ interface JsonLdProps {
 export default function JsonLd({ dict, lang }: JsonLdProps) {
   const baseUrl = "https://promoclock.co";
 
+  const author = {
+    "@type": "Person",
+    name: "Onur Şendere",
+    url: "https://x.com/onursendere",
+    sameAs: [
+      "https://x.com/onursendere",
+      "https://github.com/onursendere",
+      "https://www.linkedin.com/in/onursendere/",
+    ],
+  };
+
+  const publisher = {
+    "@type": "Organization",
+    name: "Digiwings",
+    url: "https://digiwings.co.uk",
+  };
+
   const softwareApp = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -17,16 +34,14 @@ export default function JsonLd({ dict, lang }: JsonLdProps) {
     url: `${baseUrl}/${lang}`,
     applicationCategory: "UtilitiesApplication",
     operatingSystem: "Web",
+    inLanguage: lang,
     offers: {
       "@type": "Offer",
       price: "0",
       priceCurrency: "USD",
     },
-    author: {
-      "@type": "Person",
-      name: "Onur Şendere",
-      url: "https://x.com/onursendere",
-    },
+    author,
+    publisher,
   };
 
   const faqPage = {
@@ -45,7 +60,7 @@ export default function JsonLd({ dict, lang }: JsonLdProps) {
   const howTo = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: "How to check if Claude off-peak promotion is active",
+    name: "How to check if Claude peak hours are active right now",
     description: dict.howItWorks.subtitle,
     step: dict.howItWorks.steps.map((step, i) => ({
       "@type": "HowToStep",

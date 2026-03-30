@@ -2,26 +2,29 @@ import { NextResponse } from "next/server";
 
 export function GET() {
   const content = `# PromoClock
-> Real-time tracker for Claude's March 2026 off-peak promotion (2x limits)
+> Real-time Claude peak hours tracker — know instantly when session limits drain faster
 
 ## What is PromoClock?
-PromoClock is a free, open-source tool that helps Claude users worldwide instantly check whether they are currently in the off-peak promotion window with doubled message and context limits.
+PromoClock is a free, independent, open-source web app that shows in real time whether Claude's session limits are currently draining faster than normal (peak hours) or at normal speed (off-peak). Auto-detects your timezone. No setup needed. Built by Onur Şendere / Digiwings.
 
 ## Key Facts
-- Promotion period: March 13–27, 2026
-- Peak hours (standard limits): Weekdays 8:00 AM – 2:00 PM ET (12:00–18:00 UTC)
-- Off-peak hours (2x limits): All other times including entire weekends
-- Eligible plans: Free, Pro, Max, Team (Enterprise excluded)
-- Available on: Web, Desktop, Mobile, Claude Cowork, Claude Code, Excel/PowerPoint add-ins
+- Peak hours (limits drain faster): Weekdays 1pm–7pm UTC (13:00–19:00 UTC)
+- Off-peak (normal speed): Weekday evenings/nights + entire weekends
+- Weekly limits: Unchanged — only the drain rate is affected
+- Active since: March 27, 2026. No known end date.
+- Affected plans: Free, Pro, Max, Team (Enterprise excluded)
+- Platforms: Web, Desktop, Mobile, Claude Cowork, Claude Code, Excel/PowerPoint add-ins
+- Languages: 10 (en, tr, fr, de, es, pt, ko, hi, ja, zh-CN)
 
 ## API
-- Status endpoint: https://promoclock.co/api/status (JSON)
-- Calendar sync: https://promoclock.co/api/calendar (ICS)
+- Status: GET https://promoclock.co/api/status (JSON, rate-limited 60 req/min)
 
 ## Links
 - Website: https://promoclock.co
 - GitHub: https://github.com/onursendere/promoclock
-- Full details: https://promoclock.co/llms-full.txt
+- Author: https://x.com/onursendere
+- Agency: https://digiwings.co.uk
+- Full reference: https://promoclock.co/llms-full.txt
 `;
 
   return new NextResponse(content, {
