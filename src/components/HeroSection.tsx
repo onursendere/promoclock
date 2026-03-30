@@ -153,7 +153,14 @@ export default function HeroSection({ dict }: HeroProps) {
               isOffPeak && status.isLoaded ? "animate-pulse" : ""
             }`}
           />
-          <span className="relative z-10">{dict.hero.badge}</span>
+          <span className="relative z-10">
+            {dict.hero.badge}
+            {status.isLoaded && (
+              <span className="ml-2 font-extrabold">
+                — {isPeak ? "ON" : "OFF"}
+              </span>
+            )}
+          </span>
         </motion.div>
 
         {/* Main status heading */}
