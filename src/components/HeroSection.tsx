@@ -133,7 +133,7 @@ export default function HeroSection({ dict }: HeroProps) {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.4 }}
-          className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full mb-4 sm:mb-7 relative overflow-hidden font-bold text-sm sm:text-base tracking-wide"
+          className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full mb-2 sm:mb-3 relative overflow-hidden font-bold text-sm sm:text-base tracking-wide"
           style={{
             background: badgeBg,
             color: "#FFFFFF",
