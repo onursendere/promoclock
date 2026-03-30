@@ -48,7 +48,7 @@
       },
       {
         "title": "실시간 계산",
-        "description": "엔진이 현지 시간을 Claude 피크 시간(월–금 GMT 13시–19시 / PST 5시–11시)과 실시간 비교합니다."
+        "description": "엔진이 현지 시간을 Claude 피크 시간(월–금 GMT 13시–19시)과 실시간 비교합니다."
       },
       {
         "title": "즉시 상태 확인",
@@ -96,7 +96,7 @@
   },
   "schedule": {
     "title": "글로벌 시간표",
-    "subtitle": "주요 도시의 피크 시간을 확인하세요. 피크: 월–금 GMT 13시–19시 / PST 5시–11시.",
+    "subtitle": "주요 도시의 피크 시간을 확인하세요. 피크: 월–금 GMT 13시–19시.",
     "tableHeaders": {
       "city": "도시 / 지역",
       "timezone": "시간대",

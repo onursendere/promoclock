@@ -116,7 +116,7 @@
       },
       {
         "question": "Yoğun saatler tam olarak ne zaman?",
-        "answer": "Yoğun saatler hafta içi 5am–11am Pacific Time / 1pm–7pm GMT. Hafta içi akşamları, geceler ve tüm hafta sonu (Cumartesi ve Pazar, 24 saat) yoğun olmayan saatlerdir — bu saatlerde limitler normal hızda tükeniyor."
+        "answer": "Yoğun saatler hafta içi 1pm–7pm UTC. Hafta içi akşamları, geceler ve tüm hafta sonu (Cumartesi ve Pazar, 24 saat) yoğun olmayan saatlerdir — bu saatlerde limitler normal hızda tükeniyor."
       },
       {
         "question": "Benim saat dilimimde yoğun saatler ne zaman?",

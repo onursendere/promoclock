@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-// Peak hours: weekdays 5am-11am PT / 1pm-7pm GMT (13:00-19:00 UTC)
+// Peak hours: weekdays 1pm-7pm UTC (13:00-19:00 UTC)
 const PEAK_START_UTC = 13;
 const PEAK_END_UTC = 19;
 
@@ -35,6 +35,23 @@ setInterval(() => {
     if (now > entry.resetAt) rateLimitMap.delete(ip);
   }
 }, WINDOW_MS);
+
+function getPeakHoursLabel(): string {
+  const ref = new Date();
+  const fmt = (utcHour: number) => {
+    const d = new Date(Date.UTC(ref.getUTCFullYear(), ref.getUTCMonth(), ref.getUTCDate(), utcHour, 0, 0));
+    return new Intl.DateTimeFormat("en-US", {
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+      timeZone: "America/Los_Angeles",
+    }).format(d);
+  };
+  const tzAbbr = new Intl.DateTimeFormat("en-US", { timeZoneName: "short", timeZone: "America/Los_Angeles" })
+    .formatToParts(ref)
+    .find((p) => p.type === "timeZoneName")?.value ?? "PT";
+  return `Weekdays 1pm–7pm UTC / ${fmt(PEAK_START_UTC)}–${fmt(PEAK_END_UTC)} ${tzAbbr}`;
+}
 
 function getNextChange(now: Date, dayUTC: number, isPeak: boolean, isWeekend: boolean): Date {
   const year = now.getUTCFullYear();
@@ -92,7 +109,7 @@ export function GET(request: NextRequest) {
     sessionLimitSpeed: isPeak ? "faster_than_normal" : "normal",
     emoji: isPeak ? "🔴" : "🟢",
     label: isPeak ? "Peak Hours — Limits Drain Faster" : "Off-Peak — Normal Speed",
-    peakHours: "Weekdays 5am–11am PT / 1pm–7pm GMT",
+    peakHours: getPeakHoursLabel(),
     nextChange: nextChange.toISOString(),
     minutesUntilChange: Math.floor(msUntilChange / 60000),
     timestamp: now.toISOString(),

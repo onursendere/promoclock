@@ -48,7 +48,7 @@
       },
       {
         "title": "CALCULAMOS EN TIEMPO REAL",
-        "description": "Nuestro motor compara tu hora local con las horas pico de Claude (lun–vie 13h–19h GMT / 5h–11h PST) en tiempo real."
+        "description": "Nuestro motor compara tu hora local con las horas pico de Claude (lun–vie 13h–19h GMT) en tiempo real."
       },
       {
         "title": "VES TU ESTADO AL INSTANTE",
@@ -96,7 +96,7 @@
   },
   "schedule": {
     "title": "HORARIO GLOBAL",
-    "subtitle": "Consulta las horas pico (límites más rápidos) en las principales ciudades. Horas pico: lun–vie 13h–19h GMT / 5h–11h PST.",
+    "subtitle": "Consulta las horas pico (límites más rápidos) en las principales ciudades. Horas pico: lun–vie 13h–19h GMT.",
     "tableHeaders": {
       "city": "Ciudad / Región",
       "timezone": "Zona Horaria",

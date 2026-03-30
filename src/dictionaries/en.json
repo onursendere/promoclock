@@ -22,7 +22,7 @@
     "promotionExpired": "OFF-PEAK — NORMAL LIMITS",
     "promotionNotStarted": "OFF-PEAK — NORMAL LIMITS",
     "activeSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
-    "inactiveSubtitle": "Peak hours (weekdays 5am–11am PT / 1pm–7pm GMT) — session limits drain faster than usual. Weekly limits unchanged.",
+    "inactiveSubtitle": "Peak hours (weekdays 1pm–7pm UTC) — session limits drain faster than usual. Weekly limits unchanged.",
     "expiredSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
     "notStartedSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
     "countdownLabel": "Until next status change",
@@ -48,7 +48,7 @@
       },
       {
         "title": "WE CALCULATE IN REAL TIME",
-        "description": "Our engine compares your local time against Claude's peak hours (weekdays 5 AM – 11 AM PT / 1 PM – 7 PM GMT) in real-time."
+        "description": "Our engine compares your local time against Claude's peak hours (weekdays 1 PM – 7 PM UTC) in real-time."
       },
       {
         "title": "YOU SEE YOUR STATUS INSTANTLY",
@@ -92,11 +92,11 @@
       "title": "Available on all Claude surfaces",
       "items": ["Web (claude.ai)", "Desktop (Mac / Windows)", "Mobile (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Excel & PowerPoint Add-ins"]
     },
-    "note": "Weekly limits remain unchanged. During peak hours (weekdays 5am–11am PT / 1pm–7pm GMT), session limits drain faster than usual. No known end date for this adjustment."
+    "note": "Weekly limits remain unchanged. During peak hours (weekdays 1pm–7pm UTC), session limits drain faster than usual. No known end date for this adjustment."
   },
   "schedule": {
     "title": "GLOBAL SCHEDULE",
-    "subtitle": "See when peak hours occur in major cities. During peak hours, session limits drain faster than normal. Peak: weekdays 1pm–7pm GMT / 5am–11am PT.",
+    "subtitle": "See when peak hours occur in major cities. During peak hours, session limits drain faster than normal. Peak: weekdays 1pm–7pm UTC.",
     "tableHeaders": {
       "city": "City / Region",
       "timezone": "Timezone",
@@ -112,11 +112,11 @@
     "items": [
       {
         "question": "What changed with Claude's session limits?",
-        "answer": "Starting March 27, 2026, Claude adjusts how session limits drain during peak hours. During peak hours (weekdays 5am–11am PT / 1pm–7pm GMT), session limits drain faster than usual. Outside peak hours — weekday evenings, nights, and all weekend — limits drain at normal speed. Weekly limits remain unchanged. No known end date for this adjustment."
+        "answer": "Starting March 27, 2026, Claude adjusts how session limits drain during peak hours. During peak hours (weekdays 1pm–7pm UTC), session limits drain faster than usual. Outside peak hours — weekday evenings, nights, and all weekend — limits drain at normal speed. Weekly limits remain unchanged. No known end date for this adjustment."
       },
       {
         "question": "When exactly are peak hours?",
-        "answer": "Peak hours are weekdays 5:00 AM to 11:00 AM Pacific Time / 1:00 PM to 7:00 PM GMT. Weekday evenings, nights, and the entire weekend are off-peak — limits drain at normal speed during these times."
+        "answer": "Peak hours are weekdays 1:00 PM to 7:00 PM UTC. Weekday evenings, nights, and the entire weekend are off-peak — limits drain at normal speed during these times."
       },
       {
         "question": "What time are peak hours in my timezone?",

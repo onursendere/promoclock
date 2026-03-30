@@ -18,7 +18,7 @@ export const PROMO_START = Date.UTC(2026, 2, 13, 0, 0, 0);
 export const PROMO_END = Date.UTC(2026, 2, 28, 6, 59, 0);
 
 // Session limits peak hours system (March 27, 2026 update)
-// Peak hours: weekdays 1pm–7pm GMT / 5am–11am PST (13:00–19:00 UTC)
+// Peak hours: weekdays 1pm–7pm UTC (13:00–19:00 UTC) — DST-aware local times via IANA
 const PEAK_START_UTC = 13;
 const PEAK_END_UTC = 19;
 
