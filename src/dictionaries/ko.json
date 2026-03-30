@@ -140,7 +140,7 @@
       },
       {
         "question": "PromoClock은 무엇인가요?",
-        "answer": "PromoClock은 Onur Sendere(X: @onursendere)가 Claude 사용자들이 피크 시간인지 즉시 알 수 있도록 만들었습니다. 독립 프로젝트, Anthropic과 무관."
+        "answer": "PromoClock은 Onur Şendere(X: @onursendere)가 Claude 사용자들이 피크 시간인지 즉시 알 수 있도록 만들었습니다. 독립 프로젝트, Anthropic과 무관."
       }
     ]
   },
@@ -159,6 +159,6 @@
     "digiwingsCta": "1인 디지털 에이전시 방문하기",
     "buymeacoffee": "시간대 계산을 건너뛸 수 있었나요? 커피 한 잔 사주세요",
     "disclaimer": "PromoClock은 Anthropic 또는 Claude와 관련 없는 독립 프로젝트입니다. 정보 제공 목적으로만 사용됩니다.",
-    "rights": "© 2026 PromoClock. Onur Sendere 제작."
+    "rights": "© 2026 PromoClock. Onur Şendere 제작."
   }
 }

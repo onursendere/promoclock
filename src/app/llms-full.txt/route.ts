@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export function GET() {
   const content = `# PromoClock — Complete Reference
 > Real-time tracker for Claude's peak hours — session limits drain faster during peak time
-> Built by Onur Sendere (@onursendere) — https://promoclock.co
+> Built by Onur Şendere (@onursendere) — https://promoclock.co
 
 ## Overview
 PromoClock is a free, independent, open-source web application that shows in real time whether Claude's session limits are currently draining faster than normal (peak hours) or at normal speed (off-peak). It automatically detects the user's timezone and displays a live countdown to the next status change.
@@ -111,7 +111,7 @@ Q: Is there an end date?
 A: No known end date as of the time of writing.
 
 Q: Who built PromoClock?
-A: Onur Sendere (@onursendere on X). Independent project, not affiliated with Anthropic.
+A: Onur Şendere (@onursendere on X). Independent project, not affiliated with Anthropic.
 
 ## Links
 - Website: https://promoclock.co

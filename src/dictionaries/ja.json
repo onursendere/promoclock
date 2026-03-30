@@ -140,7 +140,7 @@
       },
       {
         "question": "PromoClockとは何ですか？",
-        "answer": "PromoClockはOnur Sendere（Xで@onursendere）が開発しました。Claudeユーザーがピーク時間かどうかを即座に確認できるよう設計された独立したプロジェクトで、Anthropicとは関連していません。"
+        "answer": "PromoClockはOnur Şendere（Xで@onursendere）が開発しました。Claudeユーザーがピーク時間かどうかを即座に確認できるよう設計された独立したプロジェクトで、Anthropicとは関連していません。"
       }
     ]
   },
@@ -159,6 +159,6 @@
     "digiwingsCta": "ワンパーソンデジタルエージェンシーをご覧ください",
     "buymeacoffee": "タイムゾーンの計算を省けましたか？コーヒーをおごってください",
     "disclaimer": "PromoClockは独立したプロジェクトであり、AnthropicやClaudeとは関連していません。情報提供のみを目的としています。",
-    "rights": "© 2026 PromoClock. Onur Sendere制作。"
+    "rights": "© 2026 PromoClock. Onur Şendere制作。"
   }
 }

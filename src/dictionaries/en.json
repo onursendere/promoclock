@@ -144,7 +144,7 @@
       },
       {
         "question": "What is PromoClock and who built it?",
-        "answer": "PromoClock was built by Onur Sendere (@onursendere on X) to help Claude users worldwide instantly understand whether they are in peak hours. It is an independent project and is not affiliated with Anthropic."
+        "answer": "PromoClock was built by Onur Şendere (@onursendere on X) to help Claude users worldwide instantly understand whether they are in peak hours. It is an independent project and is not affiliated with Anthropic."
       }
     ]
   },
@@ -163,6 +163,6 @@
     "digiwingsCta": "Visit my one-person digital agency",
     "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
     "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
-    "rights": "© 2026 PromoClock. Built by Onur Sendere."
+    "rights": "© 2026 PromoClock. Built by Onur Şendere."
   }
 }

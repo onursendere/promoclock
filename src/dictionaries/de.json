@@ -140,7 +140,7 @@
       },
       {
         "question": "Was ist PromoClock?",
-        "answer": "PromoClock wurde von Onur Sendere (@onursendere auf X) erstellt, um Claude-Nutzern sofort zu zeigen, ob sie in Hauptzeiten sind. Unabhängiges Projekt, nicht mit Anthropic verbunden."
+        "answer": "PromoClock wurde von Onur Şendere (@onursendere auf X) erstellt, um Claude-Nutzern sofort zu zeigen, ob sie in Hauptzeiten sind. Unabhängiges Projekt, nicht mit Anthropic verbunden."
       }
     ]
   },
@@ -159,6 +159,6 @@
     "digiwingsCta": "Besuchen Sie meine Ein-Personen-Digitalagentur",
     "buymeacoffee": "Hat Ihnen die Zeitzonenberechnung erspart? Spendieren Sie mir einen Kaffee",
     "disclaimer": "PromoClock ist ein unabhängiges Projekt und nicht mit Anthropic oder Claude verbunden. Nur zu Informationszwecken.",
-    "rights": "© 2026 PromoClock. Erstellt von Onur Sendere."
+    "rights": "© 2026 PromoClock. Erstellt von Onur Şendere."
   }
 }

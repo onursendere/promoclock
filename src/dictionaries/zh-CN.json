@@ -140,7 +140,7 @@
       },
       {
         "question": "PromoClock是什么？",
-        "answer": "PromoClock由Onur Sendere（X上@onursendere）开发，帮助Claude用户即时了解是否处于高峰时段。这是一个独立项目，与Anthropic无关。"
+        "answer": "PromoClock由Onur Şendere（X上@onursendere）开发，帮助Claude用户即时了解是否处于高峰时段。这是一个独立项目，与Anthropic无关。"
       }
     ]
   },
@@ -159,6 +159,6 @@
     "digiwingsCta": "访问我的一人数字代理机构",
     "buymeacoffee": "帮您省去了时区计算？请我喝杯咖啡",
     "disclaimer": "PromoClock是独立项目，与Anthropic或Claude无关。仅供参考。",
-    "rights": "© 2026 PromoClock。由Onur Sendere制作。"
+    "rights": "© 2026 PromoClock。由Onur Şendere制作。"
   }
 }

@@ -95,7 +95,24 @@ export default function Footer({ dict }: { dict: Dictionary }) {
               {dict.footer.disclaimer}
             </p>
             <p className="text-xs text-muted/50">
-              {dict.footer.rights}
+              {(() => {
+                const parts = dict.footer.rights.split("Onur Şendere");
+                if (parts.length < 2) return dict.footer.rights;
+                return (
+                  <>
+                    {parts[0]}
+                    <a
+                      href="https://x.com/onursendere"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      Onur Şendere
+                    </a>
+                    {parts[1]}
+                  </>
+                );
+              })()}
             </p>
           </div>
         </div>

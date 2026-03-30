@@ -24,8 +24,8 @@ export default function JsonLd({ dict, lang }: JsonLdProps) {
     },
     author: {
       "@type": "Person",
-      name: "Onur Sendere",
-      url: "https://github.com/onursendere",
+      name: "Onur Şendere",
+      url: "https://x.com/onursendere",
     },
   };
 

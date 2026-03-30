@@ -140,7 +140,7 @@
       },
       {
         "question": "¿Qué es PromoClock?",
-        "answer": "PromoClock fue creado por Onur Sendere (@onursendere en X) para ayudar a los usuarios de Claude a saber instantáneamente si están en horas pico. Proyecto independiente, no afiliado a Anthropic."
+        "answer": "PromoClock fue creado por Onur Şendere (@onursendere en X) para ayudar a los usuarios de Claude a saber instantáneamente si están en horas pico. Proyecto independiente, no afiliado a Anthropic."
       }
     ]
   },
@@ -159,6 +159,6 @@
     "digiwingsCta": "Visita mi agencia digital unipersonal",
     "buymeacoffee": "¿Te ayudó a evitar cálculos de zona horaria? Invítame un café",
     "disclaimer": "PromoClock es un proyecto independiente no afiliado con Anthropic o Claude. Solo con fines informativos.",
-    "rights": "© 2026 PromoClock. Creado por Onur Sendere."
+    "rights": "© 2026 PromoClock. Creado por Onur Şendere."
   }
 }

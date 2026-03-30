@@ -144,7 +144,7 @@
       },
       {
         "question": "PromoClock nedir ve kim tarafından yapıldı?",
-        "answer": "PromoClock, Onur Sendere (X'te @onursendere) tarafından dünya genelindeki Claude kullanıcılarının yoğun olmayan promosyon penceresinde olup olmadıklarını anında anlamalarına yardımcı olmak için geliştirilmiştir. Bağımsız bir projedir ve Anthropic ile herhangi bir bağlantısı yoktur."
+        "answer": "PromoClock, Onur Şendere (X'te @onursendere) tarafından dünya genelindeki Claude kullanıcılarının yoğun olmayan promosyon penceresinde olup olmadıklarını anında anlamalarına yardımcı olmak için geliştirilmiştir. Bağımsız bir projedir ve Anthropic ile herhangi bir bağlantısı yoktur."
       }
     ]
   },
@@ -163,6 +163,6 @@
     "digiwingsCta": "Tek kişilik dijital ajansımı ziyaret edin",
     "buymeacoffee": "Saat dilimi karmaşasından kurtulmanıza yardımcı olduysa, bana bir kahve ısmarlayabilirsiniz",
     "disclaimer": "PromoClock bağımsız bir projedir ve Anthropic veya Claude ile herhangi bir bağlantısı yoktur. Yalnızca bilgilendirme amaçlıdır.",
-    "rights": "© 2026 PromoClock. Onur Sendere tarafından geliştirildi."
+    "rights": "© 2026 PromoClock. Onur Şendere tarafından geliştirildi."
   }
 }
