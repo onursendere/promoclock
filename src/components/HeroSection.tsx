@@ -111,30 +111,30 @@ export default function HeroSection({ dict }: HeroProps) {
               ],
             }}
             transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
-            className="inline-flex flex-col items-stretch rounded-2xl overflow-hidden bg-surface border border-transparent hover:border-[#2D2B6E]/40 transition-colors group max-w-md"
+            className="flex flex-col items-stretch rounded-2xl overflow-hidden bg-surface border border-transparent hover:border-[#2D2B6E]/40 transition-colors group w-full max-w-xl mx-auto"
           >
             {/* Top: sponsor identity */}
-            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 px-5 sm:px-6 py-3.5">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 px-5 sm:px-6 py-4">
               <img
                 src="/stackoptic-logo.png"
                 alt="StackOptic"
-                className="h-8 w-auto shrink-0 mix-blend-multiply"
+                className="h-8 sm:h-9 w-auto self-center sm:self-auto shrink-0 mix-blend-multiply"
               />
-              <span className="hidden sm:block w-px h-12 bg-border/60 shrink-0" />
-              <div className="flex flex-col items-center sm:items-start gap-0.5">
-                <span className="text-sm font-semibold text-foreground group-hover:text-[#2D2B6E] transition-colors leading-tight">
+              <span className="hidden sm:block w-px h-10 bg-border/60 shrink-0" />
+              <div className="flex flex-col items-center sm:items-start gap-0.5 text-center sm:text-left flex-1 min-w-0">
+                <span className="text-sm sm:text-[15px] font-semibold text-foreground group-hover:text-[#2D2B6E] transition-colors leading-snug">
                   {dict.sponsors.stackopticHeadline}
                 </span>
-                <span className="text-xs text-muted leading-tight">
+                <span className="text-xs text-muted leading-snug">
                   {dict.sponsors.stackopticSub}
                 </span>
               </div>
             </div>
 
             {/* Bottom: prominent SOLO50 promo strip */}
-            <div className="relative flex items-center justify-center gap-2.5 sm:gap-3 px-4 sm:px-5 py-3 bg-linear-to-r from-[#2D2B6E] via-[#3b3899] to-[#2D2B6E] text-white overflow-hidden">
+            <div className="relative flex flex-wrap items-center justify-center sm:justify-between gap-x-3 gap-y-2 px-4 sm:px-5 py-3 sm:py-3.5 bg-linear-to-r from-[#2D2B6E] via-[#3b3899] to-[#2D2B6E] text-white overflow-hidden">
               <motion.div
-                className="absolute inset-0"
+                className="absolute inset-0 pointer-events-none"
                 style={{
                   background:
                     "linear-gradient(to right, transparent, rgba(255,255,255,0.22), transparent)",
@@ -142,13 +142,13 @@ export default function HeroSection({ dict }: HeroProps) {
                 animate={{ x: ["-100%", "200%"] }}
                 transition={{ duration: 2.6, repeat: Infinity, ease: "linear" }}
               />
-              <span className="relative z-10 text-[10px] sm:text-[11px] font-bold tracking-[0.18em] uppercase bg-white/15 border border-white/25 px-2 py-0.5 rounded-full shrink-0">
+              <span className="relative z-10 text-[10px] sm:text-[11px] font-extrabold tracking-[0.16em] uppercase bg-white/15 border border-white/30 px-2.5 py-1 rounded-full shrink-0 whitespace-nowrap">
                 {dict.sponsors.stackopticPromoBadge}
               </span>
-              <span className="relative z-10 text-sm sm:text-base font-bold leading-tight text-center">
+              <span className="relative z-10 text-sm sm:text-[15px] font-bold leading-tight text-center flex-1 min-w-0 px-1">
                 {dict.sponsors.stackopticPromo}
               </span>
-              <span className="relative z-10 font-mono font-extrabold tracking-widest text-xs sm:text-sm bg-white text-[#2D2B6E] px-2.5 py-1 rounded-md shadow-sm shrink-0">
+              <span className="relative z-10 font-mono font-extrabold tracking-widest text-xs sm:text-sm bg-white text-[#2D2B6E] px-3 py-1.5 rounded-md shadow-sm shrink-0 whitespace-nowrap">
                 {dict.sponsors.stackopticCode}
               </span>
             </div>
