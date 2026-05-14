@@ -2,23 +2,16 @@
 
 import { motion } from "framer-motion";
 import { Archive } from "lucide-react";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
-const PAST_PROMOTIONS = [
-  {
-    title: "Claude March 2026 Off-Peak Promotion",
-    dates: "March 13 – March 27, 2026",
-    description:
-      "Anthropic ran a 2x session limits promotion during off-peak hours (outside weekdays 8 AM – 2 PM ET). Free, Pro, Max, and Team plans received doubled message and context limits during off-peak windows.",
-    status: "ENDED",
-  },
-];
+export default function PromotionHistory({ dict }: { dict: Dictionary }) {
+  const items = dict.promotionHistory.items;
 
-export default function PromotionHistory() {
   return (
     <section
       id="promotion-history"
       className="py-24 px-4"
-      aria-label="Promotion History"
+      aria-label={dict.promotionHistory.title}
     >
       <div className="max-w-3xl mx-auto">
         <motion.div
@@ -30,18 +23,18 @@ export default function PromotionHistory() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface border border-border text-xs font-semibold tracking-widest text-muted uppercase mb-6">
             <Archive size={13} />
-            Archive
+            {dict.promotionHistory.archiveLabel}
           </div>
           <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-4">
-            PROMOTION HISTORY
+            {dict.promotionHistory.title}
           </h2>
           <p className="text-secondary max-w-lg mx-auto text-sm sm:text-base">
-            Past Claude promotions and limited-time events.
+            {dict.promotionHistory.subtitle}
           </p>
         </motion.div>
 
         <div className="space-y-4">
-          {PAST_PROMOTIONS.map((promo, i) => (
+          {items.map((promo, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 12 }}
@@ -58,14 +51,13 @@ export default function PromotionHistory() {
                   <p className="text-sm text-muted font-medium">{promo.dates}</p>
                 </div>
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold tracking-wide bg-[rgba(139,58,58,0.1)] text-[#8B3A3A] border border-[rgba(139,58,58,0.2)]">
-                  {promo.status}
+                  {dict.promotionHistory.endedLabel}
                 </span>
               </div>
 
-              <p className="text-sm text-secondary leading-relaxed mb-5">
+              <p className="text-sm text-secondary leading-relaxed">
                 {promo.description}
               </p>
-
             </motion.div>
           ))}
         </div>

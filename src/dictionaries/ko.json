@@ -1,168 +1,147 @@
 {
   "meta": {
-    "title": "PromoClock — Claude 피크 타임 트래커",
-    "description": "Claude 세션 한도가 언제 더 빨리 소진되는지 즉시 확인하세요. 내 시간대 기준 실시간 피크 타임 상태 — Free, Pro, Max & Team. 설정 불필요.",
-    "ogTitle": "PromoClock — 지금 Claude 한도가 더 빨리 소진되고 있나요?",
-    "ogDescription": "추측은 그만. PromoClock이 지금 Claude 피크 타임인지 즉시 알려드립니다."
+    "title": "PromoClock — Claude Code Weekly Limits +50% (Through July 13, 2026)",
+    "description": "Claude Code weekly limits are up 50% — live now through July 13, 2026 for Pro, Max, Team and seat-based Enterprise. Stacks with the 2x 5-hour limits boost.",
+    "ogTitle": "Claude Code weekly limits are up 50% through July 13, 2026",
+    "ogDescription": "Live now for Pro, Max, Team and seat-based Enterprise — across CLI, IDE extensions, desktop and web. Nothing to opt into. Stacks with the 2x 5-hour limit increase."
   },
   "header": {
     "logo": "PromoClock",
     "nav": {
-      "howItWorks": "작동 방식",
-      "eligibility": "플랜",
-      "schedule": "시간표",
+      "eligibility": "Plans",
       "faq": "FAQ",
-      "devTools": "도구"
+      "history": "History"
     }
   },
   "hero": {
-    "badge": "CLAUDE 세션 제한",
-    "promotionActive": "비피크 — 정상 소모 속도",
-    "promotionInactive": "피크 시간 — 제한 더 빠르게 소모됨",
-    "promotionExpired": "비피크 — 정상 소모 속도",
-    "promotionNotStarted": "비피크 — 정상 소모 속도",
-    "activeSubtitle": "비피크 — 5시간 세션 제한이 정상 속도로 소모됩니다. 토큰 집약적 작업에 이상적입니다.",
-    "inactiveSubtitle": "피크 시간(월–금 GMT 13시–19시) — 세션 제한이 더 빠르게 소모됩니다. 주간 제한 변동 없음.",
-    "expiredSubtitle": "비피크 — 5시간 세션 제한이 정상 속도로 소모됩니다.",
-    "notStartedSubtitle": "비피크 — 5시간 세션 제한이 정상 속도로 소모됩니다.",
-    "countdownLabel": "다음 상태 변경까지",
-    "yourTimezone": "시간대",
-    "yourLocalTime": "현지 시간",
-    "days": "일",
-    "hours": "시간",
-    "minutes": "분",
-    "seconds": "초",
-    "peakHours": "피크 시간 (빠른 소모)",
-    "offPeakHours": "비피크 시간 (정상 속도)",
-    "weekdays": "평일",
-    "allWeekend": "주말 전체 (정상 속도)",
-    "sinceLastChange": "마지막 상태 변경 후"
-  },
-  "howItWorks": {
-    "title": "작동 방식",
-    "subtitle": "간단하게 유지합니다 — Claude로 만드는 데 집중하세요.",
-    "steps": [
-      {
-        "title": "시간대 자동 감지",
-        "description": "PromoClock을 열면 기기의 시간대를 자동으로 읽습니다. 설정이나 구성이 필요 없습니다."
-      },
-      {
-        "title": "실시간 계산",
-        "description": "엔진이 현지 시간을 Claude 피크 시간(월–금 GMT 13시–19시)과 실시간 비교합니다."
-      },
-      {
-        "title": "즉시 상태 확인",
-        "description": "명확한 실시간 표시로 현재 피크 시간인지(제한 빠르게 소모) 비피크인지(정상 속도)를 확인하고 다음 변경까지 카운트다운을 볼 수 있습니다."
-      }
-    ]
+    "badge": "WEEKLY LIMITS BOOSTED",
+    "boostLabel": "+50%",
+    "title": "Claude Code weekly limits are up 50% — through July 13, 2026.",
+    "subtitle": "Live now for all Pro, Max, Team and seat-based Enterprise users. Applies everywhere you use Claude Code — CLI, IDE extensions, desktop and the web. Nothing to opt into; it's already on your account. Stacks with the 2x increase to 5-hour limits announced May 6.",
+    "endsLabel": "Promotion ends",
+    "endsValue": "July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT)",
+    "sourceLabel": "Announced by Anthropic / Claude Developers, May 13, 2026."
   },
   "eligibility": {
-    "title": "자격 요건",
-    "subtitle": "세션 제한 조정은 모든 Claude 구독 레벨에 적용됩니다.",
-    "eligible": "영향 있음",
-    "notEligible": "영향 없음",
+    "title": "WHO BENEFITS",
+    "subtitle": "The +50% weekly limit boost is applied automatically to these Claude Code plans.",
+    "eligible": "Boosted",
+    "notEligible": "Not Included",
     "plans": [
-      {
-        "name": "Free",
-        "status": true,
-        "description": "피크 시간에 세션 제한이 더 빠르게 소모됩니다. 토큰 집약적 작업은 비피크로 이동하세요."
-      },
       {
         "name": "Pro",
         "status": true,
-        "description": "~7%의 Pro 사용자는 이전에 도달하지 않았던 제한에 도달할 수 있습니다."
+        "description": "Weekly Sonnet and Opus hours increase by ~50% through July 13. No action needed — already applied to your account."
       },
       {
-        "name": "Max",
+        "name": "Max (5x)",
         "status": true,
-        "description": "피크 시간에 세션 제한이 더 빠르게 소모됩니다. 에이전트 및 데이터 처리를 비피크로 예약하세요."
+        "description": "Weekly Opus pool +50%; Sonnet effectively unconstrained for normal workloads."
+      },
+      {
+        "name": "Max (20x)",
+        "status": true,
+        "description": "Weekly Opus pool +50% — well beyond realistic full-time usage for most developers."
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Team 워크스페이스가 영향을 받습니다. 무거운 작업은 비피크 시간대로 조정하세요."
+        "description": "Shared team pool gains +50% — same logic as Max, distributed across seats."
       },
       {
-        "name": "Enterprise",
+        "name": "Enterprise (seat-based)",
+        "status": true,
+        "description": "Applied automatically to existing seat contracts; no renegotiation required."
+      },
+      {
+        "name": "Free",
         "status": false,
-        "description": "Enterprise 플랜은 전용 용량과 맞춤 계약으로 이 조정의 영향을 받지 않습니다."
+        "description": "The Free tier does not include Claude Code weekly limits, so this promotion does not apply."
       }
     ],
     "platforms": {
-      "title": "모든 Claude 환경에서 사용 가능",
-      "items": ["웹 (claude.ai)", "데스크톱 (Mac / Windows)", "모바일 (iOS / Android)", "Claude Cowork", "Claude Code (터미널)", "Excel & PowerPoint 추가 기능"]
+      "title": "Applies everywhere you use Claude Code",
+      "items": [
+        "CLI (Claude Code terminal)",
+        "IDE extensions (VS Code, JetBrains, etc.)",
+        "Desktop apps (Mac / Windows)",
+        "Web (claude.ai / claude.com/code)"
+      ]
     },
-    "note": "주간 제한은 변동 없습니다. 피크 시간(월–금 GMT 13시–19시)에만 세션 제한이 더 빠르게 소모됩니다."
-  },
-  "schedule": {
-    "title": "글로벌 시간표",
-    "subtitle": "주요 도시의 피크 시간을 확인하세요. 피크: 월–금 GMT 13시–19시.",
-    "tableHeaders": {
-      "city": "도시 / 지역",
-      "timezone": "시간대",
-      "peakHours": "피크 (빠름)",
-      "offPeakHours": "비피크 (정상)"
-    },
-    "weekdayLabel": "평일",
-    "weekendLabel": "주말 전체 → 정상 속도"
+    "note": "Promotion runs through July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT). It stacks with the 2x increase to 5-hour session limits announced May 6, 2026."
   },
   "faq": {
-    "title": "자주 묻는 질문",
-    "subtitle": "Claude 세션 제한 시스템에 대한 모든 것.",
+    "title": "QUESTIONS ANSWERED",
+    "subtitle": "Everything you need to know about the Claude Code weekly limits boost.",
     "items": [
       {
-        "question": "Claude 세션 제한에 무엇이 바뀌었나요?",
-        "answer": "2026년 3월 27일부터 Claude는 5시간 세션 제한을 조정했습니다. 피크 시간(월–금 GMT 13시–19시)에 제한이 더 빠르게 소모됩니다. 주간 제한은 동일하지만 한 주 분산 방식이 바뀝니다."
+        "question": "What's the +50% weekly limit boost?",
+        "answer": "On May 13, 2026, Anthropic announced that Claude Code weekly limits are increasing by 50% for all Pro, Max, Team and seat-based Enterprise users. The boost is live now and applies automatically — no opt-in required."
       },
       {
-        "question": "피크 시간은 정확히 언제인가요?",
-        "answer": "피크 시간은 월–금 GMT 13시–19시(PST 5시–11시)입니다. 평일 저녁·밤과 주말 전체는 정상 속도의 비피크입니다."
+        "question": "When does the promotion end?",
+        "answer": "The +50% boost runs through July 13, 2026 at 6:00 PM PDT (July 14, 1:00 AM GMT). After that, weekly limits are expected to return to their pre-promo baseline unless Anthropic announces otherwise."
       },
       {
-        "question": "내 시간대의 피크 시간은 언제인가요?",
-        "answer": "PromoClock이 자동으로 시간대를 감지하여 페이지 상단에 실시간 상태를 표시합니다."
+        "question": "Which plans get the boost?",
+        "answer": "Pro, Max (5x and 20x), Team, and seat-based Enterprise. The Free tier is not included because it does not have Claude Code weekly limits."
       },
       {
-        "question": "어떤 플랜이 영향을 받나요?",
-        "answer": "Free, Pro, Max, Team 모두 영향을 받습니다. Enterprise는 전용 용량으로 제외됩니다."
+        "question": "Do I need to opt in?",
+        "answer": "No. The 50% increase is already applied to every eligible account. Just keep using Claude Code as usual."
       },
       {
-        "question": "주간 제한이 달라지나요?",
-        "answer": "아니요. 주간 제한은 동일합니다. ~7%의 사용자(특히 Pro)는 이전에 도달하지 않았던 제한에 도달할 수 있습니다."
+        "question": "Does this stack with other recent changes?",
+        "answer": "Yes. The +50% weekly boost stacks on top of the 2x increase to 5-hour session limits Anthropic shipped on May 6, 2026. Combined, both your hourly and weekly headroom are meaningfully higher than they were in early May."
       },
       {
-        "question": "세션 제한을 어떻게 최대화하나요?",
-        "answer": "토큰 집약적 작업을 비피크(평일 저녁·밤, 주말)로 이동하세요. 해당 시간에 제한이 정상 속도로 소모됩니다."
+        "question": "What happened to the peak hours system?",
+        "answer": "Anthropic removed the peak hours system entirely for Pro and Max on May 6, 2026. Session limits no longer drain faster on weekday afternoons. The previous system is archived in the Promotion History section below."
       },
       {
-        "question": "2026년 3월 프로모션은요?",
-        "answer": "Claude 2026년 3월 비피크 프로모션(2배 제한)은 3월 13일부터 27일까지 진행되었으며 종료되었습니다. 아래 아카이브 섹션을 참조하세요."
+        "question": "What about the March 2026 2x off-peak promotion?",
+        "answer": "That promotion ran from March 13 to March 27, 2026 and ended on schedule. It is also archived in the Promotion History section below."
       },
       {
-        "question": "PromoClock은 무엇인가요?",
-        "answer": "PromoClock은 Onur Şendere(X: @onursendere)가 Claude 사용자들이 피크 시간인지 즉시 알 수 있도록 만들었습니다. 독립 프로젝트, Anthropic과 무관."
+        "question": "Where does this apply?",
+        "answer": "Everywhere you use Claude Code — the CLI, IDE extensions (VS Code, JetBrains, etc.), desktop apps, and the web."
+      },
+      {
+        "question": "What is PromoClock?",
+        "answer": "PromoClock is an independent tracker built by Onur Şendere (@onursendere on X) to help Claude users keep up with Anthropic's frequent limit and pricing changes. It is not affiliated with Anthropic."
       }
     ]
   },
-  "devTools": {
-    "title": "개발자 도구",
-    "subtitle": "Claude 피크 시간 상태를 워크플로에 통합하세요. API와 터미널 — 브라우저 불필요.",
-    "apiTitle": "JSON API & 터미널 통합",
-    "apiDescription": "/api/status 엔드포인트가 실시간 피크 시간 상태를 JSON으로 반환합니다. ZSH/Bash 프롬프트에 통합하세요.",
-    "tryApi": "API 체험하기",
-    "notifTitle": "브라우저 알림 & 소리 알림",
-    "notifDescription": "헤더의 벨 아이콘을 활성화하면 Claude가 비피크(정상 속도)로 전환되는 순간 브라우저 알림과 부드러운 차임을 받을 수 있습니다."
-  },
   "sponsors": {
-    "stackopticHeadline": "URL을 붙여넣으세요. 전체 그림을 확인하세요.",
-    "stackopticSub": "성능, SEO, 보안, AI 가시성, 기술 스택 — 18개 모듈, 단 한 번의 스캔."
+    "stackopticHeadline": "Paste any URL. Get the full picture.",
+    "stackopticSub": "Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.",
+    "stackopticPromo": "Use code SOLO50 for 50% off your first month on the Solo plan.",
+    "stackopticCode": "SOLO50"
+  },
+  "promotionHistory": {
+    "title": "PROMOTION HISTORY",
+    "subtitle": "Past Claude promotions and limited-time systems.",
+    "archiveLabel": "Archive",
+    "endedLabel": "ENDED",
+    "items": [
+      {
+        "title": "Claude Peak Hours System",
+        "dates": "March 27 – May 6, 2026",
+        "description": "From March 27 to May 6, 2026, Claude session limits drained faster on weekdays 1pm–7pm UTC (\"peak hours\"). Anthropic removed this system entirely for Pro and Max on May 6, 2026, alongside doubling the 5-hour session limits."
+      },
+      {
+        "title": "Claude March 2026 Off-Peak Promotion",
+        "dates": "March 13 – March 27, 2026",
+        "description": "Anthropic ran a 2x session limits promotion during off-peak hours (outside weekdays 8 AM – 2 PM ET). Free, Pro, Max, and Team plans received doubled message and context limits during off-peak windows."
+      }
+    ]
   },
   "footer": {
-    "crafted": "Shrewsbury, UK에서 Claude와 함께 사랑을 담아 제작했습니다.",
-    "digiwingsPromo": "비즈니스를 위한 맞춤형 GEO 최적화 웹 솔루션이 필요하신가요?",
-    "digiwingsCta": "1인 디지털 에이전시 방문하기",
-    "buymeacoffee": "시간대 계산을 건너뛸 수 있었나요? 커피 한 잔 사주세요",
-    "disclaimer": "PromoClock은 Anthropic 또는 Claude와 관련 없는 독립 프로젝트입니다. 정보 제공 목적으로만 사용됩니다.",
-    "rights": "© 2026 PromoClock. Onur Şendere 제작."
+    "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
+    "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",
+    "digiwingsCta": "Visit my one-person digital agency",
+    "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
+    "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
+    "rights": "© 2026 PromoClock. Built by Onur Şendere."
   }
 }

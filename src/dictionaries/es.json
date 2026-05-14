@@ -1,168 +1,147 @@
 {
   "meta": {
-    "title": "PromoClock — Rastreador de horas pico de Claude",
-    "description": "Sabe al instante cuándo los límites de sesión de Claude se agotan más rápido. Estado en tiempo real para tu zona horaria — Free, Pro, Max & Team. Sin configuración.",
-    "ogTitle": "PromoClock — ¿Los límites de Claude se agotan más rápido ahora?",
-    "ogDescription": "Deja de adivinar. PromoClock muestra al instante si estás en las horas pico de Claude, cuando los límites de sesión se agotan más rápido."
+    "title": "PromoClock — Claude Code Weekly Limits +50% (Through July 13, 2026)",
+    "description": "Claude Code weekly limits are up 50% — live now through July 13, 2026 for Pro, Max, Team and seat-based Enterprise. Stacks with the 2x 5-hour limits boost.",
+    "ogTitle": "Claude Code weekly limits are up 50% through July 13, 2026",
+    "ogDescription": "Live now for Pro, Max, Team and seat-based Enterprise — across CLI, IDE extensions, desktop and web. Nothing to opt into. Stacks with the 2x 5-hour limit increase."
   },
   "header": {
     "logo": "PromoClock",
     "nav": {
-      "howItWorks": "Cómo Funciona",
-      "eligibility": "Planes",
-      "schedule": "Horarios",
+      "eligibility": "Plans",
       "faq": "FAQ",
-      "devTools": "Herramientas"
+      "history": "History"
     }
   },
   "hero": {
-    "badge": "LÍMITES DE SESIÓN CLAUDE",
-    "promotionActive": "FUERA DE PICO — LÍMITES NORMALES",
-    "promotionInactive": "HORAS PICO — LÍMITES MÁS RÁPIDOS",
-    "promotionExpired": "FUERA DE PICO — LÍMITES NORMALES",
-    "promotionNotStarted": "FUERA DE PICO — LÍMITES NORMALES",
-    "activeSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen a velocidad normal. Ideal para tareas intensivas en tokens.",
-    "inactiveSubtitle": "Horas pico (lun–vie 13h–19h GMT) — los límites de sesión se consumen más rápido. Límites semanales sin cambios.",
-    "expiredSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen a velocidad normal.",
-    "notStartedSubtitle": "Fuera de pico — tus límites de sesión de 5h se consumen a velocidad normal.",
-    "countdownLabel": "Hasta el próximo cambio de estado",
-    "yourTimezone": "Tu zona horaria",
-    "yourLocalTime": "Tu hora local",
-    "days": "DÍAS",
-    "hours": "HORAS",
-    "minutes": "MIN",
-    "seconds": "SEG",
-    "peakHours": "Horas Pico (Límites Más Rápidos)",
-    "offPeakHours": "Fuera de Pico (Velocidad Normal)",
-    "weekdays": "Días laborables",
-    "allWeekend": "Todo el fin de semana (velocidad normal)",
-    "sinceLastChange": "desde el último cambio"
-  },
-  "howItWorks": {
-    "title": "CÓMO FUNCIONA",
-    "subtitle": "Lo mantenemos simple — para que puedas enfocarte en crear con Claude.",
-    "steps": [
-      {
-        "title": "DETECTAMOS TU ZONA HORARIA",
-        "description": "Al abrir PromoClock, leemos automáticamente la zona horaria de tu dispositivo. Sin configuración necesaria."
-      },
-      {
-        "title": "CALCULAMOS EN TIEMPO REAL",
-        "description": "Nuestro motor compara tu hora local con las horas pico de Claude (lun–vie 13h–19h GMT) en tiempo real."
-      },
-      {
-        "title": "VES TU ESTADO AL INSTANTE",
-        "description": "Una pantalla clara indica si estás en horas pico (límites más rápidos) o fuera de pico (velocidad normal) — con cuenta regresiva."
-      }
-    ]
+    "badge": "WEEKLY LIMITS BOOSTED",
+    "boostLabel": "+50%",
+    "title": "Claude Code weekly limits are up 50% — through July 13, 2026.",
+    "subtitle": "Live now for all Pro, Max, Team and seat-based Enterprise users. Applies everywhere you use Claude Code — CLI, IDE extensions, desktop and the web. Nothing to opt into; it's already on your account. Stacks with the 2x increase to 5-hour limits announced May 6.",
+    "endsLabel": "Promotion ends",
+    "endsValue": "July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT)",
+    "sourceLabel": "Announced by Anthropic / Claude Developers, May 13, 2026."
   },
   "eligibility": {
-    "title": "ELEGIBILIDAD",
-    "subtitle": "Los ajustes de límites de sesión aplican a todos los niveles de suscripción Claude.",
-    "eligible": "Afectado",
-    "notEligible": "No afectado",
+    "title": "WHO BENEFITS",
+    "subtitle": "The +50% weekly limit boost is applied automatically to these Claude Code plans.",
+    "eligible": "Boosted",
+    "notEligible": "Not Included",
     "plans": [
-      {
-        "name": "Free",
-        "status": true,
-        "description": "Los límites de sesión se consumen más rápido en horas pico. Mueve las tareas intensivas en tokens a horas fuera de pico."
-      },
       {
         "name": "Pro",
         "status": true,
-        "description": "~7% de usuarios Pro alcanzarán límites que antes no alcanzaban. Las horas fuera de pico son ideales para cargas pesadas."
+        "description": "Weekly Sonnet and Opus hours increase by ~50% through July 13. No action needed — already applied to your account."
       },
       {
-        "name": "Max",
+        "name": "Max (5x)",
         "status": true,
-        "description": "Los límites de sesión se consumen más rápido en horas pico. Programa agentes y procesamiento de datos en horas fuera de pico."
+        "description": "Weekly Opus pool +50%; Sonnet effectively unconstrained for normal workloads."
+      },
+      {
+        "name": "Max (20x)",
+        "status": true,
+        "description": "Weekly Opus pool +50% — well beyond realistic full-time usage for most developers."
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Los espacios Team están afectados. Coordina cargas pesadas para horas fuera de pico."
+        "description": "Shared team pool gains +50% — same logic as Max, distributed across seats."
       },
       {
-        "name": "Enterprise",
+        "name": "Enterprise (seat-based)",
+        "status": true,
+        "description": "Applied automatically to existing seat contracts; no renegotiation required."
+      },
+      {
+        "name": "Free",
         "status": false,
-        "description": "Los planes Enterprise tienen capacidad dedicada y contratos personalizados — no afectados por estos ajustes."
+        "description": "The Free tier does not include Claude Code weekly limits, so this promotion does not apply."
       }
     ],
     "platforms": {
-      "title": "Disponible en todas las interfaces de Claude",
-      "items": ["Web (claude.ai)", "Escritorio (Mac / Windows)", "Móvil (iOS / Android)", "Claude Cowork", "Claude Code (Terminal)", "Complementos Excel y PowerPoint"]
+      "title": "Applies everywhere you use Claude Code",
+      "items": [
+        "CLI (Claude Code terminal)",
+        "IDE extensions (VS Code, JetBrains, etc.)",
+        "Desktop apps (Mac / Windows)",
+        "Web (claude.ai / claude.com/code)"
+      ]
     },
-    "note": "Los límites semanales no cambian. Los límites de sesión solo se consumen más rápido durante horas pico (lun–vie 13h–19h GMT)."
-  },
-  "schedule": {
-    "title": "HORARIO GLOBAL",
-    "subtitle": "Consulta las horas pico (límites más rápidos) en las principales ciudades. Horas pico: lun–vie 13h–19h GMT.",
-    "tableHeaders": {
-      "city": "Ciudad / Región",
-      "timezone": "Zona Horaria",
-      "peakHours": "Horas Pico (Más Rápido)",
-      "offPeakHours": "Fuera de Pico (Velocidad Normal)"
-    },
-    "weekdayLabel": "Días laborables",
-    "weekendLabel": "Fin de semana completo → Velocidad normal"
+    "note": "Promotion runs through July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT). It stacks with the 2x increase to 5-hour session limits announced May 6, 2026."
   },
   "faq": {
-    "title": "PREGUNTAS RESPONDIDAS",
-    "subtitle": "Todo sobre el sistema de límites de sesión Claude.",
+    "title": "QUESTIONS ANSWERED",
+    "subtitle": "Everything you need to know about the Claude Code weekly limits boost.",
     "items": [
       {
-        "question": "¿Qué cambió con los límites de sesión de Claude?",
-        "answer": "Desde el 27 de marzo de 2026, Claude ajustó los límites de sesión de 5h. En horas pico (lun–vie 13h–19h GMT), los límites se consumen más rápido. Los límites semanales no cambian — solo cambia cómo se distribuyen en la semana."
+        "question": "What's the +50% weekly limit boost?",
+        "answer": "On May 13, 2026, Anthropic announced that Claude Code weekly limits are increasing by 50% for all Pro, Max, Team and seat-based Enterprise users. The boost is live now and applies automatically — no opt-in required."
       },
       {
-        "question": "¿Cuándo son exactamente las horas pico?",
-        "answer": "Las horas pico son lunes–viernes de 13h a 19h GMT (5h–11h PST). Las tardes/noches entre semana y todo el fin de semana son horas fuera de pico con velocidad normal."
+        "question": "When does the promotion end?",
+        "answer": "The +50% boost runs through July 13, 2026 at 6:00 PM PDT (July 14, 1:00 AM GMT). After that, weekly limits are expected to return to their pre-promo baseline unless Anthropic announces otherwise."
       },
       {
-        "question": "¿Cuándo son las horas pico en mi zona horaria?",
-        "answer": "PromoClock detecta automáticamente tu zona horaria y muestra tu estado actual en tiempo real al inicio de la página."
+        "question": "Which plans get the boost?",
+        "answer": "Pro, Max (5x and 20x), Team, and seat-based Enterprise. The Free tier is not included because it does not have Claude Code weekly limits."
       },
       {
-        "question": "¿Qué planes están afectados?",
-        "answer": "Los planes Free, Pro, Max y Team están todos afectados. Los planes Enterprise no, por tener capacidad dedicada."
+        "question": "Do I need to opt in?",
+        "answer": "No. The 50% increase is already applied to every eligible account. Just keep using Claude Code as usual."
       },
       {
-        "question": "¿Cambian mis límites semanales?",
-        "answer": "No. Tus límites semanales siguen iguales. ~7% de usuarios (especialmente Pro) alcanzarán límites que antes no alcanzaban."
+        "question": "Does this stack with other recent changes?",
+        "answer": "Yes. The +50% weekly boost stacks on top of the 2x increase to 5-hour session limits Anthropic shipped on May 6, 2026. Combined, both your hourly and weekly headroom are meaningfully higher than they were in early May."
       },
       {
-        "question": "¿Cómo maximizo mis límites de sesión?",
-        "answer": "Mueve las tareas intensivas en tokens a horas fuera de pico (tardes/noches entre semana y fin de semana). En esas horas los límites se consumen a velocidad normal."
+        "question": "What happened to the peak hours system?",
+        "answer": "Anthropic removed the peak hours system entirely for Pro and Max on May 6, 2026. Session limits no longer drain faster on weekday afternoons. The previous system is archived in the Promotion History section below."
       },
       {
-        "question": "¿Qué pasó con la promoción de marzo 2026?",
-        "answer": "La promoción fuera de pico Claude marzo 2026 (límites 2x) corrió del 13 al 27 de marzo de 2026 y ha terminado. Consulta la sección de archivo abajo."
+        "question": "What about the March 2026 2x off-peak promotion?",
+        "answer": "That promotion ran from March 13 to March 27, 2026 and ended on schedule. It is also archived in the Promotion History section below."
       },
       {
-        "question": "¿Qué es PromoClock?",
-        "answer": "PromoClock fue creado por Onur Şendere (@onursendere en X) para ayudar a los usuarios de Claude a saber instantáneamente si están en horas pico. Proyecto independiente, no afiliado a Anthropic."
+        "question": "Where does this apply?",
+        "answer": "Everywhere you use Claude Code — the CLI, IDE extensions (VS Code, JetBrains, etc.), desktop apps, and the web."
+      },
+      {
+        "question": "What is PromoClock?",
+        "answer": "PromoClock is an independent tracker built by Onur Şendere (@onursendere on X) to help Claude users keep up with Anthropic's frequent limit and pricing changes. It is not affiliated with Anthropic."
       }
     ]
   },
-  "devTools": {
-    "title": "HERRAMIENTAS PARA DEVS",
-    "subtitle": "Integra el estado de horas pico de Claude en tu flujo de trabajo. API y terminal — sin navegador.",
-    "apiTitle": "JSON API e Integración de Terminal",
-    "apiDescription": "El endpoint /api/status devuelve el estado de horas pico en tiempo real como JSON. Intégralo en tu prompt ZSH/Bash.",
-    "tryApi": "Probar la API",
-    "notifTitle": "Notificaciones del Navegador y Alertas de Sonido",
-    "notifDescription": "Activa el ícono de campana en el encabezado para recibir notificaciones y un sonido suave cuando Claude entre en modo fuera de pico (velocidad normal)."
-  },
   "sponsors": {
-    "stackopticHeadline": "Pega cualquier URL. Obtén el panorama completo.",
-    "stackopticSub": "Rendimiento, SEO, seguridad, visibilidad IA, stack tecnológico — 18 módulos, un escaneo."
+    "stackopticHeadline": "Paste any URL. Get the full picture.",
+    "stackopticSub": "Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.",
+    "stackopticPromo": "Use code SOLO50 for 50% off your first month on the Solo plan.",
+    "stackopticCode": "SOLO50"
+  },
+  "promotionHistory": {
+    "title": "PROMOTION HISTORY",
+    "subtitle": "Past Claude promotions and limited-time systems.",
+    "archiveLabel": "Archive",
+    "endedLabel": "ENDED",
+    "items": [
+      {
+        "title": "Claude Peak Hours System",
+        "dates": "March 27 – May 6, 2026",
+        "description": "From March 27 to May 6, 2026, Claude session limits drained faster on weekdays 1pm–7pm UTC (\"peak hours\"). Anthropic removed this system entirely for Pro and Max on May 6, 2026, alongside doubling the 5-hour session limits."
+      },
+      {
+        "title": "Claude March 2026 Off-Peak Promotion",
+        "dates": "March 13 – March 27, 2026",
+        "description": "Anthropic ran a 2x session limits promotion during off-peak hours (outside weekdays 8 AM – 2 PM ET). Free, Pro, Max, and Team plans received doubled message and context limits during off-peak windows."
+      }
+    ]
   },
   "footer": {
-    "crafted": "Hecho con amor con Claude en Shrewsbury, UK.",
-    "digiwingsPromo": "¿Necesitas soluciones web personalizadas y optimizadas para GEO?",
-    "digiwingsCta": "Visita mi agencia digital unipersonal",
-    "buymeacoffee": "¿Te ayudó a evitar cálculos de zona horaria? Invítame un café",
-    "disclaimer": "PromoClock es un proyecto independiente no afiliado con Anthropic o Claude. Solo con fines informativos.",
-    "rights": "© 2026 PromoClock. Creado por Onur Şendere."
+    "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
+    "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",
+    "digiwingsCta": "Visit my one-person digital agency",
+    "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
+    "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
+    "rights": "© 2026 PromoClock. Built by Onur Şendere."
   }
 }

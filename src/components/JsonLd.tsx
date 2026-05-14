@@ -57,19 +57,6 @@ export default function JsonLd({ dict, lang }: JsonLdProps) {
     })),
   };
 
-  const howTo = {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
-    name: "How to check if Claude peak hours are active right now",
-    description: dict.howItWorks.subtitle,
-    step: dict.howItWorks.steps.map((step, i) => ({
-      "@type": "HowToStep",
-      position: i + 1,
-      name: step.title,
-      text: step.description,
-    })),
-  };
-
   return (
     <>
       <script
@@ -79,10 +66,6 @@ export default function JsonLd({ dict, lang }: JsonLdProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPage) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(howTo) }}
       />
     </>
   );
