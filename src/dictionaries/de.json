@@ -1,147 +1,148 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Code Weekly Limits +50% (Through July 13, 2026)",
-    "description": "Claude Code weekly limits are up 50% — live now through July 13, 2026 for Pro, Max, Team and seat-based Enterprise. Stacks with the 2x 5-hour limits boost.",
-    "ogTitle": "Claude Code weekly limits are up 50% through July 13, 2026",
-    "ogDescription": "Live now for Pro, Max, Team and seat-based Enterprise — across CLI, IDE extensions, desktop and web. Nothing to opt into. Stacks with the 2x 5-hour limit increase."
+    "title": "PromoClock — Claude Code Wochenlimits +50 % (bis 13. Juli 2026)",
+    "description": "Claude Code Wochenlimits sind um 50 % gestiegen — jetzt aktiv bis 13. Juli 2026 für Pro, Max, Team und sitzbasiertes Enterprise. Kombinierbar mit dem 2x 5-Stunden-Limit-Boost.",
+    "ogTitle": "Claude Code Wochenlimits steigen bis 13. Juli 2026 um 50 %",
+    "ogDescription": "Jetzt live für Pro, Max, Team und sitzbasiertes Enterprise — auf CLI, IDE-Erweiterungen, Desktop und Web. Keine Aktivierung nötig. Kombinierbar mit dem 2x 5-Stunden-Limit-Boost."
   },
   "header": {
     "logo": "PromoClock",
     "nav": {
-      "eligibility": "Plans",
+      "eligibility": "Pläne",
       "faq": "FAQ",
-      "history": "History"
+      "history": "Verlauf"
     }
   },
   "hero": {
-    "badge": "WEEKLY LIMITS BOOSTED",
-    "boostLabel": "+50%",
-    "title": "Claude Code weekly limits are up 50% — through July 13, 2026.",
-    "subtitle": "Live now for all Pro, Max, Team and seat-based Enterprise users. Applies everywhere you use Claude Code — CLI, IDE extensions, desktop and the web. Nothing to opt into; it's already on your account. Stacks with the 2x increase to 5-hour limits announced May 6.",
-    "endsLabel": "Promotion ends",
-    "endsValue": "July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT)",
-    "sourceLabel": "Announced by Anthropic / Claude Developers, May 13, 2026."
+    "badge": "WOCHENLIMITS ERHÖHT",
+    "boostLabel": "+50 %",
+    "title": "Claude Code Wochenlimits sind um 50 % gestiegen — bis 13. Juli 2026.",
+    "subtitle": "Jetzt aktiv für alle Pro-, Max-, Team- und sitzbasierten Enterprise-Nutzer. Gilt überall, wo du Claude Code verwendest — CLI, IDE-Erweiterungen, Desktop und Web. Keine Aktivierung nötig; bereits auf dein Konto angewendet. Kombinierbar mit der am 6. Mai angekündigten 2x-Erhöhung der 5-Stunden-Limits.",
+    "endsLabel": "Aktion endet",
+    "endsValue": "13. Juli 2026 · 18:00 PDT (14. Juli, 01:00 GMT)",
+    "sourceLabel": "Angekündigt von Anthropic / Claude Developers am 13. Mai 2026."
   },
   "eligibility": {
-    "title": "WHO BENEFITS",
-    "subtitle": "The +50% weekly limit boost is applied automatically to these Claude Code plans.",
-    "eligible": "Boosted",
-    "notEligible": "Not Included",
+    "title": "WER PROFITIERT",
+    "subtitle": "Der +50 %-Wochenlimit-Boost wird automatisch auf diese Claude-Code-Pläne angewendet.",
+    "eligible": "Boost aktiv",
+    "notEligible": "Nicht enthalten",
     "plans": [
       {
         "name": "Pro",
         "status": true,
-        "description": "Weekly Sonnet and Opus hours increase by ~50% through July 13. No action needed — already applied to your account."
+        "description": "Wöchentliche Sonnet- und Opus-Stunden steigen bis 13. Juli um ca. 50 %. Keine Aktion nötig — bereits auf dein Konto angewendet."
       },
       {
         "name": "Max (5x)",
         "status": true,
-        "description": "Weekly Opus pool +50%; Sonnet effectively unconstrained for normal workloads."
+        "description": "Wöchentlicher Opus-Pool +50 %; Sonnet bei normalen Workloads praktisch unbegrenzt."
       },
       {
         "name": "Max (20x)",
         "status": true,
-        "description": "Weekly Opus pool +50% — well beyond realistic full-time usage for most developers."
+        "description": "Wöchentlicher Opus-Pool +50 % — weit über realistischer Vollzeit-Nutzung der meisten Entwickler."
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Shared team pool gains +50% — same logic as Max, distributed across seats."
+        "description": "Gemeinsam genutzter Team-Pool +50 % — gleiche Logik wie Max, verteilt auf alle Sitze."
       },
       {
-        "name": "Enterprise (seat-based)",
+        "name": "Enterprise (sitzbasiert)",
         "status": true,
-        "description": "Applied automatically to existing seat contracts; no renegotiation required."
+        "description": "Wird automatisch auf bestehende Sitzverträge angewendet; keine Neuverhandlung erforderlich."
       },
       {
         "name": "Free",
         "status": false,
-        "description": "The Free tier does not include Claude Code weekly limits, so this promotion does not apply."
+        "description": "Der kostenlose Tarif enthält keine Claude-Code-Wochenlimits, daher gilt die Aktion nicht."
       }
     ],
     "platforms": {
-      "title": "Applies everywhere you use Claude Code",
+      "title": "Gilt überall, wo du Claude Code verwendest",
       "items": [
-        "CLI (Claude Code terminal)",
-        "IDE extensions (VS Code, JetBrains, etc.)",
-        "Desktop apps (Mac / Windows)",
+        "CLI (Claude Code Terminal)",
+        "IDE-Erweiterungen (VS Code, JetBrains usw.)",
+        "Desktop-Apps (Mac / Windows)",
         "Web (claude.ai / claude.com/code)"
       ]
     },
-    "note": "Promotion runs through July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT). It stacks with the 2x increase to 5-hour session limits announced May 6, 2026."
+    "note": "Die Aktion läuft bis 13. Juli 2026 · 18:00 PDT (14. Juli, 01:00 GMT). Sie kombiniert sich mit der am 6. Mai 2026 angekündigten 2x-Erhöhung der 5-Stunden-Sitzungslimits."
   },
   "faq": {
-    "title": "QUESTIONS ANSWERED",
-    "subtitle": "Everything you need to know about the Claude Code weekly limits boost.",
+    "title": "HÄUFIG GESTELLTE FRAGEN",
+    "subtitle": "Alles, was du über den Claude Code Wochenlimit-Boost wissen musst.",
     "items": [
       {
-        "question": "What's the +50% weekly limit boost?",
-        "answer": "On May 13, 2026, Anthropic announced that Claude Code weekly limits are increasing by 50% for all Pro, Max, Team and seat-based Enterprise users. The boost is live now and applies automatically — no opt-in required."
+        "question": "Was ist der +50 %-Wochenlimit-Boost?",
+        "answer": "Am 13. Mai 2026 kündigte Anthropic an, dass die Claude Code Wochenlimits für alle Pro-, Max-, Team- und sitzbasierten Enterprise-Nutzer um 50 % steigen. Der Boost ist jetzt aktiv und wird automatisch angewendet — keine Aktivierung nötig."
       },
       {
-        "question": "When does the promotion end?",
-        "answer": "The +50% boost runs through July 13, 2026 at 6:00 PM PDT (July 14, 1:00 AM GMT). After that, weekly limits are expected to return to their pre-promo baseline unless Anthropic announces otherwise."
+        "question": "Wann endet die Aktion?",
+        "answer": "Der +50 %-Boost läuft bis 13. Juli 2026 um 18:00 PDT (14. Juli, 01:00 GMT). Danach werden die Wochenlimits voraussichtlich auf ihre Werte vor der Aktion zurückkehren, sofern Anthropic nichts anderes ankündigt."
       },
       {
-        "question": "Which plans get the boost?",
-        "answer": "Pro, Max (5x and 20x), Team, and seat-based Enterprise. The Free tier is not included because it does not have Claude Code weekly limits."
+        "question": "Welche Pläne erhalten den Boost?",
+        "answer": "Pro, Max (5x und 20x), Team und sitzbasiertes Enterprise. Der kostenlose Tarif ist nicht enthalten, da er keine Claude-Code-Wochenlimits hat."
       },
       {
-        "question": "Do I need to opt in?",
-        "answer": "No. The 50% increase is already applied to every eligible account. Just keep using Claude Code as usual."
+        "question": "Muss ich mich aktivieren?",
+        "answer": "Nein. Die 50 %-Erhöhung ist bereits auf jedes berechtigte Konto angewendet. Nutze Claude Code einfach wie gewohnt weiter."
       },
       {
-        "question": "Does this stack with other recent changes?",
-        "answer": "Yes. The +50% weekly boost stacks on top of the 2x increase to 5-hour session limits Anthropic shipped on May 6, 2026. Combined, both your hourly and weekly headroom are meaningfully higher than they were in early May."
+        "question": "Kombiniert sich das mit anderen jüngsten Änderungen?",
+        "answer": "Ja. Der +50 %-Wochen-Boost kombiniert sich mit der 2x-Erhöhung der 5-Stunden-Sitzungslimits, die Anthropic am 6. Mai 2026 ausgerollt hat. Zusammen ist sowohl dein stündliches als auch dein wöchentliches Polster deutlich höher als Anfang Mai."
       },
       {
-        "question": "What happened to the peak hours system?",
-        "answer": "Anthropic removed the peak hours system entirely for Pro and Max on May 6, 2026. Session limits no longer drain faster on weekday afternoons. The previous system is archived in the Promotion History section below."
+        "question": "Was ist mit dem Peak-Hours-System passiert?",
+        "answer": "Anthropic hat das Peak-Hours-System für Pro und Max am 6. Mai 2026 vollständig entfernt. Sitzungslimits werden an Werktagnachmittagen nicht mehr schneller aufgebraucht. Das frühere System ist im Aktionsverlauf unten archiviert."
       },
       {
-        "question": "What about the March 2026 2x off-peak promotion?",
-        "answer": "That promotion ran from March 13 to March 27, 2026 and ended on schedule. It is also archived in the Promotion History section below."
+        "question": "Was ist mit der März-2026-Off-Peak-Aktion?",
+        "answer": "Diese Aktion lief vom 13. bis 27. März 2026 und endete planmäßig. Sie ist ebenfalls im Aktionsverlauf unten archiviert."
       },
       {
-        "question": "Where does this apply?",
-        "answer": "Everywhere you use Claude Code — the CLI, IDE extensions (VS Code, JetBrains, etc.), desktop apps, and the web."
+        "question": "Wo gilt das?",
+        "answer": "Überall, wo du Claude Code verwendest — CLI, IDE-Erweiterungen (VS Code, JetBrains usw.), Desktop-Apps und Web."
       },
       {
-        "question": "What is PromoClock?",
-        "answer": "PromoClock is an independent tracker built by Onur Şendere (@onursendere on X) to help Claude users keep up with Anthropic's frequent limit and pricing changes. It is not affiliated with Anthropic."
+        "question": "Was ist PromoClock?",
+        "answer": "PromoClock ist ein unabhängiger Tracker, der von Onur Şendere (@onursendere auf X) entwickelt wurde, um Claude-Nutzern zu helfen, mit Anthropics häufigen Limit- und Preisänderungen Schritt zu halten. Nicht mit Anthropic verbunden."
       }
     ]
   },
   "sponsors": {
-    "stackopticHeadline": "Paste any URL. Get the full picture.",
-    "stackopticSub": "Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.",
-    "stackopticPromo": "Use code SOLO50 for 50% off your first month on the Solo plan.",
+    "stackopticHeadline": "Eine URL einfügen. Das ganze Bild bekommen.",
+    "stackopticSub": "Performance, SEO, Sicherheit, KI-Sichtbarkeit, Tech-Stack — 18 Module, ein Scan.",
+    "stackopticPromoBadge": "50 % RABATT",
+    "stackopticPromo": "Ersten Monat im Solo-Plan",
     "stackopticCode": "SOLO50"
   },
   "promotionHistory": {
-    "title": "PROMOTION HISTORY",
-    "subtitle": "Past Claude promotions and limited-time systems.",
-    "archiveLabel": "Archive",
-    "endedLabel": "ENDED",
+    "title": "AKTIONSVERLAUF",
+    "subtitle": "Frühere Claude-Aktionen und zeitlich begrenzte Systeme.",
+    "archiveLabel": "Archiv",
+    "endedLabel": "BEENDET",
     "items": [
       {
-        "title": "Claude Peak Hours System",
-        "dates": "March 27 – May 6, 2026",
-        "description": "From March 27 to May 6, 2026, Claude session limits drained faster on weekdays 1pm–7pm UTC (\"peak hours\"). Anthropic removed this system entirely for Pro and Max on May 6, 2026, alongside doubling the 5-hour session limits."
+        "title": "Claude Peak-Hours-System",
+        "dates": "27. März – 6. Mai 2026",
+        "description": "Vom 27. März bis 6. Mai 2026 wurden Claude-Sitzungslimits an Werktagen zwischen 13:00–19:00 UTC (\"Peak Hours\") schneller aufgebraucht. Anthropic entfernte dieses System am 6. Mai 2026 vollständig für Pro und Max, zusammen mit der Verdopplung der 5-Stunden-Sitzungslimits."
       },
       {
-        "title": "Claude March 2026 Off-Peak Promotion",
-        "dates": "March 13 – March 27, 2026",
-        "description": "Anthropic ran a 2x session limits promotion during off-peak hours (outside weekdays 8 AM – 2 PM ET). Free, Pro, Max, and Team plans received doubled message and context limits during off-peak windows."
+        "title": "Claude März-2026-Off-Peak-Aktion",
+        "dates": "13. – 27. März 2026",
+        "description": "Anthropic führte während der Off-Peak-Zeiten (außerhalb von Werktagen 8:00 – 14:00 ET) eine 2x-Aktion für Sitzungslimits durch. Free-, Pro-, Max- und Team-Pläne erhielten in den Off-Peak-Fenstern doppelte Nachrichten- und Kontextlimits."
       }
     ]
   },
   "footer": {
-    "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
-    "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",
-    "digiwingsCta": "Visit my one-person digital agency",
-    "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
-    "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
-    "rights": "© 2026 PromoClock. Built by Onur Şendere."
+    "crafted": "Mit Liebe in Shrewsbury, UK, mit Claude gebaut.",
+    "digiwingsPromo": "Brauchst du maßgeschneiderte, GEO-optimierte Weblösungen für dein Unternehmen?",
+    "digiwingsCta": "Besuche meine Ein-Personen-Digitalagentur",
+    "buymeacoffee": "Hat dir geholfen? Lade mich auf einen Kaffee ein",
+    "disclaimer": "PromoClock ist ein unabhängiges Projekt und nicht mit Anthropic oder Claude verbunden. Nur zu Informationszwecken.",
+    "rights": "© 2026 PromoClock. Entwickelt von Onur Şendere."
   }
 }

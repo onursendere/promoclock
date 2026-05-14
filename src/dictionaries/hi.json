@@ -1,147 +1,148 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Code Weekly Limits +50% (Through July 13, 2026)",
-    "description": "Claude Code weekly limits are up 50% — live now through July 13, 2026 for Pro, Max, Team and seat-based Enterprise. Stacks with the 2x 5-hour limits boost.",
-    "ogTitle": "Claude Code weekly limits are up 50% through July 13, 2026",
-    "ogDescription": "Live now for Pro, Max, Team and seat-based Enterprise — across CLI, IDE extensions, desktop and web. Nothing to opt into. Stacks with the 2x 5-hour limit increase."
+    "title": "PromoClock — Claude Code साप्ताहिक सीमाएं +50% (13 जुलाई 2026 तक)",
+    "description": "Claude Code की साप्ताहिक सीमाएं 50% बढ़ीं — Pro, Max, Team और सीट-आधारित Enterprise के लिए 13 जुलाई 2026 तक सक्रिय। 5-घंटे की सीमाओं की 2x बढ़ोतरी के साथ संयुक्त।",
+    "ogTitle": "Claude Code साप्ताहिक सीमाएं 13 जुलाई 2026 तक 50% बढ़ीं",
+    "ogDescription": "Pro, Max, Team और सीट-आधारित Enterprise के लिए अभी सक्रिय — CLI, IDE एक्सटेंशन, डेस्कटॉप और वेब सभी जगह। कोई एक्टिवेशन ज़रूरी नहीं। 5-घंटे की सीमाओं की 2x बढ़ोतरी के साथ जुड़ता है।"
   },
   "header": {
     "logo": "PromoClock",
     "nav": {
-      "eligibility": "Plans",
+      "eligibility": "प्लान",
       "faq": "FAQ",
-      "history": "History"
+      "history": "इतिहास"
     }
   },
   "hero": {
-    "badge": "WEEKLY LIMITS BOOSTED",
+    "badge": "साप्ताहिक सीमाएं बढ़ीं",
     "boostLabel": "+50%",
-    "title": "Claude Code weekly limits are up 50% — through July 13, 2026.",
-    "subtitle": "Live now for all Pro, Max, Team and seat-based Enterprise users. Applies everywhere you use Claude Code — CLI, IDE extensions, desktop and the web. Nothing to opt into; it's already on your account. Stacks with the 2x increase to 5-hour limits announced May 6.",
-    "endsLabel": "Promotion ends",
-    "endsValue": "July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT)",
-    "sourceLabel": "Announced by Anthropic / Claude Developers, May 13, 2026."
+    "title": "Claude Code की साप्ताहिक सीमाएं 50% बढ़ीं — 13 जुलाई 2026 तक।",
+    "subtitle": "सभी Pro, Max, Team और सीट-आधारित Enterprise उपयोगकर्ताओं के लिए अभी सक्रिय। Claude Code जहाँ-जहाँ इस्तेमाल होता है, वहाँ लागू — CLI, IDE एक्सटेंशन, डेस्कटॉप और वेब। कोई एक्टिवेशन ज़रूरी नहीं; आपके खाते पर पहले से लागू। 6 मई को घोषित 5-घंटे की सीमाओं की 2x बढ़ोतरी के साथ जुड़ता है।",
+    "endsLabel": "प्रमोशन समाप्ति",
+    "endsValue": "13 जुलाई 2026 · 18:00 PDT (14 जुलाई 01:00 GMT)",
+    "sourceLabel": "Anthropic / Claude Developers द्वारा 13 मई 2026 को घोषित।"
   },
   "eligibility": {
-    "title": "WHO BENEFITS",
-    "subtitle": "The +50% weekly limit boost is applied automatically to these Claude Code plans.",
-    "eligible": "Boosted",
-    "notEligible": "Not Included",
+    "title": "किसे मिलेगा फ़ायदा",
+    "subtitle": "+50% साप्ताहिक सीमा बढ़ोतरी इन Claude Code प्लानों पर अपने-आप लागू होती है।",
+    "eligible": "बढ़ोतरी सक्रिय",
+    "notEligible": "शामिल नहीं",
     "plans": [
       {
         "name": "Pro",
         "status": true,
-        "description": "Weekly Sonnet and Opus hours increase by ~50% through July 13. No action needed — already applied to your account."
+        "description": "साप्ताहिक Sonnet और Opus घंटे 13 जुलाई तक लगभग 50% बढ़ेंगे। कोई कार्रवाई ज़रूरी नहीं — आपके खाते पर पहले से लागू।"
       },
       {
         "name": "Max (5x)",
         "status": true,
-        "description": "Weekly Opus pool +50%; Sonnet effectively unconstrained for normal workloads."
+        "description": "साप्ताहिक Opus पूल +50%; सामान्य वर्कलोड के लिए Sonnet व्यावहारिक रूप से असीमित।"
       },
       {
         "name": "Max (20x)",
         "status": true,
-        "description": "Weekly Opus pool +50% — well beyond realistic full-time usage for most developers."
+        "description": "साप्ताहिक Opus पूल +50% — अधिकांश फुल-टाइम डेवलपर्स के यथार्थवादी उपयोग से कहीं अधिक।"
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Shared team pool gains +50% — same logic as Max, distributed across seats."
+        "description": "साझा टीम पूल +50% — Max जैसा ही, सीटों के बीच वितरित।"
       },
       {
-        "name": "Enterprise (seat-based)",
+        "name": "Enterprise (सीट-आधारित)",
         "status": true,
-        "description": "Applied automatically to existing seat contracts; no renegotiation required."
+        "description": "मौजूदा सीट अनुबंधों पर अपने-आप लागू; किसी पुनः बातचीत की ज़रूरत नहीं।"
       },
       {
         "name": "Free",
         "status": false,
-        "description": "The Free tier does not include Claude Code weekly limits, so this promotion does not apply."
+        "description": "Free टियर में Claude Code की साप्ताहिक सीमाएं नहीं होतीं, इसलिए यह प्रमोशन लागू नहीं होता।"
       }
     ],
     "platforms": {
-      "title": "Applies everywhere you use Claude Code",
+      "title": "Claude Code जहाँ-जहाँ इस्तेमाल होता है, वहाँ लागू",
       "items": [
-        "CLI (Claude Code terminal)",
-        "IDE extensions (VS Code, JetBrains, etc.)",
-        "Desktop apps (Mac / Windows)",
-        "Web (claude.ai / claude.com/code)"
+        "CLI (Claude Code टर्मिनल)",
+        "IDE एक्सटेंशन (VS Code, JetBrains आदि)",
+        "डेस्कटॉप ऐप्स (Mac / Windows)",
+        "वेब (claude.ai / claude.com/code)"
       ]
     },
-    "note": "Promotion runs through July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT). It stacks with the 2x increase to 5-hour session limits announced May 6, 2026."
+    "note": "प्रमोशन 13 जुलाई 2026 · 18:00 PDT (14 जुलाई 01:00 GMT) तक चलेगा। यह 6 मई 2026 को घोषित 5-घंटे सत्र सीमाओं की 2x बढ़ोतरी के साथ जुड़ता है।"
   },
   "faq": {
-    "title": "QUESTIONS ANSWERED",
-    "subtitle": "Everything you need to know about the Claude Code weekly limits boost.",
+    "title": "अक्सर पूछे जाने वाले प्रश्न",
+    "subtitle": "Claude Code की साप्ताहिक सीमा बढ़ोतरी के बारे में आपको जो जानने की ज़रूरत है।",
     "items": [
       {
-        "question": "What's the +50% weekly limit boost?",
-        "answer": "On May 13, 2026, Anthropic announced that Claude Code weekly limits are increasing by 50% for all Pro, Max, Team and seat-based Enterprise users. The boost is live now and applies automatically — no opt-in required."
+        "question": "+50% साप्ताहिक सीमा बढ़ोतरी क्या है?",
+        "answer": "13 मई 2026 को Anthropic ने घोषणा की कि सभी Pro, Max, Team और सीट-आधारित Enterprise उपयोगकर्ताओं के लिए Claude Code साप्ताहिक सीमाएं 50% बढ़ रही हैं। यह अभी सक्रिय है और अपने-आप लागू होती है — कोई एक्टिवेशन ज़रूरी नहीं।"
       },
       {
-        "question": "When does the promotion end?",
-        "answer": "The +50% boost runs through July 13, 2026 at 6:00 PM PDT (July 14, 1:00 AM GMT). After that, weekly limits are expected to return to their pre-promo baseline unless Anthropic announces otherwise."
+        "question": "प्रमोशन कब समाप्त होगा?",
+        "answer": "+50% बढ़ोतरी 13 जुलाई 2026 को 18:00 PDT (14 जुलाई 01:00 GMT) तक चलेगी। उसके बाद, जब तक Anthropic कुछ और घोषणा न करे, साप्ताहिक सीमाएं प्रमोशन-पूर्व स्तर पर लौटने की उम्मीद है।"
       },
       {
-        "question": "Which plans get the boost?",
-        "answer": "Pro, Max (5x and 20x), Team, and seat-based Enterprise. The Free tier is not included because it does not have Claude Code weekly limits."
+        "question": "कौन से प्लान को बढ़ोतरी मिलती है?",
+        "answer": "Pro, Max (5x और 20x), Team और सीट-आधारित Enterprise। Free टियर शामिल नहीं है क्योंकि उसमें Claude Code साप्ताहिक सीमाएं नहीं होतीं।"
       },
       {
-        "question": "Do I need to opt in?",
-        "answer": "No. The 50% increase is already applied to every eligible account. Just keep using Claude Code as usual."
+        "question": "क्या मुझे ऑप्ट-इन करना होगा?",
+        "answer": "नहीं। 50% बढ़ोतरी हर पात्र खाते पर पहले से लागू है। बस Claude Code का सामान्य रूप से उपयोग करते रहें।"
       },
       {
-        "question": "Does this stack with other recent changes?",
-        "answer": "Yes. The +50% weekly boost stacks on top of the 2x increase to 5-hour session limits Anthropic shipped on May 6, 2026. Combined, both your hourly and weekly headroom are meaningfully higher than they were in early May."
+        "question": "क्या यह हाल के अन्य बदलावों के साथ जुड़ता है?",
+        "answer": "हाँ। +50% साप्ताहिक बढ़ोतरी Anthropic द्वारा 6 मई 2026 को जारी किए गए 5-घंटे सत्र सीमाओं की 2x बढ़ोतरी के ऊपर जुड़ती है। मिलाकर, आपकी प्रति घंटा और साप्ताहिक दोनों मार्जिन मई की शुरुआत की तुलना में काफी अधिक हैं।"
       },
       {
-        "question": "What happened to the peak hours system?",
-        "answer": "Anthropic removed the peak hours system entirely for Pro and Max on May 6, 2026. Session limits no longer drain faster on weekday afternoons. The previous system is archived in the Promotion History section below."
+        "question": "पीक आवर्स सिस्टम का क्या हुआ?",
+        "answer": "Anthropic ने 6 मई 2026 को Pro और Max के लिए पीक आवर्स सिस्टम को पूरी तरह हटा दिया। सत्र सीमाएं अब कार्यदिवस की दोपहर में तेज़ी से खर्च नहीं होतीं। पिछला सिस्टम नीचे प्रमोशन इतिहास अनुभाग में संग्रहित है।"
       },
       {
-        "question": "What about the March 2026 2x off-peak promotion?",
-        "answer": "That promotion ran from March 13 to March 27, 2026 and ended on schedule. It is also archived in the Promotion History section below."
+        "question": "मार्च 2026 की 2x ऑफ-पीक प्रमोशन का क्या?",
+        "answer": "वह प्रमोशन 13 मार्च से 27 मार्च 2026 तक चली और तय कार्यक्रम के अनुसार समाप्त हो गई। यह भी नीचे प्रमोशन इतिहास अनुभाग में संग्रहित है।"
       },
       {
-        "question": "Where does this apply?",
-        "answer": "Everywhere you use Claude Code — the CLI, IDE extensions (VS Code, JetBrains, etc.), desktop apps, and the web."
+        "question": "यह कहाँ लागू होती है?",
+        "answer": "जहाँ-जहाँ आप Claude Code का उपयोग करते हैं — CLI, IDE एक्सटेंशन (VS Code, JetBrains आदि), डेस्कटॉप ऐप्स और वेब।"
       },
       {
-        "question": "What is PromoClock?",
-        "answer": "PromoClock is an independent tracker built by Onur Şendere (@onursendere on X) to help Claude users keep up with Anthropic's frequent limit and pricing changes. It is not affiliated with Anthropic."
+        "question": "PromoClock क्या है?",
+        "answer": "PromoClock एक स्वतंत्र ट्रैकर है, जिसे Onur Şendere (X पर @onursendere) ने बनाया है, ताकि Claude उपयोगकर्ता Anthropic के बार-बार होते सीमा और मूल्य परिवर्तनों से जुड़े रह सकें। Anthropic से संबद्ध नहीं।"
       }
     ]
   },
   "sponsors": {
-    "stackopticHeadline": "Paste any URL. Get the full picture.",
-    "stackopticSub": "Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.",
-    "stackopticPromo": "Use code SOLO50 for 50% off your first month on the Solo plan.",
+    "stackopticHeadline": "कोई भी URL चिपकाएँ। पूरी तस्वीर पाएँ।",
+    "stackopticSub": "प्रदर्शन, SEO, सुरक्षा, AI दृश्यता, टेक स्टैक — 18 मॉड्यूल, एक स्कैन।",
+    "stackopticPromoBadge": "50% छूट",
+    "stackopticPromo": "Solo प्लान पर पहला महीना",
     "stackopticCode": "SOLO50"
   },
   "promotionHistory": {
-    "title": "PROMOTION HISTORY",
-    "subtitle": "Past Claude promotions and limited-time systems.",
-    "archiveLabel": "Archive",
-    "endedLabel": "ENDED",
+    "title": "प्रमोशन इतिहास",
+    "subtitle": "पिछली Claude प्रमोशन और समय-सीमित सिस्टम।",
+    "archiveLabel": "आर्काइव",
+    "endedLabel": "समाप्त",
     "items": [
       {
-        "title": "Claude Peak Hours System",
-        "dates": "March 27 – May 6, 2026",
-        "description": "From March 27 to May 6, 2026, Claude session limits drained faster on weekdays 1pm–7pm UTC (\"peak hours\"). Anthropic removed this system entirely for Pro and Max on May 6, 2026, alongside doubling the 5-hour session limits."
+        "title": "Claude पीक आवर्स सिस्टम",
+        "dates": "27 मार्च – 6 मई 2026",
+        "description": "27 मार्च से 6 मई 2026 तक, Claude सत्र सीमाएं कार्यदिवस UTC 13:00–19:00 (\"पीक आवर्स\") के दौरान सामान्य से तेज़ी से खर्च होती थीं। Anthropic ने 6 मई 2026 को 5-घंटे सत्र सीमाओं को दोगुना करने के साथ Pro और Max के लिए इस सिस्टम को पूरी तरह हटा दिया।"
       },
       {
-        "title": "Claude March 2026 Off-Peak Promotion",
-        "dates": "March 13 – March 27, 2026",
-        "description": "Anthropic ran a 2x session limits promotion during off-peak hours (outside weekdays 8 AM – 2 PM ET). Free, Pro, Max, and Team plans received doubled message and context limits during off-peak windows."
+        "title": "Claude मार्च 2026 ऑफ-पीक प्रमोशन",
+        "dates": "13 – 27 मार्च 2026",
+        "description": "Anthropic ने ऑफ-पीक घंटों (कार्यदिवस ET 8:00 – 14:00 के बाहर) में 2x सत्र सीमा प्रमोशन चलाई। Free, Pro, Max और Team प्लानों को ऑफ-पीक विंडो में दोगुने मैसेज और कॉन्टेक्स्ट सीमाएं मिलीं।"
       }
     ]
   },
   "footer": {
-    "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
-    "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",
-    "digiwingsCta": "Visit my one-person digital agency",
-    "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
-    "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
-    "rights": "© 2026 PromoClock. Built by Onur Şendere."
+    "crafted": "Shrewsbury, UK में Claude के साथ प्यार से बनाया गया।",
+    "digiwingsPromo": "अपने व्यवसाय के लिए कस्टम, GEO-अनुकूलित वेब समाधान चाहिए?",
+    "digiwingsCta": "मेरी एक-व्यक्ति डिजिटल एजेंसी पर जाएँ",
+    "buymeacoffee": "आपको मदद मिली? मुझे एक कॉफ़ी पिलाइए",
+    "disclaimer": "PromoClock एक स्वतंत्र परियोजना है और Anthropic या Claude से संबद्ध नहीं है। केवल जानकारी के उद्देश्य से।",
+    "rights": "© 2026 PromoClock. Onur Şendere द्वारा बनाया गया।"
   }
 }

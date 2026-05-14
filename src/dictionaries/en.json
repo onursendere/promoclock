@@ -115,7 +115,8 @@
   "sponsors": {
     "stackopticHeadline": "Paste any URL. Get the full picture.",
     "stackopticSub": "Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.",
-    "stackopticPromo": "Use code SOLO50 for 50% off your first month on the Solo plan.",
+    "stackopticPromoBadge": "50% OFF",
+    "stackopticPromo": "First month on the Solo plan",
     "stackopticCode": "SOLO50"
   },
   "promotionHistory": {

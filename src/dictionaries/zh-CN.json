@@ -1,147 +1,148 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Code Weekly Limits +50% (Through July 13, 2026)",
-    "description": "Claude Code weekly limits are up 50% — live now through July 13, 2026 for Pro, Max, Team and seat-based Enterprise. Stacks with the 2x 5-hour limits boost.",
-    "ogTitle": "Claude Code weekly limits are up 50% through July 13, 2026",
-    "ogDescription": "Live now for Pro, Max, Team and seat-based Enterprise — across CLI, IDE extensions, desktop and web. Nothing to opt into. Stacks with the 2x 5-hour limit increase."
+    "title": "PromoClock — Claude Code 周限额 +50%（截至 2026 年 7 月 13 日）",
+    "description": "Claude Code 周限额提升 50% — 截至 2026 年 7 月 13 日，对 Pro、Max、Team 及按席位计费的 Enterprise 生效。可与 5 小时限额 2 倍提升叠加。",
+    "ogTitle": "Claude Code 周限额至 2026 年 7 月 13 日提升 50%",
+    "ogDescription": "现已对 Pro、Max、Team 和按席位计费的 Enterprise 生效 — 涵盖 CLI、IDE 扩展、桌面端和网页端。无需手动开启。可与 5 小时限额 2 倍提升叠加。"
   },
   "header": {
     "logo": "PromoClock",
     "nav": {
-      "eligibility": "Plans",
-      "faq": "FAQ",
-      "history": "History"
+      "eligibility": "套餐",
+      "faq": "常见问题",
+      "history": "历史"
     }
   },
   "hero": {
-    "badge": "WEEKLY LIMITS BOOSTED",
+    "badge": "周限额已提升",
     "boostLabel": "+50%",
-    "title": "Claude Code weekly limits are up 50% — through July 13, 2026.",
-    "subtitle": "Live now for all Pro, Max, Team and seat-based Enterprise users. Applies everywhere you use Claude Code — CLI, IDE extensions, desktop and the web. Nothing to opt into; it's already on your account. Stacks with the 2x increase to 5-hour limits announced May 6.",
-    "endsLabel": "Promotion ends",
-    "endsValue": "July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT)",
-    "sourceLabel": "Announced by Anthropic / Claude Developers, May 13, 2026."
+    "title": "Claude Code 周限额提升 50% — 截至 2026 年 7 月 13 日。",
+    "subtitle": "对所有 Pro、Max、Team 以及按席位计费的 Enterprise 用户生效。适用于你使用 Claude Code 的所有场景 — CLI、IDE 扩展、桌面端和网页端。无需手动开启；已自动应用到你的账户。可与 5 月 6 日宣布的 5 小时限额 2 倍提升叠加。",
+    "endsLabel": "活动结束",
+    "endsValue": "2026 年 7 月 13 日 · 18:00 PDT（7 月 14 日 01:00 GMT）",
+    "sourceLabel": "由 Anthropic / Claude Developers 于 2026 年 5 月 13 日发布。"
   },
   "eligibility": {
-    "title": "WHO BENEFITS",
-    "subtitle": "The +50% weekly limit boost is applied automatically to these Claude Code plans.",
-    "eligible": "Boosted",
-    "notEligible": "Not Included",
+    "title": "谁能受益",
+    "subtitle": "+50% 周限额提升自动应用于以下 Claude Code 套餐。",
+    "eligible": "已提升",
+    "notEligible": "不包含",
     "plans": [
       {
         "name": "Pro",
         "status": true,
-        "description": "Weekly Sonnet and Opus hours increase by ~50% through July 13. No action needed — already applied to your account."
+        "description": "周 Sonnet 和 Opus 时长在 7 月 13 日前增加约 50%。无需任何操作 — 已自动应用到账户。"
       },
       {
         "name": "Max (5x)",
         "status": true,
-        "description": "Weekly Opus pool +50%; Sonnet effectively unconstrained for normal workloads."
+        "description": "周 Opus 配额 +50%；在常规负载下 Sonnet 基本无限制。"
       },
       {
         "name": "Max (20x)",
         "status": true,
-        "description": "Weekly Opus pool +50% — well beyond realistic full-time usage for most developers."
+        "description": "周 Opus 配额 +50% — 远超大多数全职开发者的实际使用量。"
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Shared team pool gains +50% — same logic as Max, distributed across seats."
+        "description": "共享团队配额 +50% — 与 Max 同样的逻辑，按席位分摊。"
       },
       {
-        "name": "Enterprise (seat-based)",
+        "name": "Enterprise（按席位）",
         "status": true,
-        "description": "Applied automatically to existing seat contracts; no renegotiation required."
+        "description": "自动应用于现有按席位合同；无需重新谈判。"
       },
       {
         "name": "Free",
         "status": false,
-        "description": "The Free tier does not include Claude Code weekly limits, so this promotion does not apply."
+        "description": "免费套餐不包含 Claude Code 周限额，因此本次活动不适用。"
       }
     ],
     "platforms": {
-      "title": "Applies everywhere you use Claude Code",
+      "title": "适用于你使用 Claude Code 的所有场景",
       "items": [
-        "CLI (Claude Code terminal)",
-        "IDE extensions (VS Code, JetBrains, etc.)",
-        "Desktop apps (Mac / Windows)",
-        "Web (claude.ai / claude.com/code)"
+        "CLI（Claude Code 终端）",
+        "IDE 扩展（VS Code、JetBrains 等）",
+        "桌面应用（Mac / Windows）",
+        "网页端（claude.ai / claude.com/code）"
       ]
     },
-    "note": "Promotion runs through July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT). It stacks with the 2x increase to 5-hour session limits announced May 6, 2026."
+    "note": "活动持续至 2026 年 7 月 13 日 · 18:00 PDT（7 月 14 日 01:00 GMT）。可与 2026 年 5 月 6 日宣布的 5 小时会话限额 2 倍提升叠加。"
   },
   "faq": {
-    "title": "QUESTIONS ANSWERED",
-    "subtitle": "Everything you need to know about the Claude Code weekly limits boost.",
+    "title": "常见问题",
+    "subtitle": "关于 Claude Code 周限额提升你需要知道的一切。",
     "items": [
       {
-        "question": "What's the +50% weekly limit boost?",
-        "answer": "On May 13, 2026, Anthropic announced that Claude Code weekly limits are increasing by 50% for all Pro, Max, Team and seat-based Enterprise users. The boost is live now and applies automatically — no opt-in required."
+        "question": "+50% 周限额提升是什么？",
+        "answer": "2026 年 5 月 13 日，Anthropic 宣布所有 Pro、Max、Team 和按席位计费的 Enterprise 用户的 Claude Code 周限额提升 50%。该提升现已生效并自动应用 — 无需手动开启。"
       },
       {
-        "question": "When does the promotion end?",
-        "answer": "The +50% boost runs through July 13, 2026 at 6:00 PM PDT (July 14, 1:00 AM GMT). After that, weekly limits are expected to return to their pre-promo baseline unless Anthropic announces otherwise."
+        "question": "活动什么时候结束？",
+        "answer": "+50% 提升持续至 2026 年 7 月 13 日 18:00 PDT（7 月 14 日 01:00 GMT）。之后除非 Anthropic 另有通知，周限额将恢复到活动前的水平。"
       },
       {
-        "question": "Which plans get the boost?",
-        "answer": "Pro, Max (5x and 20x), Team, and seat-based Enterprise. The Free tier is not included because it does not have Claude Code weekly limits."
+        "question": "哪些套餐能获得提升？",
+        "answer": "Pro、Max（5x 和 20x）、Team 和按席位计费的 Enterprise。免费套餐不包含 Claude Code 周限额，因此不在范围内。"
       },
       {
-        "question": "Do I need to opt in?",
-        "answer": "No. The 50% increase is already applied to every eligible account. Just keep using Claude Code as usual."
+        "question": "我需要手动开启吗？",
+        "answer": "不需要。50% 的提升已自动应用到每个符合条件的账户。照常使用 Claude Code 即可。"
       },
       {
-        "question": "Does this stack with other recent changes?",
-        "answer": "Yes. The +50% weekly boost stacks on top of the 2x increase to 5-hour session limits Anthropic shipped on May 6, 2026. Combined, both your hourly and weekly headroom are meaningfully higher than they were in early May."
+        "question": "可以与最近其他变更叠加吗？",
+        "answer": "可以。+50% 周提升叠加在 Anthropic 于 2026 年 5 月 6 日推出的 5 小时会话限额 2 倍提升之上。两者结合后，无论是小时还是周的余量都比 5 月初显著提高。"
       },
       {
-        "question": "What happened to the peak hours system?",
-        "answer": "Anthropic removed the peak hours system entirely for Pro and Max on May 6, 2026. Session limits no longer drain faster on weekday afternoons. The previous system is archived in the Promotion History section below."
+        "question": "高峰时段系统怎么了？",
+        "answer": "Anthropic 于 2026 年 5 月 6 日为 Pro 和 Max 完全移除了高峰时段系统。工作日下午的会话限额不再消耗得更快。原有系统已归档在下方的「活动历史」中。"
       },
       {
-        "question": "What about the March 2026 2x off-peak promotion?",
-        "answer": "That promotion ran from March 13 to March 27, 2026 and ended on schedule. It is also archived in the Promotion History section below."
+        "question": "2026 年 3 月的 2 倍非高峰活动呢？",
+        "answer": "该活动于 2026 年 3 月 13 日至 27 日进行，已按计划结束。也归档在下方的「活动历史」中。"
       },
       {
-        "question": "Where does this apply?",
-        "answer": "Everywhere you use Claude Code — the CLI, IDE extensions (VS Code, JetBrains, etc.), desktop apps, and the web."
+        "question": "在哪些地方生效？",
+        "answer": "在你使用 Claude Code 的所有地方 — CLI、IDE 扩展（VS Code、JetBrains 等）、桌面应用和网页端。"
       },
       {
-        "question": "What is PromoClock?",
-        "answer": "PromoClock is an independent tracker built by Onur Şendere (@onursendere on X) to help Claude users keep up with Anthropic's frequent limit and pricing changes. It is not affiliated with Anthropic."
+        "question": "PromoClock 是什么？",
+        "answer": "PromoClock 是由 Onur Şendere（X：@onursendere）开发的独立追踪工具，帮助 Claude 用户跟上 Anthropic 频繁的限额和定价变化。与 Anthropic 无关联。"
       }
     ]
   },
   "sponsors": {
-    "stackopticHeadline": "Paste any URL. Get the full picture.",
-    "stackopticSub": "Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.",
-    "stackopticPromo": "Use code SOLO50 for 50% off your first month on the Solo plan.",
+    "stackopticHeadline": "粘贴任意 URL，获得完整画面。",
+    "stackopticSub": "性能、SEO、安全、AI 可见性、技术栈 — 18 个模块，一次扫描。",
+    "stackopticPromoBadge": "5 折",
+    "stackopticPromo": "Solo 套餐首月",
     "stackopticCode": "SOLO50"
   },
   "promotionHistory": {
-    "title": "PROMOTION HISTORY",
-    "subtitle": "Past Claude promotions and limited-time systems.",
-    "archiveLabel": "Archive",
-    "endedLabel": "ENDED",
+    "title": "活动历史",
+    "subtitle": "过去的 Claude 活动与限时系统。",
+    "archiveLabel": "存档",
+    "endedLabel": "已结束",
     "items": [
       {
-        "title": "Claude Peak Hours System",
-        "dates": "March 27 – May 6, 2026",
-        "description": "From March 27 to May 6, 2026, Claude session limits drained faster on weekdays 1pm–7pm UTC (\"peak hours\"). Anthropic removed this system entirely for Pro and Max on May 6, 2026, alongside doubling the 5-hour session limits."
+        "title": "Claude 高峰时段系统",
+        "dates": "2026 年 3 月 27 日 – 5 月 6 日",
+        "description": "2026 年 3 月 27 日至 5 月 6 日期间，Claude 会话限额在工作日 UTC 13:00–19:00（「高峰时段」）消耗更快。Anthropic 于 2026 年 5 月 6 日为 Pro 和 Max 完全移除了该系统，并同时将 5 小时会话限额翻倍。"
       },
       {
-        "title": "Claude March 2026 Off-Peak Promotion",
-        "dates": "March 13 – March 27, 2026",
-        "description": "Anthropic ran a 2x session limits promotion during off-peak hours (outside weekdays 8 AM – 2 PM ET). Free, Pro, Max, and Team plans received doubled message and context limits during off-peak windows."
+        "title": "Claude 2026 年 3 月非高峰活动",
+        "dates": "2026 年 3 月 13 日 – 27 日",
+        "description": "Anthropic 在非高峰时段（工作日 ET 08:00–14:00 之外）开展了会话限额 2 倍的活动。Free、Pro、Max 和 Team 套餐在非高峰窗口内获得了双倍消息和上下文限额。"
       }
     ]
   },
   "footer": {
-    "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
-    "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",
-    "digiwingsCta": "Visit my one-person digital agency",
-    "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
-    "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
-    "rights": "© 2026 PromoClock. Built by Onur Şendere."
+    "crafted": "在英国 Shrewsbury 与 Claude 一起用心打造。",
+    "digiwingsPromo": "为你的业务需要定制化、面向 GEO 优化的 Web 解决方案？",
+    "digiwingsCta": "访问我的一人数字代理机构",
+    "buymeacoffee": "帮到你了？请我喝杯咖啡",
+    "disclaimer": "PromoClock 是一个独立项目，与 Anthropic 或 Claude 无关联。仅供参考。",
+    "rights": "© 2026 PromoClock. 由 Onur Şendere 开发。"
   }
 }

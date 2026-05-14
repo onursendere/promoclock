@@ -68,6 +68,7 @@ export interface Dictionary {
   sponsors: {
     stackopticHeadline: string;
     stackopticSub: string;
+    stackopticPromoBadge: string;
     stackopticPromo: string;
     stackopticCode: string;
   };
