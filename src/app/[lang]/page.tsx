@@ -2,8 +2,12 @@ import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import ClaudeCodeBoostBanner from "@/components/ClaudeCodeBoostBanner";
+import HowItWorks from "@/components/HowItWorks";
 import Eligibility from "@/components/Eligibility";
+import Schedule from "@/components/Schedule";
 import FAQ from "@/components/FAQ";
+import DeveloperTools from "@/components/DeveloperTools";
 import PromotionHistory from "@/components/PromotionHistory";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
@@ -28,9 +32,13 @@ export default async function Home({
       <Header dict={dict} lang={lang} />
       <main>
         <HeroSection dict={dict} />
+        <ClaudeCodeBoostBanner dict={dict} />
+        <HowItWorks dict={dict} />
         <Eligibility dict={dict} />
+        <Schedule dict={dict} />
         <FAQ dict={dict} />
-        <PromotionHistory dict={dict} />
+        <DeveloperTools dict={dict} />
+        <PromotionHistory />
       </main>
       <Footer dict={dict} />
       <BuyMeCoffeeFloat />

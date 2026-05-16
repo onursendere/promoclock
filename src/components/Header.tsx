@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { i18n, localeNames, type Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 import PromoClockLogo from "@/components/PromoClockLogo";
+import NotificationBell from "@/components/NotificationBell";
 
 interface HeaderProps {
   dict: Dictionary;
@@ -27,9 +28,11 @@ export default function Header({ dict, lang }: HeaderProps) {
   };
 
   const navItems = [
+    { href: "#how-it-works", label: dict.header.nav.howItWorks },
     { href: "#eligibility", label: dict.header.nav.eligibility },
+    { href: "#schedule", label: dict.header.nav.schedule },
     { href: "#faq", label: dict.header.nav.faq },
-    { href: "#promotion-history", label: dict.header.nav.history },
+    { href: "#developer-tools", label: dict.header.nav.devTools },
   ];
 
   return (
@@ -88,6 +91,8 @@ export default function Header({ dict, lang }: HeaderProps) {
               )}
             </AnimatePresence>
           </div>
+
+          <NotificationBell dict={dict} />
 
           <a
             href="https://github.com/onursendere/promoclock"

@@ -1,148 +1,196 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Code 周限额 +50%（截至 2026 年 7 月 13 日）",
-    "description": "Claude Code 周限额提升 50% — 截至 2026 年 7 月 13 日，对 Pro、Max、Team 及按席位计费的 Enterprise 生效。可与 5 小时限额 2 倍提升叠加。",
-    "ogTitle": "Claude Code 周限额至 2026 年 7 月 13 日提升 50%",
-    "ogDescription": "现已对 Pro、Max、Team 和按席位计费的 Enterprise 生效 — 涵盖 CLI、IDE 扩展、桌面端和网页端。无需手动开启。可与 5 小时限额 2 倍提升叠加。"
+    "title": "PromoClock — Claude 高峰时段追踪器",
+    "description": "即时了解 Claude 会话限额何时消耗更快。您所在时区的实时高峰时段状态 — Free, Pro, Max & Team。无需配置。",
+    "ogTitle": "PromoClock — Claude 的限额现在消耗更快吗？",
+    "ogDescription": "无需猜测。PromoClock 即时显示您是否正处于 Claude 的高峰时段。"
   },
   "header": {
     "logo": "PromoClock",
     "nav": {
-      "eligibility": "套餐",
+      "howItWorks": "工作原理",
+      "eligibility": "计划",
+      "schedule": "时间表",
       "faq": "常见问题",
-      "history": "历史"
+      "devTools": "工具"
     }
   },
   "hero": {
-    "badge": "周限额已提升",
-    "boostLabel": "+50%",
-    "title": "Claude Code 周限额提升 50% — 截至 2026 年 7 月 13 日。",
-    "subtitle": "对所有 Pro、Max、Team 以及按席位计费的 Enterprise 用户生效。适用于你使用 Claude Code 的所有场景 — CLI、IDE 扩展、桌面端和网页端。无需手动开启；已自动应用到你的账户。可与 5 月 6 日宣布的 5 小时限额 2 倍提升叠加。",
-    "endsLabel": "活动结束",
-    "endsValue": "2026 年 7 月 13 日 · 18:00 PDT（7 月 14 日 01:00 GMT）",
-    "sourceLabel": "由 Anthropic / Claude Developers 于 2026 年 5 月 13 日发布。"
+    "badge": "CLAUDE会话限额",
+    "promotionActive": "非高峰 — 正常消耗速度",
+    "promotionInactive": "高峰时段 — 限额消耗更快",
+    "promotionExpired": "非高峰 — 正常消耗速度",
+    "promotionNotStarted": "非高峰 — 正常消耗速度",
+    "activeSubtitle": "非高峰时段 — 5小时会话限额以正常速度消耗。适合高Token消耗任务。",
+    "inactiveSubtitle": "高峰时段（周一至周五 GMT 13时–19时）— 会话限额消耗更快。每周限额不变。",
+    "expiredSubtitle": "非高峰时段 — 5小时会话限额以正常速度消耗。",
+    "notStartedSubtitle": "非高峰时段 — 5小时会话限额以正常速度消耗。",
+    "countdownLabel": "距下次状态变更",
+    "yourTimezone": "您的时区",
+    "yourLocalTime": "您的本地时间",
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒",
+    "peakHours": "高峰时段（消耗较快）",
+    "offPeakHours": "非高峰时段（正常速度）",
+    "weekdays": "工作日",
+    "allWeekend": "整个周末（正常速度）",
+    "sinceLastChange": "自上次状态变更"
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "subtitle": "我们保持简单——让您专注于使用Claude进行创作。",
+    "steps": [
+      {
+        "title": "自动检测时区",
+        "description": "打开PromoClock时，我们会自动读取您设备的时区。无需设置或配置。"
+      },
+      {
+        "title": "实时计算",
+        "description": "我们的引擎将您的本地时间与Claude高峰时段（周一至周五 GMT 13时–19时）实时比较。"
+      },
+      {
+        "title": "即时查看状态",
+        "description": "清晰的实时显示告诉您当前是否处于高峰时段（限额消耗更快）或非高峰（正常速度）——加上到下次变更的倒计时。"
+      }
+    ]
   },
   "eligibility": {
-    "title": "谁能受益",
-    "subtitle": "+50% 周限额提升自动应用于以下 Claude Code 套餐。",
-    "eligible": "已提升",
-    "notEligible": "不包含",
+    "title": "资格条件",
+    "subtitle": "会话限额调整适用于所有Claude订阅级别。",
+    "eligible": "受影响",
+    "notEligible": "不受影响",
     "plans": [
+      {
+        "name": "Free",
+        "status": true,
+        "description": "高峰时段会话限额消耗更快。将高Token任务移至非高峰时段。"
+      },
       {
         "name": "Pro",
         "status": true,
-        "description": "周 Sonnet 和 Opus 时长在 7 月 13 日前增加约 50%。无需任何操作 — 已自动应用到账户。"
+        "description": "约7%的Pro用户会遇到以前未达到的限额。非高峰时段最适合繁重任务。"
       },
       {
-        "name": "Max (5x)",
+        "name": "Max",
         "status": true,
-        "description": "周 Opus 配额 +50%；在常规负载下 Sonnet 基本无限制。"
-      },
-      {
-        "name": "Max (20x)",
-        "status": true,
-        "description": "周 Opus 配额 +50% — 远超大多数全职开发者的实际使用量。"
+        "description": "高峰时段会话限额消耗更快。将代理和数据处理任务安排在非高峰时段。"
       },
       {
         "name": "Team",
         "status": true,
-        "description": "共享团队配额 +50% — 与 Max 同样的逻辑，按席位分摊。"
+        "description": "Team工作区受到影响。将繁重任务协调安排在非高峰时段。"
       },
       {
-        "name": "Enterprise（按席位）",
-        "status": true,
-        "description": "自动应用于现有按席位合同；无需重新谈判。"
-      },
-      {
-        "name": "Free",
+        "name": "Enterprise",
         "status": false,
-        "description": "免费套餐不包含 Claude Code 周限额，因此本次活动不适用。"
+        "description": "企业计划有专用容量和定制合同——不受这些调整影响。"
       }
     ],
     "platforms": {
-      "title": "适用于你使用 Claude Code 的所有场景",
+      "title": "在所有Claude界面上可用",
       "items": [
-        "CLI（Claude Code 终端）",
-        "IDE 扩展（VS Code、JetBrains 等）",
-        "桌面应用（Mac / Windows）",
-        "网页端（claude.ai / claude.com/code）"
+        "网页 (claude.ai)",
+        "桌面端 (Mac / Windows)",
+        "移动端 (iOS / Android)",
+        "Claude Cowork",
+        "Claude Code (终端)",
+        "Excel和PowerPoint插件"
       ]
     },
-    "note": "活动持续至 2026 年 7 月 13 日 · 18:00 PDT（7 月 14 日 01:00 GMT）。可与 2026 年 5 月 6 日宣布的 5 小时会话限额 2 倍提升叠加。"
+    "note": "每周限额保持不变。会话限额仅在高峰时段（周一至周五 GMT 13时–19时）消耗更快。"
+  },
+  "schedule": {
+    "title": "全球时间表",
+    "subtitle": "查看主要城市的高峰时段（限额消耗较快）。高峰：周一至周五 GMT 13时–19时。",
+    "tableHeaders": {
+      "city": "城市/地区",
+      "timezone": "时区",
+      "peakHours": "高峰时段（较快）",
+      "offPeakHours": "非高峰（正常）"
+    },
+    "weekdayLabel": "工作日",
+    "weekendLabel": "整个周末 → 正常速度"
   },
   "faq": {
     "title": "常见问题",
-    "subtitle": "关于 Claude Code 周限额提升你需要知道的一切。",
+    "subtitle": "关于Claude会话限额系统的一切。",
     "items": [
       {
-        "question": "+50% 周限额提升是什么？",
-        "answer": "2026 年 5 月 13 日，Anthropic 宣布所有 Pro、Max、Team 和按席位计费的 Enterprise 用户的 Claude Code 周限额提升 50%。该提升现已生效并自动应用 — 无需手动开启。"
+        "question": "Claude会话限额发生了什么变化？",
+        "answer": "自2026年3月27日起，Claude调整了5小时会话限额。高峰时段（周一至周五 GMT 13时–19时）限额消耗更快。每周限额不变——只是在一周内的分配方式有所改变。"
       },
       {
-        "question": "活动什么时候结束？",
-        "answer": "+50% 提升持续至 2026 年 7 月 13 日 18:00 PDT（7 月 14 日 01:00 GMT）。之后除非 Anthropic 另有通知，周限额将恢复到活动前的水平。"
+        "question": "高峰时段具体是什么时候？",
+        "answer": "高峰时段是周一至周五 GMT 13时–19时（PST 5时–11时）。工作日晚上/夜间及整个周末为非高峰时段，正常速度消耗。"
       },
       {
-        "question": "哪些套餐能获得提升？",
-        "answer": "Pro、Max（5x 和 20x）、Team 和按席位计费的 Enterprise。免费套餐不包含 Claude Code 周限额，因此不在范围内。"
+        "question": "我的时区高峰时段是什么时候？",
+        "answer": "PromoClock自动检测您的时区，并在页面顶部实时显示当前状态。"
       },
       {
-        "question": "我需要手动开启吗？",
-        "answer": "不需要。50% 的提升已自动应用到每个符合条件的账户。照常使用 Claude Code 即可。"
+        "question": "哪些计划受影响？",
+        "answer": "Free、Pro、Max和Team都受到影响。Enterprise计划因有专用容量而不受影响。"
       },
       {
-        "question": "可以与最近其他变更叠加吗？",
-        "answer": "可以。+50% 周提升叠加在 Anthropic 于 2026 年 5 月 6 日推出的 5 小时会话限额 2 倍提升之上。两者结合后，无论是小时还是周的余量都比 5 月初显著提高。"
+        "question": "我的每周限额会改变吗？",
+        "answer": "不会。每周限额保持不变。约7%的用户（尤其是Pro）会遇到以前未达到的限额。"
       },
       {
-        "question": "高峰时段系统怎么了？",
-        "answer": "Anthropic 于 2026 年 5 月 6 日为 Pro 和 Max 完全移除了高峰时段系统。工作日下午的会话限额不再消耗得更快。原有系统已归档在下方的「活动历史」中。"
+        "question": "如何最大化我的会话限额？",
+        "answer": "将高Token任务移至非高峰时段（工作日晚上/夜间和周末）。那些时段的限额以正常速度消耗。"
       },
       {
-        "question": "2026 年 3 月的 2 倍非高峰活动呢？",
-        "answer": "该活动于 2026 年 3 月 13 日至 27 日进行，已按计划结束。也归档在下方的「活动历史」中。"
+        "question": "2026年3月促销发生了什么？",
+        "answer": "Claude 2026年3月非高峰促销（2倍限额）于2026年3月13日至27日进行并已结束。请查看下方存档部分。"
       },
       {
-        "question": "在哪些地方生效？",
-        "answer": "在你使用 Claude Code 的所有地方 — CLI、IDE 扩展（VS Code、JetBrains 等）、桌面应用和网页端。"
+        "question": "PromoClock是什么？",
+        "answer": "PromoClock由Onur Şendere（X上@onursendere）开发，帮助Claude用户即时了解是否处于高峰时段。这是一个独立项目，与Anthropic无关。"
       },
       {
-        "question": "PromoClock 是什么？",
-        "answer": "PromoClock 是由 Onur Şendere（X：@onursendere）开发的独立追踪工具，帮助 Claude 用户跟上 Anthropic 频繁的限额和定价变化。与 Anthropic 无关联。"
+        "question": "Claude Code +50% 周限额提升是什么？",
+        "answer": "2026 年 5 月 13 日，Anthropic 宣布对 Pro、Max、Team 及按席位计费的 Enterprise 用户，Claude Code 周限额提升 50%，截至 2026 年 7 月 13 日 18:00 PDT。在 CLI、IDE 扩展、桌面端和网页端自动生效。免费套餐以及 Claude.ai 聊天 / Cowork 限额不受影响。"
+      },
+      {
+        "question": "Anthropic 是否在 5 月 6 日完全移除了高峰时段系统？",
+        "answer": "仅部分移除。2026 年 5 月 6 日，Anthropic 仅针对 Pro 和 Max 套餐的 Claude Code 移除了高峰时段限速，同时将 Claude Code 5 小时会话限额翻倍。高峰时段仍然适用于 Free、Pro、Max 和 Team 用户的 Claude.ai 聊天、Cowork、移动和桌面应用 — 因此上方的实时高峰时段追踪器对大多数工作流仍然有用。来源：Anthropic 公告（2026 年 5 月 6 日）、Ars Technica、Appwrite 博客。"
       }
     ]
   },
+  "devTools": {
+    "title": "开发者工具",
+    "subtitle": "将Claude高峰时段状态集成到您的工作流程中。API和终端——无需浏览器。",
+    "apiTitle": "JSON API & 终端集成",
+    "apiDescription": "/api/status端点实时返回高峰时段状态JSON。集成到您的ZSH/Bash提示符中。",
+    "tryApi": "试用API",
+    "notifTitle": "浏览器通知和声音提醒",
+    "notifDescription": "启用标题栏的铃铛图标，当Claude切换到非高峰（正常速度）时立即收到浏览器通知和柔和铃声。"
+  },
+  "claudeCodeBoost": {
+    "badge": "同时进行",
+    "scope": "仅限 Claude Code",
+    "title": "Claude Code 周限额至 2026 年 7 月 13 日 +50%",
+    "subtitle": "与上方的高峰时段系统相互独立。2026 年 5 月 13 日，Anthropic 将 Pro、Max、Team 及按席位计费的 Enterprise 的 Claude Code 周限额上调 50%。自动应用 — 无需开启。可与 5 月 6 日宣布的 5 小时限额 2 倍提升叠加。",
+    "endsLabel": "结束",
+    "endsValue": "2026 年 7 月 13 日 · 18:00 PDT（7 月 14 日 01:00 GMT）",
+    "sourceLabel": "来源：@ClaudeDevs 公告",
+    "note": "不影响 Claude.ai 聊天 / Cowork 限额。"
+  },
   "sponsors": {
-    "stackopticHeadline": "粘贴任意 URL，获得完整画面。",
-    "stackopticSub": "性能、SEO、安全、AI 可见性、技术栈 — 18 个模块，一次扫描。",
+    "stackopticHeadline": "粘贴任意URL，获取完整视图。",
+    "stackopticSub": "性能、SEO、安全、AI可见性、技术栈 — 18个模块，一次扫描。",
     "stackopticPromoBadge": "5 折",
     "stackopticPromo": "Solo 套餐首月",
     "stackopticCode": "SOLO50"
   },
-  "promotionHistory": {
-    "title": "活动历史",
-    "subtitle": "过去的 Claude 活动与限时系统。",
-    "archiveLabel": "存档",
-    "endedLabel": "已结束",
-    "items": [
-      {
-        "title": "Claude 高峰时段系统",
-        "dates": "2026 年 3 月 27 日 – 5 月 6 日",
-        "description": "2026 年 3 月 27 日至 5 月 6 日期间，Claude 会话限额在工作日 UTC 13:00–19:00（「高峰时段」）消耗更快。Anthropic 于 2026 年 5 月 6 日为 Pro 和 Max 完全移除了该系统，并同时将 5 小时会话限额翻倍。"
-      },
-      {
-        "title": "Claude 2026 年 3 月非高峰活动",
-        "dates": "2026 年 3 月 13 日 – 27 日",
-        "description": "Anthropic 在非高峰时段（工作日 ET 08:00–14:00 之外）开展了会话限额 2 倍的活动。Free、Pro、Max 和 Team 套餐在非高峰窗口内获得了双倍消息和上下文限额。"
-      }
-    ]
-  },
   "footer": {
-    "crafted": "在英国 Shrewsbury 与 Claude 一起用心打造。",
-    "digiwingsPromo": "为你的业务需要定制化、面向 GEO 优化的 Web 解决方案？",
+    "crafted": "在英国Shrewsbury与Claude一起用爱打造。",
+    "digiwingsPromo": "需要为您的业务定制GEO优化的网络解决方案？",
     "digiwingsCta": "访问我的一人数字代理机构",
-    "buymeacoffee": "帮到你了？请我喝杯咖啡",
-    "disclaimer": "PromoClock 是一个独立项目，与 Anthropic 或 Claude 无关联。仅供参考。",
-    "rights": "© 2026 PromoClock. 由 Onur Şendere 开发。"
+    "buymeacoffee": "帮您省去了时区计算？请我喝杯咖啡",
+    "disclaimer": "PromoClock是独立项目，与Anthropic或Claude无关。仅供参考。",
+    "rights": "© 2026 PromoClock。由Onur Şendere制作。"
   }
 }

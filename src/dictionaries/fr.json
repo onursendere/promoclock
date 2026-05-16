@@ -1,148 +1,200 @@
 {
   "meta": {
-    "title": "PromoClock — Limites hebdomadaires Claude Code +50 % (jusqu'au 13 juillet 2026)",
-    "description": "Les limites hebdomadaires de Claude Code augmentent de 50 % — actif jusqu'au 13 juillet 2026 pour Pro, Max, Team et Enterprise par siège. Cumulable avec l'augmentation 2x des limites de 5 heures.",
-    "ogTitle": "Les limites hebdomadaires de Claude Code augmentent de 50 % jusqu'au 13 juillet 2026",
-    "ogDescription": "Actif pour Pro, Max, Team et Enterprise par siège — sur CLI, extensions IDE, desktop et web. Aucune activation requise. Cumulable avec l'augmentation 2x des limites 5h."
+    "title": "PromoClock — Suivi des heures de pointe Claude",
+    "description": "Sachez instantanément quand les limites de session Claude s'épuisent plus vite. Statut en temps réel pour votre fuseau horaire — Free, Pro, Max & Team. Sans configuration.",
+    "ogTitle": "PromoClock — Les limites de Claude s'épuisent-elles plus vite en ce moment ?",
+    "ogDescription": "Arrêtez de calculer. PromoClock vous indique instantanément si vous êtes dans les heures de pointe de Claude."
   },
   "header": {
     "logo": "PromoClock",
     "nav": {
+      "howItWorks": "Comment ça marche",
       "eligibility": "Plans",
+      "schedule": "Horaires",
       "faq": "FAQ",
-      "history": "Historique"
+      "devTools": "Outils"
     }
   },
   "hero": {
-    "badge": "LIMITES HEBDO AUGMENTÉES",
-    "boostLabel": "+50 %",
-    "title": "Les limites hebdomadaires Claude Code augmentent de 50 % — jusqu'au 13 juillet 2026.",
-    "subtitle": "Actif pour tous les utilisateurs Pro, Max, Team et Enterprise par siège. S'applique partout où vous utilisez Claude Code — CLI, extensions IDE, desktop et web. Aucune activation requise ; déjà appliqué à votre compte. Se cumule avec l'augmentation 2x des limites 5 heures annoncée le 6 mai.",
-    "endsLabel": "Fin de la promotion",
-    "endsValue": "13 juillet 2026 · 18:00 PDT (14 juillet, 01:00 GMT)",
-    "sourceLabel": "Annoncé par Anthropic / Claude Developers le 13 mai 2026."
+    "badge": "LIMITES DE SESSION CLAUDE",
+    "promotionActive": "HEURES CREUSES — LIMITES NORMALES",
+    "promotionInactive": "HEURES DE POINTE — LIMITES PLUS RAPIDES",
+    "promotionExpired": "HEURES CREUSES — LIMITES NORMALES",
+    "promotionNotStarted": "HEURES CREUSES — LIMITES NORMALES",
+    "activeSubtitle": "Heures creuses — vos limites de session 5h s'écoulent à vitesse normale. Idéal pour les tâches intensives en tokens.",
+    "inactiveSubtitle": "Heures de pointe (lun–ven 13h–19h GMT) — les limites de session s'écoulent plus vite. Limites hebdomadaires inchangées.",
+    "expiredSubtitle": "Heures creuses — vos limites de session 5h s'écoulent à vitesse normale.",
+    "notStartedSubtitle": "Heures creuses — vos limites de session 5h s'écoulent à vitesse normale.",
+    "countdownLabel": "Jusqu'au prochain changement",
+    "yourTimezone": "Votre fuseau horaire",
+    "yourLocalTime": "Votre heure locale",
+    "days": "JOURS",
+    "hours": "HEURES",
+    "minutes": "MIN",
+    "seconds": "SEC",
+    "peakHours": "Heures de pointe (Limites plus rapides)",
+    "offPeakHours": "Heures creuses (Vitesse normale)",
+    "weekdays": "Jours ouvrables",
+    "allWeekend": "Tout le week-end (vitesse normale)",
+    "sinceLastChange": "depuis le dernier changement"
+  },
+  "howItWorks": {
+    "title": "COMMENT ÇA MARCHE",
+    "subtitle": "Nous gardons les choses simples — pour que vous puissiez vous concentrer sur la création avec Claude.",
+    "steps": [
+      {
+        "title": "NOUS DÉTECTONS VOTRE FUSEAU",
+        "description": "Dès que vous ouvrez PromoClock, nous lisons automatiquement le fuseau horaire de votre appareil. Aucune configuration nécessaire."
+      },
+      {
+        "title": "NOUS CALCULONS EN TEMPS RÉEL",
+        "description": "Notre moteur compare votre heure locale avec les heures de pointe Claude (lun–ven 13h–19h GMT / 5h–11h PST) en temps réel."
+      },
+      {
+        "title": "VOUS VOYEZ VOTRE STATUT",
+        "description": "Un affichage clair indique si vous êtes en heures de pointe (limites plus rapides) ou en heures creuses (vitesse normale) — avec un compte à rebours."
+      }
+    ]
   },
   "eligibility": {
-    "title": "QUI EN BÉNÉFICIE",
-    "subtitle": "L'augmentation +50 % des limites hebdomadaires est appliquée automatiquement à ces plans Claude Code.",
-    "eligible": "Boosté",
-    "notEligible": "Non inclus",
+    "title": "QUI EST CONCERNÉ",
+    "subtitle": "L'ajustement des limites de session s'applique à tous les niveaux d'abonnement Claude.",
+    "eligible": "Concerné",
+    "notEligible": "Non concerné",
     "plans": [
+      {
+        "name": "Free",
+        "status": true,
+        "description": "Les limites de session s'écoulent plus vite pendant les heures de pointe. Décalez les tâches intensives en tokens vers les heures creuses."
+      },
       {
         "name": "Pro",
         "status": true,
-        "description": "Les heures hebdomadaires Sonnet et Opus augmentent d'environ 50 % jusqu'au 13 juillet. Aucune action requise — déjà appliqué à votre compte."
+        "description": "~7% des utilisateurs Pro atteindront des limites qu'ils n'auraient pas atteintes avant. Les heures creuses sont idéales pour les charges lourdes."
       },
       {
-        "name": "Max (5x)",
+        "name": "Max",
         "status": true,
-        "description": "Pool Opus hebdomadaire +50 % ; Sonnet pratiquement illimité pour les charges de travail normales."
-      },
-      {
-        "name": "Max (20x)",
-        "status": true,
-        "description": "Pool Opus hebdomadaire +50 % — bien au-delà d'un usage réaliste à temps plein pour la plupart des développeurs."
+        "description": "Les limites de session s'écoulent plus vite pendant les heures de pointe. Planifiez agents et traitements de données en heures creuses."
       },
       {
         "name": "Team",
         "status": true,
-        "description": "Pool d'équipe partagé +50 % — même logique que Max, distribué sur les sièges."
+        "description": "Les espaces Team sont concernés. Coordonnez les charges lourdes en heures creuses."
       },
       {
-        "name": "Enterprise (par siège)",
-        "status": true,
-        "description": "Appliqué automatiquement aux contrats par siège existants ; aucune renégociation requise."
-      },
-      {
-        "name": "Free",
+        "name": "Enterprise",
         "status": false,
-        "description": "Le plan gratuit n'inclut pas les limites hebdomadaires Claude Code, donc cette promotion ne s'applique pas."
+        "description": "Les plans Enterprise ont une capacité dédiée et des contrats personnalisés — non concernés par ces ajustements."
       }
     ],
     "platforms": {
-      "title": "S'applique partout où vous utilisez Claude Code",
+      "title": "Disponible sur toutes les interfaces Claude",
       "items": [
-        "CLI (terminal Claude Code)",
-        "Extensions IDE (VS Code, JetBrains, etc.)",
-        "Applications desktop (Mac / Windows)",
-        "Web (claude.ai / claude.com/code)"
+        "Web (claude.ai)",
+        "Bureau (Mac / Windows)",
+        "Mobile (iOS / Android)",
+        "Claude Cowork",
+        "Claude Code (Terminal)",
+        "Compléments Excel et PowerPoint"
       ]
     },
-    "note": "La promotion est valable jusqu'au 13 juillet 2026 · 18:00 PDT (14 juillet, 01:00 GMT). Elle se cumule avec l'augmentation 2x des limites de session 5 heures annoncée le 6 mai 2026."
+    "note": "Les limites hebdomadaires restent inchangées. Les limites de session s'écoulent seulement plus vite pendant les heures de pointe (lun–ven 13h–19h GMT)."
+  },
+  "schedule": {
+    "title": "HORAIRES MONDIAUX",
+    "subtitle": "Consultez les heures de pointe (limites plus rapides) dans les grandes villes. Heures de pointe : lun–ven 13h–19h GMT / 5h–11h PST.",
+    "tableHeaders": {
+      "city": "Ville / Région",
+      "timezone": "Fuseau horaire",
+      "peakHours": "Heures de pointe (Limites rapides)",
+      "offPeakHours": "Heures creuses (Vitesse normale)"
+    },
+    "weekdayLabel": "Jours ouvrables",
+    "weekendLabel": "Tout le week-end → Vitesse normale"
   },
   "faq": {
-    "title": "QUESTIONS FRÉQUENTES",
-    "subtitle": "Tout ce que vous devez savoir sur l'augmentation des limites hebdomadaires de Claude Code.",
+    "title": "QUESTIONS RÉPONDUES",
+    "subtitle": "Tout ce que vous devez savoir sur le système de limites de session Claude.",
     "items": [
       {
-        "question": "Qu'est-ce que l'augmentation +50 % des limites hebdomadaires ?",
-        "answer": "Le 13 mai 2026, Anthropic a annoncé que les limites hebdomadaires de Claude Code augmentent de 50 % pour tous les utilisateurs Pro, Max, Team et Enterprise par siège. L'augmentation est active maintenant et s'applique automatiquement — aucune activation requise."
+        "question": "Qu'est-ce qui a changé avec les limites de session Claude ?",
+        "answer": "À partir du 27 mars 2026, Claude a ajusté le fonctionnement des limites de session de 5h. Pendant les heures de pointe (lun–ven 13h–19h GMT), les limites s'écoulent plus vite. Les limites hebdomadaires restent inchangées — seule leur distribution dans la semaine change."
       },
       {
-        "question": "Quand la promotion se termine-t-elle ?",
-        "answer": "L'augmentation +50 % court jusqu'au 13 juillet 2026 à 18:00 PDT (14 juillet, 01:00 GMT). Après cela, les limites hebdomadaires devraient revenir à leurs valeurs d'avant promotion, sauf annonce contraire d'Anthropic."
+        "question": "Quand sont exactement les heures de pointe ?",
+        "answer": "Les heures de pointe sont les lundi–vendredi de 13h à 19h GMT (5h–11h PST). Les soirées, nuits en semaine et tout le week-end sont des heures creuses avec des limites qui s'écoulent à vitesse normale."
       },
       {
-        "question": "Quels plans bénéficient de l'augmentation ?",
-        "answer": "Pro, Max (5x et 20x), Team et Enterprise par siège. Le plan gratuit n'est pas inclus car il n'a pas de limites hebdomadaires Claude Code."
+        "question": "À quelle heure sont les heures de pointe dans mon fuseau ?",
+        "answer": "PromoClock détecte automatiquement votre fuseau horaire et affiche votre statut en temps réel en haut de page."
       },
       {
-        "question": "Dois-je activer quelque chose ?",
-        "answer": "Non. L'augmentation de 50 % est déjà appliquée à chaque compte éligible. Continuez simplement à utiliser Claude Code comme d'habitude."
+        "question": "Quels plans sont concernés ?",
+        "answer": "Les plans Free, Pro, Max et Team sont tous concernés. Les plans Enterprise ne le sont pas car ils ont une capacité dédiée."
       },
       {
-        "question": "Cela se cumule-t-il avec d'autres changements récents ?",
-        "answer": "Oui. L'augmentation hebdomadaire +50 % se cumule à l'augmentation 2x des limites de session 5 heures qu'Anthropic a déployée le 6 mai 2026. Combinées, votre marge horaire et hebdomadaire sont nettement plus élevées qu'au début mai."
+        "question": "Mes limites hebdomadaires changent-elles ?",
+        "answer": "Non. Vos limites hebdomadaires restent exactement les mêmes. Seule la vitesse à laquelle vous consommez vos limites de session 5h pendant les heures de pointe a changé."
       },
       {
-        "question": "Qu'est-il arrivé au système des heures de pointe ?",
-        "answer": "Anthropic a complètement supprimé le système des heures de pointe pour Pro et Max le 6 mai 2026. Les limites de session ne s'épuisent plus plus rapidement les après-midi en semaine. L'ancien système est archivé dans la section Historique des promotions ci-dessous."
+        "question": "Comment maximiser mes limites de session ?",
+        "answer": "Décalez les tâches intensives en tokens vers les heures creuses (soirées/nuits en semaine et tout le week-end). Les limites s'écoulent à vitesse normale pendant ces périodes."
       },
       {
-        "question": "Et la promotion 2x off-peak de mars 2026 ?",
-        "answer": "Cette promotion a duré du 13 au 27 mars 2026 et s'est terminée comme prévu. Elle est également archivée dans la section Historique des promotions ci-dessous."
+        "question": "Sur quelles plateformes cela s'applique-t-il ?",
+        "answer": "Les ajustements de limites de session s'appliquent sur toutes les interfaces Claude : claude.ai, apps bureau et mobile, Claude Cowork, Claude Code et les compléments Excel/PowerPoint."
       },
       {
-        "question": "Où cela s'applique-t-il ?",
-        "answer": "Partout où vous utilisez Claude Code — CLI, extensions IDE (VS Code, JetBrains, etc.), applications desktop et web."
+        "question": "Que s'est-il passé avec la promotion mars 2026 ?",
+        "answer": "La promotion heures creuses Claude mars 2026 (limites 2x) s'est déroulée du 13 au 27 mars 2026 et est terminée. Consultez la section archives ci-dessous."
       },
       {
         "question": "Qu'est-ce que PromoClock ?",
-        "answer": "PromoClock est un tracker indépendant créé par Onur Şendere (@onursendere sur X) pour aider les utilisateurs Claude à suivre les fréquents changements de limites et de tarifs d'Anthropic. Non affilié à Anthropic."
+        "answer": "PromoClock a été créé par Onur Şendere (@onursendere sur X) pour aider les utilisateurs de Claude à savoir instantanément s'ils sont en heures de pointe. Projet indépendant, non affilié à Anthropic."
+      },
+      {
+        "question": "Qu'est-ce que l'augmentation +50 % des limites hebdomadaires de Claude Code ?",
+        "answer": "Le 13 mai 2026, Anthropic a annoncé une augmentation de 50 % des limites hebdomadaires de Claude Code pour les utilisateurs Pro, Max, Team et Enterprise par siège, valable jusqu'au 13 juillet 2026 (18:00 PDT). S'applique automatiquement sur CLI, extensions IDE, desktop et web. Le plan gratuit et les limites Claude.ai chat / Cowork ne sont pas affectés."
+      },
+      {
+        "question": "Anthropic a-t-il supprimé entièrement le système d'heures de pointe le 6 mai ?",
+        "answer": "Seulement partiellement. Le 6 mai 2026, Anthropic a supprimé le throttling des heures de pointe spécifiquement pour Claude Code sur les plans Pro et Max, en même temps que le doublement des limites 5 h de Claude Code. Les heures de pointe s'appliquent toujours à Claude.ai chat, Cowork, applications mobiles et desktop pour les utilisateurs Free, Pro, Max et Team — c'est pourquoi le tracker en temps réel ci-dessus reste utile pour la plupart des workflows. Sources : annonce Anthropic (6 mai 2026), Ars Technica, blog Appwrite."
       }
     ]
   },
+  "devTools": {
+    "title": "OUTILS DÉVELOPPEUR",
+    "subtitle": "Intégrez le statut des heures de pointe Claude dans votre workflow. API et terminal — sans navigateur.",
+    "apiTitle": "API JSON & Intégration Terminal",
+    "apiDescription": "L'endpoint /api/status renvoie le statut des heures de pointe en temps réel en JSON. Intégrez-le dans votre prompt ZSH/Bash.",
+    "tryApi": "Essayer l'API",
+    "notifTitle": "Notifications Navigateur & Alertes Sonores",
+    "notifDescription": "Activez l'icône cloche dans l'en-tête pour recevoir une notification et un carillon doux dès que Claude passe en heures creuses (vitesse normale)."
+  },
+  "claudeCodeBoost": {
+    "badge": "ÉGALEMENT EN COURS",
+    "scope": "Claude Code uniquement",
+    "title": "Limites hebdomadaires Claude Code +50 % jusqu'au 13 juillet 2026",
+    "subtitle": "Distinct du système d'heures de pointe ci-dessus. Le 13 mai 2026, Anthropic a augmenté de 50 % les limites hebdomadaires de Claude Code pour Pro, Max, Team et Enterprise par siège. Appliqué automatiquement — aucune activation requise. Se cumule avec l'augmentation 2x des limites 5 h annoncée le 6 mai.",
+    "endsLabel": "Se termine",
+    "endsValue": "13 juillet 2026 · 18:00 PDT (14 juillet, 01:00 GMT)",
+    "sourceLabel": "Source : annonce @ClaudeDevs",
+    "note": "N'affecte pas les limites Claude.ai chat / Cowork."
+  },
   "sponsors": {
-    "stackopticHeadline": "Collez une URL. Obtenez le tableau complet.",
+    "stackopticHeadline": "Collez n'importe quelle URL. Voyez tout.",
     "stackopticSub": "Performance, SEO, sécurité, visibilité IA, stack technique — 18 modules, un seul scan.",
     "stackopticPromoBadge": "-50 %",
     "stackopticPromo": "Premier mois sur le plan Solo",
     "stackopticCode": "SOLO50"
   },
-  "promotionHistory": {
-    "title": "HISTORIQUE DES PROMOTIONS",
-    "subtitle": "Anciennes promotions Claude et systèmes à durée limitée.",
-    "archiveLabel": "Archive",
-    "endedLabel": "TERMINÉ",
-    "items": [
-      {
-        "title": "Système des heures de pointe Claude",
-        "dates": "27 mars – 6 mai 2026",
-        "description": "Du 27 mars au 6 mai 2026, les limites de session Claude s'épuisaient plus rapidement en semaine entre 13h00 et 19h00 UTC (\"heures de pointe\"). Anthropic a supprimé entièrement ce système pour Pro et Max le 6 mai 2026, en même temps que le doublement des limites de session 5 heures."
-      },
-      {
-        "title": "Promotion off-peak Claude mars 2026",
-        "dates": "13 – 27 mars 2026",
-        "description": "Anthropic a lancé une promotion 2x sur les limites de session pendant les heures creuses (en dehors des semaines de 8h00 à 14h00 ET). Les plans Free, Pro, Max et Team ont reçu des limites de messages et de contexte doublées pendant les créneaux off-peak."
-      }
-    ]
-  },
   "footer": {
-    "crafted": "Construit avec amour avec Claude à Shrewsbury, UK.",
-    "digiwingsPromo": "Besoin de solutions web sur mesure et GEO-optimisées pour votre entreprise ?",
-    "digiwingsCta": "Visitez mon agence digitale solo",
-    "buymeacoffee": "Cela vous a aidé ? Offrez-moi un café",
-    "disclaimer": "PromoClock est un projet indépendant et n'est pas affilié à Anthropic ou Claude. À titre informatif uniquement.",
-    "rights": "© 2026 PromoClock. Construit par Onur Şendere."
+    "crafted": "Conçu avec amour avec Claude à Shrewsbury, UK.",
+    "digiwingsPromo": "Besoin de solutions web sur mesure et optimisées GEO pour votre entreprise ?",
+    "digiwingsCta": "Visitez mon agence digitale",
+    "buymeacoffee": "Vous avez évité les calculs de fuseau horaire ? Offrez-moi un café",
+    "disclaimer": "PromoClock est un projet indépendant non affilié à Anthropic ou Claude. À titre informatif uniquement.",
+    "rights": "© 2026 PromoClock. Créé par Onur Şendere."
   }
 }

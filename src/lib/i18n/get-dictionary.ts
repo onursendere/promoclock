@@ -27,19 +27,43 @@ export interface Dictionary {
   header: {
     logo: string;
     nav: {
+      howItWorks: string;
       eligibility: string;
+      schedule: string;
       faq: string;
-      history: string;
+      devTools: string;
     };
   };
   hero: {
     badge: string;
-    boostLabel: string;
+    promotionActive: string;
+    promotionInactive: string;
+    promotionExpired: string;
+    promotionNotStarted: string;
+    activeSubtitle: string;
+    inactiveSubtitle: string;
+    expiredSubtitle: string;
+    notStartedSubtitle: string;
+    countdownLabel: string;
+    yourTimezone: string;
+    yourLocalTime: string;
+    days: string;
+    hours: string;
+    minutes: string;
+    seconds: string;
+    peakHours: string;
+    offPeakHours: string;
+    weekdays: string;
+    allWeekend: string;
+    sinceLastChange: string;
+  };
+  howItWorks: {
     title: string;
     subtitle: string;
-    endsLabel: string;
-    endsValue: string;
-    sourceLabel: string;
+    steps: {
+      title: string;
+      description: string;
+    }[];
   };
   eligibility: {
     title: string;
@@ -57,6 +81,18 @@ export interface Dictionary {
     };
     note: string;
   };
+  schedule: {
+    title: string;
+    subtitle: string;
+    tableHeaders: {
+      city: string;
+      timezone: string;
+      peakHours: string;
+      offPeakHours: string;
+    };
+    weekdayLabel: string;
+    weekendLabel: string;
+  };
   faq: {
     title: string;
     subtitle: string;
@@ -65,23 +101,31 @@ export interface Dictionary {
       answer: string;
     }[];
   };
+  devTools: {
+    title: string;
+    subtitle: string;
+    apiTitle: string;
+    apiDescription: string;
+    tryApi: string;
+    notifTitle: string;
+    notifDescription: string;
+  };
+  claudeCodeBoost: {
+    badge: string;
+    scope: string;
+    title: string;
+    subtitle: string;
+    endsLabel: string;
+    endsValue: string;
+    sourceLabel: string;
+    note: string;
+  };
   sponsors: {
     stackopticHeadline: string;
     stackopticSub: string;
     stackopticPromoBadge: string;
     stackopticPromo: string;
     stackopticCode: string;
-  };
-  promotionHistory: {
-    title: string;
-    subtitle: string;
-    archiveLabel: string;
-    endedLabel: string;
-    items: {
-      title: string;
-      dates: string;
-      description: string;
-    }[];
   };
   footer: {
     crafted: string;
