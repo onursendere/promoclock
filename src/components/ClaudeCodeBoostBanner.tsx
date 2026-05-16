@@ -62,7 +62,7 @@ export default function ClaudeCodeBoostBanner({ dict }: Props) {
 
             <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs sm:text-sm text-white/70">
               <a
-                href="https://x.com/claudedevs/status/1922534923457626336"
+                href="https://www.reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline-offset-4 hover:underline hover:text-white transition-colors"

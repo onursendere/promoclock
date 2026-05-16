@@ -179,7 +179,7 @@
     "subtitle": "Separate from the peak hours system above. On May 13, 2026, Anthropic raised Claude Code weekly limits by 50% for Pro, Max, Team, and seat-based Enterprise. Applied automatically — nothing to opt into. Stacks with the 2x increase to 5-hour limits announced on May 6.",
     "endsLabel": "Ends",
     "endsValue": "July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT)",
-    "sourceLabel": "Source: @ClaudeDevs announcement",
+    "sourceLabel": "Source: official announcement on r/ClaudeAI",
     "note": "Does not affect Claude.ai chat / Cowork limits."
   },
   "sponsors": {
