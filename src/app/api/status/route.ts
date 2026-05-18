@@ -6,9 +6,9 @@ const PEAK_END_UTC = 19;
 
 export const dynamic = "force-dynamic";
 
-// In-memory rate limiter: 60 req/min per IP
-const RATE_LIMIT = 60;
-const WINDOW_MS = 60_000;
+// In-memory rate limiter: 1 req per 5 min per IP
+const RATE_LIMIT = 1;
+const WINDOW_MS = 5 * 60_000;
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
 
 function checkRateLimit(ip: string): { allowed: boolean; retryAfter: number } {

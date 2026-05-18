@@ -73,7 +73,7 @@ Returns JSON with current peak hours status:
 }
 \`\`\`
 
-Rate limit: 60 requests per minute per IP. Returns 429 with Retry-After header when exceeded.
+Rate limit: 1 request per 5 minutes per IP. Returns 429 with Retry-After header when exceeded.
 Cache-Control: public, s-maxage up to 60s.
 
 ## Terminal Integration

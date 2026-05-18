@@ -27,7 +27,7 @@ PromoClock is a free, independent, open-source web app that shows in real time w
 10 supported: en, tr, fr, de, es, pt, ko, hi, ja, zh-CN
 
 ## API
-- Status: GET https://promoclock.co/api/status (JSON, rate-limited 60 req/min)
+- Status: GET https://promoclock.co/api/status (JSON, rate-limited 1 req per 5 min per IP)
 
 ## Links
 - Website: https://promoclock.co
