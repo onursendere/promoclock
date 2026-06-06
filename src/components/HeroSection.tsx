@@ -165,7 +165,7 @@ export default function HeroSection({ dict }: HeroProps) {
 
         {/* Main status heading */}
         <motion.h1
-          key={getStatusText()}
+          key={`heading-${getStatusText()}`}
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
@@ -183,7 +183,7 @@ export default function HeroSection({ dict }: HeroProps) {
 
         {/* Subtitle */}
         <motion.p
-          key={getSubtitleText()}
+          key={`subtitle-${getSubtitleText()}`}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.1 }}
