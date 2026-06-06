@@ -3,6 +3,7 @@ import { i18n, type Locale } from "@/lib/i18n/config";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ClaudeCodeBoostBanner from "@/components/ClaudeCodeBoostBanner";
+import CoworkBoostBanner from "@/components/CoworkBoostBanner";
 import HowItWorks from "@/components/HowItWorks";
 import Eligibility from "@/components/Eligibility";
 import Schedule from "@/components/Schedule";
@@ -33,6 +34,7 @@ export default async function Home({
       <main>
         <HeroSection dict={dict} />
         <ClaudeCodeBoostBanner dict={dict} />
+        <CoworkBoostBanner dict={dict} />
         <HowItWorks dict={dict} />
         <Eligibility dict={dict} />
         <Schedule dict={dict} />

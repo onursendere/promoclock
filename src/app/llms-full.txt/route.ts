@@ -14,6 +14,22 @@ PromoClock is a free, independent, open-source web application that shows in rea
 - **Weekly limits**: Unchanged — only the drain rate during peak hours is affected
 - **No known end date** for this adjustment (active since March 27, 2026)
 
+## Active Promotions (separate from the peak hours system)
+
+### Claude Code +50% Weekly Boost
+- **Effective**: May 13, 2026 → July 13, 2026 (6:00 PM PDT / July 14, 1:00 AM GMT)
+- **Eligible plans**: Pro, Max, Team, seat-based Enterprise (Free not included)
+- **Scope**: Claude Code only — CLI, IDE extensions, desktop, web. Does not affect Claude.ai chat / Cowork limits.
+- **Activation**: Automatic, no opt-in required. Stacks with the May 6, 2026 doubling of Claude Code 5-hour session limits.
+
+### Claude Cowork June 2026 Usage Promotion
+- **Effective**: June 5, 2026 → July 5, 2026 (11:59 PM PT)
+- **Offer**: The 5-hour usage limit in Claude Cowork is doubled (2x). Weekly limits unchanged.
+- **Eligible plans**: Pro, Max, Team, legacy seat-based Enterprise. Excluded: Free plans, consumption-based Enterprise seats.
+- **Scope**: Claude Cowork only — Claude on web, desktop, mobile, and Claude Code are unchanged.
+- **Activation**: Automatic, no action required to participate. No cash value, not transferable, not combinable with other offers.
+- **Source**: https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+
 ## Affected Plans
 | Plan | Affected | Notes |
 |------|----------|-------|
@@ -112,6 +128,9 @@ A: Free, Pro, Max, and Team. Enterprise is not affected.
 
 Q: Is there an end date?
 A: No known end date as of the time of writing.
+
+Q: What is the Claude Cowork June 2026 usage promotion?
+A: From June 5 to July 5, 2026 (11:59 PM PT), Anthropic is doubling the 5-hour usage limit inside Claude Cowork for Pro, Max, Team, and legacy seat-based Enterprise users. It applies automatically, weekly limits are unchanged, and it is limited to Cowork (Claude on web, desktop, mobile, and Claude Code are unchanged). Free plans and consumption-based Enterprise seats are not eligible.
 
 Q: Who built PromoClock?
 A: Onur Şendere (@onursendere on X). Independent project, not affiliated with Anthropic.

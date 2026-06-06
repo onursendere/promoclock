@@ -160,6 +160,10 @@
       {
         "question": "Did Anthropic remove the peak hours system on May 6?",
         "answer": "Only partially. On May 6, 2026, Anthropic removed peak-hour throttling specifically for Claude Code on Pro and Max plans, alongside doubling the Claude Code 5-hour session limits. Peak hours still apply to Claude.ai chat, Cowork, mobile, and desktop apps for Free, Pro, Max, and Team users — which is why the real-time peak hours tracker above is still useful for most workflows. Sources: Anthropic announcement (May 6, 2026), Ars Technica, Appwrite blog."
+      },
+      {
+        "question": "What is the Claude Cowork June 2026 usage promotion?",
+        "answer": "From June 5 to July 5, 2026 (11:59 PM PT), Anthropic is doubling the 5-hour usage limit inside Claude Cowork for Pro, Max, Team, and legacy seat-based Enterprise users. It applies automatically — no action required — and weekly limits stay the same. Free plans and consumption-based Enterprise seats are not eligible. The boost is limited to Cowork; Claude on web, desktop, mobile, and Claude Code are unchanged. Source: official Anthropic support article."
       }
     ]
   },
@@ -181,6 +185,16 @@
     "endsValue": "July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT)",
     "sourceLabel": "Source: official announcement on r/ClaudeAI",
     "note": "Does not affect Claude.ai chat / Cowork limits."
+  },
+  "coworkBoost": {
+    "badge": "LIVE NOW",
+    "scope": "Claude Cowork only",
+    "title": "Claude Cowork 5-hour usage limit doubled (2×) through July 5, 2026",
+    "subtitle": "Separate from the peak hours system and the Claude Code boost above. From June 5, 2026, Anthropic is doubling the 5-hour usage limit inside Claude Cowork for Pro, Max, Team, and legacy seat-based Enterprise. Applied automatically — nothing to opt into. Weekly limits are unchanged.",
+    "endsLabel": "Ends",
+    "endsValue": "July 5, 2026 · 11:59 PM PT",
+    "sourceLabel": "Source: official Anthropic support article",
+    "note": "Free and consumption-based Enterprise seats are not eligible. Other Claude products (web, desktop, mobile, Code) are unchanged."
   },
   "sponsors": {
     "stackopticHeadline": "Paste any URL. Get the full picture.",

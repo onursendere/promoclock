@@ -23,6 +23,15 @@ PromoClock is a free, independent, open-source web app that shows in real time w
 - Stacks with the May 6, 2026 doubling of Claude Code 5-hour session limits.
 - Source: @ClaudeDevs announcement, May 13, 2026.
 
+## Key Facts — Claude Cowork June 2026 Usage Promotion (separate, currently live)
+- Effective: June 5, 2026 → July 5, 2026 (11:59 PM PT)
+- Offer: 5-hour usage limit in Claude Cowork doubled (2x). Weekly limits unchanged.
+- Eligible plans: Pro, Max, Team, legacy seat-based Enterprise. Excluded: Free plans, consumption-based Enterprise seats.
+- Scope: Claude Cowork only — Claude on web, desktop, mobile, and Claude Code are unchanged.
+- Activation: Automatic, no action required to participate.
+- Fine print: no cash value, not transferable, not combinable with other offers.
+- Source: https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+
 ## Languages
 10 supported: en, tr, fr, de, es, pt, ko, hi, ja, zh-CN
 

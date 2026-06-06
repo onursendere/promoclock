@@ -120,6 +120,16 @@ export interface Dictionary {
     sourceLabel: string;
     note: string;
   };
+  coworkBoost?: {
+    badge: string;
+    scope: string;
+    title: string;
+    subtitle: string;
+    endsLabel: string;
+    endsValue: string;
+    sourceLabel: string;
+    note: string;
+  };
   sponsors: {
     stackopticHeadline: string;
     stackopticSub: string;
