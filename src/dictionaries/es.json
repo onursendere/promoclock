@@ -156,6 +156,10 @@
       {
         "question": "¿Anthropic eliminó por completo el sistema de horas pico el 6 de mayo?",
         "answer": "Solo parcialmente. El 6 de mayo de 2026, Anthropic eliminó la limitación de horas pico específicamente para Claude Code en los planes Pro y Max, junto con duplicar los límites de sesión de 5 horas de Claude Code. Las horas pico siguen aplicándose a Claude.ai chat, Cowork, apps móviles y de escritorio para usuarios Free, Pro, Max y Team — por eso el tracker de horas pico en tiempo real de arriba sigue siendo útil para la mayoría de los flujos de trabajo. Fuentes: anuncio de Anthropic (6 de mayo de 2026), Ars Technica, blog de Appwrite."
+      },
+      {
+        "question": "¿Qué es la promoción de uso de Claude Cowork de junio de 2026?",
+        "answer": "Del 5 de junio al 5 de julio de 2026 (23:59 PT), Anthropic duplica el límite de uso de 5 horas dentro de Claude Cowork para usuarios Pro, Max, Team y Enterprise heredado por asiento. Se aplica automáticamente — sin necesidad de hacer nada — y los límites semanales se mantienen iguales. Los planes Free y los asientos Enterprise basados en consumo no son elegibles. El aumento se limita a Cowork; Claude en web, escritorio, móvil y Claude Code no cambian. Fuente: artículo oficial de soporte de Anthropic."
       }
     ]
   },
@@ -177,6 +181,16 @@
     "endsValue": "13 de julio de 2026 · 18:00 PDT (14 de julio, 01:00 GMT)",
     "sourceLabel": "Fuente: anuncio oficial en r/ClaudeAI",
     "note": "No afecta a los límites de Claude.ai chat / Cowork."
+  },
+  "coworkBoost": {
+    "badge": "EN VIVO AHORA",
+    "scope": "Solo Claude Cowork",
+    "title": "Límite de uso de 5 horas de Claude Cowork duplicado (2×) hasta el 5 de julio de 2026",
+    "subtitle": "Independiente del sistema de horas pico y del aumento de Claude Code mostrado arriba. Desde el 5 de junio de 2026, Anthropic duplica el límite de uso de 5 horas dentro de Claude Cowork para Pro, Max, Team y Enterprise heredado por asiento. Aplicado automáticamente — sin activación. Los límites semanales no cambian.",
+    "endsLabel": "Termina",
+    "endsValue": "5 de julio de 2026 · 23:59 PT",
+    "sourceLabel": "Fuente: artículo oficial de soporte de Anthropic",
+    "note": "Los asientos Free y Enterprise basados en consumo no son elegibles. Los demás productos de Claude (web, escritorio, móvil, Code) no cambian."
   },
   "sponsors": {
     "stackopticHeadline": "Pega cualquier URL. Obtén el panorama completo.",

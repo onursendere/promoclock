@@ -156,6 +156,10 @@
       {
         "question": "Anthropic이 5월 6일에 피크 아워 시스템을 완전히 제거했나요?",
         "answer": "부분적으로만. 2026년 5월 6일 Anthropic은 Pro 및 Max 플랜의 Claude Code에 한해서 피크 아워 스로틀링을 제거했고, 동시에 Claude Code 5시간 세션 한도를 두 배로 늘렸습니다. 피크 아워는 여전히 Free, Pro, Max, Team 사용자의 Claude.ai 챗, Cowork, 모바일 및 데스크톱 앱에 적용됩니다 — 그래서 위의 실시간 피크 아워 트래커가 대부분의 워크플로우에 여전히 유용합니다. 출처: Anthropic 발표(2026년 5월 6일), Ars Technica, Appwrite 블로그."
+      },
+      {
+        "question": "Claude Cowork 2026년 6월 사용 프로모션이란?",
+        "answer": "2026년 6월 5일부터 7월 5일(23:59 PT)까지 Anthropic은 Pro, Max, Team 및 기존 좌석 기반 Enterprise 사용자의 Claude Cowork 5시간 사용 한도를 2배로 늘립니다. 자동 적용되어 별도 조치가 필요 없으며 주간 한도는 동일하게 유지됩니다. Free 플랜과 사용량 기반 Enterprise 좌석은 대상이 아닙니다. 이 부스트는 Cowork에만 한정되며, 웹, 데스크톱, 모바일의 Claude와 Claude Code는 변동 없습니다. 출처: Anthropic 공식 지원 문서."
       }
     ]
   },
@@ -177,6 +181,16 @@
     "endsValue": "2026년 7월 13일 · 18:00 PDT (7월 14일 01:00 GMT)",
     "sourceLabel": "출처: r/ClaudeAI 공식 발표",
     "note": "Claude.ai 챗 / Cowork 한도에는 영향이 없습니다."
+  },
+  "coworkBoost": {
+    "badge": "지금 진행 중",
+    "scope": "Claude Cowork 전용",
+    "title": "Claude Cowork 5시간 사용 한도 2026년 7월 5일까지 2배(2×)",
+    "subtitle": "피크 아워 시스템 및 위의 Claude Code 부스트와 별개. Anthropic은 2026년 6월 5일부터 Pro, Max, Team 및 기존 좌석 기반 Enterprise의 Claude Cowork 5시간 사용 한도를 2배로 늘립니다. 자동 적용 — 별도 활성화 불필요. 주간 한도는 변동 없습니다.",
+    "endsLabel": "종료",
+    "endsValue": "2026년 7월 5일 · 23:59 PT",
+    "sourceLabel": "출처: Anthropic 공식 지원 문서",
+    "note": "Free 및 사용량 기반 Enterprise 좌석은 대상이 아닙니다. 다른 Claude 제품(웹, 데스크톱, 모바일, Code)은 변동 없습니다."
   },
   "sponsors": {
     "stackopticHeadline": "URL을 붙여넣으세요. 전체 그림을 확인하세요.",

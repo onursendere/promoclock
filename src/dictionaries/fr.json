@@ -160,6 +160,10 @@
       {
         "question": "Anthropic a-t-il supprimé entièrement le système d'heures de pointe le 6 mai ?",
         "answer": "Seulement partiellement. Le 6 mai 2026, Anthropic a supprimé le throttling des heures de pointe spécifiquement pour Claude Code sur les plans Pro et Max, en même temps que le doublement des limites 5 h de Claude Code. Les heures de pointe s'appliquent toujours à Claude.ai chat, Cowork, applications mobiles et desktop pour les utilisateurs Free, Pro, Max et Team — c'est pourquoi le tracker en temps réel ci-dessus reste utile pour la plupart des workflows. Sources : annonce Anthropic (6 mai 2026), Ars Technica, blog Appwrite."
+      },
+      {
+        "question": "Qu'est-ce que la promotion d'utilisation Claude Cowork de juin 2026 ?",
+        "answer": "Du 5 juin au 5 juillet 2026 (23:59 PT), Anthropic double la limite d'utilisation 5 h dans Claude Cowork pour les utilisateurs Pro, Max, Team et Enterprise hérité par siège. Cela s'applique automatiquement — aucune action requise — et les limites hebdomadaires restent identiques. Les plans gratuits et les sièges Enterprise à la consommation ne sont pas éligibles. L'augmentation est limitée à Cowork ; Claude sur web, desktop, mobile et Claude Code restent inchangés. Source : article d'assistance officiel d'Anthropic."
       }
     ]
   },
@@ -181,6 +185,16 @@
     "endsValue": "13 juillet 2026 · 18:00 PDT (14 juillet, 01:00 GMT)",
     "sourceLabel": "Source : annonce officielle sur r/ClaudeAI",
     "note": "N'affecte pas les limites Claude.ai chat / Cowork."
+  },
+  "coworkBoost": {
+    "badge": "EN COURS",
+    "scope": "Claude Cowork uniquement",
+    "title": "Limite d'utilisation 5 h de Claude Cowork doublée (2×) jusqu'au 5 juillet 2026",
+    "subtitle": "Distinct du système d'heures de pointe et de l'augmentation Claude Code ci-dessus. À partir du 5 juin 2026, Anthropic double la limite d'utilisation 5 h dans Claude Cowork pour Pro, Max, Team et Enterprise hérité par siège. Appliqué automatiquement — aucune activation requise. Les limites hebdomadaires restent inchangées.",
+    "endsLabel": "Se termine",
+    "endsValue": "5 juillet 2026 · 23:59 PT",
+    "sourceLabel": "Source : article d'assistance officiel d'Anthropic",
+    "note": "Les sièges Enterprise gratuits et à la consommation ne sont pas éligibles. Les autres produits Claude (web, desktop, mobile, Code) restent inchangés."
   },
   "sponsors": {
     "stackopticHeadline": "Collez n'importe quelle URL. Voyez tout.",

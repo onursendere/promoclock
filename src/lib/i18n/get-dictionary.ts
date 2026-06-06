@@ -120,7 +120,7 @@ export interface Dictionary {
     sourceLabel: string;
     note: string;
   };
-  coworkBoost?: {
+  coworkBoost: {
     badge: string;
     scope: string;
     title: string;

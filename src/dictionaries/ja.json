@@ -156,6 +156,10 @@
       {
         "question": "Anthropicは5月6日にピークアワーシステムを完全に廃止しましたか？",
         "answer": "部分的にのみ。Anthropicは2026年5月6日、PROおよびMaxプランのClaude Codeに限定してピークアワー絞り込みを撤廃し、同時にClaude Codeの5時間セッション制限を倍増しました。ピークアワーは依然として Free / Pro / Max / Team ユーザーの Claude.ai チャット、Cowork、モバイル、デスクトップアプリに適用されます — そのため上のリアルタイムピークアワー追跡は多くのワークフローで引き続き有用です。出典: Anthropic アナウンス（2026年5月6日）、Ars Technica、Appwrite ブログ。"
+      },
+      {
+        "question": "Claude Cowork の2026年6月利用プロモーションとは？",
+        "answer": "2026年6月5日から7月5日（23:59 PT）まで、Anthropicは Pro / Max / Team / 従来のシート単位 Enterprise ユーザー向けにClaude Cowork内の5時間利用制限を2倍に引き上げます。自動的に適用され — 操作は不要 — 週次制限は変わりません。Freeプランおよび従量課金制の Enterprise シートは対象外です。このブーストは Cowork に限定され、Web / デスクトップ / モバイルのClaudeおよびClaude Code には影響しません。出典: Anthropic 公式サポート記事。"
       }
     ]
   },
@@ -177,6 +181,16 @@
     "endsValue": "2026年7月13日 · 18:00 PDT（7月14日 01:00 GMT）",
     "sourceLabel": "出典: r/ClaudeAI の公式アナウンス",
     "note": "Claude.ai チャット／Cowork の制限には影響しません。"
+  },
+  "coworkBoost": {
+    "badge": "同時に進行中",
+    "scope": "Claude Coworkのみ",
+    "title": "Claude Cowork の5時間利用制限が2026年7月5日まで2倍（2×）",
+    "subtitle": "ピークアワーシステムおよび上記のClaude Codeブーストとは別。Anthropicは2026年6月5日から、Pro / Max / Team / 従来のシート単位 Enterprise 向けにClaude Cowork内の5時間利用制限を2倍に引き上げます。自動適用 — アクティベーション不要。週次制限は変わりません。",
+    "endsLabel": "終了",
+    "endsValue": "2026年7月5日 · 23:59 PT",
+    "sourceLabel": "出典: Anthropic 公式サポート記事",
+    "note": "Free および従量課金制の Enterprise シートは対象外です。その他のClaude製品（Web / デスクトップ / モバイル / Code）には影響しません。"
   },
   "sponsors": {
     "stackopticHeadline": "URLを貼り付けてください。全体像を把握しましょう。",

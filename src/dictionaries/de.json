@@ -156,6 +156,10 @@
       {
         "question": "Hat Anthropic das Peak-Hours-System am 6. Mai komplett entfernt?",
         "answer": "Nur teilweise. Am 6. Mai 2026 hat Anthropic die Peak-Hour-Drosselung speziell für Claude Code auf Pro- und Max-Plänen entfernt und gleichzeitig die Claude-Code-5-Stunden-Limits verdoppelt. Peak Hours gelten weiterhin für Claude.ai Chat, Cowork, Mobile- und Desktop-Apps für Free-, Pro-, Max- und Team-Nutzer — deshalb ist der oben gezeigte Echtzeit-Peak-Hours-Tracker für die meisten Workflows weiterhin nützlich. Quellen: Anthropic-Ankündigung (6. Mai 2026), Ars Technica, Appwrite-Blog."
+      },
+      {
+        "question": "Was ist die Claude Cowork Juni-2026-Nutzungs-Promotion?",
+        "answer": "Vom 5. Juni bis 5. Juli 2026 (23:59 PT) verdoppelt Anthropic das 5-Stunden-Nutzungslimit innerhalb von Claude Cowork für Pro-, Max-, Team- und sitzbasierte Enterprise-Nutzer (Legacy). Sie wird automatisch angewendet — keine Aktion erforderlich — und wöchentliche Limits bleiben gleich. Free-Tarife und verbrauchsbasierte Enterprise-Sitze sind nicht berechtigt. Der Boost ist auf Cowork beschränkt; Claude im Web, auf Desktop, Mobil und Claude Code bleiben unverändert. Quelle: offizieller Anthropic-Support-Artikel."
       }
     ]
   },
@@ -177,6 +181,16 @@
     "endsValue": "13. Juli 2026 · 18:00 PDT (14. Juli, 01:00 GMT)",
     "sourceLabel": "Quelle: offizielle Ankündigung auf r/ClaudeAI",
     "note": "Betrifft Claude.ai Chat / Cowork-Limits nicht."
+  },
+  "coworkBoost": {
+    "badge": "JETZT LIVE",
+    "scope": "Nur Claude Cowork",
+    "title": "Claude Cowork 5-Stunden-Nutzungslimit verdoppelt (2×) bis 5. Juli 2026",
+    "subtitle": "Getrennt vom Peak-Hours-System und dem oben gezeigten Claude-Code-Boost. Ab 5. Juni 2026 verdoppelt Anthropic das 5-Stunden-Nutzungslimit innerhalb von Claude Cowork für Pro, Max, Team und sitzbasiertes Enterprise (Legacy). Automatisch angewendet — keine Aktivierung nötig. Wöchentliche Limits bleiben unverändert.",
+    "endsLabel": "Endet",
+    "endsValue": "5. Juli 2026 · 23:59 PT",
+    "sourceLabel": "Quelle: offizieller Anthropic-Support-Artikel",
+    "note": "Free-Tarif und verbrauchsbasierte Enterprise-Sitze sind nicht berechtigt. Andere Claude-Produkte (Web, Desktop, Mobil, Code) bleiben unverändert."
   },
   "sponsors": {
     "stackopticHeadline": "Beliebige URL einfügen. Das große Bild sehen.",

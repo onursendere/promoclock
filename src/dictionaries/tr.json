@@ -160,6 +160,10 @@
       {
         "question": "Anthropic 6 Mayıs'ta peak hours sistemini tamamen kaldırdı mı?",
         "answer": "Sadece kısmen. Anthropic 6 Mayıs 2026'da peak hours kısıtlamasını yalnızca Pro ve Max planlarındaki Claude Code için kaldırdı; aynı zamanda Claude Code 5 saatlik oturum limitlerini ikiye katladı. Peak hours hâlâ Claude.ai chat, Cowork, mobil ve masaüstü uygulamaları için Free, Pro, Max ve Team kullanıcılarında geçerli — bu nedenle yukarıdaki gerçek zamanlı peak hours sayacı çoğu iş akışı için hâlâ yararlı. Kaynaklar: Anthropic duyurusu (6 Mayıs 2026), Ars Technica, Appwrite blog."
+      },
+      {
+        "question": "Claude Cowork Haziran 2026 kullanım promosyonu nedir?",
+        "answer": "5 Haziran'dan 5 Temmuz 2026'ya (23:59 PT) kadar Anthropic, Claude Cowork içindeki 5 saatlik kullanım limitini Pro, Max, Team ve eski koltuk bazlı Enterprise kullanıcıları için ikiye katlıyor. Otomatik uygulanır — herhangi bir işlem gerekmez — ve haftalık limitler aynı kalır. Free planları ve kullanım bazlı Enterprise koltukları uygun değildir. Artış yalnızca Cowork ile sınırlıdır; web, masaüstü, mobil üzerindeki Claude ve Claude Code değişmedi. Kaynak: resmi Anthropic destek makalesi."
       }
     ]
   },
@@ -181,6 +185,16 @@
     "endsValue": "13 Temmuz 2026 · 18:00 PDT (14 Temmuz 01:00 GMT)",
     "sourceLabel": "Kaynak: r/ClaudeAI'da resmi duyuru",
     "note": "Claude.ai chat / Cowork limitlerini etkilemez."
+  },
+  "coworkBoost": {
+    "badge": "ŞİMDİ AKTİF",
+    "scope": "Sadece Claude Cowork",
+    "title": "Claude Cowork 5 saatlik kullanım limiti 5 Temmuz 2026'ya kadar ikiye katlandı (2×)",
+    "subtitle": "Peak hours sisteminden ve yukarıdaki Claude Code artışından ayrı. Anthropic, 5 Haziran 2026'dan itibaren Claude Cowork içindeki 5 saatlik kullanım limitini Pro, Max, Team ve eski koltuk bazlı Enterprise için ikiye katlıyor. Otomatik uygulanır — aktivasyon gerekmez. Haftalık limitler değişmedi.",
+    "endsLabel": "Bitiş",
+    "endsValue": "5 Temmuz 2026 · 23:59 PT",
+    "sourceLabel": "Kaynak: resmi Anthropic destek makalesi",
+    "note": "Free ve kullanım bazlı Enterprise koltukları uygun değil. Diğer Claude ürünleri (web, masaüstü, mobil, Code) değişmedi."
   },
   "sponsors": {
     "stackopticHeadline": "Herhangi bir URL yapıştır. Tam resmi gör.",

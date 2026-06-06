@@ -156,6 +156,10 @@
       {
         "question": "Anthropic 是否在 5 月 6 日完全移除了高峰时段系统？",
         "answer": "仅部分移除。2026 年 5 月 6 日，Anthropic 仅针对 Pro 和 Max 套餐的 Claude Code 移除了高峰时段限速，同时将 Claude Code 5 小时会话限额翻倍。高峰时段仍然适用于 Free、Pro、Max 和 Team 用户的 Claude.ai 聊天、Cowork、移动和桌面应用 — 因此上方的实时高峰时段追踪器对大多数工作流仍然有用。来源：Anthropic 公告（2026 年 5 月 6 日）、Ars Technica、Appwrite 博客。"
+      },
+      {
+        "question": "Claude Cowork 2026 年 6 月使用促销是什么？",
+        "answer": "自 2026 年 6 月 5 日至 7 月 5 日（23:59 PT），Anthropic 将 Pro、Max、Team 及按席位计费的旧版 Enterprise 用户在 Claude Cowork 内的 5 小时使用限额翻倍。自动应用 — 无需任何操作 — 每周限额保持不变。免费套餐及按用量计费的 Enterprise 席位不符合条件。此提升仅限于 Cowork；Claude 的网页、桌面、移动版及 Claude Code 不受影响。来源：Anthropic 官方支持文章。"
       }
     ]
   },
@@ -177,6 +181,16 @@
     "endsValue": "2026 年 7 月 13 日 · 18:00 PDT（7 月 14 日 01:00 GMT）",
     "sourceLabel": "来源：r/ClaudeAI 官方公告",
     "note": "不影响 Claude.ai 聊天 / Cowork 限额。"
+  },
+  "coworkBoost": {
+    "badge": "正在进行",
+    "scope": "仅限 Claude Cowork",
+    "title": "Claude Cowork 5 小时使用限额翻倍（2×），截至 2026 年 7 月 5 日",
+    "subtitle": "与高峰时段系统及上方的 Claude Code 提升相互独立。自 2026 年 6 月 5 日起，Anthropic 将 Pro、Max、Team 及按席位计费的旧版 Enterprise 在 Claude Cowork 内的 5 小时使用限额翻倍。自动应用 — 无需开启。每周限额不变。",
+    "endsLabel": "结束",
+    "endsValue": "2026 年 7 月 5 日 · 23:59 PT",
+    "sourceLabel": "来源：Anthropic 官方支持文章",
+    "note": "免费套餐及按用量计费的 Enterprise 席位不符合条件。其他 Claude 产品（网页、桌面、移动、Code）不受影响。"
   },
   "sponsors": {
     "stackopticHeadline": "粘贴任意URL，获取完整视图。",
