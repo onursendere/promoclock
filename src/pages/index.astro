@@ -1,0 +1,48 @@
+---
+// Root: detect the best locale client-side and redirect to /<lang>/.
+// Replaces the old Next middleware (Accept-Language) + page.tsx redirect.
+// Fully static — works on plain cPanel hosting.
+const locales = ["en", "hi", "ja", "fr", "pt", "ko", "es", "de", "zh-CN", "tr"];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PromoClock — Claude Peak Hours Tracker</title>
+    <link rel="canonical" href="https://promoclock.co/en" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <meta name="robots" content="noindex, follow" />
+    <script is:inline define:vars={{ locales }}>
+      (function () {
+        var def = "en";
+        function pick() {
+          var m = document.cookie.match(/(?:^|; )LOCALE=([^;]+)/);
+          if (m) {
+            var c = decodeURIComponent(m[1]);
+            if (locales.indexOf(c) >= 0) return c;
+          }
+          var langs = navigator.languages || [navigator.language || def];
+          for (var i = 0; i < langs.length; i++) {
+            var l = langs[i];
+            if (locales.indexOf(l) >= 0) return l;
+            var base = l.split("-")[0];
+            if (locales.indexOf(base) >= 0) return base;
+            for (var j = 0; j < locales.length; j++) {
+              if (locales[j].split("-")[0] === base) return locales[j];
+            }
+          }
+          return def;
+        }
+        window.location.replace("/" + pick() + "/");
+      })();
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/en/" />
+    </noscript>
+  </head>
+  <body>
+    <p>Redirecting… <a href="/en/">Continue to PromoClock</a></p>
+  </body>
+</html>

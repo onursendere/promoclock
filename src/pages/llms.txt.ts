@@ -1,6 +1,6 @@
-import { NextResponse } from "next/server";
+import type { APIRoute } from "astro";
 
-export function GET() {
+export const GET: APIRoute = () => {
   const content = `# PromoClock
 > Real-time Claude peak hours tracker — know instantly when session limits drain faster
 
@@ -46,7 +46,7 @@ PromoClock is a free, independent, open-source web app that shows in real time w
 - Full reference: https://promoclock.co/llms-full.txt
 `;
 
-  return new NextResponse(content, {
+  return new Response(content, {
     headers: { "Content-Type": "text/plain; charset=utf-8" },
   });
-}
+};

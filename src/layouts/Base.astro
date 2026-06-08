@@ -1,0 +1,117 @@
+---
+import "@fontsource-variable/geist";
+import "@fontsource-variable/lora";
+import "../styles/globals.css";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import type { Dictionary } from "@/lib/i18n/get-dictionary";
+
+interface Props {
+  lang: Locale;
+  dict: Dictionary;
+}
+
+const { lang, dict } = Astro.props;
+const baseUrl = "https://promoclock.co";
+const canonical = `${baseUrl}/${lang}`;
+
+const author = {
+  "@type": "Person",
+  name: "Onur Şendere",
+  url: "https://x.com/onursendere",
+  sameAs: [
+    "https://x.com/onursendere",
+    "https://github.com/onursendere",
+    "https://www.linkedin.com/in/onursendere/",
+  ],
+};
+const publisher = {
+  "@type": "Organization",
+  name: "Digiwings",
+  url: "https://digiwings.co.uk",
+};
+
+const softwareApp = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "PromoClock",
+  description: dict.meta.description,
+  url: canonical,
+  applicationCategory: "UtilitiesApplication",
+  operatingSystem: "Web",
+  inLanguage: lang,
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  author,
+  publisher,
+};
+
+const faqPage = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: dict.faq.items.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: { "@type": "Answer", text: item.answer },
+  })),
+};
+
+const howTo = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to check if Claude peak hours are active right now",
+  description: dict.howItWorks.subtitle,
+  step: dict.howItWorks.steps.map((step, i) => ({
+    "@type": "HowToStep",
+    position: i + 1,
+    name: step.title,
+    text: step.description,
+  })),
+};
+---
+
+<!doctype html>
+<html lang={lang} class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{dict.meta.title}</title>
+    <meta name="description" content={dict.meta.description} />
+    <link rel="canonical" href={canonical} />
+    {i18n.locales.map((l) => (
+      <link rel="alternate" hreflang={l} href={`${baseUrl}/${l}`} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={`${baseUrl}/en`} />
+
+    <meta property="og:title" content={dict.meta.ogTitle} />
+    <meta property="og:description" content={dict.meta.ogDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="PromoClock" />
+    <meta property="og:locale" content={lang} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={dict.meta.ogTitle} />
+    <meta name="twitter:description" content={dict.meta.ogDescription} />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!-- Google Analytics (GA4) -->
+    <script
+      is:inline
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MN3F77SZVF"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-MN3F77SZVF");
+    </script>
+
+    <script type="application/ld+json" set:html={JSON.stringify(softwareApp)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqPage)} />
+    <script type="application/ld+json" set:html={JSON.stringify(howTo)} />
+  </head>
+  <body class="font-sans antialiased bg-background text-foreground">
+    <slot />
+  </body>
+</html>

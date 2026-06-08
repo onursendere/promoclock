@@ -1,6 +1,6 @@
-import { NextResponse } from "next/server";
+import type { APIRoute } from "astro";
 
-export function GET() {
+export const GET: APIRoute = () => {
   const content = `# PromoClock — Complete Reference
 > Real-time tracker for Claude's peak hours — session limits drain faster during peak time
 > Built by Onur Şendere / Digiwings — https://promoclock.co
@@ -143,7 +143,7 @@ A: Onur Şendere (@onursendere on X). Independent project, not affiliated with A
 - Agency: https://digiwings.co.uk
 `;
 
-  return new NextResponse(content, {
+  return new Response(content, {
     headers: { "Content-Type": "text/plain; charset=utf-8" },
   });
-}
+};

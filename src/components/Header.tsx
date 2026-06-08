@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter, usePathname } from "next/navigation";
 import { Globe, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { i18n, localeNames, type Locale } from "@/lib/i18n/config";
@@ -17,13 +16,10 @@ interface HeaderProps {
 export default function Header({ dict, lang }: HeaderProps) {
   const [langOpen, setLangOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const router = useRouter();
-  const pathname = usePathname();
 
   const switchLocale = (locale: Locale) => {
-    const newPath = pathname.replace(`/${lang}`, `/${locale}`);
-    document.cookie = `NEXT_LOCALE=${locale};path=/;max-age=31536000`;
-    router.push(newPath);
+    document.cookie = `LOCALE=${locale};path=/;max-age=31536000`;
+    window.location.href = `/${locale}/`;
     setLangOpen(false);
   };
 

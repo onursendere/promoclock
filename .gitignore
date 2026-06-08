@@ -13,7 +13,11 @@
 # testing
 /coverage
 
-# next.js
+# astro
+dist/
+.astro/
+
+# next.js (legacy build cache)
 /.next/
 /out/
 

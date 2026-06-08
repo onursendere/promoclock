@@ -1,6 +1,6 @@
-import { NextResponse } from "next/server";
+import type { APIRoute } from "astro";
 
-export function GET() {
+export const GET: APIRoute = () => {
   const content = `User-agent: *
 Allow: /
 
@@ -36,7 +36,7 @@ Allow: /
 # https://promoclock.co/llms-full.txt
 `;
 
-  return new NextResponse(content, {
+  return new Response(content, {
     headers: { "Content-Type": "text/plain; charset=utf-8" },
   });
-}
+};

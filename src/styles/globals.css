@@ -13,6 +13,11 @@
   --surface-warm: #EFE6D6;
   --border: #A8A3AC;
   --muted: #4A4C48;
+
+  /* Font families (previously injected by next/font; now self-hosted via @fontsource) */
+  --font-geist-sans: "Geist Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-lora: "Lora Variable", Georgia, "Times New Roman", serif;
+  --font-geist-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
 @theme inline {
