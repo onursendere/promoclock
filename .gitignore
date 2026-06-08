@@ -17,6 +17,9 @@
 dist/
 .astro/
 
+# cloudflare (wrangler local state)
+.wrangler/
+
 # next.js (legacy build cache)
 /.next/
 /out/
