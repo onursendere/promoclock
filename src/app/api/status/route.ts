@@ -6,9 +6,9 @@ const PEAK_END_UTC = 19;
 
 export const dynamic = "force-dynamic";
 
-// In-memory rate limiter: 1 req per 5 min per IP
-const RATE_LIMIT = 1;
-const WINDOW_MS = 5 * 60_000;
+// In-memory rate limiter: 60 req per min per IP
+const RATE_LIMIT = 60;
+const WINDOW_MS = 60_000;
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
 
 function checkRateLimit(ip: string): { allowed: boolean; retryAfter: number } {
@@ -77,6 +77,7 @@ function getNextChange(now: Date, dayUTC: number, isPeak: boolean, isWeekend: bo
 
 export function GET(request: NextRequest) {
   const ip =
+    request.headers.get("cf-connecting-ip") ??
     request.headers.get("x-forwarded-for")?.split(",")[0].trim() ??
     request.headers.get("x-real-ip") ??
     "unknown";
