@@ -44,9 +44,13 @@ afterAll(() => {
   server?.kill();
 });
 
-// A unique client IP per run keeps the rate limiter from bleeding between runs.
+// A unique client IP per run keeps the rate limiter from bleeding between runs. X-Forwarded-For
+// (not CF-Connecting-IP, which Cloudflare rejects from clients) so the suite also runs against
+// the live site; there Cloudflare's own CF-Connecting-IP takes precedence in the PHP.
 const clientIp = `198.51.100.${1 + Math.floor(Math.random() * 250)}`;
-const get = (url: string, ip = clientIp) => fetch(`${BASE}${url}`, { headers: { "CF-Connecting-IP": ip } });
+const get = (url: string, ip = clientIp) => fetch(`${BASE}${url}`, { headers: { "X-Forwarded-For": ip } });
+/** Behind Cloudflare the real client IP can't be varied, so per-IP limits are only testable at the origin. */
+const BEHIND_CDN = REMOTE?.startsWith("https://") ?? false;
 
 /** The public /api/status contract that existing integrations (shell prompts, bots) rely on. */
 const STATUS_CONTRACT = {
@@ -135,7 +139,7 @@ describe("GET /api/deals", () => {
 });
 
 describe("rate limiting and internals", () => {
-  it("allows 60 requests per minute per IP, then returns 429 with Retry-After", async () => {
+  it.skipIf(BEHIND_CDN)("allows 60 requests per minute per IP, then returns 429 with Retry-After", async () => {
     const ip = `203.0.113.${1 + Math.floor(Math.random() * 250)}`;
     const codes: number[] = [];
     for (let i = 0; i < 61; i++) codes.push((await get("/api/status", ip)).status);
