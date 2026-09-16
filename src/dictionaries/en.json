@@ -5,192 +5,78 @@
     "ogTitle": "Claude peak hours & AI deals, live",
     "ogDescription": "Is Claude in peak hours right now? What changed in your limits? Which AI tools have live promos? One clock for all of it."
   },
-  "header": {
-    "logo": "PromoClock",
-    "nav": {
-      "howItWorks": "How It Works",
-      "eligibility": "Plans",
-      "schedule": "Schedule",
-      "faq": "FAQ",
-      "devTools": "Tools"
-    }
-  },
-  "hero": {
-    "badge": "Claude peak hours",
-    "promotionActive": "Off-peak — normal limits",
-    "promotionInactive": "Peak hours — limits drain faster",
-    "promotionExpired": "Off-peak — normal limits",
-    "promotionNotStarted": "Off-peak — normal limits",
-    "activeSubtitle": "Session limits drain at normal speed.",
-    "inactiveSubtitle": "Session limits drain faster than usual.",
-    "expiredSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
-    "notStartedSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
-    "countdownLabel": "Until next status change",
-    "yourTimezone": "Your timezone",
-    "yourLocalTime": "Your local time",
-    "days": "Days",
-    "hours": "Hours",
-    "minutes": "Min",
-    "seconds": "Sec",
-    "peakHours": "Peak Hours (Limits Drain Faster)",
-    "offPeakHours": "Off-Peak Hours (Normal Speed)",
-    "weekdays": "Weekdays",
-    "allWeekend": "All Weekend (Normal Speed)",
-    "sinceLastChange": "since last status change"
-  },
-  "howItWorks": {
-    "title": "How it works",
-    "subtitle": "We keep it simple so you can focus on what matters — building with Claude.",
-    "steps": [
-      {
-        "title": "We detect your timezone",
-        "description": "The moment you open PromoClock, we read your device's timezone automatically. No setup, no configuration needed."
-      },
-      {
-        "title": "We calculate in real time",
-        "description": "Our engine compares your local time against Claude's peak hours (weekdays 1 PM – 7 PM UTC) in real-time."
-      },
-      {
-        "title": "You see your status instantly",
-        "description": "A clear, real-time display tells you whether you're in peak hours (limits drain faster) or off-peak (normal speed) — plus a countdown to the next change."
-      }
-    ]
-  },
-  "eligibility": {
-    "title": "Who's affected",
-    "subtitle": "Session limit adjustments apply to all Claude subscription tiers.",
-    "eligible": "Affected",
-    "notEligible": "Not Affected",
-    "plans": [
-      {
-        "name": "Free",
-        "status": true,
-        "description": "Session limits move faster during peak hours. Shift token-intensive work to off-peak hours to maximize your weekly limits."
-      },
-      {
-        "name": "Pro",
-        "status": true,
-        "description": "~7% of Pro users may hit session limits they wouldn't have before. Off-peak hours are best for heavy workloads."
-      },
-      {
-        "name": "Max",
-        "status": true,
-        "description": "Session limits move faster during peak hours. Schedule autonomous agents and data processing for off-peak hours."
-      },
-      {
-        "name": "Team",
-        "status": true,
-        "description": "Team workspaces are affected. Coordinate with your team to schedule heavy workloads during off-peak hours."
-      },
-      {
-        "name": "Enterprise",
-        "status": false,
-        "description": "Enterprise plans have dedicated capacity and custom contracts, so they are not affected by these session limit adjustments."
-      }
-    ],
-    "platforms": {
-      "title": "Available on all Claude surfaces",
-      "items": [
-        "Web (claude.ai)",
-        "Desktop (Mac / Windows)",
-        "Mobile (iOS / Android)",
-        "Claude Cowork",
-        "Claude Code (Terminal)",
-        "Excel & PowerPoint Add-ins"
-      ]
-    },
-    "note": "Weekly limits remain unchanged. During peak hours (weekdays 1pm–7pm UTC), session limits drain faster than usual. No known end date for this adjustment."
+  "notifications": {
+    "peakTitle": "Claude peak hours started",
+    "peakBody": "Session limits drain faster until peak hours end.",
+    "offPeakTitle": "Claude is off-peak",
+    "offPeakBody": "Session limits drain at normal speed again."
   },
   "schedule": {
-    "title": "Global schedule",
-    "subtitle": "When peak hours happen in major cities. During peak hours, session limits drain faster than normal (weekdays 13:00–19:00 UTC).",
     "tableHeaders": {
-      "city": "City / Region",
-      "timezone": "Timezone",
-      "peakHours": "Peak Hours (Faster Drain)",
-      "offPeakHours": "Off-Peak (Normal Speed)"
+      "city": "City",
+      "timezone": "Time zone",
+      "peakHours": "Peak hours",
+      "offPeakHours": "Off-peak"
     },
-    "weekdayLabel": "Weekdays",
-    "weekendLabel": "All Weekend → Normal Speed"
+    "weekendLabel": "Weekends are off-peak all day."
   },
   "faq": {
     "title": "Questions answered",
-    "subtitle": "Everything you need to know about Claude's peak hours, limit changes and promotions.",
     "items": [
       {
-        "question": "What changed with Claude's session limits?",
-        "answer": "Starting March 27, 2026, Claude adjusts how session limits drain during peak hours. During peak hours (weekdays 1pm–7pm UTC), session limits drain faster than usual. Outside peak hours — weekday evenings, nights, and all weekend — limits drain at normal speed. Weekly limits remain unchanged. No known end date for this adjustment."
+        "question": "When are Claude's peak hours?",
+        "answer": "Claude's peak hours are weekdays from 13:00 to 19:00 UTC. Weekday evenings, nights and the whole weekend are off-peak."
       },
       {
-        "question": "When exactly are peak hours?",
-        "answer": "Peak hours are weekdays 1:00 PM to 7:00 PM UTC. Weekday evenings, nights, and the entire weekend are off-peak — limits drain at normal speed during these times."
+        "question": "What happens during peak hours?",
+        "answer": "Your 5-hour session limit drains faster than usual on Free, Pro, Max and Team plans. Weekly limits don't change."
       },
       {
-        "question": "What time are peak hours in my timezone?",
-        "answer": "PromoClock automatically detects your device timezone and shows your exact local peak and off-peak windows. The hero section at the top of this page displays your current status in real time."
+        "question": "Is Claude in peak hours right now?",
+        "answer": "The live clock at the top of this page shows the current status in your time zone and counts down to the next change. Developers can check it with GET /api/status."
       },
       {
         "question": "Which Claude plans are affected?",
-        "answer": "Free, Pro, Max, and Team plans are all affected. Enterprise plans are not affected because they have dedicated capacity and custom contracts."
-      },
-      {
-        "question": "Do my weekly limits change?",
-        "answer": "No. Your weekly limits remain exactly the same. Only the rate at which you move through your 5-hour session limits during peak hours has changed. ~7% of users (particularly Pro tier) may hit session limits they wouldn't have before."
-      },
-      {
-        "question": "How can I maximize my session limits?",
-        "answer": "Shift token-intensive background jobs and heavy workloads to off-peak hours (weekday evenings/nights and all weekend). Session limits drain at normal speed during off-peak hours — you get more out of your usage."
-      },
-      {
-        "question": "On which platforms does this apply?",
-        "answer": "Session limit adjustments apply across all Claude surfaces: the web interface at claude.ai, desktop apps (Mac and Windows), mobile apps (iOS and Android), Claude Cowork, Claude Code (terminal), and the Excel and PowerPoint add-ins."
-      },
-      {
-        "question": "What happened to the March 2026 promotion?",
-        "answer": "The Claude March 2026 off-peak promotion (2x limits) ran from March 13–27, 2026 and ended. The current peak hours system (limits drain faster during peak hours) took effect on March 27, 2026. See the archive section below."
-      },
-      {
-        "question": "What is PromoClock and who built it?",
-        "answer": "PromoClock was built by Onur Şendere (@onursendere on X) to help people instantly understand Claude's peak hours and limit changes — and to track verified promotions for 50 popular AI tools in one place. It is an independent project and is not affiliated with Anthropic or any tool listed. Some outbound links are affiliate links; see the affiliate disclosure."
-      },
-      {
-        "question": "What happened to the Claude Code +50% weekly limit boost?",
-        "answer": "Anthropic raised Claude Code weekly limits by 50% on May 13, 2026 for Pro, Max, Team and seat-based Enterprise plans. The boost was extended past its original July 13 end date and finally ended on September 14, 2026, when it was replaced by a permanent 25% increase over the original baseline."
+        "answer": "Free, Pro, Max and Team. Enterprise plans aren't affected, and Claude Code on Pro and Max has been exempt since May 6, 2026."
       },
       {
         "question": "What changed with Claude Code limits on September 14, 2026?",
-        "answer": "From September 14, 2026, standard Claude Code weekly limits are permanently 25% higher than the pre-promotion baseline for Pro, Max, Team and seat-based Enterprise plans. Because the temporary +50% boost ended at the same time, active users have about 17% less weekly Claude Code capacity than during the promo (150 → 125 on a 100 baseline). Five-hour limits and Claude.ai chat limits are not part of this change. Source: @ClaudeDevs on X, August 29, 2026."
+        "answer": "Standard Claude Code weekly limits became permanently 25% higher than the pre-promotion baseline. The temporary +50% boost ended the same day, so heavy users have about 17% less weekly capacity than during the promo."
       },
       {
-        "question": "Did Anthropic remove the peak hours system on May 6?",
-        "answer": "Only partially. On May 6, 2026, Anthropic removed peak-hour throttling specifically for Claude Code on Pro and Max plans, alongside doubling the Claude Code 5-hour session limits. Peak hours still apply to Claude.ai chat, Cowork, mobile, and desktop apps for Free, Pro, Max, and Team users — which is why the real-time peak hours tracker above is still useful for most workflows. Sources: Anthropic announcement (May 6, 2026), Ars Technica, Appwrite blog."
+        "question": "How can I get more out of my Claude limits?",
+        "answer": "Run long or token-heavy work outside weekday peak hours, for example in the evening or at the weekend, when session limits drain at normal speed."
       },
       {
-        "question": "What was the Claude Cowork June 2026 usage promotion?",
-        "answer": "From June 5 to July 5, 2026 (11:59 PM PT), Anthropic doubled the 5-hour usage limit inside Claude Cowork for Pro, Max, Team and legacy seat-based Enterprise users. It applied automatically and weekly limits stayed the same. Free plans and consumption-based Enterprise seats were not eligible. The promotion has ended."
+        "question": "What was the March 2026 Claude promotion?",
+        "answer": "From March 13 to 27, 2026, Claude doubled session limits outside weekday peak hours and all weekend for Free, Pro, Max and Team plans."
+      },
+      {
+        "question": "How does PromoClock verify AI deals?",
+        "answer": "Every deal links to an official source, such as a help center article or the company's blog, and shows the date it was last checked. Expired offers leave the live lists automatically."
+      },
+      {
+        "question": "Is PromoClock affiliated with Anthropic?",
+        "answer": "No. PromoClock is an independent project by Onur Şendere. Some outbound links are affiliate links, but they never decide which deals are listed."
       }
     ]
   },
   "devTools": {
     "title": "Developer tools",
-    "subtitle": "Integrate Claude's peak hours status into your workflow. API endpoint and terminal prompt — no browser needed.",
-    "apiTitle": "JSON API & Terminal Integration",
-    "apiDescription": "A public /api/status endpoint returns real-time peak hours status as JSON. Pipe it into your ZSH/Bash prompt to see your current status right in your terminal.",
-    "tryApi": "Try the live API",
-    "notifTitle": "Browser Notifications & Sound Alerts",
-    "notifDescription": "Enable the bell icon in the header to receive a browser notification and a gentle chime the instant Claude switches to off-peak mode — when session limits return to normal speed."
+    "subtitle": "Put Claude's peak-hours status and live AI deals in your terminal, scripts or apps.",
+    "apiTitle": "JSON API",
+    "apiDescription": "Free, CORS-enabled endpoints, limited to 60 requests per minute per IP."
   },
   "sponsors": {
     "stackopticHeadline": "Paste any URL. Get the full picture.",
     "stackopticSub": "Performance, SEO, security, AI visibility, tech stack — 18 modules, one scan.",
     "stackopticPromoBadge": "50% OFF",
     "stackopticPromo": "First month on the Solo plan",
-    "stackopticCode": "SOLO50"
+    "stackopticCode": "SOLO50",
+    "stackopticCta": "Get 50% off"
   },
   "footer": {
     "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
-    "digiwingsPromo": "Need bespoke, GEO-optimised web solutions for your business?",
-    "digiwingsCta": "Visit my one-person digital agency",
     "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
     "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
     "rights": "© 2026 PromoClock. Built by Onur Şendere."
@@ -209,8 +95,6 @@
     },
     "common": {
       "verified": "Verified",
-      "source": "Source",
-      "endsIn": "Ends in",
       "startsIn": "Starts in",
       "ended": "Ended",
       "ongoing": "Ongoing",
@@ -220,28 +104,19 @@
       "code": "Code",
       "copy": "Copy",
       "copied": "Copied",
-      "worldwide": "Worldwide",
       "affiliateNote": "Some links are affiliate links. We may earn a commission at no extra cost to you — it never changes which deals we list.",
       "disclosureLink": "Affiliate disclosure",
-      "days": "d",
-      "hours": "h",
-      "minutes": "m",
-      "seconds": "s",
-      "updated": "Updated",
       "daysLeft": "{n}d left",
       "hoursLeft": "{h}h {m}m left",
       "offer": "Offer",
       "who": "Who",
       "ends": "Ends",
       "started": "Started",
-      "status": "Status",
       "regions": "Regions",
       "howToClaim": "How to get it",
       "goodToKnow": "Good to know",
       "related": "More deals",
-      "lastUpdated": "Updated {date}",
       "live": "Live",
-      "upcomingLabel": "Upcoming",
       "sources": "Source"
     },
     "kinds": {
@@ -265,16 +140,11 @@
     },
     "claudeWatch": {
       "badge": "Claude Watch",
-      "cardTitle": "Claude peak hours",
       "peak": "Peak",
       "offPeak": "Off-peak",
       "livePromo": "Live Claude promo",
-      "latestChange": "Latest Claude change",
       "promoEndsIn": "Promo ends in",
-      "peakPanelTitle": "Peak hours right now",
-      "windowProgress": "Current window",
       "peakNote": "Peak hours were last officially described on March 27, 2026 and still appear to apply to Claude.ai chat, Cowork and the apps. Claude Code on Pro and Max has been exempt since May 6, 2026.",
-      "seeAllDeals": "See today's live AI deals",
       "statusTitle": "Claude status",
       "peakShort": "Limits drain faster",
       "offPeakShort": "Normal limits",
@@ -285,15 +155,6 @@
       "info": "About peak hours"
     },
     "home": {
-      "dealsTitle": "Live AI deals",
-      "dealsSubtitle": "Verified offers with sources and live countdowns.",
-      "dealsCta": "See all deals",
-      "toolsTitle": "50 AI tools, one clock",
-      "toolsSubtitle": "Open a tool for its live deals and promo history.",
-      "toolsCta": "Browse all tools",
-      "historyTitle": "Claude promotion history",
-      "historySubtitle": "Every Claude limit change and promo, newest first.",
-      "archive": "Archive",
       "heroEyebrow": "Live · updated daily",
       "heroTitle": "Claude peak hours & AI deals, live",
       "heroSubtitle": "See when Claude's limits drain faster, and grab verified promos from 50 AI tools.",
@@ -302,9 +163,16 @@
       "statsLive": "Live deals",
       "statsTools": "AI tools tracked",
       "statsDeadline": "Next deadline",
-      "statsDeadlineNone": "None scheduled",
       "statsLanguages": "Languages",
       "sponsored": "Sponsored",
+      "dealsTitle": "Live AI deals",
+      "dealsSubtitle": "Verified offers with sources and live countdowns.",
+      "dealsCta": "See all deals",
+      "toolsTitle": "50 AI tools, one clock",
+      "toolsSubtitle": "Open a tool for its live deals and promo history.",
+      "toolsCta": "Browse all tools",
+      "historyTitle": "Claude promotion history",
+      "historySubtitle": "Every Claude limit change and promo, newest first.",
       "peakTitle": "Claude peak hours at a glance",
       "peakAnswer": "Claude's peak hours are weekdays from 13:00 to 19:00 UTC. During peak hours, 5-hour session limits on Free, Pro, Max and Team plans drain faster; weekly limits don't change.",
       "peakFacts": [
@@ -314,7 +182,7 @@
         },
         {
           "label": "Off-peak",
-          "value": "Evenings, nights and all weekend"
+          "value": "Evenings, nights and weekends"
         },
         {
           "label": "Weekly limits",
@@ -353,11 +221,9 @@
       "searchPlaceholder": "Search tools…",
       "liveDeals": "{count} live",
       "noLiveDeals": "No live deals right now — check back or see all deals.",
-      "partnerLink": "Partner link",
       "pastDeals": "Past promotions",
       "toolMetaTitle": "{name} Deals, Promos & Limits ({month}) | PromoClock",
       "toolMetaDescription": "Live {name} deals, student offers and limit changes for {month}, each checked against an official source and updated daily.",
-      "officialSite": "Official site",
       "currentDeals": "Current deals",
       "allTools": "All tools",
       "empty": "No tools match your search."
@@ -382,11 +248,6 @@
         "Tools without an affiliate program — including ChatGPT, Gemini, Claude and Midjourney — are covered in exactly the same way. PromoClock is not affiliated with Anthropic or any tool listed.",
         "Questions? Reach out on X at @onursendere."
       ]
-    },
-    "notFound": {
-      "title": "This page took a break",
-      "body": "The page you're looking for doesn't exist or has moved.",
-      "cta": "Back to Claude Watch"
     },
     "dealPage": {
       "metaTitle": "{headline} ({month}) | PromoClock",
@@ -427,6 +288,11 @@
           "body": "Spotted an outdated deal or a new promotion? Send it to @onursendere on X."
         }
       ]
+    },
+    "notFound": {
+      "title": "This page took a break",
+      "body": "The page you're looking for doesn't exist or has moved.",
+      "cta": "Back to Claude Watch"
     }
   }
 }

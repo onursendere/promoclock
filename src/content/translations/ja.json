@@ -1,0 +1,222 @@
+{
+  "deals": {
+    "claude-code-weekly-plus25-permanent": {
+      "title": "Claude Codeの週間上限が2026年9月14日から恒久的に+25%",
+      "headline": "Claude Codeの週間上限が恒久的に+25%",
+      "value": "週間+25%",
+      "audience": "Pro、Max、Team、シート制Enterprise",
+      "summary": "2026年9月14日から、Claude Codeの標準の週間上限はキャンペーン前の水準より恒久的に25%高くなりました。一時的な+50%の増量は同日に終了したため、ヘビーユーザーの週間容量はキャンペーン中より約17%少なくなっています。",
+      "scope": "Claude Code",
+      "terms": [
+        "Claude Codeのみが対象で、5時間の上限は変わりません。",
+        "基準を100とすると、キャンペーン前は100、キャンペーン中は150、9月14日以降は125です。"
+      ]
+    },
+    "claude-code-weekly-plus50-2026": {
+      "title": "Claude Codeの週間上限+50%キャンペーン（2026年5月13日〜9月14日）",
+      "headline": "Claude Codeの週間上限+50%",
+      "value": "週間+50%",
+      "audience": "Pro、Max、Team、シート制Enterprise",
+      "summary": "Anthropicは2026年5月13日からClaude Codeの週間上限を50%引き上げ、CLI、IDE拡張機能、デスクトップ、Webに自動で適用しました。7月13日以降も延長され、2026年9月14日に恒久的な+25%へ置き換えられました。",
+      "scope": "Claude Code"
+    },
+    "claude-cowork-june-2026-2x": {
+      "title": "Claude Coworkの2026年6月キャンペーン：5時間の上限が2倍",
+      "headline": "Claude Coworkの5時間上限が2倍",
+      "value": "5時間上限が2倍",
+      "audience": "Pro、Max、Team、旧Enterprise",
+      "summary": "2026年6月5日〜7月5日、AnthropicはClaude Coworkの5時間の利用上限を2倍にしました。自動で適用され、週間上限は変わりませんでした。",
+      "scope": "Claude Cowork",
+      "terms": [
+        "Freeプランと従量課金制のEnterpriseシートは対象外でした。",
+        "Web、デスクトップ、モバイルのClaudeとClaude Codeは変更されませんでした。"
+      ]
+    },
+    "claude-code-5h-limits-doubled": {
+      "title": "Claude Codeの5時間上限が2倍に、ピーク時間の制限を撤廃（2026年5月6日）",
+      "headline": "Claude Codeの5時間上限が2倍に",
+      "value": "5時間上限が2倍",
+      "audience": "Pro、Max、Team、シート制Enterprise",
+      "summary": "2026年5月6日、Anthropicは有料プランのClaude Codeの5時間上限を恒久的に2倍にし、ProとMaxのClaude Codeに対するピーク時間の制限を撤廃しました。",
+      "scope": "Claude Code",
+      "terms": [
+        "このアップデートでは週間上限は変更されていません。"
+      ]
+    },
+    "claude-peak-hours-introduced": {
+      "title": "Claudeのピーク時間：平日13:00〜19:00 UTCはセッション上限の消費が速くなる",
+      "headline": "ピーク時間：平日は上限の消費が速い",
+      "value": "13:00〜19:00 UTC",
+      "audience": "Free、Pro、Max、Team",
+      "summary": "2026年3月27日から、平日のピーク時間（13:00〜19:00 UTC）はClaudeの5時間セッション上限が速く消費されます。週間上限は変わらず、夜・深夜・週末は通常の速さです。",
+      "scope": "Claude.ai、アプリ、Cowork",
+      "terms": [
+        "Enterpriseプランは対象外です。",
+        "ProとMaxのClaude Codeは2026年5月6日から対象外です。"
+      ]
+    },
+    "claude-march-2026-offpeak-2x": {
+      "title": "Claudeの2026年3月キャンペーン：オフピーク時間は上限2倍",
+      "headline": "オフピーク時間は上限が2倍",
+      "value": "オフピーク2倍",
+      "audience": "Free、Pro、Max、Team",
+      "summary": "2026年3月の2週間、Claudeは平日のピーク時間（米国東部時間 8:00〜14:00）以外と週末終日のセッション上限を2倍にしました。",
+      "scope": "すべてのClaude"
+    },
+    "chatgpt-plus-students-back-to-school-2026": {
+      "title": "米国の大学生向けにChatGPT Plusが4か月無料（2026年新学期キャンペーン）",
+      "headline": "ChatGPT Plusが4か月無料",
+      "value": "4か月無料",
+      "audience": "米国の大学生",
+      "summary": "対象となる米国の大学生・大学院生は、OpenAIの2026年新学期キャンペーンで80ドル相当のChatGPT Plusを4か月無料で利用できます。申し込み期限は2026年10月31日です。",
+      "steps": [
+        "アップグレードしたいChatGPTアカウントにログインします。",
+        "chatgpt.com/students/2026 を開き、SheerIDで在学を証明します。",
+        "特典を確定します。無料の4回分の請求期間は課金されません。"
+      ],
+      "terms": [
+        "解約しない場合、その後は月額20ドルで自動更新されます。",
+        "利用は1回限りです。",
+        "App StoreまたはGoogle Play経由で課金されている場合は利用できません。"
+      ]
+    },
+    "google-ai-pro-students-2026": {
+      "title": "学生向けにGoogle AI Proが1年間無料（140以上の市場ではAI Plus）",
+      "headline": "Google AI Proが12か月無料",
+      "value": "12か月無料",
+      "audience": "米国と140以上の市場の学生",
+      "summary": "対象となる米国の大学生は、Geminiの上限拡大と5TBのストレージを含むGoogle AI Proを1年間無料で利用できます。ほかの140以上の市場の学生はGoogle AI Plusを1年間無料で利用できます。期限は2026年12月31日です。",
+      "steps": [
+        "one.google.com/ai-student または gemini.google.com/students の学生向けページを開きます。",
+        "個人のGoogleアカウントで、SheerIDにより学生であることを証明します。",
+        "お支払い方法を追加して、12か月の無料期間を開始します。"
+      ],
+      "terms": [
+        "解約しない場合、12か月後に課金が始まります。",
+        "AI Plusの特典は、米国、ボリビア、アルバニア、カナダ、マカオ、香港、チュニジアでは対象外です。"
+      ]
+    },
+    "github-copilot-student-plan": {
+      "title": "認証済みの学生はGitHub Copilotが無料（Copilot Studentプラン）",
+      "headline": "学生はGitHub Copilotが無料",
+      "value": "無料",
+      "audience": "認証済みのGitHub Education学生",
+      "summary": "認証済みの学生はCopilot StudentプランでGitHub Copilotを無料で利用できます。コード補完は無制限で、チャットやエージェント用のAIクレジットが毎月付与されます。",
+      "steps": [
+        "学生としてGitHub Educationに申し込みます。",
+        "認証後、github.com/settings/education/benefits を開きます。",
+        "学生開発者向けリソースからCopilotを有効にします。"
+      ],
+      "terms": [
+        "GitHubは毎月対象資格を再確認します。",
+        "認証後、有効化までに数日かかる場合があります。",
+        "モデルは自動モデル選択で決まります。"
+      ]
+    },
+    "perplexity-education-pro": {
+      "title": "Perplexity Education Pro：学生と教育関係者向けの割引版Perplexity Pro",
+      "headline": "Perplexity Proが学生割引",
+      "value": "Proが割引",
+      "audience": "認証済みの学生・教育関係者",
+      "summary": "認証済みの学生と教育関係者はEducation Proにアップグレードできます。プレミアムモデル、無制限のPro検索、Learn ModeなどPerplexity Proのすべての機能を通常より安い価格で利用できます。",
+      "steps": [
+        "PerplexityアプリでUpgradeを開きます。",
+        "Educationプランに切り替えます。",
+        "Verify as studentを選び、認証を完了します。"
+      ]
+    },
+    "notion-education-plus-free": {
+      "title": "学生と教育関係者はNotion Plusプランが無料",
+      "headline": "学生はNotion Plusが無料",
+      "value": "Plusプラン無料",
+      "audience": "学生・教育関係者",
+      "summary": "対象となる学校のメールアドレスで登録した学生と教育関係者は、1人用のNotion Plusプランを無料で利用できます。ゲスト数の増加、長いバージョン履歴、大きなファイルのアップロードに対応します。",
+      "steps": [
+        "学校のメールアドレスをNotionアカウントのメインアドレスにします。",
+        "Settingsを開き、Billingを選びます。",
+        "Get free Education planを選択します。"
+      ],
+      "terms": [
+        "年に1回、学生であることを再認証してください。",
+        ".eduだけでなく、数千の学校ドメインが対象です。"
+      ]
+    },
+    "cursor-student-pro-year": {
+      "title": "学生向けCursor Pro無料：新規受付を終了（2026年6月25日）",
+      "headline": "学生向けCursor Pro無料（受付終了）",
+      "value": "1年間無料",
+      "audience": "認証済みの大学生",
+      "summary": "Cursorの学生プログラムは、認証済みの大学生にCursor Proを1年間無料で提供していました。2026年6月25日に新規受付を終了し、既に利用中の人はプランの期限まで現在の料金が維持されます。",
+      "terms": [
+        "学生はキャンパスやオンラインのイベントで引き続きクレジットを受け取れます。",
+        "無料のHobbyプランは引き続き利用できます。"
+      ]
+    }
+  },
+  "tools": {
+    "bolt": { "tagline": "ブラウザ上でフルスタックアプリをプロンプトから作成・実行・編集・デプロイ。" },
+    "canva": { "tagline": "AI画像生成、マジックデザイン、ブランドキットを備えたオンラインデザインツール。" },
+    "capcut": { "tagline": "AI字幕、エフェクト、テキストから動画生成を備えた動画編集ツール。" },
+    "chatgpt": { "tagline": "チャット、検索、画像、音声、エージェントに対応したOpenAIの汎用AIアシスタント。" },
+    "claude": { "tagline": "文章作成、分析、コーディングのためのAnthropicのAIアシスタント。Claude CodeとCoworkも含みます。" },
+    "clickup": { "tagline": "タスク、ドキュメント、チャットをAIでまとめるオールインワンの業務アプリ。" },
+    "codex": { "tagline": "ターミナル、IDE、クラウドで使えるOpenAIのコーディングエージェント。" },
+    "copy-ai": { "tagline": "マーケティングコンテンツや営業用コピーのためのAIワークフロー。" },
+    "cursor": { "tagline": "コードの計画・編集・実行を行うエージェントを備えたAIファーストのコードエディター。" },
+    "deepseek": { "tagline": "無料のWeb・モバイルアシスタント付きのオープンウェイトのチャット・推論モデル。" },
+    "descript": { "tagline": "文字起こしを編集するだけで動画やポッドキャストを編集。" },
+    "elevenlabs": { "tagline": "リアルなAI音声、吹き替え、音声の文字起こし、音声エージェント。" },
+    "freepik": { "tagline": "素材ライブラリに加え、画像・動画生成やアップスケールのAIツール群。" },
+    "gamma": { "tagline": "プロンプトからプレゼン、ドキュメント、Webサイトを作成。" },
+    "gemini": { "tagline": "Google検索、Android、Google Workspaceに組み込まれたGoogleのAIアシスタント。" },
+    "genspark": { "tagline": "リサーチ、スライド、スプレッドシート、電話に使えるAIエージェントのワークスペース。" },
+    "github-copilot": { "tagline": "エディターとGitHubで使えるAIペアプログラマー兼コーディングエージェント。" },
+    "grammarly": { "tagline": "文法、トーン、書き換えをアプリ全体でサポートするAIライティングアシスタント。" },
+    "grok": { "tagline": "Xのリアルタイム情報、画像生成、音声モードを備えたxAIのアシスタント。" },
+    "heygen": { "tagline": "AIアバター動画、翻訳、口の動きに合わせた吹き替え。" },
+    "higgsfield": { "tagline": "カメラワークのプリセットで映画のようなAI画像・動画を生成。" },
+    "ideogram": { "tagline": "画像内の文字を正確に描けることで知られるAI画像生成ツール。" },
+    "invideo": { "tagline": "プロンプトや台本から、素材映像とAI映像を使った動画を作成。" },
+    "jasper": { "tagline": "ブランドボイスに沿ったマーケティングチーム向けAIコンテンツプラットフォーム。" },
+    "kling": { "tagline": "動きの制御ができるテキスト・画像からの動画生成。" },
+    "leonardo": { "tagline": "クリエイターやゲーム素材向けのAI画像・動画生成。" },
+    "lovable": { "tagline": "AIとチャットするだけでフルスタックのWebアプリを構築。" },
+    "manus": { "tagline": "調査・構築から複数ステップのタスクまでこなす汎用AIエージェント。" },
+    "microsoft-copilot": { "tagline": "Windows、Edge、Microsoft 365で使えるMicrosoftのAIコンパニオン。" },
+    "midjourney": { "tagline": "高品質なAI画像・動画生成。" },
+    "mindstudio": { "tagline": "AIエージェントと自動化をノーコードで作成。" },
+    "mistral": { "tagline": "Web検索とエージェントを備えた、Mistralの高速なヨーロッパ発AIアシスタント。" },
+    "n8n": { "tagline": "AIエージェントによるワークフロー自動化。セルフホストでもクラウドでも。" },
+    "notebooklm": { "tagline": "自分の資料をもとに回答し、音声での概要も作成するリサーチノート。" },
+    "notion": { "tagline": "AIエージェントを内蔵した、ドキュメント・Wiki・プロジェクトのための連携ワークスペース。" },
+    "otter": { "tagline": "AIによる議事録、文字起こし、会議エージェント。" },
+    "perplexity": { "tagline": "Webを検索し、出典を明示して回答するAI回答エンジン。" },
+    "pictory": { "tagline": "台本、記事、長い動画をブランドに合った短いクリップに変換。" },
+    "quillbot": { "tagline": "学生やライター向けの言い換え、文法チェック、AI検出ツール。" },
+    "reclaim": { "tagline": "タスク、習慣、会議を自動でスケジュールするAIカレンダー。" },
+    "remove-bg": { "tagline": "写真の背景をワンクリックでAI削除。" },
+    "replit": { "tagline": "アプリを構築・デプロイするAIエージェントを備えたクラウドIDE。" },
+    "runway": { "tagline": "映像制作者向けの生成動画モデルと編集ツール。" },
+    "speechify": { "tagline": "ドキュメント、Webページ、本を読み上げるテキスト読み上げツール。" },
+    "suno": { "tagline": "テキストのプロンプトからボーカル付きの楽曲を丸ごと生成。" },
+    "surfer": { "tagline": "検索とAI回答に最適化するSEOコンテンツエディター兼AIライター。" },
+    "synthesia": { "tagline": "研修やビジネス向けのスタジオ品質のAIアバター動画。" },
+    "v0": { "tagline": "ReactとNext.jsのUIを作るVercelのAIアプリビルダー。" },
+    "windsurf": { "tagline": "コードベース全体で動くAI「Cascade」を備えたエージェント型IDE。" },
+    "writesonic": { "tagline": "コンテンツマーケティング向けのAIライティング・SEO/GEOプラットフォーム。" }
+  },
+  "events": {
+    "chatgpt-students-deadline-2026": { "title": "ChatGPT Plus 4か月無料（米国の学生）の申し込み最終日" },
+    "black-friday-2026": {
+      "title": "ブラックフライデー 2026",
+      "description": "AIサブスクリプションが1年でいちばん安くなる時期。年間プランや買い切りプランが先に値下がりすることが多いです。"
+    },
+    "cyber-monday-2026": {
+      "title": "サイバーマンデー 2026",
+      "description": "ブラックフライデーのソフトウェアセールの多くが終了する日。"
+    },
+    "google-ai-students-deadline-2026": { "title": "Google AI Pro / AI Plus 1年間無料（学生）の申し込み最終日" },
+    "claude-code-plus25-2026": { "title": "Claude Codeの週間上限：+50%が終了し、恒久的な+25%が開始" },
+    "cursor-students-closed-2026": { "title": "Cursorが学生向けPro 1年無料の新規受付を終了" }
+  }
+}

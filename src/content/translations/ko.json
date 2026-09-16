@@ -1,0 +1,222 @@
+{
+  "deals": {
+    "claude-code-weekly-plus25-permanent": {
+      "title": "Claude Code 주간 한도, 2026년 9월 14일부터 영구 +25%",
+      "headline": "Claude Code 주간 한도 영구 +25%",
+      "value": "주간 +25%",
+      "audience": "Pro, Max, Team, 좌석 기반 Enterprise",
+      "summary": "2026년 9월 14일부터 Claude Code의 기본 주간 한도는 프로모션 이전보다 영구적으로 25% 높습니다. 임시 +50% 증량은 같은 날 종료되어, 헤비 유저의 주간 용량은 프로모션 기간보다 약 17% 줄었습니다.",
+      "scope": "Claude Code",
+      "terms": [
+        "Claude Code에만 적용되며, 5시간 한도는 바뀌지 않았습니다.",
+        "기준을 100으로 보면 프로모션 전 100, 프로모션 중 150, 9월 14일부터 125입니다."
+      ]
+    },
+    "claude-code-weekly-plus50-2026": {
+      "title": "Claude Code 주간 한도 +50% 프로모션 (2026년 5월 13일~9월 14일)",
+      "headline": "Claude Code 주간 한도 +50%",
+      "value": "주간 +50%",
+      "audience": "Pro, Max, Team, 좌석 기반 Enterprise",
+      "summary": "Anthropic은 2026년 5월 13일부터 Claude Code 주간 한도를 50% 늘려 CLI, IDE 확장, 데스크톱, 웹에 자동 적용했습니다. 7월 13일 이후로 연장되었고, 2026년 9월 14일 영구 +25%로 대체되었습니다.",
+      "scope": "Claude Code"
+    },
+    "claude-cowork-june-2026-2x": {
+      "title": "Claude Cowork 2026년 6월 사용량 프로모션: 5시간 한도 2배",
+      "headline": "Claude Cowork 5시간 한도 2배",
+      "value": "5시간 한도 2배",
+      "audience": "Pro, Max, Team, 레거시 Enterprise",
+      "summary": "2026년 6월 5일부터 7월 5일까지 Anthropic은 Claude Cowork의 5시간 사용 한도를 두 배로 늘렸습니다. 자동으로 적용되었고 주간 한도는 그대로였습니다.",
+      "scope": "Claude Cowork",
+      "terms": [
+        "Free 플랜과 사용량 기반 Enterprise 좌석은 대상이 아니었습니다.",
+        "웹·데스크톱·모바일의 Claude와 Claude Code는 바뀌지 않았습니다."
+      ]
+    },
+    "claude-code-5h-limits-doubled": {
+      "title": "Claude Code 5시간 한도 2배, 피크 시간 제한 해제 (2026년 5월 6일)",
+      "headline": "Claude Code 5시간 한도 2배",
+      "value": "5시간 한도 2배",
+      "audience": "Pro, Max, Team, 좌석 기반 Enterprise",
+      "summary": "2026년 5월 6일 Anthropic은 유료 플랜의 Claude Code 5시간 한도를 영구적으로 두 배로 늘리고, Pro와 Max의 Claude Code에 대한 피크 시간 제한을 없앴습니다.",
+      "scope": "Claude Code",
+      "terms": [
+        "이번 업데이트로 주간 한도는 바뀌지 않았습니다."
+      ]
+    },
+    "claude-peak-hours-introduced": {
+      "title": "Claude 피크 시간: 평일 13:00~19:00 UTC에는 세션 한도가 더 빨리 소진",
+      "headline": "피크 시간: 평일엔 한도가 더 빨리 소진",
+      "value": "13:00~19:00 UTC",
+      "audience": "Free, Pro, Max, Team",
+      "summary": "2026년 3월 27일부터 평일 피크 시간(13:00~19:00 UTC)에는 Claude의 5시간 세션 한도가 더 빨리 소진됩니다. 주간 한도는 그대로이며, 저녁·밤·주말은 평소 속도입니다.",
+      "scope": "Claude.ai, 앱, Cowork",
+      "terms": [
+        "Enterprise 플랜은 영향을 받지 않습니다.",
+        "Pro와 Max의 Claude Code는 2026년 5월 6일부터 제외되었습니다."
+      ]
+    },
+    "claude-march-2026-offpeak-2x": {
+      "title": "Claude 2026년 3월 프로모션: 비피크 시간 한도 2배",
+      "headline": "비피크 시간 한도 2배",
+      "value": "비피크 2배",
+      "audience": "Free, Pro, Max, Team",
+      "summary": "2026년 3월 2주 동안 Claude는 평일 피크 시간(미국 동부시간 오전 8시~오후 2시) 외와 주말 내내 세션 한도를 두 배로 늘렸습니다.",
+      "scope": "모든 Claude 서비스"
+    },
+    "chatgpt-plus-students-back-to-school-2026": {
+      "title": "미국 대학생 ChatGPT Plus 4개월 무료 (2026 백투스쿨 프로모션)",
+      "headline": "ChatGPT Plus 4개월 무료",
+      "value": "4개월 무료",
+      "audience": "미국 대학생",
+      "summary": "자격을 갖춘 미국 대학생과 대학원생은 OpenAI의 2026 백투스쿨 프로모션으로 80달러 상당의 ChatGPT Plus를 4개월간 무료로 이용할 수 있습니다. 2026년 10월 31일까지 신청하세요.",
+      "steps": [
+        "업그레이드할 ChatGPT 계정에 로그인합니다.",
+        "chatgpt.com/students/2026을 열고 SheerID로 재학 여부를 인증합니다.",
+        "혜택을 확정합니다. 무료 결제 기간 4회 동안은 요금이 청구되지 않습니다."
+      ],
+      "terms": [
+        "해지하지 않으면 이후 월 20달러로 자동 갱신됩니다.",
+        "한 번만 사용할 수 있습니다.",
+        "App Store 또는 Google Play로 결제 중인 경우에는 이용할 수 없습니다."
+      ]
+    },
+    "google-ai-pro-students-2026": {
+      "title": "학생 대상 Google AI Pro 1년 무료 (140개 이상 시장에서는 AI Plus)",
+      "headline": "Google AI Pro 12개월 무료",
+      "value": "12개월 무료",
+      "audience": "미국 및 140개 이상 시장의 학생",
+      "summary": "자격을 갖춘 미국 대학생은 더 높은 Gemini 한도와 5TB 저장공간이 포함된 Google AI Pro를 1년간 무료로 이용할 수 있습니다. 그 밖의 140개 이상 시장의 학생은 Google AI Plus를 1년간 무료로 받습니다. 2026년 12월 31일까지 신청하세요.",
+      "steps": [
+        "one.google.com/ai-student 또는 gemini.google.com/students의 학생 페이지를 엽니다.",
+        "개인 Google 계정으로 SheerID를 통해 학생 신분을 인증합니다.",
+        "결제 수단을 추가해 12개월 무료 기간을 시작합니다."
+      ],
+      "terms": [
+        "해지하지 않으면 12개월 후 요금이 청구됩니다.",
+        "AI Plus 혜택은 미국, 볼리비아, 알바니아, 캐나다, 마카오, 홍콩, 튀니지에서는 제공되지 않습니다."
+      ]
+    },
+    "github-copilot-student-plan": {
+      "title": "인증된 학생 GitHub Copilot 무료 (Copilot Student 플랜)",
+      "headline": "학생은 GitHub Copilot 무료",
+      "value": "무료",
+      "audience": "인증된 GitHub Education 학생",
+      "summary": "인증된 학생은 Copilot Student 플랜으로 GitHub Copilot을 무료로 이용합니다. 코드 자동 완성은 무제한이며, 채팅과 에이전트에 쓸 AI 크레딧이 매월 제공됩니다.",
+      "steps": [
+        "학생으로 GitHub Education에 신청합니다.",
+        "인증되면 github.com/settings/education/benefits를 엽니다.",
+        "학생 개발자 리소스에서 Copilot을 활성화합니다."
+      ],
+      "terms": [
+        "GitHub는 매달 자격을 다시 확인합니다.",
+        "인증 후 활성화까지 며칠이 걸릴 수 있습니다.",
+        "모델은 자동 모델 선택으로 정해집니다."
+      ]
+    },
+    "perplexity-education-pro": {
+      "title": "Perplexity Education Pro: 학생·교육자 대상 Perplexity Pro 할인",
+      "headline": "학생 할인 Perplexity Pro",
+      "value": "Pro 할인",
+      "audience": "인증된 학생 및 교육자",
+      "summary": "인증된 학생과 교육자는 Education Pro로 업그레이드할 수 있습니다. 프리미엄 모델, 무제한 Pro 검색, Learn Mode 등 Perplexity Pro의 모든 기능을 정가보다 저렴하게 이용합니다.",
+      "steps": [
+        "Perplexity 앱에서 Upgrade를 엽니다.",
+        "Education 플랜으로 전환합니다.",
+        "Verify as student를 선택하고 인증을 완료합니다."
+      ]
+    },
+    "notion-education-plus-free": {
+      "title": "학생·교육자 Notion Plus 플랜 무료",
+      "headline": "학생은 Notion Plus 무료",
+      "value": "Plus 플랜 무료",
+      "audience": "학생 및 교육자",
+      "summary": "자격을 갖춘 학교 이메일로 가입한 학생과 교육자는 1인용 Notion Plus 플랜을 무료로 받습니다. 더 많은 게스트, 더 긴 버전 기록, 더 큰 파일 업로드를 지원합니다.",
+      "steps": [
+        "학교 이메일을 Notion 계정의 기본 이메일로 설정합니다.",
+        "Settings를 연 다음 Billing으로 이동합니다.",
+        "Get free Education plan을 선택합니다."
+      ],
+      "terms": [
+        "1년에 한 번 학생 신분을 다시 인증하세요.",
+        ".edu뿐 아니라 수천 개의 학교 도메인이 대상입니다."
+      ]
+    },
+    "cursor-student-pro-year": {
+      "title": "학생 대상 Cursor Pro 무료: 신규 신청 마감 (2026년 6월 25일)",
+      "headline": "학생 Cursor Pro 무료 (마감)",
+      "value": "1년 무료",
+      "audience": "인증된 대학생",
+      "summary": "Cursor의 학생 프로그램은 인증된 대학생에게 Cursor Pro를 1년간 무료로 제공했습니다. 2026년 6월 25일 신규 신청이 마감되었으며, 이미 혜택을 받은 사용자는 플랜이 끝날 때까지 현재 요금을 유지합니다.",
+      "terms": [
+        "학생은 캠퍼스 및 온라인 이벤트에서 계속 크레딧을 받을 수 있습니다.",
+        "무료 Hobby 플랜은 계속 이용할 수 있습니다."
+      ]
+    }
+  },
+  "tools": {
+    "bolt": { "tagline": "프롬프트로 브라우저에서 풀스택 앱을 만들고, 실행하고, 수정하고, 배포하세요." },
+    "canva": { "tagline": "AI 이미지 생성, 매직 디자인, 브랜드 키트를 갖춘 온라인 디자인 플랫폼." },
+    "capcut": { "tagline": "AI 자막, 효과, 텍스트-영상 변환 도구를 갖춘 영상 편집기." },
+    "chatgpt": { "tagline": "채팅, 검색, 이미지, 음성, 에이전트를 지원하는 OpenAI의 범용 AI 어시스턴트." },
+    "claude": { "tagline": "글쓰기, 분석, 코딩을 위한 Anthropic의 AI 어시스턴트 — Claude Code와 Cowork 포함." },
+    "clickup": { "tagline": "작업, 문서, 채팅을 AI로 관리하는 올인원 업무 앱." },
+    "codex": { "tagline": "터미널, IDE, 클라우드에서 쓰는 OpenAI의 코딩 에이전트." },
+    "copy-ai": { "tagline": "마케팅 콘텐츠와 세일즈 카피를 위한 AI 워크플로." },
+    "cursor": { "tagline": "코드를 계획·수정·실행하는 에이전트를 갖춘 AI 중심 코드 에디터." },
+    "deepseek": { "tagline": "무료 웹·모바일 어시스턴트를 제공하는 오픈 웨이트 채팅·추론 모델." },
+    "descript": { "tagline": "대본을 편집하듯 영상과 팟캐스트를 편집하세요." },
+    "elevenlabs": { "tagline": "사실적인 AI 음성, 더빙, 음성-텍스트 변환, 음성 에이전트." },
+    "freepik": { "tagline": "스톡 소재와 함께 이미지·영상·업스케일링용 AI 도구 모음." },
+    "gamma": { "tagline": "프롬프트 하나로 프레젠테이션, 문서, 웹사이트를 만드세요." },
+    "gemini": { "tagline": "검색, Android, Google Workspace에 통합된 Google의 AI 어시스턴트." },
+    "genspark": { "tagline": "리서치, 슬라이드, 시트, 전화를 위한 AI 에이전트 워크스페이스." },
+    "github-copilot": { "tagline": "에디터와 GitHub에서 함께하는 AI 페어 프로그래머이자 코딩 에이전트." },
+    "grammarly": { "tagline": "앱 전반에서 문법, 어조, 문장 다듬기를 돕는 AI 글쓰기 도우미." },
+    "grok": { "tagline": "X 실시간 정보, 이미지 생성, 음성 모드를 갖춘 xAI의 어시스턴트." },
+    "heygen": { "tagline": "AI 아바타 영상, 번역, 입모양을 맞춘 더빙." },
+    "higgsfield": { "tagline": "카메라 무빙 프리셋으로 영화 같은 AI 이미지·영상을 생성." },
+    "ideogram": { "tagline": "이미지 속 글자를 정확하게 표현하는 것으로 유명한 AI 이미지 생성기." },
+    "invideo": { "tagline": "프롬프트와 대본을 스톡·AI 영상으로 편집된 동영상으로 바꿔줍니다." },
+    "jasper": { "tagline": "브랜드 보이스를 반영하는 마케팅 팀용 AI 콘텐츠 플랫폼." },
+    "kling": { "tagline": "움직임을 제어할 수 있는 텍스트·이미지 기반 영상 생성." },
+    "leonardo": { "tagline": "크리에이터와 게임 에셋을 위한 AI 이미지·영상 생성." },
+    "lovable": { "tagline": "AI와 대화하며 풀스택 웹앱을 만드세요." },
+    "manus": { "tagline": "조사하고, 만들고, 여러 단계의 작업을 끝내는 범용 AI 에이전트." },
+    "microsoft-copilot": { "tagline": "Windows, Edge, Microsoft 365에서 함께하는 Microsoft의 AI 도우미." },
+    "midjourney": { "tagline": "고품질 AI 이미지·영상 생성." },
+    "mindstudio": { "tagline": "AI 에이전트와 자동화를 노코드로 만드는 빌더." },
+    "mistral": { "tagline": "웹 검색과 에이전트를 갖춘 Mistral의 빠른 유럽산 AI 어시스턴트." },
+    "n8n": { "tagline": "AI 에이전트로 워크플로를 자동화 — 셀프 호스팅 또는 클라우드." },
+    "notebooklm": { "tagline": "내 자료를 바탕으로 답하고 오디오 요약도 만들어주는 리서치 노트." },
+    "notion": { "tagline": "AI 에이전트를 내장한 문서·위키·프로젝트용 연결형 워크스페이스." },
+    "otter": { "tagline": "AI 회의록, 전사, 회의 에이전트." },
+    "perplexity": { "tagline": "웹을 검색하고 출처를 밝혀 답하는 AI 답변 엔진." },
+    "pictory": { "tagline": "대본, 기사, 긴 영상을 브랜드에 맞는 짧은 클립으로 만들어줍니다." },
+    "quillbot": { "tagline": "학생과 작가를 위한 문장 바꾸기, 문법 검사, AI 탐지." },
+    "reclaim": { "tagline": "할 일, 습관, 회의를 자동으로 일정에 넣어주는 AI 캘린더." },
+    "remove-bg": { "tagline": "클릭 한 번으로 사진 배경을 AI로 제거." },
+    "replit": { "tagline": "앱을 만들고 배포하는 AI 에이전트가 있는 클라우드 IDE." },
+    "runway": { "tagline": "영상 제작자를 위한 생성형 영상 모델과 편집 도구." },
+    "speechify": { "tagline": "문서, 웹페이지, 책을 읽어주는 텍스트 음성 변환 리더." },
+    "suno": { "tagline": "텍스트 프롬프트로 보컬이 포함된 곡을 통째로 만들어줍니다." },
+    "surfer": { "tagline": "검색과 AI 답변에 맞춰 최적화하는 SEO 콘텐츠 에디터이자 AI 작성 도구." },
+    "synthesia": { "tagline": "교육과 비즈니스를 위한 스튜디오급 AI 아바타 영상." },
+    "v0": { "tagline": "React와 Next.js UI를 만드는 Vercel의 AI 앱 빌더." },
+    "windsurf": { "tagline": "코드베이스 전체를 다루는 AI Cascade가 있는 에이전트형 IDE." },
+    "writesonic": { "tagline": "콘텐츠 마케팅을 위한 AI 글쓰기 및 SEO/GEO 플랫폼." }
+  },
+  "events": {
+    "chatgpt-students-deadline-2026": { "title": "ChatGPT Plus 4개월 무료(미국 학생) 신청 마감일" },
+    "black-friday-2026": {
+      "title": "블랙 프라이데이 2026",
+      "description": "AI 구독이 1년 중 가장 크게 할인되는 시기 — 연간 플랜과 평생 이용권이 보통 먼저 할인됩니다."
+    },
+    "cyber-monday-2026": {
+      "title": "사이버 먼데이 2026",
+      "description": "대부분의 블랙 프라이데이 소프트웨어 세일이 끝나는 날."
+    },
+    "google-ai-students-deadline-2026": { "title": "Google AI Pro / AI Plus 1년 무료(학생) 신청 마감일" },
+    "claude-code-plus25-2026": { "title": "Claude Code 주간 한도: +50% 종료, 영구 +25% 시작" },
+    "cursor-students-closed-2026": { "title": "Cursor, 학생 대상 Pro 1년 무료 신규 신청 마감" }
+  }
+}

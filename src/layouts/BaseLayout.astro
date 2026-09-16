@@ -1,7 +1,7 @@
 ---
 import "@/styles/global.css";
 import type { Locale } from "@/lib/i18n/config";
-import { hubLocales, isHubTranslated, type UiDictionary } from "@/lib/i18n/dictionaries";
+import { hubLocales, isHubTranslated, type Dictionary as UiDictionary } from "@/lib/i18n/dictionaries";
 import { siteNodes } from "@/lib/jsonld";
 import { IS_STAGING, SITE_NAME } from "@/lib/site";
 import { absoluteUrl, alternateLinks, localePath } from "@/lib/seo";
@@ -127,8 +127,8 @@ const navItems = [
       locales={i18n.locales.map((code) => ({ code, name: localeNames[code] }))}
       labels={{ language: nav.language, theme: nav.theme, menu: nav.menu }}
       notifications={{
-        titles: { offPeak: dict.hero.promotionActive, peak: dict.hero.promotionInactive },
-        bodies: { offPeak: dict.hero.activeSubtitle, peak: dict.hero.inactiveSubtitle },
+        titles: { offPeak: dict.notifications.offPeakTitle, peak: dict.notifications.peakTitle },
+        bodies: { offPeak: dict.notifications.offPeakBody, peak: dict.notifications.peakBody },
       }}
       repo={AUTHOR.repo}
     />

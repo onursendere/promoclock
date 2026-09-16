@@ -1,210 +1,298 @@
 {
   "meta": {
-    "title": "PromoClock — Claude 高峰时段追踪器",
-    "description": "即时了解 Claude 会话限额何时消耗更快。您所在时区的实时高峰时段状态 — Free, Pro, Max & Team。无需配置。",
-    "ogTitle": "PromoClock — Claude 的限额现在消耗更快吗？",
-    "ogDescription": "无需猜测。PromoClock 即时显示您是否正处于 Claude 的高峰时段。"
+    "title": "Claude 高峰时段实时查询与最新 AI 优惠 | PromoClock",
+    "description": "实时查看 Claude 高峰时段、Claude 用量限制的最新变化，以及 50 款 AI 工具经过核实的学生优惠和促销活动，附来源与倒计时。",
+    "ogTitle": "Claude 高峰时段与 AI 优惠，实时更新",
+    "ogDescription": "Claude 现在是高峰时段吗？你的用量限制有什么变化？哪些 AI 工具正在做活动？一个时钟全部看清。"
   },
-  "header": {
-    "logo": "PromoClock",
-    "nav": {
-      "howItWorks": "工作原理",
-      "eligibility": "计划",
-      "schedule": "时间表",
-      "faq": "常见问题",
-      "devTools": "工具"
-    }
-  },
-  "hero": {
-    "badge": "CLAUDE会话限额",
-    "promotionActive": "非高峰 — 正常消耗速度",
-    "promotionInactive": "高峰时段 — 限额消耗更快",
-    "promotionExpired": "非高峰 — 正常消耗速度",
-    "promotionNotStarted": "非高峰 — 正常消耗速度",
-    "activeSubtitle": "非高峰时段 — 5小时会话限额以正常速度消耗。适合高Token消耗任务。",
-    "inactiveSubtitle": "高峰时段（周一至周五 GMT 13时–19时）— 会话限额消耗更快。每周限额不变。",
-    "expiredSubtitle": "非高峰时段 — 5小时会话限额以正常速度消耗。",
-    "notStartedSubtitle": "非高峰时段 — 5小时会话限额以正常速度消耗。",
-    "countdownLabel": "距下次状态变更",
-    "yourTimezone": "您的时区",
-    "yourLocalTime": "您的本地时间",
-    "days": "天",
-    "hours": "小时",
-    "minutes": "分钟",
-    "seconds": "秒",
-    "peakHours": "高峰时段（消耗较快）",
-    "offPeakHours": "非高峰时段（正常速度）",
-    "weekdays": "工作日",
-    "allWeekend": "整个周末（正常速度）",
-    "sinceLastChange": "自上次状态变更"
-  },
-  "howItWorks": {
-    "title": "工作原理",
-    "subtitle": "我们保持简单——让您专注于使用Claude进行创作。",
-    "steps": [
-      {
-        "title": "自动检测时区",
-        "description": "打开PromoClock时，我们会自动读取您设备的时区。无需设置或配置。"
-      },
-      {
-        "title": "实时计算",
-        "description": "我们的引擎将您的本地时间与Claude高峰时段（周一至周五 GMT 13时–19时）实时比较。"
-      },
-      {
-        "title": "即时查看状态",
-        "description": "清晰的实时显示告诉您当前是否处于高峰时段（限额消耗更快）或非高峰（正常速度）——加上到下次变更的倒计时。"
-      }
-    ]
-  },
-  "eligibility": {
-    "title": "资格条件",
-    "subtitle": "会话限额调整适用于所有Claude订阅级别。",
-    "eligible": "受影响",
-    "notEligible": "不受影响",
-    "plans": [
-      {
-        "name": "Free",
-        "status": true,
-        "description": "高峰时段会话限额消耗更快。将高Token任务移至非高峰时段。"
-      },
-      {
-        "name": "Pro",
-        "status": true,
-        "description": "约7%的Pro用户会遇到以前未达到的限额。非高峰时段最适合繁重任务。"
-      },
-      {
-        "name": "Max",
-        "status": true,
-        "description": "高峰时段会话限额消耗更快。将代理和数据处理任务安排在非高峰时段。"
-      },
-      {
-        "name": "Team",
-        "status": true,
-        "description": "Team工作区受到影响。将繁重任务协调安排在非高峰时段。"
-      },
-      {
-        "name": "Enterprise",
-        "status": false,
-        "description": "企业计划有专用容量和定制合同——不受这些调整影响。"
-      }
-    ],
-    "platforms": {
-      "title": "在所有Claude界面上可用",
-      "items": [
-        "网页 (claude.ai)",
-        "桌面端 (Mac / Windows)",
-        "移动端 (iOS / Android)",
-        "Claude Cowork",
-        "Claude Code (终端)",
-        "Excel和PowerPoint插件"
-      ]
-    },
-    "note": "每周限额保持不变。会话限额仅在高峰时段（周一至周五 GMT 13时–19时）消耗更快。"
+  "notifications": {
+    "peakTitle": "Claude 高峰时段已开始",
+    "peakBody": "高峰时段结束前，会话限额消耗会更快。",
+    "offPeakTitle": "Claude 已进入非高峰时段",
+    "offPeakBody": "会话限额已恢复正常消耗速度。"
   },
   "schedule": {
-    "title": "全球时间表",
-    "subtitle": "查看主要城市的高峰时段（限额消耗较快）。高峰：周一至周五 GMT 13时–19时。",
     "tableHeaders": {
-      "city": "城市/地区",
+      "city": "城市",
       "timezone": "时区",
-      "peakHours": "高峰时段（较快）",
-      "offPeakHours": "非高峰（正常）"
+      "peakHours": "高峰时段",
+      "offPeakHours": "非高峰"
     },
-    "weekdayLabel": "工作日",
-    "weekendLabel": "整个周末 → 正常速度"
+    "weekendLabel": "周末全天均为非高峰时段。"
   },
   "faq": {
     "title": "常见问题",
-    "subtitle": "关于Claude会话限额系统的一切。",
     "items": [
       {
-        "question": "Claude会话限额发生了什么变化？",
-        "answer": "自2026年3月27日起，Claude调整了5小时会话限额。高峰时段（周一至周五 GMT 13时–19时）限额消耗更快。每周限额不变——只是在一周内的分配方式有所改变。"
+        "question": "Claude 的高峰时段是什么时候？",
+        "answer": "Claude 的高峰时段为工作日 13:00–19:00（UTC）。工作日的傍晚、夜间以及整个周末都是非高峰时段。"
       },
       {
-        "question": "高峰时段具体是什么时候？",
-        "answer": "高峰时段是周一至周五 GMT 13时–19时（PST 5时–11时）。工作日晚上/夜间及整个周末为非高峰时段，正常速度消耗。"
+        "question": "高峰时段会发生什么？",
+        "answer": "在 Free、Pro、Max 和 Team 方案中，5 小时会话限额会比平时消耗得更快。每周限额不变。"
       },
       {
-        "question": "我的时区高峰时段是什么时候？",
-        "answer": "PromoClock自动检测您的时区，并在页面顶部实时显示当前状态。"
+        "question": "Claude 现在是高峰时段吗？",
+        "answer": "本页顶部的实时时钟会按你的时区显示当前状态，并倒计时到下一次切换。开发者也可以通过 GET /api/status 查询。"
       },
       {
-        "question": "哪些计划受影响？",
-        "answer": "Free、Pro、Max和Team都受到影响。Enterprise计划因有专用容量而不受影响。"
+        "question": "哪些 Claude 方案受影响？",
+        "answer": "Free、Pro、Max 和 Team。Enterprise 方案不受影响；自 2026 年 5 月 6 日起，Pro 和 Max 中的 Claude Code 也不受影响。"
       },
       {
-        "question": "我的每周限额会改变吗？",
-        "answer": "不会。每周限额保持不变。约7%的用户（尤其是Pro）会遇到以前未达到的限额。"
+        "question": "2026 年 9 月 14 日 Claude Code 的限额有什么变化？",
+        "answer": "Claude Code 的标准每周限额永久提高到促销前水平的 125%。临时的 +50% 加成在同一天结束，因此重度用户的每周可用量比促销期间少了约 17%。"
       },
       {
-        "question": "如何最大化我的会话限额？",
-        "answer": "将高Token任务移至非高峰时段（工作日晚上/夜间和周末）。那些时段的限额以正常速度消耗。"
+        "question": "怎样更充分地利用 Claude 限额？",
+        "answer": "把耗时长或消耗大量 token 的任务安排在工作日高峰时段之外，例如晚上或周末，此时会话限额按正常速度消耗。"
       },
       {
-        "question": "2026年3月促销发生了什么？",
-        "answer": "Claude 2026年3月非高峰促销（2倍限额）于2026年3月13日至27日进行并已结束。请查看下方存档部分。"
+        "question": "2026 年 3 月的 Claude 促销是什么？",
+        "answer": "2026 年 3 月 13 日至 27 日，Claude 在工作日高峰时段以外以及整个周末，将 Free、Pro、Max 和 Team 方案的会话限额翻倍。"
       },
       {
-        "question": "PromoClock是什么？",
-        "answer": "PromoClock由Onur Şendere（X上@onursendere）开发，帮助Claude用户即时了解是否处于高峰时段。这是一个独立项目，与Anthropic无关。"
+        "question": "PromoClock 如何核实 AI 优惠？",
+        "answer": "每条优惠都链接到官方来源，例如帮助中心文章或公司博客，并标注最后核实日期。过期的优惠会自动从实时列表中移除。"
       },
       {
-        "question": "Claude Code +50% 周限额提升是什么？",
-        "answer": "2026 年 5 月 13 日，Anthropic 宣布对 Pro、Max、Team 及按席位计费的 Enterprise 用户，Claude Code 周限额提升 50%，截至 2026 年 7 月 13 日 18:00 PDT。在 CLI、IDE 扩展、桌面端和网页端自动生效。免费套餐以及 Claude.ai 聊天 / Cowork 限额不受影响。"
-      },
-      {
-        "question": "Anthropic 是否在 5 月 6 日完全移除了高峰时段系统？",
-        "answer": "仅部分移除。2026 年 5 月 6 日，Anthropic 仅针对 Pro 和 Max 套餐的 Claude Code 移除了高峰时段限速，同时将 Claude Code 5 小时会话限额翻倍。高峰时段仍然适用于 Free、Pro、Max 和 Team 用户的 Claude.ai 聊天、Cowork、移动和桌面应用 — 因此上方的实时高峰时段追踪器对大多数工作流仍然有用。来源：Anthropic 公告（2026 年 5 月 6 日）、Ars Technica、Appwrite 博客。"
-      },
-      {
-        "question": "Claude Cowork 2026 年 6 月使用促销是什么？",
-        "answer": "自 2026 年 6 月 5 日至 7 月 5 日（23:59 PT），Anthropic 将 Pro、Max、Team 及按席位计费的旧版 Enterprise 用户在 Claude Cowork 内的 5 小时使用限额翻倍。自动应用 — 无需任何操作 — 每周限额保持不变。免费套餐及按用量计费的 Enterprise 席位不符合条件。此提升仅限于 Cowork；Claude 的网页、桌面、移动版及 Claude Code 不受影响。来源：Anthropic 官方支持文章。"
+        "question": "PromoClock 与 Anthropic 有关联吗？",
+        "answer": "没有。PromoClock 是 Onur Şendere 的独立项目。部分外部链接是推广链接，但它们从不决定我们收录哪些优惠。"
       }
     ]
   },
   "devTools": {
     "title": "开发者工具",
-    "subtitle": "将Claude高峰时段状态集成到您的工作流程中。API和终端——无需浏览器。",
-    "apiTitle": "JSON API & 终端集成",
-    "apiDescription": "/api/status端点实时返回高峰时段状态JSON。集成到您的ZSH/Bash提示符中。",
-    "tryApi": "试用API",
-    "notifTitle": "浏览器通知和声音提醒",
-    "notifDescription": "启用标题栏的铃铛图标，当Claude切换到非高峰（正常速度）时立即收到浏览器通知和柔和铃声。"
-  },
-  "claudeCodeBoost": {
-    "badge": "同时进行",
-    "scope": "仅限 Claude Code",
-    "title": "Claude Code 周限额至 2026 年 7 月 13 日 +50%",
-    "subtitle": "与上方的高峰时段系统相互独立。2026 年 5 月 13 日，Anthropic 将 Pro、Max、Team 及按席位计费的 Enterprise 的 Claude Code 周限额上调 50%。自动应用 — 无需开启。可与 5 月 6 日宣布的 5 小时限额 2 倍提升叠加。",
-    "endsLabel": "结束",
-    "endsValue": "2026 年 7 月 13 日 · 18:00 PDT（7 月 14 日 01:00 GMT）",
-    "sourceLabel": "来源：r/ClaudeAI 官方公告",
-    "note": "不影响 Claude.ai 聊天 / Cowork 限额。"
-  },
-  "coworkBoost": {
-    "badge": "正在进行",
-    "scope": "仅限 Claude Cowork",
-    "title": "Claude Cowork 5 小时使用限额翻倍（2×），截至 2026 年 7 月 5 日",
-    "subtitle": "与高峰时段系统及上方的 Claude Code 提升相互独立。自 2026 年 6 月 5 日起，Anthropic 将 Pro、Max、Team 及按席位计费的旧版 Enterprise 在 Claude Cowork 内的 5 小时使用限额翻倍。自动应用 — 无需开启。每周限额不变。",
-    "endsLabel": "结束",
-    "endsValue": "2026 年 7 月 5 日 · 23:59 PT",
-    "sourceLabel": "来源：Anthropic 官方支持文章",
-    "note": "免费套餐及按用量计费的 Enterprise 席位不符合条件。其他 Claude 产品（网页、桌面、移动、Code）不受影响。"
+    "subtitle": "把 Claude 高峰时段状态和实时 AI 优惠接入你的终端、脚本或应用。",
+    "apiTitle": "JSON API",
+    "apiDescription": "免费、支持 CORS 的接口，每个 IP 每分钟最多 60 次请求。"
   },
   "sponsors": {
-    "stackopticHeadline": "粘贴任意URL，获取完整视图。",
-    "stackopticSub": "性能、SEO、安全、AI可见性、技术栈 — 18个模块，一次扫描。",
-    "stackopticPromoBadge": "5 折",
-    "stackopticPromo": "Solo 套餐首月",
-    "stackopticCode": "SOLO50"
+    "stackopticHeadline": "粘贴任意网址，全面掌握网站状况。",
+    "stackopticSub": "性能、SEO、安全、AI 可见度、技术栈 — 18 个模块，一次扫描。",
+    "stackopticPromoBadge": "五折",
+    "stackopticPromo": "Solo 方案首月",
+    "stackopticCode": "SOLO50",
+    "stackopticCta": "立享五折"
   },
   "footer": {
-    "crafted": "在英国Shrewsbury与Claude一起用爱打造。",
-    "digiwingsPromo": "需要为您的业务定制GEO优化的网络解决方案？",
-    "digiwingsCta": "访问我的一人数字代理机构",
-    "buymeacoffee": "帮您省去了时区计算？请我喝杯咖啡",
-    "disclaimer": "PromoClock是独立项目，与Anthropic或Claude无关。仅供参考。",
-    "rights": "© 2026 PromoClock。由Onur Şendere制作。"
+    "crafted": "在英国什鲁斯伯里与 Claude 一起用心打造。",
+    "buymeacoffee": "帮你省去了时区换算？请我喝杯咖啡吧",
+    "disclaimer": "PromoClock 是独立项目，与 Anthropic 或 Claude 无关。仅供参考。",
+    "rights": "© 2026 PromoClock. 由 Onur Şendere 开发。"
+  },
+  "hub": {
+    "nav": {
+      "claude": "Claude Watch",
+      "deals": "AI 优惠",
+      "tools": "AI 工具",
+      "calendar": "日历",
+      "api": "API",
+      "menu": "菜单",
+      "language": "切换语言",
+      "theme": "切换深色模式",
+      "about": "关于"
+    },
+    "common": {
+      "verified": "已核实",
+      "startsIn": "距开始",
+      "ended": "已结束",
+      "ongoing": "长期有效",
+      "visit": "访问 {name}",
+      "getDeal": "领取优惠",
+      "details": "详情",
+      "code": "优惠码",
+      "copy": "复制",
+      "copied": "已复制",
+      "affiliateNote": "部分链接为推广链接。你无需额外付费，我们可能获得佣金——这绝不会影响我们收录哪些优惠。",
+      "disclosureLink": "推广链接说明",
+      "daysLeft": "剩 {n} 天",
+      "hoursLeft": "剩 {h} 小时 {m} 分",
+      "offer": "优惠",
+      "who": "适用对象",
+      "ends": "截止",
+      "started": "开始于",
+      "regions": "地区",
+      "howToClaim": "领取方式",
+      "goodToKnow": "注意事项",
+      "related": "更多优惠",
+      "live": "进行中",
+      "sources": "来源"
+    },
+    "kinds": {
+      "limit-boost": "限额提升",
+      "limit-change": "限额变更",
+      "discount": "折扣",
+      "student": "学生优惠",
+      "free-trial": "免费试用",
+      "launch": "新品发布",
+      "seasonal": "季节促销"
+    },
+    "categories": {
+      "chat": "聊天与搜索",
+      "coding": "编程与应用构建",
+      "image": "图像与设计",
+      "video": "视频与数字人",
+      "audio": "语音与音乐",
+      "writing": "写作与 SEO",
+      "productivity": "效率与会议",
+      "agents": "智能体与自动化"
+    },
+    "claudeWatch": {
+      "badge": "Claude Watch",
+      "peak": "高峰",
+      "offPeak": "非高峰",
+      "livePromo": "进行中的 Claude 促销",
+      "promoEndsIn": "促销剩余时间",
+      "peakNote": "高峰时段最后一次官方说明是在 2026 年 3 月 27 日，目前似乎仍适用于 Claude.ai 聊天、Cowork 和各客户端。自 2026 年 5 月 6 日起，Pro 和 Max 中的 Claude Code 不受影响。",
+      "statusTitle": "Claude 状态",
+      "peakShort": "限额消耗加快",
+      "offPeakShort": "限额正常",
+      "changesIn": "距切换",
+      "peakWindow": "高峰时段 · 你的时间",
+      "nextPeakWindow": "下次高峰 · 你的时间",
+      "whatsNew": "最新",
+      "info": "关于高峰时段"
+    },
+    "home": {
+      "heroEyebrow": "实时 · 每日更新",
+      "heroTitle": "Claude 高峰时段与 AI 优惠，实时掌握",
+      "heroSubtitle": "查看 Claude 限额何时消耗更快，并抓住 50 款 AI 工具经过核实的促销活动。",
+      "ctaDeals": "查看进行中的优惠",
+      "ctaTools": "浏览 50 款工具",
+      "statsLive": "进行中的优惠",
+      "statsTools": "追踪的 AI 工具",
+      "statsDeadline": "下一个截止日",
+      "statsLanguages": "语言",
+      "sponsored": "赞助",
+      "dealsTitle": "进行中的 AI 优惠",
+      "dealsSubtitle": "经过核实的优惠，附来源和实时倒计时。",
+      "dealsCta": "查看全部优惠",
+      "toolsTitle": "50 款 AI 工具，一个时钟",
+      "toolsSubtitle": "打开任一工具，查看进行中的优惠和历史促销。",
+      "toolsCta": "浏览全部工具",
+      "historyTitle": "Claude 促销历史",
+      "historySubtitle": "所有 Claude 限额变更与促销，按时间倒序排列。",
+      "peakTitle": "Claude 高峰时段速览",
+      "peakAnswer": "Claude 的高峰时段为工作日 13:00–19:00（UTC）。高峰时段内，Free、Pro、Max 和 Team 方案的 5 小时会话限额消耗更快；每周限额不变。",
+      "peakFacts": [
+        {
+          "label": "高峰时段",
+          "value": "工作日 13:00–19:00 UTC"
+        },
+        {
+          "label": "非高峰",
+          "value": "傍晚、夜间和周末"
+        },
+        {
+          "label": "每周限额",
+          "value": "不变"
+        },
+        {
+          "label": "生效日期",
+          "value": "2026 年 3 月 27 日"
+        },
+        {
+          "label": "Pro 与 Max 中的 Claude Code",
+          "value": "自 2026 年 5 月 6 日起不受影响"
+        }
+      ],
+      "affectedPlans": "受影响的方案",
+      "scheduleTitle": "你所在城市的高峰时段"
+    },
+    "deals": {
+      "metaTitle": "AI 优惠与学生福利（{month}） | PromoClock",
+      "metaDescription": "{month}经过核实的 AI 优惠：学生免费使用 ChatGPT Plus 和 Google AI Pro、GitHub Copilot、Notion 等，附截止日期和官方来源。",
+      "title": "进行中的 AI 优惠",
+      "subtitle": "每条优惠都经过官方来源核实，过期优惠会自动下架。",
+      "filterAll": "全部",
+      "live": "正在进行",
+      "upcoming": "即将开始",
+      "archive": "近期结束",
+      "empty": "目前没有符合此筛选条件的优惠。"
+    },
+    "tools": {
+      "metaTitle": "50 款 AI 工具：促销、优惠与限额 | PromoClock",
+      "metaDescription": "追踪最受欢迎的 50 款 AI 工具的促销、学生优惠、价格变动和用量限制动态，从 ChatGPT、Claude 到 Cursor、Canva 和 ElevenLabs。",
+      "title": "AI 工具",
+      "subtitle": "最常用的 50 款 AI 工具。打开任一工具，查看进行中的优惠和促销历史。",
+      "filterAll": "全部",
+      "withDeals": "仅看有优惠的",
+      "searchPlaceholder": "搜索工具…",
+      "liveDeals": "{count} 个进行中",
+      "noLiveDeals": "目前没有进行中的优惠——稍后再来看看，或浏览全部优惠。",
+      "pastDeals": "历史促销",
+      "toolMetaTitle": "{name} 优惠、促销与限额（{month}） | PromoClock",
+      "toolMetaDescription": "{month} {name} 的最新优惠、学生福利和限额变化，均经官方来源核实并每日更新。",
+      "currentDeals": "当前优惠",
+      "allTools": "全部工具",
+      "empty": "没有符合搜索条件的工具。"
+    },
+    "calendar": {
+      "metaTitle": "AI 促销日历：截止日期与大促 | PromoClock",
+      "metaDescription": "即将到来的 AI 促销截止日期、学生优惠结束日、新品发布，以及黑色星期五等季节性大促，一个日历全掌握。",
+      "title": "AI 促销日历",
+      "subtitle": "值得提前规划的截止日期、发布与大促。",
+      "upcoming": "即将到来",
+      "past": "已过去",
+      "empty": "暂无安排。"
+    },
+    "disclosure": {
+      "metaTitle": "推广链接说明 — PromoClock",
+      "metaDescription": "PromoClock 如何使用推广链接，以及我们如何选择收录哪些 AI 优惠。",
+      "title": "推广链接说明",
+      "paragraphs": [
+        "PromoClock 是一个独立项目。本站部分 AI 工具链接为推广链接或合作伙伴链接。如果你通过这些链接注册或购买，我们可能会获得佣金，你无需支付任何额外费用。",
+        "推广合作从不决定是否收录某条优惠。我们只收录在工具官方渠道公开提供的优惠，链接到原始来源，并注明每条优惠的最后核实日期。",
+        "优惠码仅在工具官方发布或其合作伙伴计划提供时才会展示。过期的优惠会自动从实时列表中移除。",
+        "没有推广计划的工具——包括 ChatGPT、Gemini、Claude 和 Midjourney——也以完全相同的标准收录。PromoClock 与 Anthropic 或任何收录的工具均无关联。",
+        "有疑问？请在 X 上联系 @onursendere。"
+      ]
+    },
+    "dealPage": {
+      "metaTitle": "{headline}（{month}） | PromoClock",
+      "faqTitle": "关于此优惠的问题",
+      "qAvailable": "这个优惠现在还能领取吗？",
+      "aLive": "可以。截至 {date}，该优惠仍在进行中，将于 {end} 结束。",
+      "aOngoing": "可以。截至 {date}，这是一个长期计划，尚未公布结束日期。",
+      "aUpcoming": "还不行。将于 {start} 开始。",
+      "aEnded": "不能。已于 {end} 结束。",
+      "qWho": "谁可以领取？",
+      "qHow": "如何领取？",
+      "qChange": "有什么变化？",
+      "qWhen": "从什么时候开始生效？",
+      "aWhen": "自 {date} 起。",
+      "qSource": "这些信息来自哪里？",
+      "aSource": "来自 {source}。PromoClock 最后一次核实是在 {date}。"
+    },
+    "about": {
+      "metaTitle": "关于 PromoClock：我们如何追踪 Claude 限额与 AI 优惠",
+      "metaDescription": "谁在运营 PromoClock、每项 Claude 限额变更和 AI 优惠如何通过官方来源核实，以及网站的更新频率。",
+      "title": "关于 PromoClock",
+      "intro": "PromoClock 是一个独立网站，追踪 Claude 的用量限制以及 50 款热门 AI 工具经过核实的促销活动。",
+      "sections": [
+        {
+          "title": "我们如何核实",
+          "body": "每条优惠和限额变更都链接到官方来源：帮助中心文章、官方博客文章，或公司官方账号发布的公告。我们记录每条信息的最后核实日期，并且只发布公司或其合作伙伴计划提供的优惠码。"
+        },
+        {
+          "title": "更新频率",
+          "body": "网站每天重新生成。优惠状态根据开始和结束日期自动计算，因此过期优惠会自动从实时列表中移除，高峰时段时钟则在你的浏览器中实时运行。"
+        },
+        {
+          "title": "运营者",
+          "body": "PromoClock 由 Onur Şendere 开发和维护，他是英国什鲁斯伯里的一人数字代理公司 Digiwings 的创始人。本站与 Anthropic 或任何收录的工具均无关联。"
+        },
+        {
+          "title": "联系方式",
+          "body": "发现过期的优惠或新的促销？请发送给 X 上的 @onursendere。"
+        }
+      ]
+    },
+    "notFound": {
+      "title": "这个页面去休息了",
+      "body": "你要找的页面不存在或已被移动。",
+      "cta": "返回 Claude Watch"
+    }
   }
 }

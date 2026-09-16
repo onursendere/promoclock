@@ -31,7 +31,7 @@
   startsAt: 2026-09-14T00:00:00Z
   verifiedAt: 2026-09-16T00:00:00Z
   sourceUrl: https://x.com/ClaudeDevs/status/2093742321473065266
-  sourceLabel: "@ClaudeDevs on X (Aug 29, 2026)"
+  sourceLabel: "@ClaudeDevs (X)"
 
 - id: claude-code-weekly-plus50-2026
   tool: claude
@@ -52,7 +52,7 @@
   endsAt: 2026-09-14T00:00:00Z
   verifiedAt: 2026-09-16T00:00:00Z
   sourceUrl: https://www.reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/
-  sourceLabel: "Official announcement on r/ClaudeAI"
+  sourceLabel: "r/ClaudeAI"
 
 - id: claude-cowork-june-2026-2x
   tool: claude
@@ -198,12 +198,11 @@
   terms:
     - en: "Billing starts after 12 months unless you cancel."
     - en: "The AI Plus offer excludes the US, Bolivia, Albania, Canada, Macau, Hong Kong and Tunisia."
-  regions: ["US", "140+ markets"]
   startsAt: 2026-08-19T00:00:00Z
   endsAt: 2026-12-31T23:59:00Z
   verifiedAt: 2026-09-16T00:00:00Z
   sourceUrl: https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/
-  sourceLabel: "Google blog (Aug 19, 2026)"
+  sourceLabel: "Google Blog"
   ctaUrl: https://one.google.com/ai-student
 
 - id: github-copilot-student-plan

@@ -1,0 +1,222 @@
+{
+  "deals": {
+    "claude-code-weekly-plus25-permanent": {
+      "title": "Limites hebdomadaires de Claude Code : +25 % permanent dès le 14 septembre 2026",
+      "headline": "Limites hebdo Claude Code : +25 % définitif",
+      "value": "+25 % par semaine",
+      "audience": "Pro, Max, Team, Enterprise par siège",
+      "summary": "Depuis le 14 septembre 2026, les limites hebdomadaires standard de Claude Code sont définitivement 25 % au-dessus du niveau d'avant la promotion. Le bonus temporaire de +50 % a pris fin le même jour : les gros utilisateurs ont donc environ 17 % de capacité hebdomadaire en moins que pendant la promo.",
+      "scope": "Claude Code",
+      "terms": [
+        "S'applique uniquement à Claude Code ; les limites de 5 heures ne changent pas.",
+        "Sur une base de 100 : 100 avant la promo, 150 pendant, 125 à partir du 14 septembre."
+      ]
+    },
+    "claude-code-weekly-plus50-2026": {
+      "title": "Promotion Claude Code : limites hebdomadaires +50 % (13 mai – 14 septembre 2026)",
+      "headline": "Limites hebdo Claude Code +50 %",
+      "value": "+50 % par semaine",
+      "audience": "Pro, Max, Team, Enterprise par siège",
+      "summary": "Anthropic a augmenté de 50 % les limites hebdomadaires de Claude Code à partir du 13 mai 2026, automatiquement dans le CLI, les extensions IDE, le bureau et le web. La promo a été prolongée au-delà du 13 juillet puis remplacée par un +25 % permanent le 14 septembre 2026.",
+      "scope": "Claude Code"
+    },
+    "claude-cowork-june-2026-2x": {
+      "title": "Promotion Claude Cowork de juin 2026 : limite de 5 heures doublée",
+      "headline": "Claude Cowork : limite de 5 h doublée",
+      "value": "Limite de 5 h ×2",
+      "audience": "Pro, Max, Team, Enterprise historique",
+      "summary": "Du 5 juin au 5 juillet 2026, Anthropic a doublé la limite d'utilisation de 5 heures dans Claude Cowork. L'offre s'appliquait automatiquement ; les limites hebdomadaires sont restées identiques.",
+      "scope": "Claude Cowork",
+      "terms": [
+        "Les formules Free et les sièges Enterprise facturés à l'usage n'étaient pas éligibles.",
+        "Claude sur le web, le bureau, le mobile et Claude Code n'étaient pas concernés."
+      ]
+    },
+    "claude-code-5h-limits-doubled": {
+      "title": "Claude Code : limites de 5 heures doublées et réduction en heures de pointe supprimée (6 mai 2026)",
+      "headline": "Claude Code : limites de 5 h doublées",
+      "value": "Limite de 5 h ×2",
+      "audience": "Pro, Max, Team, Enterprise par siège",
+      "summary": "Le 6 mai 2026, Anthropic a doublé définitivement les limites de 5 heures de Claude Code sur les formules payantes et supprimé la réduction en heures de pointe pour Claude Code sur Pro et Max.",
+      "scope": "Claude Code",
+      "terms": [
+        "Cette mise à jour n'a pas modifié les limites hebdomadaires."
+      ]
+    },
+    "claude-peak-hours-introduced": {
+      "title": "Heures de pointe Claude : les limites de session s'épuisent plus vite en semaine de 13:00 à 19:00 UTC",
+      "headline": "Heures de pointe : limites plus vite épuisées en semaine",
+      "value": "13:00–19:00 UTC",
+      "audience": "Free, Pro, Max, Team",
+      "summary": "Depuis le 27 mars 2026, les limites de session de 5 heures de Claude s'épuisent plus vite pendant les heures de pointe en semaine (13:00–19:00 UTC). Les limites hebdomadaires ne changent pas, et les soirées, nuits et week-ends fonctionnent à vitesse normale.",
+      "scope": "Claude.ai, applications, Cowork",
+      "terms": [
+        "Les formules Enterprise ne sont pas concernées.",
+        "Claude Code sur Pro et Max est exempté depuis le 6 mai 2026."
+      ]
+    },
+    "claude-march-2026-offpeak-2x": {
+      "title": "Promotion Claude de mars 2026 : limites doublées en heures creuses",
+      "headline": "Limites doublées en heures creuses",
+      "value": "×2 en heures creuses",
+      "audience": "Free, Pro, Max, Team",
+      "summary": "Pendant deux semaines en mars 2026, Claude a doublé les limites de session en dehors des heures de pointe en semaine (8 h–14 h ET) et tout le week-end.",
+      "scope": "Toutes les plateformes Claude"
+    },
+    "chatgpt-plus-students-back-to-school-2026": {
+      "title": "ChatGPT Plus gratuit pendant 4 mois pour les étudiants américains (offre de rentrée 2026)",
+      "headline": "4 mois de ChatGPT Plus gratuits",
+      "value": "4 mois gratuits",
+      "audience": "Étudiants aux États-Unis",
+      "summary": "Les étudiants éligibles inscrits dans un établissement américain obtiennent quatre mois de ChatGPT Plus gratuits, d'une valeur de 80 $, grâce à l'offre de rentrée 2026 d'OpenAI. À activer avant le 31 octobre 2026.",
+      "steps": [
+        "Connectez-vous au compte ChatGPT que vous voulez passer en Plus.",
+        "Ouvrez chatgpt.com/students/2026 et confirmez votre inscription avec SheerID.",
+        "Validez l'offre. Les quatre périodes de facturation gratuites ne vous seront pas facturées."
+      ],
+      "terms": [
+        "Renouvelé ensuite à 20 $/mois, sauf résiliation.",
+        "Utilisable une seule fois.",
+        "Indisponible si l'abonnement est facturé via l'App Store ou Google Play."
+      ]
+    },
+    "google-ai-pro-students-2026": {
+      "title": "Google AI Pro gratuit pendant un an pour les étudiants (AI Plus dans plus de 140 marchés)",
+      "headline": "12 mois de Google AI Pro gratuits",
+      "value": "12 mois gratuits",
+      "audience": "Étudiants aux États-Unis et dans plus de 140 marchés",
+      "summary": "Les étudiants éligibles aux États-Unis bénéficient d'un an de Google AI Pro gratuit, avec des limites Gemini plus élevées et 5 To de stockage. Dans plus de 140 autres marchés, les étudiants ont droit à un an de Google AI Plus gratuit. À activer avant le 31 décembre 2026.",
+      "steps": [
+        "Ouvrez one.google.com/ai-student ou l'espace étudiant gemini.google.com/students.",
+        "Validez votre statut d'étudiant avec SheerID sur un compte Google personnel.",
+        "Ajoutez un moyen de paiement pour lancer les 12 mois gratuits."
+      ],
+      "terms": [
+        "La facturation commence après 12 mois, sauf résiliation.",
+        "L'offre AI Plus exclut les États-Unis, la Bolivie, l'Albanie, le Canada, Macao, Hong Kong et la Tunisie."
+      ]
+    },
+    "github-copilot-student-plan": {
+      "title": "GitHub Copilot gratuit pour les étudiants vérifiés (formule Copilot Student)",
+      "headline": "GitHub Copilot gratuit pour les étudiants",
+      "value": "Gratuit",
+      "audience": "Étudiants vérifiés par GitHub Education",
+      "summary": "Les étudiants vérifiés utilisent GitHub Copilot gratuitement grâce à la formule Copilot Student : complétions de code illimitées et crédits IA mensuels pour le chat et les agents.",
+      "steps": [
+        "Faites une demande GitHub Education en tant qu'étudiant.",
+        "Une fois vérifié, ouvrez github.com/settings/education/benefits.",
+        "Activez Copilot dans les ressources pour développeurs étudiants."
+      ],
+      "terms": [
+        "GitHub revérifie l'éligibilité chaque mois.",
+        "L'activation peut prendre quelques jours après la vérification.",
+        "Les modèles sont choisis par la sélection automatique."
+      ]
+    },
+    "perplexity-education-pro": {
+      "title": "Perplexity Education Pro : Perplexity Pro à prix réduit pour étudiants et enseignants",
+      "headline": "Perplexity Pro à tarif étudiant",
+      "value": "Pro à prix réduit",
+      "audience": "Étudiants & enseignants vérifiés",
+      "summary": "Les étudiants et enseignants vérifiés peuvent passer à Education Pro : tout Perplexity Pro, y compris les modèles premium, les recherches Pro illimitées et Learn Mode, à un prix inférieur au tarif normal.",
+      "steps": [
+        "Ouvrez Upgrade dans l'application Perplexity.",
+        "Passez à la formule Education.",
+        "Sélectionnez Verify as student et terminez la vérification."
+      ]
+    },
+    "notion-education-plus-free": {
+      "title": "Formule Notion Plus gratuite pour étudiants et enseignants",
+      "headline": "Notion Plus gratuit pour les étudiants",
+      "value": "Plus gratuit",
+      "audience": "Étudiants & enseignants",
+      "summary": "Les étudiants et enseignants inscrits avec une adresse e-mail scolaire éligible obtiennent gratuitement la formule Notion Plus pour un membre, avec plus d'invités, un historique des versions plus long et des imports plus volumineux.",
+      "steps": [
+        "Faites de votre e-mail scolaire l'adresse principale de votre compte Notion.",
+        "Ouvrez Settings, puis Billing.",
+        "Choisissez Get free Education plan."
+      ],
+      "terms": [
+        "Revalidez votre statut d'étudiant une fois par an.",
+        "Des milliers de domaines scolaires sont éligibles, pas seulement .edu."
+      ]
+    },
+    "cursor-student-pro-year": {
+      "title": "Cursor Pro gratuit pour les étudiants : programme fermé aux nouvelles inscriptions (25 juin 2026)",
+      "headline": "Cursor Pro gratuit pour les étudiants (terminé)",
+      "value": "1 an gratuit",
+      "audience": "Étudiants vérifiés",
+      "summary": "Le programme étudiant de Cursor offrait un an de Cursor Pro aux étudiants vérifiés. Il est fermé aux nouvelles inscriptions depuis le 25 juin 2026 ; ceux qui en ont déjà profité conservent leur tarif jusqu'à la fin de leur formule.",
+      "terms": [
+        "Les étudiants peuvent encore obtenir des crédits lors d'événements sur les campus et en ligne.",
+        "La formule gratuite Hobby reste disponible."
+      ]
+    }
+  },
+  "tools": {
+    "bolt": { "tagline": "Créez, lancez, modifiez et déployez des apps full-stack dans le navigateur à partir d'un prompt." },
+    "canva": { "tagline": "Plateforme de design en ligne avec génération d'images IA, Magic Design et kits de marque." },
+    "capcut": { "tagline": "Éditeur vidéo avec sous-titres IA, effets et outils texte-vers-vidéo." },
+    "chatgpt": { "tagline": "L'assistant IA polyvalent d'OpenAI pour le chat, la recherche, les images, la voix et les agents." },
+    "claude": { "tagline": "L'assistant IA d'Anthropic pour l'écriture, l'analyse et le code — avec Claude Code et Cowork." },
+    "clickup": { "tagline": "App de travail tout-en-un avec IA pour les tâches, les documents et le chat." },
+    "codex": { "tagline": "L'agent de code d'OpenAI pour le terminal, l'IDE et le cloud." },
+    "copy-ai": { "tagline": "Workflows IA pour les contenus go-to-market et les textes de vente." },
+    "cursor": { "tagline": "Éditeur de code pensé pour l'IA, avec des agents qui planifient, modifient et exécutent le code." },
+    "deepseek": { "tagline": "Modèles de chat et de raisonnement open-weight avec un assistant web et mobile gratuit." },
+    "descript": { "tagline": "Montez vidéos et podcasts en modifiant la transcription." },
+    "elevenlabs": { "tagline": "Voix IA réalistes, doublage, transcription et agents vocaux." },
+    "freepik": { "tagline": "Ressources graphiques et suite IA pour l'image, la vidéo et l'upscaling." },
+    "gamma": { "tagline": "Créez présentations, documents et sites web à partir d'un prompt." },
+    "gemini": { "tagline": "L'assistant IA de Google, intégré à la Recherche, Android et Google Workspace." },
+    "genspark": { "tagline": "Espace de travail d'agents IA pour la recherche, les slides, les tableurs et les appels." },
+    "github-copilot": { "tagline": "Pair programmeur IA et agent de code dans votre éditeur et sur GitHub." },
+    "grammarly": { "tagline": "Assistant d'écriture IA pour la grammaire, le ton et la reformulation dans toutes vos apps." },
+    "grok": { "tagline": "L'assistant de xAI avec accès en temps réel à X, génération d'images et mode vocal." },
+    "heygen": { "tagline": "Vidéos d'avatars IA, traduction et doublage synchronisé sur les lèvres." },
+    "higgsfield": { "tagline": "Génération d'images et de vidéos IA cinématographiques avec préréglages de mouvements de caméra." },
+    "ideogram": { "tagline": "Générateur d'images IA reconnu pour le texte précis dans les images." },
+    "invideo": { "tagline": "Transformez prompts et scripts en vidéos montées avec des images d'archive et IA." },
+    "jasper": { "tagline": "Plateforme de contenu IA pour les équipes marketing, fidèle à la voix de marque." },
+    "kling": { "tagline": "Génération texte-vers-vidéo et image-vers-vidéo avec contrôle du mouvement." },
+    "leonardo": { "tagline": "Génération d'images et de vidéos IA pour les créateurs et les assets de jeux." },
+    "lovable": { "tagline": "Créez des applications web full-stack en discutant avec l'IA." },
+    "manus": { "tagline": "Agent IA polyvalent qui recherche, construit et mène à bien des tâches en plusieurs étapes." },
+    "microsoft-copilot": { "tagline": "Le compagnon IA de Microsoft dans Windows, Edge et Microsoft 365." },
+    "midjourney": { "tagline": "Génération d'images et de vidéos IA de haute qualité." },
+    "mindstudio": { "tagline": "Outil no-code pour créer des agents IA et des automatisations." },
+    "mistral": { "tagline": "L'assistant IA européen et rapide de Mistral, avec recherche web et agents." },
+    "n8n": { "tagline": "Automatisation de workflows avec agents IA — auto-hébergée ou dans le cloud." },
+    "notebooklm": { "tagline": "Carnet de recherche qui répond à partir de vos propres sources et crée des résumés audio." },
+    "notion": { "tagline": "Espace de travail connecté pour documents, wikis et projets, avec agents IA intégrés." },
+    "otter": { "tagline": "Notes de réunion IA, transcription et agents de réunion." },
+    "perplexity": { "tagline": "Moteur de réponses IA qui cherche sur le web et cite ses sources." },
+    "pictory": { "tagline": "Transformez scripts, articles et longues vidéos en clips courts à votre image." },
+    "quillbot": { "tagline": "Reformulation, correction grammaticale et détection d'IA pour étudiants et rédacteurs." },
+    "reclaim": { "tagline": "Calendrier IA qui planifie automatiquement tâches, habitudes et réunions." },
+    "remove-bg": { "tagline": "Suppression d'arrière-plan des photos par IA, en un clic." },
+    "replit": { "tagline": "IDE dans le cloud avec un agent IA qui crée et déploie des applications." },
+    "runway": { "tagline": "Modèles vidéo génératifs et outils de montage pour les cinéastes." },
+    "speechify": { "tagline": "Lecteur texte-vers-parole pour documents, pages web et livres." },
+    "suno": { "tagline": "Générez des chansons complètes avec chant à partir d'un simple prompt." },
+    "surfer": { "tagline": "Éditeur de contenu SEO et rédacteur IA optimisé pour la recherche et les réponses IA." },
+    "synthesia": { "tagline": "Vidéos d'avatars IA de qualité studio pour la formation et l'entreprise." },
+    "v0": { "tagline": "Le créateur d'applications IA de Vercel pour les interfaces React et Next.js." },
+    "windsurf": { "tagline": "IDE agentique avec Cascade, une IA qui travaille sur l'ensemble de votre code." },
+    "writesonic": { "tagline": "Plateforme IA de rédaction et de SEO/GEO pour le marketing de contenu." }
+  },
+  "events": {
+    "chatgpt-students-deadline-2026": { "title": "Dernier jour pour obtenir 4 mois gratuits de ChatGPT Plus (étudiants américains)" },
+    "black-friday-2026": {
+      "title": "Black Friday 2026",
+      "description": "La plus grosse période de réductions de l'année pour les abonnements IA — les formules annuelles et offres à vie baissent souvent en premier."
+    },
+    "cyber-monday-2026": {
+      "title": "Cyber Monday 2026",
+      "description": "Dernier jour de la plupart des soldes logiciels du Black Friday."
+    },
+    "google-ai-students-deadline-2026": { "title": "Dernier jour pour obtenir un an gratuit de Google AI Pro / AI Plus (étudiants)" },
+    "claude-code-plus25-2026": { "title": "Limites hebdo de Claude Code : fin du bonus de +50 %, début du +25 % permanent" },
+    "cursor-students-closed-2026": { "title": "Cursor ferme son année Pro gratuite pour étudiants aux nouvelles inscriptions" }
+  }
+}

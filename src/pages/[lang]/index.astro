@@ -2,7 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import Section from "@/components/Section.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
-import { getDictionary, isHubTranslated, legacyCase } from "@/lib/i18n/dictionaries";
+import { getDictionary } from "@/lib/i18n/dictionaries";
 import { getDeals, getEvents, getTools, toolMap } from "@/lib/content";
 import { getDealStatus, isLive, lastVerified, localize, partitionDeals } from "@/lib/deals";
 import { faqNode, itemListNode, webPageNode } from "@/lib/jsonld";
@@ -15,7 +15,7 @@ import ClaudeWatch from "@/components/islands/ClaudeWatch";
 import FaqAccordion from "@/components/islands/FaqAccordion";
 import ApiTabs from "@/components/islands/ApiTabs";
 import { HeroActions, HeroHeading } from "@/components/site/HeroIntro";
-import { SponsorItem } from "@/components/site/SponsorItem";
+import { SponsorBanner } from "@/components/site/SponsorBanner";
 import { StatCards, type Stat } from "@/components/site/StatCards";
 import { DealCard } from "@/components/site/DealCard";
 import { ToolTiles } from "@/components/site/ToolTiles";
@@ -31,7 +31,6 @@ export function getStaticPaths() {
 const lang = Astro.params.lang as Locale;
 const dict = getDictionary(lang);
 const { hub } = dict;
-const caseClass = legacyCase(lang);
 const [tools, deals, events] = await Promise.all([getTools(), getDeals(), getEvents()]);
 const byTool = toolMap(tools);
 
@@ -122,15 +121,12 @@ const jsonLd = [
         <ClaudeWatch
           client:load
           lang={lang}
-          hero={dict.hero}
           watch={hub.claudeWatch}
           common={hub.common}
           deals={claudeDeals}
           links={links}
           buildTime={BUILD_TIME}
           peakEnabled={PEAK_HOURS.enabled}
-          hubTranslated={isHubTranslated(lang)}
-          caseClass={caseClass}
         />
       </div>
       <div class="[grid-area:actions] lg:self-start">
@@ -143,8 +139,8 @@ const jsonLd = [
         />
       </div>
     </div>
-    <div class="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 pb-10 sm:px-6 lg:pb-14">
-      <SponsorItem dict={dict} />
+    <div class="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 pb-10 sm:px-6 lg:pb-14">
+      <SponsorBanner dict={dict} />
       <StatCards stats={stats} />
     </div>
   </section>
@@ -192,11 +188,11 @@ const jsonLd = [
     <DealTimeline deals={history} lang={lang} hub={hub} />
   </Section>
 
-  <Section id="faq" title={dict.faq.title} titleClassName={caseClass} muted>
+  <Section id="faq" title={dict.faq.title} muted>
     <FaqAccordion client:visible items={dict.faq.items} />
   </Section>
 
-  <Section id="developer-tools" title={dict.devTools.title} description={dict.devTools.subtitle} titleClassName={caseClass}>
+  <Section id="developer-tools" title={dict.devTools.title} description={dict.devTools.subtitle}>
     <ApiTabs
       client:visible
       title={dict.devTools.apiTitle}

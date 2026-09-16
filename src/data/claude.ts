@@ -77,3 +77,12 @@ export const CITY_SCHEDULES: CitySchedule[] = [
   { city: "Beijing", ianaTimezone: "Asia/Shanghai" },
   { city: "São Paulo", ianaTimezone: "America/Sao_Paulo" },
 ];
+
+/** Plans whose session limits drain faster during peak hours. */
+export const PEAK_AFFECTED_PLANS = [
+  { name: "Free", affected: true },
+  { name: "Pro", affected: true },
+  { name: "Max", affected: true },
+  { name: "Team", affected: true },
+  { name: "Enterprise", affected: false },
+] as const;

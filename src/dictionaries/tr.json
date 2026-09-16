@@ -1,214 +1,298 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Yoğun Saat Takipçisi",
-    "description": "Claude'un oturum limitlerinin ne zaman daha hızlı tükendiğini anında öğrenin. Kendi saat diliminizde gerçek zamanlı yoğun saat durumu — Free, Pro, Max & Team. Kurulum gerektirmez.",
-    "ogTitle": "PromoClock — Claude'un limitleri şu an daha hızlı mı tükeniyor?",
-    "ogDescription": "Tahmin etmeyi bırakın. PromoClock, Claude'un yoğun saatlerinde olup olmadığınızı anında gösterir."
+    "title": "Claude Yoğun Saatleri & Güncel AI Fırsatları | PromoClock",
+    "description": "Canlı Claude yoğun saat takibi, son Claude limit değişiklikleri ve 50 AI aracı için doğrulanmış öğrenci teklifleri ile promosyonlar; kaynaklar ve geri sayımlarla.",
+    "ogTitle": "Claude yoğun saatleri & AI fırsatları, canlı",
+    "ogDescription": "Claude şu an yoğun saatte mi? Limitlerinde ne değişti? Hangi AI araçlarında aktif promosyon var? Hepsi tek bir saatte."
   },
-  "header": {
-    "logo": "PromoClock",
-    "nav": {
-      "howItWorks": "Nasıl Çalışır",
-      "eligibility": "Planlar",
-      "schedule": "Takvim",
-      "faq": "SSS",
-      "devTools": "Araçlar"
-    }
-  },
-  "hero": {
-    "badge": "CLAUDE YOĞUN SAATLER",
-    "promotionActive": "YOĞUN OLMAYAN — NORMAL LIMIT",
-    "promotionInactive": "YOĞUN SAATLER — LİMİTLER DAHA HIZLI TÜKENİYOR",
-    "promotionExpired": "YOĞUN OLMAYAN — NORMAL LIMIT",
-    "promotionNotStarted": "YOĞUN OLMAYAN — NORMAL LIMIT",
-    "activeSubtitle": "Yoğun olmayan saatler — oturum limitleri normal hızda tükeniyor. Token-yoğun işler için en uygun zaman.",
-    "inactiveSubtitle": "Yoğun saatler (hafta içi 5am–11am PT / 1pm–7pm GMT) — oturum limitleri normalden hızlı tükeniyor. Haftalık limitler değişmedi.",
-    "expiredSubtitle": "Yoğun olmayan saatler — oturum limitleri normal hızda tükeniyor. Token-yoğun işler için en uygun zaman.",
-    "notStartedSubtitle": "Yoğun olmayan saatler — oturum limitleri normal hızda tükeniyor. Token-yoğun işler için en uygun zaman.",
-    "countdownLabel": "Sonraki durum değişikliğine kalan",
-    "yourTimezone": "Saat diliminiz",
-    "yourLocalTime": "Yerel saatiniz",
-    "days": "GÜN",
-    "hours": "SAAT",
-    "minutes": "DAK",
-    "seconds": "SAN",
-    "peakHours": "Yoğun Saatler (Limitler Daha Hızlı Tükeniyor)",
-    "offPeakHours": "Yoğun Olmayan Saatler (Normal Hız)",
-    "weekdays": "Hafta İçi",
-    "allWeekend": "Tüm Hafta Sonu (Normal Hız)",
-    "sinceLastChange": "son durum değişikliğinden beri"
-  },
-  "howItWorks": {
-    "title": "NASIL ÇALIŞIR",
-    "subtitle": "Basit tutuyoruz — siz Claude ile üretmeye odaklanın.",
-    "steps": [
-      {
-        "title": "SAAT DİLİMİNİZİ ALGILIYORUZ",
-        "description": "PromoClock'u açtığınız an, cihazınızın saat dilimini otomatik olarak okuruz. Kurulum veya yapılandırma gerekmez."
-      },
-      {
-        "title": "GERÇEK ZAMANLI HESAPLIYORUZ",
-        "description": "Motorumuz, yerel saatinizi Anthropic'in resmi yoğun saatleriyle (Hafta içi 08:00 – 14:00 ET) karşılaştırır ve ABD yaz saati uygulamasını hesaba katar."
-      },
-      {
-        "title": "DURUMUNUZU ANINDA GÖRÜRSÜNÜz",
-        "description": "Net gerçek zamanlı ekran, yoğun saatte mi (limitler hızlı tükeniyor) yoksa yoğun olmayan saatte mi (normal hız) olduğunuzu gösterir — sonraki değişikliğe kadar geri sayımla."
-      }
-    ]
-  },
-  "eligibility": {
-    "title": "ETKİLENENLER",
-    "subtitle": "Oturum limiti ayarlamaları tüm Claude abonelik seviyelerine uygulanır.",
-    "eligible": "Etkileniyor",
-    "notEligible": "Etkilenmiyor",
-    "plans": [
-      {
-        "name": "Free",
-        "status": true,
-        "description": "Yoğun saatlerde oturum limitleri normalden hızlı tükeniyor. Token-yoğun işleri yoğun olmayan saatlere taşıyın."
-      },
-      {
-        "name": "Pro",
-        "status": true,
-        "description": "Pro kullanıcıların ~%7'si daha önce ulaşamadıkları limitlere ulaşabilir. Ağır iş yükleri için yoğun olmayan saatler idealdir."
-      },
-      {
-        "name": "Max",
-        "status": true,
-        "description": "Yoğun saatlerde oturum limitleri normalden hızlı tükeniyor. Otonom ajanları ve veri işlemesini yoğun olmayan saatlere programlayın."
-      },
-      {
-        "name": "Team",
-        "status": true,
-        "description": "Team çalışma alanları etkileniyor. Ağır iş yüklerini yoğun olmayan saatler için koordine edin."
-      },
-      {
-        "name": "Enterprise",
-        "status": false,
-        "description": "Enterprise planları özel kapasite ve özel sözleşmelere sahip olduğundan bu oturum limiti ayarlamalarından etkilenmiyor."
-      }
-    ],
-    "platforms": {
-      "title": "Tüm Claude yüzeylerinde geçerli",
-      "items": [
-        "Web (claude.ai)",
-        "Masaüstü (Mac / Windows)",
-        "Mobil (iOS / Android)",
-        "Claude Cowork",
-        "Claude Code (Terminal)",
-        "Excel ve PowerPoint Eklentileri"
-      ]
-    },
-    "note": "Haftalık limitler değişmedi. Yoğun saatlerde (hafta içi 5am–11am PT / 1pm–7pm GMT) oturum limitleri normalden hızlı tükeniyor. Bu düzenin ne zaman bozulacağı bilinmiyor."
+  "notifications": {
+    "peakTitle": "Claude yoğun saatleri başladı",
+    "peakBody": "Yoğun saatler bitene kadar oturum limitleri daha hızlı tükenir.",
+    "offPeakTitle": "Claude yoğun saat dışında",
+    "offPeakBody": "Oturum limitleri yeniden normal hızda tükeniyor."
   },
   "schedule": {
-    "title": "KÜRESEL TAKVİM",
-    "subtitle": "Büyük şehirlerde yoğun saatlerin ne zaman gerçekleşteğini görün. Yoğun saatlerde oturum limitleri normalden hızlı tükeniyor. Pik: hafta içi 1pm–7pm GMT / 5am–11am PT.",
     "tableHeaders": {
-      "city": "Şehir / Bölge",
-      "timezone": "Saat Dilimi",
-      "peakHours": "Yoğun Saatler (Hızlı Tükenme)",
-      "offPeakHours": "Yoğun Olmayan (Normal Hız)"
+      "city": "Şehir",
+      "timezone": "Saat dilimi",
+      "peakHours": "Yoğun saatler",
+      "offPeakHours": "Yoğun olmayan"
     },
-    "weekdayLabel": "Hafta İçi",
-    "weekendLabel": "Tüm Hafta Sonu → Normal Hız"
+    "weekendLabel": "Hafta sonları gün boyu yoğun saat dışıdır."
   },
   "faq": {
-    "title": "SIKÇA SORULAN SORULAR",
-    "subtitle": "Claude oturum limitleri sistemi hakkında bilmeniz gereken her şey.",
+    "title": "Sık sorulan sorular",
     "items": [
       {
-        "question": "Claude oturum limitlerinde ne değişti?",
-        "answer": "27 Mart 2026'dan itibaren Claude, yoğun saatlerde oturum limitlerinin normalden hızlı tükenmesini sağlayan bir sistem uyguluyor. Yoğun saatler dışında — hafta içi akşamları, geceler ve tüm hafta sonu — limitler normal hızda tükeniyor. Haftalık limitler değişmedi. Bu düzenin ne zaman bozulacağı bilinmiyor."
+        "question": "Claude'un yoğun saatleri ne zaman?",
+        "answer": "Claude'un yoğun saatleri hafta içi 13:00–19:00 UTC arasıdır. Hafta içi akşamlar, geceler ve hafta sonunun tamamı yoğun saat dışıdır."
       },
       {
-        "question": "Yoğun saatler tam olarak ne zaman?",
-        "answer": "Yoğun saatler hafta içi 1pm–7pm UTC. Hafta içi akşamları, geceler ve tüm hafta sonu (Cumartesi ve Pazar, 24 saat) yoğun olmayan saatlerdir — bu saatlerde limitler normal hızda tükeniyor."
+        "question": "Yoğun saatlerde ne oluyor?",
+        "answer": "Free, Pro, Max ve Team planlarında 5 saatlik oturum limitin normalden hızlı tükenir. Haftalık limitler değişmez."
       },
       {
-        "question": "Benim saat dilimimde yoğun saatler ne zaman?",
-        "answer": "PromoClock cihazınızın saat dilimini otomatik olarak algılar ve sayfanın üstünde gerçek zamanlı durumunuzu gösterir."
+        "question": "Claude şu anda yoğun saatte mi?",
+        "answer": "Sayfanın üstündeki canlı saat, senin saat dilimine göre güncel durumu gösterir ve bir sonraki değişikliğe geri sayar. Geliştiriciler durumu GET /api/status ile sorgulayabilir."
       },
       {
         "question": "Hangi Claude planları etkileniyor?",
-        "answer": "Free, Pro, Max ve Team planlarının tamamı etkileniyor. Enterprise planları özel kapasite ve özel sözleşmelere sahip olduğundan etkilenmiyor."
+        "answer": "Free, Pro, Max ve Team. Enterprise planları etkilenmez; Pro ve Max'te Claude Code ise 6 Mayıs 2026'dan beri muaf."
       },
       {
-        "question": "Haftalık limitler değişiyor mu?",
-        "answer": "Hayır. Haftalık limitler aynı kalıyor. Yoğun saatlerde oturum limitlerinin tükenme hızı değişti. Pro kullanıcıların ~%7'si daha önce ulaşamadıkları limitlere ulaşabilir."
+        "question": "14 Eylül 2026'da Claude Code limitlerinde ne değişti?",
+        "answer": "Standart Claude Code haftalık limitleri, promosyon öncesi seviyenin kalıcı olarak %25 üstüne çıktı. Geçici +%50 artış aynı gün sona erdiği için yoğun kullanıcıların haftalık kapasitesi promosyon dönemine göre yaklaşık %17 azaldı."
       },
       {
-        "question": "Oturum limitlerini nasıl maksimize edebilirim?",
-        "answer": "Token-yoğun işleri yoğun olmayan saatlere (hafta içi akşam/gece ve hafta sonu) taşıyın. Bu saatlerde oturum limitleri normal hızda tükeniyor."
+        "question": "Claude limitlerimden nasıl daha fazla yararlanırım?",
+        "answer": "Uzun ya da çok token harcayan işleri hafta içi yoğun saatlerin dışında, örneğin akşam veya hafta sonu çalıştır; bu saatlerde oturum limitleri normal hızda tükenir."
       },
       {
-        "question": "Hangi platformlarda geçerli?",
-        "answer": "Tüm Claude yüzeylerinde geçerli: claude.ai web, masaüstü (Mac ve Windows), mobil (iOS ve Android), Claude Cowork, Claude Code (terminal) ve Excel/PowerPoint eklentileri."
+        "question": "Mart 2026 Claude promosyonu neydi?",
+        "answer": "13–27 Mart 2026 arasında Claude, Free, Pro, Max ve Team planlarında hafta içi yoğun saatler dışında ve hafta sonu boyunca oturum limitlerini iki katına çıkardı."
       },
       {
-        "question": "Mart 2026 promosynonu ne oldu?",
-        "answer": "Claude Mart 2026 yoğun olmayan saat promosynonu (2x limit) 13–27 Mart 2026 arasında yaşandı ve sona erdi. Mevcut sistem (yoğun saatlerde limitler hızlı tükeniyor) 27 Mart 2026'da devreye girdi. Aşağıdaki arşiv bölümüne bakın."
+        "question": "PromoClock AI fırsatlarını nasıl doğruluyor?",
+        "answer": "Her fırsat, yardım merkezi makalesi veya şirket blogu gibi resmi bir kaynağa bağlanır ve en son hangi tarihte kontrol edildiğini gösterir. Süresi dolan teklifler canlı listelerden otomatik olarak kalkar."
       },
       {
-        "question": "PromoClock nedir ve kim tarafından yapıldı?",
-        "answer": "PromoClock, Onur Şendere (X'te @onursendere) tarafından dünya genelindeki Claude kullanıcılarının yoğun olmayan promosyon penceresinde olup olmadıklarını anında anlamalarına yardımcı olmak için geliştirilmiştir. Bağımsız bir projedir ve Anthropic ile herhangi bir bağlantısı yoktur."
-      },
-      {
-        "question": "Claude Code +%50 haftalık limit artışı nedir?",
-        "answer": "Anthropic 13 Mayıs 2026'da Pro, Max, Team ve koltuk bazlı Enterprise kullanıcılar için Claude Code haftalık limitlerinde %50'lik bir artış duyurdu. 13 Temmuz 2026 (18:00 PDT) saatine kadar geçerli. CLI, IDE eklentileri, masaüstü ve web genelinde otomatik olarak uygulanır. Free planı ve Claude.ai chat / Cowork limitleri etkilenmez."
-      },
-      {
-        "question": "Anthropic 6 Mayıs'ta peak hours sistemini tamamen kaldırdı mı?",
-        "answer": "Sadece kısmen. Anthropic 6 Mayıs 2026'da peak hours kısıtlamasını yalnızca Pro ve Max planlarındaki Claude Code için kaldırdı; aynı zamanda Claude Code 5 saatlik oturum limitlerini ikiye katladı. Peak hours hâlâ Claude.ai chat, Cowork, mobil ve masaüstü uygulamaları için Free, Pro, Max ve Team kullanıcılarında geçerli — bu nedenle yukarıdaki gerçek zamanlı peak hours sayacı çoğu iş akışı için hâlâ yararlı. Kaynaklar: Anthropic duyurusu (6 Mayıs 2026), Ars Technica, Appwrite blog."
-      },
-      {
-        "question": "Claude Cowork Haziran 2026 kullanım promosyonu nedir?",
-        "answer": "5 Haziran'dan 5 Temmuz 2026'ya (23:59 PT) kadar Anthropic, Claude Cowork içindeki 5 saatlik kullanım limitini Pro, Max, Team ve eski koltuk bazlı Enterprise kullanıcıları için ikiye katlıyor. Otomatik uygulanır — herhangi bir işlem gerekmez — ve haftalık limitler aynı kalır. Free planları ve kullanım bazlı Enterprise koltukları uygun değildir. Artış yalnızca Cowork ile sınırlıdır; web, masaüstü, mobil üzerindeki Claude ve Claude Code değişmedi. Kaynak: resmi Anthropic destek makalesi."
+        "question": "PromoClock'un Anthropic ile bir bağlantısı var mı?",
+        "answer": "Hayır. PromoClock, Onur Şendere'nin bağımsız bir projesidir. Bazı dış bağlantılar ortaklık (affiliate) bağlantısıdır, ancak hangi fırsatların listeleneceğini asla bunlar belirlemez."
       }
     ]
   },
   "devTools": {
-    "title": "GELİŞTİRİCİ ARAÇLARI",
-    "subtitle": "Claude yoğun saat durumunu iş akışınıza entegre edin. API endpoint ve terminal prompt'u — tarayıcıya gerek yok.",
-    "apiTitle": "JSON API & Terminal Entegrasyonu",
-    "apiDescription": "Herkese açık /api/status endpoint'i, yoğun saat durumunu gerçek zamanlı JSON olarak döner. ZSH/Bash prompt'unuza entegre edin.",
-    "tryApi": "Canlı API'yi dene",
-    "notifTitle": "Tarayıcı Bildirimleri ve Sesli Uyarılar",
-    "notifDescription": "Başlıktaki zil simgesini etkinleştirin — Claude yoğun olmayan moda geçtiğinde (limitler normal hıza döndüğünde) anında tarayıcı bildirimi ve yumuşak bir zil sesi alın."
-  },
-  "claudeCodeBoost": {
-    "badge": "AYRICA AKTİF",
-    "scope": "Sadece Claude Code",
-    "title": "Claude Code haftalık limitleri 13 Temmuz 2026'ya kadar +%50 arttı",
-    "subtitle": "Yukarıdaki peak hours sisteminden ayrı. Anthropic 13 Mayıs 2026'da Pro, Max, Team ve koltuk bazlı Enterprise için Claude Code haftalık limitlerini %50 artırdı. Otomatik uygulanır — aktivasyon gerekmez. 6 Mayıs'ta duyurulan 5 saatlik limitlerdeki 2x artışla birlikte kullanılabilir.",
-    "endsLabel": "Bitiş",
-    "endsValue": "13 Temmuz 2026 · 18:00 PDT (14 Temmuz 01:00 GMT)",
-    "sourceLabel": "Kaynak: r/ClaudeAI'da resmi duyuru",
-    "note": "Claude.ai chat / Cowork limitlerini etkilemez."
-  },
-  "coworkBoost": {
-    "badge": "ŞİMDİ AKTİF",
-    "scope": "Sadece Claude Cowork",
-    "title": "Claude Cowork 5 saatlik kullanım limiti 5 Temmuz 2026'ya kadar ikiye katlandı (2×)",
-    "subtitle": "Peak hours sisteminden ve yukarıdaki Claude Code artışından ayrı. Anthropic, 5 Haziran 2026'dan itibaren Claude Cowork içindeki 5 saatlik kullanım limitini Pro, Max, Team ve eski koltuk bazlı Enterprise için ikiye katlıyor. Otomatik uygulanır — aktivasyon gerekmez. Haftalık limitler değişmedi.",
-    "endsLabel": "Bitiş",
-    "endsValue": "5 Temmuz 2026 · 23:59 PT",
-    "sourceLabel": "Kaynak: resmi Anthropic destek makalesi",
-    "note": "Free ve kullanım bazlı Enterprise koltukları uygun değil. Diğer Claude ürünleri (web, masaüstü, mobil, Code) değişmedi."
+    "title": "Geliştirici araçları",
+    "subtitle": "Claude'un yoğun saat durumunu ve canlı AI fırsatlarını terminaline, script'lerine veya uygulamalarına taşı.",
+    "apiTitle": "JSON API",
+    "apiDescription": "Ücretsiz, CORS destekli uç noktalar; IP başına dakikada 60 istekle sınırlı."
   },
   "sponsors": {
     "stackopticHeadline": "Herhangi bir URL yapıştır. Tam resmi gör.",
     "stackopticSub": "Performans, SEO, güvenlik, AI görünürlüğü, tech stack — 18 modül, tek tarama.",
     "stackopticPromoBadge": "%50 İNDİRİM",
     "stackopticPromo": "Solo planında ilk ay",
-    "stackopticCode": "SOLO50"
+    "stackopticCode": "SOLO50",
+    "stackopticCta": "%50 indirimi al"
   },
   "footer": {
     "crafted": "Shrewsbury, UK'de Claude ile sevgiyle yapıldı.",
-    "digiwingsPromo": "İşletmeniz için özel tasarımlı, GEO ile optimize edilmiş web çözümlerine mi ihtiyacınız var?",
-    "digiwingsCta": "Tek kişilik dijital ajansımı ziyaret edin",
-    "buymeacoffee": "Saat dilimi karmaşasından kurtulmanıza yardımcı olduysa, bana bir kahve ısmarlayabilirsiniz",
-    "disclaimer": "PromoClock bağımsız bir projedir ve Anthropic veya Claude ile herhangi bir bağlantısı yoktur. Yalnızca bilgilendirme amaçlıdır.",
+    "buymeacoffee": "Saat dilimi hesabından kurtardıysa, bana bir kahve ısmarla",
+    "disclaimer": "PromoClock bağımsız bir projedir ve Anthropic veya Claude ile bağlantısı yoktur. Yalnızca bilgilendirme amaçlıdır.",
     "rights": "© 2026 PromoClock. Onur Şendere tarafından geliştirildi."
+  },
+  "hub": {
+    "nav": {
+      "claude": "Claude Watch",
+      "deals": "AI Fırsatları",
+      "tools": "AI Araçları",
+      "calendar": "Takvim",
+      "api": "API",
+      "menu": "Menü",
+      "language": "Dili değiştir",
+      "theme": "Karanlık modu aç/kapat",
+      "about": "Hakkında"
+    },
+    "common": {
+      "verified": "Doğrulandı",
+      "startsIn": "Başlamasına",
+      "ended": "Sona erdi",
+      "ongoing": "Devam ediyor",
+      "visit": "{name} sitesine git",
+      "getDeal": "Fırsatı al",
+      "details": "Detaylar",
+      "code": "Kod",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "affiliateNote": "Bazı bağlantılar ortaklık (affiliate) bağlantısıdır. Sana ek bir maliyeti olmadan komisyon kazanabiliriz — bu, hangi fırsatları listelediğimizi asla değiştirmez.",
+      "disclosureLink": "Ortaklık açıklaması",
+      "daysLeft": "{n} gün kaldı",
+      "hoursLeft": "{h} sa {m} dk kaldı",
+      "offer": "Teklif",
+      "who": "Kimler için",
+      "ends": "Bitiş",
+      "started": "Başlangıç",
+      "regions": "Bölgeler",
+      "howToClaim": "Nasıl alınır",
+      "goodToKnow": "Bilmen gerekenler",
+      "related": "Diğer fırsatlar",
+      "live": "Canlı",
+      "sources": "Kaynak"
+    },
+    "kinds": {
+      "limit-boost": "Limit artışı",
+      "limit-change": "Limit değişikliği",
+      "discount": "İndirim",
+      "student": "Öğrenci teklifi",
+      "free-trial": "Ücretsiz deneme",
+      "launch": "Lansman",
+      "seasonal": "Sezon indirimi"
+    },
+    "categories": {
+      "chat": "Sohbet & arama",
+      "coding": "Kodlama & uygulama geliştirme",
+      "image": "Görsel & tasarım",
+      "video": "Video & avatar",
+      "audio": "Ses & müzik",
+      "writing": "Yazı & SEO",
+      "productivity": "Verimlilik & toplantı",
+      "agents": "Ajanlar & otomasyon"
+    },
+    "claudeWatch": {
+      "badge": "Claude Watch",
+      "peak": "Yoğun",
+      "offPeak": "Yoğun değil",
+      "livePromo": "Canlı Claude promosyonu",
+      "promoEndsIn": "Promosyonun bitmesine",
+      "peakNote": "Yoğun saatler en son 27 Mart 2026'da resmi olarak açıklandı ve hâlâ Claude.ai sohbeti, Cowork ve uygulamalar için geçerli görünüyor. Pro ve Max'te Claude Code 6 Mayıs 2026'dan beri muaf.",
+      "statusTitle": "Claude durumu",
+      "peakShort": "Limitler hızlı tükeniyor",
+      "offPeakShort": "Limitler normal",
+      "changesIn": "Değişmesine",
+      "peakWindow": "Yoğun saatler · senin saatinle",
+      "nextPeakWindow": "Sonraki yoğun saatler · senin saatinle",
+      "whatsNew": "Yeni",
+      "info": "Yoğun saatler hakkında"
+    },
+    "home": {
+      "heroEyebrow": "Canlı · her gün güncellenir",
+      "heroTitle": "Claude yoğun saatleri & AI fırsatları, canlı",
+      "heroSubtitle": "Claude limitlerinin ne zaman hızlı tükendiğini gör ve 50 AI aracındaki doğrulanmış promosyonları yakala.",
+      "ctaDeals": "Canlı fırsatlara bak",
+      "ctaTools": "50 aracı keşfet",
+      "statsLive": "Canlı fırsat",
+      "statsTools": "Takip edilen AI aracı",
+      "statsDeadline": "Sıradaki son tarih",
+      "statsLanguages": "Dil",
+      "sponsored": "Sponsorlu",
+      "dealsTitle": "Canlı AI fırsatları",
+      "dealsSubtitle": "Kaynaklı ve canlı geri sayımlı doğrulanmış teklifler.",
+      "dealsCta": "Tüm fırsatlar",
+      "toolsTitle": "50 AI aracı, tek saat",
+      "toolsSubtitle": "Canlı fırsatlarını ve promosyon geçmişini görmek için bir araç seç.",
+      "toolsCta": "Tüm araçlar",
+      "historyTitle": "Claude promosyon geçmişi",
+      "historySubtitle": "Tüm Claude limit değişiklikleri ve promosyonları, en yeniden eskiye.",
+      "peakTitle": "Bir bakışta Claude yoğun saatleri",
+      "peakAnswer": "Claude'un yoğun saatleri hafta içi 13:00–19:00 UTC arasıdır. Yoğun saatlerde Free, Pro, Max ve Team planlarındaki 5 saatlik oturum limitleri daha hızlı tükenir; haftalık limitler değişmez.",
+      "peakFacts": [
+        {
+          "label": "Yoğun saatler",
+          "value": "Hafta içi, 13:00–19:00 UTC"
+        },
+        {
+          "label": "Yoğun olmayan",
+          "value": "Akşamlar, geceler ve hafta sonları"
+        },
+        {
+          "label": "Haftalık limitler",
+          "value": "Değişmedi"
+        },
+        {
+          "label": "Geçerlilik başlangıcı",
+          "value": "27 Mart 2026"
+        },
+        {
+          "label": "Pro & Max'te Claude Code",
+          "value": "6 Mayıs 2026'dan beri muaf"
+        }
+      ],
+      "affectedPlans": "Etkilenen planlar",
+      "scheduleTitle": "Şehrinde yoğun saatler"
+    },
+    "deals": {
+      "metaTitle": "AI Fırsatları & Öğrenci Teklifleri ({month}) | PromoClock",
+      "metaDescription": "{month} için doğrulanmış AI fırsatları: öğrencilere ücretsiz ChatGPT Plus ve Google AI Pro, GitHub Copilot, Notion ve fazlası; son tarihler ve resmi kaynaklarla.",
+      "title": "Canlı AI fırsatları",
+      "subtitle": "Her teklif resmi kaynağıyla kontrol edilir. Süresi dolan fırsatlar otomatik olarak listeden kalkar.",
+      "filterAll": "Tümü",
+      "live": "Şu an canlı",
+      "upcoming": "Yakında",
+      "archive": "Yakın zamanda bitenler",
+      "empty": "Şu anda bu filtreye uyan fırsat yok."
+    },
+    "tools": {
+      "metaTitle": "50 AI Aracı: Promosyonlar, Fırsatlar & Limitler | PromoClock",
+      "metaDescription": "ChatGPT ve Claude'dan Cursor, Canva ve ElevenLabs'e en popüler 50 AI aracının promosyonlarını, öğrenci tekliflerini, fiyat değişikliklerini ve kullanım limiti haberlerini takip et.",
+      "title": "AI araçları",
+      "subtitle": "En çok kullanılan 50 AI aracı. Canlı fırsatları ve promosyon geçmişi için birini seç.",
+      "filterAll": "Tümü",
+      "withDeals": "Yalnızca canlı fırsatlar",
+      "searchPlaceholder": "Araç ara…",
+      "liveDeals": "{count} canlı",
+      "noLiveDeals": "Şu anda canlı fırsat yok — daha sonra tekrar bak ya da tüm fırsatlara göz at.",
+      "pastDeals": "Geçmiş promosyonlar",
+      "toolMetaTitle": "{name} Fırsatları, Promosyonları & Limitleri ({month}) | PromoClock",
+      "toolMetaDescription": "{month} için canlı {name} fırsatları, öğrenci teklifleri ve limit değişiklikleri; her biri resmi kaynakla kontrol edilir ve her gün güncellenir.",
+      "currentDeals": "Güncel fırsatlar",
+      "allTools": "Tüm araçlar",
+      "empty": "Aramana uyan araç yok."
+    },
+    "calendar": {
+      "metaTitle": "AI Promosyon Takvimi: Son Tarihler & İndirimler | PromoClock",
+      "metaDescription": "Yaklaşan AI promosyon son tarihleri, öğrenci teklifi bitişleri, lansmanlar ve Black Friday gibi sezon indirimleri tek bir takvimde.",
+      "title": "AI promosyon takvimi",
+      "subtitle": "Planını yaparken bilmen gereken son tarihler, lansmanlar ve indirimler.",
+      "upcoming": "Yaklaşan",
+      "past": "Geçmiş",
+      "empty": "Henüz planlanmış bir şey yok."
+    },
+    "disclosure": {
+      "metaTitle": "Ortaklık Açıklaması — PromoClock",
+      "metaDescription": "PromoClock'un ortaklık bağlantılarını nasıl kullandığı ve hangi AI fırsatlarını listeleyeceğini nasıl seçtiği.",
+      "title": "Ortaklık açıklaması",
+      "paragraphs": [
+        "PromoClock bağımsız bir projedir. Bu sitedeki bazı AI aracı bağlantıları ortaklık (affiliate) veya partner bağlantısıdır. Bunlardan biri üzerinden kaydolur ya da satın alırsan, sana ek bir maliyeti olmadan komisyon kazanabiliriz.",
+        "Ortaklık ilişkileri bir fırsatın listelenip listelenmeyeceğini asla belirlemez. Aracın resmi kanallarında herkese açık olan teklifleri listeler, özgün kaynağa bağlantı verir ve her birini en son hangi tarihte doğruladığımızı gösteririz.",
+        "Promosyon kodları yalnızca araç tarafından yayınlandığında veya partner programınca sağlandığında gösterilir. Süresi dolan teklifler canlı listelerden otomatik olarak kaldırılır.",
+        "Ortaklık programı olmayan araçlar — ChatGPT, Gemini, Claude ve Midjourney dahil — tamamen aynı şekilde ele alınır. PromoClock'un Anthropic veya listelenen herhangi bir araçla bağlantısı yoktur.",
+        "Sorun mu var? X'te @onursendere hesabından ulaşabilirsin."
+      ]
+    },
+    "dealPage": {
+      "metaTitle": "{headline} ({month}) | PromoClock",
+      "faqTitle": "Bu fırsatla ilgili sorular",
+      "qAvailable": "Bu teklif hâlâ geçerli mi?",
+      "aLive": "Evet. {date} itibarıyla geçerli ve {end} tarihinde sona eriyor.",
+      "aOngoing": "Evet. {date} itibarıyla açıklanmış bir bitiş tarihi olmayan, devam eden bir program.",
+      "aUpcoming": "Henüz değil. {start} tarihinde başlıyor.",
+      "aEnded": "Hayır. {end} tarihinde sona erdi.",
+      "qWho": "Kimler yararlanabilir?",
+      "qHow": "Nasıl alırım?",
+      "qChange": "Ne değişti?",
+      "qWhen": "Ne zaman yürürlüğe girdi?",
+      "aWhen": "{date} tarihinde.",
+      "qSource": "Bu bilgi nereden geliyor?",
+      "aSource": "{source} kaynağından. PromoClock en son {date} tarihinde kontrol etti."
+    },
+    "about": {
+      "metaTitle": "PromoClock Hakkında: Claude Limitlerini & AI Fırsatlarını Nasıl Takip Ediyoruz",
+      "metaDescription": "PromoClock'u kimin yönettiği, her Claude limit değişikliğinin ve AI fırsatının resmi kaynaklarla nasıl doğrulandığı ve sitenin ne sıklıkla güncellendiği.",
+      "title": "PromoClock hakkında",
+      "intro": "PromoClock, Claude'un kullanım limitlerini ve 50 popüler AI aracındaki doğrulanmış promosyonları takip eden bağımsız bir sitedir.",
+      "sections": [
+        {
+          "title": "Nasıl doğruluyoruz",
+          "body": "Her fırsat ve limit değişikliği resmi bir kaynağa bağlanır: bir yardım merkezi makalesi, resmi bir blog yazısı veya şirketin kendi hesabından yapılmış bir duyuru. Her birini en son hangi tarihte kontrol ettiğimizi kaydeder ve yalnızca şirketin ya da partner programının sağladığı kodları yayınlarız."
+        },
+        {
+          "title": "Ne sıklıkla güncelleniyor",
+          "body": "Site her gün yeniden oluşturulur. Fırsatların durumu başlangıç ve bitiş tarihlerinden hesaplanır; böylece süresi dolan teklifler canlı listelerden otomatik olarak kalkar ve yoğun saat takibi tarayıcında canlı çalışır."
+        },
+        {
+          "title": "Kim yönetiyor",
+          "body": "PromoClock, İngiltere'nin Shrewsbury kentinde tek kişilik dijital ajans Digiwings'in kurucusu Onur Şendere tarafından geliştirilir ve yönetilir. Anthropic veya listelenen herhangi bir araçla bağlantısı yoktur."
+        },
+        {
+          "title": "İletişim",
+          "body": "Güncelliğini yitirmiş bir fırsat ya da yeni bir promosyon mu gördün? X'te @onursendere hesabına gönder."
+        }
+      ]
+    },
+    "notFound": {
+      "title": "Bu sayfa mola verdi",
+      "body": "Aradığın sayfa yok ya da taşınmış.",
+      "cta": "Claude Watch'a dön"
+    }
   }
 }

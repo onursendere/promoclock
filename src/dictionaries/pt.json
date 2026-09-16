@@ -1,210 +1,298 @@
 {
   "meta": {
-    "title": "PromoClock — Rastreador de Horários de Pico do Claude",
-    "description": "Saiba na hora quando os limites de sessão do Claude se esgotam mais rápido. Status em tempo real para seu fuso horário — Free, Pro, Max & Team. Sem configuração.",
-    "ogTitle": "PromoClock — Os limites do Claude estão se esgotando mais rápido agora?",
-    "ogDescription": "Pare de adivinhar. PromoClock mostra instantaneamente se você está nos horários de pico do Claude."
+    "title": "Horário de pico do Claude e ofertas de IA ao vivo | PromoClock",
+    "description": "Relógio ao vivo do horário de pico do Claude, as últimas mudanças nos limites do Claude e ofertas para estudantes e promoções verificadas de 50 ferramentas de IA, com fontes e contagens regressivas.",
+    "ogTitle": "Horário de pico do Claude e ofertas de IA, ao vivo",
+    "ogDescription": "O Claude está no horário de pico agora? O que mudou nos seus limites? Quais ferramentas de IA têm promoções ativas? Um só relógio para tudo."
   },
-  "header": {
-    "logo": "PromoClock",
-    "nav": {
-      "howItWorks": "Como Funciona",
-      "eligibility": "Planos",
-      "schedule": "Horários",
-      "faq": "FAQ",
-      "devTools": "Ferramentas"
-    }
-  },
-  "hero": {
-    "badge": "LIMITES DE SESSÃO CLAUDE",
-    "promotionActive": "FORA DE PICO — LIMITES NORMAIS",
-    "promotionInactive": "HORÁRIO DE PICO — LIMITES MAIS RÁPIDOS",
-    "promotionExpired": "FORA DE PICO — LIMITES NORMAIS",
-    "promotionNotStarted": "FORA DE PICO — LIMITES NORMAIS",
-    "activeSubtitle": "Fora de pico — seus limites de sessão de 5h se esgotam em velocidade normal. Ideal para tarefas intensivas em tokens.",
-    "inactiveSubtitle": "Horário de pico (seg–sex 13h–19h GMT) — os limites de sessão se esgotam mais rápido. Limites semanais inalterados.",
-    "expiredSubtitle": "Fora de pico — seus limites de sessão de 5h se esgotam em velocidade normal.",
-    "notStartedSubtitle": "Fora de pico — seus limites de sessão de 5h se esgotam em velocidade normal.",
-    "countdownLabel": "Até a próxima mudança de status",
-    "yourTimezone": "Seu fuso horário",
-    "yourLocalTime": "Sua hora local",
-    "days": "DIAS",
-    "hours": "HORAS",
-    "minutes": "MIN",
-    "seconds": "SEG",
-    "peakHours": "Horário de Pico (Limites Mais Rápidos)",
-    "offPeakHours": "Fora de Pico (Velocidade Normal)",
-    "weekdays": "Dias úteis",
-    "allWeekend": "Fim de Semana Inteiro (Velocidade Normal)",
-    "sinceLastChange": "desde a última mudança"
-  },
-  "howItWorks": {
-    "title": "COMO FUNCIONA",
-    "subtitle": "Mantemos simples — para você focar no que importa: criar com o Claude.",
-    "steps": [
-      {
-        "title": "DETECTAMOS SEU FUSO HORÁRIO",
-        "description": "Ao abrir o PromoClock, lemos automaticamente o fuso horário do seu dispositivo. Sem configuração necessária."
-      },
-      {
-        "title": "CALCULAMOS EM TEMPO REAL",
-        "description": "Nosso motor compara seu horário local com os horários de pico do Claude (seg–sex 13h–19h GMT) em tempo real."
-      },
-      {
-        "title": "VOCÊ VÊ SEU STATUS",
-        "description": "Uma exibição clara mostra se você está em horário de pico (limites mais rápidos) ou fora de pico (velocidade normal) — com contagem regressiva."
-      }
-    ]
-  },
-  "eligibility": {
-    "title": "ELEGIBILIDADE",
-    "subtitle": "Os ajustes de limites de sessão se aplicam a todos os níveis de assinatura Claude.",
-    "eligible": "Afetado",
-    "notEligible": "Não afetado",
-    "plans": [
-      {
-        "name": "Free",
-        "status": true,
-        "description": "Os limites de sessão se esgotam mais rápido em horários de pico. Mova tarefas intensivas em tokens para fora do horário de pico."
-      },
-      {
-        "name": "Pro",
-        "status": true,
-        "description": "~7% dos usuários Pro atingirão limites que antes não atingiam. Horas fora de pico são ideais para cargas pesadas."
-      },
-      {
-        "name": "Max",
-        "status": true,
-        "description": "Os limites de sessão se esgotam mais rápido em horários de pico. Programe agentes e processamento de dados fora do pico."
-      },
-      {
-        "name": "Team",
-        "status": true,
-        "description": "Espaços Team são afetados. Coordene cargas pesadas para horários fora de pico."
-      },
-      {
-        "name": "Enterprise",
-        "status": false,
-        "description": "Planos Enterprise têm capacidade dedicada e contratos personalizados — não afetados por estes ajustes."
-      }
-    ],
-    "platforms": {
-      "title": "Disponível em todas as interfaces do Claude",
-      "items": [
-        "Web (claude.ai)",
-        "Desktop (Mac / Windows)",
-        "Mobile (iOS / Android)",
-        "Claude Cowork",
-        "Claude Code (Terminal)",
-        "Suplementos Excel e PowerPoint"
-      ]
-    },
-    "note": "Os limites semanais permanecem inalterados. Os limites de sessão apenas se esgotam mais rápido durante horários de pico (seg–sex 13h–19h GMT)."
+  "notifications": {
+    "peakTitle": "Começou o horário de pico do Claude",
+    "peakBody": "Os limites de sessão acabam mais rápido até o fim do horário de pico.",
+    "offPeakTitle": "Claude fora do horário de pico",
+    "offPeakBody": "Os limites de sessão voltaram a ser consumidos na velocidade normal."
   },
   "schedule": {
-    "title": "HORÁRIOS GLOBAIS",
-    "subtitle": "Veja os horários de pico (limites mais rápidos) nas principais cidades. Pico: seg–sex 13h–19h GMT.",
     "tableHeaders": {
-      "city": "Cidade / Região",
-      "timezone": "Fuso Horário",
-      "peakHours": "Horário de Pico (Mais Rápido)",
-      "offPeakHours": "Fora de Pico (Velocidade Normal)"
+      "city": "Cidade",
+      "timezone": "Fuso horário",
+      "peakHours": "Horário de pico",
+      "offPeakHours": "Fora do pico"
     },
-    "weekdayLabel": "Dias úteis",
-    "weekendLabel": "Fim de semana inteiro → Velocidade normal"
+    "weekendLabel": "Nos fins de semana, o dia todo fica fora do pico."
   },
   "faq": {
-    "title": "PERGUNTAS RESPONDIDAS",
-    "subtitle": "Tudo sobre o sistema de limites de sessão do Claude.",
+    "title": "Perguntas frequentes",
     "items": [
       {
-        "question": "O que mudou com os limites de sessão do Claude?",
-        "answer": "Desde 27 de março de 2026, o Claude ajustou os limites de sessão de 5h. Em horários de pico (seg–sex 13h–19h GMT), os limites se esgotam mais rápido. Os limites semanais não mudam — apenas como são distribuídos ao longo da semana."
+        "question": "Quando é o horário de pico do Claude?",
+        "answer": "O horário de pico do Claude é em dias úteis, das 13:00 às 19:00 UTC. As noites e madrugadas durante a semana e o fim de semana inteiro ficam fora do pico."
       },
       {
-        "question": "Quando exatamente são os horários de pico?",
-        "answer": "Os horários de pico são segunda–sexta das 13h às 19h GMT (5h–11h PST). Noites de dias úteis e todo o fim de semana são fora de pico com velocidade normal."
+        "question": "O que acontece no horário de pico?",
+        "answer": "Seu limite de sessão de 5 horas acaba mais rápido que o normal nos planos Free, Pro, Max e Team. Os limites semanais não mudam."
       },
       {
-        "question": "Quando são os horários de pico no meu fuso?",
-        "answer": "O PromoClock detecta automaticamente seu fuso horário e exibe seu status atual em tempo real no topo da página."
+        "question": "O Claude está no horário de pico agora?",
+        "answer": "O relógio ao vivo no topo desta página mostra o status atual no seu fuso horário e a contagem regressiva até a próxima mudança. Desenvolvedores podem consultar com GET /api/status."
       },
       {
-        "question": "Quais planos são afetados?",
-        "answer": "Os planos Free, Pro, Max e Team são todos afetados. Planos Enterprise não, por terem capacidade dedicada."
+        "question": "Quais planos do Claude são afetados?",
+        "answer": "Free, Pro, Max e Team. Os planos Enterprise não são afetados, e o Claude Code nos planos Pro e Max está isento desde 6 de maio de 2026."
       },
       {
-        "question": "Meus limites semanais mudam?",
-        "answer": "Não. Seus limites semanais permanecem iguais. ~7% dos usuários (especialmente Pro) atingirão limites que antes não atingiam."
+        "question": "O que mudou nos limites do Claude Code em 14 de setembro de 2026?",
+        "answer": "Os limites semanais padrão do Claude Code ficaram permanentemente 25% acima do nível anterior à promoção. O aumento temporário de +50% terminou no mesmo dia, então quem usa muito tem cerca de 17% menos capacidade semanal do que durante a promoção."
       },
       {
-        "question": "Como maximizar meus limites de sessão?",
-        "answer": "Mova tarefas intensivas em tokens para fora do horário de pico (noites de semana e fim de semana). Os limites se esgotam em velocidade normal nesses períodos."
+        "question": "Como aproveitar melhor meus limites do Claude?",
+        "answer": "Rode tarefas longas ou que gastam muitos tokens fora do horário de pico dos dias úteis, por exemplo à noite ou no fim de semana, quando os limites de sessão são consumidos na velocidade normal."
       },
       {
-        "question": "O que aconteceu com a promoção de março 2026?",
-        "answer": "A promoção fora de pico Claude março 2026 (limites 2x) ocorreu de 13 a 27 de março de 2026 e terminou. Veja a seção de arquivo abaixo."
+        "question": "O que foi a promoção do Claude de março de 2026?",
+        "answer": "De 13 a 27 de março de 2026, o Claude dobrou os limites de sessão fora do horário de pico dos dias úteis e durante todo o fim de semana nos planos Free, Pro, Max e Team."
       },
       {
-        "question": "O que é o PromoClock?",
-        "answer": "O PromoClock foi criado por Onur Şendere (@onursendere no X) para ajudar usuários do Claude a saber instantaneamente se estão em horários de pico. Projeto independente, não afiliado à Anthropic."
+        "question": "Como o PromoClock verifica as ofertas de IA?",
+        "answer": "Cada oferta leva a uma fonte oficial, como um artigo da central de ajuda ou o blog da empresa, e mostra a data da última verificação. Ofertas expiradas saem automaticamente das listas ao vivo."
       },
       {
-        "question": "O que é o aumento de +50 % nos limites semanais do Claude Code?",
-        "answer": "Em 13 de maio de 2026, a Anthropic anunciou um aumento de 50 % nos limites semanais do Claude Code para usuários Pro, Max, Team e Enterprise por assento, válido até 13 de julho de 2026 (18:00 PDT). Aplica-se automaticamente em CLI, extensões IDE, desktop e web. O plano gratuito e os limites do Claude.ai chat / Cowork não são afetados."
-      },
-      {
-        "question": "A Anthropic removeu o sistema de horários de pico completamente em 6 de maio?",
-        "answer": "Apenas parcialmente. Em 6 de maio de 2026, a Anthropic removeu o throttling de horários de pico especificamente para Claude Code nos planos Pro e Max, junto com a duplicação dos limites de sessão de 5 horas do Claude Code. Os horários de pico ainda se aplicam ao Claude.ai chat, Cowork, apps móveis e desktop para usuários Free, Pro, Max e Team — por isso o tracker em tempo real acima continua útil para a maioria dos fluxos de trabalho. Fontes: anúncio da Anthropic (6 de maio de 2026), Ars Technica, blog Appwrite."
-      },
-      {
-        "question": "O que é a promoção de uso do Claude Cowork de junho de 2026?",
-        "answer": "De 5 de junho a 5 de julho de 2026 (23:59 PT), a Anthropic está duplicando o limite de uso de 5 horas dentro do Claude Cowork para usuários Pro, Max, Team e Enterprise legado por assento. Aplica-se automaticamente — sem ação necessária — e os limites semanais permanecem iguais. Planos gratuitos e assentos Enterprise baseados em consumo não são elegíveis. O aumento é limitado ao Cowork; o Claude na web, desktop, mobile e o Claude Code permanecem inalterados. Fonte: artigo oficial de suporte da Anthropic."
+        "question": "O PromoClock tem ligação com a Anthropic?",
+        "answer": "Não. O PromoClock é um projeto independente de Onur Şendere. Alguns links externos são links de afiliado, mas eles nunca decidem quais ofertas aparecem."
       }
     ]
   },
   "devTools": {
-    "title": "FERRAMENTAS PARA DEVS",
-    "subtitle": "Integre o status de horário de pico do Claude ao seu workflow. API e terminal — sem navegador.",
-    "apiTitle": "JSON API & Integração de Terminal",
-    "apiDescription": "O endpoint /api/status retorna o status de horário de pico em tempo real como JSON. Integre ao seu prompt ZSH/Bash.",
-    "tryApi": "Testar a API",
-    "notifTitle": "Notificações do Navegador e Alertas Sonoros",
-    "notifDescription": "Ative o ícono do sino no cabeçalho para receber notificações e um som suave quando Claude entrar no modo fora de pico (velocidade normal)."
-  },
-  "claudeCodeBoost": {
-    "badge": "TAMBÉM ATIVO",
-    "scope": "Apenas Claude Code",
-    "title": "Limites semanais do Claude Code +50 % até 13 de julho de 2026",
-    "subtitle": "Separado do sistema de horários de pico acima. Em 13 de maio de 2026, a Anthropic aumentou em 50 % os limites semanais do Claude Code para Pro, Max, Team e Enterprise por assento. Aplicado automaticamente — sem ativação. Cumulativo com o aumento 2x dos limites de 5 horas anunciado em 6 de maio.",
-    "endsLabel": "Termina",
-    "endsValue": "13 de julho de 2026 · 18:00 PDT (14 de julho, 01:00 GMT)",
-    "sourceLabel": "Fonte: anúncio oficial em r/ClaudeAI",
-    "note": "Não afeta os limites do Claude.ai chat / Cowork."
-  },
-  "coworkBoost": {
-    "badge": "ATIVO AGORA",
-    "scope": "Apenas Claude Cowork",
-    "title": "Limite de uso de 5 horas do Claude Cowork duplicado (2×) até 5 de julho de 2026",
-    "subtitle": "Separado do sistema de horários de pico e do aumento do Claude Code acima. A partir de 5 de junho de 2026, a Anthropic está duplicando o limite de uso de 5 horas dentro do Claude Cowork para Pro, Max, Team e Enterprise legado por assento. Aplicado automaticamente — sem ativação. Os limites semanais permanecem inalterados.",
-    "endsLabel": "Termina",
-    "endsValue": "5 de julho de 2026 · 23:59 PT",
-    "sourceLabel": "Fonte: artigo oficial de suporte da Anthropic",
-    "note": "Planos gratuitos e assentos Enterprise baseados em consumo não são elegíveis. Outros produtos Claude (web, desktop, mobile, Code) permanecem inalterados."
+    "title": "Ferramentas para desenvolvedores",
+    "subtitle": "Leve o status do horário de pico do Claude e as ofertas de IA para o seu terminal, scripts ou apps.",
+    "apiTitle": "API JSON",
+    "apiDescription": "Endpoints gratuitos com CORS, limitados a 60 requisições por minuto por IP."
   },
   "sponsors": {
     "stackopticHeadline": "Cole qualquer URL. Veja o quadro completo.",
-    "stackopticSub": "Desempenho, SEO, segurança, visibilidade de IA, stack tecnológico — 18 módulos, uma varredura.",
-    "stackopticPromoBadge": "50 % OFF",
+    "stackopticSub": "Performance, SEO, segurança, visibilidade em IA, stack tecnológico — 18 módulos, uma só análise.",
+    "stackopticPromoBadge": "50% OFF",
     "stackopticPromo": "Primeiro mês no plano Solo",
-    "stackopticCode": "SOLO50"
+    "stackopticCode": "SOLO50",
+    "stackopticCta": "Garanta 50% de desconto"
   },
   "footer": {
-    "crafted": "Feito com amor com Claude em Shrewsbury, UK.",
-    "digiwingsPromo": "Precisa de soluções web personalizadas e otimizadas para GEO?",
-    "digiwingsCta": "Visite minha agência digital",
-    "buymeacoffee": "Ajudou a evitar cálculos de fuso horário? Me pague um café",
-    "disclaimer": "PromoClock é um projeto independente não afiliado à Anthropic ou Claude. Apenas para fins informativos.",
+    "crafted": "Feito com carinho e com o Claude em Shrewsbury, Reino Unido.",
+    "buymeacoffee": "Poupou você das contas de fuso horário? Me paga um café",
+    "disclaimer": "O PromoClock é um projeto independente e não tem ligação com a Anthropic ou o Claude. Apenas para fins informativos.",
     "rights": "© 2026 PromoClock. Criado por Onur Şendere."
+  },
+  "hub": {
+    "nav": {
+      "claude": "Claude Watch",
+      "deals": "Ofertas de IA",
+      "tools": "Ferramentas de IA",
+      "calendar": "Calendário",
+      "api": "API",
+      "menu": "Menu",
+      "language": "Mudar idioma",
+      "theme": "Alternar modo escuro",
+      "about": "Sobre"
+    },
+    "common": {
+      "verified": "Verificado",
+      "startsIn": "Começa em",
+      "ended": "Encerrada",
+      "ongoing": "Em andamento",
+      "visit": "Acessar {name}",
+      "getDeal": "Pegar oferta",
+      "details": "Detalhes",
+      "code": "Código",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "affiliateNote": "Alguns links são de afiliado. Podemos receber uma comissão sem custo extra para você — isso nunca muda quais ofertas publicamos.",
+      "disclosureLink": "Aviso sobre afiliados",
+      "daysLeft": "faltam {n} d",
+      "hoursLeft": "faltam {h} h {m} min",
+      "offer": "Oferta",
+      "who": "Para quem",
+      "ends": "Termina",
+      "started": "Desde",
+      "regions": "Regiões",
+      "howToClaim": "Como aproveitar",
+      "goodToKnow": "Bom saber",
+      "related": "Mais ofertas",
+      "live": "Ao vivo",
+      "sources": "Fonte"
+    },
+    "kinds": {
+      "limit-boost": "Aumento de limite",
+      "limit-change": "Mudança de limite",
+      "discount": "Desconto",
+      "student": "Oferta para estudantes",
+      "free-trial": "Teste grátis",
+      "launch": "Lançamento",
+      "seasonal": "Promoção sazonal"
+    },
+    "categories": {
+      "chat": "Chat e busca",
+      "coding": "Programação e criação de apps",
+      "image": "Imagem e design",
+      "video": "Vídeo e avatares",
+      "audio": "Voz e música",
+      "writing": "Escrita e SEO",
+      "productivity": "Produtividade e reuniões",
+      "agents": "Agentes e automação"
+    },
+    "claudeWatch": {
+      "badge": "Claude Watch",
+      "peak": "Pico",
+      "offPeak": "Fora do pico",
+      "livePromo": "Promoção do Claude ativa",
+      "promoEndsIn": "A promoção termina em",
+      "peakNote": "O horário de pico foi descrito oficialmente pela última vez em 27 de março de 2026 e parece continuar valendo para o chat do Claude.ai, o Cowork e os apps. O Claude Code nos planos Pro e Max está isento desde 6 de maio de 2026.",
+      "statusTitle": "Status do Claude",
+      "peakShort": "Limites acabam mais rápido",
+      "offPeakShort": "Limites normais",
+      "changesIn": "Muda em",
+      "peakWindow": "Horário de pico · seu horário",
+      "nextPeakWindow": "Próximo pico · seu horário",
+      "whatsNew": "Novo",
+      "info": "Sobre o horário de pico"
+    },
+    "home": {
+      "heroEyebrow": "Ao vivo · atualizado diariamente",
+      "heroTitle": "Horário de pico do Claude e ofertas de IA, ao vivo",
+      "heroSubtitle": "Veja quando os limites do Claude acabam mais rápido e aproveite promoções verificadas de 50 ferramentas de IA.",
+      "ctaDeals": "Ver ofertas ativas",
+      "ctaTools": "Explorar 50 ferramentas",
+      "statsLive": "Ofertas ativas",
+      "statsTools": "Ferramentas de IA acompanhadas",
+      "statsDeadline": "Próximo prazo",
+      "statsLanguages": "Idiomas",
+      "sponsored": "Patrocinado",
+      "dealsTitle": "Ofertas de IA ativas",
+      "dealsSubtitle": "Ofertas verificadas, com fontes e contagem regressiva ao vivo.",
+      "dealsCta": "Ver todas as ofertas",
+      "toolsTitle": "50 ferramentas de IA, um só relógio",
+      "toolsSubtitle": "Abra uma ferramenta para ver as ofertas ativas e o histórico de promoções.",
+      "toolsCta": "Ver todas as ferramentas",
+      "historyTitle": "Histórico de promoções do Claude",
+      "historySubtitle": "Todas as mudanças de limite e promoções do Claude, das mais recentes às mais antigas.",
+      "peakTitle": "O horário de pico do Claude em resumo",
+      "peakAnswer": "O horário de pico do Claude é em dias úteis, das 13:00 às 19:00 UTC. Nesse período, os limites de sessão de 5 horas dos planos Free, Pro, Max e Team acabam mais rápido; os limites semanais não mudam.",
+      "peakFacts": [
+        {
+          "label": "Horário de pico",
+          "value": "Dias úteis, 13:00–19:00 UTC"
+        },
+        {
+          "label": "Fora do pico",
+          "value": "Noites, madrugadas e fins de semana"
+        },
+        {
+          "label": "Limites semanais",
+          "value": "Sem mudanças"
+        },
+        {
+          "label": "Em vigor desde",
+          "value": "27 de março de 2026"
+        },
+        {
+          "label": "Claude Code nos planos Pro e Max",
+          "value": "Isento desde 6 de maio de 2026"
+        }
+      ],
+      "affectedPlans": "Planos afetados",
+      "scheduleTitle": "Horário de pico na sua cidade"
+    },
+    "deals": {
+      "metaTitle": "Ofertas de IA e descontos para estudantes ({month}) | PromoClock",
+      "metaDescription": "Ofertas de IA verificadas para {month}: ChatGPT Plus e Google AI Pro grátis para estudantes, GitHub Copilot, Notion e mais, com prazos e fontes oficiais.",
+      "title": "Ofertas de IA ativas",
+      "subtitle": "Cada oferta é conferida na fonte oficial. Ofertas expiradas saem da lista automaticamente.",
+      "filterAll": "Todas",
+      "live": "Ativas agora",
+      "upcoming": "Em breve",
+      "archive": "Encerradas recentemente",
+      "empty": "No momento, nenhuma oferta corresponde a este filtro."
+    },
+    "tools": {
+      "metaTitle": "50 ferramentas de IA: promoções, ofertas e limites | PromoClock",
+      "metaDescription": "Acompanhe promoções, ofertas para estudantes, mudanças de preço e limites de uso das 50 ferramentas de IA mais populares, do ChatGPT e Claude ao Cursor, Canva e ElevenLabs.",
+      "title": "Ferramentas de IA",
+      "subtitle": "As 50 ferramentas de IA mais usadas. Abra uma para ver as ofertas ativas e o histórico de promoções.",
+      "filterAll": "Todas",
+      "withDeals": "Só com ofertas ativas",
+      "searchPlaceholder": "Buscar ferramentas…",
+      "liveDeals": "{count} ativas",
+      "noLiveDeals": "Nenhuma oferta ativa no momento — volte mais tarde ou veja todas as ofertas.",
+      "pastDeals": "Promoções anteriores",
+      "toolMetaTitle": "{name}: ofertas, promoções e limites ({month}) | PromoClock",
+      "toolMetaDescription": "Ofertas ativas de {name}, descontos para estudantes e mudanças de limite em {month}, cada uma conferida em fonte oficial e atualizada diariamente.",
+      "currentDeals": "Ofertas atuais",
+      "allTools": "Todas as ferramentas",
+      "empty": "Nenhuma ferramenta corresponde à sua busca."
+    },
+    "calendar": {
+      "metaTitle": "Calendário de promoções de IA: prazos e liquidações | PromoClock",
+      "metaDescription": "Próximos prazos de promoções de IA, fim de ofertas para estudantes, lançamentos e liquidações sazonais como a Black Friday, em um só calendário.",
+      "title": "Calendário de promoções de IA",
+      "subtitle": "Prazos, lançamentos e liquidações para você se planejar.",
+      "upcoming": "Próximos",
+      "past": "Anteriores",
+      "empty": "Nada programado ainda."
+    },
+    "disclosure": {
+      "metaTitle": "Aviso sobre afiliados — PromoClock",
+      "metaDescription": "Como o PromoClock usa links de afiliado e como escolhemos quais ofertas de IA publicar.",
+      "title": "Aviso sobre afiliados",
+      "paragraphs": [
+        "O PromoClock é um projeto independente. Alguns links para ferramentas de IA neste site são links de afiliado ou de parceiros. Se você se cadastrar ou comprar por um deles, podemos receber uma comissão, sem custo extra para você.",
+        "Relações de afiliação nunca decidem se uma oferta é publicada. Listamos ofertas disponíveis publicamente nos canais oficiais de cada ferramenta, apontamos a fonte original e mostramos a data da última verificação de cada uma.",
+        "Códigos promocionais só aparecem quando são divulgados pela ferramenta ou fornecidos pelo programa de parceiros dela. Ofertas expiradas saem automaticamente das listas ao vivo.",
+        "Ferramentas sem programa de afiliados — como ChatGPT, Gemini, Claude e Midjourney — são tratadas exatamente da mesma forma. O PromoClock não tem ligação com a Anthropic nem com nenhuma ferramenta listada.",
+        "Dúvidas? Fale com a gente no X: @onursendere."
+      ]
+    },
+    "dealPage": {
+      "metaTitle": "{headline} ({month}) | PromoClock",
+      "faqTitle": "Perguntas sobre esta oferta",
+      "qAvailable": "Esta oferta ainda está disponível?",
+      "aLive": "Sim. Em {date}, ela está ativa e termina em {end}.",
+      "aOngoing": "Sim. Em {date}, é um programa contínuo, sem data de término anunciada.",
+      "aUpcoming": "Ainda não. Começa em {start}.",
+      "aEnded": "Não. Terminou em {end}.",
+      "qWho": "Quem pode aproveitar?",
+      "qHow": "Como eu consigo?",
+      "qChange": "O que mudou?",
+      "qWhen": "Desde quando vale?",
+      "aWhen": "Desde {date}.",
+      "qSource": "De onde vem essa informação?",
+      "aSource": "De {source}. O PromoClock verificou pela última vez em {date}."
+    },
+    "about": {
+      "metaTitle": "Sobre o PromoClock: como acompanhamos limites do Claude e ofertas de IA",
+      "metaDescription": "Quem mantém o PromoClock, como cada mudança de limite do Claude e cada oferta de IA é verificada em fontes oficiais e com que frequência o site é atualizado.",
+      "title": "Sobre o PromoClock",
+      "intro": "O PromoClock acompanha de forma independente os limites de uso do Claude e as promoções verificadas de 50 ferramentas de IA populares.",
+      "sections": [
+        {
+          "title": "Como verificamos",
+          "body": "Cada oferta e cada mudança de limite aponta para uma fonte oficial: um artigo da central de ajuda, um post do blog oficial ou um anúncio feito pela própria conta da empresa. Registramos a data da última verificação e só publicamos códigos fornecidos pela empresa ou pelo programa de parceiros dela."
+        },
+        {
+          "title": "Com que frequência atualiza",
+          "body": "O site é gerado de novo todos os dias. O status de cada oferta é calculado a partir das datas de início e término, então ofertas expiradas saem sozinhas das listas ao vivo, e o relógio do horário de pico funciona ao vivo no seu navegador."
+        },
+        {
+          "title": "Quem está por trás",
+          "body": "O PromoClock é criado e mantido por Onur Şendere, fundador da Digiwings, uma agência digital de uma pessoa só em Shrewsbury, no Reino Unido. Não tem ligação com a Anthropic nem com nenhuma ferramenta listada."
+        },
+        {
+          "title": "Contato",
+          "body": "Viu uma oferta desatualizada ou uma promoção nova? Envie para @onursendere no X."
+        }
+      ]
+    },
+    "notFound": {
+      "title": "Esta página tirou uma pausa",
+      "body": "A página que você procura não existe ou mudou de endereço.",
+      "cta": "Voltar ao Claude Watch"
+    }
   }
 }

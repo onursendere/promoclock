@@ -7,7 +7,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Progress } from "@/components/ui/progress";
 import { Skeleton } from "@/components/ui/skeleton";
 import { getPeakStatus, PEAK_HOURS } from "@/data/claude";
-import type { Dictionary, HubDictionary } from "@/lib/i18n/dictionaries";
+import type { HubDictionary } from "@/lib/i18n/dictionaries";
 import { getClaudeHeroState, localize, type DealRecord } from "@/lib/deals";
 import type { Locale } from "@/lib/i18n/config";
 import { getCountdown, pad2 } from "@/lib/time";
@@ -15,7 +15,6 @@ import { cn } from "@/lib/utils";
 
 interface Props {
   lang: Locale;
-  hero: Dictionary["hero"];
   watch: HubDictionary["claudeWatch"];
   common: HubDictionary["common"];
   deals: DealRecord[];
@@ -23,9 +22,6 @@ interface Props {
   links: Record<string, { href: string; date: string }>;
   buildTime: number;
   peakEnabled: boolean;
-  /** Use hub strings when translated, localized legacy strings otherwise. */
-  hubTranslated: boolean;
-  caseClass: string;
 }
 
 function useNow(): number | null {
@@ -47,7 +43,7 @@ const clock = (ms: number) =>
 const localTime = (ms: number) => new Date(ms).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false });
 
 export default function ClaudeWatch(props: Props) {
-  const { hero, watch, common, deals, links, buildTime, peakEnabled, hubTranslated, caseClass, lang } = props;
+  const { watch, common, deals, links, buildTime, peakEnabled, lang } = props;
   const now = useNow();
   const mounted = now !== null;
   const t = now ?? buildTime;
@@ -62,13 +58,7 @@ export default function ClaudeWatch(props: Props) {
   const nextPeakStart = peak.isPeak ? peak.lastChange : peak.nextChange;
   const nextPeakEnd = nextPeakStart + (PEAK_HOURS.endUtc - PEAK_HOURS.startUtc) * 3_600_000;
 
-  const statusLine = hubTranslated
-    ? peak.isPeak
-      ? watch.peakShort
-      : watch.offPeakShort
-    : peak.isPeak
-      ? hero.promotionInactive
-      : hero.promotionActive;
+  const statusLine = peak.isPeak ? watch.peakShort : watch.offPeakShort;
 
   return (
     <Card className="gap-0 overflow-hidden py-0 shadow-sm">
@@ -122,7 +112,7 @@ export default function ClaudeWatch(props: Props) {
               className={cn("gap-1.5", peak.isPeak ? "border-destructive/30 text-destructive" : "border-success/30 text-success")}
             >
               <span className={cn("size-1.5 animate-pulse rounded-full", peak.isPeak ? "bg-destructive" : "bg-success")} aria-hidden="true" />
-              {hubTranslated && (peak.isPeak ? watch.peak : watch.offPeak)}
+              {peak.isPeak ? watch.peak : watch.offPeak}
             </Badge>
           ) : (
             <Skeleton className="h-5 w-16 rounded-full" />
@@ -137,7 +127,6 @@ export default function ClaudeWatch(props: Props) {
               className={cn(
                 "text-3xl leading-tight font-semibold tracking-tight",
                 peak.isPeak ? "text-destructive" : "text-success",
-                caseClass,
               )}
             >
               {statusLine}

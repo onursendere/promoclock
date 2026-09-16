@@ -1,7 +1,8 @@
 import { Check, ExternalLink, Minus } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
-import type { UiDictionary } from "@/lib/i18n/dictionaries";
+import type { Dictionary as UiDictionary } from "@/lib/i18n/dictionaries";
+import { PEAK_AFFECTED_PLANS } from "@/data/claude";
 
 /** Answer-first summary of Claude's peak hours: extractable by search and AI engines. */
 export function PeakFacts({ dict, source }: { dict: UiDictionary; source: { label: string; url: string } }) {
@@ -22,9 +23,9 @@ export function PeakFacts({ dict, source }: { dict: UiDictionary; source: { labe
           <div className="flex flex-col gap-1.5 bg-card px-4 py-3">
             <dt className="text-xs text-muted-foreground">{home.affectedPlans}</dt>
             <dd className="flex flex-wrap gap-1.5">
-              {dict.eligibility.plans.map((plan) => (
-                <Badge key={plan.name} variant={plan.status ? "secondary" : "outline"} className="gap-1">
-                  {plan.status ? <Check className="text-success" /> : <Minus className="text-muted-foreground" />}
+              {PEAK_AFFECTED_PLANS.map((plan) => (
+                <Badge key={plan.name} variant={plan.affected ? "secondary" : "outline"} className="gap-1">
+                  {plan.affected ? <Check className="text-success" /> : <Minus className="text-muted-foreground" />}
                   {plan.name}
                 </Badge>
               ))}

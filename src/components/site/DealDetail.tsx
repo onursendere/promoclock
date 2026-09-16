@@ -28,11 +28,6 @@ export function DealKeyFacts({ deal, tool, lang, hub, now }: { deal: DealRecord;
       </CardHeader>
       <CardContent className="flex flex-col gap-3">
         <DealFacts deal={deal} lang={lang} hub={hub} />
-        {deal.regions && (
-          <p className="text-sm text-muted-foreground">
-            {common.regions}: <span className="font-medium text-foreground">{deal.regions.join(", ")}</span>
-          </p>
-        )}
       </CardContent>
       <CardFooter className="flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-muted-foreground">

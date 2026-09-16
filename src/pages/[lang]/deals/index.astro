@@ -11,6 +11,7 @@ import { BUILD_TIME } from "@/lib/site";
 import { PageHeader } from "@/components/site/PageHeader";
 import { DealCard } from "@/components/site/DealCard";
 import { AffiliateNote } from "@/components/site/AffiliateNote";
+import { SponsorBanner } from "@/components/site/SponsorBanner";
 import { Badge } from "@/components/ui/badge";
 import DealFilters from "@/components/islands/DealFilters";
 
@@ -66,6 +67,7 @@ const jsonLd = [
     description={t.subtitle}
   />
   <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-10 sm:px-6">
+    <SponsorBanner dict={dict} />
     <DealFilters client:load root="#deals-root" allLabel={t.filterAll} emptyLabel={t.empty} options={kindOptions} total={shown.length} />
     <div id="deals-root" class="flex flex-col gap-12">
       {

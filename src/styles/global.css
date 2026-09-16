@@ -145,6 +145,11 @@
   }
 }
 
+/* Break Japanese headings at phrase boundaries instead of mid-word. */
+:lang(ja) :is(h1, h2, h3, p) {
+  word-break: auto-phrase;
+}
+
 /* Deals that end after the page was built are hidden from live lists by the timer script. */
 [data-live-list] > [data-ended] {
   display: none;

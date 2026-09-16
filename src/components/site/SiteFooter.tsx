@@ -41,11 +41,11 @@ export function SiteFooter({ lang, dict }: { lang: Locale; dict: UiDictionary })
 
   return (
     <footer className="border-t bg-muted/30">
-      <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-[1.4fr_repeat(3,1fr)]">
-        <div className="flex flex-col items-start gap-4">
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-10 px-4 py-12 sm:grid-cols-3 sm:px-6 md:grid-cols-[1.4fr_repeat(3,1fr)]">
+        <div className="flex min-w-0 flex-col items-start gap-4 sm:col-span-3 md:col-span-1">
           <Logo />
           <p className="max-w-xs text-sm text-muted-foreground">{dict.footer.crafted}</p>
-          <Button variant="outline" size="sm" asChild>
+          <Button variant="outline" size="sm" asChild className="h-auto max-w-full py-2 text-left whitespace-normal">
             <a href={AUTHOR.coffee} target="_blank" rel="noopener noreferrer">
               <Coffee data-icon="inline-start" />
               {dict.footer.buymeacoffee}

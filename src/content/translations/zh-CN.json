@@ -1,0 +1,222 @@
+{
+  "deals": {
+    "claude-code-weekly-plus25-permanent": {
+      "title": "Claude Code 每周限额自 2026 年 9 月 14 日起永久提升 25%",
+      "headline": "Claude Code 每周限额永久 +25%",
+      "value": "每周 +25%",
+      "audience": "Pro、Max、Team、按席位计费的 Enterprise",
+      "summary": "自 2026 年 9 月 14 日起，Claude Code 的标准每周限额永久提高到促销前水平的 125%。临时的 +50% 加成在同一天结束，因此重度用户的每周可用量比促销期间少了约 17%。",
+      "scope": "Claude Code",
+      "terms": [
+        "仅适用于 Claude Code；5 小时限额不变。",
+        "以 100 为基准：促销前为 100，促销期间为 150，9 月 14 日起为 125。"
+      ]
+    },
+    "claude-code-weekly-plus50-2026": {
+      "title": "Claude Code 每周限额 +50% 促销（2026 年 5 月 13 日 – 9 月 14 日）",
+      "headline": "Claude Code 每周限额 +50%",
+      "value": "每周 +50%",
+      "audience": "Pro、Max、Team、按席位计费的 Enterprise",
+      "summary": "Anthropic 自 2026 年 5 月 13 日起将 Claude Code 每周限额提高 50%，自动适用于 CLI、IDE 扩展、桌面端和网页端。该活动在 7 月 13 日后延长，并于 2026 年 9 月 14 日由永久 +25% 取代。",
+      "scope": "Claude Code"
+    },
+    "claude-cowork-june-2026-2x": {
+      "title": "Claude Cowork 2026 年 6 月用量促销：5 小时限额翻倍",
+      "headline": "Claude Cowork 5 小时限额翻倍",
+      "value": "5 小时限额 ×2",
+      "audience": "Pro、Max、Team、旧版 Enterprise",
+      "summary": "2026 年 6 月 5 日至 7 月 5 日，Anthropic 将 Claude Cowork 中的 5 小时用量限额翻倍。该活动自动生效，每周限额保持不变。",
+      "scope": "Claude Cowork",
+      "terms": [
+        "Free 方案和按用量计费的 Enterprise 席位不在适用范围内。",
+        "网页端、桌面端、移动端的 Claude 以及 Claude Code 均无变化。"
+      ]
+    },
+    "claude-code-5h-limits-doubled": {
+      "title": "Claude Code 5 小时限额翻倍并取消高峰时段限制（2026 年 5 月 6 日）",
+      "headline": "Claude Code 5 小时限额翻倍",
+      "value": "5 小时限额 ×2",
+      "audience": "Pro、Max、Team、按席位计费的 Enterprise",
+      "summary": "2026 年 5 月 6 日，Anthropic 将付费方案中 Claude Code 的 5 小时限额永久翻倍，并取消了 Pro 和 Max 中 Claude Code 的高峰时段限制。",
+      "scope": "Claude Code",
+      "terms": [
+        "此次更新未改变每周限额。"
+      ]
+    },
+    "claude-peak-hours-introduced": {
+      "title": "Claude 高峰时段：工作日 13:00–19:00 UTC 会话限额消耗更快",
+      "headline": "高峰时段：工作日限额消耗更快",
+      "value": "13:00–19:00 UTC",
+      "audience": "Free、Pro、Max、Team",
+      "summary": "自 2026 年 3 月 27 日起，Claude 的 5 小时会话限额在工作日高峰时段（13:00–19:00 UTC）消耗更快。每周限额不变，傍晚、夜间和周末按正常速度消耗。",
+      "scope": "Claude.ai、客户端、Cowork",
+      "terms": [
+        "Enterprise 方案不受影响。",
+        "自 2026 年 5 月 6 日起，Pro 和 Max 中的 Claude Code 不受影响。"
+      ]
+    },
+    "claude-march-2026-offpeak-2x": {
+      "title": "Claude 2026 年 3 月促销：非高峰时段限额翻倍",
+      "headline": "非高峰时段限额翻倍",
+      "value": "非高峰 ×2",
+      "audience": "Free、Pro、Max、Team",
+      "summary": "2026 年 3 月的两周内，Claude 在工作日高峰时段（美东时间 8:00–14:00）以外及整个周末将会话限额翻倍。",
+      "scope": "所有 Claude 平台"
+    },
+    "chatgpt-plus-students-back-to-school-2026": {
+      "title": "美国大学生免费使用 ChatGPT Plus 4 个月（2026 返校季优惠）",
+      "headline": "ChatGPT Plus 免费 4 个月",
+      "value": "免费 4 个月",
+      "audience": "美国大学生",
+      "summary": "符合条件的美国本科生和研究生可通过 OpenAI 2026 返校季优惠，免费使用价值 80 美元的 ChatGPT Plus 4 个月。领取截止日期为 2026 年 10 月 31 日。",
+      "steps": [
+        "登录你要升级的 ChatGPT 账户。",
+        "打开 chatgpt.com/students/2026，并通过 SheerID 验证学籍。",
+        "确认优惠。4 个免费计费周期内不会扣费。"
+      ],
+      "terms": [
+        "如不取消，之后将以每月 20 美元自动续订。",
+        "每人仅可领取一次。",
+        "通过 App Store 或 Google Play 计费的订阅不适用。"
+      ]
+    },
+    "google-ai-pro-students-2026": {
+      "title": "学生免费使用 Google AI Pro 一年（140 多个市场提供 AI Plus）",
+      "headline": "Google AI Pro 免费 12 个月",
+      "value": "免费 12 个月",
+      "audience": "美国及 140 多个市场的学生",
+      "summary": "符合条件的美国大学生可免费使用 Google AI Pro 一年，享有更高的 Gemini 限额和 5 TB 存储空间。其他 140 多个市场的学生可免费使用 Google AI Plus 一年。领取截止日期为 2026 年 12 月 31 日。",
+      "steps": [
+        "打开 one.google.com/ai-student 或 gemini.google.com/students 学生页面。",
+        "使用个人 Google 账号，通过 SheerID 验证学生身份。",
+        "添加付款方式，开始 12 个月免费期。"
+      ],
+      "terms": [
+        "如不取消，12 个月后开始扣费。",
+        "AI Plus 优惠不适用于美国、玻利维亚、阿尔巴尼亚、加拿大、澳门、香港和突尼斯。"
+      ]
+    },
+    "github-copilot-student-plan": {
+      "title": "通过验证的学生可免费使用 GitHub Copilot（Copilot Student 方案）",
+      "headline": "学生免费使用 GitHub Copilot",
+      "value": "免费",
+      "audience": "通过验证的 GitHub Education 学生",
+      "summary": "通过验证的学生可通过 Copilot Student 方案免费使用 GitHub Copilot：代码补全不限量，并每月获得用于聊天和智能体的 AI 额度。",
+      "steps": [
+        "以学生身份申请 GitHub Education。",
+        "验证通过后，打开 github.com/settings/education/benefits。",
+        "在学生开发者资源中启用 Copilot。"
+      ],
+      "terms": [
+        "GitHub 每月重新审核资格。",
+        "验证通过后可能需要几天才能启用。",
+        "模型由自动模型选择决定。"
+      ]
+    },
+    "perplexity-education-pro": {
+      "title": "Perplexity Education Pro：面向学生和教育工作者的 Perplexity Pro 优惠价",
+      "headline": "Perplexity Pro 学生优惠价",
+      "value": "Pro 优惠价",
+      "audience": "通过验证的学生与教育工作者",
+      "summary": "通过验证的学生和教育工作者可升级到 Education Pro，以低于原价的价格享受 Perplexity Pro 的全部功能，包括高级模型、不限量 Pro 搜索和 Learn Mode。",
+      "steps": [
+        "在 Perplexity 应用中打开 Upgrade。",
+        "切换到 Education 方案。",
+        "选择 Verify as student 并完成验证。"
+      ]
+    },
+    "notion-education-plus-free": {
+      "title": "学生和教育工作者免费使用 Notion Plus 方案",
+      "headline": "学生免费使用 Notion Plus",
+      "value": "Plus 方案免费",
+      "audience": "学生与教育工作者",
+      "summary": "使用符合条件的学校邮箱注册的学生和教育工作者，可免费获得单人 Notion Plus 方案，享有更多访客名额、更长的版本历史和更大的上传文件。",
+      "steps": [
+        "将学校邮箱设为 Notion 账户的主邮箱。",
+        "打开 Settings，再进入 Billing。",
+        "选择 Get free Education plan。"
+      ],
+      "terms": [
+        "每年需重新验证一次学生身份。",
+        "不仅限 .edu，数千个学校域名均符合条件。"
+      ]
+    },
+    "cursor-student-pro-year": {
+      "title": "学生免费使用 Cursor Pro：已停止接受新申请（2026 年 6 月 25 日）",
+      "headline": "学生免费使用 Cursor Pro（已结束）",
+      "value": "免费 1 年",
+      "audience": "通过验证的大学生",
+      "summary": "Cursor 的学生计划曾为通过验证的大学生提供一年免费 Cursor Pro。该计划已于 2026 年 6 月 25 日停止接受新申请；已领取的用户可在方案到期前保留当前价格。",
+      "terms": [
+        "学生仍可在校园及线上活动中获得额度。",
+        "免费的 Hobby 方案仍可使用。"
+      ]
+    }
+  },
+  "tools": {
+    "bolt": { "tagline": "在浏览器中通过提示词创建、运行、编辑并部署全栈应用。" },
+    "canva": { "tagline": "在线设计平台，提供 AI 生图、Magic Design 和品牌套件。" },
+    "capcut": { "tagline": "视频剪辑工具，支持 AI 字幕、特效和文字生成视频。" },
+    "chatgpt": { "tagline": "OpenAI 的通用 AI 助手，支持聊天、搜索、图像、语音和智能体。" },
+    "claude": { "tagline": "Anthropic 的 AI 助手，擅长写作、分析和编程——包括 Claude Code 与 Cowork。" },
+    "clickup": { "tagline": "集任务、文档和聊天于一体的 AI 办公应用。" },
+    "codex": { "tagline": "OpenAI 面向终端、IDE 和云端的编程智能体。" },
+    "copy-ai": { "tagline": "用于市场推广内容和销售文案的 AI 工作流。" },
+    "cursor": { "tagline": "以 AI 为核心的代码编辑器，智能体可规划、修改并运行代码。" },
+    "deepseek": { "tagline": "开放权重的对话与推理模型，提供免费网页版和移动端助手。" },
+    "descript": { "tagline": "像编辑文稿一样剪辑视频和播客。" },
+    "elevenlabs": { "tagline": "逼真的 AI 语音、配音、语音转文字和语音智能体。" },
+    "freepik": { "tagline": "素材库加上用于图像、视频和高清放大的 AI 工具套件。" },
+    "gamma": { "tagline": "一句提示词生成演示文稿、文档和网站。" },
+    "gemini": { "tagline": "Google 的 AI 助手，已集成到搜索、Android 和 Google Workspace。" },
+    "genspark": { "tagline": "用于调研、幻灯片、表格和电话的 AI 智能体工作区。" },
+    "github-copilot": { "tagline": "在编辑器和 GitHub 中的 AI 结对程序员与编程智能体。" },
+    "grammarly": { "tagline": "跨应用的 AI 写作助手，帮你检查语法、调整语气和改写。" },
+    "grok": { "tagline": "xAI 的助手，可实时获取 X 上的信息，支持生图和语音模式。" },
+    "heygen": { "tagline": "AI 数字人视频、翻译与口型同步配音。" },
+    "higgsfield": { "tagline": "带运镜预设的电影级 AI 图像与视频生成。" },
+    "ideogram": { "tagline": "以图中文字准确著称的 AI 图像生成工具。" },
+    "invideo": { "tagline": "把提示词和脚本变成包含素材与 AI 画面的成片。" },
+    "jasper": { "tagline": "面向营销团队、贴合品牌语调的 AI 内容平台。" },
+    "kling": { "tagline": "可控制运动的文生视频与图生视频。" },
+    "leonardo": { "tagline": "面向创作者和游戏素材的 AI 图像与视频生成。" },
+    "lovable": { "tagline": "和 AI 对话即可构建全栈 Web 应用。" },
+    "manus": { "tagline": "能调研、构建并完成多步骤任务的通用 AI 智能体。" },
+    "microsoft-copilot": { "tagline": "微软在 Windows、Edge 和 Microsoft 365 中的 AI 助手。" },
+    "midjourney": { "tagline": "高质量 AI 图像与视频生成。" },
+    "mindstudio": { "tagline": "无代码搭建 AI 智能体和自动化流程。" },
+    "mistral": { "tagline": "Mistral 推出的高速欧洲 AI 助手，支持联网搜索和智能体。" },
+    "n8n": { "tagline": "借助 AI 智能体实现工作流自动化——可自托管或使用云端。" },
+    "notebooklm": { "tagline": "基于你自己的资料回答问题并生成音频概览的研究笔记本。" },
+    "notion": { "tagline": "内置 AI 智能体的互联工作区，用于文档、知识库和项目。" },
+    "otter": { "tagline": "AI 会议纪要、转写和会议智能体。" },
+    "perplexity": { "tagline": "联网搜索并注明来源的 AI 问答引擎。" },
+    "pictory": { "tagline": "把脚本、文章和长视频变成带品牌风格的短视频。" },
+    "quillbot": { "tagline": "面向学生和写作者的改写、语法检查与 AI 检测工具。" },
+    "reclaim": { "tagline": "自动安排任务、习惯和会议的 AI 日历。" },
+    "remove-bg": { "tagline": "一键用 AI 去除照片背景。" },
+    "replit": { "tagline": "内置 AI 智能体、可构建并部署应用的云端 IDE。" },
+    "runway": { "tagline": "面向影视创作者的生成式视频模型与剪辑工具。" },
+    "speechify": { "tagline": "朗读文档、网页和书籍的文字转语音工具。" },
+    "suno": { "tagline": "输入一段文字，即可生成带人声的完整歌曲。" },
+    "surfer": { "tagline": "针对搜索和 AI 答案优化的 SEO 内容编辑器与 AI 写作工具。" },
+    "synthesia": { "tagline": "面向培训和企业的影棚级 AI 数字人视频。" },
+    "v0": { "tagline": "Vercel 的 AI 应用构建器，用于生成 React 与 Next.js 界面。" },
+    "windsurf": { "tagline": "带 Cascade 的智能体 IDE，AI 可在整个代码库中工作。" },
+    "writesonic": { "tagline": "面向内容营销的 AI 写作与 SEO/GEO 平台。" }
+  },
+  "events": {
+    "chatgpt-students-deadline-2026": { "title": "领取 ChatGPT Plus 免费 4 个月（美国学生）的最后一天" },
+    "black-friday-2026": {
+      "title": "2026 黑色星期五",
+      "description": "AI 订阅全年最大的折扣窗口——年付方案和终身套餐通常最先降价。"
+    },
+    "cyber-monday-2026": {
+      "title": "2026 网络星期一",
+      "description": "大多数黑色星期五软件促销的最后一天。"
+    },
+    "google-ai-students-deadline-2026": { "title": "领取 Google AI Pro / AI Plus 免费一年（学生）的最后一天" },
+    "claude-code-plus25-2026": { "title": "Claude Code 每周限额：+50% 加成结束，永久 +25% 开始" },
+    "cursor-students-closed-2026": { "title": "Cursor 学生免费一年 Pro 停止接受新申请" }
+  }
+}
