@@ -1,14 +1,16 @@
 import { spawn, type ChildProcess } from "node:child_process";
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync } from "node:fs";
 import path from "node:path";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { getPeakStatus } from "@/data/claude";
 import { getDealStatus, type DealRecord } from "@/lib/deals";
 
 const DIST = path.resolve("dist");
+/** Set API_BASE_URL to test a running server (e.g. a container via SSH tunnel) instead of dist/. */
+const REMOTE = process.env.API_BASE_URL?.replace(/\/$/, "");
 const PORT = 18_000 + Math.floor(Math.random() * 2_000);
-const BASE = `http://127.0.0.1:${PORT}`;
-let server: ChildProcess;
+const BASE = REMOTE ?? `http://127.0.0.1:${PORT}`;
+let server: ChildProcess | undefined;
 
 async function waitForServer() {
   for (let i = 0; i < 50; i++) {
@@ -22,12 +24,20 @@ async function waitForServer() {
   throw new Error("php -S did not start");
 }
 
+type DatasetDeal = Omit<DealRecord, "startsAt" | "endsAt"> & { startsAt: string; endsAt: string | null };
+let dataset: { deals: DatasetDeal[] };
+
 beforeAll(async () => {
+  if (REMOTE) {
+    dataset = await (await fetch(`${BASE}/api/deals.json`)).json();
+    return;
+  }
   if (!existsSync(path.join(DIST, "api/status.php"))) {
     throw new Error("dist/ is missing — run `npm run build` before `npm run test:api`.");
   }
   server = spawn("php", ["-S", `127.0.0.1:${PORT}`, "-t", DIST, "scripts/php-router.php"], { stdio: "ignore" });
   await waitForServer();
+  dataset = await (await fetch(`${BASE}/api/deals.json`)).json();
 });
 
 afterAll(() => {
@@ -95,10 +105,7 @@ describe("GET /api/status", () => {
 });
 
 describe("GET /api/deals", () => {
-  const dataset = JSON.parse(readFileSync(path.join(DIST, "api/deals.json"), "utf8")) as {
-    deals: (Omit<DealRecord, "startsAt" | "endsAt"> & { startsAt: string; endsAt: string | null })[];
-  };
-  const tsStatus = (d: (typeof dataset.deals)[number]) =>
+  const tsStatus = (d: DatasetDeal) =>
     getDealStatus(
       { startsAt: Date.parse(d.startsAt), endsAt: d.endsAt ? Date.parse(d.endsAt) : undefined, ongoing: d.ongoing },
       Date.now(),
