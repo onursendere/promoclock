@@ -140,7 +140,8 @@ describe("GET /api/deals", () => {
 
 describe("rate limiting and internals", () => {
   it.skipIf(BEHIND_CDN)("allows 60 requests per minute per IP, then returns 429 with Retry-After", async () => {
-    const ip = `203.0.113.${1 + Math.floor(Math.random() * 250)}`;
+    const octet = 1 + Math.floor(Math.random() * 250);
+    const ip = `203.0.113.${octet}`;
     const codes: number[] = [];
     for (let i = 0; i < 61; i++) codes.push((await get("/api/status", ip)).status);
     expect(codes.slice(0, 60).every((c) => c === 200)).toBe(true);
@@ -150,7 +151,8 @@ describe("rate limiting and internals", () => {
     expect(Number(limited.headers.get("retry-after"))).toBeGreaterThan(0);
     expect(await limited.json()).toMatchObject({ error: "Too many requests" });
 
-    expect((await get("/api/status", `${ip.slice(0, -1)}9`)).status).not.toBe(429);
+    // A different client (separate test subnet) is unaffected.
+    expect((await get("/api/status", `192.0.2.${octet}`)).status).not.toBe(429);
   });
 
   it("does not expose the shared PHP include", async () => {
