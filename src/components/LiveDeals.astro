@@ -1,0 +1,44 @@
+---
+import { ArrowRight } from "lucide-react";
+import type { Locale } from "@/lib/i18n/config";
+import type { UiDictionary } from "@/lib/i18n/dictionaries";
+import type { DealRecord, ToolRecord } from "@/lib/deals";
+import { localePath } from "@/lib/seo";
+import SectionHeading from "@/components/SectionHeading.astro";
+import DealCard from "@/components/DealCard.astro";
+import AffiliateNote from "@/components/AffiliateNote.astro";
+
+interface Props {
+  lang: Locale;
+  dict: UiDictionary;
+  deals: DealRecord[];
+  tools: Map<string, ToolRecord>;
+}
+const { lang, dict, deals, tools } = Astro.props;
+const { home } = dict.hub;
+---
+
+{
+  deals.length > 0 && (
+    <section id="live-deals" class="scroll-mt-20 px-4 py-24" aria-label={home.dealsTitle}>
+      <div class="mx-auto max-w-6xl">
+        <SectionHeading title={home.dealsTitle} subtitle={home.dealsSubtitle} />
+        <div data-live-list class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {deals.map((deal) => (
+            <DealCard deal={deal} tool={tools.get(deal.tool)} lang={lang} dict={dict} />
+          ))}
+        </div>
+        <div class="mt-8 flex flex-col items-center gap-4">
+          <a
+            href={localePath(lang, "deals")}
+            class="group inline-flex h-10 items-center gap-2 rounded-lg border bg-card px-4 text-sm font-semibold transition-colors hover:bg-muted"
+          >
+            {home.dealsCta}
+            <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+          </a>
+          <AffiliateNote lang={lang} dict={dict} />
+        </div>
+      </div>
+    </section>
+  )
+}

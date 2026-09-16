@@ -1,0 +1,23 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  eyebrow?: string;
+  align?: "center" | "left";
+  as?: "h1" | "h2";
+}
+const { title, subtitle, eyebrow, align = "center", as: Tag = "h2" } = Astro.props;
+---
+
+<div class:list={["mb-12", align === "center" ? "text-center" : "text-left"]}>
+  {
+    eyebrow && (
+      <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-semibold tracking-widest text-muted-foreground uppercase">
+        <slot name="eyebrow-icon" />
+        {eyebrow}
+      </div>
+    )
+  }
+  <Tag class="mb-3 text-2xl tracking-tight sm:text-3xl">{title}</Tag>
+  {subtitle && <p class:list={["text-muted-foreground", align === "center" && "mx-auto max-w-2xl"]}>{subtitle}</p>}
+</div>

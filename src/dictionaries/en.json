@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Peak Hours Tracker",
-    "description": "Know instantly when Claude's session limits drain faster. Real-time peak hours status for your timezone — Free, Pro, Max & Team. No setup needed.",
-    "ogTitle": "PromoClock — Are Claude's limits draining faster right now?",
-    "ogDescription": "Stop guessing. PromoClock shows instantly whether you're in Claude's peak hours, when session limits drain faster than usual."
+    "title": "PromoClock — Claude Peak Hours, Limit Changes & Live AI Deals",
+    "description": "Live Claude peak-hours clock and usage-limit changes, plus verified promos, student offers and deals for 50 popular AI tools — with countdowns, sources and auto-expiry.",
+    "ogTitle": "PromoClock — Claude Watch & live AI deals",
+    "ogDescription": "Is Claude in peak hours right now? What changed in your limits? Which AI tools have live promos? One clock for all of it."
   },
   "header": {
     "logo": "PromoClock",
@@ -115,7 +115,7 @@
   },
   "faq": {
     "title": "QUESTIONS ANSWERED",
-    "subtitle": "Everything you need to know about Claude's session limits system.",
+    "subtitle": "Everything you need to know about Claude's peak hours, limit changes and promotions.",
     "items": [
       {
         "question": "What changed with Claude's session limits?",
@@ -151,19 +151,23 @@
       },
       {
         "question": "What is PromoClock and who built it?",
-        "answer": "PromoClock was built by Onur Şendere (@onursendere on X) to help Claude users worldwide instantly understand whether they are in peak hours. It is an independent project and is not affiliated with Anthropic."
+        "answer": "PromoClock was built by Onur Şendere (@onursendere on X) to help people instantly understand Claude's peak hours and limit changes — and to track verified promotions for 50 popular AI tools in one place. It is an independent project and is not affiliated with Anthropic or any tool listed. Some outbound links are affiliate links; see the affiliate disclosure."
       },
       {
-        "question": "What is the Claude Code +50% weekly limit boost?",
-        "answer": "On May 13, 2026, Anthropic announced a 50% increase to Claude Code weekly limits for Pro, Max, Team, and seat-based Enterprise users, running through July 13, 2026 (6PM PDT). It applies automatically across CLI, IDE extensions, desktop, and web. The Free plan and Claude.ai chat / Cowork limits are not affected."
+        "question": "What happened to the Claude Code +50% weekly limit boost?",
+        "answer": "Anthropic raised Claude Code weekly limits by 50% on May 13, 2026 for Pro, Max, Team and seat-based Enterprise plans. The boost was extended past its original July 13 end date and finally ended on September 14, 2026, when it was replaced by a permanent 25% increase over the original baseline."
+      },
+      {
+        "question": "What changed with Claude Code limits on September 14, 2026?",
+        "answer": "From September 14, 2026, standard Claude Code weekly limits are permanently 25% higher than the pre-promotion baseline for Pro, Max, Team and seat-based Enterprise plans. Because the temporary +50% boost ended at the same time, active users have about 17% less weekly Claude Code capacity than during the promo (150 → 125 on a 100 baseline). Five-hour limits and Claude.ai chat limits are not part of this change. Source: @ClaudeDevs on X, August 29, 2026."
       },
       {
         "question": "Did Anthropic remove the peak hours system on May 6?",
         "answer": "Only partially. On May 6, 2026, Anthropic removed peak-hour throttling specifically for Claude Code on Pro and Max plans, alongside doubling the Claude Code 5-hour session limits. Peak hours still apply to Claude.ai chat, Cowork, mobile, and desktop apps for Free, Pro, Max, and Team users — which is why the real-time peak hours tracker above is still useful for most workflows. Sources: Anthropic announcement (May 6, 2026), Ars Technica, Appwrite blog."
       },
       {
-        "question": "What is the Claude Cowork June 2026 usage promotion?",
-        "answer": "From June 5 to July 5, 2026 (11:59 PM PT), Anthropic is doubling the 5-hour usage limit inside Claude Cowork for Pro, Max, Team, and legacy seat-based Enterprise users. It applies automatically — no action required — and weekly limits stay the same. Free plans and consumption-based Enterprise seats are not eligible. The boost is limited to Cowork; Claude on web, desktop, mobile, and Claude Code are unchanged. Source: official Anthropic support article."
+        "question": "What was the Claude Cowork June 2026 usage promotion?",
+        "answer": "From June 5 to July 5, 2026 (11:59 PM PT), Anthropic doubled the 5-hour usage limit inside Claude Cowork for Pro, Max, Team and legacy seat-based Enterprise users. It applied automatically and weekly limits stayed the same. Free plans and consumption-based Enterprise seats were not eligible. The promotion has ended."
       }
     ]
   },
@@ -175,26 +179,6 @@
     "tryApi": "Try the live API",
     "notifTitle": "Browser Notifications & Sound Alerts",
     "notifDescription": "Enable the bell icon in the header to receive a browser notification and a gentle chime the instant Claude switches to off-peak mode — when session limits return to normal speed."
-  },
-  "claudeCodeBoost": {
-    "badge": "ALSO LIVE",
-    "scope": "Claude Code only",
-    "title": "Claude Code weekly limits boosted +50% through July 13, 2026",
-    "subtitle": "Separate from the peak hours system above. On May 13, 2026, Anthropic raised Claude Code weekly limits by 50% for Pro, Max, Team, and seat-based Enterprise. Applied automatically — nothing to opt into. Stacks with the 2x increase to 5-hour limits announced on May 6.",
-    "endsLabel": "Ends",
-    "endsValue": "July 13, 2026 · 6:00 PM PDT (July 14, 1:00 AM GMT)",
-    "sourceLabel": "Source: official announcement on r/ClaudeAI",
-    "note": "Does not affect Claude.ai chat / Cowork limits."
-  },
-  "coworkBoost": {
-    "badge": "LIVE NOW",
-    "scope": "Claude Cowork only",
-    "title": "Claude Cowork 5-hour usage limit doubled (2×) through July 5, 2026",
-    "subtitle": "Separate from the peak hours system and the Claude Code boost above. From June 5, 2026, Anthropic is doubling the 5-hour usage limit inside Claude Cowork for Pro, Max, Team, and legacy seat-based Enterprise. Applied automatically — nothing to opt into. Weekly limits are unchanged.",
-    "endsLabel": "Ends",
-    "endsValue": "July 5, 2026 · 11:59 PM PT",
-    "sourceLabel": "Source: official Anthropic support article",
-    "note": "Free and consumption-based Enterprise seats are not eligible. Other Claude products (web, desktop, mobile, Code) are unchanged."
   },
   "sponsors": {
     "stackopticHeadline": "Paste any URL. Get the full picture.",
@@ -210,5 +194,134 @@
     "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
     "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
     "rights": "© 2026 PromoClock. Built by Onur Şendere."
+  },
+  "hub": {
+    "nav": {
+      "claude": "Claude Watch",
+      "deals": "AI Deals",
+      "tools": "AI Tools",
+      "calendar": "Calendar",
+      "api": "API",
+      "menu": "Menu",
+      "language": "Change language",
+      "theme": "Toggle dark mode"
+    },
+    "common": {
+      "verified": "Verified",
+      "source": "Source",
+      "endsIn": "Ends in",
+      "startsIn": "Starts in",
+      "ended": "Ended",
+      "ongoing": "Ongoing",
+      "visit": "Visit {name}",
+      "getDeal": "Get the deal",
+      "details": "Details",
+      "code": "Code",
+      "copy": "Copy",
+      "copied": "Copied",
+      "worldwide": "Worldwide",
+      "affiliateNote": "Some links are affiliate links. We may earn a commission at no extra cost to you — it never changes which deals we list.",
+      "disclosureLink": "Affiliate disclosure",
+      "days": "d",
+      "hours": "h",
+      "minutes": "m",
+      "seconds": "s",
+      "updated": "Updated"
+    },
+    "kinds": {
+      "limit-boost": "Limit boost",
+      "limit-change": "Limit change",
+      "discount": "Discount",
+      "student": "Student offer",
+      "free-trial": "Free trial",
+      "launch": "Launch",
+      "seasonal": "Seasonal sale"
+    },
+    "categories": {
+      "chat": "Chat & search",
+      "coding": "Coding & app builders",
+      "image": "Image & design",
+      "video": "Video & avatars",
+      "audio": "Voice & music",
+      "writing": "Writing & SEO",
+      "productivity": "Productivity & meetings",
+      "agents": "Agents & automation"
+    },
+    "claudeWatch": {
+      "badge": "CLAUDE WATCH",
+      "livePromo": "LIVE CLAUDE PROMO",
+      "latestChange": "Latest Claude change",
+      "promoEndsIn": "Promo ends in",
+      "peakPanelTitle": "Peak hours right now",
+      "peakNote": "Peak hours were last officially described on March 27, 2026 and still appear to apply to Claude.ai chat, Cowork and the apps. Claude Code on Pro and Max has been exempt since May 6, 2026.",
+      "seeAllDeals": "See today's live AI deals"
+    },
+    "home": {
+      "dealsTitle": "LIVE AI DEALS",
+      "dealsSubtitle": "Verified promotions, student offers and limit boosts across popular AI tools — each with a source, a verification date and a live countdown.",
+      "dealsCta": "See all deals",
+      "toolsTitle": "50 AI TOOLS, ONE CLOCK",
+      "toolsSubtitle": "The most-used AI tools, grouped by what they do. Open any tool for its current deals and past promotions.",
+      "toolsCta": "Browse all tools",
+      "historyTitle": "CLAUDE PROMOTION HISTORY",
+      "historySubtitle": "Past Claude promotions and limit changes, newest first.",
+      "archive": "Archive"
+    },
+    "deals": {
+      "metaTitle": "Live AI Deals & Promo Codes (Verified) — PromoClock",
+      "metaDescription": "Verified promotions, student offers, free trials and limit boosts for ChatGPT, Gemini, Claude, Cursor, ElevenLabs and more — with countdowns and sources.",
+      "title": "LIVE AI DEALS",
+      "subtitle": "Every deal links to its official source and shows when we last verified it. Expired offers leave the list automatically.",
+      "filterAll": "All",
+      "live": "Live now",
+      "upcoming": "Coming up",
+      "archive": "Recently ended",
+      "empty": "No deals match this filter right now."
+    },
+    "tools": {
+      "metaTitle": "50 Popular AI Tools — Promos, Deals & Limits — PromoClock",
+      "metaDescription": "Track promotions, student offers, pricing changes and usage-limit news for the 50 most popular AI tools, from ChatGPT and Claude to Cursor, Canva and ElevenLabs.",
+      "title": "AI TOOLS",
+      "subtitle": "The 50 most-used AI tools, grouped by category. Open a tool to see its live deals and promotion history.",
+      "filterAll": "All",
+      "withDeals": "Live deal",
+      "searchPlaceholder": "Search tools…",
+      "liveDeals": "{count} live",
+      "noLiveDeals": "No live deals right now — check back or see all deals.",
+      "partnerLink": "Partner link",
+      "pastDeals": "Past promotions",
+      "toolMetaTitle": "{name} Promos, Deals & Limit Changes ({year}) — PromoClock",
+      "toolMetaDescription": "Current {name} promotions, student offers and usage-limit changes — verified, sourced and updated daily.",
+      "officialSite": "Official site",
+      "currentDeals": "Current deals",
+      "allTools": "All tools",
+      "empty": "No tools match your search."
+    },
+    "calendar": {
+      "metaTitle": "AI Promo Calendar — Deadlines, Launches & Sales — PromoClock",
+      "metaDescription": "Upcoming AI promo deadlines, student-offer cutoffs, launch events and seasonal sales like Black Friday, in one calendar.",
+      "title": "AI PROMO CALENDAR",
+      "subtitle": "Deadlines, launches and sales worth planning around.",
+      "upcoming": "Upcoming",
+      "past": "Past",
+      "empty": "Nothing scheduled yet."
+    },
+    "disclosure": {
+      "metaTitle": "Affiliate Disclosure — PromoClock",
+      "metaDescription": "How PromoClock uses affiliate links and how we choose which AI deals to list.",
+      "title": "AFFILIATE DISCLOSURE",
+      "paragraphs": [
+        "PromoClock is an independent project. Some links to AI tools on this site are affiliate or partner links. If you sign up or buy through one of them, we may earn a commission at no extra cost to you.",
+        "Affiliate relationships never decide whether a deal is listed. We list offers that are publicly available from the tool's official channels, link to the original source, and show the date we last verified each one.",
+        "Promo codes are only shown when they are published by the tool or provided by its partner program. Expired offers are removed from live lists automatically.",
+        "Tools without an affiliate program — including ChatGPT, Gemini, Claude and Midjourney — are covered in exactly the same way. PromoClock is not affiliated with Anthropic or any tool listed.",
+        "Questions? Reach out on X at @onursendere."
+      ]
+    },
+    "notFound": {
+      "title": "This page took a break",
+      "body": "The page you're looking for doesn't exist or has moved.",
+      "cta": "Back to Claude Watch"
+    }
   }
 }

@@ -1,0 +1,72 @@
+---
+import { BellRing, Terminal } from "lucide-react";
+import type { UiDictionary } from "@/lib/i18n/dictionaries";
+import { SITE_URL } from "@/lib/site";
+import SectionHeading from "@/components/SectionHeading.astro";
+import CopyButton from "@/components/islands/CopyButton";
+
+interface Props {
+  dict: UiDictionary;
+}
+const { dict } = Astro.props;
+const { common } = dict.hub;
+
+const snippets = [
+  {
+    id: "curl",
+    code: `curl -s ${SITE_URL}/api/status | python3 -c "import sys,json;d=json.load(sys.stdin);print(d['emoji'],d['label'])"`,
+  },
+  {
+    id: "zsh",
+    code: `# Add to ~/.zshrc
+claude_status() {
+  curl -s ${SITE_URL}/api/status | \\
+    python3 -c "import sys,json;d=json.load(sys.stdin);print(d['emoji'])" 2>/dev/null || echo '⏳'
+}
+RPROMPT='$(claude_status)'`,
+  },
+  {
+    id: "deals",
+    code: `curl -s "${SITE_URL}/api/deals?status=active" | python3 -m json.tool`,
+  },
+];
+---
+
+<section id="developer-tools" class="scroll-mt-20 px-4 py-24" aria-label={dict.devTools.title}>
+  <div class="mx-auto max-w-5xl">
+    <SectionHeading title={dict.devTools.title} subtitle={dict.devTools.subtitle} />
+    <div class="rounded-2xl border bg-card p-6 sm:p-8">
+      <div class="mb-5 flex size-12 items-center justify-center rounded-xl bg-accent">
+        <Terminal size={22} className="text-primary" />
+      </div>
+      <h3 class="mb-2 font-sans text-sm font-semibold tracking-wide">{dict.devTools.apiTitle}</h3>
+      <p class="mb-5 text-sm leading-relaxed text-muted-foreground">{dict.devTools.apiDescription}</p>
+      <div class="space-y-4">
+        {
+          snippets.map((s) => (
+            <div class="relative">
+              <pre class="overflow-x-auto rounded-xl bg-muted/70 p-4 pr-14 font-mono text-xs leading-relaxed text-secondary-foreground"><code>{s.code}</code></pre>
+              <CopyButton client:visible text={s.code} label={common.copy} copiedLabel={common.copied} className="absolute top-3 right-3" />
+            </div>
+          ))
+        }
+      </div>
+      <div class="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium">
+        <a href="/api/status" target="_blank" rel="noopener" class="text-primary hover:underline">
+          {dict.devTools.tryApi} → /api/status
+        </a>
+        <a href="/api/deals" target="_blank" rel="noopener" class="text-primary hover:underline">/api/deals →</a>
+      </div>
+    </div>
+
+    <div class="mt-6 flex flex-col gap-5 rounded-2xl border bg-card p-6 sm:flex-row sm:items-center sm:p-8">
+      <div class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-info/10">
+        <BellRing size={22} className="text-info" />
+      </div>
+      <div>
+        <h3 class="mb-1 font-sans text-sm font-semibold tracking-wide">{dict.devTools.notifTitle}</h3>
+        <p class="text-sm leading-relaxed text-muted-foreground">{dict.devTools.notifDescription}</p>
+      </div>
+    </div>
+  </div>
+</section>

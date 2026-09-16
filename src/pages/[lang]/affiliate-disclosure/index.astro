@@ -1,0 +1,23 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import { getDictionary } from "@/lib/i18n/dictionaries";
+import SectionHeading from "@/components/SectionHeading.astro";
+
+export function getStaticPaths() {
+  return i18n.locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const dict = getDictionary(lang);
+const t = dict.hub.disclosure;
+---
+
+<BaseLayout lang={lang} dict={dict} path="affiliate-disclosure" title={t.metaTitle} description={t.metaDescription}>
+  <article class="mx-auto max-w-2xl px-4 pt-12 pb-24">
+    <SectionHeading as="h1" title={t.title} />
+    <div class="space-y-5 rounded-2xl border bg-card p-6 leading-relaxed text-secondary-foreground sm:p-8">
+      {t.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+    </div>
+  </article>
+</BaseLayout>

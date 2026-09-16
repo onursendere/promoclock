@@ -1,0 +1,29 @@
+---
+// Fallback for hosts without the generated .htaccess 302 rules (and local preview).
+import { getTools } from "@/lib/content";
+import { outboundUrl } from "@/lib/outbound";
+
+export async function getStaticPaths() {
+  const tools = await getTools();
+  return tools.map((tool) => ({ params: { slug: tool.slug }, props: { target: outboundUrl(tool) } }));
+}
+
+const { target } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting…</title>
+    <script is:inline define:vars={{ target }}>
+      window.location.replace(target);
+    </script>
+  </head>
+  <body>
+    <p><a href={target} rel="nofollow sponsored">Continue</a></p>
+  </body>
+</html>

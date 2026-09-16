@@ -1,0 +1,48 @@
+# Promo calendar. Dates are UTC. Link a deal or tool when the event belongs to one.
+- id: chatgpt-students-deadline-2026
+  date: 2026-10-31T23:59:00Z
+  kind: deadline
+  tool: chatgpt
+  deal: chatgpt-plus-students-back-to-school-2026
+  title:
+    en: "Last day to claim 4 free months of ChatGPT Plus (US students)"
+
+- id: black-friday-2026
+  date: 2026-11-27T00:00:00Z
+  kind: sale
+  title:
+    en: "Black Friday 2026"
+  description:
+    en: "The biggest discount window of the year for AI subscriptions — annual plans and lifetime deals usually drop first."
+
+- id: cyber-monday-2026
+  date: 2026-11-30T00:00:00Z
+  kind: sale
+  title:
+    en: "Cyber Monday 2026"
+  description:
+    en: "Last day of most Black Friday software sales."
+
+- id: google-ai-students-deadline-2026
+  date: 2026-12-31T23:59:00Z
+  kind: deadline
+  tool: gemini
+  deal: google-ai-pro-students-2026
+  title:
+    en: "Last day to redeem a free year of Google AI Pro / AI Plus (students)"
+
+- id: claude-code-plus25-2026
+  date: 2026-09-14T00:00:00Z
+  kind: event
+  tool: claude
+  deal: claude-code-weekly-plus25-permanent
+  title:
+    en: "Claude Code weekly limits: +50% boost ends, permanent +25% begins"
+
+- id: cursor-students-closed-2026
+  date: 2026-06-25T00:00:00Z
+  kind: deadline
+  tool: cursor
+  deal: cursor-student-pro-year
+  title:
+    en: "Cursor closes its free Pro year for students to new sign-ups"

@@ -1,0 +1,68 @@
+name: Build & deploy (cPanel)
+
+on:
+  push:
+    branches: [main, astro-hub]
+  schedule:
+    # Daily rebuild so expired deals leave the static pages.
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Where to deploy
+        type: choice
+        options: [staging, production]
+        default: staging
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    env:
+      # astro-hub → staging; main/schedule → production; manual runs choose.
+      TARGET: ${{ github.event_name == 'workflow_dispatch' && inputs.target || (github.ref_name == 'main' && 'production' || 'staging') }}
+      FTP_SERVER: ${{ secrets.CPANEL_FTP_SERVER }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+        env:
+          PUBLIC_STAGING: ${{ env.TARGET == 'staging' && 'true' || 'false' }}
+
+      - name: Lint PHP
+        run: for f in dist/api/*.php; do php -l "$f"; done
+
+      # Guards the public /api/status and /api/deals contract before anything is uploaded.
+      - name: API contract tests
+        run: npm run test:api
+
+      - name: Deploy over FTPS
+        if: env.FTP_SERVER != ''
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.CPANEL_FTP_SERVER }}
+          username: ${{ secrets.CPANEL_FTP_USERNAME }}
+          password: ${{ secrets.CPANEL_FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./dist/
+          server-dir: ${{ env.TARGET == 'production' && secrets.CPANEL_DIR_PRODUCTION || secrets.CPANEL_DIR_STAGING }}
+          state-name: .ftp-deploy-sync-state.json
+
+      - name: Skip deploy (no cPanel secrets yet)
+        if: env.FTP_SERVER == ''
+        run: echo "::notice::CPANEL_FTP_SERVER is not set — built and tested only, nothing deployed."

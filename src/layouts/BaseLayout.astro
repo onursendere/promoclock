@@ -1,0 +1,102 @@
+---
+import "@/styles/global.css";
+import type { Locale } from "@/lib/i18n/config";
+import type { UiDictionary } from "@/lib/i18n/dictionaries";
+import { IS_STAGING, SITE_NAME } from "@/lib/site";
+import { absoluteUrl, alternateLinks, localePath } from "@/lib/seo";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import BuyMeCoffeeFloat from "@/components/BuyMeCoffeeFloat.astro";
+
+interface Props {
+  lang: Locale;
+  dict: UiDictionary;
+  /** Path after the locale, e.g. "" or "deals" or "tools/cursor". */
+  path?: string;
+  title: string;
+  description: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  jsonLd?: object[];
+  noindex?: boolean;
+}
+
+const { lang, dict, path = "", title, description, ogTitle, ogDescription, jsonLd = [], noindex = false } =
+  Astro.props;
+const canonical = absoluteUrl(localePath(lang, path));
+const robots = IS_STAGING || noindex ? "noindex, nofollow" : "index, follow";
+const ogImage = absoluteUrl(`/og/${path || "home"}.png`);
+---
+
+<!doctype html>
+<html lang={lang} dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={canonical} />
+    {alternateLinks(path).map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="theme-color" content="#F5F0EB" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#13111A" media="(prefers-color-scheme: dark)" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content={lang} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={ogTitle ?? title} />
+    <meta property="og:description" content={ogDescription ?? description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={ogTitle ?? title} />
+    <meta name="twitter:description" content={ogDescription ?? description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:creator" content="@onursendere" />
+
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem("pc-theme");
+          var dark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+
+    {
+      !IS_STAGING && (
+        <>
+          <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-MN3F77SZVF" />
+          <script is:inline>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-MN3F77SZVF");
+          </script>
+        </>
+      )
+    }
+
+    {jsonLd.map((data) => <script is:inline type="application/ld+json" set:html={JSON.stringify(data)} />)}
+  </head>
+  <body class="min-h-dvh">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[60] focus:rounded-md focus:bg-primary focus:px-3 focus:py-2 focus:text-primary-foreground"
+      >Skip to content</a
+    >
+    <Header lang={lang} dict={dict} pathname={Astro.url.pathname} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer lang={lang} dict={dict} />
+    <BuyMeCoffeeFloat />
+  </body>
+</html>

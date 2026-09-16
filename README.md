@@ -1,88 +1,75 @@
 # PromoClock
 
-PromoClock started as a real-time tracker for the Claude March 2026 off-peak promotion (2x session limits, March 13–27, 2026). When that promotion ended, the site evolved into a permanent awareness tool: Claude's session limits drain faster during peak hours (weekdays 1pm–7pm GMT), and most users don't know when those hours are in their timezone.
+**Claude Watch + live AI deals.** A live clock for Claude's peak hours and usage-limit changes, plus verified promotions, student offers and deadlines for 50 popular AI tools — in 10 languages.
 
-**Live:** [promoclock.co](https://promoclock.co)
+Live at **[promoclock.co](https://promoclock.co)**.
 
-## What it does
+## Stack
 
-Instantly tells you whether Claude's session limits are draining at normal speed or faster, based on your local timezone. No setup needed — open the page and you know.
+- [Astro 7](https://astro.build) static output with React islands
+- [shadcn/ui](https://ui.shadcn.com) (Radix, Nova preset) on Tailwind CSS 4
+- Content collections (`src/content/`) validated with Zod
+- PHP JSON endpoints + generated `.htaccess` for cPanel (Apache/LiteSpeed), behind Cloudflare
+- Vitest for the time-based logic; GitHub Actions for build and FTPS deploy
 
-- **Peak hours (weekdays 13:00–19:00 UTC / 5am–11am PT):** session limits drain faster
-- **Off-peak (evenings, nights, weekends):** normal speed
-- **Weekly limits are unchanged** — only the rate of consumption within a session differs
+## Develop
 
-## Features
-
-### Core
-- **Real-time timezone detection** — reads your device timezone automatically via `Intl.DateTimeFormat`
-- **Instant status display** — clear peak/off-peak badge with live countdown to next change
-- **Global schedule table** — DST-aware local times for 10 major cities (IANA timezone names)
-- **10 languages** — English, Turkish, French, German, Spanish, Portuguese, Korean, Hindi, Japanese, Chinese (Simplified)
-- **Promotion history archive** — documents the March 2026 2x promotion for reference
-
-### Developer Tools
-- **JSON API** (`/api/status`) — real-time peak hours status, rate-limited at 60 req/min per IP
-- **Terminal prompt integration** — ZSH/Bash snippets to show status in your prompt or statusline
-- **Browser notifications** — sound alert when Claude switches to off-peak mode
-
-### SEO & Discoverability
-- **GEO-optimized** — JSON-LD schema (SoftwareApplication, FAQPage, HowTo), semantic HTML, hreflang tags
-- **LLM-friendly** — `/llms.txt` and `/llms-full.txt` for AI discoverability
-- **Sitemap & robots.txt** — proper indexing directives
-
-## API
-
-```bash
-curl https://promoclock.co/api/status
-```
-
-Response:
-```json
-{
-  "status": "peak",
-  "isPeak": true,
-  "isOffPeak": false,
-  "isWeekend": false,
-  "sessionLimitSpeed": "faster_than_normal",
-  "emoji": "🔴",
-  "label": "Peak Hours — Limits Drain Faster",
-  "peakHours": "Weekdays 5am–11am PT / 1pm–7pm GMT",
-  "nextChange": "2026-03-27T19:00:00.000Z",
-  "minutesUntilChange": 334,
-  "timestamp": "2026-03-27T13:25:00.000Z",
-  "note": "No known end date for peak hours adjustment. Weekly limits unchanged."
-}
-```
-
-Rate limit: 60 requests/minute per IP. Returns `429` with `Retry-After` header when exceeded.
-
-## Tech Stack
-
-- Next.js 16 (App Router, standalone output)
-- Tailwind CSS v4
-- Framer Motion
-- TypeScript
-- Docker (multi-stage build), deployed on Hetzner
-
-## Development
+Requires Node 22.12+.
 
 ```bash
 npm install
-npm run dev
+npm run dev        # http://localhost:4321
+npm test           # unit tests (vitest)
+npm run build      # astro check + astro build → dist/
+npm run preview    # serve dist/
+npm run test:api   # API contract tests against dist/ (needs PHP)
 ```
 
-## Docker
+## Where things live
+
+| What | Where |
+| --- | --- |
+| Deals, promos, limit changes | `src/content/deals.yaml` |
+| The 50 tools | `src/content/tools/*.md` |
+| Promo calendar | `src/content/events.yaml` |
+| Claude peak-hours window (single source) | `src/data/claude.ts` |
+| Deal status, hero mode, sorting | `src/lib/deals.ts` |
+| UI strings (10 languages) | `src/dictionaries/*.json` — `hub` section falls back to English |
+| PHP API | `public/api/status.php`, `public/api/deals.php` |
+| `.htaccess` generator | `integrations/cpanel-htaccess.mjs` |
+
+### Adding a deal
+
+Append an entry to `src/content/deals.yaml` with `tool`, `kind`, `title.en`, `summary.en`, `startsAt`, optional `endsAt`, `verifiedAt`, `sourceUrl` and `sourceLabel`. Status (live, upcoming, ended) is derived from the dates — never set it by hand. The build fails if `tool` doesn't match a file in `src/content/tools/`.
+
+Expired deals disappear three ways: on the next daily rebuild, instantly in the browser (the card's timer hides it), and from `/api/deals`, which filters by server time.
+
+## API
+
+All endpoints return JSON with CORS enabled and are rate limited to 60 requests per minute per IP. `/api/status` keeps the exact response shape of the original Next.js endpoint; `tests/api/contract.test.ts` runs the built PHP and fails CI if a field changes.
+
+- `GET /api/status`: live Claude peak-hours status
+- `GET /api/deals?status=active|upcoming|ended|all&tool=<slug>`: deals filtered by current time
+- `GET /api/tools.json`: tracked tools
 
 ```bash
-docker build -t promoclock .
-docker run --network host -e PORT=3001 -e HOSTNAME=0.0.0.0 promoclock
+curl -s https://promoclock.co/api/status | python3 -c "import sys,json;d=json.load(sys.stdin);print(d['emoji'],d['label'])"
 ```
 
-## Disclaimer
+## Deploy
 
-PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.
+`.github/workflows/deploy.yml` builds and tests on every push, then uploads `dist/` over FTPS:
 
-## Author
+- `astro-hub` branch → staging (noindex)
+- `main` and the daily 03:00 UTC schedule → production
+- manual runs pick either target
 
-Built by [Onur Sendere](https://github.com/onursendere) · [Digiwings](https://digiwings.co.uk/)
+Repository secrets: `CPANEL_FTP_SERVER`, `CPANEL_FTP_USERNAME`, `CPANEL_FTP_PASSWORD`, `CPANEL_DIR_PRODUCTION`, `CPANEL_DIR_STAGING`. Without them the workflow builds and tests only.
+
+## License
+
+Source-available, non-commercial, no derivatives — see [LICENSE](LICENSE).
+
+PromoClock is an independent project and is not affiliated with Anthropic or any tool listed. Some outbound links may be affiliate links; see the affiliate disclosure on the site.
+
+Built by [Onur Şendere](https://x.com/onursendere) · [Digiwings](https://digiwings.co.uk)

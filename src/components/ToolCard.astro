@@ -1,0 +1,47 @@
+---
+import { ArrowUpRight } from "lucide-react";
+import type { Locale } from "@/lib/i18n/config";
+import type { UiDictionary } from "@/lib/i18n/dictionaries";
+import { format } from "@/lib/i18n/dictionaries";
+import { localize, type ToolRecord } from "@/lib/deals";
+import { localePath } from "@/lib/seo";
+import ToolAvatar from "@/components/ToolAvatar.astro";
+
+interface Props {
+  tool: ToolRecord;
+  liveCount: number;
+  lang: Locale;
+  dict: UiDictionary;
+}
+const { tool, liveCount, lang, dict } = Astro.props;
+---
+
+<a
+  href={localePath(lang, `tools/${tool.slug}`)}
+  data-tool-card
+  data-category={tool.category}
+  data-live={liveCount > 0 ? "true" : "false"}
+  data-search={`${tool.name} ${tool.vendor} ${tool.tagline.en}`.toLowerCase()}
+  class="group flex h-full flex-col gap-3 rounded-2xl border bg-card p-5 text-card-foreground transition-all hover:-translate-y-0.5 hover:shadow-md"
+>
+  <div class="flex items-center gap-3">
+    <ToolAvatar name={tool.name} category={tool.category} />
+    <div class="min-w-0 flex-1">
+      <h3 class="truncate font-sans text-base font-semibold">{tool.name}</h3>
+      <p class="truncate text-xs text-muted-foreground">{tool.vendor}</p>
+    </div>
+    <ArrowUpRight className="size-4 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true" />
+  </div>
+  <p class="line-clamp-2 text-sm leading-relaxed text-muted-foreground">{localize(tool.tagline, lang)}</p>
+  <div class="mt-auto flex items-center gap-2 text-xs">
+    <span class="rounded-full bg-muted px-2 py-0.5 text-muted-foreground">{dict.hub.categories[tool.category]}</span>
+    {
+      liveCount > 0 && (
+        <span class="inline-flex items-center gap-1 rounded-full bg-success/10 px-2 py-0.5 font-semibold text-success">
+          <span class="size-1.5 rounded-full bg-current" aria-hidden="true" />
+          {format(dict.hub.tools.liveDeals, { count: liveCount })}
+        </span>
+      )
+    }
+  </div>
+</a>

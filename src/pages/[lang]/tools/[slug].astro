@@ -1,0 +1,175 @@
+---
+import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import { format, getDictionary } from "@/lib/i18n/dictionaries";
+import { getDeals, getTools } from "@/lib/content";
+import { goPath, localize, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
+import { breadcrumbJsonLd } from "@/lib/jsonld";
+import { absoluteUrl, localePath } from "@/lib/seo";
+import { BUILD_TIME } from "@/lib/site";
+import { Badge } from "@/components/ui/badge";
+import ToolAvatar from "@/components/ToolAvatar.astro";
+import DealCard from "@/components/DealCard.astro";
+import ToolCard from "@/components/ToolCard.astro";
+import AffiliateNote from "@/components/AffiliateNote.astro";
+
+export async function getStaticPaths() {
+  const [tools, deals] = await Promise.all([getTools(), getDeals()]);
+  return i18n.locales.flatMap((lang) =>
+    tools.map((tool) => ({
+      params: { lang, slug: tool.slug },
+      props: {
+        tool,
+        deals: deals.filter((d) => d.tool === tool.slug),
+        related: tools.filter((t) => t.category === tool.category && t.slug !== tool.slug).slice(0, 4),
+        liveByTool: Object.fromEntries(
+          tools.map((t) => [t.slug, partitionDeals(deals.filter((d) => d.tool === t.slug), BUILD_TIME).live.length]),
+        ),
+      },
+    })),
+  );
+}
+
+interface Props {
+  tool: ToolRecord;
+  deals: DealRecord[];
+  related: ToolRecord[];
+  liveByTool: Record<string, number>;
+}
+
+const lang = Astro.params.lang as Locale;
+const { tool, deals, related, liveByTool } = Astro.props;
+const dict = getDictionary(lang);
+const { tools: t, nav, categories } = dict.hub;
+const { live, upcoming, archive } = partitionDeals(deals, BUILD_TIME);
+const current = [...live, ...upcoming];
+const year = new Date(BUILD_TIME).getUTCFullYear();
+const title = format(t.toolMetaTitle, { name: tool.name, year });
+const description = format(t.toolMetaDescription, { name: tool.name });
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: tool.name,
+    applicationCategory: categories[tool.category],
+    operatingSystem: "Web",
+    url: tool.website,
+    description: localize(tool.tagline, lang),
+    publisher: { "@type": "Organization", name: tool.vendor },
+    subjectOf: {
+      "@type": "WebPage",
+      url: absoluteUrl(localePath(lang, `tools/${tool.slug}`)),
+      name: title,
+    },
+  },
+  breadcrumbJsonLd([
+    { name: "PromoClock", path: localePath(lang) },
+    { name: nav.tools, path: localePath(lang, "tools") },
+    { name: tool.name, path: localePath(lang, `tools/${tool.slug}`) },
+  ]),
+];
+---
+
+<BaseLayout lang={lang} dict={dict} path={`tools/${tool.slug}`} title={title} description={description} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-5xl px-4 pt-10 pb-24">
+    <a href={localePath(lang, "tools")} class="mb-8 inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground">
+      <ArrowLeft className="size-4" aria-hidden="true" />
+      {t.allTools}
+    </a>
+
+    <header class="mb-12 flex flex-col gap-6 rounded-3xl border bg-card p-6 sm:flex-row sm:items-center sm:p-8">
+      <ToolAvatar name={tool.name} category={tool.category} size="lg" />
+      <div class="min-w-0 flex-1">
+        <div class="mb-2 flex flex-wrap items-center gap-2">
+          <Badge variant="secondary">{categories[tool.category]}</Badge>
+          <span class="text-sm text-muted-foreground">{tool.vendor}</span>
+        </div>
+        <h1 class="mb-2 text-3xl tracking-tight sm:text-4xl">{tool.name}</h1>
+        <p class="text-muted-foreground">{localize(tool.tagline, lang)}</p>
+      </div>
+      <a
+        href={goPath(tool.slug)}
+        target="_blank"
+        rel={tool.affiliate ? "sponsored noopener" : "noopener"}
+        class="inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-lg bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/85"
+      >
+        {format(dict.hub.common.visit, { name: tool.name })}
+        <ExternalLink className="size-4" aria-hidden="true" />
+      </a>
+    </header>
+
+    {
+      tool.slug === "claude" && (
+        <a
+          href={localePath(lang)}
+          class="group mb-12 flex items-center justify-between gap-4 rounded-2xl border border-primary/30 bg-accent px-5 py-4 text-accent-foreground"
+        >
+          <span class="font-semibold">
+            {dict.hub.claudeWatch.badge} · {dict.hub.claudeWatch.peakPanelTitle}
+          </span>
+          <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+        </a>
+      )
+    }
+
+    {tool.body && <p class="mb-12 max-w-3xl leading-relaxed text-secondary-foreground">{tool.body}</p>}
+
+    <section class="mb-16" aria-labelledby="current-deals">
+      <h2 id="current-deals" class="mb-5 text-2xl tracking-tight">{t.currentDeals}</h2>
+      {
+        current.length > 0 ? (
+          <div data-live-list class="grid grid-cols-1 gap-5 md:grid-cols-2">
+            {current.map((deal) => (
+              <div id={deal.id} class="scroll-mt-24">
+                <DealCard deal={deal} tool={tool} lang={lang} dict={dict} hideTool />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p class="rounded-2xl border border-dashed bg-card/50 px-6 py-8 text-center text-muted-foreground">
+            {t.noLiveDeals}{" "}
+            <a href={localePath(lang, "deals")} class="font-medium text-primary hover:underline">
+              {nav.deals} →
+            </a>
+          </p>
+        )
+      }
+    </section>
+
+    {
+      archive.length > 0 && (
+        <section class="mb-16" aria-labelledby="past-deals">
+          <h2 id="past-deals" class="mb-5 text-2xl tracking-tight">{t.pastDeals}</h2>
+          <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+            {archive.map((deal) => (
+              <div id={deal.id} class="scroll-mt-24 opacity-90">
+                <DealCard deal={deal} tool={tool} lang={lang} dict={dict} hideTool />
+              </div>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      related.length > 0 && (
+        <section class="mb-12" aria-labelledby="related-tools">
+          <h2 id="related-tools" class="mb-5 font-sans text-sm font-semibold tracking-widest text-muted-foreground uppercase">
+            {categories[tool.category]}
+          </h2>
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {related.map((r) => (
+              <ToolCard tool={r} liveCount={liveByTool[r.slug] ?? 0} lang={lang} dict={dict} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <div class="flex justify-center">
+      <AffiliateNote lang={lang} dict={dict} />
+    </div>
+  </div>
+</BaseLayout>

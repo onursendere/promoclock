@@ -1,0 +1,34 @@
+---
+import { Clock, Eye, Radar } from "lucide-react";
+import type { UiDictionary } from "@/lib/i18n/dictionaries";
+import SectionHeading from "@/components/SectionHeading.astro";
+
+interface Props {
+  dict: UiDictionary;
+}
+const { dict } = Astro.props;
+const icons = [Radar, Clock, Eye];
+---
+
+<section id="how-it-works" class="scroll-mt-20 px-4 py-24" aria-label={dict.howItWorks.title}>
+  <div class="mx-auto max-w-5xl">
+    <SectionHeading title={dict.howItWorks.title} subtitle={dict.howItWorks.subtitle} />
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+      {
+        dict.howItWorks.steps.map((step, i) => {
+          const Icon = icons[i] ?? Eye;
+          return (
+            <article class="rounded-2xl border bg-card p-8 transition-shadow hover:shadow-md">
+              <div class="mb-5 flex size-12 items-center justify-center rounded-xl bg-accent">
+                <Icon size={22} className="text-primary" />
+              </div>
+              <div class="mb-2 text-xs tracking-widest text-muted-foreground">{String(i + 1).padStart(2, "0")}</div>
+              <h3 class="mb-3 font-sans text-sm font-semibold tracking-wide">{step.title}</h3>
+              <p class="text-sm leading-relaxed text-muted-foreground">{step.description}</p>
+            </article>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>

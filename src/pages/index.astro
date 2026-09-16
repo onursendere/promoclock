@@ -1,0 +1,41 @@
+---
+// Root: .htaccess redirects "/" by cookie/Accept-Language on cPanel.
+// This page is the fallback for hosts without rewrite rules (and `astro preview`).
+import { i18n } from "@/lib/i18n/config";
+import { SITE_URL } from "@/lib/site";
+const locales = [...i18n.locales];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PromoClock — Claude Watch & live AI deals</title>
+    <link rel="canonical" href={`${SITE_URL}/en/`} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <meta name="robots" content="noindex, follow" />
+    <script is:inline define:vars={{ locales }}>
+      (function () {
+        function pick() {
+          var m = document.cookie.match(/(?:^|; )LOCALE=([^;]+)/);
+          if (m && locales.indexOf(decodeURIComponent(m[1])) >= 0) return decodeURIComponent(m[1]);
+          var langs = navigator.languages || [navigator.language || "en"];
+          for (var i = 0; i < langs.length; i++) {
+            if (locales.indexOf(langs[i]) >= 0) return langs[i];
+            var base = langs[i].split("-")[0].toLowerCase();
+            for (var j = 0; j < locales.length; j++) {
+              if (locales[j].split("-")[0] === base) return locales[j];
+            }
+          }
+          return "en";
+        }
+        window.location.replace("/" + pick() + "/" + window.location.hash);
+      })();
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=/en/" /></noscript>
+  </head>
+  <body>
+    <p><a href="/en/">Continue to PromoClock</a></p>
+  </body>
+</html>

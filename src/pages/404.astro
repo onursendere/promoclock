@@ -1,0 +1,20 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getDictionary } from "@/lib/i18n/dictionaries";
+import { localePath } from "@/lib/seo";
+
+const dict = getDictionary("en");
+---
+
+<BaseLayout lang="en" dict={dict} title={`${dict.hub.notFound.title} — PromoClock`} description={dict.hub.notFound.body} noindex>
+  <section class="flex min-h-[60dvh] flex-col items-center justify-center px-4 py-24 text-center">
+    <p class="mb-3 font-mono text-sm font-semibold tracking-widest text-muted-foreground">404</p>
+    <h1 class="mb-3 text-3xl sm:text-4xl">{dict.hub.notFound.title}</h1>
+    <p class="mb-8 text-muted-foreground">{dict.hub.notFound.body}</p>
+    <a
+      href={localePath("en")}
+      class="inline-flex h-10 items-center rounded-lg bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/85"
+      >{dict.hub.notFound.cta}</a
+    >
+  </section>
+</BaseLayout>

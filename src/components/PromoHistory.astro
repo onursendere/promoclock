@@ -1,0 +1,50 @@
+---
+import { Archive } from "lucide-react";
+import type { Locale } from "@/lib/i18n/config";
+import type { UiDictionary } from "@/lib/i18n/dictionaries";
+import { localize, type DealRecord } from "@/lib/deals";
+import { formatDate } from "@/lib/time";
+import SectionHeading from "@/components/SectionHeading.astro";
+import { Badge } from "@/components/ui/badge";
+
+interface Props {
+  lang: Locale;
+  dict: UiDictionary;
+  deals: DealRecord[];
+}
+const { lang, dict, deals } = Astro.props;
+const { home, common, kinds } = dict.hub;
+---
+
+{
+  deals.length > 0 && (
+    <section id="promotion-history" class="scroll-mt-20 px-4 py-24" aria-label={home.historyTitle}>
+      <div class="mx-auto max-w-3xl">
+        <SectionHeading title={home.historyTitle} subtitle={home.historySubtitle} eyebrow={home.archive}>
+          <Archive slot="eyebrow-icon" size={13} />
+        </SectionHeading>
+        <ol class="relative space-y-4 border-l border-border pl-6">
+          {deals.map((deal) => (
+            <li class="relative">
+              <span class="absolute top-6 -left-[31px] size-2.5 rounded-full border-2 border-background bg-primary" aria-hidden="true" />
+              <article class="rounded-2xl border bg-card p-5 sm:p-6">
+                <div class="mb-2 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+                  <Badge variant="secondary">{kinds[deal.kind]}</Badge>
+                  <time>
+                    {formatDate(deal.startsAt, lang)}
+                    {deal.endsAt && ` – ${formatDate(deal.endsAt, lang)}`}
+                  </time>
+                </div>
+                <h3 class="mb-2 text-base leading-snug sm:text-lg">{localize(deal.title, lang)}</h3>
+                <p class="mb-3 text-sm leading-relaxed text-muted-foreground">{localize(deal.summary, lang)}</p>
+                <a href={deal.sourceUrl} target="_blank" rel="noopener noreferrer" class="text-xs text-primary hover:underline">
+                  {common.source}: {deal.sourceLabel}
+                </a>
+              </article>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )
+}

@@ -1,0 +1,91 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import { getDictionary } from "@/lib/i18n/dictionaries";
+import { getDeals, getTools, toolMap } from "@/lib/content";
+import { getDealStatus, partitionDeals } from "@/lib/deals";
+import { faqJsonLd, softwareAppJsonLd, websiteJsonLd } from "@/lib/jsonld";
+import { localePath } from "@/lib/seo";
+import { BUILD_TIME } from "@/lib/site";
+import { formatDate } from "@/lib/time";
+import { PEAK_HOURS } from "@/data/claude";
+import ClaudeWatch from "@/components/islands/ClaudeWatch";
+import StackOpticCard from "@/components/StackOpticCard.astro";
+import LiveDeals from "@/components/LiveDeals.astro";
+import HowItWorks from "@/components/HowItWorks.astro";
+import Eligibility from "@/components/Eligibility.astro";
+import Schedule from "@/components/Schedule.astro";
+import Faq from "@/components/Faq.astro";
+import DeveloperTools from "@/components/DeveloperTools.astro";
+import PromoHistory from "@/components/PromoHistory.astro";
+
+export function getStaticPaths() {
+  return i18n.locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const dict = getDictionary(lang);
+const [tools, deals] = await Promise.all([getTools(), getDeals()]);
+const tools_ = toolMap(tools);
+
+const claudeDeals = deals.filter((d) => d.tool === "claude");
+const dates = Object.fromEntries(
+  claudeDeals.map((d) => [
+    d.id,
+    {
+      starts: formatDate(d.startsAt, lang),
+      ends: d.endsAt === undefined ? undefined : formatDate(d.endsAt, lang),
+      verified: formatDate(d.verifiedAt, lang),
+    },
+  ]),
+);
+
+const { live } = partitionDeals(
+  deals.filter((d) => d.tool !== "claude"),
+  BUILD_TIME,
+);
+const history = claudeDeals
+  .filter((d) => {
+    const status = getDealStatus(d, BUILD_TIME);
+    return status === "ended" || status === "past";
+  })
+  .sort((a, b) => b.startsAt - a.startsAt);
+---
+
+<BaseLayout
+  lang={lang}
+  dict={dict}
+  title={dict.meta.title}
+  description={dict.meta.description}
+  ogTitle={dict.meta.ogTitle}
+  ogDescription={dict.meta.ogDescription}
+  jsonLd={[websiteJsonLd(lang, dict), softwareAppJsonLd(lang, dict), faqJsonLd(dict.faq.items)]}
+>
+  <section class="flex min-h-[calc(100dvh-4rem)] flex-col items-center justify-center px-4 pt-8 pb-12">
+    <ClaudeWatch
+      client:load
+      lang={lang}
+      hero={dict.hero}
+      watch={dict.hub.claudeWatch}
+      common={dict.hub.common}
+      kinds={dict.hub.kinds}
+      deals={claudeDeals}
+      dates={dates}
+      buildTime={BUILD_TIME}
+      peakEnabled={PEAK_HOURS.enabled}
+      peakDocumented={PEAK_HOURS.documented}
+      dealsHref={localePath(lang, "deals")}
+    />
+    <div class="mt-8 w-full">
+      <StackOpticCard dict={dict} />
+    </div>
+  </section>
+
+  <LiveDeals lang={lang} dict={dict} deals={live.slice(0, 6)} tools={tools_} />
+  <HowItWorks dict={dict} />
+  <Eligibility dict={dict} />
+  <Schedule dict={dict} />
+  <Faq dict={dict} />
+  <DeveloperTools dict={dict} />
+  <PromoHistory lang={lang} dict={dict} deals={history} />
+</BaseLayout>

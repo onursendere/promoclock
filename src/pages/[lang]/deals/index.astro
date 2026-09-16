@@ -1,0 +1,87 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import { getDictionary } from "@/lib/i18n/dictionaries";
+import { getDeals, getTools, toolMap } from "@/lib/content";
+import { DEAL_KINDS, localize, partitionDeals } from "@/lib/deals";
+import { breadcrumbJsonLd } from "@/lib/jsonld";
+import { absoluteUrl, localePath } from "@/lib/seo";
+import { BUILD_TIME } from "@/lib/site";
+import SectionHeading from "@/components/SectionHeading.astro";
+import DealCard from "@/components/DealCard.astro";
+import AffiliateNote from "@/components/AffiliateNote.astro";
+import DealFilters from "@/components/islands/DealFilters";
+
+export function getStaticPaths() {
+  return i18n.locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const dict = getDictionary(lang);
+const { deals: t, nav, kinds } = dict.hub;
+const [tools, deals] = await Promise.all([getTools(), getDeals()]);
+const byTool = toolMap(tools);
+const { live, upcoming, archive } = partitionDeals(deals, BUILD_TIME);
+const recent = archive.slice(0, 12);
+const shown = [...live, ...upcoming, ...recent];
+const kindOptions = DEAL_KINDS.map((kind) => ({
+  value: kind,
+  label: kinds[kind],
+  count: shown.filter((d) => d.kind === kind).length,
+})).filter((o) => o.count > 0);
+
+const sections = [
+  { id: "live", title: t.live, deals: live },
+  { id: "upcoming", title: t.upcoming, deals: upcoming },
+  { id: "archive", title: t.archive, deals: recent },
+].filter((s) => s.deals.length > 0);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: t.title,
+    itemListElement: live.map((deal, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: `${byTool.get(deal.tool)?.name ?? deal.tool}: ${localize(deal.title, lang)}`,
+      url: absoluteUrl(`${localePath(lang, `tools/${deal.tool}`)}#${deal.id}`),
+    })),
+  },
+  breadcrumbJsonLd([
+    { name: "PromoClock", path: localePath(lang) },
+    { name: nav.deals, path: localePath(lang, "deals") },
+  ]),
+];
+---
+
+<BaseLayout lang={lang} dict={dict} path="deals" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-6xl px-4 pt-12 pb-24">
+    <SectionHeading as="h1" title={t.title} subtitle={t.subtitle} />
+    <div class="mb-12">
+      <DealFilters client:load root="#deals-root" allLabel={t.filterAll} emptyLabel={t.empty} options={kindOptions} />
+    </div>
+    <div id="deals-root" class="space-y-16">
+      {
+        sections.map((section) => (
+          <section data-deal-section aria-labelledby={`deals-${section.id}`}>
+            <h2 id={`deals-${section.id}`} class="mb-5 flex items-center gap-3 font-sans text-sm font-semibold tracking-widest text-muted-foreground uppercase">
+              {section.title}
+              <span class="rounded-full bg-muted px-2 py-0.5 text-xs tabular-nums">{section.deals.length}</span>
+            </h2>
+            <div data-live-list={section.id === "live" ? "" : undefined} class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {section.deals.map((deal) => (
+                <div data-deal-item id={deal.id} class="scroll-mt-24">
+                  <DealCard deal={deal} tool={byTool.get(deal.tool)} lang={lang} dict={dict} />
+                </div>
+              ))}
+            </div>
+          </section>
+        ))
+      }
+    </div>
+    <div class="mt-16 flex justify-center">
+      <AffiliateNote lang={lang} dict={dict} />
+    </div>
+  </div>
+</BaseLayout>

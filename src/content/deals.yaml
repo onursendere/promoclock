@@ -1,0 +1,197 @@
+# Deals, promotions and limit changes. Times are UTC (ISO 8601).
+# Every entry needs an official or reputable source and the date it was last verified.
+# Status (live / upcoming / ended) is derived from startsAt/endsAt — never set by hand.
+
+- id: claude-code-weekly-plus25-permanent
+  tool: claude
+  kind: limit-change
+  featured: true
+  title:
+    en: "Claude Code weekly limits are now permanently +25% — the +50% boost has ended"
+  summary:
+    en: "From September 14, 2026, standard Claude Code weekly limits are permanently 25% above the pre-promotion baseline for Pro, Max, Team and seat-based Enterprise plans. The temporary +50% boost ended at the same time, so active users have about 17% less weekly capacity than during the promo (150 → 125 on a 100 baseline). Five-hour limits are unchanged."
+  scope:
+    en: "Claude Code · Pro, Max, Team, seat-based Enterprise"
+  startsAt: 2026-09-14T00:00:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://x.com/ClaudeDevs/status/2093742321473065266
+  sourceLabel: "@ClaudeDevs on X (Aug 29, 2026)"
+
+- id: claude-code-weekly-plus50-2026
+  tool: claude
+  kind: limit-boost
+  title:
+    en: "Claude Code weekly limits boosted +50%"
+  summary:
+    en: "Anthropic raised Claude Code weekly limits by 50% for Pro, Max, Team and seat-based Enterprise plans, applied automatically across the CLI, IDE extensions, desktop and web. Originally scheduled to end July 13, 2026, it was extended and replaced on September 14, 2026 by a permanent +25% increase."
+  scope:
+    en: "Claude Code · Pro, Max, Team, seat-based Enterprise"
+  startsAt: 2026-05-13T00:00:00Z
+  endsAt: 2026-09-14T00:00:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://www.reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/
+  sourceLabel: "Official announcement on r/ClaudeAI"
+
+- id: claude-cowork-june-2026-2x
+  tool: claude
+  kind: limit-boost
+  title:
+    en: "Claude Cowork 5-hour usage limit doubled (2×)"
+  summary:
+    en: "Anthropic doubled the 5-hour usage limit inside Claude Cowork for Pro, Max, Team and legacy seat-based Enterprise users. Applied automatically; weekly limits were unchanged. Free plans and consumption-based Enterprise seats were not eligible."
+  scope:
+    en: "Claude Cowork · Pro, Max, Team, legacy seat-based Enterprise"
+  startsAt: 2026-06-05T07:00:00Z
+  endsAt: 2026-07-06T06:59:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
+  sourceLabel: "Anthropic Help Center"
+
+- id: claude-code-5h-limits-doubled
+  tool: claude
+  kind: limit-change
+  title:
+    en: "Claude Code 5-hour limits doubled; peak-hour reduction removed for Pro and Max"
+  summary:
+    en: "Anthropic permanently doubled Claude Code's 5-hour rate limits for paid plans and removed the peak-hours reduction for Claude Code on Pro and Max, backed by new compute capacity. Weekly limits were not changed by this update."
+  scope:
+    en: "Claude Code · Pro, Max, Team, seat-based Enterprise"
+  startsAt: 2026-05-06T00:00:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://9to5google.com/2026/05/06/claude-code-is-getting-higher-usage-limits-doubled-for-most-users/
+  sourceLabel: "9to5Google"
+
+- id: claude-peak-hours-introduced
+  tool: claude
+  kind: limit-change
+  title:
+    en: "Session limits drain faster during weekday peak hours"
+  summary:
+    en: "Anthropic started draining 5-hour session limits faster during weekday peak hours (13:00–19:00 UTC) for Free, Pro, Max and Team plans. Weekly limits stayed the same; evenings, nights and weekends run at normal speed."
+  scope:
+    en: "Claude.ai, apps, Cowork · Free, Pro, Max, Team"
+  startsAt: 2026-03-27T00:00:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://www.theregister.com/2026/03/26/anthropic_tweaks_usage_limits/
+  sourceLabel: "The Register"
+
+- id: claude-march-2026-offpeak-2x
+  tool: claude
+  kind: limit-boost
+  title:
+    en: "2× usage limits during off-peak hours"
+  summary:
+    en: "A two-week promotion that doubled session limits outside weekday peak hours (8 AM–2 PM ET) and all weekend for Free, Pro, Max and Team plans."
+  scope:
+    en: "All Claude surfaces · Free, Pro, Max, Team"
+  startsAt: 2026-03-13T00:00:00Z
+  endsAt: 2026-03-28T06:59:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://www.xda-developers.com/claude-doubled-every-users-usage-limits-for-two-weeks/
+  sourceLabel: "XDA Developers"
+
+# ── Student offers ─────────────────────────────────────────────────────────────
+# For deals where only the deadline is known, startKnown: false and startsAt is
+# the date we first saw the offer.
+
+- id: chatgpt-plus-students-back-to-school-2026
+  tool: chatgpt
+  kind: student
+  featured: true
+  title:
+    en: "ChatGPT Plus free for 4 months for US college students"
+  summary:
+    en: "OpenAI's 2026 Back to School offer gives eligible US college and graduate students four free monthly billing periods of ChatGPT Plus after SheerID verification. It renews at $20/month afterwards unless cancelled, can be redeemed once, and doesn't apply to App Store or Google Play billing."
+  scope:
+    en: "ChatGPT Plus · US college & graduate students"
+  regions: ["US"]
+  startsAt: 2026-09-01T00:00:00Z
+  startKnown: false
+  endsAt: 2026-10-31T23:59:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://help.openai.com/en/articles/20001493-chatgpt-back-to-school-offer-for-students
+  sourceLabel: "OpenAI Help Center"
+  ctaUrl: https://chatgpt.com/students/2026/
+
+- id: google-ai-pro-students-2026
+  tool: gemini
+  kind: student
+  featured: true
+  title:
+    en: "One year of Google AI Pro free for students (AI Plus in 140+ markets)"
+  summary:
+    en: "US college students can get 12 months of Google AI Pro at no cost, with higher Gemini limits, Gemini in Gmail and Docs, and 5 TB of storage. Students in 140+ other markets get a free year of Google AI Plus. Verification is via SheerID and billing starts after the free year unless cancelled."
+  scope:
+    en: "Google AI Pro / AI Plus · verified students"
+  regions: ["US (AI Pro)", "140+ markets (AI Plus)"]
+  startsAt: 2026-08-19T00:00:00Z
+  endsAt: 2026-12-31T23:59:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/
+  sourceLabel: "Google blog (Aug 19, 2026)"
+  ctaUrl: https://one.google.com/ai-student
+
+- id: github-copilot-student-plan
+  tool: github-copilot
+  kind: student
+  ongoing: true
+  title:
+    en: "GitHub Copilot free for verified students (Copilot Student plan)"
+  summary:
+    en: "Verified students on GitHub Education get the Copilot Student plan for free: unlimited code completions plus a monthly allowance of AI credits for chat and agent use, with models chosen by auto model selection. Eligibility is re-checked monthly."
+  scope:
+    en: "GitHub Copilot · verified GitHub Education students"
+  startsAt: 2026-03-12T00:00:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://docs.github.com/copilot/how-tos/manage-your-account/free-access-with-copilot-student
+  sourceLabel: "GitHub Docs"
+  ctaUrl: https://education.github.com/pack
+
+- id: perplexity-education-pro
+  tool: perplexity
+  kind: student
+  ongoing: true
+  title:
+    en: "Perplexity Education Pro: discounted Pro for students and educators"
+  summary:
+    en: "Verified students and educators can upgrade to Education Pro, which includes everything in Perplexity Pro — premium models, unlimited Pro Searches, file uploads and Learn Mode — at a discount to the regular Pro price. Verify from the Upgrade screen by switching to the Education plan."
+  scope:
+    en: "Perplexity Pro · verified students & educators"
+  startsAt: 2026-09-16T00:00:00Z
+  startKnown: false
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://www.perplexity.ai/help-center/en/articles/12590157-what-is-education-pro
+  sourceLabel: "Perplexity Help Center"
+
+- id: notion-education-plus-free
+  tool: notion
+  kind: student
+  ongoing: true
+  title:
+    en: "Notion Plus plan free for students and educators"
+  summary:
+    en: "Sign up with an eligible school email to get Notion's Plus plan (one member) free — more guests, longer version history and larger uploads than the Free plan. Thousands of school domains qualify, not just .edu; re-verify once a year."
+  scope:
+    en: "Notion Plus (1 member) · students & educators"
+  startsAt: 2026-09-16T00:00:00Z
+  startKnown: false
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://www.notion.com/help/notion-for-education
+  sourceLabel: "Notion Help Center"
+  ctaUrl: https://www.notion.com/product/notion-for-education
+
+- id: cursor-student-pro-year
+  tool: cursor
+  kind: student
+  title:
+    en: "Free year of Cursor Pro for students (closed to new sign-ups)"
+  summary:
+    en: "Cursor's student discount gave verified university students a year of Cursor Pro at no cost. New sign-ups closed on June 25, 2026; existing redeemers keep their rate until their plan expires. Students can still get credits through on-campus and online events, and the free Hobby tier remains."
+  scope:
+    en: "Cursor Pro · verified students"
+  startsAt: 2026-06-24T00:00:00Z
+  startKnown: false
+  endsAt: 2026-06-25T00:00:00Z
+  verifiedAt: 2026-09-16T00:00:00Z
+  sourceUrl: https://cursor.com/help/account-and-billing/student-discount
+  sourceLabel: "Cursor Docs"
