@@ -1,16 +1,16 @@
 ---
-import { CalendarClock, ExternalLink, Flag, Rocket, ShoppingBag } from "lucide-react";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import { getEvents, getTools, type EventRecord } from "@/lib/content";
+import { getEvents, getTools } from "@/lib/content";
 import { localize } from "@/lib/deals";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
 import { absoluteUrl, localePath } from "@/lib/seo";
 import { BUILD_TIME } from "@/lib/site";
 import { formatDate } from "@/lib/time";
-import SectionHeading from "@/components/SectionHeading.astro";
-import ToolAvatar from "@/components/ToolAvatar.astro";
+import { PageHeader } from "@/components/site/PageHeader";
+import { CalendarMonths, PastEvents, type CalendarEntry } from "@/components/site/CalendarMonths";
+import { NoDeals } from "@/components/site/NoDeals";
 
 export function getStaticPaths() {
   return i18n.locales.map((lang) => ({ params: { lang } }));
@@ -18,29 +18,30 @@ export function getStaticPaths() {
 
 const lang = Astro.params.lang as Locale;
 const dict = getDictionary(lang);
-const { calendar: t, nav } = dict.hub;
+const { hub } = dict;
+const t = hub.calendar;
 const [events, tools] = await Promise.all([getEvents(), getTools()]);
-const byTool = new Map(tools.map((tool) => [tool.slug, tool]));
+const toolsBySlug = Object.fromEntries(tools.map((tool) => [tool.slug, tool]));
 
-const DAY = 86_400_000;
-const upcoming = events.filter((e) => (e.endDate ?? e.date) >= BUILD_TIME);
-const past = events.filter((e) => (e.endDate ?? e.date) < BUILD_TIME).reverse().slice(0, 10);
-const icons = { deadline: Flag, launch: Rocket, sale: ShoppingBag, event: CalendarClock };
-const relative = new Intl.RelativeTimeFormat(lang, { numeric: "auto" });
+const withHref = (e: (typeof events)[number]): CalendarEntry => ({
+  ...e,
+  href:
+    e.deal && e.tool
+      ? `${localePath(lang, `tools/${e.tool}`)}#${e.deal}`
+      : e.tool
+        ? localePath(lang, `tools/${e.tool}`)
+        : e.url,
+});
+const upcoming = events.filter((e) => (e.endDate ?? e.date) >= BUILD_TIME).map(withHref);
+const past = events.filter((e) => (e.endDate ?? e.date) < BUILD_TIME).reverse().slice(0, 10).map(withHref);
 
-const monthOf = (ms: number) => formatDate(ms, lang, { day: undefined, month: "long", year: "numeric" });
-const groups = new Map<string, EventRecord[]>();
+const months: { label: string; events: CalendarEntry[] }[] = [];
 for (const event of upcoming) {
-  const key = monthOf(event.date);
-  groups.set(key, [...(groups.get(key) ?? []), event]);
+  const label = formatDate(event.date, lang, { day: undefined, month: "long", year: "numeric" });
+  const month = months.find((m) => m.label === label);
+  if (month) month.events.push(event);
+  else months.push({ label, events: [event] });
 }
-
-const href = (event: EventRecord) =>
-  event.deal && event.tool
-    ? `${localePath(lang, `tools/${event.tool}`)}#${event.deal}`
-    : event.tool
-      ? localePath(lang, `tools/${event.tool}`)
-      : event.url;
 
 const jsonLd = [
   ...upcoming.map((event) => ({
@@ -51,97 +52,36 @@ const jsonLd = [
     ...(event.endDate ? { endDate: new Date(event.endDate).toISOString() } : {}),
     eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
     eventStatus: "https://schema.org/EventScheduled",
-    location: { "@type": "VirtualLocation", url: absoluteUrl(href(event) ?? localePath(lang, "calendar")) },
+    location: { "@type": "VirtualLocation", url: absoluteUrl(event.href ?? localePath(lang, "calendar")) },
     ...(event.description ? { description: localize(event.description, lang) } : {}),
   })),
   breadcrumbJsonLd([
     { name: "PromoClock", path: localePath(lang) },
-    { name: nav.calendar, path: localePath(lang, "calendar") },
+    { name: hub.nav.calendar, path: localePath(lang, "calendar") },
   ]),
 ];
 ---
 
 <BaseLayout lang={lang} dict={dict} path="calendar" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd}>
-  <div class="mx-auto max-w-3xl px-4 pt-12 pb-24">
-    <SectionHeading as="h1" title={t.title} subtitle={t.subtitle} />
-
-    <h2 class="mb-6 font-sans text-sm font-semibold tracking-widest text-muted-foreground uppercase">{t.upcoming}</h2>
-    {upcoming.length === 0 && <p class="text-muted-foreground">{t.empty}</p>}
-    <div class="space-y-10">
+  <PageHeader crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: hub.nav.calendar }]} title={t.title} description={t.subtitle} />
+  <div class="mx-auto flex w-full max-w-3xl flex-col gap-12 px-4 py-10 sm:px-6">
+    <section class="flex flex-col gap-4" aria-labelledby="upcoming-events">
+      <h2 id="upcoming-events" class="text-lg font-semibold tracking-tight">{t.upcoming}</h2>
       {
-        [...groups.entries()].map(([month, list]) => (
-          <section aria-label={month}>
-            <h3 class="mb-4 text-xl capitalize">{month}</h3>
-            <ol class="space-y-3">
-              {list.map((event) => {
-                const Icon = icons[event.kind];
-                const tool = event.tool ? byTool.get(event.tool) : undefined;
-                const link = href(event);
-                const days = Math.round((event.date - BUILD_TIME) / DAY);
-                return (
-                  <li class="flex gap-4 rounded-2xl border bg-card p-4 sm:p-5">
-                    <div class="flex w-14 shrink-0 flex-col items-center justify-center rounded-xl bg-accent py-2 text-accent-foreground">
-                      <span class="text-xs font-semibold uppercase">{formatDate(event.date, lang, { day: undefined, year: undefined, month: "short" })}</span>
-                      <span class="text-2xl leading-none font-bold tabular-nums">{new Date(event.date).getUTCDate()}</span>
-                    </div>
-                    <div class="min-w-0 flex-1">
-                      <div class="mb-1 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
-                        <Icon className="size-3.5" aria-hidden="true" />
-                        <span>{relative.format(days, "day")}</span>
-                        {tool && (
-                          <span class="inline-flex items-center gap-1.5">
-                            · <ToolAvatar name={tool.name} category={tool.category} size="sm" /> {tool.name}
-                          </span>
-                        )}
-                      </div>
-                      <p class="font-semibold leading-snug">
-                        {link ? (
-                          <a href={link} class="hover:text-primary hover:underline">
-                            {localize(event.title, lang)}
-                          </a>
-                        ) : (
-                          localize(event.title, lang)
-                        )}
-                      </p>
-                      {event.description && <p class="mt-1 text-sm text-muted-foreground">{localize(event.description, lang)}</p>}
-                    </div>
-                    {event.url && !event.tool && (
-                      <a href={event.url} target="_blank" rel="noopener" class="self-start text-muted-foreground hover:text-primary" aria-label="Open">
-                        <ExternalLink className="size-4" />
-                      </a>
-                    )}
-                  </li>
-                );
-              })}
-            </ol>
-          </section>
-        ))
+        months.length > 0 ? (
+          <CalendarMonths months={months} tools={toolsBySlug} lang={lang} now={BUILD_TIME} />
+        ) : (
+          <NoDeals message={t.empty} href={localePath(lang, "deals")} label={hub.nav.deals} />
+        )
       }
-    </div>
-
+    </section>
     {
       past.length > 0 && (
-        <section class="mt-16" aria-labelledby="past-events">
-          <h2 id="past-events" class="mb-4 font-sans text-sm font-semibold tracking-widest text-muted-foreground uppercase">
+        <section class="flex flex-col gap-4" aria-labelledby="past-events">
+          <h2 id="past-events" class="text-lg font-semibold tracking-tight">
             {t.past}
           </h2>
-          <ol class="divide-y rounded-2xl border bg-card">
-            {past.map((event) => {
-              const link = href(event);
-              return (
-                <li class="flex items-baseline gap-4 px-5 py-3 text-sm">
-                  <time class="w-28 shrink-0 text-muted-foreground tabular-nums">{formatDate(event.date, lang)}</time>
-                  {link ? (
-                    <a href={link} class="hover:text-primary hover:underline">
-                      {localize(event.title, lang)}
-                    </a>
-                  ) : (
-                    <span>{localize(event.title, lang)}</span>
-                  )}
-                </li>
-              );
-            })}
-          </ol>
+          <PastEvents events={past} lang={lang} />
         </section>
       )
     }

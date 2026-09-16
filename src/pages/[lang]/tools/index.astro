@@ -7,8 +7,8 @@ import { TOOL_CATEGORIES, getDealStatus, isLive } from "@/lib/deals";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
 import { absoluteUrl, localePath } from "@/lib/seo";
 import { BUILD_TIME } from "@/lib/site";
-import SectionHeading from "@/components/SectionHeading.astro";
-import ToolCard from "@/components/ToolCard.astro";
+import { PageHeader } from "@/components/site/PageHeader";
+import { ToolCard } from "@/components/site/ToolCard";
 import ToolFilters from "@/components/islands/ToolFilters";
 
 export function getStaticPaths() {
@@ -17,14 +17,14 @@ export function getStaticPaths() {
 
 const lang = Astro.params.lang as Locale;
 const dict = getDictionary(lang);
-const { tools: t, categories, nav } = dict.hub;
+const { hub } = dict;
+const t = hub.tools;
 const [tools, deals] = await Promise.all([getTools(), getDeals()]);
 
 const liveCount = new Map<string, number>();
 for (const deal of deals) {
   if (isLive(getDealStatus(deal, BUILD_TIME))) liveCount.set(deal.tool, (liveCount.get(deal.tool) ?? 0) + 1);
 }
-
 const groups = TOOL_CATEGORIES.map((category) => ({
   category,
   tools: tools.filter((tool) => tool.category === category),
@@ -45,35 +45,33 @@ const jsonLd = [
   },
   breadcrumbJsonLd([
     { name: "PromoClock", path: localePath(lang) },
-    { name: nav.tools, path: localePath(lang, "tools") },
+    { name: hub.nav.tools, path: localePath(lang, "tools") },
   ]),
 ];
 ---
 
 <BaseLayout lang={lang} dict={dict} path="tools" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd}>
-  <div class="mx-auto max-w-6xl px-4 pt-12 pb-24">
-    <SectionHeading as="h1" title={t.title} subtitle={t.subtitle} />
-    <div class="mb-12">
-      <ToolFilters
-        client:load
-        root="#tools-root"
-        allLabel={t.filterAll}
-        liveLabel={t.withDeals}
-        searchPlaceholder={t.searchPlaceholder}
-        emptyLabel={t.empty}
-        categories={groups.map((g) => ({ value: g.category, label: categories[g.category], count: g.tools.length }))}
-      />
-    </div>
-    <div id="tools-root" class="space-y-14">
+  <PageHeader crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: hub.nav.tools }]} title={t.title} description={t.subtitle} />
+  <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-10 sm:px-6">
+    <ToolFilters
+      client:load
+      root="#tools-root"
+      allLabel={t.filterAll}
+      liveLabel={t.withDeals}
+      searchPlaceholder={t.searchPlaceholder}
+      emptyLabel={t.empty}
+      categories={groups.map((g) => ({ value: g.category, label: hub.categories[g.category], count: g.tools.length }))}
+    />
+    <div id="tools-root" class="flex flex-col gap-10">
       {
         groups.map((group) => (
-          <section data-tool-section aria-labelledby={`cat-${group.category}`}>
-            <h2 id={`cat-${group.category}`} class="mb-5 font-sans text-sm font-semibold tracking-widest text-muted-foreground uppercase">
-              {categories[group.category]}
+          <section data-tool-section class="flex flex-col gap-4" aria-labelledby={`cat-${group.category}`}>
+            <h2 id={`cat-${group.category}`} class="text-lg font-semibold tracking-tight">
+              {hub.categories[group.category]}
             </h2>
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {group.tools.map((tool) => (
-                <ToolCard tool={tool} liveCount={liveCount.get(tool.slug) ?? 0} lang={lang} dict={dict} />
+                <ToolCard tool={tool} liveCount={liveCount.get(tool.slug) ?? 0} lang={lang} hub={hub} />
               ))}
             </div>
           </section>

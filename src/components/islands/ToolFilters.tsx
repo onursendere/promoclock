@@ -1,8 +1,12 @@
-import { useEffect, useState } from "react";
-import { Search } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Toggle } from "@/components/ui/toggle";
-import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import { useEffect, useRef, useState } from "react";
+import { Search, SearchX } from "lucide-react";
+import { Empty, EmptyDescription, EmptyHeader, EmptyMedia } from "@/components/ui/empty";
+import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
+import { Kbd } from "@/components/ui/kbd";
+import { Label } from "@/components/ui/label";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import { Switch } from "@/components/ui/switch";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface Props {
   root: string;
@@ -19,6 +23,18 @@ export default function ToolFilters({ root, allLabel, liveLabel, searchPlacehold
   const [query, setQuery] = useState("");
   const [liveOnly, setLiveOnly] = useState(false);
   const [empty, setEmpty] = useState(false);
+  const input = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "/" && document.activeElement?.tagName !== "INPUT") {
+        e.preventDefault();
+        input.current?.focus();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
 
   useEffect(() => {
     const container = document.querySelector(root);
@@ -40,42 +56,52 @@ export default function ToolFilters({ root, allLabel, liveLabel, searchPlacehold
   }, [category, query, liveOnly, root]);
 
   return (
-    <div className="flex flex-col items-center gap-4">
-      <div className="flex w-full max-w-md items-center gap-2">
-        <div className="relative flex-1">
-          <Search className="pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2 text-muted-foreground" />
-          <Input
+    <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+        <InputGroup className="bg-background sm:max-w-sm">
+          <InputGroupAddon>
+            <Search />
+          </InputGroupAddon>
+          <InputGroupInput
+            ref={input}
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={searchPlaceholder}
             aria-label={searchPlaceholder}
-            className="h-9 bg-card pl-8"
           />
+          <InputGroupAddon align="inline-end" className="hidden sm:flex">
+            <Kbd>/</Kbd>
+          </InputGroupAddon>
+        </InputGroup>
+        <div className="flex items-center gap-2">
+          <Switch id="live-only" checked={liveOnly} onCheckedChange={setLiveOnly} />
+          <Label htmlFor="live-only">{liveLabel}</Label>
         </div>
-        <Toggle variant="outline" pressed={liveOnly} onPressedChange={setLiveOnly} className="h-9 bg-card">
-          <span className="size-1.5 rounded-full bg-success" aria-hidden="true" />
-          {liveLabel}
-        </Toggle>
       </div>
-      <ToggleGroup
-        type="single"
-        variant="outline"
-        size="sm"
-        value={category}
-        onValueChange={(value) => setCategory(value || "all")}
-        className="flex-wrap justify-center"
-        spacing={2}
-      >
-        <ToggleGroupItem value="all">{allLabel}</ToggleGroupItem>
-        {categories.map((c) => (
-          <ToggleGroupItem key={c.value} value={c.value}>
-            {c.label}
-            <span className="text-muted-foreground tabular-nums">{c.count}</span>
-          </ToggleGroupItem>
-        ))}
-      </ToggleGroup>
-      {empty && <p className="text-sm text-muted-foreground">{emptyLabel}</p>}
+      <Tabs value={category} onValueChange={setCategory}>
+        <ScrollArea className="w-full whitespace-nowrap">
+          <TabsList variant="line" className="w-max">
+            <TabsTrigger value="all">{allLabel}</TabsTrigger>
+            {categories.map((c) => (
+              <TabsTrigger key={c.value} value={c.value}>
+                {c.label}
+              </TabsTrigger>
+            ))}
+          </TabsList>
+          <ScrollBar orientation="horizontal" />
+        </ScrollArea>
+      </Tabs>
+      {empty && (
+        <Empty className="border">
+          <EmptyHeader>
+            <EmptyMedia variant="icon">
+              <SearchX />
+            </EmptyMedia>
+            <EmptyDescription>{emptyLabel}</EmptyDescription>
+          </EmptyHeader>
+        </Empty>
+      )}
     </div>
   );
 }

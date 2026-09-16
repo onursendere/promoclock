@@ -7,9 +7,10 @@ import { DEAL_KINDS, localize, partitionDeals } from "@/lib/deals";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
 import { absoluteUrl, localePath } from "@/lib/seo";
 import { BUILD_TIME } from "@/lib/site";
-import SectionHeading from "@/components/SectionHeading.astro";
-import DealCard from "@/components/DealCard.astro";
-import AffiliateNote from "@/components/AffiliateNote.astro";
+import { PageHeader } from "@/components/site/PageHeader";
+import { DealCard } from "@/components/site/DealCard";
+import { AffiliateNote } from "@/components/site/AffiliateNote";
+import { Badge } from "@/components/ui/badge";
 import DealFilters from "@/components/islands/DealFilters";
 
 export function getStaticPaths() {
@@ -18,7 +19,8 @@ export function getStaticPaths() {
 
 const lang = Astro.params.lang as Locale;
 const dict = getDictionary(lang);
-const { deals: t, nav, kinds } = dict.hub;
+const { hub } = dict;
+const t = hub.deals;
 const [tools, deals] = await Promise.all([getTools(), getDeals()]);
 const byTool = toolMap(tools);
 const { live, upcoming, archive } = partitionDeals(deals, BUILD_TIME);
@@ -26,14 +28,14 @@ const recent = archive.slice(0, 12);
 const shown = [...live, ...upcoming, ...recent];
 const kindOptions = DEAL_KINDS.map((kind) => ({
   value: kind,
-  label: kinds[kind],
+  label: hub.kinds[kind],
   count: shown.filter((d) => d.kind === kind).length,
 })).filter((o) => o.count > 0);
 
 const sections = [
-  { id: "live", title: t.live, deals: live },
-  { id: "upcoming", title: t.upcoming, deals: upcoming },
-  { id: "archive", title: t.archive, deals: recent },
+  { id: "live", title: t.live, deals: live, live: true },
+  { id: "upcoming", title: t.upcoming, deals: upcoming, live: false },
+  { id: "archive", title: t.archive, deals: recent, live: false },
 ].filter((s) => s.deals.length > 0);
 
 const jsonLd = [
@@ -45,34 +47,40 @@ const jsonLd = [
       "@type": "ListItem",
       position: i + 1,
       name: `${byTool.get(deal.tool)?.name ?? deal.tool}: ${localize(deal.title, lang)}`,
-      url: absoluteUrl(`${localePath(lang, `tools/${deal.tool}`)}#${deal.id}`),
+      url: absoluteUrl(`${localePath(lang, "deals")}#${deal.id}`),
     })),
   },
   breadcrumbJsonLd([
     { name: "PromoClock", path: localePath(lang) },
-    { name: nav.deals, path: localePath(lang, "deals") },
+    { name: hub.nav.deals, path: localePath(lang, "deals") },
   ]),
 ];
 ---
 
 <BaseLayout lang={lang} dict={dict} path="deals" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd}>
-  <div class="mx-auto max-w-6xl px-4 pt-12 pb-24">
-    <SectionHeading as="h1" title={t.title} subtitle={t.subtitle} />
-    <div class="mb-12">
-      <DealFilters client:load root="#deals-root" allLabel={t.filterAll} emptyLabel={t.empty} options={kindOptions} />
-    </div>
-    <div id="deals-root" class="space-y-16">
+  <PageHeader
+    crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: hub.nav.deals }]}
+    title={t.title}
+    description={t.subtitle}
+  />
+  <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-10 sm:px-6">
+    <DealFilters client:load root="#deals-root" allLabel={t.filterAll} emptyLabel={t.empty} options={kindOptions} total={shown.length} />
+    <div id="deals-root" class="flex flex-col gap-12">
       {
         sections.map((section) => (
-          <section data-deal-section aria-labelledby={`deals-${section.id}`}>
-            <h2 id={`deals-${section.id}`} class="mb-5 flex items-center gap-3 font-sans text-sm font-semibold tracking-widest text-muted-foreground uppercase">
-              {section.title}
-              <span class="rounded-full bg-muted px-2 py-0.5 text-xs tabular-nums">{section.deals.length}</span>
-            </h2>
-            <div data-live-list={section.id === "live" ? "" : undefined} class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <section data-deal-section class="flex flex-col gap-4" aria-labelledby={`deals-${section.id}`}>
+            <div class="flex items-center gap-2">
+              <h2 id={`deals-${section.id}`} class="text-lg font-semibold tracking-tight">
+                {section.title}
+              </h2>
+              <Badge variant="secondary" className="font-mono">
+                {section.deals.length}
+              </Badge>
+            </div>
+            <div data-live-list={section.live ? "" : undefined} class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {section.deals.map((deal) => (
-                <div data-deal-item id={deal.id} class="scroll-mt-24">
-                  <DealCard deal={deal} tool={byTool.get(deal.tool)} lang={lang} dict={dict} />
+                <div data-deal-item>
+                  <DealCard deal={deal} tool={byTool.get(deal.tool)} lang={lang} hub={hub} now={BUILD_TIME} />
                 </div>
               ))}
             </div>
@@ -80,8 +88,6 @@ const jsonLd = [
         ))
       }
     </div>
-    <div class="mt-16 flex justify-center">
-      <AffiliateNote lang={lang} dict={dict} />
-    </div>
+    <AffiliateNote lang={lang} hub={hub} />
   </div>
 </BaseLayout>

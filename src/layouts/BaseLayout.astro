@@ -4,9 +4,11 @@ import type { Locale } from "@/lib/i18n/config";
 import type { UiDictionary } from "@/lib/i18n/dictionaries";
 import { IS_STAGING, SITE_NAME } from "@/lib/site";
 import { absoluteUrl, alternateLinks, localePath } from "@/lib/seo";
-import Header from "@/components/Header.astro";
-import Footer from "@/components/Footer.astro";
-import BuyMeCoffeeFloat from "@/components/BuyMeCoffeeFloat.astro";
+import { i18n, localeNames } from "@/lib/i18n/config";
+import { AUTHOR } from "@/lib/site";
+import SiteHeader from "@/components/islands/SiteHeader";
+import { SiteFooter } from "@/components/site/SiteFooter";
+import { CoffeeButton } from "@/components/site/CoffeeButton";
 
 interface Props {
   lang: Locale;
@@ -26,6 +28,17 @@ const { lang, dict, path = "", title, description, ogTitle, ogDescription, jsonL
 const canonical = absoluteUrl(localePath(lang, path));
 const robots = IS_STAGING || noindex ? "noindex, nofollow" : "index, follow";
 const ogImage = absoluteUrl(`/og/${path || "home"}.png`);
+
+const pathname = Astro.url.pathname;
+const nav = dict.hub.nav;
+const section = (slug: string) => localePath(lang, slug);
+const navItems = [
+  { href: localePath(lang), label: nav.claude, active: pathname === localePath(lang) },
+  { href: section("deals"), label: nav.deals, active: pathname.startsWith(section("deals")) },
+  { href: section("tools"), label: nav.tools, active: pathname.startsWith(section("tools")) },
+  { href: section("calendar"), label: nav.calendar, active: pathname.startsWith(section("calendar")) },
+  { href: `${localePath(lang)}#developer-tools`, label: nav.api, active: false },
+];
 ---
 
 <!doctype html>
@@ -40,8 +53,8 @@ const ogImage = absoluteUrl(`/og/${path || "home"}.png`);
     {alternateLinks(path).map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta name="theme-color" content="#F5F0EB" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#13111A" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SITE_NAME} />
@@ -92,11 +105,26 @@ const ogImage = absoluteUrl(`/og/${path || "home"}.png`);
       class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[60] focus:rounded-md focus:bg-primary focus:px-3 focus:py-2 focus:text-primary-foreground"
       >Skip to content</a
     >
-    <Header lang={lang} dict={dict} pathname={Astro.url.pathname} />
+    <SiteHeader
+      client:load
+      lang={lang}
+      homeHref={localePath(lang)}
+      items={navItems}
+      locales={i18n.locales.map((code) => ({ code, name: localeNames[code] }))}
+      labels={{ language: nav.language, theme: nav.theme, menu: nav.menu }}
+      notifications={{
+        titles: { offPeak: dict.hero.promotionActive, peak: dict.hero.promotionInactive },
+        bodies: { offPeak: dict.hero.activeSubtitle, peak: dict.hero.inactiveSubtitle },
+      }}
+      repo={AUTHOR.repo}
+    />
     <main id="main">
       <slot />
     </main>
-    <Footer lang={lang} dict={dict} />
-    <BuyMeCoffeeFloat />
+    <SiteFooter lang={lang} dict={dict} />
+    <CoffeeButton />
+    <script>
+      import "@/scripts/live";
+    </script>
   </body>
 </html>

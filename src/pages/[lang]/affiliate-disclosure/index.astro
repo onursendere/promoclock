@@ -2,7 +2,9 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import SectionHeading from "@/components/SectionHeading.astro";
+import { localePath } from "@/lib/seo";
+import { PageHeader } from "@/components/site/PageHeader";
+import { DisclosureCard } from "@/components/site/DisclosureCard";
 
 export function getStaticPaths() {
   return i18n.locales.map((lang) => ({ params: { lang } }));
@@ -14,10 +16,8 @@ const t = dict.hub.disclosure;
 ---
 
 <BaseLayout lang={lang} dict={dict} path="affiliate-disclosure" title={t.metaTitle} description={t.metaDescription}>
-  <article class="mx-auto max-w-2xl px-4 pt-12 pb-24">
-    <SectionHeading as="h1" title={t.title} />
-    <div class="space-y-5 rounded-2xl border bg-card p-6 leading-relaxed text-secondary-foreground sm:p-8">
-      {t.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
-    </div>
-  </article>
+  <PageHeader crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: dict.hub.common.disclosureLink }]} title={t.title} />
+  <div class="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
+    <DisclosureCard paragraphs={t.paragraphs} />
+  </div>
 </BaseLayout>

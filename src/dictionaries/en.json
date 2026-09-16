@@ -16,11 +16,11 @@
     }
   },
   "hero": {
-    "badge": "CLAUDE PEAK HOURS",
-    "promotionActive": "OFF-PEAK — NORMAL LIMITS",
-    "promotionInactive": "PEAK HOURS — LIMITS DRAIN FASTER",
-    "promotionExpired": "OFF-PEAK — NORMAL LIMITS",
-    "promotionNotStarted": "OFF-PEAK — NORMAL LIMITS",
+    "badge": "Claude peak hours",
+    "promotionActive": "Off-peak — normal limits",
+    "promotionInactive": "Peak hours — limits drain faster",
+    "promotionExpired": "Off-peak — normal limits",
+    "promotionNotStarted": "Off-peak — normal limits",
     "activeSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
     "inactiveSubtitle": "Peak hours (weekdays 1pm–7pm UTC) — session limits drain faster than usual. Weekly limits unchanged.",
     "expiredSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
@@ -28,10 +28,10 @@
     "countdownLabel": "Until next status change",
     "yourTimezone": "Your timezone",
     "yourLocalTime": "Your local time",
-    "days": "DAYS",
-    "hours": "HOURS",
-    "minutes": "MIN",
-    "seconds": "SEC",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Min",
+    "seconds": "Sec",
     "peakHours": "Peak Hours (Limits Drain Faster)",
     "offPeakHours": "Off-Peak Hours (Normal Speed)",
     "weekdays": "Weekdays",
@@ -39,25 +39,25 @@
     "sinceLastChange": "since last status change"
   },
   "howItWorks": {
-    "title": "HOW IT WORKS",
+    "title": "How it works",
     "subtitle": "We keep it simple so you can focus on what matters — building with Claude.",
     "steps": [
       {
-        "title": "WE DETECT YOUR TIMEZONE",
+        "title": "We detect your timezone",
         "description": "The moment you open PromoClock, we read your device's timezone automatically. No setup, no configuration needed."
       },
       {
-        "title": "WE CALCULATE IN REAL TIME",
+        "title": "We calculate in real time",
         "description": "Our engine compares your local time against Claude's peak hours (weekdays 1 PM – 7 PM UTC) in real-time."
       },
       {
-        "title": "YOU SEE YOUR STATUS INSTANTLY",
+        "title": "You see your status instantly",
         "description": "A clear, real-time display tells you whether you're in peak hours (limits drain faster) or off-peak (normal speed) — plus a countdown to the next change."
       }
     ]
   },
   "eligibility": {
-    "title": "WHO'S AFFECTED",
+    "title": "Who's affected",
     "subtitle": "Session limit adjustments apply to all Claude subscription tiers.",
     "eligible": "Affected",
     "notEligible": "Not Affected",
@@ -102,8 +102,8 @@
     "note": "Weekly limits remain unchanged. During peak hours (weekdays 1pm–7pm UTC), session limits drain faster than usual. No known end date for this adjustment."
   },
   "schedule": {
-    "title": "GLOBAL SCHEDULE",
-    "subtitle": "See when peak hours occur in major cities. During peak hours, session limits drain faster than normal. Peak: weekdays 1pm–7pm UTC.",
+    "title": "Global schedule",
+    "subtitle": "When peak hours happen in major cities. During peak hours, session limits drain faster than normal (weekdays 13:00–19:00 UTC).",
     "tableHeaders": {
       "city": "City / Region",
       "timezone": "Timezone",
@@ -114,7 +114,7 @@
     "weekendLabel": "All Weekend → Normal Speed"
   },
   "faq": {
-    "title": "QUESTIONS ANSWERED",
+    "title": "Questions answered",
     "subtitle": "Everything you need to know about Claude's peak hours, limit changes and promotions.",
     "items": [
       {
@@ -172,7 +172,7 @@
     ]
   },
   "devTools": {
-    "title": "DEVELOPER TOOLS",
+    "title": "Developer tools",
     "subtitle": "Integrate Claude's peak hours status into your workflow. API endpoint and terminal prompt — no browser needed.",
     "apiTitle": "JSON API & Terminal Integration",
     "apiDescription": "A public /api/status endpoint returns real-time peak hours status as JSON. Pipe it into your ZSH/Bash prompt to see your current status right in your terminal.",
@@ -248,29 +248,44 @@
       "agents": "Agents & automation"
     },
     "claudeWatch": {
-      "badge": "CLAUDE WATCH",
-      "livePromo": "LIVE CLAUDE PROMO",
+      "badge": "Claude Watch",
+      "cardTitle": "Claude peak hours",
+      "peak": "Peak",
+      "offPeak": "Off-peak",
+      "livePromo": "Live Claude promo",
       "latestChange": "Latest Claude change",
       "promoEndsIn": "Promo ends in",
       "peakPanelTitle": "Peak hours right now",
+      "windowProgress": "Current window",
       "peakNote": "Peak hours were last officially described on March 27, 2026 and still appear to apply to Claude.ai chat, Cowork and the apps. Claude Code on Pro and Max has been exempt since May 6, 2026.",
       "seeAllDeals": "See today's live AI deals"
     },
     "home": {
-      "dealsTitle": "LIVE AI DEALS",
+      "dealsTitle": "Live AI deals",
       "dealsSubtitle": "Verified promotions, student offers and limit boosts across popular AI tools — each with a source, a verification date and a live countdown.",
       "dealsCta": "See all deals",
-      "toolsTitle": "50 AI TOOLS, ONE CLOCK",
+      "toolsTitle": "50 AI tools, one clock",
       "toolsSubtitle": "The most-used AI tools, grouped by what they do. Open any tool for its current deals and past promotions.",
       "toolsCta": "Browse all tools",
-      "historyTitle": "CLAUDE PROMOTION HISTORY",
+      "historyTitle": "Claude promotion history",
       "historySubtitle": "Past Claude promotions and limit changes, newest first.",
-      "archive": "Archive"
+      "archive": "Archive",
+      "heroEyebrow": "Claude Watch · updated daily",
+      "heroTitle": "Claude's limits and the best AI deals, on one clock",
+      "heroSubtitle": "Know when Claude's session limits drain faster, what just changed in your plan, and which of 50 popular AI tools have verified promos right now.",
+      "ctaDeals": "Browse live deals",
+      "ctaTools": "Explore 50 tools",
+      "statsLive": "Live deals",
+      "statsTools": "AI tools tracked",
+      "statsDeadline": "Next deadline",
+      "statsDeadlineNone": "None scheduled",
+      "statsLanguages": "Languages",
+      "sponsored": "Sponsored"
     },
     "deals": {
       "metaTitle": "Live AI Deals & Promo Codes (Verified) — PromoClock",
       "metaDescription": "Verified promotions, student offers, free trials and limit boosts for ChatGPT, Gemini, Claude, Cursor, ElevenLabs and more — with countdowns and sources.",
-      "title": "LIVE AI DEALS",
+      "title": "Live AI deals",
       "subtitle": "Every deal links to its official source and shows when we last verified it. Expired offers leave the list automatically.",
       "filterAll": "All",
       "live": "Live now",
@@ -281,10 +296,10 @@
     "tools": {
       "metaTitle": "50 Popular AI Tools — Promos, Deals & Limits — PromoClock",
       "metaDescription": "Track promotions, student offers, pricing changes and usage-limit news for the 50 most popular AI tools, from ChatGPT and Claude to Cursor, Canva and ElevenLabs.",
-      "title": "AI TOOLS",
+      "title": "AI tools",
       "subtitle": "The 50 most-used AI tools, grouped by category. Open a tool to see its live deals and promotion history.",
       "filterAll": "All",
-      "withDeals": "Live deal",
+      "withDeals": "Live deals only",
       "searchPlaceholder": "Search tools…",
       "liveDeals": "{count} live",
       "noLiveDeals": "No live deals right now — check back or see all deals.",
@@ -300,7 +315,7 @@
     "calendar": {
       "metaTitle": "AI Promo Calendar — Deadlines, Launches & Sales — PromoClock",
       "metaDescription": "Upcoming AI promo deadlines, student-offer cutoffs, launch events and seasonal sales like Black Friday, in one calendar.",
-      "title": "AI PROMO CALENDAR",
+      "title": "AI promo calendar",
       "subtitle": "Deadlines, launches and sales worth planning around.",
       "upcoming": "Upcoming",
       "past": "Past",
@@ -309,7 +324,7 @@
     "disclosure": {
       "metaTitle": "Affiliate Disclosure — PromoClock",
       "metaDescription": "How PromoClock uses affiliate links and how we choose which AI deals to list.",
-      "title": "AFFILIATE DISCLOSURE",
+      "title": "Affiliate disclosure",
       "paragraphs": [
         "PromoClock is an independent project. Some links to AI tools on this site are affiliate or partner links. If you sign up or buy through one of them, we may earn a commission at no extra cost to you.",
         "Affiliate relationships never decide whether a deal is listed. We list offers that are publicly available from the tool's official channels, link to the original source, and show the date we last verified each one.",

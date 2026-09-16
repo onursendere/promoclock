@@ -58,6 +58,10 @@ export interface HubDictionary {
   >;
   claudeWatch: {
     badge: string;
+    cardTitle: string;
+    peak: string;
+    offPeak: string;
+    windowProgress: string;
     livePromo: string;
     latestChange: string;
     promoEndsIn: string;
@@ -66,6 +70,17 @@ export interface HubDictionary {
     seeAllDeals: string;
   };
   home: {
+    heroEyebrow: string;
+    heroTitle: string;
+    heroSubtitle: string;
+    ctaDeals: string;
+    ctaTools: string;
+    statsLive: string;
+    statsTools: string;
+    statsDeadline: string;
+    statsDeadlineNone: string;
+    statsLanguages: string;
+    sponsored: string;
     dealsTitle: string;
     dealsSubtitle: string;
     dealsCta: string;
@@ -260,6 +275,12 @@ export function getDictionary(locale: Locale): UiDictionary {
   const dict = dictionaries[locale];
   return { ...dict, hub: dict.hub ?? english.hub };
 }
+
+/**
+ * Legacy section titles in untranslated dictionaries are ALL CAPS; render them in
+ * sentence case until the translation pass replaces them.
+ */
+export const legacyCase = (lang: Locale) => (lang === "en" ? "" : "lowercase first-letter:uppercase");
 
 /** Replace `{name}`-style placeholders. */
 export function format(template: string, vars: Record<string, string | number>): string {

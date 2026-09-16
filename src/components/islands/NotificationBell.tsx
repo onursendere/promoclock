@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Bell, BellOff, Volume2, VolumeX } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getPeakStatus, PEAK_HOURS } from "@/data/claude";
+import { cn } from "@/lib/utils";
 
 interface Props {
   titles: { offPeak: string; peak: string };
@@ -113,7 +114,7 @@ export default function NotificationBell({ titles, bodies }: Props) {
           onClick={toggleNotifications}
           aria-pressed={notifEnabled}
           aria-label={notifEnabled ? "Disable peak-hours notifications" : "Enable peak-hours notifications"}
-          className={notifEnabled ? "bg-accent text-accent-foreground" : "text-muted-foreground"}
+          className={notifEnabled ? "bg-accent text-accent-foreground" : undefined}
         >
           {notifEnabled ? <Bell /> : <BellOff />}
         </Button>
@@ -124,7 +125,7 @@ export default function NotificationBell({ titles, bodies }: Props) {
         onClick={toggleSound}
         aria-pressed={soundEnabled}
         aria-label={soundEnabled ? "Disable sound alert" : "Enable sound alert"}
-        className={soundEnabled ? "bg-accent text-accent-foreground" : "text-muted-foreground"}
+        className={cn("hidden sm:inline-flex", soundEnabled && "bg-accent text-accent-foreground")}
       >
         {soundEnabled ? <Volume2 /> : <VolumeX />}
       </Button>

@@ -1,0 +1,27 @@
+---
+import { SectionHeading } from "@/components/site/SectionHeading";
+
+interface Props {
+  id: string;
+  title: string;
+  description?: string;
+  actionHref?: string;
+  actionLabel?: string;
+  titleClassName?: string;
+  muted?: boolean;
+}
+const { id, title, description, actionHref, actionLabel, titleClassName, muted = false } = Astro.props;
+---
+
+<section id={id} class:list={["scroll-mt-14 border-t", muted && "bg-muted/30"]} aria-labelledby={`${id}-title`}>
+  <div class="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-16 sm:px-6 sm:py-20">
+    <SectionHeading
+      title={title}
+      description={description}
+      actionHref={actionHref}
+      actionLabel={actionLabel}
+      titleClassName={titleClassName}
+    />
+    <slot />
+  </div>
+</section>

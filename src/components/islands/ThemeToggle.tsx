@@ -21,7 +21,7 @@ export default function ThemeToggle({ label }: { label: string }) {
   };
 
   return (
-    <Button variant="ghost" size="icon" onClick={toggle} aria-label={label} aria-pressed={dark} className="text-muted-foreground">
+    <Button variant="ghost" size="icon" onClick={toggle} aria-label={label} aria-pressed={dark}>
       {dark ? <Sun /> : <Moon />}
     </Button>
   );
