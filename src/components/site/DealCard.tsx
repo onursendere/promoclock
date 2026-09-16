@@ -1,49 +1,28 @@
-import { ArrowUpRight, Copy, ExternalLink } from "lucide-react";
+import { ArrowUpRight, BadgeCheck, Copy } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardAction, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput } from "@/components/ui/input-group";
 import { ToolLogo } from "@/components/site/ToolLogo";
 import type { Locale } from "@/lib/i18n/config";
 import type { HubDictionary } from "@/lib/i18n/dictionaries";
-import { dealHref, getDealStatus, localize, type DealRecord, type ToolRecord } from "@/lib/deals";
-import { localePath } from "@/lib/seo";
-import { getCountdown, pad2, formatDate } from "@/lib/time";
-import { cn } from "@/lib/utils";
+import { dealHref, localize, type DealRecord, type ToolRecord } from "@/lib/deals";
+import { dealPath, toolPath } from "@/lib/seo";
+import { formatDate } from "@/lib/time";
+import { timerText, type TimerLabels } from "@/scripts/live";
 
-interface Props {
-  deal: DealRecord;
-  tool?: ToolRecord;
-  lang: Locale;
-  hub: HubDictionary;
-  now: number;
-  hideTool?: boolean;
-}
+export const isLimitNews = (deal: DealRecord) => deal.kind === "limit-change" || deal.kind === "limit-boost";
 
-/** Status pill; src/scripts/live.ts keeps the text and data-status current after load. */
+/** Time-left pill; src/scripts/live.ts keeps it current after load. */
 export function DealTimer({ deal, hub, now }: { deal: DealRecord; hub: HubDictionary; now: number }) {
-  const { common } = hub;
-  const labels = {
-    endsIn: common.endsIn,
-    startsIn: common.startsIn,
-    ended: common.ended,
-    ongoing: common.ongoing,
-    d: common.days,
-    h: common.hours,
-    m: common.minutes,
-    s: common.seconds,
+  const labels: TimerLabels = {
+    daysLeft: hub.common.daysLeft,
+    hoursLeft: hub.common.hoursLeft,
+    startsIn: hub.common.startsIn,
+    ended: hub.common.ended,
+    ongoing: hub.common.ongoing,
   };
-  const status = getDealStatus(deal, now);
-  const c = deal.endsAt !== undefined ? getCountdown(deal.endsAt, now) : undefined;
-  const initial =
-    status === "upcoming"
-      ? common.startsIn
-      : status === "ended" || status === "past"
-        ? common.ended
-        : !c
-          ? common.ongoing
-          : `${common.endsIn} ${c.days}${common.days} ${pad2(c.hours)}${common.hours}`;
-
+  const { status, text } = timerText(deal, now, labels);
   return (
     <Badge
       variant="outline"
@@ -53,68 +32,91 @@ export function DealTimer({ deal, hub, now }: { deal: DealRecord; hub: HubDictio
       data-ends={deal.endsAt}
       data-ongoing={deal.ongoing ? "true" : "false"}
       data-labels={JSON.stringify(labels)}
-      className="group/timer gap-1.5 font-mono tabular-nums data-[status=active]:text-success data-[status=ending-soon]:text-warning data-[status=upcoming]:text-info"
+      className="group/timer gap-1.5 tabular-nums data-[status=active]:text-success data-[status=ending-soon]:text-warning data-[status=upcoming]:text-info"
     >
       <span
         aria-hidden="true"
         className="size-1.5 rounded-full bg-muted-foreground group-data-[status=active]/timer:bg-success group-data-[status=ending-soon]/timer:bg-warning group-data-[status=upcoming]/timer:bg-info"
       />
-      <span data-timer-text>{initial}</span>
+      <span data-timer-text>{text}</span>
     </Badge>
   );
 }
 
-export function DealCard({ deal, tool, lang, hub, now, hideTool = false }: Props) {
+/** Offer · Ends/Started · Who, as a compact definition grid. */
+export function DealFacts({ deal, lang, hub }: { deal: DealRecord; lang: Locale; hub: HubDictionary }) {
+  const { common } = hub;
+  const when = deal.endsAt
+    ? { label: common.ends, value: formatDate(deal.endsAt, lang) }
+    : deal.ongoing
+      ? { label: common.ends, value: common.ongoing }
+      : { label: common.started, value: formatDate(deal.startsAt, lang) };
+  return (
+    <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-lg border bg-border text-sm">
+      <div className="flex flex-col gap-0.5 bg-card px-3 py-2">
+        <dt className="text-xs text-muted-foreground">{common.offer}</dt>
+        <dd className="font-semibold">{localize(deal.value, lang)}</dd>
+      </div>
+      <div className="flex flex-col gap-0.5 bg-card px-3 py-2">
+        <dt className="text-xs text-muted-foreground">{when.label}</dt>
+        <dd className="font-semibold tabular-nums">{when.value}</dd>
+      </div>
+      <div className="col-span-2 flex flex-col gap-0.5 bg-card px-3 py-2">
+        <dt className="text-xs text-muted-foreground">{common.who}</dt>
+        <dd className="font-medium">{localize(deal.audience, lang)}</dd>
+      </div>
+    </dl>
+  );
+}
+
+export function DealCard({
+  deal,
+  tool,
+  lang,
+  hub,
+  now,
+  hideTool = false,
+}: {
+  deal: DealRecord;
+  tool?: ToolRecord;
+  lang: Locale;
+  hub: HubDictionary;
+  now: number;
+  hideTool?: boolean;
+}) {
   const { common, kinds } = hub;
   const cta = dealHref(deal, tool);
-  const startKnown = deal.startKnown !== false;
-  const dates = deal.endsAt
-    ? startKnown
-      ? `${formatDate(deal.startsAt, lang)} – ${formatDate(deal.endsAt, lang)}`
-      : `→ ${formatDate(deal.endsAt, lang)}`
-    : deal.ongoing || !startKnown
-      ? undefined
-      : formatDate(deal.startsAt, lang);
+  const details = dealPath(lang, deal.id);
+  const news = isLimitNews(deal);
 
   return (
-    <Card id={deal.id} data-deal-card data-kind={deal.kind} className="h-full scroll-mt-24">
+    <Card data-deal-card data-kind={deal.kind} className="h-full gap-4">
       <CardHeader>
         {hideTool || !tool ? (
-          <CardDescription>{kinds[deal.kind]}</CardDescription>
+          <Badge variant="secondary" className="w-fit">
+            {kinds[deal.kind]}
+          </Badge>
         ) : (
-          <a href={localePath(lang, `tools/${tool.slug}`)} className="flex min-w-0 items-center gap-3 hover:underline">
+          <a href={toolPath(lang, tool.slug)} className="flex w-fit items-center gap-2.5 hover:underline">
             <ToolLogo slug={tool.slug} name={tool.name} size="sm" />
-            <span className="min-w-0">
-              <span className="block truncate text-sm font-medium">{tool.name}</span>
-              <span className="block truncate text-xs text-muted-foreground">{kinds[deal.kind]}</span>
-            </span>
+            <span className="text-sm font-medium">{tool.name}</span>
           </a>
         )}
         <CardAction>
           <DealTimer deal={deal} hub={hub} now={now} />
         </CardAction>
       </CardHeader>
-      <CardContent className="flex flex-1 flex-col gap-3">
-        <CardTitle className="text-base leading-snug font-semibold">
-          <h3>{localize(deal.title, lang)}</h3>
+      <CardContent className="flex flex-1 flex-col gap-4">
+        <CardTitle className="text-lg leading-snug font-semibold text-balance">
+          <h3>
+            <a href={details} className="hover:underline">
+              {localize(deal.headline, lang)}
+            </a>
+          </h3>
         </CardTitle>
-        <p className="line-clamp-4 text-sm leading-relaxed text-muted-foreground">{localize(deal.summary, lang)}</p>
-        <div className="mt-auto flex flex-wrap gap-1.5 pt-1">
-          {deal.scope && <Badge variant="secondary">{localize(deal.scope, lang)}</Badge>}
-          {deal.regions?.map((region) => (
-            <Badge key={region} variant="outline">
-              {region}
-            </Badge>
-          ))}
-          {dates && (
-            <Badge variant="outline" className="text-muted-foreground">
-              {dates}
-            </Badge>
-          )}
-        </div>
+        <DealFacts deal={deal} lang={lang} hub={hub} />
         {deal.code && (
           <InputGroup>
-            <InputGroupAddon>{common.code}</InputGroupAddon>
             <InputGroupInput readOnly value={deal.code} className="font-mono font-semibold tracking-widest" aria-label={common.code} />
             <InputGroupAddon align="inline-end">
               <InputGroupButton size="xs" data-copy={deal.code} data-copied-label={common.copied}>
@@ -124,28 +126,39 @@ export function DealCard({ deal, tool, lang, hub, now, hideTool = false }: Props
             </InputGroupAddon>
           </InputGroup>
         )}
-      </CardContent>
-      <CardFooter className="flex-wrap justify-between gap-3">
-        <div className="flex min-w-0 flex-col text-xs text-muted-foreground">
-          <a
-            href={deal.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 truncate hover:text-foreground hover:underline"
-          >
-            {deal.sourceLabel}
-            <ExternalLink className="size-3 shrink-0" aria-hidden="true" />
-          </a>
-          <span>
-            {common.verified} {formatDate(deal.verifiedAt, lang)}
+        <p className="mt-auto flex items-center gap-1.5 text-xs text-muted-foreground">
+          <BadgeCheck className="size-3.5 shrink-0 text-success" aria-hidden="true" />
+          <span className="truncate">
+            {common.verified} {formatDate(deal.verifiedAt, lang)} · {deal.sourceLabel}
           </span>
-        </div>
-        <Button size="sm" asChild>
-          <a href={cta.href} target="_blank" rel={cn("noopener", cta.sponsored && "sponsored")}>
-            {common.getDeal}
-            <ArrowUpRight data-icon="inline-end" />
-          </a>
-        </Button>
+        </p>
+      </CardContent>
+      <CardFooter className="gap-2">
+        {news ? (
+          <>
+            <Button size="sm" asChild className="flex-1">
+              <a href={details}>{common.details}</a>
+            </Button>
+            <Button size="sm" variant="outline" asChild>
+              <a href={deal.sourceUrl} target="_blank" rel="noopener noreferrer">
+                {common.sources}
+                <ArrowUpRight data-icon="inline-end" />
+              </a>
+            </Button>
+          </>
+        ) : (
+          <>
+            <Button size="sm" asChild className="flex-1">
+              <a href={cta.href} target="_blank" rel={cta.sponsored ? "sponsored noopener" : "noopener"}>
+                {common.getDeal}
+                <ArrowUpRight data-icon="inline-end" />
+              </a>
+            </Button>
+            <Button size="sm" variant="outline" asChild>
+              <a href={details}>{common.details}</a>
+            </Button>
+          </>
+        )}
       </CardFooter>
     </Card>
   );

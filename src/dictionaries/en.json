@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "PromoClock — Claude Peak Hours, Limit Changes & Live AI Deals",
-    "description": "Live Claude peak-hours clock and usage-limit changes, plus verified promos, student offers and deals for 50 popular AI tools — with countdowns, sources and auto-expiry.",
-    "ogTitle": "PromoClock — Claude Watch & live AI deals",
+    "title": "Claude Peak Hours Now & Live AI Deals | PromoClock",
+    "description": "Live Claude peak-hours clock, the latest Claude limit changes, and verified student offers and promos for 50 AI tools, with sources and countdowns.",
+    "ogTitle": "Claude peak hours & AI deals, live",
     "ogDescription": "Is Claude in peak hours right now? What changed in your limits? Which AI tools have live promos? One clock for all of it."
   },
   "header": {
@@ -21,8 +21,8 @@
     "promotionInactive": "Peak hours — limits drain faster",
     "promotionExpired": "Off-peak — normal limits",
     "promotionNotStarted": "Off-peak — normal limits",
-    "activeSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
-    "inactiveSubtitle": "Peak hours (weekdays 1pm–7pm UTC) — session limits drain faster than usual. Weekly limits unchanged.",
+    "activeSubtitle": "Session limits drain at normal speed.",
+    "inactiveSubtitle": "Session limits drain faster than usual.",
     "expiredSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
     "notStartedSubtitle": "Off-peak hours — session limits drain at normal speed. Best time for token-intensive work.",
     "countdownLabel": "Until next status change",
@@ -204,7 +204,8 @@
       "api": "API",
       "menu": "Menu",
       "language": "Change language",
-      "theme": "Toggle dark mode"
+      "theme": "Toggle dark mode",
+      "about": "About"
     },
     "common": {
       "verified": "Verified",
@@ -226,7 +227,22 @@
       "hours": "h",
       "minutes": "m",
       "seconds": "s",
-      "updated": "Updated"
+      "updated": "Updated",
+      "daysLeft": "{n}d left",
+      "hoursLeft": "{h}h {m}m left",
+      "offer": "Offer",
+      "who": "Who",
+      "ends": "Ends",
+      "started": "Started",
+      "status": "Status",
+      "regions": "Regions",
+      "howToClaim": "How to get it",
+      "goodToKnow": "Good to know",
+      "related": "More deals",
+      "lastUpdated": "Updated {date}",
+      "live": "Live",
+      "upcomingLabel": "Upcoming",
+      "sources": "Source"
     },
     "kinds": {
       "limit-boost": "Limit boost",
@@ -258,21 +274,29 @@
       "peakPanelTitle": "Peak hours right now",
       "windowProgress": "Current window",
       "peakNote": "Peak hours were last officially described on March 27, 2026 and still appear to apply to Claude.ai chat, Cowork and the apps. Claude Code on Pro and Max has been exempt since May 6, 2026.",
-      "seeAllDeals": "See today's live AI deals"
+      "seeAllDeals": "See today's live AI deals",
+      "statusTitle": "Claude status",
+      "peakShort": "Limits drain faster",
+      "offPeakShort": "Normal limits",
+      "changesIn": "Changes in",
+      "peakWindow": "Peak window · your time",
+      "nextPeakWindow": "Next peak · your time",
+      "whatsNew": "New",
+      "info": "About peak hours"
     },
     "home": {
       "dealsTitle": "Live AI deals",
-      "dealsSubtitle": "Verified promotions, student offers and limit boosts across popular AI tools — each with a source, a verification date and a live countdown.",
+      "dealsSubtitle": "Verified offers with sources and live countdowns.",
       "dealsCta": "See all deals",
       "toolsTitle": "50 AI tools, one clock",
-      "toolsSubtitle": "The most-used AI tools, grouped by what they do. Open any tool for its current deals and past promotions.",
+      "toolsSubtitle": "Open a tool for its live deals and promo history.",
       "toolsCta": "Browse all tools",
       "historyTitle": "Claude promotion history",
-      "historySubtitle": "Past Claude promotions and limit changes, newest first.",
+      "historySubtitle": "Every Claude limit change and promo, newest first.",
       "archive": "Archive",
-      "heroEyebrow": "Claude Watch · updated daily",
-      "heroTitle": "Claude's limits and the best AI deals, on one clock",
-      "heroSubtitle": "Know when Claude's session limits drain faster, what just changed in your plan, and which of 50 popular AI tools have verified promos right now.",
+      "heroEyebrow": "Live · updated daily",
+      "heroTitle": "Claude peak hours & AI deals, live",
+      "heroSubtitle": "See when Claude's limits drain faster, and grab verified promos from 50 AI tools.",
       "ctaDeals": "Browse live deals",
       "ctaTools": "Explore 50 tools",
       "statsLive": "Live deals",
@@ -280,13 +304,39 @@
       "statsDeadline": "Next deadline",
       "statsDeadlineNone": "None scheduled",
       "statsLanguages": "Languages",
-      "sponsored": "Sponsored"
+      "sponsored": "Sponsored",
+      "peakTitle": "Claude peak hours at a glance",
+      "peakAnswer": "Claude's peak hours are weekdays from 13:00 to 19:00 UTC. During peak hours, 5-hour session limits on Free, Pro, Max and Team plans drain faster; weekly limits don't change.",
+      "peakFacts": [
+        {
+          "label": "Peak window",
+          "value": "Weekdays, 13:00–19:00 UTC"
+        },
+        {
+          "label": "Off-peak",
+          "value": "Evenings, nights and all weekend"
+        },
+        {
+          "label": "Weekly limits",
+          "value": "Unchanged"
+        },
+        {
+          "label": "In effect since",
+          "value": "March 27, 2026"
+        },
+        {
+          "label": "Claude Code on Pro & Max",
+          "value": "Exempt since May 6, 2026"
+        }
+      ],
+      "affectedPlans": "Affected plans",
+      "scheduleTitle": "Peak hours in your city"
     },
     "deals": {
-      "metaTitle": "Live AI Deals & Promo Codes (Verified) — PromoClock",
-      "metaDescription": "Verified promotions, student offers, free trials and limit boosts for ChatGPT, Gemini, Claude, Cursor, ElevenLabs and more — with countdowns and sources.",
+      "metaTitle": "AI Deals & Student Offers ({month}) | PromoClock",
+      "metaDescription": "Verified AI deals for {month}: free ChatGPT Plus and Google AI Pro for students, GitHub Copilot, Notion and more, with deadlines and official sources.",
       "title": "Live AI deals",
-      "subtitle": "Every deal links to its official source and shows when we last verified it. Expired offers leave the list automatically.",
+      "subtitle": "Every offer is checked against its official source. Expired deals drop off automatically.",
       "filterAll": "All",
       "live": "Live now",
       "upcoming": "Coming up",
@@ -294,10 +344,10 @@
       "empty": "No deals match this filter right now."
     },
     "tools": {
-      "metaTitle": "50 Popular AI Tools — Promos, Deals & Limits — PromoClock",
+      "metaTitle": "50 AI Tools: Promos, Deals & Limits | PromoClock",
       "metaDescription": "Track promotions, student offers, pricing changes and usage-limit news for the 50 most popular AI tools, from ChatGPT and Claude to Cursor, Canva and ElevenLabs.",
       "title": "AI tools",
-      "subtitle": "The 50 most-used AI tools, grouped by category. Open a tool to see its live deals and promotion history.",
+      "subtitle": "The 50 most-used AI tools. Open one for its live deals and promo history.",
       "filterAll": "All",
       "withDeals": "Live deals only",
       "searchPlaceholder": "Search tools…",
@@ -305,15 +355,15 @@
       "noLiveDeals": "No live deals right now — check back or see all deals.",
       "partnerLink": "Partner link",
       "pastDeals": "Past promotions",
-      "toolMetaTitle": "{name} Promos, Deals & Limit Changes ({year}) — PromoClock",
-      "toolMetaDescription": "Current {name} promotions, student offers and usage-limit changes — verified, sourced and updated daily.",
+      "toolMetaTitle": "{name} Deals, Promos & Limits ({month}) | PromoClock",
+      "toolMetaDescription": "Live {name} deals, student offers and limit changes for {month}, each checked against an official source and updated daily.",
       "officialSite": "Official site",
       "currentDeals": "Current deals",
       "allTools": "All tools",
       "empty": "No tools match your search."
     },
     "calendar": {
-      "metaTitle": "AI Promo Calendar — Deadlines, Launches & Sales — PromoClock",
+      "metaTitle": "AI Promo Calendar: Deadlines & Sales | PromoClock",
       "metaDescription": "Upcoming AI promo deadlines, student-offer cutoffs, launch events and seasonal sales like Black Friday, in one calendar.",
       "title": "AI promo calendar",
       "subtitle": "Deadlines, launches and sales worth planning around.",
@@ -337,6 +387,46 @@
       "title": "This page took a break",
       "body": "The page you're looking for doesn't exist or has moved.",
       "cta": "Back to Claude Watch"
+    },
+    "dealPage": {
+      "metaTitle": "{headline} ({month}) | PromoClock",
+      "faqTitle": "Questions about this deal",
+      "qAvailable": "Is this offer still available?",
+      "aLive": "Yes. As of {date}, it is live and ends on {end}.",
+      "aOngoing": "Yes. As of {date}, it is an ongoing program with no announced end date.",
+      "aUpcoming": "Not yet. It starts on {start}.",
+      "aEnded": "No. It ended on {end}.",
+      "qWho": "Who is eligible?",
+      "qHow": "How do I get it?",
+      "qChange": "What changed?",
+      "qWhen": "When did it take effect?",
+      "aWhen": "On {date}.",
+      "qSource": "Where does this information come from?",
+      "aSource": "From {source}. PromoClock last checked it on {date}."
+    },
+    "about": {
+      "metaTitle": "About PromoClock: How We Track Claude Limits & AI Deals",
+      "metaDescription": "Who runs PromoClock, how every Claude limit change and AI deal is verified against official sources, and how often the site is updated.",
+      "title": "About PromoClock",
+      "intro": "PromoClock is an independent tracker for Claude's usage limits and for verified promotions across 50 popular AI tools.",
+      "sections": [
+        {
+          "title": "How we verify",
+          "body": "Every deal and limit change links to an official source: a help center article, an official blog post or an announcement from the company's own account. We record the date we last checked each one and only publish codes the company or its partner program provides."
+        },
+        {
+          "title": "How often it updates",
+          "body": "The site rebuilds every day. Deal status is calculated from start and end dates, so expired offers leave the live lists automatically, and the peak-hours clock runs live in your browser."
+        },
+        {
+          "title": "Who runs it",
+          "body": "PromoClock is built and maintained by Onur Şendere, founder of Digiwings, a one-person digital agency in Shrewsbury, UK. It is not affiliated with Anthropic or any tool listed."
+        },
+        {
+          "title": "Contact",
+          "body": "Spotted an outdated deal or a new promotion? Send it to @onursendere on X."
+        }
+      ]
     }
   }
 }

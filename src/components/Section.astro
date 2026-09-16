@@ -14,7 +14,7 @@ const { id, title, description, actionHref, actionLabel, titleClassName, muted =
 ---
 
 <section id={id} class:list={["scroll-mt-14 border-t", muted && "bg-muted/30"]} aria-labelledby={`${id}-title`}>
-  <div class="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-16 sm:px-6 sm:py-20">
+  <div class="mx-auto flex w-full max-w-6xl flex-col gap-6 sm:gap-8 px-4 py-12 sm:px-6 sm:py-20">
     <SectionHeading
       title={title}
       description={description}

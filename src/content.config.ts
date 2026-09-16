@@ -34,9 +34,19 @@ const deals = defineCollection({
   schema: z.object({
     tool: reference("tools"),
     kind: z.enum(DEAL_KINDS),
+    /** Full, search-friendly title (deal page H1). */
     title: localizedText,
+    /** Short card title, ≤ 60 characters. */
+    headline: localizedText,
+    /** The offer in a few words, e.g. "4 months free", "+25% weekly". */
+    value: localizedText,
+    /** Who it is for, e.g. "US college students". */
+    audience: localizedText,
+    /** Answer-first summary: 1–2 sentences. */
     summary: localizedText,
     scope: localizedText.optional(),
+    steps: z.array(localizedText).optional(),
+    terms: z.array(localizedText).optional(),
     code: z.string().optional(),
     startsAt: z.coerce.date(),
     startKnown: z.boolean().optional(),

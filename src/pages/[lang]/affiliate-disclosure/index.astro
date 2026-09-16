@@ -15,7 +15,7 @@ const dict = getDictionary(lang);
 const t = dict.hub.disclosure;
 ---
 
-<BaseLayout lang={lang} dict={dict} path="affiliate-disclosure" title={t.metaTitle} description={t.metaDescription}>
+<BaseLayout lang={lang} dict={dict} path="affiliate-disclosure" title={t.metaTitle} description={t.metaDescription} hub>
   <PageHeader crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: dict.hub.common.disclosureLink }]} title={t.title} />
   <div class="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
     <DisclosureCard paragraphs={t.paragraphs} />

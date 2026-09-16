@@ -32,6 +32,7 @@ export function SiteFooter({ lang, dict }: { lang: Locale; dict: UiDictionary })
       links: [
         { label: "GitHub", href: AUTHOR.repo },
         { label: "X", href: AUTHOR.x },
+        { label: nav.about, href: localePath(lang, "about") },
         { label: "Digiwings", href: AUTHOR.agency },
         { label: common.disclosureLink, href: localePath(lang, "affiliate-disclosure") },
       ],

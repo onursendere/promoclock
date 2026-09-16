@@ -3,9 +3,11 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { format, getDictionary } from "@/lib/i18n/dictionaries";
 import { getDeals, getTools } from "@/lib/content";
-import { localize, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
-import { breadcrumbJsonLd } from "@/lib/jsonld";
-import { absoluteUrl, localePath } from "@/lib/seo";
+import { lastVerified, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
+import { breadcrumbNode, itemListNode, softwareNode, webPageNode } from "@/lib/jsonld";
+import { absoluteUrl, dealPath, localePath } from "@/lib/seo";
+import { formatDate } from "@/lib/time";
+import { localize } from "@/lib/deals";
 import { BUILD_TIME } from "@/lib/site";
 import { ToolHero } from "@/components/site/ToolHero";
 import { DealCard } from "@/components/site/DealCard";
@@ -46,23 +48,24 @@ const { hub } = dict;
 const t = hub.tools;
 const { live, upcoming, archive } = partitionDeals(deals, BUILD_TIME);
 const current = [...live, ...upcoming];
-const year = new Date(BUILD_TIME).getUTCFullYear();
-const title = format(t.toolMetaTitle, { name: tool.name, year });
-const description = format(t.toolMetaDescription, { name: tool.name });
+const month = formatDate(BUILD_TIME, lang, { day: undefined, month: "short" });
+const title = format(t.toolMetaTitle, { name: tool.name, month });
+const description = format(t.toolMetaDescription, { name: tool.name, month });
 
+const url = absoluteUrl(localePath(lang, `tools/${tool.slug}`));
 const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: tool.name,
-    applicationCategory: hub.categories[tool.category],
-    operatingSystem: "Web",
-    url: tool.website,
-    description: localize(tool.tagline, lang),
-    publisher: { "@type": "Organization", name: tool.vendor },
-    subjectOf: { "@type": "WebPage", url: absoluteUrl(localePath(lang, `tools/${tool.slug}`)), name: title },
-  },
-  breadcrumbJsonLd([
+  webPageNode({
+    url,
+    name: title,
+    description,
+    lang,
+    dateModified: deals.length ? lastVerified(deals) : undefined,
+    about: softwareNode(tool, lang, hub.categories[tool.category]),
+  }),
+  ...(deals.length
+    ? [itemListNode(t.currentDeals, deals.map((d) => ({ name: localize(d.headline, lang), url: absoluteUrl(dealPath(lang, d.id)) })))]
+    : []),
+  breadcrumbNode([
     { name: "PromoClock", path: localePath(lang) },
     { name: hub.nav.tools, path: localePath(lang, "tools") },
     { name: tool.name, path: localePath(lang, `tools/${tool.slug}`) },
@@ -70,16 +73,16 @@ const jsonLd = [
 ];
 ---
 
-<BaseLayout lang={lang} dict={dict} path={`tools/${tool.slug}`} title={title} description={description} jsonLd={jsonLd}>
+<BaseLayout lang={lang} dict={dict} path={`tools/${tool.slug}`} title={title} description={description} jsonLd={jsonLd} hub>
   <ToolHero tool={tool} lang={lang} hub={hub} liveCount={live.length} />
-  <div class="mx-auto flex w-full max-w-6xl flex-col gap-14 px-4 py-10 sm:px-6">
+  <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-8 sm:gap-14 sm:px-6 sm:py-10">
     {tool.body && <p class="max-w-3xl leading-relaxed text-muted-foreground">{tool.body}</p>}
 
     <section class="flex flex-col gap-4" aria-labelledby="current-deals">
       <h2 id="current-deals" class="text-xl font-semibold tracking-tight">{t.currentDeals}</h2>
       {
         current.length > 0 ? (
-          <div data-live-list class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div data-live-list class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             {current.map((deal) => (
               <div>
                 <DealCard deal={deal} tool={tool} lang={lang} hub={hub} now={BUILD_TIME} hideTool />
@@ -109,7 +112,7 @@ const jsonLd = [
           <h2 id="related-tools" class="text-xl font-semibold tracking-tight">
             {hub.categories[tool.category]}
           </h2>
-          <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((r) => (
               <ToolCard tool={r} liveCount={liveByTool[r.slug] ?? 0} lang={lang} hub={hub} />
             ))}

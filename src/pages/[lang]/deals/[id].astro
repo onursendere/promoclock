@@ -1,0 +1,94 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import { format, getDictionary } from "@/lib/i18n/dictionaries";
+import { getDeals, getTools } from "@/lib/content";
+import { getDealStatus, isLive, localize, type DealRecord, type ToolRecord } from "@/lib/deals";
+import { breadcrumbNode, faqNode, howToNode, offerNode, softwareNode, webPageNode } from "@/lib/jsonld";
+import { absoluteUrl, dealPath, localePath } from "@/lib/seo";
+import { BUILD_TIME } from "@/lib/site";
+import { formatDate } from "@/lib/time";
+import { PageHeader } from "@/components/site/PageHeader";
+import { DealKeyFacts, DealSteps, DealTerms, RelatedDeals, dealFaq } from "@/components/site/DealDetail";
+import { ToolCard } from "@/components/site/ToolCard";
+import { AffiliateNote } from "@/components/site/AffiliateNote";
+import FaqAccordion from "@/components/islands/FaqAccordion";
+
+export async function getStaticPaths() {
+  const [tools, deals] = await Promise.all([getTools(), getDeals()]);
+  const toolsBySlug = Object.fromEntries(tools.map((t) => [t.slug, t]));
+  return i18n.locales.flatMap((lang) =>
+    deals.map((deal) => {
+      const related = deals
+        .filter((d) => d.id !== deal.id && (d.tool === deal.tool || d.kind === deal.kind))
+        .sort((a, b) => Number(isLive(getDealStatus(b, BUILD_TIME))) - Number(isLive(getDealStatus(a, BUILD_TIME))) || b.startsAt - a.startsAt)
+        .slice(0, 4);
+      return { params: { lang, id: deal.id }, props: { deal, tool: toolsBySlug[deal.tool], related, toolsBySlug } };
+    }),
+  );
+}
+
+interface Props {
+  deal: DealRecord;
+  tool: ToolRecord;
+  related: DealRecord[];
+  toolsBySlug: Record<string, ToolRecord>;
+}
+
+const lang = Astro.params.lang as Locale;
+const { deal, tool, related, toolsBySlug } = Astro.props;
+const dict = getDictionary(lang);
+const { hub } = dict;
+const status = getDealStatus(deal, BUILD_TIME);
+const month = formatDate(BUILD_TIME, lang, { day: undefined, month: "short" });
+const headline = localize(deal.headline, lang);
+const title = format(hub.dealPage.metaTitle, { headline, month });
+const summary = localize(deal.summary, lang);
+const description = summary.length > 158 ? `${summary.slice(0, 155).replace(/\s+\S*$/, "")}…` : summary;
+const faq = dealFaq(deal, tool, lang, hub, BUILD_TIME, status);
+const url = absoluteUrl(dealPath(lang, deal.id));
+
+const jsonLd = [
+  webPageNode({
+    url,
+    name: localize(deal.title, lang),
+    description,
+    lang,
+    dateModified: deal.verifiedAt,
+    speakable: ["h1", ".page-summary"],
+    about: softwareNode(tool, lang, hub.categories[tool.category]),
+  }),
+  offerNode(deal, tool, lang, url),
+  howToNode(deal, lang, `${hub.common.howToClaim}: ${headline}`),
+  faqNode(faq, url),
+  breadcrumbNode([
+    { name: "PromoClock", path: localePath(lang) },
+    { name: hub.nav.deals, path: localePath(lang, "deals") },
+    { name: headline, path: dealPath(lang, deal.id) },
+  ]),
+].filter(Boolean) as object[];
+---
+
+<BaseLayout lang={lang} dict={dict} path={`deals/${deal.id}`} title={title} description={description} jsonLd={jsonLd} hub>
+  <PageHeader
+    crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: hub.nav.deals, href: localePath(lang, "deals") }, { label: tool.name }]}
+    title={localize(deal.title, lang)}
+    description={summary}
+  />
+  <div class="mx-auto grid w-full max-w-6xl grid-cols-1 gap-8 px-4 py-8 sm:px-6 sm:py-10 lg:grid-cols-[minmax(0,1fr)_320px]">
+    <div class="flex min-w-0 flex-col gap-6">
+      <DealKeyFacts deal={deal} tool={tool} lang={lang} hub={hub} now={BUILD_TIME} />
+      <DealSteps deal={deal} lang={lang} hub={hub} />
+      <DealTerms deal={deal} lang={lang} hub={hub} />
+      <section class="flex flex-col gap-3" aria-labelledby="deal-faq">
+        <h2 id="deal-faq" class="text-lg font-semibold tracking-tight">{hub.dealPage.faqTitle}</h2>
+        <FaqAccordion client:visible items={faq} />
+      </section>
+      <AffiliateNote lang={lang} hub={hub} />
+    </div>
+    <aside class="flex flex-col gap-6">
+      <div><ToolCard tool={tool} liveCount={0} lang={lang} hub={hub} /></div>
+      <RelatedDeals deals={related} tools={toolsBySlug} lang={lang} hub={hub} />
+    </aside>
+  </div>
+</BaseLayout>

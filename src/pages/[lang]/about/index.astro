@@ -1,0 +1,38 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import { getDictionary } from "@/lib/i18n/dictionaries";
+import { breadcrumbNode, ORG_ID, webPageNode } from "@/lib/jsonld";
+import { absoluteUrl, localePath } from "@/lib/seo";
+import { PageHeader } from "@/components/site/PageHeader";
+import { AboutSections } from "@/components/site/AboutSections";
+
+export function getStaticPaths() {
+  return i18n.locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const dict = getDictionary(lang);
+const t = dict.hub.about;
+const jsonLd = [
+  webPageNode({
+    url: absoluteUrl(localePath(lang, "about")),
+    name: t.metaTitle,
+    description: t.metaDescription,
+    lang,
+    type: "AboutPage",
+    about: { "@id": ORG_ID },
+  }),
+  breadcrumbNode([
+    { name: "PromoClock", path: localePath(lang) },
+    { name: dict.hub.nav.about, path: localePath(lang, "about") },
+  ]),
+];
+---
+
+<BaseLayout lang={lang} dict={dict} path="about" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd} hub>
+  <PageHeader crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: dict.hub.nav.about }]} title={t.title} description={t.intro} />
+  <div class="mx-auto w-full max-w-3xl px-4 py-8 sm:px-6 sm:py-10">
+    <AboutSections sections={t.sections} />
+  </div>
+</BaseLayout>

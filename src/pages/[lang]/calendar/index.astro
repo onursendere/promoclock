@@ -4,8 +4,8 @@ import { i18n, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { getEvents, getTools } from "@/lib/content";
 import { localize } from "@/lib/deals";
-import { breadcrumbJsonLd } from "@/lib/jsonld";
-import { absoluteUrl, localePath } from "@/lib/seo";
+import { breadcrumbNode, webPageNode } from "@/lib/jsonld";
+import { absoluteUrl, dealPath, localePath } from "@/lib/seo";
 import { BUILD_TIME } from "@/lib/site";
 import { formatDate } from "@/lib/time";
 import { PageHeader } from "@/components/site/PageHeader";
@@ -26,8 +26,8 @@ const toolsBySlug = Object.fromEntries(tools.map((tool) => [tool.slug, tool]));
 const withHref = (e: (typeof events)[number]): CalendarEntry => ({
   ...e,
   href:
-    e.deal && e.tool
-      ? `${localePath(lang, `tools/${e.tool}`)}#${e.deal}`
+    e.deal
+      ? dealPath(lang, e.deal)
       : e.tool
         ? localePath(lang, `tools/${e.tool}`)
         : e.url,
@@ -44,8 +44,8 @@ for (const event of upcoming) {
 }
 
 const jsonLd = [
+  webPageNode({ url: absoluteUrl(localePath(lang, "calendar")), name: t.metaTitle, description: t.metaDescription, lang }),
   ...upcoming.map((event) => ({
-    "@context": "https://schema.org",
     "@type": "Event",
     name: localize(event.title, lang),
     startDate: new Date(event.date).toISOString(),
@@ -55,14 +55,14 @@ const jsonLd = [
     location: { "@type": "VirtualLocation", url: absoluteUrl(event.href ?? localePath(lang, "calendar")) },
     ...(event.description ? { description: localize(event.description, lang) } : {}),
   })),
-  breadcrumbJsonLd([
+  breadcrumbNode([
     { name: "PromoClock", path: localePath(lang) },
     { name: hub.nav.calendar, path: localePath(lang, "calendar") },
   ]),
 ];
 ---
 
-<BaseLayout lang={lang} dict={dict} path="calendar" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd}>
+<BaseLayout lang={lang} dict={dict} path="calendar" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd} hub>
   <PageHeader crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: hub.nav.calendar }]} title={t.title} description={t.subtitle} />
   <div class="mx-auto flex w-full max-w-3xl flex-col gap-12 px-4 py-10 sm:px-6">
     <section class="flex flex-col gap-4" aria-labelledby="upcoming-events">

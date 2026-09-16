@@ -1,7 +1,8 @@
 ---
 import "@/styles/global.css";
 import type { Locale } from "@/lib/i18n/config";
-import type { UiDictionary } from "@/lib/i18n/dictionaries";
+import { hubLocales, isHubTranslated, type UiDictionary } from "@/lib/i18n/dictionaries";
+import { siteNodes } from "@/lib/jsonld";
 import { IS_STAGING, SITE_NAME } from "@/lib/site";
 import { absoluteUrl, alternateLinks, localePath } from "@/lib/seo";
 import { i18n, localeNames } from "@/lib/i18n/config";
@@ -19,13 +20,24 @@ interface Props {
   description: string;
   ogTitle?: string;
   ogDescription?: string;
+  /** Page-specific schema.org nodes; merged into one @graph with site-wide nodes. */
   jsonLd?: object[];
   noindex?: boolean;
+  /** Hub pages (deals, tools, calendar, about) fall back to English until translated. */
+  hub?: boolean;
 }
 
-const { lang, dict, path = "", title, description, ogTitle, ogDescription, jsonLd = [], noindex = false } =
+const { lang, dict, path = "", title, description, ogTitle, ogDescription, jsonLd = [], noindex = false, hub = false } =
   Astro.props;
-const canonical = absoluteUrl(localePath(lang, path));
+// An untranslated hub page is English content under another locale: point it at the English
+// original and only advertise the languages that really have it.
+const untranslated = hub && !isHubTranslated(lang);
+const canonical = absoluteUrl(localePath(untranslated ? "en" : lang, path));
+const alternates = alternateLinks(path).filter(
+  (alt) => !hub || alt.hreflang === "x-default" || (hubLocales as string[]).includes(alt.hreflang),
+);
+const htmlLang = untranslated ? "en" : lang;
+const graph = { "@context": "https://schema.org", "@graph": [...siteNodes(), ...jsonLd] };
 const robots = IS_STAGING || noindex ? "noindex, nofollow" : "index, follow";
 const ogImage = absoluteUrl(`/og/${path || "home"}.png`);
 
@@ -42,7 +54,7 @@ const navItems = [
 ---
 
 <!doctype html>
-<html lang={lang} dir="ltr">
+<html lang={htmlLang} dir="ltr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -50,15 +62,17 @@ const navItems = [
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
     <link rel="canonical" href={canonical} />
-    {alternateLinks(path).map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
+    {alternates.map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
     <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/logo.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SITE_NAME} />
-    <meta property="og:locale" content={lang} />
+    <meta property="og:locale" content={lang.replace("-", "_")} />
+    <meta name="author" content="Onur Şendere" />
     <meta property="og:url" content={canonical} />
     <meta property="og:title" content={ogTitle ?? title} />
     <meta property="og:description" content={ogDescription ?? description} />
@@ -97,7 +111,7 @@ const navItems = [
       )
     }
 
-    {jsonLd.map((data) => <script is:inline type="application/ld+json" set:html={JSON.stringify(data)} />)}
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(graph)} />
   </head>
   <body class="min-h-dvh">
     <a

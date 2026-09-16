@@ -38,6 +38,24 @@ export const getStaticPaths: GetStaticPaths = async () => {
       route: "affiliate-disclosure",
       card: { eyebrow: "Transparency", title: "Affiliate disclosure", subtitle: "How PromoClock uses partner links — and why they never decide what we list." },
     },
+    {
+      route: "about",
+      card: { eyebrow: "About", title: "How PromoClock verifies AI deals", subtitle: dict.hub.about.intro },
+    },
+    ...deals.map((deal) => {
+      const tool = tools.find((t) => t.slug === deal.tool)!;
+      const live = isLive(getDealStatus(deal, BUILD_TIME));
+      return {
+        route: `deals/${deal.id}`,
+        card: {
+          eyebrow: `${tool.name} · ${dict.hub.kinds[deal.kind]}`,
+          title: deal.headline.en,
+          subtitle: `${deal.value.en} · ${deal.audience.en}`,
+          badge: live ? "Live" : undefined,
+          initials: tool.name.slice(0, 2).toUpperCase(),
+        },
+      };
+    }),
     ...tools.map((tool) => {
       const count = liveDeals.filter((d) => d.tool === tool.slug).length;
       return {

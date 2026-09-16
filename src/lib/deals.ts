@@ -31,8 +31,13 @@ export interface DealRecord {
   tool: string;
   kind: DealKind;
   title: LocalizedText;
+  headline: LocalizedText;
+  value: LocalizedText;
+  audience: LocalizedText;
   summary: LocalizedText;
   scope?: LocalizedText;
+  steps?: LocalizedText[];
+  terms?: LocalizedText[];
   code?: string;
   startsAt: number;
   /** False when only the deadline is known (startsAt is then the first-seen date). */
@@ -153,6 +158,9 @@ export function getClaudeHeroState(
   const mode: ClaudeHeroMode = promo ? "promo" : peakEnabled ? "peak" : "policy";
   return { mode, promo, latestChange };
 }
+
+/** Latest verification date across deals — used as dateModified. */
+export const lastVerified = (deals: DealRecord[]) => Math.max(...deals.map((d) => d.verifiedAt));
 
 /** Outbound URL for a tool: the tracked /go/ redirect. */
 export const goPath = (slug: string) => `/go/${slug}/`;

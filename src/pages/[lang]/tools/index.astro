@@ -4,7 +4,7 @@ import { i18n, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { getDeals, getTools } from "@/lib/content";
 import { TOOL_CATEGORIES, getDealStatus, isLive } from "@/lib/deals";
-import { breadcrumbJsonLd } from "@/lib/jsonld";
+import { breadcrumbNode, itemListNode, webPageNode } from "@/lib/jsonld";
 import { absoluteUrl, localePath } from "@/lib/seo";
 import { BUILD_TIME } from "@/lib/site";
 import { PageHeader } from "@/components/site/PageHeader";
@@ -30,27 +30,21 @@ const groups = TOOL_CATEGORIES.map((category) => ({
   tools: tools.filter((tool) => tool.category === category),
 })).filter((g) => g.tools.length > 0);
 
+const url = absoluteUrl(localePath(lang, "tools"));
 const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: t.title,
-    numberOfItems: tools.length,
-    itemListElement: tools.map((tool, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: tool.name,
-      url: absoluteUrl(localePath(lang, `tools/${tool.slug}`)),
-    })),
-  },
-  breadcrumbJsonLd([
+  webPageNode({ url, name: t.metaTitle, description: t.metaDescription, lang, type: "CollectionPage" }),
+  itemListNode(
+    t.title,
+    tools.map((tool) => ({ name: tool.name, url: absoluteUrl(localePath(lang, `tools/${tool.slug}`)) })),
+  ),
+  breadcrumbNode([
     { name: "PromoClock", path: localePath(lang) },
     { name: hub.nav.tools, path: localePath(lang, "tools") },
   ]),
 ];
 ---
 
-<BaseLayout lang={lang} dict={dict} path="tools" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd}>
+<BaseLayout lang={lang} dict={dict} path="tools" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd} hub>
   <PageHeader crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: hub.nav.tools }]} title={t.title} description={t.subtitle} />
   <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-10 sm:px-6">
     <ToolFilters
@@ -69,7 +63,7 @@ const jsonLd = [
             <h2 id={`cat-${group.category}`} class="text-lg font-semibold tracking-tight">
               {hub.categories[group.category]}
             </h2>
-            <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {group.tools.map((tool) => (
                 <ToolCard tool={tool} liveCount={liveCount.get(tool.slug) ?? 0} lang={lang} hub={hub} />
               ))}

@@ -2,11 +2,11 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import Section from "@/components/Section.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
-import { getDictionary, legacyCase } from "@/lib/i18n/dictionaries";
+import { getDictionary, isHubTranslated, legacyCase } from "@/lib/i18n/dictionaries";
 import { getDeals, getEvents, getTools, toolMap } from "@/lib/content";
-import { getDealStatus, isLive, localize, partitionDeals } from "@/lib/deals";
-import { faqJsonLd, softwareAppJsonLd, websiteJsonLd } from "@/lib/jsonld";
-import { localePath } from "@/lib/seo";
+import { getDealStatus, isLive, lastVerified, localize, partitionDeals } from "@/lib/deals";
+import { faqNode, itemListNode, webPageNode } from "@/lib/jsonld";
+import { absoluteUrl, dealPath, localePath } from "@/lib/seo";
 import { BUILD_TIME, SITE_URL } from "@/lib/site";
 import { scheduleRows } from "@/lib/schedule";
 import { formatDate } from "@/lib/time";
@@ -14,13 +14,12 @@ import { PEAK_HOURS } from "@/data/claude";
 import ClaudeWatch from "@/components/islands/ClaudeWatch";
 import FaqAccordion from "@/components/islands/FaqAccordion";
 import ApiTabs from "@/components/islands/ApiTabs";
-import { HeroIntro } from "@/components/site/HeroIntro";
+import { HeroActions, HeroHeading } from "@/components/site/HeroIntro";
 import { SponsorItem } from "@/components/site/SponsorItem";
 import { StatCards, type Stat } from "@/components/site/StatCards";
 import { DealCard } from "@/components/site/DealCard";
-import { ToolCard } from "@/components/site/ToolCard";
-import { HowItWorks } from "@/components/site/HowItWorks";
-import { Eligibility } from "@/components/site/Eligibility";
+import { ToolTiles } from "@/components/site/ToolTiles";
+import { PeakFacts } from "@/components/site/PeakFacts";
 import { ScheduleCard } from "@/components/site/ScheduleCard";
 import { DealTimeline } from "@/components/site/DealTimeline";
 import { AffiliateNote } from "@/components/site/AffiliateNote";
@@ -37,45 +36,28 @@ const [tools, deals, events] = await Promise.all([getTools(), getDeals(), getEve
 const byTool = toolMap(tools);
 
 const claudeDeals = deals.filter((d) => d.tool === "claude");
-const dates = Object.fromEntries(
-  claudeDeals.map((d) => [
-    d.id,
-    {
-      starts: formatDate(d.startsAt, lang),
-      ends: d.endsAt === undefined ? undefined : formatDate(d.endsAt, lang),
-      verified: formatDate(d.verifiedAt, lang),
-    },
-  ]),
-);
-
+const links = Object.fromEntries(claudeDeals.map((d) => [d.id, { href: dealPath(lang, d.id), date: formatDate(d.startsAt, lang) }]));
 const { live } = partitionDeals(deals.filter((d) => d.tool !== "claude"), BUILD_TIME);
 const allLive = deals.filter((d) => isLive(getDealStatus(d, BUILD_TIME)));
-const liveByTool = new Map<string, number>();
-for (const d of allLive) liveByTool.set(d.tool, (liveByTool.get(d.tool) ?? 0) + 1);
+const liveByTool: Record<string, number> = {};
+for (const d of allLive) liveByTool[d.tool] = (liveByTool[d.tool] ?? 0) + 1;
 
 const history = claudeDeals
-  .filter((d) => {
-    const status = getDealStatus(d, BUILD_TIME);
-    return status === "ended" || status === "past";
-  })
+  .filter((d) => d.startsAt <= BUILD_TIME)
   .sort((a, b) => b.startsAt - a.startsAt);
+const peakSource = claudeDeals.find((d) => d.id === "claude-peak-hours-introduced");
 
 const nextDeadline = events.find((e) => e.kind === "deadline" && e.date > BUILD_TIME);
 const stats: Stat[] = [
-  {
-    label: hub.home.statsLive,
-    value: String(allLive.length),
-    footnote: [...new Set(allLive.map((d) => byTool.get(d.tool)?.name))].filter(Boolean).slice(0, 4).join(", "),
-    icon: "tag",
-  },
-  { label: hub.home.statsTools, value: String(tools.length), footnote: Object.values(hub.categories).slice(0, 3).join(" · "), icon: "layers" },
+  { label: hub.home.statsLive, value: String(allLive.length), icon: "tag", href: localePath(lang, "deals") },
+  { label: hub.home.statsTools, value: String(tools.length), icon: "layers", href: localePath(lang, "tools") },
   {
     label: hub.home.statsDeadline,
     value: nextDeadline ? formatDate(nextDeadline.date, lang, { year: undefined }) : "—",
-    footnote: nextDeadline ? localize(nextDeadline.title, lang) : hub.home.statsDeadlineNone,
     icon: "calendar",
+    href: localePath(lang, "calendar"),
   },
-  { label: hub.home.statsLanguages, value: String(i18n.locales.length), footnote: i18n.locales.join(" · ").toUpperCase(), icon: "globe" },
+  { label: hub.home.statsLanguages, value: String(i18n.locales.length), icon: "globe" },
 ];
 
 const snippets = [
@@ -86,15 +68,32 @@ const snippets = [
   },
   {
     id: "zsh",
-    label: "zsh prompt",
-    code: `# Add to ~/.zshrc
+    label: "zsh",
+    code: `# ~/.zshrc
 claude_status() {
   curl -s ${SITE_URL}/api/status | \\
     python3 -c "import sys,json;d=json.load(sys.stdin);print(d['emoji'])" 2>/dev/null || echo '⏳'
 }
 RPROMPT='$(claude_status)'`,
   },
-  { id: "deals", label: "/api/deals", code: `curl -s "${SITE_URL}/api/deals?status=active" | python3 -m json.tool` },
+  { id: "deals", label: "deals", code: `curl -s "${SITE_URL}/api/deals?status=active" | python3 -m json.tool` },
+];
+
+const url = absoluteUrl(localePath(lang));
+const jsonLd = [
+  webPageNode({
+    url,
+    name: dict.meta.title,
+    description: dict.meta.description,
+    lang,
+    dateModified: lastVerified(deals),
+    speakable: ["h1", ".hero-summary", ".peak-answer"],
+  }),
+  faqNode(dict.faq.items, url),
+  itemListNode(
+    hub.home.dealsTitle,
+    live.map((d) => ({ name: localize(d.title, lang), url: absoluteUrl(dealPath(lang, d.id)) })),
+  ),
 ];
 ---
 
@@ -105,41 +104,46 @@ RPROMPT='$(claude_status)'`,
   description={dict.meta.description}
   ogTitle={dict.meta.ogTitle}
   ogDescription={dict.meta.ogDescription}
-  jsonLd={[websiteJsonLd(lang, dict), softwareAppJsonLd(lang, dict), faqJsonLd(dict.faq.items)]}
+  jsonLd={jsonLd}
 >
-  <section class="relative isolate overflow-hidden">
+  <section class="relative isolate overflow-hidden border-b">
     <div
       aria-hidden="true"
       class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(var(--color-border)_1px,transparent_1px)] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_0%,#000_40%,transparent_100%)] bg-size-[22px_22px]"
     >
     </div>
     <div
-      class="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 py-12 sm:px-6 sm:py-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,460px)] lg:gap-14 lg:py-20"
+      class="mx-auto grid w-full max-w-6xl gap-6 px-4 pt-8 pb-10 [grid-template-areas:'heading'_'watch'_'actions'] sm:px-6 sm:pt-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,440px)] lg:gap-x-14 lg:gap-y-8 lg:pt-20 lg:pb-16 lg:[grid-template-areas:'heading_watch'_'actions_watch']"
     >
-      <HeroIntro
-        hub={hub}
-        dealsHref={localePath(lang, "deals")}
-        toolsHref={localePath(lang, "tools")}
-        featuredTools={["claude", "gemini", "cursor", "perplexity", "notion", "elevenlabs"].map((s) => byTool.get(s)!).filter(Boolean)}
-        toolCount={tools.length}
-        liveCount={allLive.length}
-      />
-      <ClaudeWatch
-        client:load
-        lang={lang}
-        hero={dict.hero}
-        watch={hub.claudeWatch}
-        common={hub.common}
-        kinds={hub.kinds}
-        deals={claudeDeals}
-        dates={dates}
-        buildTime={BUILD_TIME}
-        peakEnabled={PEAK_HOURS.enabled}
-        peakDocumented={PEAK_HOURS.documented}
-        caseClass={caseClass}
-      />
+      <div class="[grid-area:heading] lg:self-end">
+        <HeroHeading hub={hub} />
+      </div>
+      <div class="[grid-area:watch] lg:self-center">
+        <ClaudeWatch
+          client:load
+          lang={lang}
+          hero={dict.hero}
+          watch={hub.claudeWatch}
+          common={hub.common}
+          deals={claudeDeals}
+          links={links}
+          buildTime={BUILD_TIME}
+          peakEnabled={PEAK_HOURS.enabled}
+          hubTranslated={isHubTranslated(lang)}
+          caseClass={caseClass}
+        />
+      </div>
+      <div class="[grid-area:actions] lg:self-start">
+        <HeroActions
+          hub={hub}
+          dealsHref={localePath(lang, "deals")}
+          toolsHref={localePath(lang, "tools")}
+          featuredTools={["claude", "gemini", "cursor", "perplexity", "notion", "elevenlabs"].map((s) => byTool.get(s)!).filter(Boolean)}
+          liveCount={allLive.length}
+        />
+      </div>
     </div>
-    <div class="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 pb-16 sm:px-6">
+    <div class="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 pb-10 sm:px-6 lg:pb-14">
       <SponsorItem dict={dict} />
       <StatCards stats={stats} />
     </div>
@@ -155,7 +159,7 @@ RPROMPT='$(claude_status)'`,
         actionLabel={hub.home.dealsCta}
         muted
       >
-        <div data-live-list class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div data-live-list class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {live.slice(0, 6).map((deal) => (
             <div>
               <DealCard deal={deal} tool={byTool.get(deal.tool)} lang={lang} hub={hub} now={BUILD_TIME} />
@@ -167,35 +171,32 @@ RPROMPT='$(claude_status)'`,
     )
   }
 
+  <Section id="schedule" title={hub.home.peakTitle}>
+    {peakSource && <PeakFacts dict={dict} source={{ label: peakSource.sourceLabel, url: peakSource.sourceUrl }} />}
+    <h3 class="text-lg font-semibold tracking-tight">{hub.home.scheduleTitle}</h3>
+    <ScheduleCard dict={dict} rows={scheduleRows(BUILD_TIME)} />
+  </Section>
+
   <Section
     id="tools"
     title={hub.home.toolsTitle}
     description={hub.home.toolsSubtitle}
     actionHref={localePath(lang, "tools")}
     actionLabel={hub.home.toolsCta}
+    muted
   >
-    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      {tools.slice(0, 9).map((tool) => <ToolCard tool={tool} liveCount={liveByTool.get(tool.slug) ?? 0} lang={lang} hub={hub} />)}
-    </div>
+    <ToolTiles tools={tools.slice(0, 18)} lang={lang} live={liveByTool} />
   </Section>
 
-  <Section id="how-it-works" title={dict.howItWorks.title} description={dict.howItWorks.subtitle} titleClassName={caseClass} muted>
-    <HowItWorks dict={dict} caseClass={caseClass} />
+  <Section id="promotion-history" title={hub.home.historyTitle} description={hub.home.historySubtitle}>
+    <DealTimeline deals={history} lang={lang} hub={hub} />
   </Section>
 
-  <Section id="eligibility" title={dict.eligibility.title} description={dict.eligibility.subtitle} titleClassName={caseClass}>
-    <Eligibility dict={dict} />
-  </Section>
-
-  <Section id="schedule" title={dict.schedule.title} description={dict.schedule.subtitle} titleClassName={caseClass} muted>
-    <ScheduleCard dict={dict} rows={scheduleRows(BUILD_TIME)} />
-  </Section>
-
-  <Section id="faq" title={dict.faq.title} description={dict.faq.subtitle} titleClassName={caseClass}>
+  <Section id="faq" title={dict.faq.title} titleClassName={caseClass} muted>
     <FaqAccordion client:visible items={dict.faq.items} />
   </Section>
 
-  <Section id="developer-tools" title={dict.devTools.title} description={dict.devTools.subtitle} titleClassName={caseClass} muted>
+  <Section id="developer-tools" title={dict.devTools.title} description={dict.devTools.subtitle} titleClassName={caseClass}>
     <ApiTabs
       client:visible
       title={dict.devTools.apiTitle}
@@ -206,16 +207,7 @@ RPROMPT='$(claude_status)'`,
       links={[
         { href: "/api/status", label: "/api/status" },
         { href: "/api/deals", label: "/api/deals" },
-        { href: "/api/tools.json", label: "/api/tools.json" },
       ]}
     />
   </Section>
-
-  {
-    history.length > 0 && (
-      <Section id="promotion-history" title={hub.home.historyTitle} description={hub.home.historySubtitle}>
-        <DealTimeline deals={history} lang={lang} hub={hub} />
-      </Section>
-    )
-  }
 </BaseLayout>

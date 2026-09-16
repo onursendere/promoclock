@@ -1,11 +1,12 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
-import { getDictionary } from "@/lib/i18n/dictionaries";
+import { format, getDictionary } from "@/lib/i18n/dictionaries";
 import { getDeals, getTools, toolMap } from "@/lib/content";
-import { DEAL_KINDS, localize, partitionDeals } from "@/lib/deals";
-import { breadcrumbJsonLd } from "@/lib/jsonld";
-import { absoluteUrl, localePath } from "@/lib/seo";
+import { DEAL_KINDS, lastVerified, localize, partitionDeals } from "@/lib/deals";
+import { breadcrumbNode, itemListNode, webPageNode } from "@/lib/jsonld";
+import { absoluteUrl, dealPath, localePath } from "@/lib/seo";
+import { formatDate } from "@/lib/time";
 import { BUILD_TIME } from "@/lib/site";
 import { PageHeader } from "@/components/site/PageHeader";
 import { DealCard } from "@/components/site/DealCard";
@@ -38,26 +39,27 @@ const sections = [
   { id: "archive", title: t.archive, deals: recent, live: false },
 ].filter((s) => s.deals.length > 0);
 
+const month = formatDate(BUILD_TIME, lang, { day: undefined, month: "short" });
+const title = format(t.metaTitle, { month });
+const description = format(t.metaDescription, { month });
+const url = absoluteUrl(localePath(lang, "deals"));
 const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: t.title,
-    itemListElement: live.map((deal, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: `${byTool.get(deal.tool)?.name ?? deal.tool}: ${localize(deal.title, lang)}`,
-      url: absoluteUrl(`${localePath(lang, "deals")}#${deal.id}`),
+  webPageNode({ url, name: title, description, lang, type: "CollectionPage", dateModified: lastVerified(deals), speakable: ["h1"] }),
+  itemListNode(
+    t.title,
+    live.map((deal) => ({
+      name: `${byTool.get(deal.tool)?.name ?? deal.tool}: ${localize(deal.headline, lang)}`,
+      url: absoluteUrl(dealPath(lang, deal.id)),
     })),
-  },
-  breadcrumbJsonLd([
+  ),
+  breadcrumbNode([
     { name: "PromoClock", path: localePath(lang) },
     { name: hub.nav.deals, path: localePath(lang, "deals") },
   ]),
 ];
 ---
 
-<BaseLayout lang={lang} dict={dict} path="deals" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd}>
+<BaseLayout lang={lang} dict={dict} path="deals" title={title} description={description} jsonLd={jsonLd} hub>
   <PageHeader
     crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: hub.nav.deals }]}
     title={t.title}
@@ -77,7 +79,7 @@ const jsonLd = [
                 {section.deals.length}
               </Badge>
             </div>
-            <div data-live-list={section.live ? "" : undefined} class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div data-live-list={section.live ? "" : undefined} class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
               {section.deals.map((deal) => (
                 <div data-deal-item>
                   <DealCard deal={deal} tool={byTool.get(deal.tool)} lang={lang} hub={hub} now={BUILD_TIME} />

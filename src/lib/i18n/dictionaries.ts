@@ -25,6 +25,7 @@ export interface HubDictionary {
     menu: string;
     language: string;
     theme: string;
+    about: string;
   };
   common: {
     verified: string;
@@ -47,6 +48,21 @@ export interface HubDictionary {
     minutes: string;
     seconds: string;
     updated: string;
+    daysLeft: string;
+    hoursLeft: string;
+    offer: string;
+    who: string;
+    ends: string;
+    started: string;
+    status: string;
+    regions: string;
+    howToClaim: string;
+    goodToKnow: string;
+    related: string;
+    lastUpdated: string;
+    live: string;
+    upcomingLabel: string;
+    sources: string;
   };
   kinds: Record<
     "limit-boost" | "limit-change" | "discount" | "student" | "free-trial" | "launch" | "seasonal",
@@ -68,6 +84,14 @@ export interface HubDictionary {
     peakPanelTitle: string;
     peakNote: string;
     seeAllDeals: string;
+    statusTitle: string;
+    peakShort: string;
+    offPeakShort: string;
+    changesIn: string;
+    peakWindow: string;
+    nextPeakWindow: string;
+    whatsNew: string;
+    info: string;
   };
   home: {
     heroEyebrow: string;
@@ -90,6 +114,11 @@ export interface HubDictionary {
     historyTitle: string;
     historySubtitle: string;
     archive: string;
+    peakTitle: string;
+    peakAnswer: string;
+    peakFacts: { label: string; value: string }[];
+    affectedPlans: string;
+    scheduleTitle: string;
   };
   deals: {
     metaTitle: string;
@@ -135,6 +164,29 @@ export interface HubDictionary {
     metaDescription: string;
     title: string;
     paragraphs: string[];
+  };
+  dealPage: {
+    metaTitle: string;
+    faqTitle: string;
+    qAvailable: string;
+    aLive: string;
+    aOngoing: string;
+    aUpcoming: string;
+    aEnded: string;
+    qWho: string;
+    qHow: string;
+    qChange: string;
+    qWhen: string;
+    aWhen: string;
+    qSource: string;
+    aSource: string;
+  };
+  about: {
+    metaTitle: string;
+    metaDescription: string;
+    title: string;
+    intro: string;
+    sections: { title: string; body: string }[];
   };
   notFound: {
     title: string;
@@ -276,15 +328,14 @@ export function getDictionary(locale: Locale): UiDictionary {
   return { ...dict, hub: dict.hub ?? english.hub };
 }
 
+/** Languages whose hub pages (deals, tools, calendar, about) are translated. */
+export const hubLocales = (Object.keys(dictionaries) as Locale[]).filter((l) => l === "en" || Boolean(dictionaries[l].hub));
+export const isHubTranslated = (locale: Locale) => hubLocales.includes(locale);
+
 /**
  * Legacy section titles in untranslated dictionaries are ALL CAPS; render them in
  * sentence case until the translation pass replaces them.
  */
 export const legacyCase = (lang: Locale) => (lang === "en" ? "" : "lowercase first-letter:uppercase");
 
-/** Replace `{name}`-style placeholders. */
-export function format(template: string, vars: Record<string, string | number>): string {
-  return template.replace(/\{(\w+)\}/g, (match, key: string) =>
-    key in vars ? String(vars[key]) : match,
-  );
-}
+export { format } from "./format";

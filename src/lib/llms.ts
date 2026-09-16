@@ -1,7 +1,7 @@
 import { CITY_SCHEDULES, PEAK_HOURS } from "@/data/claude";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { i18n } from "@/lib/i18n/config";
-import { getDealStatus, isLive, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
+import { getDealStatus, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
 import { AUTHOR, BUILD_TIME, SITE_URL } from "@/lib/site";
 import { localePath } from "@/lib/seo";
 
@@ -19,7 +19,7 @@ function dealLine(deal: DealRecord, tools: Map<string, ToolRecord>): string {
       ? "ongoing"
       : `since ${day(deal.startsAt)}`;
   const code = deal.code ? ` Code: ${deal.code}.` : "";
-  return `- **${tool}** — ${deal.title.en} (${window}).${code} Source: ${deal.sourceUrl} (verified ${day(deal.verifiedAt)})`;
+  return `- **${tool}: ${deal.headline.en}** — ${deal.value.en} for ${deal.audience.en} (${window}).${code} Details: ${url(localePath("en", `deals/${deal.id}`))} · Source: ${deal.sourceUrl} (verified ${day(deal.verifiedAt)})`;
 }
 
 function peakSection(): string {
@@ -59,6 +59,7 @@ ${upcoming.length ? `\n## Upcoming\n${upcoming.map((d) => dealLine(d, map)).join
 - All AI deals: ${url(localePath("en", "deals"))}
 - AI tools directory: ${url(localePath("en", "tools"))}
 - Promo calendar: ${url(localePath("en", "calendar"))}
+- About & methodology: ${url(localePath("en", "about"))}
 - Affiliate disclosure: ${url(localePath("en", "affiliate-disclosure"))}
 - Languages: ${i18n.locales.join(", ")} (e.g. ${url(localePath("tr"))})
 
@@ -84,7 +85,7 @@ export function buildLlmsFullTxt(tools: ToolRecord[], deals: DealRecord[]): stri
   }
   const { live, upcoming, archive } = partitionDeals(deals, BUILD_TIME);
   const describe = (d: DealRecord) =>
-    `### ${map.get(d.tool)?.name ?? d.tool}: ${d.title.en}\n- Type: ${dict.hub.kinds[d.kind]}\n- Window: ${day(d.startsAt)}${d.endsAt ? ` → ${day(d.endsAt)}` : " (open-ended)"}\n${d.scope ? `- Scope: ${d.scope.en}\n` : ""}${d.code ? `- Code: ${d.code}\n` : ""}- Status at build: ${getDealStatus(d, BUILD_TIME)}\n- Source: ${d.sourceLabel} — ${d.sourceUrl}\n- Verified: ${day(d.verifiedAt)}\n\n${d.summary.en}`;
+    `### ${map.get(d.tool)?.name ?? d.tool}: ${d.title.en}\n- Page: ${url(localePath("en", `deals/${d.id}`))}\n- Offer: ${d.value.en}\n- Who: ${d.audience.en}\n- Type: ${dict.hub.kinds[d.kind]}\n- Window: ${day(d.startsAt)}${d.endsAt ? ` → ${day(d.endsAt)}` : " (open-ended)"}\n${d.scope ? `- Scope: ${d.scope.en}\n` : ""}${d.code ? `- Code: ${d.code}\n` : ""}- Status at build: ${getDealStatus(d, BUILD_TIME)}\n- Source: ${d.sourceLabel} — ${d.sourceUrl}\n- Verified: ${day(d.verifiedAt)}\n\n${d.summary.en}${d.steps?.length ? `\n\nHow to get it:\n${d.steps.map((s, i) => `${i + 1}. ${s.en}`).join("\n")}` : ""}${d.terms?.length ? `\n\nGood to know:\n${d.terms.map((s) => `- ${s.en}`).join("\n")}` : ""}`;
 
   const ref = new Date(BUILD_TIME);
   const schedule = CITY_SCHEDULES.map(({ city, ianaTimezone }) => {
