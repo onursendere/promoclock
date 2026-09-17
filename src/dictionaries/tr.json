@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Claude Yoğun Saatleri & Güncel AI Fırsatları | PromoClock",
-    "description": "Canlı Claude yoğun saat takibi, son Claude limit değişiklikleri ve 50 AI aracı için doğrulanmış öğrenci teklifleri ile promosyonlar; kaynaklar ve geri sayımlarla.",
+    "description": "Canlı Claude yoğun saat takibi, son Claude limit değişiklikleri ve 100 AI aracı için doğrulanmış öğrenci teklifleri ile promosyonlar; kaynaklar ve geri sayımlarla.",
     "ogTitle": "Claude yoğun saatleri & AI fırsatları, canlı",
     "ogDescription": "Claude şu an yoğun saatte mi? Limitlerinde ne değişti? Hangi AI araçlarında aktif promosyon var? Hepsi tek bir saatte."
   },
@@ -63,9 +63,9 @@
   },
   "devTools": {
     "title": "Geliştirici araçları",
-    "subtitle": "Claude'un yoğun saat durumunu ve canlı AI fırsatlarını terminaline, script'lerine veya uygulamalarına taşı.",
+    "subtitle": "Claude'un yoğun saat durumunu terminaline, script'lerine veya uygulamalarına taşı.",
     "apiTitle": "JSON API",
-    "apiDescription": "Ücretsiz, CORS destekli uç noktalar; IP başına dakikada 60 istekle sınırlı."
+    "apiDescription": "Ücretsiz, CORS destekli tek uç nokta; IP başına dakikada 60 istekle sınırlı."
   },
   "sponsors": {
     "stackopticHeadline": "Herhangi bir URL yapıştır. Tam resmi gör.",
@@ -157,9 +157,9 @@
     "home": {
       "heroEyebrow": "Canlı · her gün güncellenir",
       "heroTitle": "Claude yoğun saatleri & AI fırsatları, canlı",
-      "heroSubtitle": "Claude limitlerinin ne zaman hızlı tükendiğini gör ve 50 AI aracındaki doğrulanmış promosyonları yakala.",
+      "heroSubtitle": "Claude limitlerinin ne zaman hızlı tükendiğini gör ve 100 AI aracındaki doğrulanmış promosyonları yakala.",
       "ctaDeals": "Canlı fırsatlara bak",
-      "ctaTools": "50 aracı keşfet",
+      "ctaTools": "100 aracı keşfet",
       "statsLive": "Canlı fırsat",
       "statsTools": "Takip edilen AI aracı",
       "statsDeadline": "Sıradaki son tarih",
@@ -168,7 +168,7 @@
       "dealsTitle": "Canlı AI fırsatları",
       "dealsSubtitle": "Kaynaklı ve canlı geri sayımlı doğrulanmış teklifler.",
       "dealsCta": "Tüm fırsatlar",
-      "toolsTitle": "50 AI aracı, tek saat",
+      "toolsTitle": "100 AI aracı, tek saat",
       "toolsSubtitle": "Canlı fırsatlarını ve promosyon geçmişini görmek için bir araç seç.",
       "toolsCta": "Tüm araçlar",
       "historyTitle": "Claude promosyon geçmişi",
@@ -212,10 +212,10 @@
       "empty": "Şu anda bu filtreye uyan fırsat yok."
     },
     "tools": {
-      "metaTitle": "50 AI Aracı: Promosyonlar, Fırsatlar & Limitler | PromoClock",
-      "metaDescription": "ChatGPT ve Claude'dan Cursor, Canva ve ElevenLabs'e en popüler 50 AI aracının promosyonlarını, öğrenci tekliflerini, fiyat değişikliklerini ve kullanım limiti haberlerini takip et.",
+      "metaTitle": "100 AI Aracı: Promosyonlar, Fırsatlar & Limitler | PromoClock",
+      "metaDescription": "ChatGPT ve Claude'dan Cursor, Canva ve ElevenLabs'e en popüler 100 AI aracının promosyonlarını, öğrenci tekliflerini, fiyat değişikliklerini ve kullanım limiti haberlerini takip et.",
       "title": "AI araçları",
-      "subtitle": "En çok kullanılan 50 AI aracı. Canlı fırsatları ve promosyon geçmişi için birini seç.",
+      "subtitle": "En çok kullanılan 100 AI aracı. Canlı fırsatları ve promosyon geçmişi için birini seç.",
       "filterAll": "Tümü",
       "withDeals": "Yalnızca canlı fırsatlar",
       "searchPlaceholder": "Araç ara…",
@@ -269,7 +269,7 @@
       "metaTitle": "PromoClock Hakkında: Claude Limitlerini & AI Fırsatlarını Nasıl Takip Ediyoruz",
       "metaDescription": "PromoClock'u kimin yönettiği, her Claude limit değişikliğinin ve AI fırsatının resmi kaynaklarla nasıl doğrulandığı ve sitenin ne sıklıkla güncellendiği.",
       "title": "PromoClock hakkında",
-      "intro": "PromoClock, Claude'un kullanım limitlerini ve 50 popüler AI aracındaki doğrulanmış promosyonları takip eden bağımsız bir sitedir.",
+      "intro": "PromoClock, Claude'un kullanım limitlerini ve 100 popüler AI aracındaki doğrulanmış promosyonları takip eden bağımsız bir sitedir.",
       "sections": [
         {
           "title": "Nasıl doğruluyoruz",

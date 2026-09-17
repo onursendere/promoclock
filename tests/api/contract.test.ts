@@ -3,7 +3,6 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { getPeakStatus } from "@/data/claude";
-import { getDealStatus, type DealRecord } from "@/lib/deals";
 
 const DIST = path.resolve("dist");
 /** Set API_BASE_URL to test a running server (e.g. a container via SSH tunnel) instead of dist/. */
@@ -15,7 +14,7 @@ let server: ChildProcess | undefined;
 async function waitForServer() {
   for (let i = 0; i < 50; i++) {
     try {
-      await fetch(`${BASE}/api/deals.json`);
+      await fetch(`${BASE}/api/status`);
       return;
     } catch {
       await new Promise((r) => setTimeout(r, 100));
@@ -24,20 +23,13 @@ async function waitForServer() {
   throw new Error("php -S did not start");
 }
 
-type DatasetDeal = Omit<DealRecord, "startsAt" | "endsAt"> & { startsAt: string; endsAt: string | null };
-let dataset: { deals: DatasetDeal[] };
-
 beforeAll(async () => {
-  if (REMOTE) {
-    dataset = await (await fetch(`${BASE}/api/deals.json`)).json();
-    return;
-  }
+  if (REMOTE) return;
   if (!existsSync(path.join(DIST, "api/status.php"))) {
     throw new Error("dist/ is missing — run `npm run build` before `npm run test:api`.");
   }
   server = spawn("php", ["-S", `127.0.0.1:${PORT}`, "-t", DIST, "scripts/php-router.php"], { stdio: "ignore" });
   await waitForServer();
-  dataset = await (await fetch(`${BASE}/api/deals.json`)).json();
 });
 
 afterAll(() => {
@@ -108,36 +100,6 @@ describe("GET /api/status", () => {
   });
 });
 
-describe("GET /api/deals", () => {
-  const tsStatus = (d: DatasetDeal) =>
-    getDealStatus(
-      { startsAt: Date.parse(d.startsAt), endsAt: d.endsAt ? Date.parse(d.endsAt) : undefined, ongoing: d.ongoing },
-      Date.now(),
-    );
-
-  it("derives the same status for every deal as the site does", async () => {
-    const body = await (await get("/api/deals?status=all")).json();
-    expect(body.count).toBe(dataset.deals.length);
-    for (const deal of body.deals) {
-      const source = dataset.deals.find((d) => d.id === deal.id)!;
-      expect(deal.status, deal.id).toBe(tsStatus(source));
-    }
-  });
-
-  it("defaults to live deals and filters by tool", async () => {
-    const live = await (await get("/api/deals")).json();
-    expect(live.status).toBe("active");
-    expect(live.deals.every((d: { status: string }) => d.status === "active" || d.status === "ending-soon")).toBe(true);
-
-    const claude = await (await get("/api/deals?status=all&tool=claude")).json();
-    expect(claude.count).toBeGreaterThan(0);
-    expect(claude.deals.every((d: { tool: string }) => d.tool === "claude")).toBe(true);
-
-    const bogus = await (await get("/api/deals?status=nope")).json();
-    expect(bogus.status).toBe("active");
-  });
-});
-
 describe("rate limiting and internals", () => {
   it.skipIf(BEHIND_CDN)("allows 60 requests per minute per IP, then returns 429 with Retry-After", async () => {
     const octet = 1 + Math.floor(Math.random() * 250);
@@ -155,7 +117,14 @@ describe("rate limiting and internals", () => {
     expect((await get("/api/status", `192.0.2.${octet}`)).status).not.toBe(429);
   });
 
-  it("does not expose the shared PHP include", async () => {
+  it("does not expose the API's internal files", async () => {
     expect((await get("/api/_ratelimit.php")).status).toBe(403);
+    expect((await get("/api/claude.json")).status).toBe(403);
+  });
+
+  it("answers 410 Gone for the retired deals and tools endpoints", async () => {
+    for (const url of ["/api/deals", "/api/deals/", "/api/deals.json", "/api/tools.json"]) {
+      expect((await get(url)).status, url).toBe(410);
+    }
   });
 });

@@ -47,7 +47,7 @@ jobs:
       - name: Lint PHP
         run: for f in dist/api/*.php; do php -l "$f"; done
 
-      # Guards the public /api/status and /api/deals contract before anything is uploaded.
+      # Guards the public /api/status contract before anything is uploaded.
       - name: API contract tests
         run: npm run test:api
 

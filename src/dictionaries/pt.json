@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Horário de pico do Claude e ofertas de IA ao vivo | PromoClock",
-    "description": "Relógio ao vivo do horário de pico do Claude, as últimas mudanças nos limites do Claude e ofertas para estudantes e promoções verificadas de 50 ferramentas de IA, com fontes e contagens regressivas.",
+    "description": "Relógio ao vivo do horário de pico do Claude, as últimas mudanças nos limites do Claude e ofertas para estudantes e promoções verificadas de 100 ferramentas de IA, com fontes e contagens regressivas.",
     "ogTitle": "Horário de pico do Claude e ofertas de IA, ao vivo",
     "ogDescription": "O Claude está no horário de pico agora? O que mudou nos seus limites? Quais ferramentas de IA têm promoções ativas? Um só relógio para tudo."
   },
@@ -63,9 +63,9 @@
   },
   "devTools": {
     "title": "Ferramentas para desenvolvedores",
-    "subtitle": "Leve o status do horário de pico do Claude e as ofertas de IA para o seu terminal, scripts ou apps.",
+    "subtitle": "Leve o status do horário de pico do Claude para o seu terminal, scripts ou apps.",
     "apiTitle": "API JSON",
-    "apiDescription": "Endpoints gratuitos com CORS, limitados a 60 requisições por minuto por IP."
+    "apiDescription": "Um endpoint gratuito com CORS, limitado a 60 requisições por minuto por IP."
   },
   "sponsors": {
     "stackopticHeadline": "Cole qualquer URL. Veja o quadro completo.",
@@ -157,9 +157,9 @@
     "home": {
       "heroEyebrow": "Ao vivo · atualizado diariamente",
       "heroTitle": "Horário de pico do Claude e ofertas de IA, ao vivo",
-      "heroSubtitle": "Veja quando os limites do Claude acabam mais rápido e aproveite promoções verificadas de 50 ferramentas de IA.",
+      "heroSubtitle": "Veja quando os limites do Claude acabam mais rápido e aproveite promoções verificadas de 100 ferramentas de IA.",
       "ctaDeals": "Ver ofertas ativas",
-      "ctaTools": "Explorar 50 ferramentas",
+      "ctaTools": "Explorar 100 ferramentas",
       "statsLive": "Ofertas ativas",
       "statsTools": "Ferramentas de IA acompanhadas",
       "statsDeadline": "Próximo prazo",
@@ -168,7 +168,7 @@
       "dealsTitle": "Ofertas de IA ativas",
       "dealsSubtitle": "Ofertas verificadas, com fontes e contagem regressiva ao vivo.",
       "dealsCta": "Ver todas as ofertas",
-      "toolsTitle": "50 ferramentas de IA, um só relógio",
+      "toolsTitle": "100 ferramentas de IA, um só relógio",
       "toolsSubtitle": "Abra uma ferramenta para ver as ofertas ativas e o histórico de promoções.",
       "toolsCta": "Ver todas as ferramentas",
       "historyTitle": "Histórico de promoções do Claude",
@@ -212,10 +212,10 @@
       "empty": "No momento, nenhuma oferta corresponde a este filtro."
     },
     "tools": {
-      "metaTitle": "50 ferramentas de IA: promoções, ofertas e limites | PromoClock",
-      "metaDescription": "Acompanhe promoções, ofertas para estudantes, mudanças de preço e limites de uso das 50 ferramentas de IA mais populares, do ChatGPT e Claude ao Cursor, Canva e ElevenLabs.",
+      "metaTitle": "100 ferramentas de IA: promoções, ofertas e limites | PromoClock",
+      "metaDescription": "Acompanhe promoções, ofertas para estudantes, mudanças de preço e limites de uso das 100 ferramentas de IA mais populares, do ChatGPT e Claude ao Cursor, Canva e ElevenLabs.",
       "title": "Ferramentas de IA",
-      "subtitle": "As 50 ferramentas de IA mais usadas. Abra uma para ver as ofertas ativas e o histórico de promoções.",
+      "subtitle": "As 100 ferramentas de IA mais usadas. Abra uma para ver as ofertas ativas e o histórico de promoções.",
       "filterAll": "Todas",
       "withDeals": "Só com ofertas ativas",
       "searchPlaceholder": "Buscar ferramentas…",
@@ -269,7 +269,7 @@
       "metaTitle": "Sobre o PromoClock: como acompanhamos limites do Claude e ofertas de IA",
       "metaDescription": "Quem mantém o PromoClock, como cada mudança de limite do Claude e cada oferta de IA é verificada em fontes oficiais e com que frequência o site é atualizado.",
       "title": "Sobre o PromoClock",
-      "intro": "O PromoClock acompanha de forma independente os limites de uso do Claude e as promoções verificadas de 50 ferramentas de IA populares.",
+      "intro": "O PromoClock acompanha de forma independente os limites de uso do Claude e as promoções verificadas de 100 ferramentas de IA populares.",
       "sections": [
         {
           "title": "Como verificamos",

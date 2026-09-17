@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Claudeのピーク時間と最新AIセール情報 | PromoClock",
-    "description": "Claudeのピーク時間をリアルタイムで表示。Claudeの利用上限の最新変更と、50のAIツールの学生向け特典やキャンペーンを、情報源とカウントダウン付きで確認できます。",
+    "description": "Claudeのピーク時間をリアルタイムで表示。Claudeの利用上限の最新変更と、100のAIツールの学生向け特典やキャンペーンを、情報源とカウントダウン付きで確認できます。",
     "ogTitle": "Claudeのピーク時間とAIセール情報をライブで",
     "ogDescription": "いまClaudeはピーク時間？利用上限はどう変わった？どのAIツールでキャンペーン中？すべてをひとつの時計で。"
   },
@@ -63,7 +63,7 @@
   },
   "devTools": {
     "title": "開発者向けツール",
-    "subtitle": "Claudeのピーク時間の状態と最新のAIセール情報を、ターミナルやスクリプト、アプリで利用できます。",
+    "subtitle": "Claudeのピーク時間の状態を、ターミナルやスクリプト、アプリで利用できます。",
     "apiTitle": "JSON API",
     "apiDescription": "無料・CORS対応のエンドポイント。IPごとに1分あたり60リクエストまで。"
   },
@@ -157,9 +157,9 @@
     "home": {
       "heroEyebrow": "ライブ · 毎日更新",
       "heroTitle": "Claudeのピーク時間とAIセールをライブで",
-      "heroSubtitle": "Claudeの上限が速く減る時間帯を確認し、50のAIツールの確認済みキャンペーンを逃さずチェック。",
+      "heroSubtitle": "Claudeの上限が速く減る時間帯を確認し、100のAIツールの確認済みキャンペーンを逃さずチェック。",
       "ctaDeals": "実施中のセールを見る",
-      "ctaTools": "50のツールを見る",
+      "ctaTools": "100のツールを見る",
       "statsLive": "実施中の特典",
       "statsTools": "追跡中のAIツール",
       "statsDeadline": "次の締め切り",
@@ -168,7 +168,7 @@
       "dealsTitle": "実施中のAIセール",
       "dealsSubtitle": "情報源とライブのカウントダウン付きの確認済み特典。",
       "dealsCta": "すべての特典を見る",
-      "toolsTitle": "50のAIツールをひとつの時計で",
+      "toolsTitle": "100のAIツールをひとつの時計で",
       "toolsSubtitle": "ツールを開くと、実施中の特典と過去のキャンペーンを確認できます。",
       "toolsCta": "すべてのツールを見る",
       "historyTitle": "Claudeのキャンペーン履歴",
@@ -212,10 +212,10 @@
       "empty": "現在、この条件に合う特典はありません。"
     },
     "tools": {
-      "metaTitle": "50のAIツール：キャンペーン・特典・上限 | PromoClock",
-      "metaDescription": "ChatGPTやClaudeからCursor、Canva、ElevenLabsまで、人気の50のAIツールのキャンペーン、学生向け特典、価格改定、利用上限のニュースを追跡。",
+      "metaTitle": "100のAIツール：キャンペーン・特典・上限 | PromoClock",
+      "metaDescription": "ChatGPTやClaudeからCursor、Canva、ElevenLabsまで、人気の100のAIツールのキャンペーン、学生向け特典、価格改定、利用上限のニュースを追跡。",
       "title": "AIツール",
-      "subtitle": "よく使われている50のAIツール。ツールを開くと、実施中の特典とキャンペーン履歴を確認できます。",
+      "subtitle": "よく使われている100のAIツール。ツールを開くと、実施中の特典とキャンペーン履歴を確認できます。",
       "filterAll": "すべて",
       "withDeals": "実施中の特典のみ",
       "searchPlaceholder": "ツールを検索…",
@@ -269,7 +269,7 @@
       "metaTitle": "PromoClockについて：Claudeの上限とAIセールの追跡方法",
       "metaDescription": "PromoClockの運営者、Claudeの上限変更やAIセールを公式情報源でどう確認しているか、サイトの更新頻度について。",
       "title": "PromoClockについて",
-      "intro": "PromoClockは、Claudeの利用上限と、人気の50のAIツールの確認済みキャンペーンを追跡する独立したサイトです。",
+      "intro": "PromoClockは、Claudeの利用上限と、人気の100のAIツールの確認済みキャンペーンを追跡する独立したサイトです。",
       "sections": [
         {
           "title": "確認方法",

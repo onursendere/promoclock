@@ -25,7 +25,7 @@ export type ToolCategory = (typeof TOOL_CATEGORIES)[number];
 
 export type LocalizedText = { en: string } & Partial<Record<Locale, string>>;
 
-/** Serializable deal shape shared by pages, islands, tests and /api/deals.json. */
+/** Serializable deal shape shared by pages, islands and tests. */
 export interface DealRecord {
   id: string;
   tool: string;

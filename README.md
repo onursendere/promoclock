@@ -1,6 +1,6 @@
 # PromoClock
 
-**Claude Watch + live AI deals.** A live clock for Claude's peak hours and usage-limit changes, plus verified promotions, student offers and deadlines for 50 popular AI tools — in 10 languages.
+**Claude Watch + live AI deals.** A live clock for Claude's peak hours and usage-limit changes, plus verified promotions, student offers and deadlines for 100 popular AI tools — in 10 languages.
 
 Live at **[promoclock.co](https://promoclock.co)**.
 
@@ -30,27 +30,23 @@ npm run test:api   # API contract tests against dist/ (needs PHP)
 | What | Where |
 | --- | --- |
 | Deals, promos, limit changes | `src/content/deals.yaml` |
-| The 50 tools | `src/content/tools/*.md` |
+| The 100 tools | `src/content/tools/*.md` |
 | Promo calendar | `src/content/events.yaml` |
 | Claude peak-hours window (single source) | `src/data/claude.ts` |
 | Deal status, hero mode, sorting | `src/lib/deals.ts` |
 | UI strings (10 languages) | `src/dictionaries/*.json` — `hub` section falls back to English |
-| PHP API | `public/api/status.php`, `public/api/deals.php` |
+| PHP API (Claude peak-hours status only) | `public/api/status.php` |
 | `.htaccess` generator | `integrations/cpanel-htaccess.mjs` |
 
 ### Adding a deal
 
 Append an entry to `src/content/deals.yaml` with `tool`, `kind`, `title.en`, `summary.en`, `startsAt`, optional `endsAt`, `verifiedAt`, `sourceUrl` and `sourceLabel`. Status (live, upcoming, ended) is derived from the dates — never set it by hand. The build fails if `tool` doesn't match a file in `src/content/tools/`.
 
-Expired deals disappear three ways: on the next daily rebuild, instantly in the browser (the card's timer hides it), and from `/api/deals`, which filters by server time.
+Expired deals disappear two ways: on the next daily rebuild, and instantly in the browser (the card's timer hides it).
 
 ## API
 
-All endpoints return JSON with CORS enabled and are rate limited to 60 requests per minute per IP. `/api/status` keeps the exact response shape of the original Next.js endpoint; `tests/api/contract.test.ts` runs the built PHP and fails CI if a field changes.
-
-- `GET /api/status`: live Claude peak-hours status
-- `GET /api/deals?status=active|upcoming|ended|all&tool=<slug>`: deals filtered by current time
-- `GET /api/tools.json`: tracked tools
+The only public endpoint is `GET /api/status`: live Claude peak-hours status as JSON, CORS enabled, rate limited to 60 requests per minute per IP. It keeps the exact response shape of the original Next.js endpoint; `tests/api/contract.test.ts` runs the built PHP and fails CI if a field changes. Deals and tools are not offered via API (the old `/api/deals` and `/api/tools.json` answer `410 Gone`).
 
 ```bash
 curl -s https://promoclock.co/api/status | python3 -c "import sys,json;d=json.load(sys.stdin);print(d['emoji'],d['label'])"

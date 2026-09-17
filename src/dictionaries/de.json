@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Claude-Stoßzeiten jetzt & aktuelle AI-Deals | PromoClock",
-    "description": "Live-Uhr für Claudes Stoßzeiten, die neuesten Änderungen an Claude-Limits sowie geprüfte Studentenangebote und Aktionen für 50 AI-Tools – mit Quellen und Countdowns.",
+    "description": "Live-Uhr für Claudes Stoßzeiten, die neuesten Änderungen an Claude-Limits sowie geprüfte Studentenangebote und Aktionen für 100 AI-Tools – mit Quellen und Countdowns.",
     "ogTitle": "Claude-Stoßzeiten & AI-Deals, live",
     "ogDescription": "Ist Claude gerade in der Stoßzeit? Was hat sich an deinen Limits geändert? Welche AI-Tools haben aktuelle Aktionen? Eine Uhr für alles."
   },
@@ -63,9 +63,9 @@
   },
   "devTools": {
     "title": "Entwickler-Tools",
-    "subtitle": "Claudes Stoßzeit-Status und aktuelle AI-Deals direkt in Terminal, Skripten oder Apps.",
+    "subtitle": "Claudes Stoßzeit-Status direkt in Terminal, Skripten oder Apps.",
     "apiTitle": "JSON-API",
-    "apiDescription": "Kostenlose Endpunkte mit CORS, begrenzt auf 60 Anfragen pro Minute pro IP."
+    "apiDescription": "Ein kostenloser Endpunkt mit CORS, begrenzt auf 60 Anfragen pro Minute pro IP."
   },
   "sponsors": {
     "stackopticHeadline": "Beliebige URL einfügen. Das ganze Bild sehen.",
@@ -157,9 +157,9 @@
     "home": {
       "heroEyebrow": "Live · täglich aktualisiert",
       "heroTitle": "Claude-Stoßzeiten & AI-Deals, live",
-      "heroSubtitle": "Sieh, wann Claudes Limits schneller verbraucht werden, und sichere dir geprüfte Aktionen von 50 AI-Tools.",
+      "heroSubtitle": "Sieh, wann Claudes Limits schneller verbraucht werden, und sichere dir geprüfte Aktionen von 100 AI-Tools.",
       "ctaDeals": "Aktuelle Deals ansehen",
-      "ctaTools": "50 Tools entdecken",
+      "ctaTools": "100 Tools entdecken",
       "statsLive": "Aktuelle Deals",
       "statsTools": "Beobachtete AI-Tools",
       "statsDeadline": "Nächste Frist",
@@ -168,7 +168,7 @@
       "dealsTitle": "Aktuelle AI-Deals",
       "dealsSubtitle": "Geprüfte Angebote mit Quellen und Live-Countdown.",
       "dealsCta": "Alle Deals",
-      "toolsTitle": "50 AI-Tools, eine Uhr",
+      "toolsTitle": "100 AI-Tools, eine Uhr",
       "toolsSubtitle": "Öffne ein Tool für aktuelle Deals und bisherige Aktionen.",
       "toolsCta": "Alle Tools",
       "historyTitle": "Verlauf der Claude-Aktionen",
@@ -212,10 +212,10 @@
       "empty": "Aktuell passen keine Deals zu diesem Filter."
     },
     "tools": {
-      "metaTitle": "50 AI-Tools: Aktionen, Deals & Limits | PromoClock",
-      "metaDescription": "Verfolge Aktionen, Studentenangebote, Preisänderungen und Nutzungslimits der 50 beliebtesten AI-Tools – von ChatGPT und Claude bis Cursor, Canva und ElevenLabs.",
+      "metaTitle": "100 AI-Tools: Aktionen, Deals & Limits | PromoClock",
+      "metaDescription": "Verfolge Aktionen, Studentenangebote, Preisänderungen und Nutzungslimits der 100 beliebtesten AI-Tools – von ChatGPT und Claude bis Cursor, Canva und ElevenLabs.",
       "title": "AI-Tools",
-      "subtitle": "Die 50 meistgenutzten AI-Tools. Öffne eines für aktuelle Deals und bisherige Aktionen.",
+      "subtitle": "Die 100 meistgenutzten AI-Tools. Öffne eines für aktuelle Deals und bisherige Aktionen.",
       "filterAll": "Alle",
       "withDeals": "Nur aktuelle Deals",
       "searchPlaceholder": "Tools suchen…",
@@ -269,7 +269,7 @@
       "metaTitle": "Über PromoClock: So verfolgen wir Claude-Limits & AI-Deals",
       "metaDescription": "Wer PromoClock betreibt, wie jede Claude-Limit-Änderung und jeder AI-Deal anhand offizieller Quellen geprüft wird und wie oft die Seite aktualisiert wird.",
       "title": "Über PromoClock",
-      "intro": "PromoClock ist ein unabhängiger Tracker für Claudes Nutzungslimits und für geprüfte Aktionen von 50 beliebten AI-Tools.",
+      "intro": "PromoClock ist ein unabhängiger Tracker für Claudes Nutzungslimits und für geprüfte Aktionen von 100 beliebten AI-Tools.",
       "sections": [
         {
           "title": "So prüfen wir",

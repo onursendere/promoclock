@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Claude 피크 시간 & 실시간 AI 할인 정보 | PromoClock",
-    "description": "Claude 피크 시간 실시간 시계, 최신 Claude 사용 한도 변경 사항, 50개 AI 도구의 검증된 학생 혜택과 프로모션을 출처와 카운트다운으로 확인하세요.",
+    "description": "Claude 피크 시간 실시간 시계, 최신 Claude 사용 한도 변경 사항, 100개 AI 도구의 검증된 학생 혜택과 프로모션을 출처와 카운트다운으로 확인하세요.",
     "ogTitle": "Claude 피크 시간 & AI 할인, 실시간으로",
     "ogDescription": "지금 Claude는 피크 시간일까요? 사용 한도는 어떻게 바뀌었을까요? 어떤 AI 도구가 프로모션 중일까요? 하나의 시계로 모두 확인하세요."
   },
@@ -63,7 +63,7 @@
   },
   "devTools": {
     "title": "개발자 도구",
-    "subtitle": "Claude 피크 시간 상태와 실시간 AI 할인 정보를 터미널, 스크립트, 앱에서 활용하세요.",
+    "subtitle": "Claude 피크 시간 상태를 터미널, 스크립트, 앱에서 활용하세요.",
     "apiTitle": "JSON API",
     "apiDescription": "무료 CORS 지원 엔드포인트이며, IP당 분당 60회로 제한됩니다."
   },
@@ -157,9 +157,9 @@
     "home": {
       "heroEyebrow": "실시간 · 매일 업데이트",
       "heroTitle": "Claude 피크 시간 & AI 할인, 실시간으로",
-      "heroSubtitle": "Claude 한도가 빨리 소진되는 시간을 확인하고, 50개 AI 도구의 검증된 프로모션을 챙기세요.",
+      "heroSubtitle": "Claude 한도가 빨리 소진되는 시간을 확인하고, 100개 AI 도구의 검증된 프로모션을 챙기세요.",
       "ctaDeals": "진행 중인 할인 보기",
-      "ctaTools": "50개 도구 둘러보기",
+      "ctaTools": "100개 도구 둘러보기",
       "statsLive": "진행 중인 혜택",
       "statsTools": "추적 중인 AI 도구",
       "statsDeadline": "다음 마감일",
@@ -168,7 +168,7 @@
       "dealsTitle": "진행 중인 AI 할인",
       "dealsSubtitle": "출처와 실시간 카운트다운이 있는 검증된 혜택.",
       "dealsCta": "모든 혜택 보기",
-      "toolsTitle": "50개 AI 도구, 하나의 시계",
+      "toolsTitle": "100개 AI 도구, 하나의 시계",
       "toolsSubtitle": "도구를 열면 진행 중인 혜택과 지난 프로모션을 볼 수 있어요.",
       "toolsCta": "모든 도구 보기",
       "historyTitle": "Claude 프로모션 기록",
@@ -212,10 +212,10 @@
       "empty": "지금은 이 필터에 맞는 혜택이 없습니다."
     },
     "tools": {
-      "metaTitle": "AI 도구 50개: 프로모션, 할인 & 한도 | PromoClock",
-      "metaDescription": "ChatGPT와 Claude부터 Cursor, Canva, ElevenLabs까지 인기 AI 도구 50개의 프로모션, 학생 혜택, 가격 변경, 사용 한도 소식을 추적합니다.",
+      "metaTitle": "AI 도구 100개: 프로모션, 할인 & 한도 | PromoClock",
+      "metaDescription": "ChatGPT와 Claude부터 Cursor, Canva, ElevenLabs까지 인기 AI 도구 100개의 프로모션, 학생 혜택, 가격 변경, 사용 한도 소식을 추적합니다.",
       "title": "AI 도구",
-      "subtitle": "가장 많이 쓰이는 AI 도구 50개. 도구를 열어 진행 중인 혜택과 프로모션 기록을 확인하세요.",
+      "subtitle": "가장 많이 쓰이는 AI 도구 100개. 도구를 열어 진행 중인 혜택과 프로모션 기록을 확인하세요.",
       "filterAll": "전체",
       "withDeals": "진행 중인 혜택만",
       "searchPlaceholder": "도구 검색…",
@@ -269,7 +269,7 @@
       "metaTitle": "PromoClock 소개: Claude 한도와 AI 할인을 추적하는 방법",
       "metaDescription": "PromoClock 운영자, Claude 한도 변경과 AI 할인 정보를 공식 출처로 확인하는 방법, 사이트 업데이트 주기를 소개합니다.",
       "title": "PromoClock 소개",
-      "intro": "PromoClock은 Claude의 사용 한도와 인기 AI 도구 50개의 검증된 프로모션을 추적하는 독립 사이트입니다.",
+      "intro": "PromoClock은 Claude의 사용 한도와 인기 AI 도구 100개의 검증된 프로모션을 추적하는 독립 사이트입니다.",
       "sections": [
         {
           "title": "검증 방법",

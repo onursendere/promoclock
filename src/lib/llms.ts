@@ -64,9 +64,7 @@ ${upcoming.length ? `\n## Upcoming\n${upcoming.map((d) => dealLine(d, map)).join
 - Languages: ${i18n.locales.join(", ")} (e.g. ${url(localePath("tr"))})
 
 ## API (JSON, CORS enabled, 60 requests/minute per IP)
-- GET ${url("/api/status")} — live Claude peak-hours status
-- GET ${url("/api/deals")}?status=active|upcoming|ended|all&tool=<slug> — deals filtered by current time
-- GET ${url("/api/tools.json")} — tracked tools
+- GET ${url("/api/status")} — live Claude peak-hours status (the only public endpoint; deals are not offered via API)
 
 ## Links
 - Full reference: ${url("/llms-full.txt")}
@@ -130,16 +128,14 @@ ${[...byCategory.entries()]
 ## FAQ
 ${dict.faq.items.map((item) => `Q: ${item.question}\nA: ${item.answer}`).join("\n\n")}
 
-## API examples
+## API example
 \`\`\`bash
 curl -s ${SITE_URL}/api/status
-curl -s "${SITE_URL}/api/deals?status=active"
-curl -s "${SITE_URL}/api/deals?tool=claude&status=all"
 \`\`\`
 
 ## Technical
 - Astro 7 static site with React islands and shadcn/ui, Tailwind CSS 4
-- PHP JSON endpoints on cPanel, behind Cloudflare
+- One PHP JSON endpoint (/api/status), behind Cloudflare
 - Rebuilt daily; deal status is derived from start/end dates
 `;
 }

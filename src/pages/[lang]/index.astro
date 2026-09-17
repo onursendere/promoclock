@@ -75,7 +75,7 @@ claude_status() {
 }
 RPROMPT='$(claude_status)'`,
   },
-  { id: "deals", label: "deals", code: `curl -s "${SITE_URL}/api/deals?status=active" | python3 -m json.tool` },
+  { id: "json", label: "json", code: `curl -s ${SITE_URL}/api/status | python3 -m json.tool` },
 ];
 
 const url = absoluteUrl(localePath(lang));
@@ -200,10 +200,7 @@ const jsonLd = [
       copyLabel={hub.common.copy}
       copiedLabel={hub.common.copied}
       snippets={snippets}
-      links={[
-        { href: "/api/status", label: "/api/status" },
-        { href: "/api/deals", label: "/api/deals" },
-      ]}
+      links={[{ href: "/api/status", label: "/api/status" }]}
     />
   </Section>
 </BaseLayout>

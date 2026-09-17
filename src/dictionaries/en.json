@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Claude Peak Hours Now & Live AI Deals | PromoClock",
-    "description": "Live Claude peak-hours clock, the latest Claude limit changes, and verified student offers and promos for 50 AI tools, with sources and countdowns.",
+    "description": "Live Claude peak-hours clock, the latest Claude limit changes, and verified student offers and promos for 100 AI tools, with sources and countdowns.",
     "ogTitle": "Claude peak hours & AI deals, live",
     "ogDescription": "Is Claude in peak hours right now? What changed in your limits? Which AI tools have live promos? One clock for all of it."
   },
@@ -63,9 +63,9 @@
   },
   "devTools": {
     "title": "Developer tools",
-    "subtitle": "Put Claude's peak-hours status and live AI deals in your terminal, scripts or apps.",
+    "subtitle": "Put Claude's peak-hours status in your terminal, scripts or apps.",
     "apiTitle": "JSON API",
-    "apiDescription": "Free, CORS-enabled endpoints, limited to 60 requests per minute per IP."
+    "apiDescription": "One free, CORS-enabled endpoint, limited to 60 requests per minute per IP."
   },
   "sponsors": {
     "stackopticHeadline": "Paste any URL. Get the full picture.",
@@ -157,9 +157,9 @@
     "home": {
       "heroEyebrow": "Live · updated daily",
       "heroTitle": "Claude peak hours & AI deals, live",
-      "heroSubtitle": "See when Claude's limits drain faster, and grab verified promos from 50 AI tools.",
+      "heroSubtitle": "See when Claude's limits drain faster, and grab verified promos from 100 AI tools.",
       "ctaDeals": "Browse live deals",
-      "ctaTools": "Explore 50 tools",
+      "ctaTools": "Explore 100 tools",
       "statsLive": "Live deals",
       "statsTools": "AI tools tracked",
       "statsDeadline": "Next deadline",
@@ -168,7 +168,7 @@
       "dealsTitle": "Live AI deals",
       "dealsSubtitle": "Verified offers with sources and live countdowns.",
       "dealsCta": "See all deals",
-      "toolsTitle": "50 AI tools, one clock",
+      "toolsTitle": "100 AI tools, one clock",
       "toolsSubtitle": "Open a tool for its live deals and promo history.",
       "toolsCta": "Browse all tools",
       "historyTitle": "Claude promotion history",
@@ -212,10 +212,10 @@
       "empty": "No deals match this filter right now."
     },
     "tools": {
-      "metaTitle": "50 AI Tools: Promos, Deals & Limits | PromoClock",
-      "metaDescription": "Track promotions, student offers, pricing changes and usage-limit news for the 50 most popular AI tools, from ChatGPT and Claude to Cursor, Canva and ElevenLabs.",
+      "metaTitle": "100 AI Tools: Promos, Deals & Limits | PromoClock",
+      "metaDescription": "Track promotions, student offers, pricing changes and usage-limit news for the 100 most popular AI tools, from ChatGPT and Claude to Cursor, Canva and ElevenLabs.",
       "title": "AI tools",
-      "subtitle": "The 50 most-used AI tools. Open one for its live deals and promo history.",
+      "subtitle": "The 100 most-used AI tools. Open one for its live deals and promo history.",
       "filterAll": "All",
       "withDeals": "Live deals only",
       "searchPlaceholder": "Search tools…",
@@ -269,7 +269,7 @@
       "metaTitle": "About PromoClock: How We Track Claude Limits & AI Deals",
       "metaDescription": "Who runs PromoClock, how every Claude limit change and AI deal is verified against official sources, and how often the site is updated.",
       "title": "About PromoClock",
-      "intro": "PromoClock is an independent tracker for Claude's usage limits and for verified promotions across 50 popular AI tools.",
+      "intro": "PromoClock is an independent tracker for Claude's usage limits and for verified promotions across 100 popular AI tools.",
       "sections": [
         {
           "title": "How we verify",

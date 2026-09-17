@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Claude 高峰时段实时查询与最新 AI 优惠 | PromoClock",
-    "description": "实时查看 Claude 高峰时段、Claude 用量限制的最新变化，以及 50 款 AI 工具经过核实的学生优惠和促销活动，附来源与倒计时。",
+    "description": "实时查看 Claude 高峰时段、Claude 用量限制的最新变化，以及 100 款 AI 工具经过核实的学生优惠和促销活动，附来源与倒计时。",
     "ogTitle": "Claude 高峰时段与 AI 优惠，实时更新",
     "ogDescription": "Claude 现在是高峰时段吗？你的用量限制有什么变化？哪些 AI 工具正在做活动？一个时钟全部看清。"
   },
@@ -63,7 +63,7 @@
   },
   "devTools": {
     "title": "开发者工具",
-    "subtitle": "把 Claude 高峰时段状态和实时 AI 优惠接入你的终端、脚本或应用。",
+    "subtitle": "把 Claude 高峰时段状态接入你的终端、脚本或应用。",
     "apiTitle": "JSON API",
     "apiDescription": "免费、支持 CORS 的接口，每个 IP 每分钟最多 60 次请求。"
   },
@@ -157,9 +157,9 @@
     "home": {
       "heroEyebrow": "实时 · 每日更新",
       "heroTitle": "Claude 高峰时段与 AI 优惠，实时掌握",
-      "heroSubtitle": "查看 Claude 限额何时消耗更快，并抓住 50 款 AI 工具经过核实的促销活动。",
+      "heroSubtitle": "查看 Claude 限额何时消耗更快，并抓住 100 款 AI 工具经过核实的促销活动。",
       "ctaDeals": "查看进行中的优惠",
-      "ctaTools": "浏览 50 款工具",
+      "ctaTools": "浏览 100 款工具",
       "statsLive": "进行中的优惠",
       "statsTools": "追踪的 AI 工具",
       "statsDeadline": "下一个截止日",
@@ -168,7 +168,7 @@
       "dealsTitle": "进行中的 AI 优惠",
       "dealsSubtitle": "经过核实的优惠，附来源和实时倒计时。",
       "dealsCta": "查看全部优惠",
-      "toolsTitle": "50 款 AI 工具，一个时钟",
+      "toolsTitle": "100 款 AI 工具，一个时钟",
       "toolsSubtitle": "打开任一工具，查看进行中的优惠和历史促销。",
       "toolsCta": "浏览全部工具",
       "historyTitle": "Claude 促销历史",
@@ -212,10 +212,10 @@
       "empty": "目前没有符合此筛选条件的优惠。"
     },
     "tools": {
-      "metaTitle": "50 款 AI 工具：促销、优惠与限额 | PromoClock",
-      "metaDescription": "追踪最受欢迎的 50 款 AI 工具的促销、学生优惠、价格变动和用量限制动态，从 ChatGPT、Claude 到 Cursor、Canva 和 ElevenLabs。",
+      "metaTitle": "100 款 AI 工具：促销、优惠与限额 | PromoClock",
+      "metaDescription": "追踪最受欢迎的 100 款 AI 工具的促销、学生优惠、价格变动和用量限制动态，从 ChatGPT、Claude 到 Cursor、Canva 和 ElevenLabs。",
       "title": "AI 工具",
-      "subtitle": "最常用的 50 款 AI 工具。打开任一工具，查看进行中的优惠和促销历史。",
+      "subtitle": "最常用的 100 款 AI 工具。打开任一工具，查看进行中的优惠和促销历史。",
       "filterAll": "全部",
       "withDeals": "仅看有优惠的",
       "searchPlaceholder": "搜索工具…",
@@ -269,7 +269,7 @@
       "metaTitle": "关于 PromoClock：我们如何追踪 Claude 限额与 AI 优惠",
       "metaDescription": "谁在运营 PromoClock、每项 Claude 限额变更和 AI 优惠如何通过官方来源核实，以及网站的更新频率。",
       "title": "关于 PromoClock",
-      "intro": "PromoClock 是一个独立网站，追踪 Claude 的用量限制以及 50 款热门 AI 工具经过核实的促销活动。",
+      "intro": "PromoClock 是一个独立网站，追踪 Claude 的用量限制以及 100 款热门 AI 工具经过核实的促销活动。",
       "sections": [
         {
           "title": "我们如何核实",

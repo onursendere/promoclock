@@ -1,12 +1,12 @@
 // @ts-check
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, rm } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 /**
  * Writes dist/.htaccess for Apache/LiteSpeed (cPanel) after the static build:
- * HTTPS, language redirect for "/", PHP API rewrites, /go/<slug>/ 302s built
- * from dist/api/tools.json, caching, compression and security headers.
+ * HTTPS, language redirect for "/", the /api/status rewrite, /go/<slug>/ 302s built
+ * from dist/go/redirects.json (deleted afterwards), caching, compression and security headers.
  *
  * @param {{ locales: readonly string[]; defaultLocale: string; staging?: boolean }} options
  * @returns {import("astro").AstroIntegration}
@@ -17,8 +17,10 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
     hooks: {
       "astro:build:done": async ({ dir, logger }) => {
         const outDir = fileURLToPath(dir);
+        const redirectsFile = path.join(outDir, "go/redirects.json");
         /** @type {{ slug: string; outbound: string }[]} */
-        const tools = JSON.parse(await readFile(path.join(outDir, "api/tools.json"), "utf8"));
+        const tools = JSON.parse(await readFile(redirectsFile, "utf8"));
+        await rm(redirectsFile);
 
         const escapeTarget = (/** @type {string} */ url) => url.replace(/\s/g, "%20");
         const nonDefault = locales.filter((l) => l !== defaultLocale && !l.includes("-"));
@@ -44,13 +46,14 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
           "  RewriteCond %{HTTP_HOST} !^(localhost|127\\.0\\.0\\.1) [NC]",
           "  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]",
           "",
-          "  # Hide dotfiles and internal PHP includes.",
+          "  # Hide dotfiles and the API's internal files.",
           "  RewriteRule (^|/)\\.(?!well-known/) - [F,L]",
-          "  RewriteRule ^api/_ - [F,L]",
+          "  RewriteRule ^api/(_|claude\\.json$) - [F,L]",
           "",
-          "  # JSON API (PHP).",
+          "  # JSON API (PHP): only the Claude peak-hours status is public.",
           "  RewriteRule ^api/status/?$ api/status.php [L,QSA]",
-          "  RewriteRule ^api/deals/?$ api/deals.php [L,QSA]",
+          "  # Retired endpoints.",
+          "  RewriteRule ^api/(deals(\\.php|\\.json)?|tools\\.json)/?$ - [G,L]",
           "",
           "  # Outbound tool links (affiliate or official site, with UTM).",
           ...tools.map((t) => `  RewriteRule ^go/${t.slug}/?$ ${escapeTarget(t.outbound)} [R=302,L,NE]`),
