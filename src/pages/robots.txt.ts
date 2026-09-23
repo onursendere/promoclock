@@ -1,49 +1,43 @@
 import type { APIRoute } from "astro";
 import { IS_STAGING, SITE_URL } from "@/lib/site";
 
+/**
+ * /go/<slug>/ outbound redirects stay crawlable on purpose: blocking them here made Google report
+ * "Blocked by robots.txt". They answer 302 with X-Robots-Tag: noindex (see the .htaccess generator).
+ */
 export const GET: APIRoute = () => {
   const body = IS_STAGING
     ? "User-agent: *\nDisallow: /\n"
     : `User-agent: *
 Allow: /
-Disallow: /go/
 
 # AI crawlers are welcome — see /llms.txt
 User-agent: GPTBot
 Allow: /
-Disallow: /go/
 
 User-agent: ChatGPT-User
 Allow: /
-Disallow: /go/
 
 User-agent: ClaudeBot
 Allow: /
-Disallow: /go/
 
 User-agent: Claude-Web
 Allow: /
-Disallow: /go/
 
 User-agent: anthropic-ai
 Allow: /
-Disallow: /go/
 
 User-agent: PerplexityBot
 Allow: /
-Disallow: /go/
 
 User-agent: Google-Extended
 Allow: /
-Disallow: /go/
 
 User-agent: Amazonbot
 Allow: /
-Disallow: /go/
 
 User-agent: CCBot
 Allow: /
-Disallow: /go/
 
 Sitemap: ${SITE_URL}/sitemap-index.xml
 
