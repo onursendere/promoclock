@@ -14,8 +14,9 @@ import { timerText, type TimerLabels } from "@/scripts/live";
 export const isLimitNews = (deal: DealRecord) => deal.kind === "limit-change" || deal.kind === "limit-boost";
 
 /** Time-left pill; src/scripts/live.ts keeps it current after load. */
-export function DealTimer({ deal, hub, now }: { deal: DealRecord; hub: HubDictionary; now: number }) {
+export function DealTimer({ deal, hub, now, lang }: { deal: DealRecord; hub: HubDictionary; now: number; lang: Locale }) {
   const labels: TimerLabels = {
+    lang,
     daysLeft: hub.common.daysLeft,
     hoursLeft: hub.common.hoursLeft,
     startsIn: hub.common.startsIn,
@@ -103,7 +104,7 @@ export function DealCard({
           </a>
         )}
         <CardAction>
-          <DealTimer deal={deal} hub={hub} now={now} />
+          <DealTimer deal={deal} hub={hub} now={now} lang={lang} />
         </CardAction>
       </CardHeader>
       <CardContent className="flex flex-1 flex-col gap-4">

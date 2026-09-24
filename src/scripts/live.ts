@@ -1,6 +1,6 @@
 import { format } from "@/lib/i18n/format";
 import { getDealStatus } from "@/lib/deals";
-import { getCountdown } from "@/lib/time";
+import { formatDuration, getCountdown } from "@/lib/time";
 
 /**
  * Progressive enhancement for static pages:
@@ -8,6 +8,8 @@ import { getCountdown } from "@/lib/time";
  * - [data-copy] buttons copy their value to the clipboard
  */
 export interface TimerLabels {
+  /** Page language, for the localized "starts in" duration. */
+  lang: string;
   daysLeft: string;
   hoursLeft: string;
   startsIn: string;
@@ -24,7 +26,7 @@ export function timerText(
   if (status === "ended" || status === "past") return { status, text: labels.ended };
   if (status === "upcoming") {
     const c = getCountdown(deal.startsAt, now);
-    return { status, text: `${labels.startsIn} ${c.days > 0 ? `${c.days}d` : `${c.hours}h ${c.minutes}m`}` };
+    return { status, text: `${labels.startsIn} ${formatDuration(c, labels.lang)}` };
   }
   if (deal.endsAt === undefined) return { status, text: labels.ongoing };
   const c = getCountdown(deal.endsAt, now);

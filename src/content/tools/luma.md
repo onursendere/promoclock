@@ -5,5 +5,5 @@ category: video
 website: https://lumalabs.ai
 popularityRank: 70
 tagline:
-  en: "Generate and edit cinematic video and images with Luma's Ray models."
+  en: "Cinematic video and image generator and editor built on Luma's Ray models."
 ---

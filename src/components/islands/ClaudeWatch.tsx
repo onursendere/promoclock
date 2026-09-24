@@ -10,7 +10,7 @@ import { getPeakStatus, PEAK_HOURS } from "@/data/claude";
 import type { HubDictionary } from "@/lib/i18n/dictionaries";
 import { getClaudeHeroState, localize, type DealRecord } from "@/lib/deals";
 import type { Locale } from "@/lib/i18n/config";
-import { getCountdown, pad2 } from "@/lib/time";
+import { getCountdown, pad2, formatUnit } from "@/lib/time";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -81,7 +81,7 @@ export default function ClaudeWatch(props: Props) {
                 <span>{watch.promoEndsIn}</span>
                 <span className="font-mono text-2xl font-semibold text-foreground tabular-nums">
                   {getCountdown(state.promo.endsAt, t).days > 0
-                    ? `${getCountdown(state.promo.endsAt, t).days}d ${clock(getCountdown(state.promo.endsAt, t).totalMs % 86_400_000)}`
+                    ? `${formatUnit(getCountdown(state.promo.endsAt, t).days, "day", lang, "narrow")} ${clock(getCountdown(state.promo.endsAt, t).totalMs % 86_400_000)}`
                     : clock(getCountdown(state.promo.endsAt, t).totalMs)}
                 </span>
               </div>

@@ -31,6 +31,7 @@ npm run test:api   # API contract tests against dist/ (needs PHP)
 | --- | --- |
 | Deals, promos, limit changes | `src/content/deals.yaml` |
 | The 100 tools | `src/content/tools/*.md` |
+| Tool profiles (facts in `en/`, localized text in `<locale>/`) | `src/content/tool-profiles/<locale>/<slug>.profile.md` (never `claude.md`: on macOS that name loads as a CLAUDE.md instruction file) |
 | Promo calendar | `src/content/events.yaml` |
 | Claude peak-hours window (single source) | `src/data/claude.ts` |
 | Deal status, hero mode, sorting | `src/lib/deals.ts` |
@@ -43,6 +44,10 @@ npm run test:api   # API contract tests against dist/ (needs PHP)
 Append an entry to `src/content/deals.yaml` with `tool`, `kind`, `title.en`, `summary.en`, `startsAt`, optional `endsAt`, `verifiedAt`, `sourceUrl` and `sourceLabel`. Status (live, upcoming, ended) is derived from the dates — never set it by hand. The build fails if `tool` doesn't match a file in `src/content/tools/`.
 
 Expired deals disappear two ways: on the next daily rebuild, and instantly in the browser (the card's timer hides it).
+
+### Adding or updating a tool profile
+
+Each tool page (`/<lang>/tools/<slug>/`) is built from `src/content/tool-profiles/`. The English file `en/<slug>.profile.md` is the only place for facts: `pricing` (free plan, verified starting price with `currency` and `billing`, `asOf`), `platforms`, `alternatives` (3–5 existing tool slugs), official `sources` and `reviewedAt`, plus the English text and a short markdown body with `##` sections. Files in the other locale folders carry only translated text (`summary`, `metaTitle`, `metaDescription`, `bestFor`, `keyFeatures`, `useCases`, `pricingSummary`, `savingTips`, `faq`, body) with the same list lengths and the same number of `##` sections; until a translation exists the page falls back to the English text. Update facts in English only, bump `reviewedAt`, then run `npm test` (`tests/tool-profiles.test.ts` checks coverage, facts and that every locale mirrors English) and `npm run build` (the content schema rejects unknown platforms, missing currencies and alternatives that aren't tools).
 
 ## API
 

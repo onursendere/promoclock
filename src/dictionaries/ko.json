@@ -1,75 +1,75 @@
 {
   "meta": {
-    "title": "Claude 피크 시간 & 실시간 AI 할인 정보 | PromoClock",
-    "description": "Claude 피크 시간 실시간 시계, 최신 Claude 사용 한도 변경 사항, 100개 AI 도구의 검증된 학생 혜택과 프로모션을 출처와 카운트다운으로 확인하세요.",
-    "ogTitle": "Claude 피크 시간 & AI 할인, 실시간으로",
-    "ogDescription": "지금 Claude는 피크 시간일까요? 사용 한도는 어떻게 바뀌었을까요? 어떤 AI 도구가 프로모션 중일까요? 하나의 시계로 모두 확인하세요."
+    "title": "Claude 피크 시간대·AI 특가 | PromoClock",
+    "description": "지금 Claude가 피크 시간대인지 확인하고, 최신 Claude 한도 변경 소식과 AI 도구 100개의 검증된 특가·학생 혜택을 한곳에서 찾아보세요.",
+    "ogTitle": "Claude 피크 시간대와 검증된 AI 특가",
+    "ogDescription": "지금 Claude는 피크 시간대일까요? 내 한도는 무엇이 바뀌었을까요? 어떤 AI 도구가 프로모션 중일까요? 시계 하나로 모두 확인하세요."
   },
   "notifications": {
-    "peakTitle": "Claude 피크 시간이 시작됐어요",
-    "peakBody": "피크 시간이 끝날 때까지 세션 한도가 더 빨리 소진됩니다.",
-    "offPeakTitle": "Claude 비피크 시간이에요",
-    "offPeakBody": "세션 한도가 다시 평소 속도로 소진됩니다."
+    "peakTitle": "Claude 피크 시간대 시작",
+    "peakBody": "피크 시간대가 끝날 때까지 세션 한도가 더 빨리 소진됩니다.",
+    "offPeakTitle": "Claude 피크 시간대 종료",
+    "offPeakBody": "이제 세션 한도가 다시 평소 속도로 소진됩니다."
   },
   "schedule": {
     "tableHeaders": {
       "city": "도시",
-      "timezone": "시간대",
-      "peakHours": "피크 시간",
+      "timezone": "표준 시간대",
+      "peakHours": "피크 시간대",
       "offPeakHours": "비피크"
     },
-    "weekendLabel": "주말은 하루 종일 비피크 시간입니다."
+    "weekendLabel": "주말은 종일 비피크입니다."
   },
   "faq": {
     "title": "자주 묻는 질문",
     "items": [
       {
-        "question": "Claude의 피크 시간은 언제인가요?",
-        "answer": "Claude의 피크 시간은 평일 13:00~19:00(UTC)입니다. 평일 저녁과 밤, 그리고 주말 전체는 비피크 시간입니다."
+        "question": "Claude의 피크 시간대는 언제인가요?",
+        "answer": "Claude의 피크 시간대는 평일 13:00–19:00 UTC입니다. 주말 전체를 포함해 나머지 시간은 모두 비피크입니다."
       },
       {
-        "question": "피크 시간에는 무엇이 달라지나요?",
-        "answer": "Free, Pro, Max, Team 플랜에서 5시간 세션 한도가 평소보다 빨리 소진됩니다. 주간 한도는 바뀌지 않습니다."
+        "question": "피크 시간대에는 무엇이 달라지나요?",
+        "answer": "Free, Pro, Max, Team 플랜에서 5시간 세션 한도가 평소보다 빨리 소진됩니다. 주간 한도는 달라지지 않습니다."
       },
       {
-        "question": "지금 Claude는 피크 시간인가요?",
-        "answer": "이 페이지 상단의 실시간 시계에서 내 시간대 기준 현재 상태와 다음 전환까지의 카운트다운을 볼 수 있습니다. 개발자는 GET /api/status로도 확인할 수 있습니다."
+        "question": "지금 Claude는 피크 시간대인가요?",
+        "answer": "이 페이지 상단의 실시간 시계를 확인하세요. 현재 상태와 현지 시간 기준 피크 시간대, 다음 전환까지 남은 시간을 보여 줍니다. 개발자는 GET /api/status로 조회할 수 있습니다."
       },
       {
         "question": "어떤 Claude 플랜이 영향을 받나요?",
-        "answer": "Free, Pro, Max, Team입니다. Enterprise 플랜은 영향을 받지 않으며, Pro와 Max의 Claude Code는 2026년 5월 6일부터 제외되었습니다."
+        "answer": "Free, Pro, Max, Team입니다. Enterprise 플랜은 영향을 받지 않으며, Pro·Max의 Claude Code는 2026년 5월 6일부터 적용 대상에서 제외되었습니다."
       },
       {
         "question": "2026년 9월 14일에 Claude Code 한도는 어떻게 바뀌었나요?",
-        "answer": "Claude Code의 기본 주간 한도가 프로모션 이전 수준보다 영구적으로 25% 높아졌습니다. 임시 +50% 증량은 같은 날 종료되어, 헤비 유저의 주간 용량은 프로모션 기간보다 약 17% 줄었습니다."
+        "answer": "Claude Code의 기본 주간 한도가 프로모션 이전보다 영구적으로 25% 높아졌습니다. 임시로 적용되던 +50% 상향은 같은 날 끝났기 때문에, 헤비 유저가 쓸 수 있는 주간 사용량은 프로모션 기간보다 약 17% 줄었습니다."
       },
       {
-        "question": "Claude 한도를 더 알차게 쓰려면 어떻게 하나요?",
-        "answer": "긴 작업이나 토큰을 많이 쓰는 작업은 평일 피크 시간을 피해 저녁이나 주말처럼 세션 한도가 평소 속도로 소진되는 시간에 실행하세요."
+        "question": "Claude 한도를 더 효율적으로 쓰려면 어떻게 해야 하나요?",
+        "answer": "오래 걸리거나 토큰을 많이 쓰는 작업은 평일 13:00–19:00 UTC를 피하거나 주말에 실행하세요. 이때는 세션 한도가 평소 속도로 소진됩니다."
       },
       {
-        "question": "2026년 3월 Claude 프로모션은 무엇이었나요?",
-        "answer": "2026년 3월 13일부터 27일까지 Claude는 Free, Pro, Max, Team 플랜의 세션 한도를 평일 피크 시간 외와 주말 내내 두 배로 늘렸습니다."
+        "question": "2026년 3월 Claude 프로모션은 어떤 내용이었나요?",
+        "answer": "2026년 3월 13일부터 27일까지 Claude는 Free, Pro, Max, Team 플랜을 대상으로 평일 피크 시간대 외 시간과 주말 내내 세션 한도를 두 배로 늘렸습니다."
       },
       {
-        "question": "PromoClock은 AI 할인 정보를 어떻게 검증하나요?",
-        "answer": "모든 혜택은 고객센터 문서나 회사 블로그 같은 공식 출처로 연결되며, 마지막으로 확인한 날짜를 표시합니다. 기간이 끝난 혜택은 실시간 목록에서 자동으로 사라집니다."
+        "question": "PromoClock은 AI 특가를 어떻게 검증하나요?",
+        "answer": "모든 특가에는 고객센터 문서, 회사 블로그, 언론 보도처럼 공식 출처나 신뢰할 만한 출처가 링크되어 있고, 마지막으로 확인한 날짜가 표시됩니다. 기간이 끝난 혜택은 진행 중 목록에서 자동으로 빠집니다."
       },
       {
         "question": "PromoClock은 Anthropic과 관련이 있나요?",
-        "answer": "아니요. PromoClock은 Onur Şendere의 독립 프로젝트입니다. 일부 외부 링크는 제휴 링크이지만, 어떤 혜택을 게재할지는 제휴 여부와 무관하게 결정합니다."
+        "answer": "아니요. PromoClock은 Onur Şendere가 운영하는 독립 프로젝트입니다. 일부 외부 링크는 제휴 링크이지만, 어떤 특가를 소개할지는 제휴 여부와 관계없이 정합니다."
       }
     ]
   },
   "devTools": {
     "title": "개발자 도구",
-    "subtitle": "Claude 피크 시간 상태를 터미널, 스크립트, 앱에서 활용하세요.",
+    "subtitle": "Claude 피크 시간대 상태를 터미널, 스크립트, 앱에서 바로 확인하세요.",
     "apiTitle": "JSON API",
-    "apiDescription": "무료 CORS 지원 엔드포인트이며, IP당 분당 60회로 제한됩니다."
+    "apiDescription": "CORS를 지원하는 무료 엔드포인트입니다. IP당 분당 60회까지 요청할 수 있습니다."
   },
   "sponsors": {
-    "stackopticHeadline": "URL만 붙여넣으면 전체 그림이 보입니다.",
-    "stackopticSub": "성능, SEO, 보안, AI 가시성, 기술 스택 — 18개 모듈을 한 번의 스캔으로.",
+    "stackopticHeadline": "URL만 붙여 넣으면 사이트가 한눈에 보입니다.",
+    "stackopticSub": "성능, SEO, 보안, AI 가시성, 기술 스택까지. 18개 모듈을 한 번의 스캔으로.",
     "stackopticPromoBadge": "50% 할인",
     "stackopticPromo": "Solo 플랜 첫 달",
     "stackopticCode": "SOLO50",
@@ -77,35 +77,36 @@
   },
   "footer": {
     "crafted": "영국 슈루즈베리에서 Claude와 함께 정성껏 만들었습니다.",
-    "buymeacoffee": "시간대 계산이 편해졌다면 커피 한 잔 사주세요",
-    "disclaimer": "PromoClock은 독립 프로젝트이며 Anthropic 또는 Claude와 관련이 없습니다. 정보 제공 목적으로만 운영됩니다.",
-    "rights": "© 2026 PromoClock. 제작: Onur Şendere"
+    "coffeeLead": "시간대 계산을 덜어 드렸나요?",
+    "buymeacoffee": "커피 한 잔 사주기",
+    "disclaimer": "PromoClock은 독립 프로젝트이며 Anthropic 및 Claude와 공식적인 관계가 없습니다. 정보 제공만을 목적으로 합니다.",
+    "rights": "© 2026 PromoClock. Onur Şendere 제작."
   },
   "hub": {
     "nav": {
       "claude": "Claude Watch",
-      "deals": "AI 할인",
+      "deals": "AI 특가",
       "tools": "AI 도구",
       "calendar": "캘린더",
       "api": "API",
       "menu": "메뉴",
-      "language": "언어 변경",
-      "theme": "다크 모드 전환",
+      "language": "언어",
+      "theme": "다크 모드",
       "about": "소개"
     },
     "common": {
       "verified": "확인됨",
       "startsIn": "시작까지",
       "ended": "종료",
-      "ongoing": "진행 중",
-      "visit": "{name} 방문",
-      "getDeal": "혜택 받기",
-      "details": "자세히",
+      "ongoing": "상시 진행",
+      "visit": "{name} 바로가기",
+      "getDeal": "특가 받기",
+      "details": "자세히 보기",
       "code": "코드",
       "copy": "복사",
       "copied": "복사됨",
-      "affiliateNote": "일부 링크는 제휴 링크입니다. 추가 비용 없이 수수료를 받을 수 있지만, 어떤 혜택을 게재할지에는 영향을 주지 않습니다.",
-      "disclosureLink": "제휴 링크 안내",
+      "affiliateNote": "일부 링크는 제휴 링크입니다. 이를 통해 수수료를 받을 수 있지만 사용자가 추가로 내는 비용은 없으며, 어떤 특가를 소개할지에도 영향을 주지 않습니다.",
+      "disclosureLink": "제휴 고지",
       "daysLeft": "{n}일 남음",
       "hoursLeft": "{h}시간 {m}분 남음",
       "offer": "혜택",
@@ -114,13 +115,13 @@
       "started": "시작일",
       "regions": "지역",
       "howToClaim": "받는 방법",
-      "goodToKnow": "알아두세요",
-      "related": "다른 혜택",
+      "goodToKnow": "유의 사항",
+      "related": "다른 특가",
       "live": "진행 중",
       "sources": "출처"
     },
     "kinds": {
-      "limit-boost": "한도 증가",
+      "limit-boost": "한도 상향",
       "limit-change": "한도 변경",
       "discount": "할인",
       "student": "학생 혜택",
@@ -129,14 +130,14 @@
       "seasonal": "시즌 세일"
     },
     "categories": {
-      "chat": "채팅 & 검색",
-      "coding": "코딩 & 앱 개발",
-      "image": "이미지 & 디자인",
-      "video": "영상 & 아바타",
-      "audio": "음성 & 음악",
-      "writing": "글쓰기 & SEO",
-      "productivity": "생산성 & 회의",
-      "agents": "에이전트 & 자동화"
+      "chat": "채팅·검색",
+      "coding": "코딩·앱 빌더",
+      "image": "이미지·디자인",
+      "video": "영상·아바타",
+      "audio": "음성·음악",
+      "writing": "글쓰기·SEO",
+      "productivity": "생산성·회의",
+      "agents": "에이전트·자동화"
     },
     "claudeWatch": {
       "badge": "Claude Watch",
@@ -144,45 +145,45 @@
       "offPeak": "비피크",
       "livePromo": "진행 중인 Claude 프로모션",
       "promoEndsIn": "프로모션 종료까지",
-      "peakNote": "피크 시간은 2026년 3월 27일에 마지막으로 공식 안내되었으며, 지금도 Claude.ai 채팅, Cowork, 각 앱에 적용되는 것으로 보입니다. Pro와 Max의 Claude Code는 2026년 5월 6일부터 제외되었습니다.",
-      "statusTitle": "Claude 상태",
-      "peakShort": "한도가 빨리 소진됨",
-      "offPeakShort": "평소 한도",
-      "changesIn": "전환까지",
-      "peakWindow": "피크 시간 · 내 시간",
-      "nextPeakWindow": "다음 피크 · 내 시간",
+      "peakNote": "Anthropic이 피크 시간대를 마지막으로 공식 안내한 것은 2026년 3월 27일입니다. 지금도 Claude.ai 채팅, Cowork, 앱에는 적용되는 것으로 보입니다. Pro·Max의 Claude Code는 2026년 5월 6일부터 적용 대상에서 제외되었습니다.",
+      "statusTitle": "지금 Claude는",
+      "peakShort": "한도 빨리 소진 중",
+      "offPeakShort": "한도 평소대로 소진 중",
+      "changesIn": "다음 전환까지",
+      "peakWindow": "피크 시간대 · 현지 시간",
+      "nextPeakWindow": "다음 피크 · 현지 시간",
       "whatsNew": "새 소식",
-      "info": "피크 시간 안내"
+      "info": "피크 시간대 안내"
     },
     "home": {
       "heroEyebrow": "실시간 · 매일 업데이트",
-      "heroTitle": "Claude 피크 시간 & AI 할인, 실시간으로",
-      "heroSubtitle": "Claude 한도가 빨리 소진되는 시간을 확인하고, 100개 AI 도구의 검증된 프로모션을 챙기세요.",
-      "ctaDeals": "진행 중인 할인 보기",
-      "ctaTools": "100개 도구 둘러보기",
-      "statsLive": "진행 중인 혜택",
+      "heroTitle": "Claude 피크 시간대와 검증된 AI 특가",
+      "heroSubtitle": "Claude 한도가 빨리 소진되는 시간을 확인하고, AI 도구 100개의 특가를 한눈에 살펴보세요.",
+      "ctaDeals": "진행 중인 특가 보기",
+      "ctaTools": "도구 100개 둘러보기",
+      "statsLive": "진행 중인 특가",
       "statsTools": "추적 중인 AI 도구",
-      "statsDeadline": "다음 마감일",
+      "statsDeadline": "다음 마감",
       "statsLanguages": "지원 언어",
       "sponsored": "스폰서",
-      "dealsTitle": "진행 중인 AI 할인",
-      "dealsSubtitle": "출처와 실시간 카운트다운이 있는 검증된 혜택.",
-      "dealsCta": "모든 혜택 보기",
-      "toolsTitle": "100개 AI 도구, 하나의 시계",
-      "toolsSubtitle": "도구를 열면 진행 중인 혜택과 지난 프로모션을 볼 수 있어요.",
-      "toolsCta": "모든 도구 보기",
+      "dealsTitle": "진행 중인 AI 특가",
+      "dealsSubtitle": "출처를 확인한 특가를 실시간 카운트다운과 함께 보여 드립니다.",
+      "dealsCta": "특가 모두 보기",
+      "toolsTitle": "AI 도구 100개, 한곳에서",
+      "toolsSubtitle": "도구를 누르면 가격, 주요 기능, 대안 도구, 진행 중인 특가를 볼 수 있습니다.",
+      "toolsCta": "도구 모두 보기",
       "historyTitle": "Claude 프로모션 기록",
-      "historySubtitle": "모든 Claude 한도 변경과 프로모션을 최신순으로.",
-      "peakTitle": "한눈에 보는 Claude 피크 시간",
-      "peakAnswer": "Claude의 피크 시간은 평일 13:00~19:00(UTC)입니다. 이 시간에는 Free, Pro, Max, Team 플랜의 5시간 세션 한도가 더 빨리 소진되며, 주간 한도는 바뀌지 않습니다.",
+      "historySubtitle": "Claude의 한도 변경과 프로모션을 최신순으로 모두 모았습니다.",
+      "peakTitle": "Claude 피크 시간대 한눈에 보기",
+      "peakAnswer": "Claude의 피크 시간대는 평일 13:00–19:00 UTC입니다. 이 시간에는 Free, Pro, Max, Team 플랜의 5시간 세션 한도가 더 빨리 소진되며, 주간 한도는 그대로입니다.",
       "peakFacts": [
         {
-          "label": "피크 시간",
-          "value": "평일 13:00~19:00 UTC"
+          "label": "피크 시간대",
+          "value": "평일 13:00–19:00 UTC"
         },
         {
           "label": "비피크",
-          "value": "저녁, 밤, 주말"
+          "value": "평일 나머지 시간과 주말"
         },
         {
           "label": "주간 한도",
@@ -197,101 +198,140 @@
           "value": "2026년 5월 6일부터 제외"
         }
       ],
-      "affectedPlans": "적용 플랜",
-      "scheduleTitle": "내 도시의 피크 시간"
+      "affectedPlans": "대상 플랜",
+      "scheduleTitle": "도시별 피크 시간대"
     },
     "deals": {
-      "metaTitle": "AI 할인 & 학생 혜택 ({month}) | PromoClock",
-      "metaDescription": "{month} 검증된 AI 할인 정보: 학생 대상 ChatGPT Plus·Google AI Pro 무료, GitHub Copilot, Notion 등을 마감일과 공식 출처와 함께 소개합니다.",
-      "title": "진행 중인 AI 할인",
-      "subtitle": "모든 혜택은 공식 출처와 대조해 확인합니다. 기간이 끝난 혜택은 자동으로 사라집니다.",
+      "metaTitle": "AI 특가·학생 혜택 ({month}) | PromoClock",
+      "metaDescription": "{month} 기준 검증된 AI 특가. 학생용 ChatGPT Plus, Google AI Pro, GitHub Copilot, Notion Plus 무료 혜택을 마감일, 출처와 함께 정리했습니다.",
+      "title": "진행 중인 AI 특가",
+      "subtitle": "모든 특가는 공식 출처나 신뢰할 만한 출처로 확인합니다. 기간이 끝난 특가는 자동으로 내려갑니다.",
       "filterAll": "전체",
       "live": "지금 진행 중",
-      "upcoming": "곧 시작",
+      "upcoming": "시작 예정",
       "archive": "최근 종료",
-      "empty": "지금은 이 필터에 맞는 혜택이 없습니다."
+      "empty": "지금은 이 조건에 맞는 특가가 없습니다."
     },
     "tools": {
-      "metaTitle": "AI 도구 100개: 프로모션, 할인 & 한도 | PromoClock",
-      "metaDescription": "ChatGPT와 Claude부터 Cursor, Canva, ElevenLabs까지 인기 AI 도구 100개의 프로모션, 학생 혜택, 가격 변경, 사용 한도 소식을 추적합니다.",
+      "metaTitle": "AI 도구 100개: 특가·한도 소식 | PromoClock",
+      "metaDescription": "ChatGPT, Claude부터 Cursor, Canva, ElevenLabs까지 가장 인기 있는 AI 도구 100개의 특가, 학생 혜택, 가격 변경, 사용 한도 소식을 추적합니다.",
       "title": "AI 도구",
-      "subtitle": "가장 많이 쓰이는 AI 도구 100개. 도구를 열어 진행 중인 혜택과 프로모션 기록을 확인하세요.",
+      "subtitle": "가장 인기 있는 AI 도구 100개의 가격, 대안 도구, 자주 묻는 질문, 진행 중인 특가를 모았습니다.",
       "filterAll": "전체",
-      "withDeals": "진행 중인 혜택만",
+      "withDeals": "특가 있는 도구만",
       "searchPlaceholder": "도구 검색…",
       "liveDeals": "{count}개 진행 중",
-      "noLiveDeals": "지금은 진행 중인 혜택이 없습니다. 나중에 다시 확인하거나 전체 혜택을 둘러보세요.",
+      "noLiveDeals": "지금은 진행 중인 특가가 없습니다. 나중에 다시 확인하거나 전체 특가를 둘러보세요.",
       "pastDeals": "지난 프로모션",
-      "toolMetaTitle": "{name} 할인, 프로모션 & 한도 ({month}) | PromoClock",
-      "toolMetaDescription": "{month} {name} 진행 중인 혜택, 학생 혜택, 한도 변경 사항. 모두 공식 출처로 확인하고 매일 업데이트합니다.",
-      "currentDeals": "현재 혜택",
-      "allTools": "모든 도구",
-      "empty": "검색 조건에 맞는 도구가 없습니다."
+      "toolMetaTitle": "{name} 특가·프로모션 ({month}) | PromoClock",
+      "toolMetaDescription": "{month} 기준 {name}의 진행 중인 특가, 학생 혜택, 한도 변경 소식을 확인하세요. 모두 공식 출처나 신뢰할 만한 출처로 확인하며 매일 업데이트합니다.",
+      "currentDeals": "현재 특가",
+      "allTools": "전체 도구",
+      "empty": "검색어와 일치하는 도구가 없습니다."
+    },
+    "toolPage": {
+      "quickFacts": "핵심 정보",
+      "vendor": "개발사",
+      "category": "카테고리",
+      "platforms": "플랫폼",
+      "freePlan": "무료 플랜",
+      "pricingFrom": "시작 가격",
+      "lastReviewed": "최종 확인",
+      "yes": "있음",
+      "no": "없음",
+      "notListed": "미공개",
+      "perMonth": "월 {price}",
+      "perYear": "연 {price}",
+      "bestFor": "추천 대상",
+      "keyFeatures": "주요 기능",
+      "useCases": "활용 사례",
+      "pricing": "가격",
+      "pricingAsOf": "가격 기준일: {date}",
+      "freeTrial": "무료 체험",
+      "savingTips": "절약 팁",
+      "overview": "개요",
+      "faq": "{name} 자주 묻는 질문",
+      "alternatives": "{name} 대안 도구",
+      "sources": "출처",
+      "reviewedOn": "최종 확인: {date}",
+      "platformNames": {
+        "web": "웹",
+        "ios": "iOS",
+        "android": "Android",
+        "macos": "macOS",
+        "windows": "Windows",
+        "linux": "Linux",
+        "vscode": "VS Code",
+        "jetbrains": "JetBrains IDE",
+        "cli": "명령줄",
+        "api": "API",
+        "browser-extension": "브라우저 확장 프로그램"
+      }
     },
     "calendar": {
-      "metaTitle": "AI 프로모션 캘린더: 마감일 & 세일 | PromoClock",
-      "metaDescription": "AI 프로모션 마감일, 학생 혜택 종료일, 출시 일정, 블랙 프라이데이 같은 시즌 세일을 하나의 캘린더로 확인하세요.",
+      "metaTitle": "AI 프로모션 캘린더: 마감일·세일 | PromoClock",
+      "metaDescription": "다가오는 AI 프로모션 마감일, 학생 혜택 종료일, 출시 이벤트, 블랙 프라이데이 같은 시즌 세일을 캘린더 하나로 미리 챙기세요.",
       "title": "AI 프로모션 캘린더",
-      "subtitle": "미리 챙겨두면 좋은 마감일, 출시, 세일 일정.",
+      "subtitle": "미리 챙겨 둘 만한 마감일, 출시, 세일 일정을 모았습니다.",
       "upcoming": "예정",
       "past": "지난 일정",
       "empty": "아직 예정된 일정이 없습니다."
     },
     "disclosure": {
-      "metaTitle": "제휴 링크 안내 — PromoClock",
-      "metaDescription": "PromoClock이 제휴 링크를 사용하는 방식과 게재할 AI 할인 정보를 고르는 기준.",
-      "title": "제휴 링크 안내",
+      "metaTitle": "제휴 고지 | PromoClock",
+      "metaDescription": "PromoClock은 일부 링크로 수수료를 받을 수 있습니다. 사이트에서 제휴 링크가 어떻게 쓰이는지, 어떤 기준으로 AI 특가를 고르는지 설명합니다.",
+      "title": "제휴 고지",
       "paragraphs": [
-        "PromoClock은 독립 프로젝트입니다. 이 사이트의 AI 도구 링크 중 일부는 제휴 또는 파트너 링크입니다. 이 링크를 통해 가입하거나 구매하면, 사용자에게 추가 비용 없이 저희가 수수료를 받을 수 있습니다.",
-        "제휴 관계는 혜택 게재 여부를 결정하지 않습니다. 각 도구의 공식 채널에 공개된 혜택만 게재하고, 원래 출처를 연결하며, 마지막으로 확인한 날짜를 표시합니다.",
-        "프로모션 코드는 도구가 직접 공개했거나 파트너 프로그램에서 제공한 경우에만 표시합니다. 기간이 끝난 혜택은 실시간 목록에서 자동으로 삭제됩니다.",
-        "ChatGPT, Gemini, Claude, Midjourney처럼 제휴 프로그램이 없는 도구도 똑같은 기준으로 다룹니다. PromoClock은 Anthropic이나 게재된 어떤 도구와도 관련이 없습니다.",
-        "궁금한 점은 X의 @onursendere로 문의하세요."
+        "PromoClock은 독립 프로젝트입니다. 이 사이트에 있는 AI 도구 링크 중 일부는 제휴 링크 또는 파트너 링크입니다. 이 링크를 통해 가입하거나 구매하면 PromoClock이 수수료를 받을 수 있으며, 사용자가 추가로 내는 비용은 없습니다.",
+        "제휴 관계는 특가 게재 여부에 영향을 주지 않습니다. 각 도구의 공식 채널에 공개된 혜택만 소개하고, 원래 출처를 링크하며, 마지막으로 확인한 날짜를 함께 표시합니다.",
+        "프로모션 코드는 도구가 직접 공개했거나 해당 파트너 프로그램에서 제공한 것만 보여 드립니다. 기간이 끝난 혜택은 진행 중 목록에서 자동으로 빠집니다.",
+        "ChatGPT, Gemini, Claude, Midjourney처럼 제휴 프로그램이 없는 도구도 똑같은 기준으로 다룹니다. PromoClock은 Anthropic을 비롯해 이 사이트에 소개된 어떤 도구와도 공식적인 관계가 없습니다.",
+        "궁금한 점이 있으면 X에서 @onursendere로 문의해 주세요."
       ]
     },
     "dealPage": {
-      "metaTitle": "{headline} ({month}) | PromoClock",
-      "faqTitle": "이 혜택에 대한 질문",
-      "qAvailable": "이 혜택을 아직 받을 수 있나요?",
+      "metaTitle": "{headline} | PromoClock",
+      "faqTitle": "이 특가에 대한 질문",
+      "qAvailable": "지금도 받을 수 있나요?",
       "aLive": "네. {date} 기준으로 진행 중이며 {end}에 종료됩니다.",
-      "aOngoing": "네. {date} 기준으로 종료일이 발표되지 않은 상시 프로그램입니다.",
-      "aUpcoming": "아직입니다. {start}에 시작합니다.",
+      "aOngoing": "네. {date} 기준으로 종료일이 정해지지 않은 상시 프로그램입니다.",
+      "aUpcoming": "아직은 아닙니다. {start}에 시작합니다.",
       "aEnded": "아니요. {end}에 종료되었습니다.",
-      "qWho": "누가 받을 수 있나요?",
-      "qHow": "어떻게 받나요?",
+      "qWho": "대상은 누구인가요?",
+      "qHow": "어떻게 받을 수 있나요?",
       "qChange": "무엇이 바뀌었나요?",
-      "qWhen": "언제부터 적용되나요?",
-      "aWhen": "{date}부터입니다.",
+      "qWhen": "언제부터 적용되었나요?",
+      "aWhen": "{date}부터 적용되었습니다.",
       "qSource": "이 정보의 출처는 어디인가요?",
-      "aSource": "{source}입니다. PromoClock은 {date}에 마지막으로 확인했습니다."
+      "aSource": "{source}입니다. PromoClock이 {date}에 마지막으로 확인했습니다."
     },
     "about": {
-      "metaTitle": "PromoClock 소개: Claude 한도와 AI 할인을 추적하는 방법",
-      "metaDescription": "PromoClock 운영자, Claude 한도 변경과 AI 할인 정보를 공식 출처로 확인하는 방법, 사이트 업데이트 주기를 소개합니다.",
+      "metaTitle": "Claude 한도·AI 특가 추적법 | PromoClock",
+      "metaDescription": "PromoClock은 Onur Şendere가 운영합니다. Claude 한도 변경과 AI 특가를 공식 출처나 신뢰할 만한 출처로 어떻게 확인하는지, 사이트를 얼마나 자주 업데이트하는지 소개합니다.",
       "title": "PromoClock 소개",
-      "intro": "PromoClock은 Claude의 사용 한도와 인기 AI 도구 100개의 검증된 프로모션을 추적하는 독립 사이트입니다.",
+      "intro": "PromoClock은 Claude 사용 한도와 인기 AI 도구 100개의 검증된 프로모션을 추적하는 독립 사이트입니다.",
       "sections": [
         {
           "title": "검증 방법",
-          "body": "모든 혜택과 한도 변경은 고객센터 문서, 공식 블로그 글, 회사 공식 계정의 발표 같은 공식 출처로 연결됩니다. 마지막 확인 날짜를 기록하며, 회사나 파트너 프로그램이 제공한 코드만 게재합니다."
+          "body": "모든 특가와 한도 변경에는 공식 출처나 신뢰할 만한 출처를 링크합니다. 고객센터 문서, 공식 블로그 글, 회사 공식 계정의 발표가 기본이며, 한도 소식은 신뢰할 만한 언론 보도를 출처로 삼기도 합니다. 항목마다 마지막 확인 날짜를 기록하고, 회사나 파트너 프로그램이 제공한 코드만 게재합니다."
         },
         {
           "title": "업데이트 주기",
-          "body": "사이트는 매일 새로 생성됩니다. 혜택 상태는 시작일과 종료일로 계산되므로 기간이 끝난 혜택은 실시간 목록에서 자동으로 사라지고, 피크 시간 시계는 브라우저에서 실시간으로 동작합니다."
+          "body": "사이트는 매일 새로 빌드됩니다. 특가 상태는 시작일과 종료일로 계산하므로 기간이 끝난 혜택은 진행 중 목록에서 자동으로 빠지고, 피크 시간대 시계는 브라우저에서 실시간으로 작동합니다."
         },
         {
           "title": "운영자",
-          "body": "PromoClock은 영국 슈루즈베리의 1인 디지털 에이전시 Digiwings의 창업자 Onur Şendere가 만들고 운영합니다. Anthropic이나 게재된 어떤 도구와도 관련이 없습니다."
+          "body": "PromoClock은 영국 슈루즈베리의 1인 디지털 에이전시 Digiwings를 설립한 Onur Şendere가 만들고 운영합니다. Anthropic을 비롯해 이 사이트에 소개된 어떤 도구와도 공식적인 관계가 없습니다."
         },
         {
           "title": "문의",
-          "body": "오래된 혜택이나 새로운 프로모션을 발견했다면 X의 @onursendere로 알려주세요."
+          "body": "오래된 특가나 새 프로모션을 발견하셨나요? X에서 @onursendere로 알려 주세요."
         }
       ]
     },
     "notFound": {
-      "title": "이 페이지는 잠시 쉬는 중이에요",
-      "body": "찾으시는 페이지가 없거나 이동되었습니다.",
+      "title": "이 페이지는 휴식 중입니다",
+      "body": "찾으시는 페이지가 없거나 다른 곳으로 옮겨졌습니다.",
       "cta": "Claude Watch로 돌아가기"
     }
   }

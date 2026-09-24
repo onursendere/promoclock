@@ -5,5 +5,5 @@ category: coding
 website: https://bolt.new
 popularityRank: 28
 tagline:
-  en: "Prompt, run, edit and deploy full-stack apps in the browser."
+  en: "In-browser AI builder for creating, running and deploying full-stack apps."
 ---

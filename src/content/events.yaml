@@ -13,7 +13,7 @@
   title:
     en: "Black Friday 2026"
   description:
-    en: "The biggest discount window of the year for AI subscriptions — annual plans and lifetime deals usually drop first."
+    en: "The year's biggest discount window for AI subscriptions. Annual plans and lifetime deals usually go on sale first."
 
 - id: cyber-monday-2026
   date: 2026-11-30T00:00:00Z
@@ -29,7 +29,7 @@
   tool: gemini
   deal: google-ai-pro-students-2026
   title:
-    en: "Last day to redeem a free year of Google AI Pro / AI Plus (students)"
+    en: "Last day to redeem a free year of Google AI Pro or AI Plus (students)"
 
 - id: claude-code-plus25-2026
   date: 2026-09-14T00:00:00Z
@@ -45,4 +45,4 @@
   tool: cursor
   deal: cursor-student-pro-year
   title:
-    en: "Cursor closes its free Pro year for students to new sign-ups"
+    en: "Cursor's free Pro year for students closes to new sign-ups"

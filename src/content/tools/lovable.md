@@ -5,5 +5,5 @@ category: coding
 website: https://lovable.dev
 popularityRank: 15
 tagline:
-  en: "Build full-stack web apps by chatting with AI."
+  en: "AI builder that turns a chat into a full-stack web app."
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Copy.ai"
-vendor: "Copy.ai"
+vendor: "Fullcast"
 category: writing
 website: https://www.copy.ai
 popularityRank: 43

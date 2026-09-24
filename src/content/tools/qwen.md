@@ -1,5 +1,5 @@
 ---
-name: "Qwen Chat"
+name: "Qwen Studio"
 vendor: "Alibaba"
 category: chat
 website: https://chat.qwen.ai

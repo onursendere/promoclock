@@ -61,12 +61,15 @@ export function SiteFooter({ lang, dict }: { lang: Locale; dict: UiDictionary })
         <div className="col-span-3 flex min-w-0 flex-col items-start gap-3 md:col-span-1 md:gap-4">
           <Logo />
           <p className="max-w-xs text-sm text-muted-foreground">{dict.footer.crafted}</p>
-          <Button variant="outline" size="sm" asChild className="h-auto max-w-full py-2 text-left whitespace-normal">
-            <a href={AUTHOR.coffee} {...external}>
-              <Coffee data-icon="inline-start" />
-              {dict.footer.buymeacoffee}
-            </a>
-          </Button>
+          <div className="flex max-w-full flex-col items-start gap-2">
+            <p className="text-sm text-muted-foreground">{dict.footer.coffeeLead}</p>
+            <Button variant="outline" size="sm" asChild className="max-w-full">
+              <a href={AUTHOR.coffee} {...external}>
+                <Coffee data-icon="inline-start" />
+                <span className="truncate">{dict.footer.buymeacoffee}</span>
+              </a>
+            </Button>
+          </div>
         </div>
         {columns.map((column) => (
           <nav key={column.title} aria-label={column.title} className="flex min-w-0 flex-col gap-2 sm:gap-3">

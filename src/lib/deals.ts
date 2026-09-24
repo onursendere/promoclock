@@ -23,6 +23,21 @@ export const TOOL_CATEGORIES = [
 ] as const;
 export type ToolCategory = (typeof TOOL_CATEGORIES)[number];
 
+export const PLATFORMS = [
+  "web",
+  "ios",
+  "android",
+  "macos",
+  "windows",
+  "linux",
+  "vscode",
+  "jetbrains",
+  "cli",
+  "api",
+  "browser-extension",
+] as const;
+export type Platform = (typeof PLATFORMS)[number];
+
 export type LocalizedText = { en: string } & Partial<Record<Locale, string>>;
 
 /** Serializable deal shape shared by pages, islands and tests. */

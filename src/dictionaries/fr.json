@@ -1,15 +1,15 @@
 {
   "meta": {
-    "title": "Heures de pointe Claude & bons plans IA en direct | PromoClock",
-    "description": "Horloge en direct des heures de pointe de Claude, derniers changements de limites Claude, et offres étudiantes et promos vérifiées pour 100 outils IA, avec sources et comptes à rebours.",
-    "ogTitle": "Heures de pointe Claude & bons plans IA, en direct",
-    "ogDescription": "Claude est-il en heures de pointe ? Qu'est-ce qui a changé dans vos limites ? Quels outils IA ont des promos en cours ? Une seule horloge pour tout."
+    "title": "Heures de pointe Claude en direct et offres IA | PromoClock",
+    "description": "Claude est-il en heures de pointe ? Suivez les changements de limites de Claude et trouvez des offres vérifiées, y compris étudiantes, sur 100 outils IA.",
+    "ogTitle": "Heures de pointe Claude et offres IA vérifiées",
+    "ogDescription": "Claude est-il en heures de pointe ? Qu’est-ce qui a changé dans vos limites ? Quels outils IA ont une promo en cours ? Une seule horloge pour tout savoir."
   },
   "notifications": {
-    "peakTitle": "Les heures de pointe de Claude ont commencé",
-    "peakBody": "Les limites de session s'épuisent plus vite jusqu'à la fin des heures de pointe.",
-    "offPeakTitle": "Claude est en heures creuses",
-    "offPeakBody": "Les limites de session s'épuisent de nouveau à vitesse normale."
+    "peakTitle": "Claude passe en heures de pointe",
+    "peakBody": "Vos limites de session s’épuisent plus vite jusqu’à la fin du créneau.",
+    "offPeakTitle": "Fin des heures de pointe Claude",
+    "offPeakBody": "Vos limites de session s’épuisent de nouveau au rythme normal."
   },
   "schedule": {
     "tableHeaders": {
@@ -24,98 +24,99 @@
     "title": "Questions fréquentes",
     "items": [
       {
-        "question": "Quand sont les heures de pointe de Claude ?",
-        "answer": "Les heures de pointe de Claude sont en semaine de 13:00 à 19:00 UTC. Les soirées, les nuits en semaine et tout le week-end sont en heures creuses."
+        "question": "Quand ont lieu les heures de pointe de Claude ?",
+        "answer": "En semaine, de 13 h à 19 h UTC. Le reste du temps, y compris tout le week-end, correspond aux heures creuses."
       },
       {
-        "question": "Que se passe-t-il pendant les heures de pointe ?",
-        "answer": "Votre limite de session de 5 heures s'épuise plus vite que d'habitude avec les formules Free, Pro, Max et Team. Les limites hebdomadaires ne changent pas."
+        "question": "Que se passe-t-il pendant les heures de pointe ?",
+        "answer": "Votre limite de session de 5 heures s’épuise plus vite que d’habitude sur les formules Free, Pro, Max et Team. Les limites hebdomadaires ne changent pas."
       },
       {
-        "question": "Claude est-il en heures de pointe en ce moment ?",
-        "answer": "L'horloge en direct en haut de cette page affiche le statut actuel dans votre fuseau horaire et le compte à rebours jusqu'au prochain changement. Les développeurs peuvent le vérifier avec GET /api/status."
+        "question": "Claude est-il en heures de pointe en ce moment ?",
+        "answer": "Consultez l’horloge en direct en haut de cette page. Elle affiche le statut actuel, le créneau de pointe à votre heure locale et un compte à rebours jusqu’au prochain changement. Les développeurs peuvent interroger GET /api/status."
       },
       {
-        "question": "Quelles formules Claude sont concernées ?",
-        "answer": "Free, Pro, Max et Team. Les formules Enterprise ne sont pas concernées, et Claude Code est exempté sur Pro et Max depuis le 6 mai 2026."
+        "question": "Quelles formules Claude sont concernées ?",
+        "answer": "Free, Pro, Max et Team. Les formules Enterprise ne sont pas concernées, et Claude Code en est exempté sur Pro et Max depuis le 6 mai 2026."
       },
       {
-        "question": "Qu'est-ce qui a changé pour les limites de Claude Code le 14 septembre 2026 ?",
-        "answer": "Les limites hebdomadaires standard de Claude Code sont désormais 25 % au-dessus du niveau d'avant la promotion, de façon permanente. Le bonus temporaire de +50 % a pris fin le même jour : les gros utilisateurs disposent donc d'environ 17 % de capacité hebdomadaire en moins que pendant la promo."
+        "question": "Qu’est-ce qui a changé pour les limites de Claude Code le 14 septembre 2026 ?",
+        "answer": "Les limites hebdomadaires standard de Claude Code sont désormais supérieures de 25 %, de façon permanente, à leur niveau d’avant la promotion. Le bonus temporaire de +50 % a pris fin le même jour : les gros utilisateurs disposent donc d’environ 17 % de capacité hebdomadaire en moins que pendant la promotion."
       },
       {
-        "question": "Comment tirer le meilleur parti de mes limites Claude ?",
-        "answer": "Lancez les tâches longues ou gourmandes en tokens en dehors des heures de pointe en semaine, par exemple le soir ou le week-end, quand les limites de session s'épuisent à vitesse normale."
+        "question": "Comment tirer le meilleur parti de mes limites Claude ?",
+        "answer": "Lancez les tâches longues ou gourmandes en tokens en semaine en dehors du créneau 13 h – 19 h UTC, ou le week-end : les limites de session s’épuisent alors au rythme normal."
       },
       {
-        "question": "Quelle était la promotion Claude de mars 2026 ?",
-        "answer": "Du 13 au 27 mars 2026, Claude a doublé les limites de session en dehors des heures de pointe en semaine et tout le week-end pour les formules Free, Pro, Max et Team."
+        "question": "En quoi consistait la promotion Claude de mars 2026 ?",
+        "answer": "Du 13 au 27 mars 2026, Claude a doublé les limites de session en dehors des heures de pointe en semaine et tout le week-end, pour les formules Free, Pro, Max et Team."
       },
       {
-        "question": "Comment PromoClock vérifie-t-il les bons plans IA ?",
-        "answer": "Chaque offre renvoie vers une source officielle, comme un article du centre d'aide ou le blog de l'entreprise, et indique la date de la dernière vérification. Les offres expirées disparaissent automatiquement des listes en direct."
+        "question": "Comment PromoClock vérifie-t-il les offres IA ?",
+        "answer": "Chaque offre renvoie vers une source officielle ou fiable, comme une page du centre d’aide, le blog de l’entreprise ou un article de presse, et indique la date de sa dernière vérification. Les offres expirées quittent automatiquement les listes."
       },
       {
-        "question": "PromoClock est-il affilié à Anthropic ?",
-        "answer": "Non. PromoClock est un projet indépendant d'Onur Şendere. Certains liens sortants sont des liens d'affiliation, mais ils ne décident jamais des offres affichées."
+        "question": "PromoClock est-il affilié à Anthropic ?",
+        "answer": "Non. PromoClock est un projet indépendant d’Onur Şendere. Certains liens sortants sont des liens d’affiliation, mais ils n’influencent jamais le choix des offres présentées."
       }
     ]
   },
   "devTools": {
     "title": "Outils pour développeurs",
-    "subtitle": "Intégrez le statut des heures de pointe de Claude dans votre terminal, vos scripts ou vos applications.",
+    "subtitle": "Affichez le statut des heures de pointe de Claude dans votre terminal, vos scripts ou vos apps.",
     "apiTitle": "API JSON",
-    "apiDescription": "Un point de terminaison gratuit avec CORS, limité à 60 requêtes par minute par IP."
+    "apiDescription": "Un endpoint gratuit, compatible CORS, limité à 60 requêtes par minute et par IP."
   },
   "sponsors": {
-    "stackopticHeadline": "Collez n'importe quelle URL. Obtenez une vue complète.",
-    "stackopticSub": "Performance, SEO, sécurité, visibilité IA, stack technique — 18 modules, une seule analyse.",
-    "stackopticPromoBadge": "-50 %",
-    "stackopticPromo": "Premier mois du plan Solo",
+    "stackopticHeadline": "Collez une URL. Obtenez une vue complète.",
+    "stackopticSub": "Performance, SEO, sécurité, visibilité dans l’IA, stack technique : 18 modules, une seule analyse.",
+    "stackopticPromoBadge": "-50 %",
+    "stackopticPromo": "Sur le premier mois de la formule Solo",
     "stackopticCode": "SOLO50",
-    "stackopticCta": "Profiter de -50 %"
+    "stackopticCta": "Profiter de -50 %"
   },
   "footer": {
-    "crafted": "Créé avec amour avec Claude à Shrewsbury, Royaume-Uni.",
-    "buymeacoffee": "Vous avez évité les calculs de fuseau horaire ? Offrez-moi un café",
-    "disclaimer": "PromoClock est un projet indépendant, sans lien avec Anthropic ou Claude. À titre informatif uniquement.",
+    "crafted": "Fait avec amour et avec Claude à Shrewsbury, au Royaume-Uni.",
+    "coffeeLead": "Ça vous a évité de calculer le décalage horaire ?",
+    "buymeacoffee": "Offrez-moi un café",
+    "disclaimer": "PromoClock est un projet indépendant, sans lien avec Anthropic ni Claude. Informations fournies à titre indicatif.",
     "rights": "© 2026 PromoClock. Créé par Onur Şendere."
   },
   "hub": {
     "nav": {
       "claude": "Claude Watch",
-      "deals": "Bons plans IA",
+      "deals": "Offres IA",
       "tools": "Outils IA",
       "calendar": "Calendrier",
       "api": "API",
       "menu": "Menu",
-      "language": "Changer de langue",
-      "theme": "Activer/désactiver le mode sombre",
+      "language": "Langue",
+      "theme": "Mode sombre",
       "about": "À propos"
     },
     "common": {
-      "verified": "Vérifié",
-      "startsIn": "Commence dans",
+      "verified": "Vérifié le",
+      "startsIn": "Début dans",
       "ended": "Terminé",
-      "ongoing": "En cours",
-      "visit": "Visiter {name}",
-      "getDeal": "Profiter de l'offre",
+      "ongoing": "Sans date de fin",
+      "visit": "Aller sur {name}",
+      "getDeal": "Voir l’offre",
       "details": "Détails",
       "code": "Code",
       "copy": "Copier",
       "copied": "Copié",
-      "affiliateNote": "Certains liens sont des liens d'affiliation. Nous pouvons toucher une commission sans frais supplémentaires pour vous — cela ne change jamais les offres que nous affichons.",
-      "disclosureLink": "Mention d'affiliation",
-      "daysLeft": "{n} j restants",
-      "hoursLeft": "{h} h {m} min restantes",
+      "affiliateNote": "Certains liens sont affiliés : nous pouvons toucher une commission, sans surcoût pour vous. Cela ne change jamais les offres que nous présentons.",
+      "disclosureLink": "Mention d’affiliation",
+      "daysLeft": "Fin dans {n} j",
+      "hoursLeft": "Fin dans {h} h {m} min",
       "offer": "Offre",
       "who": "Pour qui",
       "ends": "Fin",
-      "started": "Depuis",
+      "started": "Début",
       "regions": "Régions",
       "howToClaim": "Comment en profiter",
       "goodToKnow": "Bon à savoir",
-      "related": "Autres bons plans",
+      "related": "Autres offres",
       "live": "En direct",
       "sources": "Source"
     },
@@ -126,63 +127,63 @@
       "student": "Offre étudiante",
       "free-trial": "Essai gratuit",
       "launch": "Lancement",
-      "seasonal": "Soldes saisonnières"
+      "seasonal": "Soldes"
     },
     "categories": {
-      "chat": "Chat & recherche",
-      "coding": "Code & création d'apps",
-      "image": "Image & design",
-      "video": "Vidéo & avatars",
-      "audio": "Voix & musique",
-      "writing": "Rédaction & SEO",
-      "productivity": "Productivité & réunions",
-      "agents": "Agents & automatisation"
+      "chat": "Chat et recherche",
+      "coding": "Code et création d’apps",
+      "image": "Image et design",
+      "video": "Vidéo et avatars",
+      "audio": "Voix et musique",
+      "writing": "Rédaction et SEO",
+      "productivity": "Productivité et réunions",
+      "agents": "Agents et automatisation"
     },
     "claudeWatch": {
       "badge": "Claude Watch",
-      "peak": "Pointe",
-      "offPeak": "Creuses",
+      "peak": "Heures de pointe",
+      "offPeak": "Heures creuses",
       "livePromo": "Promo Claude en cours",
-      "promoEndsIn": "La promo se termine dans",
-      "peakNote": "Les heures de pointe ont été décrites officiellement pour la dernière fois le 27 mars 2026 et semblent toujours s'appliquer au chat Claude.ai, à Cowork et aux applications. Claude Code sur Pro et Max en est exempté depuis le 6 mai 2026.",
-      "statusTitle": "Statut de Claude",
-      "peakShort": "Limites épuisées plus vite",
-      "offPeakShort": "Limites normales",
+      "promoEndsIn": "Fin de la promo dans",
+      "peakNote": "Anthropic a décrit officiellement les heures de pointe pour la dernière fois le 27 mars 2026. Elles semblent toujours s’appliquer au chat Claude.ai, à Cowork et aux applications. Claude Code en est exempté sur Pro et Max depuis le 6 mai 2026.",
+      "statusTitle": "Claude en ce moment",
+      "peakShort": "Consommation accélérée",
+      "offPeakShort": "Consommation normale",
       "changesIn": "Changement dans",
-      "peakWindow": "Heures de pointe · votre heure",
-      "nextPeakWindow": "Prochaines heures de pointe · votre heure",
+      "peakWindow": "Heures de pointe · heure locale",
+      "nextPeakWindow": "Prochaine pointe · heure locale",
       "whatsNew": "Nouveau",
       "info": "À propos des heures de pointe"
     },
     "home": {
       "heroEyebrow": "En direct · mis à jour chaque jour",
-      "heroTitle": "Heures de pointe Claude & bons plans IA, en direct",
-      "heroSubtitle": "Voyez quand les limites de Claude s'épuisent plus vite et profitez de promos vérifiées sur 100 outils IA.",
-      "ctaDeals": "Voir les bons plans",
-      "ctaTools": "Explorer 100 outils",
-      "statsLive": "Bons plans en cours",
+      "heroTitle": "Heures de pointe Claude et offres IA vérifiées",
+      "heroSubtitle": "Sachez quand les limites de Claude s’épuisent plus vite et suivez les offres de 100 outils IA.",
+      "ctaDeals": "Voir les offres",
+      "ctaTools": "Voir les 100 outils",
+      "statsLive": "Offres en cours",
       "statsTools": "Outils IA suivis",
       "statsDeadline": "Prochaine échéance",
       "statsLanguages": "Langues",
       "sponsored": "Sponsorisé",
-      "dealsTitle": "Bons plans IA en cours",
-      "dealsSubtitle": "Des offres vérifiées, avec sources et compte à rebours en direct.",
-      "dealsCta": "Tous les bons plans",
+      "dealsTitle": "Offres IA du moment",
+      "dealsSubtitle": "Des offres vérifiées, avec leur source et un compte à rebours en direct.",
+      "dealsCta": "Toutes les offres",
       "toolsTitle": "100 outils IA, une seule horloge",
-      "toolsSubtitle": "Ouvrez un outil pour voir ses bons plans et l'historique de ses promos.",
+      "toolsSubtitle": "Ouvrez un outil pour voir ses tarifs, ses fonctionnalités clés, ses alternatives et ses offres en cours.",
       "toolsCta": "Tous les outils",
       "historyTitle": "Historique des promos Claude",
-      "historySubtitle": "Tous les changements de limites et promos Claude, du plus récent au plus ancien.",
+      "historySubtitle": "Tous les changements de limites et promos de Claude, du plus récent au plus ancien.",
       "peakTitle": "Les heures de pointe de Claude en bref",
-      "peakAnswer": "Les heures de pointe de Claude sont en semaine de 13:00 à 19:00 UTC. Pendant ces heures, les limites de session de 5 heures des formules Free, Pro, Max et Team s'épuisent plus vite ; les limites hebdomadaires ne changent pas.",
+      "peakAnswer": "Les heures de pointe de Claude ont lieu en semaine, de 13 h à 19 h UTC. Pendant ce créneau, les limites de session de 5 heures des formules Free, Pro, Max et Team s’épuisent plus vite ; les limites hebdomadaires ne changent pas.",
       "peakFacts": [
         {
-          "label": "Heures de pointe",
+          "label": "Créneau de pointe",
           "value": "En semaine, 13:00–19:00 UTC"
         },
         {
           "label": "Heures creuses",
-          "value": "Soirées, nuits et week-ends"
+          "value": "Autres heures en semaine et tout le week-end"
         },
         {
           "label": "Limites hebdomadaires",
@@ -193,105 +194,144 @@
           "value": "27 mars 2026"
         },
         {
-          "label": "Claude Code sur Pro & Max",
+          "label": "Claude Code (Pro et Max)",
           "value": "Exempté depuis le 6 mai 2026"
         }
       ],
       "affectedPlans": "Formules concernées",
-      "scheduleTitle": "Heures de pointe dans votre ville"
+      "scheduleTitle": "Les heures de pointe dans votre ville"
     },
     "deals": {
-      "metaTitle": "Bons plans IA & offres étudiantes ({month}) | PromoClock",
-      "metaDescription": "Bons plans IA vérifiés pour {month} : ChatGPT Plus et Google AI Pro gratuits pour les étudiants, GitHub Copilot, Notion et plus, avec échéances et sources officielles.",
-      "title": "Bons plans IA en cours",
-      "subtitle": "Chaque offre est vérifiée auprès de sa source officielle. Les offres expirées disparaissent automatiquement.",
-      "filterAll": "Tous",
+      "metaTitle": "Offres IA et promos étudiantes ({month}) | PromoClock",
+      "metaDescription": "Offres IA vérifiées en {month}, dont ChatGPT Plus, Google AI Pro, GitHub Copilot et Notion Plus gratuits pour les étudiants, avec échéances et sources.",
+      "title": "Offres IA du moment",
+      "subtitle": "Chaque offre est vérifiée auprès d’une source officielle ou fiable. Les offres expirées disparaissent automatiquement.",
+      "filterAll": "Toutes",
       "live": "En cours",
       "upcoming": "À venir",
-      "archive": "Récemment terminés",
-      "empty": "Aucun bon plan ne correspond à ce filtre pour le moment."
+      "archive": "Terminées récemment",
+      "empty": "Aucune offre ne correspond à ce filtre pour le moment."
     },
     "tools": {
-      "metaTitle": "100 outils IA : promos, bons plans & limites | PromoClock",
-      "metaDescription": "Suivez les promos, offres étudiantes, changements de prix et limites d'utilisation des 100 outils IA les plus populaires, de ChatGPT et Claude à Cursor, Canva et ElevenLabs.",
+      "metaTitle": "100 outils IA : promos, offres et limites | PromoClock",
+      "metaDescription": "Suivez les offres, réductions étudiantes, changements de prix et limites des 100 outils IA les plus populaires, de ChatGPT et Claude à Cursor et Canva.",
       "title": "Outils IA",
-      "subtitle": "Les 100 outils IA les plus utilisés. Ouvrez-en un pour ses bons plans et l'historique de ses promos.",
+      "subtitle": "Les 100 outils IA les plus populaires, avec tarifs, alternatives, FAQ et offres en cours.",
       "filterAll": "Tous",
-      "withDeals": "Bons plans en cours uniquement",
+      "withDeals": "Avec offre en cours",
       "searchPlaceholder": "Rechercher un outil…",
       "liveDeals": "{count} en cours",
-      "noLiveDeals": "Aucun bon plan en cours pour le moment — revenez plus tard ou consultez tous les bons plans.",
+      "noLiveDeals": "Aucune offre en cours pour l’instant. Revenez plus tard ou consultez toutes les offres.",
       "pastDeals": "Promos passées",
-      "toolMetaTitle": "{name} : bons plans, promos & limites ({month}) | PromoClock",
-      "toolMetaDescription": "Bons plans {name}, offres étudiantes et changements de limites pour {month}, chacun vérifié auprès d'une source officielle et mis à jour chaque jour.",
-      "currentDeals": "Bons plans actuels",
+      "toolMetaTitle": "Offres et promos {name} ({month}) | PromoClock",
+      "toolMetaDescription": "Offres {name} en cours, offres étudiantes et changements de limites en {month}, vérifiés chaque jour auprès d’une source officielle ou fiable.",
+      "currentDeals": "Offres en cours",
       "allTools": "Tous les outils",
       "empty": "Aucun outil ne correspond à votre recherche."
     },
+    "toolPage": {
+      "quickFacts": "En bref",
+      "vendor": "Éditeur",
+      "category": "Catégorie",
+      "platforms": "Plateformes",
+      "freePlan": "Formule gratuite",
+      "pricingFrom": "À partir de",
+      "lastReviewed": "Dernière vérification",
+      "yes": "Oui",
+      "no": "Non",
+      "notListed": "Non communiqué",
+      "perMonth": "{price}/mois",
+      "perYear": "{price}/an",
+      "bestFor": "Idéal pour",
+      "keyFeatures": "Fonctionnalités clés",
+      "useCases": "Cas d’usage",
+      "pricing": "Tarifs",
+      "pricingAsOf": "Prix vérifiés le {date}",
+      "freeTrial": "Essai gratuit",
+      "savingTips": "Astuces pour payer moins cher",
+      "overview": "Présentation",
+      "faq": "Questions fréquentes sur {name}",
+      "alternatives": "Alternatives à {name}",
+      "sources": "Sources",
+      "reviewedOn": "Vérifié le {date}",
+      "platformNames": {
+        "web": "Web",
+        "ios": "iOS",
+        "android": "Android",
+        "macos": "macOS",
+        "windows": "Windows",
+        "linux": "Linux",
+        "vscode": "VS Code",
+        "jetbrains": "IDE JetBrains",
+        "cli": "Ligne de commande",
+        "api": "API",
+        "browser-extension": "Extension de navigateur"
+      }
+    },
     "calendar": {
-      "metaTitle": "Calendrier des promos IA : échéances & soldes | PromoClock",
-      "metaDescription": "Échéances des promos IA, fins d'offres étudiantes, lancements et soldes saisonnières comme le Black Friday, dans un seul calendrier.",
+      "metaTitle": "Calendrier des promos IA : échéances et soldes | PromoClock",
+      "metaDescription": "Anticipez les échéances des promos IA, les dates limites des offres étudiantes, les lancements et les soldes comme le Black Friday, dans un seul calendrier.",
       "title": "Calendrier des promos IA",
       "subtitle": "Les échéances, lancements et soldes à ne pas manquer.",
       "upcoming": "À venir",
       "past": "Passés",
-      "empty": "Rien de prévu pour l'instant."
+      "empty": "Rien de prévu pour l’instant."
     },
     "disclosure": {
-      "metaTitle": "Mention d'affiliation — PromoClock",
-      "metaDescription": "Comment PromoClock utilise les liens d'affiliation et comment nous choisissons les bons plans IA affichés.",
-      "title": "Mention d'affiliation",
+      "metaTitle": "Mention d’affiliation | PromoClock",
+      "metaDescription": "PromoClock peut toucher une commission sur certains liens. Voici comment fonctionne l’affiliation et comment nous choisissons les offres IA affichées.",
+      "title": "Mention d’affiliation",
       "paragraphs": [
-        "PromoClock est un projet indépendant. Certains liens vers des outils IA sur ce site sont des liens d'affiliation ou de partenariat. Si vous vous inscrivez ou achetez via l'un d'eux, nous pouvons toucher une commission, sans frais supplémentaires pour vous.",
-        "Les partenariats d'affiliation ne décident jamais si une offre est affichée. Nous listons les offres publiquement disponibles sur les canaux officiels de l'outil, renvoyons vers la source d'origine et indiquons la date de notre dernière vérification.",
-        "Les codes promo ne sont affichés que s'ils sont publiés par l'outil ou fournis par son programme partenaire. Les offres expirées sont retirées automatiquement des listes en direct.",
-        "Les outils sans programme d'affiliation — dont ChatGPT, Gemini, Claude et Midjourney — sont traités exactement de la même manière. PromoClock n'est affilié ni à Anthropic ni à aucun outil listé.",
-        "Des questions ? Contactez-nous sur X : @onursendere."
+        "PromoClock est un projet indépendant. Certains liens vers des outils IA sont des liens d’affiliation ou de partenariat : si vous vous inscrivez ou achetez via l’un d’eux, nous pouvons toucher une commission, sans surcoût pour vous.",
+        "L’affiliation ne décide jamais de la présence d’une offre sur le site. Nous présentons les offres publiques diffusées sur les canaux officiels de chaque outil, avec un lien vers la source d’origine et la date de notre dernière vérification.",
+        "Nous n’affichons que les codes promo publiés par l’outil ou fournis par son programme partenaire. Les offres expirées sont retirées automatiquement des listes.",
+        "Les outils sans programme d’affiliation, dont ChatGPT, Gemini, Claude et Midjourney, sont traités exactement de la même façon. PromoClock n’est affilié ni à Anthropic ni à aucun des outils présentés.",
+        "Une question ? Écrivez-nous sur X : @onursendere."
       ]
     },
     "dealPage": {
-      "metaTitle": "{headline} ({month}) | PromoClock",
-      "faqTitle": "Questions sur ce bon plan",
-      "qAvailable": "Cette offre est-elle toujours disponible ?",
-      "aLive": "Oui. Au {date}, elle est active et se termine le {end}.",
-      "aOngoing": "Oui. Au {date}, il s'agit d'un programme permanent sans date de fin annoncée.",
-      "aUpcoming": "Pas encore. Elle commence le {start}.",
-      "aEnded": "Non. Elle s'est terminée le {end}.",
-      "qWho": "Qui peut en bénéficier ?",
-      "qHow": "Comment en profiter ?",
-      "qChange": "Qu'est-ce qui a changé ?",
-      "qWhen": "Depuis quand est-ce en vigueur ?",
-      "aWhen": "Depuis le {date}.",
-      "qSource": "D'où viennent ces informations ?",
-      "aSource": "De {source}. PromoClock l'a vérifié pour la dernière fois le {date}."
+      "metaTitle": "{headline} | PromoClock",
+      "faqTitle": "Questions sur cette offre",
+      "qAvailable": "Cette offre est-elle toujours disponible ?",
+      "aLive": "Oui. Au {date}, elle est en cours jusqu’au {end}.",
+      "aOngoing": "Oui. Au {date}, il s’agit d’un programme permanent, sans date de fin annoncée.",
+      "aUpcoming": "Pas encore. Elle démarre le {start}.",
+      "aEnded": "Non. Elle a pris fin le {end}.",
+      "qWho": "Qui peut en bénéficier ?",
+      "qHow": "Comment en profiter ?",
+      "qChange": "Qu’est-ce qui a changé ?",
+      "qWhen": "Quand est-ce entré en vigueur ?",
+      "aWhen": "Le {date}.",
+      "qSource": "D’où viennent ces informations ?",
+      "aSource": "Source : {source}. Dernière vérification par PromoClock le {date}."
     },
     "about": {
-      "metaTitle": "À propos de PromoClock : suivi des limites Claude et bons plans IA",
-      "metaDescription": "Qui gère PromoClock, comment chaque changement de limite Claude et chaque bon plan IA sont vérifiés auprès de sources officielles, et à quelle fréquence le site est mis à jour.",
+      "metaTitle": "Notre méthode : limites Claude et offres IA | PromoClock",
+      "metaDescription": "PromoClock est tenu par Onur Şendere. Découvrez comment nous vérifions chaque changement de limite Claude et chaque offre IA, et à quel rythme le site évolue.",
       "title": "À propos de PromoClock",
-      "intro": "PromoClock est un outil indépendant qui suit les limites d'utilisation de Claude et les promotions vérifiées de 100 outils IA populaires.",
+      "intro": "PromoClock suit en toute indépendance les limites d’utilisation de Claude et les promotions vérifiées de 100 outils IA populaires.",
       "sections": [
         {
           "title": "Comment nous vérifions",
-          "body": "Chaque bon plan et chaque changement de limite renvoie vers une source officielle : un article du centre d'aide, un billet de blog officiel ou une annonce publiée sur le compte de l'entreprise. Nous enregistrons la date de notre dernière vérification et ne publions que les codes fournis par l'entreprise ou son programme partenaire."
+          "body": "Chaque offre et chaque changement de limite renvoie vers une source officielle ou fiable : une page du centre d’aide, un billet de blog officiel, une annonce publiée sur le compte de l’entreprise ou, pour l’actualité des limites, un article d’un média reconnu. Nous indiquons la date de notre dernière vérification et ne publions que les codes fournis par l’entreprise ou son programme partenaire."
         },
         {
           "title": "Fréquence de mise à jour",
-          "body": "Le site est régénéré chaque jour. Le statut des offres est calculé à partir de leurs dates de début et de fin : les offres expirées disparaissent donc automatiquement des listes, et l'horloge des heures de pointe fonctionne en direct dans votre navigateur."
+          "body": "Le site est reconstruit chaque jour. Le statut des offres est calculé d’après leurs dates de début et de fin : les offres expirées quittent donc automatiquement les listes, et l’horloge des heures de pointe tourne en direct dans votre navigateur."
         },
         {
-          "title": "Qui est derrière",
-          "body": "PromoClock est conçu et maintenu par Onur Şendere, fondateur de Digiwings, une agence digitale d'une personne basée à Shrewsbury, au Royaume-Uni. Le site n'est affilié ni à Anthropic ni à aucun outil listé."
+          "title": "Qui est derrière PromoClock",
+          "body": "PromoClock est conçu et maintenu par Onur Şendere, fondateur de Digiwings, l’agence digitale qu’il dirige seul à Shrewsbury, au Royaume-Uni. Le site n’est affilié ni à Anthropic ni à aucun des outils présentés."
         },
         {
           "title": "Contact",
-          "body": "Vous avez repéré une offre obsolète ou une nouvelle promo ? Envoyez-la à @onursendere sur X."
+          "body": "Vous avez repéré une offre périmée ou une nouvelle promo ? Envoyez-la à @onursendere sur X."
         }
       ]
     },
     "notFound": {
       "title": "Cette page fait une pause",
-      "body": "La page que vous cherchez n'existe pas ou a été déplacée.",
+      "body": "La page que vous cherchez n’existe pas ou a été déplacée.",
       "cta": "Retour à Claude Watch"
     }
   }

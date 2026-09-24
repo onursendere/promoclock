@@ -5,5 +5,5 @@ category: chat
 website: https://chat.mistral.ai
 popularityRank: 32
 tagline:
-  en: "Mistral's fast European AI assistant with web search and agents."
+  en: "Mistral AI's assistant, renamed Vibe in 2026, for chat, work tasks and coding."
 ---

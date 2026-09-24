@@ -5,5 +5,5 @@ category: image
 website: https://leonardo.ai
 popularityRank: 33
 tagline:
-  en: "AI image and video generation for creators and game assets."
+  en: "AI image and video generation for creative work and game assets."
 ---

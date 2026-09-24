@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Claude-Stoßzeiten jetzt & aktuelle AI-Deals | PromoClock",
-    "description": "Live-Uhr für Claudes Stoßzeiten, die neuesten Änderungen an Claude-Limits sowie geprüfte Studentenangebote und Aktionen für 100 AI-Tools – mit Quellen und Countdowns.",
-    "ogTitle": "Claude-Stoßzeiten & AI-Deals, live",
-    "ogDescription": "Ist Claude gerade in der Stoßzeit? Was hat sich an deinen Limits geändert? Welche AI-Tools haben aktuelle Aktionen? Eine Uhr für alles."
+    "title": "Claude-Stoßzeiten: Live-Uhr & KI-Deals | PromoClock",
+    "description": "Sieh sofort, ob bei Claude gerade Stoßzeit ist, verfolge die neuesten Limit-Änderungen und finde geprüfte Deals und Studentenangebote für 100 KI-Tools.",
+    "ogTitle": "Claude-Stoßzeiten und geprüfte KI-Deals",
+    "ogDescription": "Ist bei Claude gerade Stoßzeit? Was hat sich an deinen Limits geändert? Welche KI-Tools haben gerade Aktionen? Eine Uhr für alles."
   },
   "notifications": {
     "peakTitle": "Claude-Stoßzeit hat begonnen",
     "peakBody": "Sitzungslimits werden bis zum Ende der Stoßzeit schneller verbraucht.",
-    "offPeakTitle": "Claude ist außerhalb der Stoßzeit",
+    "offPeakTitle": "Claude-Stoßzeit ist vorbei",
     "offPeakBody": "Sitzungslimits werden wieder normal verbraucht."
   },
   "schedule": {
@@ -18,113 +18,114 @@
       "peakHours": "Stoßzeit",
       "offPeakHours": "Nebenzeit"
     },
-    "weekendLabel": "Am Wochenende gilt ganztägig die Nebenzeit."
+    "weekendLabel": "Am Wochenende ist ganztägig Nebenzeit."
   },
   "faq": {
     "title": "Häufige Fragen",
     "items": [
       {
-        "question": "Wann sind Claudes Stoßzeiten?",
-        "answer": "Claudes Stoßzeiten sind werktags von 13:00 bis 19:00 UTC. Abende und Nächte unter der Woche sowie das ganze Wochenende gelten als Nebenzeit."
+        "question": "Wann ist bei Claude Stoßzeit?",
+        "answer": "Claudes Stoßzeiten liegen werktags zwischen 13:00 und 19:00 UTC. Alle anderen Zeiten, auch das ganze Wochenende, sind Nebenzeit."
       },
       {
         "question": "Was passiert während der Stoßzeiten?",
-        "answer": "Dein 5-Stunden-Sitzungslimit wird in den Plänen Free, Pro, Max und Team schneller als üblich verbraucht. Die Wochenlimits ändern sich nicht."
+        "answer": "Dein 5-Stunden-Sitzungslimit wird in den Plänen Free, Pro, Max und Team schneller verbraucht als sonst. Die Wochenlimits ändern sich nicht."
       },
       {
-        "question": "Ist Claude gerade in der Stoßzeit?",
-        "answer": "Die Live-Uhr oben auf dieser Seite zeigt den aktuellen Status in deiner Zeitzone und zählt bis zur nächsten Änderung herunter. Entwickler können den Status mit GET /api/status abfragen."
+        "question": "Ist bei Claude gerade Stoßzeit?",
+        "answer": "Sieh auf die Live-Uhr oben auf dieser Seite. Sie zeigt den aktuellen Status, die Stoßzeit in deiner Ortszeit und einen Countdown bis zum nächsten Wechsel. Entwickler können GET /api/status abfragen."
       },
       {
         "question": "Welche Claude-Pläne sind betroffen?",
         "answer": "Free, Pro, Max und Team. Enterprise-Pläne sind nicht betroffen, und Claude Code ist in Pro und Max seit dem 6. Mai 2026 ausgenommen."
       },
       {
-        "question": "Was hat sich am 14. September 2026 an den Claude-Code-Limits geändert?",
-        "answer": "Die regulären Wochenlimits für Claude Code liegen dauerhaft 25 % über dem Niveau vor der Aktion. Der befristete Bonus von +50 % endete am selben Tag, daher haben Vielnutzer etwa 17 % weniger Wochenkapazität als während der Aktion."
+        "question": "Was hat sich am 14. September 2026 an den Limits von Claude Code geändert?",
+        "answer": "Die regulären Wochenlimits von Claude Code liegen jetzt dauerhaft 25 % über dem Niveau vor der Aktion. Die befristete Erhöhung um 50 % endete am selben Tag. Wer viel mit Claude Code arbeitet, hat daher rund 17 % weniger Wochenkapazität als während der Aktion."
       },
       {
         "question": "Wie hole ich mehr aus meinen Claude-Limits heraus?",
-        "answer": "Lass lange oder tokenintensive Aufgaben außerhalb der werktäglichen Stoßzeiten laufen, zum Beispiel abends oder am Wochenende – dann werden Sitzungslimits normal verbraucht."
+        "answer": "Leg lange oder tokenintensive Aufgaben werktags außerhalb von 13:00–19:00 UTC oder aufs Wochenende. Dann werden die Sitzungslimits normal verbraucht."
       },
       {
         "question": "Was war die Claude-Aktion im März 2026?",
-        "answer": "Vom 13. bis 27. März 2026 verdoppelte Claude die Sitzungslimits außerhalb der werktäglichen Stoßzeiten und am ganzen Wochenende für Free, Pro, Max und Team."
+        "answer": "Vom 13. bis 27. März 2026 hat Claude die Sitzungslimits in den Plänen Free, Pro, Max und Team verdoppelt – außerhalb der werktäglichen Stoßzeiten und am ganzen Wochenende."
       },
       {
-        "question": "Wie prüft PromoClock AI-Deals?",
-        "answer": "Jeder Deal verlinkt auf eine offizielle Quelle, etwa einen Hilfeartikel oder den Blog des Unternehmens, und zeigt das Datum der letzten Prüfung. Abgelaufene Angebote verschwinden automatisch aus den Live-Listen."
+        "question": "Wie prüft PromoClock KI-Deals?",
+        "answer": "Jeder Deal verlinkt auf eine offizielle oder seriöse Quelle, etwa einen Hilfeartikel, den Blog des Unternehmens oder einen Nachrichtenbericht, und zeigt, wann er zuletzt geprüft wurde. Abgelaufene Angebote verschwinden automatisch aus den aktuellen Listen."
       },
       {
-        "question": "Ist PromoClock mit Anthropic verbunden?",
-        "answer": "Nein. PromoClock ist ein unabhängiges Projekt von Onur Şendere. Einige ausgehende Links sind Affiliate-Links, sie entscheiden aber nie darüber, welche Deals aufgeführt werden."
+        "question": "Gehört PromoClock zu Anthropic?",
+        "answer": "Nein. PromoClock ist ein unabhängiges Projekt von Onur Şendere. Manche ausgehenden Links sind Affiliate-Links, sie entscheiden aber nie darüber, welche Deals wir zeigen."
       }
     ]
   },
   "devTools": {
-    "title": "Entwickler-Tools",
-    "subtitle": "Claudes Stoßzeit-Status direkt in Terminal, Skripten oder Apps.",
+    "title": "Für Entwickler",
+    "subtitle": "Claudes Stoßzeit-Status für Terminal, Skripte und Apps.",
     "apiTitle": "JSON-API",
-    "apiDescription": "Ein kostenloser Endpunkt mit CORS, begrenzt auf 60 Anfragen pro Minute pro IP."
+    "apiDescription": "Ein kostenloser Endpunkt mit CORS, begrenzt auf 60 Anfragen pro Minute und IP."
   },
   "sponsors": {
-    "stackopticHeadline": "Beliebige URL einfügen. Das ganze Bild sehen.",
-    "stackopticSub": "Performance, SEO, Sicherheit, AI-Sichtbarkeit, Tech-Stack – 18 Module, ein Scan.",
-    "stackopticPromoBadge": "50 % RABATT",
+    "stackopticHeadline": "URL einfügen. Alles auf einen Blick.",
+    "stackopticSub": "Performance, SEO, Sicherheit, KI-Sichtbarkeit, Tech-Stack – 18 Module, ein Scan.",
+    "stackopticPromoBadge": "50 % RABATT",
     "stackopticPromo": "Erster Monat im Solo-Plan",
     "stackopticCode": "SOLO50",
-    "stackopticCta": "50 % Rabatt sichern"
+    "stackopticCta": "50 % Rabatt sichern"
   },
   "footer": {
-    "crafted": "Mit viel Liebe mit Claude in Shrewsbury, UK gebaut.",
-    "buymeacoffee": "Hat dir das Zeitzonen-Rechnen erspart? Spendier mir einen Kaffee",
-    "disclaimer": "PromoClock ist ein unabhängiges Projekt und nicht mit Anthropic oder Claude verbunden. Nur zu Informationszwecken.",
+    "crafted": "Mit viel Liebe und Claude in Shrewsbury (UK) gebaut.",
+    "coffeeLead": "Zeitzonen-Rechnerei gespart?",
+    "buymeacoffee": "Kaffee spendieren",
+    "disclaimer": "PromoClock ist ein unabhängiges Projekt ohne Verbindung zu Anthropic oder Claude. Alle Angaben ohne Gewähr.",
     "rights": "© 2026 PromoClock. Entwickelt von Onur Şendere."
   },
   "hub": {
     "nav": {
       "claude": "Claude Watch",
-      "deals": "AI-Deals",
-      "tools": "AI-Tools",
+      "deals": "KI-Deals",
+      "tools": "KI-Tools",
       "calendar": "Kalender",
       "api": "API",
       "menu": "Menü",
-      "language": "Sprache ändern",
-      "theme": "Dunkelmodus umschalten",
+      "language": "Sprache",
+      "theme": "Dark Mode",
       "about": "Über uns"
     },
     "common": {
       "verified": "Geprüft",
-      "startsIn": "Beginnt in",
+      "startsIn": "Startet in",
       "ended": "Beendet",
-      "ongoing": "Laufend",
-      "visit": "{name} besuchen",
-      "getDeal": "Zum Angebot",
+      "ongoing": "Unbefristet",
+      "visit": "Zu {name}",
+      "getDeal": "Deal holen",
       "details": "Details",
       "code": "Code",
       "copy": "Kopieren",
       "copied": "Kopiert",
-      "affiliateNote": "Einige Links sind Affiliate-Links. Wir erhalten eventuell eine Provision, ohne Mehrkosten für dich – das ändert nie, welche Deals wir aufführen.",
+      "affiliateNote": "Einige Links sind Affiliate-Links. Wir erhalten eventuell eine Provision, dich kostet das nichts extra – und welche Deals wir zeigen, beeinflusst das nie.",
       "disclosureLink": "Affiliate-Hinweis",
-      "daysLeft": "noch {n} T.",
-      "hoursLeft": "noch {h} Std. {m} Min.",
+      "daysLeft": "Noch {n} T.",
+      "hoursLeft": "Noch {h} Std. {m} Min.",
       "offer": "Angebot",
       "who": "Für wen",
       "ends": "Endet",
-      "started": "Seit",
+      "started": "Gilt seit",
       "regions": "Regionen",
-      "howToClaim": "So bekommst du es",
+      "howToClaim": "So bekommst du den Deal",
       "goodToKnow": "Gut zu wissen",
       "related": "Weitere Deals",
       "live": "Live",
       "sources": "Quelle"
     },
     "kinds": {
-      "limit-boost": "Limit-Bonus",
+      "limit-boost": "Limit-Erhöhung",
       "limit-change": "Limit-Änderung",
       "discount": "Rabatt",
       "student": "Studentenangebot",
-      "free-trial": "Kostenloser Test",
+      "free-trial": "Kostenlose Testphase",
       "launch": "Launch",
       "seasonal": "Saisonaktion"
     },
@@ -142,39 +143,39 @@
       "badge": "Claude Watch",
       "peak": "Stoßzeit",
       "offPeak": "Nebenzeit",
-      "livePromo": "Aktuelle Claude-Aktion",
+      "livePromo": "Laufende Claude-Aktion",
       "promoEndsIn": "Aktion endet in",
-      "peakNote": "Die Stoßzeiten wurden zuletzt am 27. März 2026 offiziell beschrieben und scheinen weiterhin für den Claude.ai-Chat, Cowork und die Apps zu gelten. Claude Code ist in Pro und Max seit dem 6. Mai 2026 ausgenommen.",
-      "statusTitle": "Claude-Status",
-      "peakShort": "Limits schneller verbraucht",
-      "offPeakShort": "Normale Limits",
+      "peakNote": "Anthropic hat die Stoßzeiten zuletzt am 27. März 2026 offiziell beschrieben. Sie gelten offenbar weiterhin für den Chat auf Claude.ai, Cowork und die Apps. Claude Code ist in Pro und Max seit dem 6. Mai 2026 ausgenommen.",
+      "statusTitle": "Claude jetzt",
+      "peakShort": "Limits sinken schneller",
+      "offPeakShort": "Limits sinken normal",
       "changesIn": "Wechsel in",
-      "peakWindow": "Stoßzeit · deine Uhrzeit",
-      "nextPeakWindow": "Nächste Stoßzeit · deine Uhrzeit",
+      "peakWindow": "Stoßzeit · Ortszeit",
+      "nextPeakWindow": "Nächste Stoßzeit · Ortszeit",
       "whatsNew": "Neu",
-      "info": "Über die Stoßzeiten"
+      "info": "Mehr zu den Stoßzeiten"
     },
     "home": {
       "heroEyebrow": "Live · täglich aktualisiert",
-      "heroTitle": "Claude-Stoßzeiten & AI-Deals, live",
-      "heroSubtitle": "Sieh, wann Claudes Limits schneller verbraucht werden, und sichere dir geprüfte Aktionen von 100 AI-Tools.",
+      "heroTitle": "Claude-Stoßzeiten und geprüfte KI-Deals",
+      "heroSubtitle": "Sieh, wann Claudes Limits schneller verbraucht werden, und behalte die Deals von 100 KI-Tools im Blick.",
       "ctaDeals": "Aktuelle Deals ansehen",
       "ctaTools": "100 Tools entdecken",
       "statsLive": "Aktuelle Deals",
-      "statsTools": "Beobachtete AI-Tools",
+      "statsTools": "KI-Tools im Blick",
       "statsDeadline": "Nächste Frist",
       "statsLanguages": "Sprachen",
       "sponsored": "Gesponsert",
-      "dealsTitle": "Aktuelle AI-Deals",
-      "dealsSubtitle": "Geprüfte Angebote mit Quellen und Live-Countdown.",
-      "dealsCta": "Alle Deals",
-      "toolsTitle": "100 AI-Tools, eine Uhr",
-      "toolsSubtitle": "Öffne ein Tool für aktuelle Deals und bisherige Aktionen.",
-      "toolsCta": "Alle Tools",
-      "historyTitle": "Verlauf der Claude-Aktionen",
-      "historySubtitle": "Alle Claude-Limit-Änderungen und Aktionen, neueste zuerst.",
+      "dealsTitle": "Aktuelle KI-Deals",
+      "dealsSubtitle": "Geprüfte Angebote mit Quelle und Live-Countdown.",
+      "dealsCta": "Alle Deals ansehen",
+      "toolsTitle": "100 KI-Tools, eine Uhr",
+      "toolsSubtitle": "Öffne ein Tool für Preise, wichtigste Funktionen, Alternativen und aktuelle Deals.",
+      "toolsCta": "Alle Tools ansehen",
+      "historyTitle": "Chronik der Claude-Aktionen",
+      "historySubtitle": "Jede Limit-Änderung und Aktion bei Claude, die neueste zuerst.",
       "peakTitle": "Claude-Stoßzeiten auf einen Blick",
-      "peakAnswer": "Claudes Stoßzeiten sind werktags von 13:00 bis 19:00 UTC. Während der Stoßzeiten werden die 5-Stunden-Sitzungslimits der Pläne Free, Pro, Max und Team schneller verbraucht; die Wochenlimits ändern sich nicht.",
+      "peakAnswer": "Claudes Stoßzeiten liegen werktags zwischen 13:00 und 19:00 UTC. In dieser Zeit werden die 5-Stunden-Sitzungslimits in den Plänen Free, Pro, Max und Team schneller verbraucht; die Wochenlimits bleiben gleich.",
       "peakFacts": [
         {
           "label": "Stoßzeit",
@@ -182,116 +183,155 @@
         },
         {
           "label": "Nebenzeit",
-          "value": "Abends, nachts und am Wochenende"
+          "value": "Übrige Zeit und ganzes Wochenende"
         },
         {
           "label": "Wochenlimits",
           "value": "Unverändert"
         },
         {
-          "label": "Gültig seit",
+          "label": "Gilt seit",
           "value": "27. März 2026"
         },
         {
           "label": "Claude Code in Pro & Max",
-          "value": "Ausgenommen seit 6. Mai 2026"
+          "value": "Seit 6. Mai 2026 ausgenommen"
         }
       ],
       "affectedPlans": "Betroffene Pläne",
       "scheduleTitle": "Stoßzeiten in deiner Stadt"
     },
     "deals": {
-      "metaTitle": "AI-Deals & Studentenangebote ({month}) | PromoClock",
-      "metaDescription": "Geprüfte AI-Deals für {month}: ChatGPT Plus und Google AI Pro gratis für Studierende, GitHub Copilot, Notion und mehr – mit Fristen und offiziellen Quellen.",
-      "title": "Aktuelle AI-Deals",
-      "subtitle": "Jedes Angebot wird mit seiner offiziellen Quelle abgeglichen. Abgelaufene Deals verschwinden automatisch.",
+      "metaTitle": "KI-Deals & Studentenangebote ({month}) | PromoClock",
+      "metaDescription": "Geprüfte KI-Deals im {month}, darunter ChatGPT Plus, Google AI Pro, GitHub Copilot und Notion Plus kostenlos für Studierende – mit Fristen und Quellen.",
+      "title": "Aktuelle KI-Deals",
+      "subtitle": "Jeder Deal wird anhand einer offiziellen oder seriösen Quelle geprüft. Abgelaufene Deals verschwinden automatisch.",
       "filterAll": "Alle",
       "live": "Jetzt live",
       "upcoming": "Demnächst",
       "archive": "Kürzlich beendet",
-      "empty": "Aktuell passen keine Deals zu diesem Filter."
+      "empty": "Gerade passt kein Deal zu diesem Filter."
     },
     "tools": {
-      "metaTitle": "100 AI-Tools: Aktionen, Deals & Limits | PromoClock",
-      "metaDescription": "Verfolge Aktionen, Studentenangebote, Preisänderungen und Nutzungslimits der 100 beliebtesten AI-Tools – von ChatGPT und Claude bis Cursor, Canva und ElevenLabs.",
-      "title": "AI-Tools",
-      "subtitle": "Die 100 meistgenutzten AI-Tools. Öffne eines für aktuelle Deals und bisherige Aktionen.",
+      "metaTitle": "100 KI-Tools: Aktionen, Deals & Limits | PromoClock",
+      "metaDescription": "Verfolge Deals, Studentenangebote, Preisänderungen und Limit-News der 100 beliebtesten KI-Tools – von ChatGPT und Claude bis Cursor, Canva und ElevenLabs.",
+      "title": "KI-Tools",
+      "subtitle": "Die 100 beliebtesten KI-Tools mit Preisen, Alternativen, FAQ und aktuellen Deals.",
       "filterAll": "Alle",
-      "withDeals": "Nur aktuelle Deals",
-      "searchPlaceholder": "Tools suchen…",
+      "withDeals": "Nur mit Deals",
+      "searchPlaceholder": "Tools durchsuchen…",
       "liveDeals": "{count} live",
-      "noLiveDeals": "Gerade keine aktuellen Deals – schau später wieder vorbei oder sieh dir alle Deals an.",
+      "noLiveDeals": "Gerade keine aktuellen Deals – schau später wieder rein oder sieh dir alle Deals an.",
       "pastDeals": "Frühere Aktionen",
-      "toolMetaTitle": "{name}: Deals, Aktionen & Limits ({month}) | PromoClock",
-      "toolMetaDescription": "Aktuelle {name}-Deals, Studentenangebote und Limit-Änderungen für {month}, jeweils mit offizieller Quelle geprüft und täglich aktualisiert.",
+      "toolMetaTitle": "{name}: Deals & Aktionen ({month}) | PromoClock",
+      "toolMetaDescription": "Aktuelle Deals, Studentenangebote und Limit-Änderungen für {name} im {month}. Täglich aktualisiert und anhand offizieller oder seriöser Quellen geprüft.",
       "currentDeals": "Aktuelle Deals",
       "allTools": "Alle Tools",
-      "empty": "Keine Tools passen zu deiner Suche."
+      "empty": "Kein Tool passt zu deiner Suche."
+    },
+    "toolPage": {
+      "quickFacts": "Auf einen Blick",
+      "vendor": "Anbieter",
+      "category": "Kategorie",
+      "platforms": "Plattformen",
+      "freePlan": "Kostenloser Plan",
+      "pricingFrom": "Preis ab",
+      "lastReviewed": "Zuletzt geprüft",
+      "yes": "Ja",
+      "no": "Nein",
+      "notListed": "Keine Angabe",
+      "perMonth": "{price}/Monat",
+      "perYear": "{price}/Jahr",
+      "bestFor": "Ideal für",
+      "keyFeatures": "Wichtigste Funktionen",
+      "useCases": "Anwendungsfälle",
+      "pricing": "Preise",
+      "pricingAsOf": "Preise geprüft am {date}",
+      "freeTrial": "Kostenlose Testphase",
+      "savingTips": "Spartipps",
+      "overview": "Überblick",
+      "faq": "Häufige Fragen zu {name}",
+      "alternatives": "Alternativen zu {name}",
+      "sources": "Quellen",
+      "reviewedOn": "Geprüft am {date}",
+      "platformNames": {
+        "web": "Web",
+        "ios": "iOS",
+        "android": "Android",
+        "macos": "macOS",
+        "windows": "Windows",
+        "linux": "Linux",
+        "vscode": "VS Code",
+        "jetbrains": "JetBrains-IDEs",
+        "cli": "Kommandozeile",
+        "api": "API",
+        "browser-extension": "Browser-Erweiterung"
+      }
     },
     "calendar": {
-      "metaTitle": "AI-Aktionskalender: Fristen & Sales | PromoClock",
-      "metaDescription": "Anstehende Fristen für AI-Aktionen, Enddaten von Studentenangeboten, Launches und saisonale Sales wie Black Friday in einem Kalender.",
-      "title": "AI-Aktionskalender",
-      "subtitle": "Fristen, Launches und Sales, die man einplanen sollte.",
+      "metaTitle": "KI-Aktionskalender: Fristen & Sales | PromoClock",
+      "metaDescription": "Behalte anstehende Fristen für KI-Aktionen, Stichtage für Studentenangebote, Launches und Sales wie Black Friday im Blick – alles in einem Kalender.",
+      "title": "KI-Aktionskalender",
+      "subtitle": "Fristen, Launches und Sales, die du einplanen solltest.",
       "upcoming": "Demnächst",
-      "past": "Vergangen",
+      "past": "Vorbei",
       "empty": "Noch nichts geplant."
     },
     "disclosure": {
-      "metaTitle": "Affiliate-Hinweis — PromoClock",
-      "metaDescription": "Wie PromoClock Affiliate-Links nutzt und wie wir auswählen, welche AI-Deals wir aufführen.",
+      "metaTitle": "Affiliate-Hinweis | PromoClock",
+      "metaDescription": "PromoClock erhält für manche Links eventuell eine Provision. Hier erfährst du, wie Affiliate-Links auf der Website funktionieren und wie wir KI-Deals auswählen.",
       "title": "Affiliate-Hinweis",
       "paragraphs": [
-        "PromoClock ist ein unabhängiges Projekt. Einige Links zu AI-Tools auf dieser Website sind Affiliate- oder Partnerlinks. Wenn du dich über einen davon anmeldest oder etwas kaufst, erhalten wir eventuell eine Provision – ohne Mehrkosten für dich.",
-        "Affiliate-Beziehungen entscheiden nie darüber, ob ein Deal aufgeführt wird. Wir listen Angebote, die über die offiziellen Kanäle des Tools öffentlich verfügbar sind, verlinken die Originalquelle und zeigen, wann wir jedes Angebot zuletzt geprüft haben.",
-        "Promo-Codes zeigen wir nur, wenn das Tool sie veröffentlicht oder sein Partnerprogramm sie bereitstellt. Abgelaufene Angebote werden automatisch aus den Live-Listen entfernt.",
+        "PromoClock ist ein unabhängiges Projekt. Einige Links zu KI-Tools auf dieser Website sind Affiliate- oder Partnerlinks. Wenn du dich über einen solchen Link anmeldest oder etwas kaufst, erhalten wir eventuell eine Provision. Für dich entstehen dabei keine Mehrkosten.",
+        "Ob ein Deal aufgeführt wird, hängt nie von Affiliate-Beziehungen ab. Wir zeigen Angebote, die über die offiziellen Kanäle des Tools öffentlich verfügbar sind, verlinken die Originalquelle und nennen das Datum unserer letzten Prüfung.",
+        "Promo-Codes zeigen wir nur, wenn das Tool sie selbst veröffentlicht oder sein Partnerprogramm sie bereitstellt. Abgelaufene Angebote verschwinden automatisch aus den aktuellen Listen.",
         "Tools ohne Affiliate-Programm – darunter ChatGPT, Gemini, Claude und Midjourney – behandeln wir genauso. PromoClock ist weder mit Anthropic noch mit einem der aufgeführten Tools verbunden.",
-        "Fragen? Schreib uns auf X an @onursendere."
+        "Fragen? Schreib auf X an @onursendere."
       ]
     },
     "dealPage": {
-      "metaTitle": "{headline} ({month}) | PromoClock",
+      "metaTitle": "{headline} | PromoClock",
       "faqTitle": "Fragen zu diesem Deal",
-      "qAvailable": "Ist dieses Angebot noch verfügbar?",
-      "aLive": "Ja. Stand {date} ist es aktiv und endet am {end}.",
-      "aOngoing": "Ja. Stand {date} ist es ein laufendes Programm ohne angekündigtes Enddatum.",
-      "aUpcoming": "Noch nicht. Es beginnt am {start}.",
-      "aEnded": "Nein. Es endete am {end}.",
-      "qWho": "Wer ist berechtigt?",
-      "qHow": "Wie bekomme ich es?",
+      "qAvailable": "Gibt es das Angebot noch?",
+      "aLive": "Ja. Stand {date} läuft es noch und endet am {end}.",
+      "aOngoing": "Ja. Stand {date} läuft das Programm ohne angekündigtes Enddatum.",
+      "aUpcoming": "Noch nicht. Es startet am {start}.",
+      "aEnded": "Nein. Es ist am {end} ausgelaufen.",
+      "qWho": "Für wen gilt das?",
+      "qHow": "Wie bekomme ich das Angebot?",
       "qChange": "Was hat sich geändert?",
-      "qWhen": "Seit wann gilt das?",
-      "aWhen": "Seit dem {date}.",
+      "qWhen": "Wann ist das in Kraft getreten?",
+      "aWhen": "Am {date}.",
       "qSource": "Woher stammen diese Informationen?",
-      "aSource": "Von {source}. PromoClock hat es zuletzt am {date} geprüft."
+      "aSource": "Von {source}. PromoClock hat sie zuletzt am {date} geprüft."
     },
     "about": {
-      "metaTitle": "Über PromoClock: So verfolgen wir Claude-Limits & AI-Deals",
-      "metaDescription": "Wer PromoClock betreibt, wie jede Claude-Limit-Änderung und jeder AI-Deal anhand offizieller Quellen geprüft wird und wie oft die Seite aktualisiert wird.",
+      "metaTitle": "So verfolgen wir Claude-Limits & KI-Deals | PromoClock",
+      "metaDescription": "Hinter PromoClock steht Onur Şendere. So prüfen wir Claude-Limits und KI-Deals anhand offizieller oder seriöser Quellen – und so oft aktualisieren wir.",
       "title": "Über PromoClock",
-      "intro": "PromoClock ist ein unabhängiger Tracker für Claudes Nutzungslimits und für geprüfte Aktionen von 100 beliebten AI-Tools.",
+      "intro": "PromoClock ist ein unabhängiger Tracker für Claudes Nutzungslimits und für geprüfte Aktionen von 100 beliebten KI-Tools.",
       "sections": [
         {
           "title": "So prüfen wir",
-          "body": "Jeder Deal und jede Limit-Änderung verlinkt auf eine offizielle Quelle: einen Hilfeartikel, einen offiziellen Blogbeitrag oder eine Ankündigung über den eigenen Account des Unternehmens. Wir erfassen, wann wir jeden Eintrag zuletzt geprüft haben, und veröffentlichen nur Codes, die das Unternehmen oder sein Partnerprogramm bereitstellt."
+          "body": "Jeder Deal und jede Limit-Änderung verlinkt auf eine offizielle oder seriöse Quelle: einen Hilfeartikel, einen offiziellen Blogbeitrag, eine Ankündigung über den eigenen Account des Unternehmens oder, bei Limit-News, den Bericht eines seriösen Mediums. Wir halten fest, wann wir jeden Eintrag zuletzt geprüft haben, und veröffentlichen nur Codes, die das Unternehmen selbst oder sein Partnerprogramm herausgibt."
         },
         {
-          "title": "Wie oft aktualisiert wird",
-          "body": "Die Website wird täglich neu erstellt. Der Status eines Deals ergibt sich aus Start- und Enddatum, sodass abgelaufene Angebote automatisch aus den Live-Listen verschwinden. Die Stoßzeit-Uhr läuft live in deinem Browser."
+          "title": "Wie oft wir aktualisieren",
+          "body": "Die Website wird jeden Tag neu erstellt. Der Status eines Deals ergibt sich aus Start- und Enddatum, abgelaufene Angebote verschwinden also automatisch aus den aktuellen Listen. Die Stoßzeit-Uhr läuft live in deinem Browser."
         },
         {
           "title": "Wer dahintersteht",
-          "body": "PromoClock wird von Onur Şendere entwickelt und betreut, dem Gründer von Digiwings, einer Ein-Personen-Digitalagentur in Shrewsbury, UK. Es besteht keine Verbindung zu Anthropic oder einem der aufgeführten Tools."
+          "body": "PromoClock wird von Onur Şendere entwickelt und betreut, dem Gründer von Digiwings, einer Ein-Personen-Digitalagentur in Shrewsbury (UK). Das Projekt ist weder mit Anthropic noch mit einem der aufgeführten Tools verbunden."
         },
         {
           "title": "Kontakt",
-          "body": "Einen veralteten Deal oder eine neue Aktion entdeckt? Schick sie an @onursendere auf X."
+          "body": "Veralteten Deal oder neue Aktion entdeckt? Schreib an @onursendere auf X."
         }
       ]
     },
     "notFound": {
       "title": "Diese Seite macht gerade Pause",
-      "body": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+      "body": "Die gesuchte Seite gibt es nicht oder sie ist umgezogen.",
       "cta": "Zurück zu Claude Watch"
     }
   }

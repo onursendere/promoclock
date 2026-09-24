@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Claude Peak Hours Now & Live AI Deals | PromoClock",
-    "description": "Live Claude peak-hours clock, the latest Claude limit changes, and verified student offers and promos for 100 AI tools, with sources and countdowns.",
-    "ogTitle": "Claude peak hours & AI deals, live",
+    "title": "Claude Peak Hours Live Clock & AI Deals | PromoClock",
+    "description": "See if Claude is in peak hours right now, track the latest Claude limit changes, and find verified deals and student offers across 100 AI tools.",
+    "ogTitle": "Claude peak hours and verified AI deals",
     "ogDescription": "Is Claude in peak hours right now? What changed in your limits? Which AI tools have live promos? One clock for all of it."
   },
   "notifications": {
-    "peakTitle": "Claude peak hours started",
+    "peakTitle": "Claude peak hours have started",
     "peakBody": "Session limits drain faster until peak hours end.",
-    "offPeakTitle": "Claude is off-peak",
+    "offPeakTitle": "Claude peak hours have ended",
     "offPeakBody": "Session limits drain at normal speed again."
   },
   "schedule": {
@@ -25,7 +25,7 @@
     "items": [
       {
         "question": "When are Claude's peak hours?",
-        "answer": "Claude's peak hours are weekdays from 13:00 to 19:00 UTC. Weekday evenings, nights and the whole weekend are off-peak."
+        "answer": "Claude's peak hours are weekdays from 13:00 to 19:00 UTC. All other hours, including the whole weekend, are off-peak."
       },
       {
         "question": "What happens during peak hours?",
@@ -33,7 +33,7 @@
       },
       {
         "question": "Is Claude in peak hours right now?",
-        "answer": "The live clock at the top of this page shows the current status in your time zone and counts down to the next change. Developers can check it with GET /api/status."
+        "answer": "Check the live clock at the top of this page. It shows the current status, the peak window in your local time and a countdown to the next change. Developers can query GET /api/status."
       },
       {
         "question": "Which Claude plans are affected?",
@@ -41,11 +41,11 @@
       },
       {
         "question": "What changed with Claude Code limits on September 14, 2026?",
-        "answer": "Standard Claude Code weekly limits became permanently 25% higher than the pre-promotion baseline. The temporary +50% boost ended the same day, so heavy users have about 17% less weekly capacity than during the promo."
+        "answer": "Standard Claude Code weekly limits are now permanently 25% above the pre-promotion baseline. The temporary +50% boost ended the same day, so heavy users have about 17% less weekly capacity than during the promotion."
       },
       {
         "question": "How can I get more out of my Claude limits?",
-        "answer": "Run long or token-heavy work outside weekday peak hours, for example in the evening or at the weekend, when session limits drain at normal speed."
+        "answer": "Run long or token-heavy work outside 13:00–19:00 UTC on weekdays, or on the weekend, when session limits drain at normal speed."
       },
       {
         "question": "What was the March 2026 Claude promotion?",
@@ -53,7 +53,7 @@
       },
       {
         "question": "How does PromoClock verify AI deals?",
-        "answer": "Every deal links to an official source, such as a help center article or the company's blog, and shows the date it was last checked. Expired offers leave the live lists automatically."
+        "answer": "Every deal links to an official or reputable source, such as a help center article, the company's blog or a news report, and shows the date it was last checked. Expired offers leave the live lists automatically."
       },
       {
         "question": "Is PromoClock affiliated with Anthropic?",
@@ -77,7 +77,8 @@
   },
   "footer": {
     "crafted": "Lovingly built with Claude in Shrewsbury, UK.",
-    "buymeacoffee": "Helped you skip the timezone math? Buy me a coffee",
+    "coffeeLead": "Saved you the timezone math?",
+    "buymeacoffee": "Buy me a coffee",
     "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
     "rights": "© 2026 PromoClock. Built by Onur Şendere."
   },
@@ -144,10 +145,10 @@
       "offPeak": "Off-peak",
       "livePromo": "Live Claude promo",
       "promoEndsIn": "Promo ends in",
-      "peakNote": "Peak hours were last officially described on March 27, 2026 and still appear to apply to Claude.ai chat, Cowork and the apps. Claude Code on Pro and Max has been exempt since May 6, 2026.",
-      "statusTitle": "Claude status",
+      "peakNote": "Anthropic last described peak hours officially on March 27, 2026. They still appear to apply to Claude.ai chat, Cowork and the apps. Claude Code on Pro and Max has been exempt since May 6, 2026.",
+      "statusTitle": "Claude right now",
       "peakShort": "Limits drain faster",
-      "offPeakShort": "Normal limits",
+      "offPeakShort": "Limits drain normally",
       "changesIn": "Changes in",
       "peakWindow": "Peak window · your time",
       "nextPeakWindow": "Next peak · your time",
@@ -156,8 +157,8 @@
     },
     "home": {
       "heroEyebrow": "Live · updated daily",
-      "heroTitle": "Claude peak hours & AI deals, live",
-      "heroSubtitle": "See when Claude's limits drain faster, and grab verified promos from 100 AI tools.",
+      "heroTitle": "Claude peak hours and verified AI deals",
+      "heroSubtitle": "See when Claude's limits drain faster and track deals across 100 AI tools.",
       "ctaDeals": "Browse live deals",
       "ctaTools": "Explore 100 tools",
       "statsLive": "Live deals",
@@ -169,7 +170,7 @@
       "dealsSubtitle": "Verified offers with sources and live countdowns.",
       "dealsCta": "See all deals",
       "toolsTitle": "100 AI tools, one clock",
-      "toolsSubtitle": "Open a tool for its live deals and promo history.",
+      "toolsSubtitle": "Open a tool for pricing, key features, alternatives and live deals.",
       "toolsCta": "Browse all tools",
       "historyTitle": "Claude promotion history",
       "historySubtitle": "Every Claude limit change and promo, newest first.",
@@ -182,7 +183,7 @@
         },
         {
           "label": "Off-peak",
-          "value": "Evenings, nights and weekends"
+          "value": "Other weekday hours and weekends"
         },
         {
           "label": "Weekly limits",
@@ -202,9 +203,9 @@
     },
     "deals": {
       "metaTitle": "AI Deals & Student Offers ({month}) | PromoClock",
-      "metaDescription": "Verified AI deals for {month}: free ChatGPT Plus and Google AI Pro for students, GitHub Copilot, Notion and more, with deadlines and official sources.",
+      "metaDescription": "Verified AI deals for {month}, including free ChatGPT Plus, Google AI Pro, GitHub Copilot and Notion Plus for students, with deadlines and sources.",
       "title": "Live AI deals",
-      "subtitle": "Every offer is checked against its official source. Expired deals drop off automatically.",
+      "subtitle": "Every deal is checked against an official or reputable source. Expired deals drop off automatically.",
       "filterAll": "All",
       "live": "Live now",
       "upcoming": "Coming up",
@@ -213,24 +214,63 @@
     },
     "tools": {
       "metaTitle": "100 AI Tools: Promos, Deals & Limits | PromoClock",
-      "metaDescription": "Track promotions, student offers, pricing changes and usage-limit news for the 100 most popular AI tools, from ChatGPT and Claude to Cursor, Canva and ElevenLabs.",
+      "metaDescription": "Track deals, student offers, pricing changes and usage-limit news for the 100 most popular AI tools, from ChatGPT and Claude to Cursor, Canva and ElevenLabs.",
       "title": "AI tools",
-      "subtitle": "The 100 most-used AI tools. Open one for its live deals and promo history.",
+      "subtitle": "The 100 most popular AI tools, with pricing, alternatives, FAQs and live deals.",
       "filterAll": "All",
       "withDeals": "Live deals only",
       "searchPlaceholder": "Search tools…",
       "liveDeals": "{count} live",
       "noLiveDeals": "No live deals right now — check back or see all deals.",
       "pastDeals": "Past promotions",
-      "toolMetaTitle": "{name} Deals, Promos & Limits ({month}) | PromoClock",
-      "toolMetaDescription": "Live {name} deals, student offers and limit changes for {month}, each checked against an official source and updated daily.",
+      "toolMetaTitle": "{name} Deals & Promos ({month}) | PromoClock",
+      "toolMetaDescription": "See live {name} deals, student offers and limit changes for {month}. Each one is checked against an official or reputable source and updated daily.",
       "currentDeals": "Current deals",
       "allTools": "All tools",
       "empty": "No tools match your search."
     },
+    "toolPage": {
+      "quickFacts": "Quick facts",
+      "vendor": "Vendor",
+      "category": "Category",
+      "platforms": "Platforms",
+      "freePlan": "Free plan",
+      "pricingFrom": "Pricing from",
+      "lastReviewed": "Last reviewed",
+      "yes": "Yes",
+      "no": "No",
+      "notListed": "Not listed",
+      "perMonth": "{price}/month",
+      "perYear": "{price}/year",
+      "bestFor": "Best for",
+      "keyFeatures": "Key features",
+      "useCases": "Use cases",
+      "pricing": "Pricing",
+      "pricingAsOf": "Prices checked on {date}",
+      "freeTrial": "Free trial",
+      "savingTips": "Ways to save",
+      "overview": "Overview",
+      "faq": "{name} FAQ",
+      "alternatives": "Alternatives to {name}",
+      "sources": "Sources",
+      "reviewedOn": "Reviewed on {date}",
+      "platformNames": {
+        "web": "Web",
+        "ios": "iOS",
+        "android": "Android",
+        "macos": "macOS",
+        "windows": "Windows",
+        "linux": "Linux",
+        "vscode": "VS Code",
+        "jetbrains": "JetBrains IDEs",
+        "cli": "Command line",
+        "api": "API",
+        "browser-extension": "Browser extension"
+      }
+    },
     "calendar": {
       "metaTitle": "AI Promo Calendar: Deadlines & Sales | PromoClock",
-      "metaDescription": "Upcoming AI promo deadlines, student-offer cutoffs, launch events and seasonal sales like Black Friday, in one calendar.",
+      "metaDescription": "Plan around upcoming AI promo deadlines, student-offer cutoffs, launch events and seasonal sales like Black Friday, all in one calendar.",
       "title": "AI promo calendar",
       "subtitle": "Deadlines, launches and sales worth planning around.",
       "upcoming": "Upcoming",
@@ -238,19 +278,19 @@
       "empty": "Nothing scheduled yet."
     },
     "disclosure": {
-      "metaTitle": "Affiliate Disclosure — PromoClock",
-      "metaDescription": "How PromoClock uses affiliate links and how we choose which AI deals to list.",
+      "metaTitle": "Affiliate Disclosure | PromoClock",
+      "metaDescription": "PromoClock may earn a commission from some links. Here's how affiliate links work on the site and how we choose which AI deals to list.",
       "title": "Affiliate disclosure",
       "paragraphs": [
         "PromoClock is an independent project. Some links to AI tools on this site are affiliate or partner links. If you sign up or buy through one of them, we may earn a commission at no extra cost to you.",
         "Affiliate relationships never decide whether a deal is listed. We list offers that are publicly available from the tool's official channels, link to the original source, and show the date we last verified each one.",
-        "Promo codes are only shown when they are published by the tool or provided by its partner program. Expired offers are removed from live lists automatically.",
+        "We only show promo codes that the tool publishes or that its partner program provides. Expired offers are removed from live lists automatically.",
         "Tools without an affiliate program — including ChatGPT, Gemini, Claude and Midjourney — are covered in exactly the same way. PromoClock is not affiliated with Anthropic or any tool listed.",
         "Questions? Reach out on X at @onursendere."
       ]
     },
     "dealPage": {
-      "metaTitle": "{headline} ({month}) | PromoClock",
+      "metaTitle": "{headline} | PromoClock",
       "faqTitle": "Questions about this deal",
       "qAvailable": "Is this offer still available?",
       "aLive": "Yes. As of {date}, it is live and ends on {end}.",
@@ -266,14 +306,14 @@
       "aSource": "From {source}. PromoClock last checked it on {date}."
     },
     "about": {
-      "metaTitle": "About PromoClock: How We Track Claude Limits & AI Deals",
-      "metaDescription": "Who runs PromoClock, how every Claude limit change and AI deal is verified against official sources, and how often the site is updated.",
+      "metaTitle": "How We Track Claude Limits & AI Deals | PromoClock",
+      "metaDescription": "PromoClock is run by Onur Şendere. Learn how every Claude limit change and AI deal is checked against an official or reputable source and how often the site updates.",
       "title": "About PromoClock",
       "intro": "PromoClock is an independent tracker for Claude's usage limits and for verified promotions across 100 popular AI tools.",
       "sections": [
         {
           "title": "How we verify",
-          "body": "Every deal and limit change links to an official source: a help center article, an official blog post or an announcement from the company's own account. We record the date we last checked each one and only publish codes the company or its partner program provides."
+          "body": "Every deal and limit change links to an official or reputable source: a help center article, an official blog post, an announcement from the company's own account or, for limit news, a reputable news report. We record the date we last checked each one and only publish codes the company or its partner program provides."
         },
         {
           "title": "How often it updates",

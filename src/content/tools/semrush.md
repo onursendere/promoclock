@@ -1,6 +1,6 @@
 ---
 name: "Semrush"
-vendor: "Semrush"
+vendor: "Adobe"
 category: writing
 website: https://www.semrush.com
 popularityRank: 66

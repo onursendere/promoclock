@@ -23,7 +23,7 @@ export function DealKeyFacts({ deal, tool, lang, hub, now }: { deal: DealRecord;
             {tool.name}
           </a>
           <Badge variant="secondary">{hub.kinds[deal.kind]}</Badge>
-          <DealTimer deal={deal} hub={hub} now={now} />
+          <DealTimer deal={deal} hub={hub} now={now} lang={lang} />
         </div>
       </CardHeader>
       <CardContent className="flex flex-col gap-3">

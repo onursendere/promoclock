@@ -5,5 +5,5 @@ category: video
 website: https://www.descript.com
 popularityRank: 39
 tagline:
-  en: "Edit video and podcasts by editing the transcript."
+  en: "Video and podcast editor you control by editing the transcript."
 ---

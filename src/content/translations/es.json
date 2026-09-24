@@ -1,99 +1,99 @@
 {
   "deals": {
     "claude-code-weekly-plus25-permanent": {
-      "title": "Límites semanales de Claude Code: +25 % permanente desde el 14 de septiembre de 2026",
-      "headline": "Límites semanales de Claude Code: +25 % fijo",
-      "value": "+25 % semanal",
-      "audience": "Pro, Max, Team, Enterprise por puesto",
-      "summary": "Desde el 14 de septiembre de 2026, los límites semanales estándar de Claude Code están de forma permanente un 25 % por encima del nivel previo a la promoción. El aumento temporal del +50 % terminó ese mismo día, así que los usuarios intensivos tienen alrededor de un 17 % menos de capacidad semanal que durante la promo.",
+      "title": "Límites semanales de Claude Code: +25 % permanente desde el 14 de septiembre de 2026",
+      "headline": "Límites semanales de Claude Code: +25 % permanente",
+      "value": "+25 % semanal",
+      "audience": "Pro, Max, Team y Enterprise por puesto",
+      "summary": "Desde el 14 de septiembre de 2026, los límites semanales estándar de Claude Code están un 25 % por encima de la base previa a la promoción, de forma permanente. El aumento temporal del 50 % terminó ese mismo día, así que quien lo usa mucho tiene cerca de un 17 % menos de capacidad semanal que durante la promo.",
       "scope": "Claude Code",
       "terms": [
         "Solo aplica a Claude Code; los límites de 5 horas no cambian.",
-        "Con una base de 100: 100 antes de la promo, 150 durante ella y 125 desde el 14 de septiembre."
+        "Con una base de 100: 100 antes de la promo, 150 durante la promo y 125 desde el 14 de septiembre."
       ]
     },
     "claude-code-weekly-plus50-2026": {
-      "title": "Promoción de Claude Code: límites semanales +50 % (13 de mayo – 14 de septiembre de 2026)",
-      "headline": "Límites semanales de Claude Code +50 %",
-      "value": "+50 % semanal",
-      "audience": "Pro, Max, Team, Enterprise por puesto",
-      "summary": "Anthropic aumentó un 50 % los límites semanales de Claude Code desde el 13 de mayo de 2026, de forma automática en la CLI, las extensiones de IDE, el escritorio y la web. Se prorrogó más allá del 13 de julio y el 14 de septiembre de 2026 se sustituyó por un +25 % permanente.",
+      "title": "Límites semanales de Claude Code: promoción del +50 % (del 13 de mayo al 14 de septiembre de 2026)",
+      "headline": "Límites semanales de Claude Code: +50 %",
+      "value": "+50 % semanal",
+      "audience": "Pro, Max, Team y Enterprise por puesto",
+      "summary": "Anthropic subió un 50 % los límites semanales de Claude Code desde el 13 de mayo de 2026. El aumento se aplicó automáticamente en la CLI, las extensiones para IDE, la app de escritorio y la web, se extendió más allá del 13 de julio y el 14 de septiembre de 2026 dio paso a un +25 % permanente.",
       "scope": "Claude Code"
     },
     "claude-cowork-june-2026-2x": {
-      "title": "Promoción de uso de Claude Cowork de junio de 2026: límite de 5 horas duplicado",
-      "headline": "Claude Cowork duplica el límite de 5 horas",
-      "value": "Límite de 5 h ×2",
-      "audience": "Pro, Max, Team, Enterprise heredado",
+      "title": "Promoción de uso de Claude Cowork en junio de 2026: límite de 5 horas duplicado",
+      "headline": "Claude Cowork: límite de 5 horas duplicado",
+      "value": "Doble límite de 5 h",
+      "audience": "Pro, Max, Team y Enterprise antiguo",
       "summary": "Del 5 de junio al 5 de julio de 2026, Anthropic duplicó el límite de uso de 5 horas dentro de Claude Cowork. Se aplicó automáticamente y los límites semanales no cambiaron.",
       "scope": "Claude Cowork",
       "terms": [
-        "Los planes Free y los puestos Enterprise facturados por consumo no eran elegibles.",
-        "Claude en web, escritorio y móvil, y Claude Code, no cambiaron."
+        "Los planes Free y los puestos Enterprise por consumo no participaban.",
+        "Los límites de Claude en web, escritorio y móvil, y los de Claude Code, no cambiaron."
       ]
     },
     "claude-code-5h-limits-doubled": {
-      "title": "Claude Code duplica sus límites de 5 horas y elimina la reducción en horas punta (6 de mayo de 2026)",
+      "title": "Claude Code duplica sus límites de 5 horas y elimina la reducción en horas pico (6 de mayo de 2026)",
       "headline": "Claude Code duplica sus límites de 5 horas",
-      "value": "Límite de 5 h ×2",
-      "audience": "Pro, Max, Team, Enterprise por puesto",
-      "summary": "El 6 de mayo de 2026, Anthropic duplicó de forma permanente los límites de 5 horas de Claude Code en los planes de pago y eliminó la reducción en horas punta para Claude Code en Pro y Max.",
+      "value": "Doble límite de 5 h",
+      "audience": "Pro, Max, Team y Enterprise por puesto",
+      "summary": "El 6 de mayo de 2026, Anthropic duplicó de forma permanente los límites de 5 horas de Claude Code en los planes de pago y quitó la reducción en horas pico para Claude Code en Pro y Max.",
       "scope": "Claude Code",
       "terms": [
         "Esta actualización no cambió los límites semanales."
       ]
     },
     "claude-peak-hours-introduced": {
-      "title": "Horas punta de Claude: los límites de sesión se agotan más rápido de lunes a viernes de 13:00 a 19:00 UTC",
-      "headline": "Horas punta: los límites se agotan antes entre semana",
+      "title": "Horas pico de Claude: los límites de sesión se agotan más rápido de lunes a viernes, de 13:00 a 19:00 UTC",
+      "headline": "Horas pico de Claude: los límites se agotan más rápido",
       "value": "13:00–19:00 UTC",
-      "audience": "Free, Pro, Max, Team",
-      "summary": "Desde el 27 de marzo de 2026, los límites de sesión de 5 horas de Claude se agotan más rápido en las horas punta de los días laborables (13:00–19:00 UTC). Los límites semanales no cambian y por la tarde-noche, de madrugada y los fines de semana todo va a velocidad normal.",
-      "scope": "Claude.ai, apps, Cowork",
+      "audience": "Free, Pro, Max y Team",
+      "summary": "Desde el 27 de marzo de 2026, los límites de sesión de 5 horas de Claude se agotan más rápido en las horas pico, de lunes a viernes de 13:00 a 19:00 UTC. Los límites semanales no cambian, y fuera de esa franja y todo el fin de semana se agotan a ritmo normal.",
+      "scope": "Claude.ai, apps y Cowork",
       "terms": [
         "Los planes Enterprise no se ven afectados.",
         "Claude Code en Pro y Max está exento desde el 6 de mayo de 2026."
       ]
     },
     "claude-march-2026-offpeak-2x": {
-      "title": "Promoción de Claude de marzo de 2026: límites dobles en horas valle",
-      "headline": "Límites dobles en horas valle",
-      "value": "×2 en horas valle",
-      "audience": "Free, Pro, Max, Team",
-      "summary": "Durante dos semanas de marzo de 2026, Claude duplicó los límites de sesión fuera de las horas punta de los días laborables (8:00–14:00 ET) y durante todo el fin de semana.",
+      "title": "Promoción de Claude de marzo de 2026: límites duplicados fuera de las horas pico",
+      "headline": "Claude: límites duplicados fuera de las horas pico",
+      "value": "Doble fuera de pico",
+      "audience": "Free, Pro, Max y Team",
+      "summary": "Durante dos semanas de marzo de 2026, Claude duplicó los límites de sesión fuera de las horas pico entre semana (8:00–14:00 ET) y durante todo el fin de semana.",
       "scope": "Todas las plataformas de Claude"
     },
     "chatgpt-plus-students-back-to-school-2026": {
-      "title": "ChatGPT Plus gratis 4 meses para universitarios de EE. UU. (oferta de vuelta a clase 2026)",
+      "title": "ChatGPT Plus: 4 meses gratis para universitarios de EE. UU. (oferta de regreso a clases 2026)",
       "headline": "4 meses de ChatGPT Plus gratis",
       "value": "4 meses gratis",
-      "audience": "Universitarios en EE. UU.",
-      "summary": "Los estudiantes universitarios y de posgrado de EE. UU. que cumplan los requisitos consiguen cuatro meses gratis de ChatGPT Plus, valorados en 80 $, con la oferta de vuelta a clase 2026 de OpenAI. Hay que activarla antes del 31 de octubre de 2026.",
+      "audience": "Universitarios de EE. UU.",
+      "summary": "Los estudiantes universitarios y de posgrado de EE. UU. que cumplan los requisitos reciben 4 meses gratis de ChatGPT Plus, valorados en $80, con la oferta de regreso a clases 2026 de OpenAI. Tienes hasta el 31 de octubre de 2026 para pedirla.",
       "steps": [
         "Inicia sesión en la cuenta de ChatGPT que quieres mejorar.",
-        "Abre chatgpt.com/students/2026 y verifica tu matrícula con SheerID.",
-        "Confirma la oferta. No se te cobrará por los cuatro periodos de facturación gratuitos."
+        "Abre chatgpt.com/students/2026 y verifica tu inscripción con SheerID.",
+        "Confirma la oferta. No se te cobrarán los 4 periodos de facturación gratis."
       ],
       "terms": [
-        "Después se renueva a 20 $/mes si no cancelas.",
+        "Después se renueva a $20 al mes si no cancelas.",
         "Solo se puede canjear una vez.",
-        "No disponible si la suscripción se factura a través de App Store o Google Play."
+        "No está disponible si pagas a través de App Store o Google Play."
       ]
     },
     "google-ai-pro-students-2026": {
-      "title": "Google AI Pro gratis durante un año para estudiantes (AI Plus en más de 140 mercados)",
+      "title": "Google AI Pro: 1 año gratis para estudiantes (AI Plus en más de 140 mercados)",
       "headline": "12 meses de Google AI Pro gratis",
       "value": "12 meses gratis",
-      "audience": "Estudiantes en EE. UU. y más de 140 mercados",
-      "summary": "Los universitarios de EE. UU. que cumplan los requisitos consiguen un año gratis de Google AI Pro, con límites más altos en Gemini y 5 TB de almacenamiento. En más de 140 mercados más, los estudiantes reciben un año gratis de Google AI Plus. Canjéalo antes del 31 de diciembre de 2026.",
+      "audience": "Estudiantes de EE. UU. y de más de 140 mercados",
+      "summary": "Los universitarios de EE. UU. que cumplan los requisitos consiguen un año gratis de Google AI Pro, con límites más altos en Gemini y 5 TB de almacenamiento. Los estudiantes de más de 140 mercados adicionales reciben un año gratis de Google AI Plus. Canjéalo antes del 31 de diciembre de 2026.",
       "steps": [
-        "Abre one.google.com/ai-student o el espacio para estudiantes en gemini.google.com/students.",
+        "Abre one.google.com/ai-student o el portal para estudiantes en gemini.google.com/students.",
         "Verifica que eres estudiante con SheerID desde una cuenta de Google personal.",
-        "Añade un método de pago para empezar los 12 meses gratis."
+        "Agrega un método de pago para empezar los 12 meses gratis."
       ],
       "terms": [
-        "La facturación empieza a los 12 meses si no cancelas.",
-        "La oferta de AI Plus excluye EE. UU., Bolivia, Albania, Canadá, Macao, Hong Kong y Túnez."
+        "El cobro empieza a los 12 meses si no cancelas.",
+        "La oferta de AI Plus no incluye EE. UU., Bolivia, Albania, Canadá, Macao, Hong Kong ni Túnez."
       ]
     },
     "github-copilot-student-plan": {
@@ -101,16 +101,16 @@
       "headline": "GitHub Copilot gratis para estudiantes",
       "value": "Gratis",
       "audience": "Estudiantes verificados de GitHub Education",
-      "summary": "Los estudiantes verificados usan GitHub Copilot sin coste con el plan Copilot Student: autocompletado de código ilimitado y una asignación mensual de créditos de IA para chat y agentes.",
+      "summary": "Los estudiantes verificados usan GitHub Copilot sin costo con el plan Copilot Student: autocompletado de código ilimitado y una cantidad mensual de créditos de IA para el chat y los agentes.",
       "steps": [
         "Solicita GitHub Education como estudiante.",
         "Cuando te verifiquen, abre github.com/settings/education/benefits.",
-        "Activa Copilot en los recursos para desarrolladores estudiantes."
+        "Activa Copilot en los recursos para estudiantes desarrolladores."
       ],
       "terms": [
-        "GitHub vuelve a comprobar la elegibilidad cada mes.",
-        "La activación puede tardar unos días tras la verificación.",
-        "Los modelos se eligen mediante la selección automática de modelos."
+        "GitHub vuelve a comprobar cada mes que cumples los requisitos.",
+        "La activación puede tardar unos días después de la verificación.",
+        "La selección automática de modelos elige el modelo."
       ]
     },
     "perplexity-education-pro": {
@@ -118,7 +118,7 @@
       "headline": "Perplexity Pro con descuento para estudiantes",
       "value": "Pro con descuento",
       "audience": "Estudiantes y docentes verificados",
-      "summary": "Los estudiantes y docentes verificados pueden pasarse a Education Pro: todo lo de Perplexity Pro, incluidos los modelos premium, las búsquedas Pro ilimitadas y Learn Mode, por menos del precio habitual.",
+      "summary": "Estudiantes y docentes verificados pueden pasarse a Education Pro: todo lo de Perplexity Pro, incluidos los modelos premium, las búsquedas Pro ilimitadas y Learn Mode, por menos que el precio normal.",
       "steps": [
         "Abre Upgrade en la app de Perplexity.",
         "Cambia al plan Education.",
@@ -126,147 +126,147 @@
       ]
     },
     "notion-education-plus-free": {
-      "title": "Plan Notion Plus gratis para estudiantes y docentes",
+      "title": "Plan Plus de Notion gratis para estudiantes y docentes",
       "headline": "Notion Plus gratis para estudiantes",
       "value": "Plan Plus gratis",
       "audience": "Estudiantes y docentes",
-      "summary": "Los estudiantes y docentes que se registran con un correo educativo válido consiguen gratis el plan Notion Plus para un miembro, con más invitados, un historial de versiones más largo y subidas de archivos más grandes.",
+      "summary": "Estudiantes y docentes que se registran con un correo educativo válido reciben gratis el plan Plus de Notion para un miembro, con más invitados, un historial de versiones más largo y archivos más grandes.",
       "steps": [
-        "Pon tu correo educativo como correo principal de tu cuenta de Notion.",
+        "Haz que tu correo educativo sea el principal de tu cuenta de Notion.",
         "Abre Settings y luego Billing.",
         "Elige Get free Education plan."
       ],
       "terms": [
         "Vuelve a verificar que eres estudiante una vez al año.",
-        "Son válidos miles de dominios educativos, no solo .edu."
+        "Sirven miles de dominios educativos, no solo .edu."
       ]
     },
     "cursor-student-pro-year": {
-      "title": "Cursor Pro gratis para estudiantes: programa cerrado a nuevas altas (25 de junio de 2026)",
+      "title": "Cursor Pro gratis para estudiantes: programa cerrado a nuevos registros (25 de junio de 2026)",
       "headline": "Cursor Pro gratis para estudiantes (cerrado)",
       "value": "1 año gratis",
       "audience": "Universitarios verificados",
-      "summary": "El programa para estudiantes de Cursor daba un año gratis de Cursor Pro a universitarios verificados. Se cerró a nuevas altas el 25 de junio de 2026; quienes ya lo canjearon mantienen su tarifa hasta que venza su plan.",
+      "summary": "El programa para estudiantes de Cursor daba un año gratis de Cursor Pro a universitarios verificados. Cerró a nuevos registros el 25 de junio de 2026; quienes ya lo habían pedido mantienen su tarifa hasta que venza su plan.",
       "terms": [
         "Los estudiantes aún pueden conseguir créditos en eventos presenciales en campus y en línea.",
-        "El plan gratuito Hobby sigue disponible."
+        "El plan Hobby gratuito sigue disponible."
       ]
     }
   },
   "tools": {
-    "adobe-firefly": { "tagline": "La app de IA generativa de Adobe para imágenes, vídeo y audio." },
-    "base44": { "tagline": "Crea apps completas con backend, autenticación y hosting incluidos, chateando." },
+    "adobe-firefly": { "tagline": "La app de IA generativa de Adobe para imágenes, video y audio." },
+    "base44": { "tagline": "Creador de apps por chat, con backend, autenticación y hosting incluidos." },
     "beautiful-ai": { "tagline": "Software de presentaciones con IA y diapositivas inteligentes que se diseñan solas." },
-    "bolt": { "tagline": "Crea, ejecuta, edita y despliega apps full-stack en el navegador con un prompt." },
-    "canva": { "tagline": "Plataforma de diseño online con generación de imágenes con IA, Magic Design y kits de marca." },
-    "capcut": { "tagline": "Editor de vídeo con subtítulos por IA, efectos y herramientas de texto a vídeo." },
-    "captions": { "tagline": "Editor de vídeo con IA que convierte tus grabaciones en vídeos terminados y subtitulados." },
-    "character-ai": { "tagline": "Chatea y haz rol con personajes de IA, o crea los tuyos." },
-    "chatgpt": { "tagline": "El asistente de IA versátil de OpenAI para chat, búsqueda, imágenes, voz y agentes." },
-    "claude": { "tagline": "El asistente de IA de Anthropic para escribir, analizar y programar — incluidos Claude Code y Cowork." },
+    "bolt": { "tagline": "Creador de apps con IA en el navegador para crear, ejecutar y publicar apps full-stack." },
+    "canva": { "tagline": "Plataforma de diseño en línea con imágenes por IA, Magic Design y kits de marca." },
+    "capcut": { "tagline": "Editor de video con subtítulos por IA, efectos y herramientas de texto a video." },
+    "captions": { "tagline": "Editor de video con IA que convierte tus grabaciones en videos terminados y subtitulados." },
+    "character-ai": { "tagline": "App para chatear y hacer rol con personajes de IA, incluidos los que tú creas." },
+    "chatgpt": { "tagline": "El asistente de IA de uso general de OpenAI para chat, búsqueda, imágenes, voz y agentes." },
+    "claude": { "tagline": "Asistente de IA de Anthropic para escritura, análisis y código, con Claude Code y Cowork." },
     "clickup": { "tagline": "App de trabajo todo en uno con IA para tareas, documentos y chat." },
     "cline": { "tagline": "Agente de código abierto para VS Code y JetBrains que usa tus propias claves de modelos." },
-    "codex": { "tagline": "El agente de programación de OpenAI para terminal, IDE y nube." },
-    "copy-ai": { "tagline": "Flujos de trabajo con IA para contenido de salida al mercado y textos de venta." },
+    "codex": { "tagline": "El agente de programación de OpenAI para la terminal, el IDE y la nube." },
+    "copy-ai": { "tagline": "Flujos de trabajo con IA para contenido go-to-market y textos de ventas." },
     "cursor": { "tagline": "Editor de código centrado en IA, con agentes que planifican, editan y ejecutan código." },
-    "deepl": { "tagline": "Traductor y asistente de escritura con IA conocido por sus traducciones naturales." },
-    "deepseek": { "tagline": "Modelos de chat y razonamiento de pesos abiertos con un asistente web y móvil gratuito." },
-    "descript": { "tagline": "Edita vídeos y pódcasts editando la transcripción." },
-    "devin": { "tagline": "Ingeniero de software autónomo con IA que resuelve tickets y abre pull requests." },
+    "deepl": { "tagline": "Traductor y asistente de escritura con IA, conocido por sus traducciones naturales." },
+    "deepseek": { "tagline": "Modelos de chat y razonamiento de pesos abiertos, con asistente gratis en web y móvil." },
+    "descript": { "tagline": "Editor de video y pódcasts que controlas editando la transcripción." },
+    "devin": { "tagline": "Ingeniero de software autónomo con IA que toma tickets y abre pull requests." },
     "elevenlabs": { "tagline": "Voces de IA realistas, doblaje, voz a texto y agentes de voz." },
-    "fathom": { "tagline": "Asistente de reuniones con IA con plan gratuito, resúmenes al instante y sincronización con CRM." },
+    "fathom": { "tagline": "Asistente de reuniones con IA, con plan gratuito, resúmenes al instante y sync con el CRM." },
     "fireflies": { "tagline": "Asistente de notas con IA que graba, transcribe y resume reuniones." },
-    "frase": { "tagline": "Herramienta de contenido SEO con IA para investigación, briefs y artículos optimizados." },
-    "freepik": { "tagline": "Recursos gráficos y un paquete de IA para imagen, vídeo y escalado." },
-    "gamma": { "tagline": "Crea presentaciones, documentos y webs a partir de un prompt." },
+    "frase": { "tagline": "Herramienta SEO con IA para investigación, briefs y artículos optimizados." },
+    "freepik": { "tagline": "Banco de recursos y suite de IA para imagen, video y escalado; ahora se llama Magnific." },
+    "gamma": { "tagline": "Creador de presentaciones, documentos y sitios web a partir de un prompt." },
     "gemini": { "tagline": "El asistente de IA de Google, integrado en la Búsqueda, Android y Google Workspace." },
-    "genspark": { "tagline": "Espacio de trabajo con agentes de IA para investigación, presentaciones, hojas de cálculo y llamadas." },
-    "github-copilot": { "tagline": "Programador en pareja con IA y agente de código en tu editor y en GitHub." },
-    "google-ai-studio": { "tagline": "Prueba los modelos Gemini, consigue una clave de API y crea apps en el navegador." },
-    "google-flow": { "tagline": "La herramienta de cine con IA de Google, basada en los modelos de vídeo Veo." },
+    "genspark": { "tagline": "Espacio de agentes de IA para investigación, presentaciones, hojas de cálculo y llamadas." },
+    "github-copilot": { "tagline": "Compañero de programación con IA y agente de código en tu editor y en GitHub." },
+    "google-ai-studio": { "tagline": "Área de pruebas de Google para modelos Gemini, claves de API y apps con vibe coding." },
+    "google-flow": { "tagline": "La herramienta de Google para hacer cine con IA, basada en los modelos de video Veo." },
     "grammarly": { "tagline": "Asistente de escritura con IA para gramática, tono y reescritura en todas tus apps." },
     "granola": { "tagline": "Bloc de notas con IA que convierte tus notas de reuniones en resúmenes pulidos, sin bots." },
     "grok": { "tagline": "El asistente de xAI con acceso en tiempo real a X, generación de imágenes y modo de voz." },
-    "gumloop": { "tagline": "Plataforma sin código para automatizaciones y agentes de IA en todas tus herramientas." },
-    "hailuo": { "tagline": "El generador de vídeo a partir de texto e imágenes de MiniMax." },
-    "heygen": { "tagline": "Vídeos con avatares de IA, traducción y doblaje con sincronización labial." },
-    "higgsfield": { "tagline": "Generación cinematográfica de imágenes y vídeos con IA y ajustes de movimiento de cámara." },
-    "hugging-face": { "tagline": "El hub de modelos de IA abiertos, conjuntos de datos y demos en Spaces." },
-    "ideogram": { "tagline": "Generador de imágenes con IA conocido por escribir texto preciso en las imágenes." },
-    "invideo": { "tagline": "Convierte prompts y guiones en vídeos editados con metraje de archivo y de IA." },
-    "jasper": { "tagline": "Plataforma de contenido con IA para equipos de marketing, con la voz de tu marca." },
-    "jetbrains-ai": { "tagline": "AI Assistant y el agente de código Junie dentro de los IDE de JetBrains." },
-    "kimi": { "tagline": "El asistente de Moonshot AI para documentos largos, investigación a fondo y tareas con agentes." },
+    "gumloop": { "tagline": "Plataforma sin código para automatizaciones y agentes de IA conectados a tus herramientas." },
+    "hailuo": { "tagline": "El generador de video de MiniMax a partir de texto e imágenes." },
+    "heygen": { "tagline": "Videos con avatares de IA, traducción y doblaje con sincronización labial." },
+    "higgsfield": { "tagline": "Imágenes y video cinematográficos con IA, con movimientos de cámara predefinidos." },
+    "hugging-face": { "tagline": "La plataforma de modelos de IA abiertos, conjuntos de datos y demos en Spaces." },
+    "ideogram": { "tagline": "Generador de imágenes con IA conocido por escribir texto preciso dentro de las imágenes." },
+    "invideo": { "tagline": "Creador de videos editados a partir de prompts y guiones, con material de stock y de IA." },
+    "jasper": { "tagline": "Plataforma de contenido con IA para equipos de marketing, centrada en la voz de marca." },
+    "jetbrains-ai": { "tagline": "AI Assistant y el agente de programación Junie dentro de los IDE de JetBrains." },
+    "kimi": { "tagline": "Asistente de Moonshot AI para documentos largos, investigación a fondo y tareas agénticas." },
     "kiro": { "tagline": "El IDE agéntico de AWS que convierte prompts en especificaciones y luego en código." },
-    "kling": { "tagline": "Generación de texto a vídeo e imagen a vídeo con control de movimiento." },
-    "krea": { "tagline": "Generación de imágenes y vídeo con IA en tiempo real, escalado y edición." },
+    "kling": { "tagline": "Generación de video a partir de texto e imágenes, con control de movimiento." },
+    "krea": { "tagline": "Generación, escalado y edición de imágenes y video con IA en tiempo real." },
     "krisp": { "tagline": "Cancelación de ruido con IA, conversión de acento y notas de reuniones para llamadas." },
-    "leonardo": { "tagline": "Generación de imágenes y vídeos con IA para creadores y recursos de videojuegos." },
-    "lindy": { "tagline": "Crea asistentes de IA que gestionan tu correo, tu calendario y tus reuniones." },
-    "lovable": { "tagline": "Crea apps web full-stack chateando con la IA." },
-    "luma": { "tagline": "Genera y edita vídeo e imágenes cinematográficas con los modelos Ray de Luma." },
-    "make": { "tagline": "Plataforma visual de automatización para crear flujos y agentes de IA." },
+    "leonardo": { "tagline": "Generación de imágenes y video con IA para trabajo creativo y recursos de videojuegos." },
+    "lindy": { "tagline": "Creador de asistentes de IA que gestionan tu correo, tu calendario y tus reuniones." },
+    "lovable": { "tagline": "Creador con IA que convierte un chat en una app web full-stack." },
+    "luma": { "tagline": "Generador y editor de video e imágenes cinematográficos basado en los modelos Ray de Luma." },
+    "make": { "tagline": "Plataforma visual de automatización para crear flujos de trabajo y agentes de IA." },
     "manus": { "tagline": "Agente de IA de uso general que investiga, construye y completa tareas de varios pasos." },
     "meta-ai": { "tagline": "El asistente de IA de Meta en WhatsApp, Instagram, Facebook y la web." },
-    "microsoft-copilot": { "tagline": "El acompañante de IA de Microsoft en Windows, Edge y Microsoft 365." },
-    "midjourney": { "tagline": "Generación de imágenes y vídeos con IA de alta calidad." },
-    "mindstudio": { "tagline": "Constructor sin código de agentes de IA y automatizaciones." },
-    "mistral": { "tagline": "El asistente de IA europeo y rápido de Mistral, con búsqueda web y agentes." },
+    "microsoft-copilot": { "tagline": "El compañero de IA de Microsoft en Windows, Edge y Microsoft 365." },
+    "midjourney": { "tagline": "Imágenes y video con IA para ilustración, arte conceptual y estética estilizada." },
+    "mindstudio": { "tagline": "Creador sin código de agentes de IA y automatizaciones." },
+    "mistral": { "tagline": "Asistente de Mistral AI, rebautizado Vibe en 2026, para chat, trabajo y programación." },
     "motion": { "tagline": "Calendario y gestor de proyectos con IA que planifica tu jornada por ti." },
     "murf": { "tagline": "Generador de voz con IA para locuciones, doblaje y agentes de voz." },
-    "n8n": { "tagline": "Automatización de flujos de trabajo con agentes de IA — autoalojada o en la nube." },
-    "notebooklm": { "tagline": "Cuaderno de investigación que responde a partir de tus propias fuentes y crea resúmenes en audio." },
-    "notion": { "tagline": "Espacio de trabajo conectado para documentos, wikis y proyectos con agentes de IA integrados." },
-    "opusclip": { "tagline": "Convierte vídeos largos en clips cortos listos para redes con IA." },
+    "n8n": { "tagline": "Automatización de flujos de trabajo con agentes de IA, autoalojada o en la nube." },
+    "notebooklm": { "tagline": "Cuaderno de investigación de Google, ahora Gemini Notebook, que responde con tus fuentes." },
+    "notion": { "tagline": "Espacio de trabajo para documentos, wikis y proyectos, con agentes de IA integrados." },
+    "opusclip": { "tagline": "Herramienta con IA que convierte videos largos en clips cortos listos para compartir." },
     "originality-ai": { "tagline": "Detector de contenido de IA con control de plagio y verificación de datos para editores." },
-    "otter": { "tagline": "Notas de reuniones con IA, transcripción y agentes para reuniones." },
+    "otter": { "tagline": "Notas y transcripción de reuniones con IA, más agentes para reuniones." },
     "perplexity": { "tagline": "Motor de respuestas con IA que busca en la web y cita sus fuentes." },
-    "photoroom": { "tagline": "Fotos de producto con IA: quita fondos y genera escenas de estudio." },
-    "picsart": { "tagline": "Editor de fotos y vídeo con generación por IA, retoque y plantillas." },
-    "pictory": { "tagline": "Convierte guiones, artículos y vídeos largos en clips cortos con tu marca." },
-    "pika": { "tagline": "Generación de vídeo con IA divertida, con efectos, intercambios y fotogramas clave." },
-    "pixelcut": { "tagline": "Editor de fotos con IA para quitar fondos, escalar y crear fotos de producto." },
-    "pixverse": { "tagline": "Generador de vídeo con IA para clips rápidos, efectos y plantillas." },
+    "photoroom": { "tagline": "Fotos de producto con IA: eliminación de fondos y escenas de estudio generadas." },
+    "picsart": { "tagline": "Editor de fotos y video con generación por IA, retoque y plantillas." },
+    "pictory": { "tagline": "Herramienta que convierte guiones, artículos y videos largos en clips cortos con tu marca." },
+    "pika": { "tagline": "Generación divertida de video con IA, con efectos, intercambios y fotogramas clave." },
+    "pixelcut": { "tagline": "Editor de fotos con IA para quitar fondos, escalar imágenes y crear fotos de producto." },
+    "pixverse": { "tagline": "Generador de video con IA para clips rápidos, efectos y plantillas." },
     "poe": { "tagline": "Una sola suscripción para chatear con muchos modelos de IA y bots personalizados." },
     "quillbot": { "tagline": "Parafraseo, corrección gramatical y detección de IA para estudiantes y redactores." },
     "qwen": { "tagline": "El asistente de IA de Alibaba, basado en los modelos de pesos abiertos Qwen." },
     "reclaim": { "tagline": "Calendario con IA que programa tareas, hábitos y reuniones automáticamente." },
-    "recraft": { "tagline": "Herramienta de diseño con IA para ilustraciones vectoriales, iconos e imágenes coherentes con tu marca." },
-    "remini": { "tagline": "Mejorador de fotos con IA que restaura fotos borrosas, antiguas o de baja resolución." },
-    "remove-bg": { "tagline": "Elimina el fondo de tus fotos con IA en un clic." },
+    "recraft": { "tagline": "Herramienta de diseño con IA para vectores, íconos e imágenes coherentes con tu marca." },
+    "remini": { "tagline": "App con IA que restaura y mejora fotos borrosas, antiguas o de baja resolución." },
+    "remove-bg": { "tagline": "Eliminación de fondos con IA en un clic; el sitio propio cierra el 1 de diciembre de 2026." },
     "replit": { "tagline": "IDE en la nube con un agente de IA que crea y despliega apps." },
-    "riverside": { "tagline": "Graba pódcast y vídeo con calidad de estudio a distancia y edítalos con IA." },
-    "runway": { "tagline": "Modelos de vídeo generativo y herramientas de edición para cineastas." },
+    "riverside": { "tagline": "Grabación remota con calidad de estudio para pódcasts y video, con edición por IA." },
+    "runway": { "tagline": "Modelos de video generativo y herramientas de edición para cineastas." },
     "semrush": { "tagline": "Suite de SEO y marketing con seguimiento de visibilidad en IA y herramientas de contenido." },
     "speechify": { "tagline": "Lector de texto a voz para documentos, páginas web y libros." },
     "sudowrite": { "tagline": "Compañero de escritura con IA para novelistas y autores de ficción." },
-    "suno": { "tagline": "Genera canciones completas con voz a partir de un prompt de texto." },
-    "surfer": { "tagline": "Editor de contenido SEO y redactor con IA optimizado para buscadores y respuestas de IA." },
-    "synthesia": { "tagline": "Vídeos con avatares de IA con calidad de estudio para formación y empresas." },
+    "suno": { "tagline": "Generador de música que crea canciones completas con voz a partir de un prompt de texto." },
+    "surfer": { "tagline": "Editor de contenido SEO y redactor con IA que optimiza para buscadores y respuestas de IA." },
+    "synthesia": { "tagline": "Videos con avatares de IA con calidad de estudio para formación y empresas." },
     "tldv": { "tagline": "Grabador de reuniones con IA para Zoom, Meet y Teams, con notas y actualización del CRM." },
-    "turboscribe": { "tagline": "Transcripción rápida con IA de audio y vídeo a texto y subtítulos." },
-    "udio": { "tagline": "Crea, remezcla y comparte canciones hechas con IA." },
+    "turboscribe": { "tagline": "Transcripción rápida con IA de audio y video a texto y subtítulos." },
+    "udio": { "tagline": "App de música con IA para crear, remezclar y compartir canciones." },
     "v0": { "tagline": "El creador de apps con IA de Vercel para interfaces en React y Next.js." },
-    "veed": { "tagline": "Editor de vídeo online con subtítulos por IA, avatares y audio limpio." },
+    "veed": { "tagline": "Editor de video en línea con subtítulos por IA, avatares y audio limpio." },
     "warp": { "tagline": "Entorno de desarrollo agéntico construido en torno a una terminal moderna." },
-    "windsurf": { "tagline": "IDE con agentes y Cascade, una IA que trabaja en todo tu código." },
+    "windsurf": { "tagline": "El IDE agéntico de Cognition, rebautizado Devin Desktop en junio de 2026." },
     "wispr-flow": { "tagline": "Dictado por voz con IA que convierte lo que dices en texto limpio en cualquier app." },
     "wordtune": { "tagline": "Asistente de IA para reescribir y resumir que pule tus frases." },
     "writesonic": { "tagline": "Plataforma de redacción con IA y SEO/GEO para marketing de contenidos." },
-    "zapier": { "tagline": "Automatiza el trabajo en miles de apps con flujos y agentes de IA." }
+    "zapier": { "tagline": "Plataforma de automatización que conecta miles de apps con flujos y agentes de IA." }
   },
   "events": {
-    "chatgpt-students-deadline-2026": { "title": "Último día para conseguir 4 meses gratis de ChatGPT Plus (estudiantes de EE. UU.)" },
+    "chatgpt-students-deadline-2026": { "title": "Último día para pedir 4 meses gratis de ChatGPT Plus (estudiantes de EE. UU.)" },
     "black-friday-2026": {
       "title": "Black Friday 2026",
-      "description": "La mayor ventana de descuentos del año en suscripciones de IA — los planes anuales y las ofertas de por vida suelen bajar primero."
+      "description": "La mayor temporada de descuentos del año en suscripciones de IA. Los planes anuales y las licencias de por vida suelen ser los primeros en bajar de precio."
     },
     "cyber-monday-2026": {
       "title": "Cyber Monday 2026",
-      "description": "Último día de la mayoría de rebajas de software del Black Friday."
+      "description": "Último día de la mayoría de las rebajas de software del Black Friday."
     },
-    "google-ai-students-deadline-2026": { "title": "Último día para canjear un año gratis de Google AI Pro / AI Plus (estudiantes)" },
-    "claude-code-plus25-2026": { "title": "Límites semanales de Claude Code: termina el +50 % y empieza el +25 % permanente" },
-    "cursor-students-closed-2026": { "title": "Cursor cierra su año gratis de Pro para estudiantes a nuevas altas" }
+    "google-ai-students-deadline-2026": { "title": "Último día para canjear un año gratis de Google AI Pro o AI Plus (estudiantes)" },
+    "claude-code-plus25-2026": { "title": "Límites semanales de Claude Code: termina el +50 % y empieza el +25 % permanente" },
+    "cursor-students-closed-2026": { "title": "El año gratis de Cursor Pro para estudiantes cierra a nuevos registros" }
   }
 }

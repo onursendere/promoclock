@@ -5,5 +5,5 @@ category: image
 website: https://www.midjourney.com
 popularityRank: 20
 tagline:
-  en: "High-quality AI image and video generation."
+  en: "AI image and video generator for illustration, concept art and stylized visuals."
 ---

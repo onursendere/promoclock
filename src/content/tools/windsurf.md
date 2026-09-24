@@ -2,8 +2,8 @@
 name: "Windsurf"
 vendor: "Cognition"
 category: coding
-website: https://windsurf.com
+website: https://devin.ai/desktop
 popularityRank: 30
 tagline:
-  en: "Agentic IDE with Cascade, an AI that works across your codebase."
+  en: "Cognition's agentic IDE, renamed Devin Desktop in June 2026."
 ---

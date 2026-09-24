@@ -4,6 +4,7 @@ import { i18n } from "@/lib/i18n/config";
 import { getDealStatus, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
 import { AUTHOR, BUILD_TIME, SITE_URL } from "@/lib/site";
 import { localePath } from "@/lib/seo";
+import { startingPriceLabel, type ToolProfile } from "@/lib/profiles";
 
 const day = (ms: number) => new Date(ms).toISOString().slice(0, 10);
 const url = (path: string) => `${SITE_URL}${path}`;
@@ -58,6 +59,7 @@ ${upcoming.length ? `\n## Upcoming\n${upcoming.map((d) => dealLine(d, map)).join
 - Claude Watch (home): ${url(localePath("en"))}
 - All AI deals: ${url(localePath("en", "deals"))}
 - AI tools directory: ${url(localePath("en", "tools"))}
+- Tool profiles: ${url(localePath("en", "tools"))}<slug>/ — summary, pricing, platforms, FAQ, alternatives (${tools.length} tools)
 - Promo calendar: ${url(localePath("en", "calendar"))}
 - About & methodology: ${url(localePath("en", "about"))}
 - Affiliate disclosure: ${url(localePath("en", "affiliate-disclosure"))}
@@ -74,7 +76,26 @@ ${upcoming.length ? `\n## Upcoming\n${upcoming.map((d) => dealLine(d, map)).join
 `;
 }
 
-export function buildLlmsFullTxt(tools: ToolRecord[], deals: DealRecord[]): string {
+/** Profile facts for llms-full.txt; only verified values, English text. */
+function profileLines(tool: ToolRecord, profile: ToolProfile, tools: Map<string, ToolRecord>, dict: ReturnType<typeof getDictionary>): string {
+  const { toolPage } = dict.hub;
+  const price = startingPriceLabel(profile.pricing, "en", toolPage);
+  const pricing = [
+    `Free plan: ${profile.pricing.freePlan ? "yes" : "no"}`,
+    ...(profile.pricing.freeTrial ? ["free trial"] : []),
+    ...(price ? [`From ${price} (as of ${day(profile.pricing.asOf)})`] : []),
+  ].join(" · ");
+  return [
+    `- **${tool.name}** (${tool.vendor}) — ${profile.summary}`,
+    `  - ${pricing}. ${profile.pricing.summary}`,
+    `  - Platforms: ${profile.platforms.map((p) => toolPage.platformNames[p]).join(", ")}`,
+    `  - Best for: ${profile.bestFor.join("; ")}`,
+    `  - Alternatives: ${profile.alternatives.map((slug) => tools.get(slug)?.name ?? slug).join(", ")}`,
+    `  - Reviewed: ${day(profile.reviewedAt)} · Website: ${tool.website} · Page: ${url(localePath("en", `tools/${tool.slug}`))}`,
+  ].join("\n");
+}
+
+export function buildLlmsFullTxt(tools: ToolRecord[], deals: DealRecord[], profiles: Map<string, ToolProfile> = new Map()): string {
   const map = new Map(tools.map((t) => [t.slug, t]));
   const dict = getDictionary("en");
   const byCategory = new Map<string, ToolRecord[]>();
@@ -120,7 +141,12 @@ ${[...byCategory.entries()]
   .map(
     ([category, list]) =>
       `### ${dict.hub.categories[category as ToolRecord["category"]]}\n${list
-        .map((t) => `- **${t.name}** (${t.vendor}) — ${t.tagline.en} ${t.website} · ${url(localePath("en", `tools/${t.slug}`))}`)
+        .map((t) => {
+          const profile = profiles.get(t.slug);
+          return profile
+            ? profileLines(t, profile, map, dict)
+            : `- **${t.name}** (${t.vendor}) — ${t.tagline.en} ${t.website} · ${url(localePath("en", `tools/${t.slug}`))}`;
+        })
         .join("\n")}`,
   )
   .join("\n\n")}

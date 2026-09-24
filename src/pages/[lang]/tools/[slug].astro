@@ -1,85 +1,151 @@
 ---
+import { getEntry, render } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { format, getDictionary } from "@/lib/i18n/dictionaries";
-import { getDeals, getTools } from "@/lib/content";
-import { lastVerified, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
-import { breadcrumbNode, itemListNode, softwareNode, webPageNode } from "@/lib/jsonld";
-import { absoluteUrl, dealPath, localePath } from "@/lib/seo";
+import { createProfileLookup, getDeals, getTools } from "@/lib/content";
+import { lastVerified, localize, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
+import type { ToolProfile } from "@/lib/profiles";
+import { breadcrumbNode, faqNode, itemListNode, softwareNode, webPageNode } from "@/lib/jsonld";
+import { absoluteUrl, dealPath, localePath, toolPath } from "@/lib/seo";
 import { formatDate } from "@/lib/time";
-import { localize } from "@/lib/deals";
 import { BUILD_TIME } from "@/lib/site";
 import { ToolHero } from "@/components/site/ToolHero";
 import { DealCard } from "@/components/site/DealCard";
 import { DealTimeline } from "@/components/site/DealTimeline";
 import { ToolCard } from "@/components/site/ToolCard";
-import { NoDeals } from "@/components/site/NoDeals";
 import { AffiliateNote } from "@/components/site/AffiliateNote";
+import {
+  ToolBestFor,
+  ToolFeatures,
+  ToolNoDeals,
+  ToolPricing,
+  ToolQuickFacts,
+  ToolSources,
+  ToolUseCases,
+  profileProse,
+} from "@/components/site/ToolProfile";
+import FaqAccordion from "@/components/islands/FaqAccordion";
 
 export async function getStaticPaths() {
-  const [tools, deals] = await Promise.all([getTools(), getDeals()]);
+  const [tools, deals, profileFor] = await Promise.all([getTools(), getDeals(), createProfileLookup()]);
+  const bySlug = new Map(tools.map((t) => [t.slug, t]));
   const liveByTool = Object.fromEntries(
     tools.map((t) => [t.slug, partitionDeals(deals.filter((d) => d.tool === t.slug), BUILD_TIME).live.length]),
   );
   return i18n.locales.flatMap((lang) =>
-    tools.map((tool) => ({
-      params: { lang, slug: tool.slug },
-      props: {
-        tool,
-        deals: deals.filter((d) => d.tool === tool.slug),
-        related: tools.filter((t) => t.category === tool.category && t.slug !== tool.slug).slice(0, 6),
-        liveByTool,
-      },
-    })),
+    tools.map((tool) => {
+      const profile = profileFor(tool.slug, lang);
+      return {
+        params: { lang, slug: tool.slug },
+        props: {
+          tool,
+          profile,
+          deals: deals.filter((d) => d.tool === tool.slug),
+          // A profile's hand-picked alternatives replace the "same category" list.
+          related: profile
+            ? profile.alternatives.flatMap((slug) => bySlug.get(slug) ?? [])
+            : tools.filter((t) => t.category === tool.category && t.slug !== tool.slug).slice(0, 6),
+          liveByTool,
+        },
+      };
+    }),
   );
 }
 
 interface Props {
   tool: ToolRecord;
+  profile?: ToolProfile;
   deals: DealRecord[];
   related: ToolRecord[];
   liveByTool: Record<string, number>;
 }
 
 const lang = Astro.params.lang as Locale;
-const { tool, deals, related, liveByTool } = Astro.props;
+const { tool, profile, deals, related, liveByTool } = Astro.props;
 const dict = getDictionary(lang);
 const { hub } = dict;
 const t = hub.tools;
+const tp = hub.toolPage;
 const { live, upcoming, archive } = partitionDeals(deals, BUILD_TIME);
 const current = [...live, ...upcoming];
 const month = formatDate(BUILD_TIME, lang, { day: undefined, month: "short" });
-const title = format(t.toolMetaTitle, { name: tool.name, month });
-const description = format(t.toolMetaDescription, { name: tool.name, month });
+const title = profile ? `${profile.metaTitle} | PromoClock` : format(t.toolMetaTitle, { name: tool.name, month });
+const description = profile ? profile.metaDescription : format(t.toolMetaDescription, { name: tool.name, month });
+const faq = profile ? profile.faq.map(({ q, a }) => ({ question: q, answer: a })) : [];
+const faqTitle = format(tp.faq, { name: tool.name });
+const alternativesTitle = format(tp.alternatives, { name: tool.name });
 
-const url = absoluteUrl(localePath(lang, `tools/${tool.slug}`));
+const bodyEntry = profile ? await getEntry("toolProfiles", profile.bodyId) : undefined;
+const Body = bodyEntry?.body?.trim() ? (await render(bodyEntry)).Content : undefined;
+
+const url = absoluteUrl(toolPath(lang, tool.slug));
 const jsonLd = [
   webPageNode({
     url,
     name: title,
     description,
     lang,
-    dateModified: deals.length ? lastVerified(deals) : undefined,
-    about: softwareNode(tool, lang, hub.categories[tool.category]),
+    dateModified: profile?.reviewedAt ?? (deals.length ? lastVerified(deals) : undefined),
+    speakable: ["h1", ".page-summary"],
+    about: softwareNode(tool, lang, hub.categories[tool.category], profile),
   }),
   ...(deals.length
     ? [itemListNode(t.currentDeals, deals.map((d) => ({ name: localize(d.headline, lang), url: absoluteUrl(dealPath(lang, d.id)) })))]
     : []),
+  ...(profile
+    ? [
+        faqNode(faq, url),
+        itemListNode(alternativesTitle, related.map((r) => ({ name: r.name, url: absoluteUrl(toolPath(lang, r.slug)) }))),
+      ]
+    : []),
   breadcrumbNode([
     { name: "PromoClock", path: localePath(lang) },
     { name: hub.nav.tools, path: localePath(lang, "tools") },
-    { name: tool.name, path: localePath(lang, `tools/${tool.slug}`) },
+    { name: tool.name, path: toolPath(lang, tool.slug) },
   ]),
 ];
+const h2 = "text-xl font-semibold tracking-tight";
 ---
 
 <BaseLayout lang={lang} dict={dict} path={`tools/${tool.slug}`} title={title} description={description} jsonLd={jsonLd} hub>
-  <ToolHero tool={tool} lang={lang} hub={hub} liveCount={live.length} />
+  <ToolHero tool={tool} lang={lang} hub={hub} liveCount={live.length} summary={profile?.summary} />
   <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-8 sm:gap-14 sm:px-6 sm:py-10">
-    {tool.body && <p class="max-w-3xl leading-relaxed text-muted-foreground">{tool.body}</p>}
+    {!profile && tool.body && <p class="max-w-3xl leading-relaxed text-muted-foreground">{tool.body}</p>}
+
+    {
+      profile && (
+        <>
+          <section class="flex flex-col gap-4" aria-labelledby="tool-quick-facts">
+            <h2 id="tool-quick-facts" class={h2}>{tp.quickFacts}</h2>
+            <ToolQuickFacts tool={tool} profile={profile} lang={lang} hub={hub} />
+          </section>
+
+          <section class="flex flex-col gap-4" aria-labelledby="tool-best-for">
+            <h2 id="tool-best-for" class={h2}>{tp.bestFor}</h2>
+            <ToolBestFor items={profile.bestFor} />
+          </section>
+
+          <section class="flex flex-col gap-4" aria-labelledby="tool-key-features">
+            <h2 id="tool-key-features" class={h2}>{tp.keyFeatures}</h2>
+            <ToolFeatures features={profile.keyFeatures} />
+          </section>
+
+          <section class="flex flex-col gap-4" aria-labelledby="tool-use-cases">
+            <h2 id="tool-use-cases" class={h2}>{tp.useCases}</h2>
+            <ToolUseCases items={profile.useCases} />
+          </section>
+
+          <section class="flex flex-col gap-4" aria-labelledby="tool-pricing">
+            <h2 id="tool-pricing" class={h2}>{tp.pricing}</h2>
+            <ToolPricing profile={profile} lang={lang} hub={hub} />
+          </section>
+        </>
+      )
+    }
 
     <section class="flex flex-col gap-4" aria-labelledby="current-deals">
-      <h2 id="current-deals" class="text-xl font-semibold tracking-tight">{t.currentDeals}</h2>
+      <h2 id="current-deals" class={h2}>{t.currentDeals}</h2>
       {
         current.length > 0 ? (
           <div data-live-list class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -90,7 +156,7 @@ const jsonLd = [
             ))}
           </div>
         ) : (
-          <NoDeals message={t.noLiveDeals} href={localePath(lang, "deals")} label={hub.nav.deals} />
+          <ToolNoDeals message={t.noLiveDeals} href={localePath(lang, "deals")} label={hub.nav.deals} />
         )
       }
     </section>
@@ -98,7 +164,7 @@ const jsonLd = [
     {
       archive.length > 0 && (
         <section class="flex flex-col gap-4" aria-labelledby="past-deals">
-          <h2 id="past-deals" class="text-xl font-semibold tracking-tight">
+          <h2 id="past-deals" class={h2}>
             {t.pastDeals}
           </h2>
           <DealTimeline deals={archive} lang={lang} hub={hub} />
@@ -107,16 +173,44 @@ const jsonLd = [
     }
 
     {
+      profile && Body && (
+        <section aria-label={tp.overview} class={profileProse}>
+          <Body />
+        </section>
+      )
+    }
+
+    {
+      profile && (
+        <section class="flex flex-col gap-4" aria-labelledby="tool-faq">
+          <h2 id="tool-faq" class={h2}>{faqTitle}</h2>
+          <div class="max-w-3xl">
+            <FaqAccordion client:visible items={faq} />
+          </div>
+        </section>
+      )
+    }
+
+    {
       related.length > 0 && (
         <section class="flex flex-col gap-4" aria-labelledby="related-tools">
-          <h2 id="related-tools" class="text-xl font-semibold tracking-tight">
-            {hub.categories[tool.category]}
+          <h2 id="related-tools" class={h2}>
+            {profile ? alternativesTitle : hub.categories[tool.category]}
           </h2>
           <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((r) => (
               <ToolCard tool={r} liveCount={liveByTool[r.slug] ?? 0} lang={lang} hub={hub} />
             ))}
           </div>
+        </section>
+      )
+    }
+
+    {
+      profile && (
+        <section class="flex flex-col gap-4" aria-labelledby="tool-sources">
+          <h2 id="tool-sources" class={h2}>{tp.sources}</h2>
+          <ToolSources sources={profile.sources} reviewedAt={profile.reviewedAt} lang={lang} hub={hub} />
         </section>
       )
     }

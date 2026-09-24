@@ -1,21 +1,21 @@
 {
   "meta": {
-    "title": "Claudeのピーク時間と最新AIセール情報 | PromoClock",
-    "description": "Claudeのピーク時間をリアルタイムで表示。Claudeの利用上限の最新変更と、100のAIツールの学生向け特典やキャンペーンを、情報源とカウントダウン付きで確認できます。",
-    "ogTitle": "Claudeのピーク時間とAIセール情報をライブで",
-    "ogDescription": "いまClaudeはピーク時間？利用上限はどう変わった？どのAIツールでキャンペーン中？すべてをひとつの時計で。"
+    "title": "Claudeのピーク時間帯とAI特典 | PromoClock",
+    "description": "Claudeが今ピーク時間帯かをすぐに確認。Claudeの上限変更の最新情報や、AIツール100種の確認済み特典・学生向け特典もチェックできます。",
+    "ogTitle": "Claudeのピーク時間帯と確認済みのAI特典",
+    "ogDescription": "Claudeは今ピーク時間帯？　上限はどう変わった？　キャンペーン中のAIツールは？　すべてひとつの時計でわかります。"
   },
   "notifications": {
-    "peakTitle": "Claudeのピーク時間が始まりました",
-    "peakBody": "ピーク時間が終わるまで、セッション上限の消費が速くなります。",
-    "offPeakTitle": "Claudeはオフピークです",
-    "offPeakBody": "セッション上限の消費が通常の速さに戻りました。"
+    "peakTitle": "Claudeのピーク時間帯が始まりました",
+    "peakBody": "ピーク時間帯が終わるまで、セッション上限の消費が早くなります。",
+    "offPeakTitle": "Claudeのピーク時間帯が終わりました",
+    "offPeakBody": "セッション上限の消費ペースが通常に戻りました。"
   },
   "schedule": {
     "tableHeaders": {
       "city": "都市",
       "timezone": "タイムゾーン",
-      "peakHours": "ピーク時間",
+      "peakHours": "ピーク時間帯",
       "offPeakHours": "オフピーク"
     },
     "weekendLabel": "週末は終日オフピークです。"
@@ -24,52 +24,52 @@
     "title": "よくある質問",
     "items": [
       {
-        "question": "Claudeのピーク時間はいつですか？",
-        "answer": "Claudeのピーク時間は平日の13:00〜19:00（UTC）です。平日の夕方以降・深夜と、週末は終日オフピークです。"
+        "question": "Claudeのピーク時間帯はいつですか？",
+        "answer": "平日の13:00〜19:00 UTCです。それ以外の時間帯は、週末も含めてすべてオフピークです。"
       },
       {
-        "question": "ピーク時間中はどうなりますか？",
-        "answer": "Free、Pro、Max、Teamプランでは、5時間のセッション上限が通常より速く消費されます。週間上限は変わりません。"
+        "question": "ピーク時間帯には何が起きますか？",
+        "answer": "Free、Pro、Max、Teamプランで、5時間のセッション上限の消費が通常より早くなります。週間上限は変わりません。"
       },
       {
-        "question": "いまClaudeはピーク時間ですか？",
-        "answer": "このページ上部のライブ時計で、あなたのタイムゾーンでの現在の状態と次の切り替えまでのカウントダウンを確認できます。開発者は GET /api/status でも取得できます。"
+        "question": "Claudeは今ピーク時間帯ですか？",
+        "answer": "このページ上部のライブ時計で確認できます。現在の状態、現地時間に換算したピーク時間帯、次の切り替わりまでのカウントダウンを表示しています。開発者はGET /api/statusでも取得できます。"
       },
       {
-        "question": "どのClaudeプランが対象ですか？",
-        "answer": "Free、Pro、Max、Teamです。Enterpriseプランは対象外で、ProとMaxのClaude Codeは2026年5月6日から対象外になっています。"
+        "question": "対象となるClaudeのプランは？",
+        "answer": "Free、Pro、Max、Teamです。Enterpriseプランは対象外で、ProとMaxのClaude Codeも2026年5月6日から対象外になっています。"
       },
       {
-        "question": "2026年9月14日にClaude Codeの上限はどう変わりましたか？",
-        "answer": "Claude Codeの標準の週間上限が、キャンペーン前の水準より恒久的に25%引き上げられました。一時的な+50%の増量は同じ日に終了したため、ヘビーユーザーの週間容量はキャンペーン中より約17%少なくなっています。"
+        "question": "2026年9月14日、Claude Codeの上限はどう変わりましたか？",
+        "answer": "Claude Codeの標準の週間上限が、キャンペーン前より25%高い水準で恒久化されました。一時的な+50%の引き上げは同じ日に終了したため、ヘビーユーザーが1週間に使える量はキャンペーン中より約17%少なくなっています。"
       },
       {
-        "question": "Claudeの上限をもっと有効に使うには？",
-        "answer": "長時間の作業やトークンを多く使う処理は、平日のピーク時間を避けて、夜や週末など通常の速さで上限が消費される時間帯に実行しましょう。"
+        "question": "Claudeの上限を有効に使うには？",
+        "answer": "長時間の作業やトークンを大量に使う処理は、平日の13:00〜19:00 UTCを避けるか、週末に回しましょう。その時間帯ならセッション上限は通常のペースで消費されます。"
       },
       {
-        "question": "2026年3月のClaudeキャンペーンとは何でしたか？",
-        "answer": "2026年3月13日〜27日、ClaudeはFree、Pro、Max、Teamプランを対象に、平日のピーク時間外と週末終日のセッション上限を2倍にしました。"
+        "question": "2026年3月のClaudeキャンペーンはどんな内容でしたか？",
+        "answer": "2026年3月13日〜27日の期間、ClaudeはFree、Pro、Max、Teamプランを対象に、平日のピーク時間帯以外と週末終日のセッション上限を2倍にしました。"
       },
       {
-        "question": "PromoClockはAIセール情報をどう確認していますか？",
-        "answer": "すべての情報はヘルプセンターの記事や企業ブログなどの公式情報源にリンクし、最終確認日を表示しています。期限切れの特典はライブ一覧から自動的に外れます。"
+        "question": "PromoClockはAI特典をどう確認していますか？",
+        "answer": "すべての特典に、ヘルプセンターの記事、企業ブログ、ニュース記事など、公式または信頼できる出典へのリンクと最終確認日を表示しています。期限切れの特典は、実施中の一覧から自動的に外れます。"
       },
       {
         "question": "PromoClockはAnthropicと関係がありますか？",
-        "answer": "いいえ。PromoClockはOnur Şendereによる独立したプロジェクトです。一部の外部リンクはアフィリエイトリンクですが、掲載する特典の選定には一切影響しません。"
+        "answer": "いいえ。PromoClockはOnur Şendereによる独立したプロジェクトです。一部の外部リンクはアフィリエイトリンクですが、どの特典を掲載するかを左右することはありません。"
       }
     ]
   },
   "devTools": {
     "title": "開発者向けツール",
-    "subtitle": "Claudeのピーク時間の状態を、ターミナルやスクリプト、アプリで利用できます。",
+    "subtitle": "Claudeのピーク時間帯の状態を、ターミナルやスクリプト、アプリに組み込めます。",
     "apiTitle": "JSON API",
-    "apiDescription": "無料・CORS対応のエンドポイント。IPごとに1分あたり60リクエストまで。"
+    "apiDescription": "CORS対応の無料エンドポイント。IPごとに毎分60リクエストまで利用できます。"
   },
   "sponsors": {
-    "stackopticHeadline": "URLを貼り付けるだけで、全体像がわかる。",
-    "stackopticSub": "パフォーマンス、SEO、セキュリティ、AI可視性、技術スタック — 18モジュールを1回のスキャンで。",
+    "stackopticHeadline": "URLを貼るだけで、サイトのすべてがわかる",
+    "stackopticSub": "パフォーマンス、SEO、セキュリティ、AI検索での可視性、技術スタック。18のモジュールを1回のスキャンで。",
     "stackopticPromoBadge": "50%OFF",
     "stackopticPromo": "Soloプランの初月",
     "stackopticCode": "SOLO50",
@@ -77,56 +77,57 @@
   },
   "footer": {
     "crafted": "英国シュルーズベリーで、Claudeと一緒に心を込めて制作。",
-    "buymeacoffee": "タイムゾーンの計算が省けたら、コーヒーを1杯おごってください",
-    "disclaimer": "PromoClockは独立したプロジェクトであり、AnthropicおよびClaudeとは関係ありません。情報提供のみを目的としています。",
-    "rights": "© 2026 PromoClock. 制作：Onur Şendere"
+    "coffeeLead": "タイムゾーン計算の手間が省けたら",
+    "buymeacoffee": "コーヒーをおごる",
+    "disclaimer": "PromoClockは独立したプロジェクトであり、AnthropicおよびClaudeとは提携していません。掲載内容は情報提供のみを目的としています。",
+    "rights": "© 2026 PromoClock　制作：Onur Şendere"
   },
   "hub": {
     "nav": {
       "claude": "Claude Watch",
-      "deals": "AIセール",
+      "deals": "AI特典",
       "tools": "AIツール",
       "calendar": "カレンダー",
       "api": "API",
       "menu": "メニュー",
-      "language": "言語を変更",
-      "theme": "ダークモードを切り替え",
-      "about": "概要"
+      "language": "言語",
+      "theme": "ダークモード",
+      "about": "サイトについて"
     },
     "common": {
       "verified": "確認済み",
       "startsIn": "開始まで",
       "ended": "終了",
-      "ongoing": "実施中",
-      "visit": "{name}を開く",
+      "ongoing": "期限なし",
+      "visit": "{name}の公式サイトへ",
       "getDeal": "特典を受け取る",
       "details": "詳細",
       "code": "コード",
       "copy": "コピー",
       "copied": "コピーしました",
-      "affiliateNote": "一部のリンクはアフィリエイトリンクです。追加費用なしで当サイトに報酬が発生する場合がありますが、掲載する特典の選定には影響しません。",
-      "disclosureLink": "アフィリエイトについて",
+      "affiliateNote": "一部のリンクはアフィリエイトリンクです。経由して購入されると当サイトに報酬が入ることがありますが、お支払い額は変わらず、掲載する特典の選定にも影響しません。",
+      "disclosureLink": "アフィリエイト開示",
       "daysLeft": "残り{n}日",
       "hoursLeft": "残り{h}時間{m}分",
       "offer": "特典",
       "who": "対象",
       "ends": "終了日",
       "started": "開始日",
-      "regions": "地域",
-      "howToClaim": "受け取り方",
+      "regions": "対象地域",
+      "howToClaim": "申し込み方法",
       "goodToKnow": "注意事項",
       "related": "ほかの特典",
       "live": "実施中",
-      "sources": "情報源"
+      "sources": "出典"
     },
     "kinds": {
-      "limit-boost": "上限アップ",
+      "limit-boost": "上限の引き上げ",
       "limit-change": "上限の変更",
       "discount": "割引",
       "student": "学生向け特典",
       "free-trial": "無料トライアル",
       "launch": "リリース",
-      "seasonal": "季節セール"
+      "seasonal": "シーズンセール"
     },
     "categories": {
       "chat": "チャット・検索",
@@ -135,7 +136,7 @@
       "video": "動画・アバター",
       "audio": "音声・音楽",
       "writing": "ライティング・SEO",
-      "productivity": "生産性・会議",
+      "productivity": "仕事効率化・会議",
       "agents": "エージェント・自動化"
     },
     "claudeWatch": {
@@ -144,45 +145,45 @@
       "offPeak": "オフピーク",
       "livePromo": "実施中のClaudeキャンペーン",
       "promoEndsIn": "キャンペーン終了まで",
-      "peakNote": "ピーク時間は2026年3月27日に公式に説明されたのが最後で、現在もClaude.aiのチャット、Cowork、各アプリに適用されているとみられます。ProとMaxのClaude Codeは2026年5月6日から対象外です。",
-      "statusTitle": "Claudeの状態",
-      "peakShort": "上限の消費が速い",
-      "offPeakShort": "通常の上限",
-      "changesIn": "切り替えまで",
-      "peakWindow": "ピーク時間 · あなたの時刻",
-      "nextPeakWindow": "次のピーク · あなたの時刻",
+      "peakNote": "Anthropicがピーク時間帯を公式に説明したのは、2026年3月27日が最後です。現在もClaude.aiのチャット、Cowork、各アプリには適用されているとみられます。ProとMaxのClaude Codeは2026年5月6日から対象外です。",
+      "statusTitle": "今のClaude",
+      "peakShort": "上限の消費が早い",
+      "offPeakShort": "上限の消費は通常どおり",
+      "changesIn": "切り替わりまで",
+      "peakWindow": "ピーク時間帯（現地時間）",
+      "nextPeakWindow": "次のピーク（現地時間）",
       "whatsNew": "新着",
-      "info": "ピーク時間について"
+      "info": "ピーク時間帯について"
     },
     "home": {
-      "heroEyebrow": "ライブ · 毎日更新",
-      "heroTitle": "Claudeのピーク時間とAIセールをライブで",
-      "heroSubtitle": "Claudeの上限が速く減る時間帯を確認し、100のAIツールの確認済みキャンペーンを逃さずチェック。",
-      "ctaDeals": "実施中のセールを見る",
+      "heroEyebrow": "リアルタイム・毎日更新",
+      "heroTitle": "Claudeのピーク時間帯と確認済みのAI特典",
+      "heroSubtitle": "Claudeの上限の消費が早くなる時間帯と、AIツール100種の特典をまとめてチェック。",
+      "ctaDeals": "実施中の特典を見る",
       "ctaTools": "100のツールを見る",
       "statsLive": "実施中の特典",
-      "statsTools": "追跡中のAIツール",
+      "statsTools": "掲載中のAIツール",
       "statsDeadline": "次の締め切り",
       "statsLanguages": "対応言語",
       "sponsored": "スポンサー",
-      "dealsTitle": "実施中のAIセール",
-      "dealsSubtitle": "情報源とライブのカウントダウン付きの確認済み特典。",
+      "dealsTitle": "実施中のAI特典",
+      "dealsSubtitle": "出典とカウントダウン付きの確認済み特典。",
       "dealsCta": "すべての特典を見る",
-      "toolsTitle": "100のAIツールをひとつの時計で",
-      "toolsSubtitle": "ツールを開くと、実施中の特典と過去のキャンペーンを確認できます。",
+      "toolsTitle": "100のAIツールを、ひとつの時計で",
+      "toolsSubtitle": "ツールを開くと、料金、主な機能、代替ツール、実施中の特典を確認できます。",
       "toolsCta": "すべてのツールを見る",
       "historyTitle": "Claudeのキャンペーン履歴",
-      "historySubtitle": "Claudeの上限変更とキャンペーンを新しい順に掲載。",
-      "peakTitle": "Claudeのピーク時間まとめ",
-      "peakAnswer": "Claudeのピーク時間は平日の13:00〜19:00（UTC）です。この時間帯はFree、Pro、Max、Teamプランの5時間セッション上限が速く消費されますが、週間上限は変わりません。",
+      "historySubtitle": "Claudeの上限変更とキャンペーンを、新しい順にすべて掲載。",
+      "peakTitle": "Claudeのピーク時間帯まとめ",
+      "peakAnswer": "Claudeのピーク時間帯は平日の13:00〜19:00 UTCです。この時間帯は、Free、Pro、Max、Teamプランの5時間のセッション上限の消費が早くなります。週間上限は変わりません。",
       "peakFacts": [
         {
-          "label": "ピーク時間",
-          "value": "平日 13:00〜19:00 UTC"
+          "label": "ピーク時間帯",
+          "value": "平日13:00〜19:00 UTC"
         },
         {
           "label": "オフピーク",
-          "value": "夕方以降・深夜・週末"
+          "value": "平日のその他の時間帯と週末"
         },
         {
           "label": "週間上限",
@@ -198,13 +199,13 @@
         }
       ],
       "affectedPlans": "対象プラン",
-      "scheduleTitle": "あなたの都市のピーク時間"
+      "scheduleTitle": "都市別のピーク時間帯"
     },
     "deals": {
-      "metaTitle": "AIセールと学生向け特典（{month}） | PromoClock",
-      "metaDescription": "{month}の確認済みAIセール情報：学生向けChatGPT Plus・Google AI Proの無料特典、GitHub Copilot、Notionなどを、締め切りと公式情報源付きで紹介。",
-      "title": "実施中のAIセール",
-      "subtitle": "すべての特典を公式情報源と照合しています。期限切れの特典は自動的に外れます。",
+      "metaTitle": "{month}のAI特典・学生向け特典まとめ | PromoClock",
+      "metaDescription": "{month}の確認済みAI特典。学生向けのChatGPT Plus、Google AI Pro、GitHub Copilot、Notion Plus無料特典などを、期限と出典付きで紹介します。",
+      "title": "実施中のAI特典",
+      "subtitle": "すべての特典を、公式または信頼できる出典で確認しています。期限切れの特典は自動的に一覧から外れます。",
       "filterAll": "すべて",
       "live": "実施中",
       "upcoming": "近日開始",
@@ -212,76 +213,115 @@
       "empty": "現在、この条件に合う特典はありません。"
     },
     "tools": {
-      "metaTitle": "100のAIツール：キャンペーン・特典・上限 | PromoClock",
-      "metaDescription": "ChatGPTやClaudeからCursor、Canva、ElevenLabsまで、人気の100のAIツールのキャンペーン、学生向け特典、価格改定、利用上限のニュースを追跡。",
+      "metaTitle": "AIツール100選：特典・キャンペーン・上限 | PromoClock",
+      "metaDescription": "ChatGPTやClaudeからCursor、Canva、ElevenLabsまで、人気AIツール100種の特典、学生向け特典、料金改定、利用上限のニュースを追跡しています。",
       "title": "AIツール",
-      "subtitle": "よく使われている100のAIツール。ツールを開くと、実施中の特典とキャンペーン履歴を確認できます。",
+      "subtitle": "人気のAIツール100種。料金、代替ツール、よくある質問、実施中の特典をまとめています。",
       "filterAll": "すべて",
-      "withDeals": "実施中の特典のみ",
+      "withDeals": "特典実施中のみ",
       "searchPlaceholder": "ツールを検索…",
       "liveDeals": "{count}件実施中",
-      "noLiveDeals": "現在実施中の特典はありません。後日確認するか、すべての特典をご覧ください。",
+      "noLiveDeals": "現在実施中の特典はありません。後日あらためて確認するか、すべての特典をご覧ください。",
       "pastDeals": "過去のキャンペーン",
-      "toolMetaTitle": "{name}の特典・キャンペーン・上限（{month}） | PromoClock",
-      "toolMetaDescription": "{month}の{name}の特典、学生向けオファー、上限の変更を、公式情報源で確認し毎日更新しています。",
-      "currentDeals": "現在の特典",
+      "toolMetaTitle": "{name}の特典・キャンペーン（{month}） | PromoClock",
+      "toolMetaDescription": "{month}の{name}の特典、学生向け特典、上限の変更をまとめています。すべて公式または信頼できる出典で確認し、毎日更新しています。",
+      "currentDeals": "実施中の特典",
       "allTools": "すべてのツール",
       "empty": "検索条件に合うツールはありません。"
     },
+    "toolPage": {
+      "quickFacts": "基本情報",
+      "vendor": "提供元",
+      "category": "カテゴリー",
+      "platforms": "対応プラットフォーム",
+      "freePlan": "無料プラン",
+      "pricingFrom": "有料プラン",
+      "lastReviewed": "最終確認日",
+      "yes": "あり",
+      "no": "なし",
+      "notListed": "記載なし",
+      "perMonth": "月額{price}〜",
+      "perYear": "年額{price}〜",
+      "bestFor": "こんな人に",
+      "keyFeatures": "主な機能",
+      "useCases": "活用例",
+      "pricing": "料金",
+      "pricingAsOf": "{date}時点の料金",
+      "freeTrial": "無料トライアル",
+      "savingTips": "節約のコツ",
+      "overview": "概要",
+      "faq": "{name}のよくある質問",
+      "alternatives": "{name}の代替ツール",
+      "sources": "出典",
+      "reviewedOn": "最終確認日：{date}",
+      "platformNames": {
+        "web": "Web",
+        "ios": "iOS",
+        "android": "Android",
+        "macos": "macOS",
+        "windows": "Windows",
+        "linux": "Linux",
+        "vscode": "VS Code",
+        "jetbrains": "JetBrains IDE",
+        "cli": "コマンドライン",
+        "api": "API",
+        "browser-extension": "ブラウザ拡張機能"
+      }
+    },
     "calendar": {
       "metaTitle": "AIキャンペーンカレンダー：締め切りとセール | PromoClock",
-      "metaDescription": "AIキャンペーンの締め切り、学生向け特典の終了日、リリース、ブラックフライデーなどの季節セールをひとつのカレンダーで。",
+      "metaDescription": "AIキャンペーンの締め切り、学生向け特典の受付終了日、発表イベント、ブラックフライデーなどのセールをひとつのカレンダーで確認。予定を立てるのに便利です。",
       "title": "AIキャンペーンカレンダー",
-      "subtitle": "予定に入れておきたい締め切り、リリース、セール。",
+      "subtitle": "押さえておきたい締め切り、発表、セール。",
       "upcoming": "今後の予定",
-      "past": "過去",
-      "empty": "まだ予定はありません。"
+      "past": "過去の予定",
+      "empty": "予定はまだありません。"
     },
     "disclosure": {
-      "metaTitle": "アフィリエイトについて — PromoClock",
-      "metaDescription": "PromoClockでのアフィリエイトリンクの使い方と、掲載するAIセール情報の選び方。",
-      "title": "アフィリエイトについて",
+      "metaTitle": "アフィリエイト開示 | PromoClock",
+      "metaDescription": "PromoClockは一部のリンクから報酬を得ることがあります。アフィリエイトリンクの仕組みと、掲載するAI特典の選び方を説明します。",
+      "title": "アフィリエイト開示",
       "paragraphs": [
-        "PromoClockは独立したプロジェクトです。当サイトのAIツールへのリンクの一部はアフィリエイトリンクまたはパートナーリンクです。これらのリンクから登録や購入をされた場合、お客様に追加費用なしで当サイトに報酬が発生することがあります。",
-        "アフィリエイト関係によって掲載の可否が決まることはありません。各ツールの公式チャネルで一般公開されている特典を掲載し、元の情報源にリンクし、最終確認日を表示しています。",
-        "プロモーションコードは、ツール自身が公開したもの、またはそのパートナープログラムから提供されたものに限り掲載します。期限切れの特典はライブ一覧から自動的に削除されます。",
-        "ChatGPT、Gemini、Claude、Midjourneyなど、アフィリエイトプログラムのないツールもまったく同じ基準で掲載しています。PromoClockはAnthropicおよび掲載ツールのいずれとも関係ありません。",
-        "ご質問はXの@onursendereまでどうぞ。"
+        "PromoClockは独立したプロジェクトです。当サイトに掲載しているAIツールへのリンクの一部は、アフィリエイトリンクまたはパートナーリンクです。これらのリンクを経由して登録や購入をされた場合、当サイトが報酬を受け取ることがありますが、お客様の負担が増えることはありません。",
+        "アフィリエイト関係の有無で、特典を掲載するかどうかを決めることはありません。掲載するのは各ツールの公式チャネルで一般公開されている特典だけで、元の出典へのリンクと最終確認日を必ず併記しています。",
+        "プロモーションコードは、ツール自身が公開しているもの、またはそのパートナープログラムから提供されたものだけを掲載します。期限切れの特典は、実施中の一覧から自動的に削除されます。",
+        "ChatGPT、Gemini、Claude、Midjourneyなど、アフィリエイトプログラムのないツールもまったく同じ基準で掲載しています。PromoClockは、Anthropicおよび掲載しているいずれのツールとも提携していません。",
+        "ご質問はXの@onursendereまでお寄せください。"
       ]
     },
     "dealPage": {
-      "metaTitle": "{headline}（{month}） | PromoClock",
-      "faqTitle": "この特典についての質問",
-      "qAvailable": "この特典はまだ利用できますか？",
+      "metaTitle": "{headline} | PromoClock",
+      "faqTitle": "この特典に関する質問",
+      "qAvailable": "この特典は今も利用できますか？",
       "aLive": "はい。{date}時点で実施中で、{end}に終了します。",
-      "aOngoing": "はい。{date}時点で終了日の発表がない継続中のプログラムです。",
+      "aOngoing": "はい。{date}時点で実施中で、終了日は発表されていません。",
       "aUpcoming": "まだです。{start}に開始します。",
       "aEnded": "いいえ。{end}に終了しました。",
-      "qWho": "対象者は？",
-      "qHow": "どうすれば受け取れますか？",
+      "qWho": "対象となるのは誰ですか？",
+      "qHow": "どうすれば利用できますか？",
       "qChange": "何が変わりましたか？",
       "qWhen": "いつから適用されていますか？",
       "aWhen": "{date}からです。",
-      "qSource": "この情報の出典は？",
+      "qSource": "この情報の出典はどこですか？",
       "aSource": "{source}です。PromoClockが最後に確認したのは{date}です。"
     },
     "about": {
-      "metaTitle": "PromoClockについて：Claudeの上限とAIセールの追跡方法",
-      "metaDescription": "PromoClockの運営者、Claudeの上限変更やAIセールを公式情報源でどう確認しているか、サイトの更新頻度について。",
+      "metaTitle": "Claudeの上限とAI特典の追跡方法 | PromoClock",
+      "metaDescription": "PromoClockはOnur Şendereが運営しています。Claudeの上限変更やAI特典を公式または信頼できる出典でどう確認しているか、サイトの更新頻度を説明します。",
       "title": "PromoClockについて",
-      "intro": "PromoClockは、Claudeの利用上限と、人気の100のAIツールの確認済みキャンペーンを追跡する独立したサイトです。",
+      "intro": "PromoClockは、Claudeの利用上限と、人気のAIツール100種の確認済みキャンペーンを追跡する独立したサイトです。",
       "sections": [
         {
           "title": "確認方法",
-          "body": "すべての特典と上限の変更は、ヘルプセンターの記事、公式ブログ、企業自身のアカウントでの発表といった公式情報源にリンクしています。最終確認日を記録し、企業またはそのパートナープログラムが提供するコードのみを掲載しています。"
+          "body": "すべての特典と上限の変更には、公式または信頼できる出典へのリンクを付けています。出典は、ヘルプセンターの記事、公式ブログの投稿、企業自身のアカウントでの発表、そして上限に関するニュースでは信頼できる報道です。それぞれの最終確認日を記録し、コードは企業またはそのパートナープログラムが提供するものだけを掲載しています。"
         },
         {
           "title": "更新頻度",
-          "body": "サイトは毎日再生成されます。特典の状態は開始日と終了日から計算されるため、期限切れの特典はライブ一覧から自動的に外れます。ピーク時間の時計はブラウザ上でリアルタイムに動作します。"
+          "body": "サイトは毎日更新しています。特典のステータスは開始日と終了日から自動で判定されるため、期限切れの特典は実施中の一覧から自動的に外れます。ピーク時間帯の時計は、ブラウザ上でリアルタイムに動きます。"
         },
         {
           "title": "運営者",
-          "body": "PromoClockは、英国シュルーズベリーのひとりデジタルエージェンシーDigiwingsの創業者、Onur Şendereが開発・運営しています。Anthropicおよび掲載ツールのいずれとも関係ありません。"
+          "body": "PromoClockは、英国シュルーズベリーでひとりで運営するデジタルエージェンシーDigiwingsの創業者、Onur Şendereが開発・運営しています。Anthropicおよび掲載しているいずれのツールとも提携していません。"
         },
         {
           "title": "お問い合わせ",

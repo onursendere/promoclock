@@ -5,5 +5,5 @@ category: audio
 website: https://www.udio.com
 popularityRank: 78
 tagline:
-  en: "Create, remix and share songs made with AI."
+  en: "AI music app for creating, remixing and sharing songs."
 ---

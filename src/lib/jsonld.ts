@@ -1,6 +1,7 @@
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { localize, type DealRecord, type ToolRecord } from "@/lib/deals";
 import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
+import { SCHEMA_CATEGORY, operatingSystems, type ToolProfile } from "@/lib/profiles";
 
 /**
  * Schema.org nodes. Pages pass their own nodes to BaseLayout, which wraps them in a
@@ -104,15 +105,34 @@ export function itemListNode(name: string, items: { name: string; url: string }[
   };
 }
 
-export function softwareNode(tool: ToolRecord, lang: Locale, category: string): Node {
+/**
+ * The tool itself. With a profile it carries the verified facts; it never carries ratings or
+ * reviews, and an Offer only when a starting price was verified on the vendor's pricing page.
+ */
+export function softwareNode(tool: ToolRecord, lang: Locale, category: string, profile?: ToolProfile): Node {
+  const os = profile ? operatingSystems(profile.platforms) : "";
+  const price = profile?.pricing;
   return {
     "@type": "SoftwareApplication",
     name: tool.name,
-    applicationCategory: category,
-    operatingSystem: "Web",
+    applicationCategory: [SCHEMA_CATEGORY[tool.category], category],
+    ...(os ? { operatingSystem: os } : {}),
     url: tool.website,
-    description: localize(tool.tagline, lang),
+    description: profile?.summary ?? localize(tool.tagline, lang),
+    ...(profile ? { featureList: profile.keyFeatures.map((f) => f.name) } : {}),
     publisher: { "@type": "Organization", name: tool.vendor },
+    ...(price?.freePlan ? { isAccessibleForFree: true } : {}),
+    ...(price?.startingPrice !== undefined && price.currency
+      ? {
+          offers: {
+            "@type": "Offer",
+            price: price.startingPrice,
+            priceCurrency: price.currency,
+            category: "subscription",
+            url: tool.website,
+          },
+        }
+      : {}),
   };
 }
 

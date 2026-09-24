@@ -5,5 +5,5 @@ category: audio
 website: https://suno.com
 popularityRank: 10
 tagline:
-  en: "Generate full songs with vocals from a text prompt."
+  en: "Music generator that creates full songs with vocals from a text prompt."
 ---

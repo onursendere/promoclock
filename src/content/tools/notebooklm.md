@@ -2,8 +2,8 @@
 name: "NotebookLM"
 vendor: "Google"
 category: productivity
-website: https://notebooklm.google.com
+website: https://notebook.google
 popularityRank: 18
 tagline:
-  en: "Research notebook that answers from your own sources and makes audio overviews."
+  en: "Google's research notebook, now Gemini Notebook, that answers from your own sources."
 ---

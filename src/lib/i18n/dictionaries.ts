@@ -1,4 +1,5 @@
 import type { Locale } from "./config";
+import type { Platform } from "@/lib/deals";
 import en from "@/dictionaries/en.json";
 import hi from "@/dictionaries/hi.json";
 import ja from "@/dictionaries/ja.json";
@@ -32,7 +33,7 @@ export interface Dictionary {
     stackopticCode: Text;
     stackopticCta: Text;
   };
-  footer: { crafted: Text; buymeacoffee: Text; disclaimer: Text; rights: Text };
+  footer: { crafted: Text; coffeeLead: Text; buymeacoffee: Text; disclaimer: Text; rights: Text };
   hub: HubDictionary;
 }
 
@@ -134,6 +135,33 @@ export interface HubDictionary {
     currentDeals: Text;
     allTools: Text;
     empty: Text;
+  };
+  toolPage: {
+    quickFacts: Text;
+    vendor: Text;
+    category: Text;
+    platforms: Text;
+    freePlan: Text;
+    pricingFrom: Text;
+    lastReviewed: Text;
+    yes: Text;
+    no: Text;
+    notListed: Text;
+    perMonth: Text;
+    perYear: Text;
+    bestFor: Text;
+    keyFeatures: Text;
+    useCases: Text;
+    pricing: Text;
+    pricingAsOf: Text;
+    freeTrial: Text;
+    savingTips: Text;
+    overview: Text;
+    faq: Text;
+    alternatives: Text;
+    sources: Text;
+    reviewedOn: Text;
+    platformNames: Record<Platform, Text>;
   };
   calendar: { metaTitle: Text; metaDescription: Text; title: Text; subtitle: Text; upcoming: Text; past: Text; empty: Text };
   disclosure: { metaTitle: Text; metaDescription: Text; title: Text; paragraphs: Text[] };

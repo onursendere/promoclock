@@ -1,43 +1,43 @@
 {
   "deals": {
     "claude-code-weekly-plus25-permanent": {
-      "title": "Claude Code haftalık limitleri 14 Eylül 2026'dan itibaren kalıcı olarak +%25",
+      "title": "Claude Code haftalık limitleri: 14 Eylül 2026'dan itibaren kalıcı +%25",
       "headline": "Claude Code haftalık limitleri: kalıcı +%25",
       "value": "Haftalık +%25",
-      "audience": "Pro, Max, Team, koltuk bazlı Enterprise",
-      "summary": "14 Eylül 2026'dan beri standart Claude Code haftalık limitleri, promosyon öncesi seviyenin kalıcı olarak %25 üstünde. Geçici +%50 artış aynı gün sona erdi; bu yüzden yoğun kullanıcıların haftalık kapasitesi promosyon dönemine göre yaklaşık %17 daha düşük.",
+      "audience": "Pro, Max, Team, kullanıcı başı Enterprise",
+      "summary": "14 Eylül 2026'dan beri standart Claude Code haftalık limitleri kalıcı olarak promosyon öncesi seviyenin %25 üstünde. Geçici +%50 artış aynı gün sona erdi; bu yüzden Claude Code'u çok kullananların haftalık kapasitesi promosyon dönemine göre yaklaşık %17 daha az.",
       "scope": "Claude Code",
       "terms": [
         "Yalnızca Claude Code için geçerli; 5 saatlik limitler değişmedi.",
-        "100 tabanlı örnek: promosyondan önce 100, promosyon boyunca 150, 14 Eylül'den itibaren 125."
+        "100 birimlik taban üzerinden: promosyondan önce 100, promosyon sırasında 150, 14 Eylül'den itibaren 125."
       ]
     },
     "claude-code-weekly-plus50-2026": {
-      "title": "Claude Code haftalık limitlerinde +%50 promosyonu (13 Mayıs – 14 Eylül 2026)",
+      "title": "Claude Code haftalık limitleri: +%50 promosyonu (13 Mayıs – 14 Eylül 2026)",
       "headline": "Claude Code haftalık limitleri +%50",
       "value": "Haftalık +%50",
-      "audience": "Pro, Max, Team, koltuk bazlı Enterprise",
-      "summary": "Anthropic, 13 Mayıs 2026'dan itibaren Claude Code haftalık limitlerini %50 artırdı; artış CLI, IDE eklentileri, masaüstü ve web'de otomatik uygulandı. 13 Temmuz'dan sonra uzatıldı ve 14 Eylül 2026'da kalıcı +%25 ile değiştirildi.",
+      "audience": "Pro, Max, Team, kullanıcı başı Enterprise",
+      "summary": "Anthropic, 13 Mayıs 2026'dan itibaren Claude Code haftalık limitlerini %50 artırdı. Artış CLI, IDE eklentileri, masaüstü ve web'de otomatik uygulandı, 13 Temmuz'dan sonra da uzatıldı ve 14 Eylül 2026'da yerini kalıcı +%25'e bıraktı.",
       "scope": "Claude Code"
     },
     "claude-cowork-june-2026-2x": {
-      "title": "Claude Cowork Haziran 2026 kullanım promosyonu: 5 saatlik limit iki katı",
-      "headline": "Claude Cowork 5 saatlik limiti iki katı",
+      "title": "Claude Cowork Haziran 2026 kullanım promosyonu: 5 saatlik limit iki katına çıktı",
+      "headline": "Claude Cowork'te 5 saatlik limit iki katı",
       "value": "2× 5 saatlik limit",
-      "audience": "Pro, Max, Team, eski Enterprise",
-      "summary": "Anthropic, 5 Haziran – 5 Temmuz 2026 arasında Claude Cowork içindeki 5 saatlik kullanım limitini iki katına çıkardı. Otomatik uygulandı; haftalık limitler değişmedi.",
+      "audience": "Pro, Max, Team, eski tip Enterprise",
+      "summary": "Anthropic, 5 Haziran – 5 Temmuz 2026 arasında Claude Cowork'teki 5 saatlik kullanım limitini iki katına çıkardı. Artış otomatik uygulandı; haftalık limitler değişmedi.",
       "scope": "Claude Cowork",
       "terms": [
-        "Free planlar ve kullanıma göre ücretlendirilen Enterprise koltukları kapsam dışıydı.",
-        "Web, masaüstü ve mobildeki Claude ile Claude Code değişmedi."
+        "Free planlar ve kullanıma göre ücretlendirilen Enterprise kullanıcıları kapsam dışıydı.",
+        "Web, masaüstü ve mobildeki Claude ile Claude Code'daki limitler değişmedi."
       ]
     },
     "claude-code-5h-limits-doubled": {
-      "title": "Claude Code 5 saatlik limitleri iki katına çıktı, yoğun saat kısıtı kaldırıldı (6 Mayıs 2026)",
-      "headline": "Claude Code 5 saatlik limitleri iki katı",
+      "title": "Claude Code'da 5 saatlik limitler iki katına çıktı, yoğun saat kısıtlaması kalktı (6 Mayıs 2026)",
+      "headline": "Claude Code'da 5 saatlik limitler iki katı",
       "value": "2× 5 saatlik limit",
-      "audience": "Pro, Max, Team, koltuk bazlı Enterprise",
-      "summary": "6 Mayıs 2026'da Anthropic, ücretli planlarda Claude Code'un 5 saatlik limitlerini kalıcı olarak iki katına çıkardı ve Pro ile Max'te Claude Code için yoğun saat kısıtını kaldırdı.",
+      "audience": "Pro, Max, Team, kullanıcı başı Enterprise",
+      "summary": "Anthropic, 6 Mayıs 2026'da ücretli planlarda Claude Code'un 5 saatlik limitlerini kalıcı olarak iki katına çıkardı ve Pro ile Max'te Claude Code için yoğun saat kısıtlamasını kaldırdı.",
       "scope": "Claude Code",
       "terms": [
         "Bu güncelleme haftalık limitleri değiştirmedi."
@@ -45,55 +45,55 @@
     },
     "claude-peak-hours-introduced": {
       "title": "Claude yoğun saatleri: oturum limitleri hafta içi 13:00–19:00 UTC arasında daha hızlı tükenir",
-      "headline": "Yoğun saatler: limitler hafta içi hızlı tükenir",
+      "headline": "Claude yoğun saatleri: limitler daha hızlı tükenir",
       "value": "13:00–19:00 UTC",
       "audience": "Free, Pro, Max, Team",
-      "summary": "27 Mart 2026'dan beri Claude'un 5 saatlik oturum limitleri hafta içi yoğun saatlerde (13:00–19:00 UTC) daha hızlı tükeniyor. Haftalık limitler değişmedi; akşamlar, geceler ve hafta sonları normal hızda.",
+      "summary": "27 Mart 2026'dan beri Claude'un 5 saatlik oturum limitleri hafta içi yoğun saatlerde (13:00–19:00 UTC) daha hızlı tükeniyor. Haftalık limitler değişmedi; bu aralığın dışında ve hafta sonu boyunca limitler normal hızda tükeniyor.",
       "scope": "Claude.ai, uygulamalar, Cowork",
       "terms": [
-        "Enterprise planları etkilenmez.",
+        "Enterprise planları etkilenmiyor.",
         "Pro ve Max'te Claude Code 6 Mayıs 2026'dan beri muaf."
       ]
     },
     "claude-march-2026-offpeak-2x": {
       "title": "Claude Mart 2026 promosyonu: yoğun olmayan saatlerde 2× limit",
-      "headline": "Yoğun olmayan saatlerde 2× limit",
-      "value": "Yoğun dışı 2×",
+      "headline": "Claude: yoğun olmayan saatlerde 2× limit",
+      "value": "Yoğun olmayan saatlerde 2×",
       "audience": "Free, Pro, Max, Team",
-      "summary": "Mart 2026'da iki hafta boyunca Claude, hafta içi yoğun saatler (08:00–14:00 ET) dışında ve hafta sonu boyunca oturum limitlerini iki katına çıkardı.",
+      "summary": "Mart 2026'da iki hafta boyunca Claude, oturum limitlerini hafta içi yoğun saatler (08:00–14:00 ET) dışında ve hafta sonu boyunca iki katına çıkardı.",
       "scope": "Tüm Claude platformları"
     },
     "chatgpt-plus-students-back-to-school-2026": {
-      "title": "ABD'deki üniversite öğrencilerine 4 ay ücretsiz ChatGPT Plus (2026 Okula Dönüş teklifi)",
+      "title": "ChatGPT Plus: ABD'deki üniversite öğrencilerine 4 ay ücretsiz (2026 Okula Dönüş teklifi)",
       "headline": "4 ay ücretsiz ChatGPT Plus",
       "value": "4 ay ücretsiz",
       "audience": "ABD'deki üniversite öğrencileri",
-      "summary": "Uygun ABD'li lisans ve lisansüstü öğrenciler, OpenAI'ın 2026 Okula Dönüş teklifiyle 80 $ değerinde 4 ay ücretsiz ChatGPT Plus alıyor. Son başvuru tarihi 31 Ekim 2026.",
+      "summary": "Koşulları sağlayan ABD'li lisans ve lisansüstü öğrenciler, OpenAI'ın 2026 Okula Dönüş teklifiyle $80 değerindeki 4 aylık ChatGPT Plus'ı ücretsiz alıyor. Son tarih 31 Ekim 2026.",
       "steps": [
         "Yükseltmek istediğin ChatGPT hesabına giriş yap.",
-        "chatgpt.com/students/2026 adresini aç ve öğrenci kaydını SheerID ile doğrula.",
-        "Teklifi onayla. 4 ücretsiz fatura dönemi için ücret alınmaz."
+        "chatgpt.com/students/2026 adresini aç ve öğrenciliğini SheerID ile doğrula.",
+        "Teklifi onayla. 4 ücretsiz fatura dönemi boyunca ücret alınmaz."
       ],
       "terms": [
-        "İptal etmezsen sonrasında aylık 20 $ ile yenilenir.",
+        "İptal etmezsen sonrasında aylık $20 üzerinden yenilenir.",
         "Yalnızca bir kez kullanılabilir.",
-        "App Store veya Google Play üzerinden faturalanan aboneliklerde geçerli değil."
+        "App Store veya Google Play üzerinden faturalandırılıyorsan geçerli değil."
       ]
     },
     "google-ai-pro-students-2026": {
-      "title": "Öğrencilere bir yıl ücretsiz Google AI Pro (140+ pazarda AI Plus)",
+      "title": "Google AI Pro: öğrencilere 1 yıl ücretsiz (140+ pazarda AI Plus)",
       "headline": "12 ay ücretsiz Google AI Pro",
       "value": "12 ay ücretsiz",
       "audience": "ABD ve 140+ pazardaki öğrenciler",
-      "summary": "Uygun ABD'li üniversite öğrencileri, daha yüksek Gemini limitleri ve 5 TB depolama içeren Google AI Pro'yu bir yıl ücretsiz alıyor. 140'tan fazla diğer pazardaki öğrenciler bir yıl ücretsiz Google AI Plus alıyor. Son tarih 31 Aralık 2026.",
+      "summary": "Koşulları sağlayan ABD'li üniversite öğrencileri, daha yüksek Gemini limitleri ve 5 TB depolama sunan Google AI Pro'yu bir yıl ücretsiz alıyor. 140'tan fazla diğer pazardaki öğrencilere ise bir yıl ücretsiz Google AI Plus veriliyor. Son tarih 31 Aralık 2026.",
       "steps": [
-        "one.google.com/ai-student adresini veya gemini.google.com/students öğrenci merkezini aç.",
-        "Kişisel bir Google Hesabıyla öğrenci durumunu SheerID üzerinden doğrula.",
+        "one.google.com/ai-student adresini ya da gemini.google.com/students öğrenci sayfasını aç.",
+        "Kişisel Google Hesabınla öğrenciliğini SheerID üzerinden doğrula.",
         "Ücretsiz 12 ayı başlatmak için bir ödeme yöntemi ekle."
       ],
       "terms": [
-        "İptal etmezsen 12 ayın sonunda faturalandırma başlar.",
-        "AI Plus teklifi ABD, Bolivya, Arnavutluk, Kanada, Makao, Hong Kong ve Tunus'u kapsamaz."
+        "İptal etmezsen 12 ayın sonunda ücretlendirme başlar.",
+        "AI Plus teklifi ABD, Bolivya, Arnavutluk, Kanada, Makao, Hong Kong ve Tunus'ta geçerli değil."
       ]
     },
     "github-copilot-student-plan": {
@@ -101,16 +101,16 @@
       "headline": "Öğrencilere ücretsiz GitHub Copilot",
       "value": "Ücretsiz",
       "audience": "Doğrulanmış GitHub Education öğrencileri",
-      "summary": "Doğrulanmış öğrenciler Copilot Student planıyla GitHub Copilot'u ücretsiz kullanıyor: sınırsız kod tamamlama ve sohbet ile ajanlar için aylık AI kredisi.",
+      "summary": "Doğrulanmış öğrenciler Copilot Student planıyla GitHub Copilot'u ücretsiz kullanıyor: sınırsız kod tamamlama, üstüne sohbet ve ajanlar için aylık AI kredisi.",
       "steps": [
         "GitHub Education'a öğrenci olarak başvur.",
         "Doğrulandıktan sonra github.com/settings/education/benefits sayfasını aç.",
-        "Öğrenci geliştirici kaynakları altından Copilot'u etkinleştir."
+        "Öğrenci geliştirici kaynakları altında Copilot'u etkinleştir."
       ],
       "terms": [
         "GitHub uygunluğu her ay yeniden kontrol eder.",
-        "Etkinleştirme doğrulamadan sonra birkaç gün sürebilir.",
-        "Modeller otomatik model seçimiyle belirlenir."
+        "Etkinleştirme, doğrulamadan sonra birkaç gün sürebilir.",
+        "Modeli otomatik model seçimi belirler."
       ]
     },
     "perplexity-education-pro": {
@@ -118,26 +118,26 @@
       "headline": "Öğrencilere indirimli Perplexity Pro",
       "value": "İndirimli Pro",
       "audience": "Doğrulanmış öğrenci ve eğitimciler",
-      "summary": "Doğrulanmış öğrenci ve eğitimciler Education Pro'ya geçebilir: premium modeller, sınırsız Pro Arama ve Learn Mode dahil Perplexity Pro'daki her şey, normal fiyatın altında.",
+      "summary": "Doğrulanmış öğrenci ve eğitimciler Education Pro'ya geçebilir: premium modeller, sınırsız Pro Search ve Learn Mode dahil Perplexity Pro'daki her şey, normal fiyatından indirimli.",
       "steps": [
-        "Perplexity uygulamasında Upgrade'i aç.",
+        "Perplexity uygulamasında Upgrade bölümünü aç.",
         "Education planına geç.",
-        "Verify as student'ı seç ve doğrulamayı tamamla."
+        "Verify as student seçeneğine dokun ve doğrulamayı tamamla."
       ]
     },
     "notion-education-plus-free": {
       "title": "Öğrenci ve eğitimcilere ücretsiz Notion Plus planı",
       "headline": "Öğrencilere ücretsiz Notion Plus",
-      "value": "Ücretsiz Plus plan",
-      "audience": "Öğrenciler & eğitimciler",
-      "summary": "Uygun bir okul e-postasıyla kaydolan öğrenci ve eğitimciler, tek kullanıcılık Notion Plus planını ücretsiz alıyor: daha fazla misafir, daha uzun sürüm geçmişi ve daha büyük dosya yüklemeleri.",
+      "value": "Ücretsiz Plus planı",
+      "audience": "Öğrenci ve eğitimciler",
+      "summary": "Uygun bir okul e-postasıyla kaydolan öğrenci ve eğitimciler, Notion'ın Plus planını tek üye için ücretsiz alıyor: daha fazla misafir, daha uzun sürüm geçmişi ve daha büyük dosya yüklemeleri.",
       "steps": [
         "Okul e-postanı Notion hesabının ana e-postası yap.",
-        "Settings'i, ardından Billing'i aç.",
-        "Get free Education plan'ı seç."
+        "Settings, ardından Billing bölümünü aç.",
+        "Get free Education plan seçeneğini seç."
       ],
       "terms": [
-        "Öğrenci durumunu yılda bir kez yeniden doğrula.",
+        "Öğrenciliğini yılda bir kez yeniden doğrulaman gerekir.",
         "Yalnızca .edu değil, binlerce okul alan adı uygun."
       ]
     },
@@ -146,127 +146,127 @@
       "headline": "Öğrencilere ücretsiz Cursor Pro (kapandı)",
       "value": "1 yıl ücretsiz",
       "audience": "Doğrulanmış üniversite öğrencileri",
-      "summary": "Cursor'ın öğrenci programı, doğrulanmış üniversite öğrencilerine bir yıl ücretsiz Cursor Pro veriyordu. Program 25 Haziran 2026'da yeni kayıtlara kapandı; daha önce yararlananlar planları bitene kadar mevcut fiyatlarını korur.",
+      "summary": "Cursor'ın öğrenci programı, doğrulanmış üniversite öğrencilerine bir yıl ücretsiz Cursor Pro veriyordu. Program 25 Haziran 2026'da yeni kayıtlara kapandı; teklifi daha önce alan öğrenciler planları bitene kadar aynı fiyattan yararlanmaya devam ediyor.",
       "terms": [
-        "Öğrenciler kampüs içi ve çevrim içi etkinliklerde hâlâ kredi alabilir.",
+        "Öğrenciler kampüsteki ve çevrim içi etkinliklerde hâlâ kredi alabiliyor.",
         "Ücretsiz Hobby planı kullanılmaya devam ediyor."
       ]
     }
   },
   "tools": {
-    "adobe-firefly": { "tagline": "Görsel, video ve ses için Adobe'nin üretken AI uygulaması." },
-    "base44": { "tagline": "Sohbetle, hazır backend, kimlik doğrulama ve barındırmalı uygulamalar oluştur." },
-    "beautiful-ai": { "tagline": "Kendi tasarımını yapan akıllı slaytlarla AI sunum yazılımı." },
-    "bolt": { "tagline": "Tarayıcıda full-stack uygulamaları prompt ile oluştur, çalıştır, düzenle ve yayınla." },
+    "adobe-firefly": { "tagline": "Adobe'nin görsel, video ve ses için üretken AI uygulaması." },
+    "base44": { "tagline": "Backend, kimlik doğrulama ve barındırması hazır, sohbetle çalışan uygulama oluşturucu." },
+    "beautiful-ai": { "tagline": "Kendi kendini tasarlayan akıllı slaytlarıyla AI sunum yazılımı." },
+    "bolt": { "tagline": "Full-stack uygulamaları tarayıcıda oluşturup çalıştıran ve yayına alan AI aracı." },
     "canva": { "tagline": "AI görsel üretimi, Magic Design ve marka kitleri sunan çevrim içi tasarım platformu." },
-    "capcut": { "tagline": "AI altyazı, efektler ve metinden videoya araçları olan video düzenleyici." },
-    "captions": { "tagline": "Ham çekimleri altyazılı, bitmiş videolara dönüştüren AI video editörü." },
-    "character-ai": { "tagline": "AI karakterlerle sohbet et, rol yap ya da kendi karakterini oluştur." },
+    "capcut": { "tagline": "AI altyazılar, efektler ve metinden video araçları sunan video düzenleyici." },
+    "captions": { "tagline": "Ham çekimleri altyazılı, bitmiş videolara dönüştüren AI video düzenleyici." },
+    "character-ai": { "tagline": "Kendi oluşturdukların dahil AI karakterlerle sohbet ve rol yapma uygulaması." },
     "chatgpt": { "tagline": "OpenAI'ın sohbet, arama, görsel, ses ve ajanlar için genel amaçlı AI asistanı." },
-    "claude": { "tagline": "Anthropic'in yazı, analiz ve kodlama için AI asistanı — Claude Code ve Cowork dahil." },
-    "clickup": { "tagline": "Görevler, dokümanlar ve sohbet için AI destekli hepsi bir arada iş uygulaması." },
-    "cline": { "tagline": "Kendi model anahtarlarınla çalışan, VS Code ve JetBrains için açık kaynak kodlama ajanı." },
-    "codex": { "tagline": "OpenAI'ın terminal, IDE ve bulut için kodlama ajanı." },
+    "claude": { "tagline": "Anthropic'in yazma, analiz ve kodlama için AI asistanı; Claude Code ve Cowork dahil." },
+    "clickup": { "tagline": "Görevler, dokümanlar ve sohbet için AI destekli, hepsi bir arada iş uygulaması." },
+    "cline": { "tagline": "VS Code ve JetBrains için, kendi model anahtarlarınla çalışan açık kaynak kodlama ajanı." },
+    "codex": { "tagline": "OpenAI'ın terminalde, IDE'de ve bulutta çalışan kodlama ajanı." },
     "copy-ai": { "tagline": "Pazarlama içerikleri ve satış metinleri için AI iş akışları." },
-    "cursor": { "tagline": "Kodu planlayan, düzenleyen ve çalıştıran ajanlara sahip AI öncelikli kod editörü." },
+    "cursor": { "tagline": "Kodu planlayan, düzenleyen ve çalıştıran ajanlara sahip, AI öncelikli kod editörü." },
     "deepl": { "tagline": "Doğal çevirileriyle bilinen AI çevirmen ve yazma asistanı." },
-    "deepseek": { "tagline": "Ücretsiz web ve mobil asistanı olan açık ağırlıklı sohbet ve akıl yürütme modelleri." },
-    "descript": { "tagline": "Videoyu ve podcast'i transkripti düzenleyerek düzenle." },
-    "devin": { "tagline": "Görevleri üstlenip pull request açan otonom AI yazılım mühendisi." },
-    "elevenlabs": { "tagline": "Gerçekçi AI sesleri, dublaj, konuşmadan metne ve sesli ajanlar." },
+    "deepseek": { "tagline": "Ücretsiz web ve mobil asistanı da olan açık ağırlıklı sohbet ve akıl yürütme modelleri." },
+    "descript": { "tagline": "Transkript üzerinden kurgu yapılan video ve podcast düzenleyici." },
+    "devin": { "tagline": "Görev kayıtlarını üstlenip pull request açan otonom AI yazılım mühendisi." },
+    "elevenlabs": { "tagline": "Gerçekçi AI sesler, dublaj, konuşmadan metne ve sesli ajanlar." },
     "fathom": { "tagline": "Ücretsiz planı, anında özetleri ve CRM senkronizasyonu olan AI toplantı asistanı." },
     "fireflies": { "tagline": "Toplantıları kaydeden, yazıya döken ve özetleyen AI not alıcı." },
-    "frase": { "tagline": "Araştırma, içerik brifleri ve optimize makaleler için AI SEO içerik aracı." },
-    "freepik": { "tagline": "Stok içeriklerin yanında görsel, video ve büyütme için AI araç seti." },
-    "gamma": { "tagline": "Tek bir prompt'tan sunum, doküman ve web sitesi oluştur." },
-    "gemini": { "tagline": "Google'ın Arama, Android ve Google Workspace'e entegre AI asistanı." },
-    "genspark": { "tagline": "Araştırma, sunum, tablo ve aramalar için AI ajan çalışma alanı." },
-    "github-copilot": { "tagline": "Editöründe ve GitHub'da çalışan AI eşli programcı ve kodlama ajanı." },
-    "google-ai-studio": { "tagline": "Gemini modellerini dene, API anahtarı al ve tarayıcıda uygulama geliştir." },
-    "google-flow": { "tagline": "Veo video modelleri üzerine kurulu Google'ın AI film yapım aracı." },
-    "grammarly": { "tagline": "Uygulamalar arasında dilbilgisi, ton ve yeniden yazım için AI yazım asistanı." },
-    "granola": { "tagline": "Toplantıya bot eklemeden notlarını düzenli özetlere dönüştüren AI not defteri." },
+    "frase": { "tagline": "Araştırma, içerik brifi ve optimize edilmiş makaleler için AI SEO içerik aracı." },
+    "freepik": { "tagline": "Görsel, video ve büyütme için AI araçları sunan stok içerik platformu; yeni adı Magnific." },
+    "gamma": { "tagline": "Tek bir prompt'tan başlayan sunum, doküman ve web sitesi oluşturucu." },
+    "gemini": { "tagline": "Google'ın Arama, Android ve Google Workspace'e yerleşik AI asistanı." },
+    "genspark": { "tagline": "Araştırma, sunum, tablo ve telefon aramaları için AI ajan çalışma alanı." },
+    "github-copilot": { "tagline": "Editöründe ve GitHub'da yanında çalışan AI kodlama ortağı ve ajanı." },
+    "google-ai-studio": { "tagline": "Gemini modelleri, API anahtarları ve vibe coding için Google'ın tarayıcı tabanlı ortamı." },
+    "google-flow": { "tagline": "Google'ın Veo video modelleri üzerine kurulu AI film yapım aracı." },
+    "grammarly": { "tagline": "Tüm uygulamalarda dil bilgisi, ton ve yeniden yazma için AI yazma asistanı." },
+    "granola": { "tagline": "Toplantıya bot sokmadan notlarını düzenli özetlere dönüştüren AI not defteri." },
     "grok": { "tagline": "xAI'ın X'e gerçek zamanlı erişimi, görsel üretimi ve ses modu olan asistanı." },
-    "gumloop": { "tagline": "Araçların arasında AI otomasyonları ve ajanları için kodsuz platform." },
+    "gumloop": { "tagline": "Kullandığın araçlar genelinde AI otomasyonları ve ajanlar için kodsuz platform." },
     "hailuo": { "tagline": "MiniMax'in metinden ve görselden video üreticisi." },
     "heygen": { "tagline": "AI avatar videoları, çeviri ve dudak senkronlu dublaj." },
     "higgsfield": { "tagline": "Kamera hareketi hazır ayarlarıyla sinematik AI görsel ve video üretimi." },
     "hugging-face": { "tagline": "Açık AI modelleri, veri setleri ve Spaces demoları için merkez." },
-    "ideogram": { "tagline": "Görsellerdeki metinleri doğru yazmasıyla bilinen AI görsel üretici." },
-    "invideo": { "tagline": "Prompt ve senaryoları stok ve AI görüntülerle düzenlenmiş videolara dönüştür." },
-    "jasper": { "tagline": "Marka sesiyle çalışan, pazarlama ekipleri için AI içerik platformu." },
+    "ideogram": { "tagline": "Görsellerdeki metni doğru yazmasıyla bilinen AI görsel üretici." },
+    "invideo": { "tagline": "Prompt ve senaryoları stok ve AI görüntülerle kurgulanmış videolara dönüştüren araç." },
+    "jasper": { "tagline": "Marka sesi etrafında kurgulanmış, pazarlama ekipleri için AI içerik platformu." },
     "jetbrains-ai": { "tagline": "JetBrains IDE'lerinde AI Assistant ve Junie kodlama ajanı." },
-    "kimi": { "tagline": "Uzun belgeler, derin araştırma ve ajan görevleri için Moonshot AI'ın asistanı." },
-    "kiro": { "tagline": "Prompt'ları önce spesifikasyona, sonra koda dönüştüren AWS'nin ajan tabanlı IDE'si." },
-    "kling": { "tagline": "Hareket kontrolüyle metinden videoya ve görselden videoya üretim." },
+    "kimi": { "tagline": "Moonshot AI'ın uzun belgeler, derin araştırma ve ajan görevleri için asistanı." },
+    "kiro": { "tagline": "Prompt'ları önce spesifikasyona, sonra koda dönüştüren, AWS'nin ajan tabanlı IDE'si." },
+    "kling": { "tagline": "Hareket kontrollü, metinden ve görselden video üretimi." },
     "krea": { "tagline": "Gerçek zamanlı AI görsel ve video üretimi, büyütme ve düzenleme." },
     "krisp": { "tagline": "Görüşmeler için AI gürültü engelleme, aksan dönüştürme ve toplantı notları." },
-    "leonardo": { "tagline": "İçerik üreticileri ve oyun varlıkları için AI görsel ve video üretimi." },
-    "lindy": { "tagline": "E-postanı, takvimini ve toplantılarını yöneten AI asistanları oluştur." },
-    "lovable": { "tagline": "AI ile sohbet ederek full-stack web uygulamaları geliştir." },
-    "luma": { "tagline": "Luma'nın Ray modelleriyle sinematik video ve görseller üret ve düzenle." },
+    "leonardo": { "tagline": "Yaratıcı işler ve oyun varlıkları için AI görsel ve video üretimi." },
+    "lindy": { "tagline": "E-postanı, takvimini ve toplantılarını yöneten AI asistanları oluşturma aracı." },
+    "lovable": { "tagline": "Sohbeti full-stack web uygulamasına dönüştüren AI uygulama oluşturucu." },
+    "luma": { "tagline": "Luma'nın Ray modelleri üzerine kurulu sinematik video ve görsel üretme ve düzenleme aracı." },
     "make": { "tagline": "İş akışları ve AI ajanları kurmak için görsel otomasyon platformu." },
     "manus": { "tagline": "Araştıran, geliştiren ve çok adımlı görevleri tamamlayan genel amaçlı AI ajanı." },
-    "meta-ai": { "tagline": "WhatsApp, Instagram, Facebook ve web'de Meta'nın AI asistanı." },
-    "microsoft-copilot": { "tagline": "Microsoft'un Windows, Edge ve Microsoft 365'teki AI yardımcısı." },
-    "midjourney": { "tagline": "Yüksek kaliteli AI görsel ve video üretimi." },
+    "meta-ai": { "tagline": "Meta'nın WhatsApp, Instagram, Facebook ve web'deki AI asistanı." },
+    "microsoft-copilot": { "tagline": "Microsoft'un Windows, Edge ve Microsoft 365 genelindeki AI yardımcısı." },
+    "midjourney": { "tagline": "İllüstrasyon, konsept çizim ve stilize görseller için AI görsel ve video üretici." },
     "mindstudio": { "tagline": "AI ajanları ve otomasyonlar için kodsuz geliştirme aracı." },
-    "mistral": { "tagline": "Mistral'ın web araması ve ajanları olan hızlı Avrupalı AI asistanı." },
+    "mistral": { "tagline": "Mistral AI'ın sohbet, iş görevleri ve kodlama için asistanı; 2026'da adı Vibe oldu." },
     "motion": { "tagline": "İş gününü senin yerine planlayan AI takvim ve proje yöneticisi." },
-    "murf": { "tagline": "Seslendirme, dublaj ve ses ajanları için AI ses üretici." },
-    "n8n": { "tagline": "AI ajanlarıyla iş akışı otomasyonu — kendi sunucunda ya da bulutta." },
-    "notebooklm": { "tagline": "Kendi kaynaklarından yanıt veren ve sesli özetler hazırlayan araştırma defteri." },
-    "notion": { "tagline": "Yerleşik AI ajanlarıyla dokümanlar, wikiler ve projeler için bağlantılı çalışma alanı." },
-    "opusclip": { "tagline": "Uzun videoları AI ile paylaşıma hazır kısa kliplere dönüştür." },
-    "originality-ai": { "tagline": "Yayıncılar için intihal ve doğruluk kontrolü de sunan AI içerik dedektörü." },
+    "murf": { "tagline": "Seslendirme, dublaj ve sesli ajanlar için AI ses üretici." },
+    "n8n": { "tagline": "AI ajanlı iş akışı otomasyonu, kendi sunucunda ya da bulutta." },
+    "notebooklm": { "tagline": "Google'ın kendi kaynaklarından yanıt veren araştırma defteri; yeni adı Gemini Notebook." },
+    "notion": { "tagline": "Dokümanlar, wikiler ve projeler için yerleşik AI ajanlı, bağlantılı çalışma alanı." },
+    "opusclip": { "tagline": "Uzun videoları paylaşıma hazır kısa kliplere dönüştüren AI klip aracı." },
+    "originality-ai": { "tagline": "Yayıncılar için intihal ve doğruluk kontrolü de yapan AI içerik dedektörü." },
     "otter": { "tagline": "AI toplantı notları, transkripsiyon ve toplantı ajanları." },
     "perplexity": { "tagline": "Web'de arama yapıp kaynaklarını gösteren AI yanıt motoru." },
-    "photoroom": { "tagline": "AI ürün fotoğrafları: arka planı kaldır, stüdyo sahneleri üret." },
-    "picsart": { "tagline": "AI üretim, rötuş ve şablonlar sunan fotoğraf ve video editörü." },
-    "pictory": { "tagline": "Senaryo, makale ve uzun videoları kısa, markalı kliplere dönüştür." },
-    "pika": { "tagline": "Efektler, değiştirmeler ve anahtar karelerle eğlenceli AI video üretimi." },
-    "pixelcut": { "tagline": "Arka plan kaldırma, büyütme ve ürün çekimleri için AI fotoğraf editörü." },
+    "photoroom": { "tagline": "AI ürün fotoğrafları: arka plan kaldırma ve stüdyo sahnesi üretimi." },
+    "picsart": { "tagline": "AI üretim, rötuş ve şablonlar sunan fotoğraf ve video düzenleyici." },
+    "pictory": { "tagline": "Senaryo, makale ve uzun videoları kısa, markalı kliplere dönüştüren video aracı." },
+    "pika": { "tagline": "Efektler, nesne değiştirme ve anahtar karelerle eğlenceli AI video üretimi." },
+    "pixelcut": { "tagline": "Arka plan kaldırma, büyütme ve ürün çekimleri için AI fotoğraf düzenleyici." },
     "pixverse": { "tagline": "Hızlı klipler, efektler ve şablonlar için AI video üretici." },
-    "poe": { "tagline": "Tek abonelikle birçok AI modeli ve özel botla sohbet et." },
-    "quillbot": { "tagline": "Öğrenciler ve yazarlar için yeniden ifade etme, dilbilgisi kontrolü ve AI tespiti." },
-    "qwen": { "tagline": "Açık ağırlıklı Qwen modelleri üzerine kurulu Alibaba AI asistanı." },
+    "poe": { "tagline": "Birçok AI modeli ve özel botla sohbet için tek abonelik." },
+    "quillbot": { "tagline": "Öğrenciler ve yazarlar için yeniden ifade etme, dil bilgisi denetimi ve AI tespiti." },
+    "qwen": { "tagline": "Alibaba'nın açık ağırlıklı Qwen modelleri üzerine kurulu AI asistanı." },
     "reclaim": { "tagline": "Görevleri, alışkanlıkları ve toplantıları otomatik planlayan AI takvim." },
     "recraft": { "tagline": "Vektör illüstrasyonlar, ikonlar ve markaya uygun görseller için AI tasarım aracı." },
     "remini": { "tagline": "Bulanık, eski ve düşük çözünürlüklü fotoğrafları onaran AI fotoğraf iyileştirici." },
-    "remove-bg": { "tagline": "Fotoğraflar için tek tıkla AI arka plan kaldırma." },
-    "replit": { "tagline": "Uygulama geliştirip yayınlayan AI ajanlı bulut IDE." },
-    "riverside": { "tagline": "Stüdyo kalitesinde podcast ve videoyu uzaktan kaydet, AI ile düzenle." },
+    "remove-bg": { "tagline": "Tek tıkla AI arka plan kaldırma; bağımsız site 1 Aralık 2026'da kapanıyor." },
+    "replit": { "tagline": "Uygulama geliştirip yayına alan AI ajanlı bulut IDE." },
+    "riverside": { "tagline": "Podcast ve video için stüdyo kalitesinde uzaktan kayıt ve AI ile düzenleme." },
     "runway": { "tagline": "Film yapımcıları için üretken video modelleri ve düzenleme araçları." },
     "semrush": { "tagline": "AI görünürlük takibi ve içerik araçları sunan SEO ve pazarlama paketi." },
-    "speechify": { "tagline": "Doküman, web sayfası ve kitaplar için metinden sese okuyucu." },
+    "speechify": { "tagline": "Dokümanlar, web sayfaları ve kitaplar için metinden sese okuyucu." },
     "sudowrite": { "tagline": "Romancılar ve kurgu yazarları için AI yazma ortağı." },
-    "suno": { "tagline": "Bir metin prompt'undan vokalli tam şarkılar üret." },
-    "surfer": { "tagline": "Arama ve AI yanıtları için optimize eden SEO içerik editörü ve AI yazarı." },
+    "suno": { "tagline": "Tek bir metin prompt'undan vokalli, tam şarkılar üreten müzik aracı." },
+    "surfer": { "tagline": "Arama motorları ve AI yanıtları için optimize eden SEO içerik editörü ve AI yazar." },
     "synthesia": { "tagline": "Eğitim ve iş dünyası için stüdyo kalitesinde AI avatar videoları." },
     "tldv": { "tagline": "Zoom, Meet ve Teams için notlar ve CRM güncellemeleri sunan AI toplantı kaydedici." },
-    "turboscribe": { "tagline": "Ses ve videoyu metne ve altyazıya hızla çeviren AI transkripsiyon." },
-    "udio": { "tagline": "AI ile şarkı oluştur, remiksle ve paylaş." },
+    "turboscribe": { "tagline": "Ses ve videoyu hızla metne ve altyazıya çeviren AI transkripsiyon aracı." },
+    "udio": { "tagline": "Şarkı oluşturma, remiksleme ve paylaşma için AI müzik uygulaması." },
     "v0": { "tagline": "Vercel'in React ve Next.js arayüzleri için AI uygulama oluşturucusu." },
-    "veed": { "tagline": "AI altyazı, avatar ve ses temizleme sunan online video editörü." },
-    "warp": { "tagline": "Modern bir terminal etrafında kurulu ajan tabanlı geliştirme ortamı." },
-    "windsurf": { "tagline": "Kod tabanının tamamında çalışan AI Cascade'e sahip ajan tabanlı IDE." },
+    "veed": { "tagline": "AI altyazı, avatar ve ses temizleme sunan çevrim içi video düzenleyici." },
+    "warp": { "tagline": "Modern bir terminal üzerine kurulu, ajan tabanlı geliştirme ortamı." },
+    "windsurf": { "tagline": "Cognition'ın ajan tabanlı IDE'si; Haziran 2026'da adı Devin Desktop oldu." },
     "wispr-flow": { "tagline": "Konuşmanı her uygulamada temiz metne dönüştüren AI sesli dikte." },
     "wordtune": { "tagline": "Cümlelerini netleştiren AI yeniden yazma ve özetleme asistanı." },
-    "writesonic": { "tagline": "İçerik pazarlaması için AI yazım ve SEO/GEO platformu." },
-    "zapier": { "tagline": "İş akışları ve AI ajanlarıyla binlerce uygulamada işleri otomatikleştir." }
+    "writesonic": { "tagline": "İçerik pazarlaması için AI yazma ve SEO/GEO platformu." },
+    "zapier": { "tagline": "Binlerce uygulamayı iş akışları ve AI ajanlarıyla birbirine bağlayan otomasyon platformu." }
   },
   "events": {
     "chatgpt-students-deadline-2026": { "title": "4 ay ücretsiz ChatGPT Plus için son gün (ABD'deki öğrenciler)" },
     "black-friday-2026": {
       "title": "Black Friday 2026",
-      "description": "AI aboneliklerinde yılın en büyük indirim dönemi — genellikle önce yıllık planlar ve ömür boyu fırsatlar indirime girer."
+      "description": "AI aboneliklerinde yılın en büyük indirim dönemi. Genellikle önce yıllık planlar ve ömür boyu lisanslar indirime girer."
     },
     "cyber-monday-2026": {
       "title": "Cyber Monday 2026",
       "description": "Black Friday yazılım indirimlerinin çoğu için son gün."
     },
-    "google-ai-students-deadline-2026": { "title": "Bir yıl ücretsiz Google AI Pro / AI Plus için son gün (öğrenciler)" },
+    "google-ai-students-deadline-2026": { "title": "Bir yıl ücretsiz Google AI Pro veya AI Plus için son gün (öğrenciler)" },
     "claude-code-plus25-2026": { "title": "Claude Code haftalık limitleri: +%50 artış bitiyor, kalıcı +%25 başlıyor" },
-    "cursor-students-closed-2026": { "title": "Cursor, öğrencilere ücretsiz Pro yılını yeni kayıtlara kapatıyor" }
+    "cursor-students-closed-2026": { "title": "Cursor'ın öğrencilere ücretsiz Pro yılı yeni kayıtlara kapanıyor" }
   }
 }

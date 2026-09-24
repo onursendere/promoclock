@@ -5,5 +5,5 @@ category: video
 website: https://invideo.io
 popularityRank: 38
 tagline:
-  en: "Turn prompts and scripts into edited videos with stock and AI footage."
+  en: "Video maker that turns prompts and scripts into edited videos with stock and AI footage."
 ---

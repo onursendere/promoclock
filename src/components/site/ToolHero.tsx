@@ -15,10 +15,23 @@ import { format, type HubDictionary } from "@/lib/i18n/dictionaries";
 import { goPath, localize, type ToolRecord } from "@/lib/deals";
 import { localePath } from "@/lib/seo";
 
-export function ToolHero({ tool, lang, hub, liveCount }: { tool: ToolRecord; lang: Locale; hub: HubDictionary; liveCount: number }) {
+export function ToolHero({
+  tool,
+  lang,
+  hub,
+  liveCount,
+  summary,
+}: {
+  tool: ToolRecord;
+  lang: Locale;
+  hub: HubDictionary;
+  liveCount: number;
+  /** Profile summary (answer-first, 40–60 words); falls back to the one-line tagline. */
+  summary?: string;
+}) {
   return (
     <div className="border-b bg-muted/30">
-      <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-10 sm:px-6 sm:py-14">
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-5 px-4 py-8 sm:gap-6 sm:px-6 sm:py-10">
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
@@ -34,9 +47,9 @@ export function ToolHero({ tool, lang, hub, liveCount }: { tool: ToolRecord; lan
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
-        <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:gap-6">
           <ToolLogo slug={tool.slug} name={tool.name} size="lg" />
-          <div className="flex min-w-0 flex-1 flex-col gap-2">
+          <div className="flex min-w-0 flex-1 flex-col gap-3">
             <div className="flex flex-wrap items-center gap-2">
               <Badge variant="secondary">{hub.categories[tool.category]}</Badge>
               <Badge variant="outline">{tool.vendor}</Badge>
@@ -48,17 +61,19 @@ export function ToolHero({ tool, lang, hub, liveCount }: { tool: ToolRecord; lan
               )}
             </div>
             <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">{tool.name}</h1>
-            <p className="max-w-2xl text-lg text-pretty text-muted-foreground">{localize(tool.tagline, lang)}</p>
+            <p className="page-summary max-w-3xl text-base leading-relaxed text-pretty text-muted-foreground sm:text-lg">
+              {summary ?? localize(tool.tagline, lang)}
+            </p>
           </div>
-          <div className="flex flex-wrap gap-2 sm:flex-col sm:items-stretch">
-            <Button asChild>
+          <div className="flex w-full flex-col gap-2 sm:w-auto sm:shrink-0">
+            <Button asChild className="w-full sm:w-auto">
               <a href={goPath(tool.slug)} target="_blank" rel={tool.affiliate ? "sponsored noopener" : "noopener"}>
                 {format(hub.common.visit, { name: tool.name })}
                 <ArrowUpRight data-icon="inline-end" />
               </a>
             </Button>
             {tool.slug === "claude" && (
-              <Button variant="outline" asChild>
+              <Button variant="outline" asChild className="w-full sm:w-auto">
                 <a href={localePath(lang)}>
                   <Clock data-icon="inline-start" />
                   {hub.claudeWatch.badge}

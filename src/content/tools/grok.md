@@ -1,6 +1,6 @@
 ---
 name: "Grok"
-vendor: "xAI"
+vendor: "SpaceXAI"
 category: chat
 website: https://grok.com
 popularityRank: 5

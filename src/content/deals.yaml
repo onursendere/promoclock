@@ -14,7 +14,7 @@
   kind: limit-change
   featured: true
   title:
-    en: "Claude Code weekly limits permanently +25% from September 14, 2026"
+    en: "Claude Code weekly limits: permanent +25% from September 14, 2026"
   headline:
     en: "Claude Code weekly limits: +25% for good"
   value:
@@ -26,7 +26,7 @@
   scope:
     en: "Claude Code"
   terms:
-    - en: "Applies to Claude Code only; five-hour limits are unchanged."
+    - en: "Applies to Claude Code only; 5-hour limits are unchanged."
     - en: "On a baseline of 100: 100 before the promo, 150 during it, 125 from September 14."
   startsAt: 2026-09-14T00:00:00Z
   verifiedAt: 2026-09-16T00:00:00Z
@@ -37,7 +37,7 @@
   tool: claude
   kind: limit-boost
   title:
-    en: "Claude Code weekly limits +50% promotion (May 13 – September 14, 2026)"
+    en: "Claude Code weekly limits: +50% promotion (May 13 – September 14, 2026)"
   headline:
     en: "Claude Code weekly limits +50%"
   value:
@@ -45,7 +45,7 @@
   audience:
     en: "Pro, Max, Team, seat-based Enterprise"
   summary:
-    en: "Anthropic raised Claude Code weekly limits by 50% from May 13, 2026, applied automatically across the CLI, IDE extensions, desktop and web. It was extended past July 13 and replaced by a permanent +25% on September 14, 2026."
+    en: "Anthropic raised Claude Code weekly limits by 50% from May 13, 2026. The boost applied automatically across the CLI, IDE extensions, desktop and web, was extended past July 13, and was replaced by a permanent +25% on September 14, 2026."
   scope:
     en: "Claude Code"
   startsAt: 2026-05-13T00:00:00Z
@@ -71,7 +71,7 @@
     en: "Claude Cowork"
   terms:
     - en: "Free plans and consumption-based Enterprise seats were not eligible."
-    - en: "Claude on web, desktop, mobile and Claude Code were unchanged."
+    - en: "Limits in Claude on web, desktop and mobile, and in Claude Code, were unchanged."
   startsAt: 2026-06-05T07:00:00Z
   endsAt: 2026-07-06T06:59:00Z
   verifiedAt: 2026-09-16T00:00:00Z
@@ -90,7 +90,7 @@
   audience:
     en: "Pro, Max, Team, seat-based Enterprise"
   summary:
-    en: "On May 6, 2026, Anthropic permanently doubled Claude Code's 5-hour rate limits on paid plans and removed the peak-hour reduction for Claude Code on Pro and Max."
+    en: "On May 6, 2026, Anthropic permanently doubled Claude Code's 5-hour limits on paid plans and removed the peak-hour reduction for Claude Code on Pro and Max."
   scope:
     en: "Claude Code"
   terms:
@@ -106,13 +106,13 @@
   title:
     en: "Claude peak hours: session limits drain faster on weekdays 13:00–19:00 UTC"
   headline:
-    en: "Peak hours: limits drain faster on weekdays"
+    en: "Claude peak hours: limits drain faster"
   value:
     en: "13:00–19:00 UTC"
   audience:
     en: "Free, Pro, Max, Team"
   summary:
-    en: "Since March 27, 2026, Claude's 5-hour session limits drain faster during weekday peak hours, 13:00–19:00 UTC. Weekly limits are unchanged, and evenings, nights and weekends run at normal speed."
+    en: "Since March 27, 2026, Claude's 5-hour session limits drain faster during weekday peak hours, 13:00–19:00 UTC. Weekly limits are unchanged, and limits drain at normal speed outside that window and all weekend."
   scope:
     en: "Claude.ai, apps, Cowork"
   terms:
@@ -129,7 +129,7 @@
   title:
     en: "Claude March 2026 promotion: 2× limits during off-peak hours"
   headline:
-    en: "2× limits during off-peak hours"
+    en: "Claude off-peak limits doubled"
   value:
     en: "2× off-peak"
   audience:
@@ -151,7 +151,7 @@
   kind: student
   featured: true
   title:
-    en: "ChatGPT Plus free for 4 months for US college students (2026 Back to School offer)"
+    en: "ChatGPT Plus: 4 months free for US college students (2026 Back to School offer)"
   headline:
     en: "4 months of ChatGPT Plus free"
   value:
@@ -159,15 +159,15 @@
   audience:
     en: "US college students"
   summary:
-    en: "Eligible US college and graduate students get four free months of ChatGPT Plus, worth $80, through OpenAI's 2026 Back to School offer. Claim it by October 31, 2026."
+    en: "Eligible US college and graduate students get 4 free months of ChatGPT Plus, worth $80, through OpenAI's 2026 Back to School offer. Claim it by October 31, 2026."
   steps:
     - en: "Sign in to the ChatGPT account you want to upgrade."
     - en: "Open chatgpt.com/students/2026 and verify your enrollment with SheerID."
-    - en: "Confirm the offer. You won't be charged for the four free billing periods."
+    - en: "Confirm the offer. You won't be charged for the 4 free billing periods."
   terms:
-    - en: "Renews at $20/month afterwards unless you cancel."
+    - en: "Renews at $20/month afterward unless you cancel."
     - en: "Can be redeemed once."
-    - en: "Not available while billed through the App Store or Google Play."
+    - en: "Not available if you're billed through the App Store or Google Play."
   regions: ["US"]
   startsAt: 2026-09-01T00:00:00Z
   startKnown: false
@@ -182,7 +182,7 @@
   kind: student
   featured: true
   title:
-    en: "Google AI Pro free for one year for students (AI Plus in 140+ markets)"
+    en: "Google AI Pro: 1 year free for students (AI Plus in 140+ markets)"
   headline:
     en: "12 months of Google AI Pro free"
   value:
@@ -226,7 +226,7 @@
   terms:
     - en: "GitHub re-checks eligibility every month."
     - en: "Activation can take a few days after verification."
-    - en: "Models are picked by auto model selection."
+    - en: "Auto model selection picks the model."
   startsAt: 2026-03-12T00:00:00Z
   verifiedAt: 2026-09-16T00:00:00Z
   sourceUrl: https://docs.github.com/copilot/how-tos/manage-your-account/free-access-with-copilot-student
@@ -270,7 +270,7 @@
   audience:
     en: "Students & educators"
   summary:
-    en: "Students and educators who sign up with an eligible school email get Notion's Plus plan for one member free, with more guests, longer version history and larger uploads."
+    en: "Students and educators who sign up with an eligible school email get Notion's Plus plan free for one member, with more guests, longer version history and larger uploads."
   steps:
     - en: "Make your school email the main email on your Notion account."
     - en: "Open Settings, then Billing."
@@ -297,7 +297,7 @@
   audience:
     en: "Verified university students"
   summary:
-    en: "Cursor's student program gave verified university students a free year of Cursor Pro. It closed to new sign-ups on June 25, 2026; existing redeemers keep their rate until their plan expires."
+    en: "Cursor's student program gave verified university students a free year of Cursor Pro. It closed to new sign-ups on June 25, 2026; students who already claimed it keep their rate until their plan expires."
   terms:
     - en: "Students can still get credits at on-campus and online events."
     - en: "The free Hobby tier remains available."

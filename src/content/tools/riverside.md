@@ -5,5 +5,5 @@ category: audio
 website: https://riverside.com
 popularityRank: 90
 tagline:
-  en: "Record studio-quality podcasts and video remotely, then edit with AI."
+  en: "Studio-quality remote recording for podcasts and video, with AI editing."
 ---

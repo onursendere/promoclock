@@ -1,6 +1,6 @@
 ---
 name: "Grammarly"
-vendor: "Grammarly"
+vendor: "Superhuman"
 category: writing
 website: https://www.grammarly.com
 popularityRank: 13
