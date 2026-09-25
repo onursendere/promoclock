@@ -103,7 +103,7 @@ describe("en", () => {
  * so a locale is added here only once every tool is translated — that re-arms the completeness guard.
  * During the multi-day rollout, in-progress locales are checked for correctness (below) but not coverage.
  */
-const COMPLETE_PROFILE_LOCALES: readonly string[] = ["tr", "fr"];
+const COMPLETE_PROFILE_LOCALES: readonly string[] = ["tr", "fr", "de", "es"];
 
 describe.each(others)("%s", (lang) => {
   it("has a profile for every tool once the locale is marked complete", () => {
