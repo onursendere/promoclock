@@ -1,7 +1,7 @@
 ---
 summary: "Captions est une application de montage vidéo par IA éditée par Mirage, la société new-yorkaise qui s’appelait elle-même Captions jusqu’en 2025. Elle transforme des rushes bruts en vidéos montées et sous-titrées. Elle propose des styles AI Edit, des avatars IA, la traduction dans plus de 100 langues et la correction du regard caméra, pour les créateurs comme pour les petites entreprises."
 metaTitle: "Application Captions : tarifs 2026, gratuit et fonctions"
-metaDescription: "Tarifs de l’application Captions en 2026 : ce que couvre la version gratuite, crédits Max et Scale, AI Edit et avatars, passage à Mirage et alternatives."
+metaDescription: "Tarifs de l'appli Captions en 2026 : ce que couvre la version gratuite, crédits Max et Frontier, AI Edit et avatars, passage à Mirage et alternatives."
 bestFor:
   - "Créateurs qui filment sur iPhone"
   - "Pubs vidéo de petites entreprises"
@@ -23,7 +23,7 @@ useCases:
   - "Filmer une astuce face caméra sur iPhone et laisser AI Edit ajouter les coupes, le B-roll et les sous-titres avant de publier."
   - "Créer une publicité produit façon UGC avec un acteur IA au lieu de faire appel à un comédien."
   - "Traduire la vidéo d’un fondateur en espagnol et en français, avec un doublage synchronisé sur les lèvres, pour toucher un public international."
-pricingSummary: "La version gratuite couvre le montage de base. Max coûte $24.99/mois avec 500 crédits, et les paliers Scale coûtent $69.99, $139.99 ou $279.99/mois pour 1 400 à 5 600 crédits ; les prix affichés sont ceux des formules iOS, en USD."
+pricingSummary: "La version gratuite couvre le montage de base. Max est $24.99/mois avec 500 crédits, et les paliers Frontier (anciennement Scale) coûtent $69.99, $139.99 ou $279.99/mois pour 1 400 à 5 600 crédits ; les prix affichés sont ceux des plans iOS en USD."
 savingTips:
   - "Les crédits non utilisés sont reportés pendant deux mois supplémentaires au maximum : votre solde peut ainsi atteindre trois fois l’allocation mensuelle."
   - "Les formules annuelles facturent 12 mois d’avance, à un tarif réduit par rapport au paiement mensuel."
@@ -49,7 +49,7 @@ Captions est l’application grand public de Mirage, qui la présente comme son 
 - L’outil est pensé d’abord pour le mobile : un enregistrement fait au téléphone peut devenir une vidéo verticale finie sans passer par un ordinateur.
 
 ## Limites
-- Presque toutes les fonctions génératives exigent Max ou Scale ; la version gratuite se limite au montage de base.
+- Presque tout ce qui est génératif exige Max ou Frontier ; la version gratuite se limite au montage de base.
 - Les prix du site correspondent aux formules iOS : ce que vous payez sur le web ou sur Android peut différer.
-- Scale démarre à $69.99/mois, un gros saut pour les équipes qui dépassent les 500 crédits de Max.
+- Frontier commence à $69.99/mois, un gros saut pour les équipes qui dépassent les 500 crédits de Max.
 - Le coût en crédits de chaque génération n’est pas publié sur la page des tarifs, ce qui rend la consommation difficile à prévoir.

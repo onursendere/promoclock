@@ -35,7 +35,8 @@ platforms: [web, api]
 savingTips:
   - "Yearly billing saves about 33%: Creator drops to $19/month ($228 a year) and Business to $66/month ($792 a year)."
   - "The Free plan lets you try Business-plan features for 10 minutes of voice generation, without a credit card."
-  - "The Murf API free trial includes $10 of credit every month, with no credit card required."
+  - "The Murf API free trial includes 100,000 characters, with no credit card required."
+  - "Students, teachers, schools and non-profits can request 20% off: the first 6 months of a monthly plan or one annual term."
 faq:
   - q: "Is Murf AI free?"
     a: "Yes, with tight limits. The Free plan gives 10 minutes of voice generation and 10 projects, and it lets you try Business features. Free audio cannot be downloaded and carries no commercial rights."
@@ -51,7 +52,7 @@ alternatives: [elevenlabs, speechify, synthesia, descript]
 sources:
   - https://murf.ai/pricing
   - https://murf.ai/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Murf AI?
 Murf AI is a voiceover tool built around a script editor. You type or paste a script, choose voices, fine-tune pitch, speed and pronunciation, and export audio or sync it to video and slides. The same voices are available to developers through the Murf API.

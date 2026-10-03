@@ -33,7 +33,7 @@ pricing:
 platforms: [web, ios, macos, windows, linux, cli, jetbrains, api]
 savingTips:
   - "Yearly billing saves 20% compared with paying monthly."
-  - "Cursor's own models (Grok 4.6, Grok 4.5, Composer 2.5) come with more included usage than third-party models, so choosing them stretches a plan further."
+  - "Cursor's own models (Grok 4.7, Grok 4.6, Grok 4.5, Composer 2.5) come with more included usage than third-party models, so choosing them stretches a plan further."
 faq:
   - q: "Is Cursor still free to use?"
     a: "Yes. The Hobby plan costs nothing, needs no credit card and includes Composer plus a limited number of Agent requests each month. Unlimited tab completions, Bugbot and third-party frontier models start with Pro."
@@ -51,13 +51,13 @@ sources:
   - https://cursor.com/help/account-and-billing/student-discount
   - https://cursor.com/changelog
   - https://cursor.com/download
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Cursor?
 Cursor is an editor built around AI agents that can run on your computer, in Cursor's cloud or on self-hosted machines inside your own network. The desktop app is available for macOS, Windows and Linux, and the same agents can be managed from cursor.com/agents or Cursor for iOS.
 
 ## What stands out
-- **Its own models.** Grok 4.6, Grok 4.5 and Composer 2.5 form a separate usage pool with more included usage than Claude, GPT or Gemini.
+- **Its own models.** Grok 4.7, Grok 4.6, Grok 4.5 and Composer 2.5 form a separate usage pool with more included usage than Claude, GPT or Gemini.
 - **Agents that keep working.** Cloud agents, automations and the Projects beta can react to Slack messages, schedules or pull requests without a prompt.
 - **Privacy mode.** When enabled, Cursor guarantees code data is not used for training by Cursor or its model providers.
 

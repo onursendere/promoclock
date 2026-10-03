@@ -1,7 +1,7 @@
 ---
 summary: "Synthesia is an AI video platform built for business communication, made by the company of the same name. You write a script, pick an AI avatar and a voice, and it renders a presenter-led video in 160+ languages. Training, product and internal comms teams use it, and all usage now runs on shared credits."
 metaTitle: "Synthesia Pricing, Free Plan & Credits (2026)"
-metaDescription: "Synthesia pricing in 2026: the free Basic plan and its limits, Starter from $29/month, Creator at $89, how credits work, plus avatar and dubbing features."
+metaDescription: "Synthesia pricing in 2026: the free Basic plan and its limits, Starter from $29/month, Pro at $89, how credits work, plus avatar and dubbing features."
 bestFor:
   - "Corporate training and L&D teams"
   - "Internal communications managers"
@@ -29,31 +29,31 @@ pricing:
   startingPrice: 29
   currency: USD
   billing: month
-  summary: "Basic is free with 1,200 credits a month, about 10 minutes of video. Starter costs $29/month ($18 billed yearly) and Creator $89/month ($64 billed yearly); Enterprise pricing is custom."
-  asOf: 2026-09-17
+  summary: "Basic is free with 500 credits a month, about 10 minutes of video or dubbing. Starter costs $29/month ($18 billed yearly) with 1,250 credits, and Pro, formerly Creator, $89/month ($64 billed yearly) with 6,000; Enterprise pricing is custom."
+  asOf: 2026-10-03
 platforms: [web, api]
 savingTips:
-  - "Yearly billing cuts Starter from $29 to $18 a month and Creator from $89 to $64, and Synthesia advertises savings of up to 38%."
+  - "Yearly billing cuts Starter from $29 to $18 a month and Pro from $89 to $64, and Synthesia advertises savings of up to 38%."
   - "Basic needs no credit card, so you can test avatars and 160+ voices before paying."
   - "Credits are one shared pool across video, dubbing and generated assets, so plan the mix before the month resets."
 faq:
   - q: "Is Synthesia free?"
-    a: "Yes, there is a free Basic plan with 1,200 credits a month, roughly 10 minutes of video, 9 avatars and one editor seat. Videos keep the Synthesia logo, and Basic users cannot download them."
+    a: "Yes, there is a free Basic plan with 500 credits a month, about 10 minutes of video or dubbing, 9 avatars and one editor seat. Videos keep the Synthesia logo, and Basic users cannot download them."
   - q: "Can I download videos on the Synthesia free plan?"
     a: "No. Synthesia's help center states that Basic and trial users cannot download videos; MP4 downloads start on Starter. Free videos can still be previewed and shared from a Synthesia link."
   - q: "How do Synthesia credits work?"
     a: "Credits are the shared currency for video, dubbing, bulk personalization and API usage. Dubbing without lip sync costs 120 credits a minute and 240 with lip sync, and unused credits do not roll over."
   - q: "Which Synthesia plan includes API access?"
-    a: "Creator and Enterprise. Creator includes up to 360 minutes of video a year through the Synthesia API, deducted from the plan's usage limit, while Starter and Basic have no API access."
+    a: "Pro (formerly Creator) and Enterprise. Pro includes up to 360 minutes of video a year through the Synthesia API, deducted from the plan's usage limit, while Starter and Basic have no API access."
   - q: "How many languages can Synthesia dub into?"
-    a: "AI Dubbing covers 70+ languages on Basic, Starter and Creator, and 140+ on Enterprise. Avatar voices themselves are available in more than 160 languages across every plan."
+    a: "AI Dubbing covers 70+ languages on Basic, Starter and Pro, and 140+ on Enterprise. Avatar voices themselves are available in more than 160 languages across every plan."
 alternatives: [heygen, invideo, pictory, descript, veed]
 sources:
   - https://www.synthesia.io/pricing
   - https://www.synthesia.io/
   - https://help.synthesia.io/en/articles/9317524-how-do-i-download-my-synthesia-video
   - https://help.synthesia.io/en/articles/11825466-what-are-credits-and-how-do-they-work-for-enterprise-customers-in-synthesia
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Synthesia?
 Synthesia is a browser-based studio for making videos with AI presenters. There is no camera, microphone or timeline to learn: you paste a script or a slide deck, choose an avatar and language, and the platform renders and hosts the result. Video pages, analytics and SCORM export are aimed at training and internal comms rather than social clips.
@@ -64,4 +64,4 @@ Synthesia is a browser-based studio for making videos with AI presenters. There 
 - **Practice, not just playback.** Roleplay Sessions add scored, interactive conversations on top of standard video.
 
 ## Limitations
-Seats are tight: Starter includes one editor and three guests, and Creator one editor and five guests, so real teams usually need Enterprise. Free videos carry the Synthesia logo and cannot be downloaded. Credits reset each cycle with no rollover, personal avatars are capped at three on Starter and five on Creator, and unlimited minutes only exist on Enterprise.
+Seats are tight: Starter includes one editor and three guests, and Pro one editor and five guests, so real teams usually need Enterprise. Free videos carry the Synthesia logo and cannot be downloaded. Credits reset each cycle with no rollover, personal avatars are capped at three on Starter and five on Pro, and unlimited minutes only exist on Enterprise.

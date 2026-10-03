@@ -9,6 +9,62 @@
 
 # ── Claude ────────────────────────────────────────────────────────────────────
 
+- id: claude-code-cloud-credit-2026
+  tool: claude
+  kind: limit-boost
+  featured: true
+  title:
+    en: "Claude Code cloud sessions: free $100 (Pro) or $250 (Max) bonus credit, claim by October 7, 2026"
+  headline:
+    en: "Claude Code cloud credit: $100 Pro, $250 Max"
+  value:
+    en: "$100–$250 credit"
+  audience:
+    en: "Individual Pro and Max subscribers"
+  summary:
+    en: "Anthropic is giving individual Pro subscribers $100 and Max subscribers $250 in free credit for Claude Code cloud sessions, which run on Anthropic's servers. Claim it by October 7, 2026; unused credit expires on November 4, 2026."
+  scope:
+    en: "Claude Code cloud sessions"
+  steps:
+    - en: "Sign in with your claude.ai account."
+    - en: "Claim the credit from the banner in the Claude desktop app or your IDE, or run /claim-credit in Claude Code."
+    - en: "Start cloud sessions on the web, desktop, mobile or CLI; they use the credit before your plan limits."
+  terms:
+    - en: "Only for subscriptions active on September 23, 2026. Team, Enterprise, free trials and past-due accounts are excluded."
+    - en: "Covers cloud sessions only, not local Claude Code, chat or Cowork sessions."
+    - en: "Unused credit expires on November 4, 2026 at 11:59 PM PT."
+  startsAt: 2026-09-23T21:00:00Z
+  endsAt: 2026-10-08T06:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://support.claude.com/en/articles/17152539-cloud-sessions-bonus-credit-promotion
+  sourceLabel: "Anthropic Help Center"
+
+- id: claude-artifact-usage-promo-oct-2026
+  tool: claude
+  kind: limit-boost
+  featured: true
+  title:
+    en: "Claude artifact usage promotion: 50% less session usage after creating artifacts (October 1–15, 2026)"
+  headline:
+    en: "Claude artifacts: 50% less session usage"
+  value:
+    en: "50% less usage"
+  audience:
+    en: "Pro, Max, Team"
+  summary:
+    en: "From October 1 to 15, 2026, work that follows creating or editing an artifact in Claude counts 50% less toward your five-hour session limit. It applies automatically; weekly limits don't change."
+  scope:
+    en: "Claude web, desktop, mobile and cloud Cowork tasks"
+  terms:
+    - en: "In chats, the next 10 messages after an artifact is created or edited get the discount, up to 15 steps per reply."
+    - en: "Cowork tasks started from Document, Presentation or Design get about 45 minutes of discounted work."
+    - en: "Claude Code, the API, Claude in Slack, local Cowork tasks, and Free and Enterprise plans are excluded."
+  startsAt: 2026-10-01T18:00:00Z
+  endsAt: 2026-10-16T06:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://support.claude.com/en/articles/17274727-artifact-usage-promotion
+  sourceLabel: "Anthropic Help Center"
+
 - id: claude-code-weekly-plus25-permanent
   tool: claude
   kind: limit-change
@@ -29,7 +85,7 @@
     - en: "Applies to Claude Code only; 5-hour limits are unchanged."
     - en: "On a baseline of 100: 100 before the promo, 150 during it, 125 from September 14."
   startsAt: 2026-09-14T00:00:00Z
-  verifiedAt: 2026-09-16T00:00:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
   sourceUrl: https://x.com/ClaudeDevs/status/2093742321473065266
   sourceLabel: "@ClaudeDevs (X)"
 
@@ -144,7 +200,238 @@
   sourceUrl: https://www.xda-developers.com/claude-doubled-every-users-usage-limits-for-two-weeks/
   sourceLabel: "XDA Developers"
 
+# ── Limited-time offers ───────────────────────────────────────────────────────
+
+- id: elevenlabs-v4-launch-3x-credits
+  tool: elevenlabs
+  kind: launch
+  title:
+    en: "ElevenLabs Eleven v4 launch: 3× credits on Creator plans and above (until October 12, 2026)"
+  headline:
+    en: "ElevenLabs v4: 3× credits on Creator and up"
+  value:
+    en: "3× credits"
+  audience:
+    en: "Creator plan and above"
+  summary:
+    en: "To launch its Eleven v4 voice model, ElevenLabs includes 3× credits on Creator plans and above until October 12, 2026. New subscribers can also get a discounted first month."
+  terms:
+    - en: "On Creator plans and above, up to 2× your monthly text-to-speech credits used on v4 don't count against your balance."
+    - en: "First month: Starter $1 instead of $6 until October 18, and Creator $11 instead of $22."
+  startsAt: 2026-09-28T00:00:00Z
+  endsAt: 2026-10-12T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://elevenlabs.io/blog/eleven-v4
+  sourceLabel: "ElevenLabs Blog"
+  ctaUrl: https://elevenlabs.io/pricing
+
+- id: bolt-forge-preview-2026
+  tool: bolt
+  kind: limit-boost
+  title:
+    en: "Bolt Forge preview: up to 50× more usage free on Pro, and $9 Bolt Lite open until October 14, 2026"
+  headline:
+    en: "Bolt Forge: up to 50× more usage free"
+  value:
+    en: "Up to 50× usage"
+  audience:
+    en: "Individual Pro and Lite plans"
+  summary:
+    en: "During the Bolt Forge research preview, individual Pro plans get up to 50× more Forge usage at no extra cost through October 14, 2026. The Forge-only Bolt Lite plan ($9/month) is open to everyone until the same date, and members keep that price afterwards."
+  terms:
+    - en: "Teams and Enterprise plans are excluded."
+    - en: "Forge runs on open-source models. De-identified prompts and code help train future open models; data from the EEA, UK and Switzerland is excluded."
+    - en: "Pricing after the preview hasn't been announced."
+  startsAt: 2026-09-14T00:00:00Z
+  endsAt: 2026-10-14T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://bolt.new/blog/what-is-bolt-forge
+  sourceLabel: "Bolt Blog"
+  ctaUrl: https://bolt.new/bolt-lite
+
+- id: windsurf-swe-2-free-oct-2026
+  tool: windsurf
+  kind: free-trial
+  title:
+    en: "SWE-2 free in Devin Desktop (formerly Windsurf) and the Devin CLI through October 16, 2026"
+  headline:
+    en: "SWE-2 free in Devin Desktop until October 16"
+  value:
+    en: "Free SWE-2"
+  audience:
+    en: "Pro and Max plans"
+  summary:
+    en: "Cognition's SWE-2 coding model is free to use in Devin Desktop, the renamed Windsurf editor, and in the Devin CLI through October 16, 2026 on Pro ($20/month) and Max ($200/month)."
+  terms:
+    - en: "SWE-2 launched on September 10, 2026 as Cognition's latest model."
+  startsAt: 2026-10-03T00:00:00Z
+  startKnown: false
+  endsAt: 2026-10-16T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://devin.ai/pricing
+  sourceLabel: "Devin Pricing"
+
+- id: adobe-firefly-30-off-first-year-2026
+  tool: adobe-firefly
+  kind: discount
+  title:
+    en: "Adobe Firefly: 30% off the first year of Firefly Pro Plus and Premium (until October 21, 2026)"
+  headline:
+    en: "Adobe Firefly Pro Plus & Premium: 30% off"
+  value:
+    en: "30% off year one"
+  audience:
+    en: "First-time Firefly subscribers"
+  summary:
+    en: "New Firefly subscribers pay 30% less for the first year: Pro Plus is $34.97/month instead of $49.99, and Premium $139.91/month instead of $199.99. The offer runs until October 21, 2026."
+  terms:
+    - en: "Requires a 12-month commitment; the regular price applies from the second year."
+    - en: "Not for education, OEM or volume-licensing customers."
+    - en: "In the UK, the first year costs £33.58/month for Pro Plus and £140.20/month for Premium."
+  regions: ["US", "GB"]
+  startsAt: 2026-05-21T00:00:00Z
+  endsAt: 2026-10-21T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://www.adobe.com/qa_en/offer-terms/ff-full-special-offer.html
+  sourceLabel: "Adobe offer terms"
+  ctaUrl: https://www.adobe.com/products/firefly/plans.html
+
+- id: pixel-10-pro-google-ai-pro-2026
+  tool: gemini
+  kind: free-trial
+  title:
+    en: "Pixel 10 Pro, Pro XL and Pro Fold include 12 months of Google AI Pro (buy by October 31, 2026)"
+  headline:
+    en: "Pixel 10 Pro: 12 months of Google AI Pro"
+  value:
+    en: "12 months free"
+  audience:
+    en: "Pixel 10 Pro, Pro XL and Pro Fold buyers"
+  summary:
+    en: "A new Pixel 10 Pro, Pro XL or Pro Fold comes with 12 months of Google AI Pro, but only if you buy and redeem it by October 31, 2026. The Pixel 11 Pro models include 6 months instead."
+  terms:
+    - en: "In Japan the Pixel 10 Pro offer is 6 months."
+    - en: "The base Pixel 10 includes 6 months of Google One Premium, not AI Pro."
+    - en: "Pixel 11 Pro, Pro XL and Pro Fold: 6 months of Google AI Pro, redeemable until October 31, 2027."
+  startsAt: 2025-08-20T00:00:00Z
+  endsAt: 2026-10-31T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://support.google.com/pixelphone/answer/13529884
+  sourceLabel: "Google Pixel Help"
+
+- id: lovable-free-daily-chat-2026
+  tool: lovable
+  kind: limit-boost
+  title:
+    en: "Lovable chat is free up to a daily allowance on Free, Pro and Business (through October 31, 2026)"
+  headline:
+    en: "Lovable: free daily chat allowance"
+  value:
+    en: "Free daily chat"
+  audience:
+    en: "Free, Pro and Business workspaces"
+  summary:
+    en: "Since September 24, 2026, chatting with Lovable costs no credits up to a daily allowance on Free, Pro and Business workspaces. Lovable says this chat pricing applies through October 31, 2026."
+  terms:
+    - en: "Chat that generates images or video, or hands work off to Plan or Build, still uses credits."
+  startsAt: 2026-09-24T00:00:00Z
+  endsAt: 2026-10-31T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://lovable.dev/blog/chat-for-free
+  sourceLabel: "Lovable Blog"
+
+- id: wispr-flow-notetaker-free-teams-2026
+  tool: wispr-flow
+  kind: free-trial
+  title:
+    en: "Wispr Flow Notetaker free for teams on the Dictation plan (through October 31, 2026)"
+  headline:
+    en: "Wispr Flow Notetaker free for teams"
+  value:
+    en: "Free Notetaker"
+  audience:
+    en: "Teams on the Dictation plan"
+  summary:
+    en: "Teams that chose Wispr Flow's Dictation plan get the Notetaker meeting assistant for the whole team at no extra cost through October 31, 2026."
+  terms:
+    - en: "Your price won't increase automatically afterwards."
+    - en: "Members then move to a limited Notetaker plan unless you upgrade them individually."
+  startsAt: 2026-10-03T00:00:00Z
+  startKnown: false
+  endsAt: 2026-10-31T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://wisprflow.ai/pricing
+  sourceLabel: "Wispr Flow Pricing"
+
+- id: manus-welcome-back-bonus-2026
+  tool: manus
+  kind: discount
+  title:
+    en: "Manus Welcome Back bonus: 50% off the first month for free users, 90% for some former paid users"
+  headline:
+    en: "Manus Welcome Back: up to 90% off a month"
+  value:
+    en: "50–90% off month one"
+  audience:
+    en: "Users affected by the Manus service change"
+  summary:
+    en: "After its service change, Manus lets affected users claim a discounted first month until November 22, 2026: free users get 50% off a monthly plan priced $20–$200, and some former paid users get 90% off."
+  terms:
+    - en: "Some paid users (Type A) get a month of add-on credits instead, offered through an in-product notice."
+    - en: "The 90-day claim window started on August 25, 2026, Singapore time."
+  startsAt: 2026-08-24T16:00:00Z
+  endsAt: 2026-11-22T15:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://help.manus.im/en/articles/16147914-service-change-overview-welcome-back-bonus-for-affected-users
+  sourceLabel: "Manus Help Center"
+
+- id: magnific-unlimited-seedream-oct-2026
+  tool: freepik
+  kind: limit-boost
+  title:
+    en: "Magnific (Freepik): unlimited Seedream 5.0 Pro images at 1.5K until October 10, 2026"
+  headline:
+    en: "Magnific: unlimited Seedream 5.0 Pro"
+  value:
+    en: "Unlimited Seedream"
+  audience:
+    en: "Magnific subscribers"
+  summary:
+    en: "Magnific, the new name of Freepik's AI suite, offers unlimited Seedream 5.0 Pro image generations at 1.5K resolution until October 10, 2026, according to its pricing page."
+  startsAt: 2026-10-03T00:00:00Z
+  startKnown: false
+  endsAt: 2026-10-10T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://www.magnific.com/pricing
+  sourceLabel: "Magnific Pricing"
+
 # ── Student offers ────────────────────────────────────────────────────────────
+
+- id: lovable-sweden-students-2026
+  tool: lovable
+  kind: student
+  title:
+    en: "Lovable Pro free for students in Sweden until December 31, 2026 (Back to School)"
+  headline:
+    en: "Lovable Pro free for students in Sweden"
+  value:
+    en: "Free Pro"
+  audience:
+    en: "Students at Swedish universities"
+  summary:
+    en: "Students at Swedish universities, university colleges and folk high schools get Lovable Pro free until December 31, 2026. After that, the 50% student discount applies automatically."
+  steps:
+    - en: "Sign up to Lovable with your institutional student email."
+    - en: "Claim the offer on Lovable's Back to School page."
+  terms:
+    - en: "One workspace per student; it can't be combined with other Lovable offers."
+  regions: ["SE"]
+  startsAt: 2026-09-01T00:00:00Z
+  endsAt: 2026-12-31T23:59:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
+  sourceUrl: https://back-to-school.lovable.app/terms
+  sourceLabel: "Lovable"
+  ctaUrl: https://back-to-school.lovable.app
 
 - id: chatgpt-plus-students-back-to-school-2026
   tool: chatgpt
@@ -200,7 +487,7 @@
     - en: "The AI Plus offer excludes the US, Bolivia, Albania, Canada, Macau, Hong Kong and Tunisia."
   startsAt: 2026-08-19T00:00:00Z
   endsAt: 2026-12-31T23:59:00Z
-  verifiedAt: 2026-09-16T00:00:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
   sourceUrl: https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/
   sourceLabel: "Google Blog"
   ctaUrl: https://one.google.com/ai-student
@@ -228,7 +515,7 @@
     - en: "Activation can take a few days after verification."
     - en: "Auto model selection picks the model."
   startsAt: 2026-03-12T00:00:00Z
-  verifiedAt: 2026-09-16T00:00:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
   sourceUrl: https://docs.github.com/copilot/how-tos/manage-your-account/free-access-with-copilot-student
   sourceLabel: "GitHub Docs"
   ctaUrl: https://education.github.com/pack
@@ -280,7 +567,7 @@
     - en: "Thousands of school domains qualify, not just .edu."
   startsAt: 2026-09-16T00:00:00Z
   startKnown: false
-  verifiedAt: 2026-09-16T00:00:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
   sourceUrl: https://www.notion.com/help/notion-for-education
   sourceLabel: "Notion Help Center"
   ctaUrl: https://www.notion.com/product/notion-for-education
@@ -304,6 +591,6 @@
   startsAt: 2026-06-24T00:00:00Z
   startKnown: false
   endsAt: 2026-06-25T00:00:00Z
-  verifiedAt: 2026-09-16T00:00:00Z
+  verifiedAt: 2026-10-03T00:00:00Z
   sourceUrl: https://cursor.com/help/account-and-billing/student-discount
   sourceLabel: "Cursor Docs"

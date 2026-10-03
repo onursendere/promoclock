@@ -151,112 +151,455 @@
         "Credits gibt es für Studierende weiterhin bei Events auf dem Campus und online.",
         "Der kostenlose Hobby-Plan bleibt verfügbar."
       ]
+    },
+    "claude-code-cloud-credit-2026": {
+      "title": "Claude Code Cloud-Sessions: kostenloses $100 (Pro) oder $250 (Max) Startguthaben, bis 7. Oktober 2026 nutzbar",
+      "headline": "Claude Code Cloud: $100 Pro, $250 Max",
+      "value": "$100–$250 Guthaben",
+      "audience": "Einzelne Pro- und Max-Abonnentinnen",
+      "summary": "Anthropic schenkt einzelnen Pro-Abonnentinnen $100 und Max-Abonnentinnen $250 kostenloses Guthaben für Claude Code Cloud-Sessions, die auf Anthropic-Servern laufen. Einlösbar bis 7. Oktober 2026; nicht genutztes Guthaben verfällt am 4. November 2026.",
+      "scope": "Claude Code Cloud-Sessions",
+      "steps": [
+        "Melde dich mit deinem claude.ai-Konto an.",
+        "Löse das Guthaben über das Banner in der Claude-Desktop-App oder deiner IDE ein, oder tippe /claim-credit in Claude Code.",
+        "Starte Cloud-Sessions im Web, auf dem Desktop, mobil oder über CLI; sie nutzen das Guthaben vor deinen Plan-Limits."
+      ],
+      "terms": [
+        "Nur für Abos, die am 23. September 2026 aktiv waren. Team, Enterprise, kostenlose Testphasen und überfällige Konten sind ausgeschlossen.",
+        "Gilt nur für Cloud-Sessions, nicht für lokale Claude Code, Chat oder Cowork-Sitzungen.",
+        "Nicht genutztes Guthaben verfällt am 4. November 2026 um 23:59 Uhr PT."
+      ]
+    },
+    "claude-artifact-usage-promo-oct-2026": {
+      "title": "Claude Artifact-Nutzungsaktion: 50 % weniger Sitzungsnutzung nach dem Erstellen von Artifacts (1.–15. Oktober 2026)",
+      "headline": "Claude Artifacts: 50 % weniger Sitzungsnutzung",
+      "value": "50 % weniger Nutzung",
+      "audience": "Pro, Max, Team",
+      "summary": "Von 1. bis 15. Oktober 2026 zählen Arbeiten nach dem Erstellen oder Bearbeiten eines Artifacts in Claude 50 % weniger auf dein 5-Stunden-Sitzungslimit. Das ist automatisch aktiviert; Wochenlimits ändern sich nicht.",
+      "scope": "Claude Web, Desktop, Mobile und Cloud-Cowork-Tasks",
+      "terms": [
+        "In Chats bekommen die nächsten 10 Nachrichten nach einem erstellten oder bearbeiteten Artifact den Rabatt, bis zu 15 Schritte pro Antwort.",
+        "Cowork-Tasks aus Document, Presentation oder Design bekommen etwa 45 Minuten rabattierte Arbeit.",
+        "Claude Code, die API, Claude in Slack, lokale Cowork-Tasks und Free- sowie Enterprise-Pläne sind ausgeschlossen."
+      ]
+    },
+    "elevenlabs-v4-launch-3x-credits": {
+      "title": "ElevenLabs Eleven v4 Start: 3× Credits auf Creator-Plänen und höher (bis 12. Oktober 2026)",
+      "headline": "ElevenLabs v4: 3× Credits auf Creator und höher",
+      "value": "3× Credits",
+      "audience": "Creator-Plan und höher",
+      "summary": "Zum Start des Eleven v4 Sprachmodells verdreifacht ElevenLabs die Credits auf Creator-Plänen und höher bis 12. Oktober 2026. Neue Abonnentinnen erhalten auch einen reduzierten ersten Monat.",
+      "terms": [
+        "Bei Creator-Plänen und höher kosten bis 2× deine monatlich genutzten Text-to-Speech-Credits für v4 keine Gutschrift aus deinem Guthaben.",
+        "Erster Monat: Starter $1 statt $6 bis 18. Oktober und Creator $11 statt $22."
+      ]
+    },
+    "bolt-forge-preview-2026": {
+      "title": "Bolt Forge Vorschau: bis zu 50× mehr kostenlose Nutzung auf Pro und $9 Bolt Lite offen bis 14. Oktober 2026",
+      "headline": "Bolt Forge: bis zu 50× mehr Nutzung kostenlos",
+      "value": "Bis zu 50× Nutzung",
+      "audience": "Einzelne Pro- und Lite-Pläne",
+      "summary": "Während der Bolt Forge Research Vorschau bekommen einzelne Pro-Pläne bis zu 50× mehr Forge-Nutzung gratis bis 14. Oktober 2026. Der reine Forge-Plan Bolt Lite ($9/Monat) ist bis dahin für alle zugänglich, und Mitglieder behalten diesen Preis danach.",
+      "terms": [
+        "Team- und Enterprise-Pläne sind ausgeschlossen.",
+        "Forge nutzt Open-Source-Modelle. Pseudonymisierte Prompts und Code helfen, künftige Open Models zu trainieren; Daten aus dem EWR, UK und der Schweiz sind ausgeschlossen.",
+        "Preise nach der Vorschau wurden nicht angekündigt."
+      ]
+    },
+    "windsurf-swe-2-free-oct-2026": {
+      "title": "SWE-2 kostenlos in Devin Desktop (ehemals Windsurf) und Devin CLI bis 16. Oktober 2026",
+      "headline": "SWE-2 kostenlos in Devin Desktop bis 16. Oktober",
+      "value": "Kostenloses SWE-2",
+      "audience": "Pro- und Max-Pläne",
+      "summary": "Cognitions SWE-2 Codierungsmodell ist kostenlos nutzbar in Devin Desktop, dem umbenannten Windsurf-Editor, und der Devin CLI bis 16. Oktober 2026 auf Pro ($20/Monat) und Max ($200/Monat).",
+      "terms": [
+        "SWE-2 startete am 10. September 2026 als Cognitions neuestes Modell."
+      ]
+    },
+    "adobe-firefly-30-off-first-year-2026": {
+      "title": "Adobe Firefly: 30 % Rabatt auf das erste Jahr von Firefly Pro Plus und Premium (bis 21. Oktober 2026)",
+      "headline": "Adobe Firefly Pro Plus & Premium: 30 % Rabatt",
+      "value": "30 % Jahr eins",
+      "audience": "Erste Firefly-Abonnentinnen",
+      "summary": "Neue Firefly-Abonnentinnen zahlen im ersten Jahr 30 % weniger: Pro Plus kostet $34.97/Monat statt $49.99 und Premium $139.91/Monat statt $199.99. Das Angebot läuft bis 21. Oktober 2026.",
+      "terms": [
+        "Erfordert 12-Monats-Bindung; der Normalpreis gilt ab dem zweiten Jahr.",
+        "Nicht für Education, OEM oder Volume-Licensing-Kunden.",
+        "Im UK kostet das erste Jahr £33.58/Monat für Pro Plus und £140.20/Monat für Premium."
+      ]
+    },
+    "pixel-10-pro-google-ai-pro-2026": {
+      "title": "Pixel 10 Pro, Pro XL und Pro Fold mit 12 Monaten Google AI Pro (Kauf bis 31. Oktober 2026)",
+      "headline": "Pixel 10 Pro: 12 Monate Google AI Pro",
+      "value": "12 Monate kostenlos",
+      "audience": "Pixel 10 Pro-, Pro XL- und Pro Fold-Käufer",
+      "summary": "Ein neues Pixel 10 Pro, Pro XL oder Pro Fold kommt mit 12 Monaten Google AI Pro mit, aber nur wenn du es bis 31. Oktober 2026 kaufst und einlöst. Die Pixel 11 Pro Modelle bekommen stattdessen 6 Monate.",
+      "terms": [
+        "In Japan ist das Pixel 10 Pro Angebot 6 Monate.",
+        "Das Basis-Pixel 10 enthält 6 Monate Google One Premium, nicht AI Pro.",
+        "Pixel 11 Pro, Pro XL und Pro Fold: 6 Monate Google AI Pro, einlösbar bis 31. Oktober 2027."
+      ]
+    },
+    "lovable-free-daily-chat-2026": {
+      "title": "Lovable Chat kostenlos bis zur Tageslimit auf Free, Pro und Business (bis 31. Oktober 2026)",
+      "headline": "Lovable: kostenlose tägliche Chat-Limit",
+      "value": "Kostenlos Chatten",
+      "audience": "Free-, Pro- und Business-Workspaces",
+      "summary": "Seit 24. September 2026 kostet das Chatten mit Lovable auf Free-, Pro- und Business-Workspaces bis zur täglichen Limit keine Credits. Lovable sagt, dieses Chat-Pricing gilt bis 31. Oktober 2026.",
+      "terms": [
+        "Chat, der Bilder oder Videos generiert oder Arbeit an Plan oder Build übergibt, nutzt weiterhin Credits."
+      ]
+    },
+    "wispr-flow-notetaker-free-teams-2026": {
+      "title": "Wispr Flow Notetaker kostenlos für Teams im Dictation-Plan (bis 31. Oktober 2026)",
+      "headline": "Wispr Flow Notetaker kostenlos für Teams",
+      "value": "Kostenloses Notetaker",
+      "audience": "Teams im Dictation-Plan",
+      "summary": "Teams, die Wispr Flows Dictation-Plan wählten, bekommen das Notetaker-Meeting-Assistant für das ganze Team kostenlos bis 31. Oktober 2026.",
+      "terms": [
+        "Dein Preis erhöht sich danach nicht automatisch.",
+        "Mitglieder wechseln dann zu einem Limited Notetaker-Plan, wenn du sie nicht einzeln upgradest."
+      ]
+    },
+    "manus-welcome-back-bonus-2026": {
+      "title": "Manus Welcome Back Bonus: 50 % auf den ersten Monat für kostenlose Nutzer, 90 % für manche frühere bezahlte Nutzer",
+      "headline": "Manus Welcome Back: bis 90 % auf einen Monat",
+      "value": "50–90 % Monat eins",
+      "audience": "Nutzer betroffen von der Manus Service-Änderung",
+      "summary": "Nach der Service-Änderung können betroffene Nutzer einen reduzierten ersten Monat bis 22. November 2026 einlösen: kostenlose Nutzer bekommen 50 % auf einen Monatsplan für $20–$200, und manche frühere Bezahlnutzer bekommen 90 % Rabatt.",
+      "terms": [
+        "Manche Bezahlnutzer (Typ A) bekommen stattdessen einen Monat Zusatz-Credits, angeboten über eine In-Product-Meldung.",
+        "Das 90-Tage-Einlösungsfenster startete am 25. August 2026, Singapur-Zeit."
+      ]
+    },
+    "magnific-unlimited-seedream-oct-2026": {
+      "title": "Magnific (Freepik): unbegrenzte Seedream 5.0 Pro Bilder in 1.5K bis 10. Oktober 2026",
+      "headline": "Magnific: unbegrenzte Seedream 5.0 Pro",
+      "value": "Unbegrenzte Seedream",
+      "audience": "Magnific-Abonnentinnen",
+      "summary": "Magnific, der neue Name von Freepiks KI-Suite, bietet unbegrenzte Seedream 5.0 Pro Bild-Generierungen in 1.5K Auflösung bis 10. Oktober 2026, laut ihrer Preisseite."
+    },
+    "lovable-sweden-students-2026": {
+      "title": "Lovable Pro kostenlos für Studierende in Schweden bis 31. Dezember 2026 (Back to School)",
+      "headline": "Lovable Pro kostenlos für Studierende in Schweden",
+      "value": "Kostenloses Pro",
+      "audience": "Studierende an schwedischen Universitäten",
+      "summary": "Studierende an schwedischen Universitäten, Hochschulen und Volkshochschulen bekommen Lovable Pro kostenlos bis 31. Dezember 2026. Danach gilt automatisch der 50 % Studierendenrabatt.",
+      "steps": [
+        "Melde dich bei Lovable mit deiner institutionellen Studierendenemail an.",
+        "Löse das Angebot auf Lovables Back to School Seite ein."
+      ],
+      "terms": [
+        "Ein Workspace pro Studierenden; kann nicht mit anderen Lovable-Angeboten kombiniert werden."
+      ]
     }
   },
   "tools": {
-    "adobe-firefly": { "tagline": "Adobes App für generative KI – Bilder, Video und Audio." },
-    "base44": { "tagline": "Chat-basierter App-Builder mit integriertem Backend, Login und Hosting." },
-    "beautiful-ai": { "tagline": "KI-Präsentationssoftware mit Smart Slides, die sich selbst gestalten." },
-    "bolt": { "tagline": "KI-Builder im Browser, der Full-Stack-Apps erstellt, ausführt und deployt." },
-    "canva": { "tagline": "Online-Designplattform mit KI-Bildgenerierung, Magic Design und Brand Kits." },
-    "capcut": { "tagline": "Videoeditor mit KI-Untertiteln, Effekten und Text-zu-Video-Tools." },
-    "captions": { "tagline": "KI-Videoeditor, der aus Rohmaterial fertige Videos mit Untertiteln macht." },
-    "character-ai": { "tagline": "Chat- und Rollenspiel-App mit KI-Charakteren, auch mit selbst erstellten." },
-    "chatgpt": { "tagline": "OpenAIs vielseitiger KI-Assistent für Chat, Suche, Bilder, Sprache und Agenten." },
-    "claude": { "tagline": "Anthropics KI-Assistent für Texte, Analysen und Code, dazu Claude Code und Cowork." },
-    "clickup": { "tagline": "All-in-one-Arbeitsplattform mit KI für Aufgaben, Dokumente und Chat." },
-    "cline": { "tagline": "Open-Source-Coding-Agent für VS Code und JetBrains, der deine eigenen API-Keys nutzt." },
-    "codex": { "tagline": "OpenAIs Coding-Agent für Terminal, IDE und Cloud." },
-    "copy-ai": { "tagline": "KI-Workflows für Go-to-Market-Inhalte und Verkaufstexte." },
-    "cursor": { "tagline": "KI-zentrierter Code-Editor mit Agenten, die Code planen, bearbeiten und ausführen." },
-    "deepl": { "tagline": "KI-Übersetzer und Schreibassistent, bekannt für natürlich klingende Übersetzungen." },
-    "deepseek": { "tagline": "Open-Weight-Modelle für Chat und Reasoning, mit kostenlosem Assistenten für Web und App." },
-    "descript": { "tagline": "Video- und Podcast-Editor, den du über das Transkript steuerst." },
-    "devin": { "tagline": "Autonomer KI-Softwareentwickler, der Tickets übernimmt und Pull Requests öffnet." },
-    "elevenlabs": { "tagline": "Realistische KI-Stimmen, Synchronisation, Spracherkennung und Sprachagenten." },
-    "fathom": { "tagline": "KI-Meeting-Assistent mit kostenlosem Plan, sofortigen Zusammenfassungen und CRM-Sync." },
-    "fireflies": { "tagline": "KI-Notizassistent, der Meetings aufzeichnet, transkribiert und zusammenfasst." },
-    "frase": { "tagline": "KI-Tool für SEO-Content: Recherche, Briefings und optimierte Artikel." },
-    "freepik": { "tagline": "Stockmaterial plus KI-Suite für Bild, Video und Upscaling, heute unter dem Namen Magnific." },
-    "gamma": { "tagline": "Builder für Präsentationen, Dokumente und Websites, der mit einem Prompt startet." },
-    "gemini": { "tagline": "Googles KI-Assistent, integriert in die Google-Suche, Android und Google Workspace." },
-    "genspark": { "tagline": "Workspace mit KI-Agenten für Recherche, Folien, Tabellen und Anrufe." },
-    "github-copilot": { "tagline": "KI-Pair-Programmer und Coding-Agent in deinem Editor und auf GitHub." },
-    "google-ai-studio": { "tagline": "Googles Spielwiese im Browser für Gemini-Modelle, API-Keys und Vibe Coding." },
-    "google-flow": { "tagline": "Googles KI-Filmtool auf Basis der Videomodelle von Veo." },
-    "grammarly": { "tagline": "KI-Schreibassistent für Grammatik, Tonfall und Umformulierungen in allen Apps." },
-    "granola": { "tagline": "KI-Notizblock, der aus deinen Meeting-Notizen saubere Zusammenfassungen macht – ohne Bot." },
-    "grok": { "tagline": "Assistent von xAI mit Echtzeitzugriff auf X, Bildgenerierung und Sprachmodus." },
-    "gumloop": { "tagline": "No-Code-Plattform für KI-Automatisierungen und Agenten über all deine Tools hinweg." },
-    "hailuo": { "tagline": "Text- und Bild-zu-Video-Generator von MiniMax." },
-    "heygen": { "tagline": "KI-Avatar-Videos, Übersetzung und lippensynchrone Vertonung." },
-    "higgsfield": { "tagline": "Filmische KI-Bild- und Videogenerierung mit Presets für Kamerafahrten." },
-    "hugging-face": { "tagline": "Die zentrale Plattform für offene KI-Modelle, Datensätze und Spaces-Demos." },
-    "ideogram": { "tagline": "KI-Bildgenerator, bekannt für präzisen Text in Bildern." },
-    "invideo": { "tagline": "Video-Tool, das aus Prompts und Skripten fertige Videos mit Stock- und KI-Material macht." },
-    "jasper": { "tagline": "KI-Content-Plattform für Marketingteams, ausgerichtet auf die eigene Markenstimme." },
-    "jetbrains-ai": { "tagline": "AI Assistant und der Coding-Agent Junie in den JetBrains-IDEs." },
-    "kimi": { "tagline": "Assistent von Moonshot AI für lange Dokumente, Deep Research und agentische Aufgaben." },
-    "kiro": { "tagline": "Agentische IDE von AWS, die aus Prompts erst Spezifikationen und dann Code macht." },
-    "kling": { "tagline": "Videogenerierung aus Text und Bildern, mit Bewegungssteuerung." },
-    "krea": { "tagline": "KI-Bild- und Videogenerierung in Echtzeit, dazu Upscaling und Bearbeitung." },
-    "krisp": { "tagline": "KI-Geräuschunterdrückung, Akzentanpassung und Meeting-Notizen für Anrufe." },
-    "leonardo": { "tagline": "KI-Bild- und Videogenerierung für kreative Projekte und Game-Assets." },
-    "lindy": { "tagline": "Baukasten für KI-Assistenten, die sich um E-Mails, Kalender und Meetings kümmern." },
-    "lovable": { "tagline": "KI-Builder, der aus einem Chat eine Full-Stack-Web-App macht." },
-    "luma": { "tagline": "Filmischer Video- und Bildgenerator mit Editor, basierend auf Lumas Ray-Modellen." },
-    "make": { "tagline": "Visuelle Automatisierungsplattform für Workflows und KI-Agenten." },
-    "manus": { "tagline": "Universeller KI-Agent, der recherchiert, baut und mehrstufige Aufgaben erledigt." },
-    "meta-ai": { "tagline": "Metas KI-Assistent in WhatsApp, Instagram, Facebook und im Web." },
-    "microsoft-copilot": { "tagline": "Microsofts KI-Begleiter in Windows, Edge und Microsoft 365." },
-    "midjourney": { "tagline": "KI-Bild- und Videogenerator für Illustrationen, Concept Art und stilisierte Visuals." },
-    "mindstudio": { "tagline": "No-Code-Builder für KI-Agenten und Automatisierungen." },
-    "mistral": { "tagline": "Assistent von Mistral AI für Chat, Arbeitsaufgaben und Coding, 2026 in Vibe umbenannt." },
-    "motion": { "tagline": "KI-Kalender und Projektmanager, der deinen Arbeitstag für dich plant." },
-    "murf": { "tagline": "KI-Stimmengenerator für Voiceovers, Synchronisation und Sprachagenten." },
-    "n8n": { "tagline": "Workflow-Automatisierung mit KI-Agenten – selbst gehostet oder in der Cloud." },
-    "notebooklm": { "tagline": "Googles Recherche-Notizbuch, heute Gemini Notebook, das aus deinen Quellen antwortet." },
-    "notion": { "tagline": "Vernetzter Workspace für Dokumente, Wikis und Projekte mit integrierten KI-Agenten." },
-    "opusclip": { "tagline": "KI-Clipping-Tool, das lange Videos in teilbare Kurzclips verwandelt." },
-    "originality-ai": { "tagline": "KI-Content-Detektor mit Plagiats- und Faktencheck für Publisher." },
-    "otter": { "tagline": "KI-Meeting-Notizen, Transkription und Meeting-Agenten." },
-    "perplexity": { "tagline": "KI-Antwortmaschine, die im Web sucht und ihre Quellen nennt." },
-    "photoroom": { "tagline": "KI-Produktfotos: Hintergründe entfernen und Studioszenen erzeugen." },
-    "picsart": { "tagline": "Foto- und Videoeditor mit KI-Generierung, Retusche und Vorlagen." },
-    "pictory": { "tagline": "Video-Tool, das Skripte, Artikel und lange Videos in kurze Clips im Markenlook verwandelt." },
-    "pika": { "tagline": "Verspielte KI-Videogenerierung mit Effekten, Swaps und Keyframes." },
-    "pixelcut": { "tagline": "KI-Fotoeditor zum Freistellen, Hochskalieren und für Produktfotos." },
-    "pixverse": { "tagline": "KI-Videogenerator für schnelle Clips, Effekte und Vorlagen." },
-    "poe": { "tagline": "Ein Abo für Chats mit vielen KI-Modellen und eigenen Bots." },
-    "quillbot": { "tagline": "Umformulieren, Grammatikprüfung und KI-Erkennung für Studierende und Schreibende." },
-    "qwen": { "tagline": "Alibabas KI-Assistent auf Basis der Open-Weight-Modelle von Qwen." },
-    "reclaim": { "tagline": "KI-Kalender, der Aufgaben, Gewohnheiten und Meetings automatisch einplant." },
-    "recraft": { "tagline": "KI-Designtool für Vektorillustrationen, Icons und markenkonforme Bilder." },
-    "remini": { "tagline": "KI-Fotoverbesserer, der unscharfe, alte und niedrig aufgelöste Fotos restauriert." },
-    "remove-bg": { "tagline": "Freistellen per KI mit einem Klick; die eigenständige Seite schließt am 1. Dezember 2026." },
-    "replit": { "tagline": "Cloud-IDE mit KI-Agent, der Apps baut und deployt." },
-    "riverside": { "tagline": "Remote-Aufnahmen in Studioqualität für Podcasts und Video, mit KI-Schnitt." },
-    "runway": { "tagline": "Generative Videomodelle und Schnitt-Tools für Filmschaffende." },
-    "semrush": { "tagline": "SEO- und Marketing-Suite mit KI-Sichtbarkeitstracking und Content-Tools." },
-    "speechify": { "tagline": "Vorlese-App (Text-to-Speech) für Dokumente, Webseiten und Bücher." },
-    "sudowrite": { "tagline": "KI-Schreibpartner für Romanautorinnen und -autoren." },
-    "suno": { "tagline": "Musikgenerator, der aus einem Text-Prompt komplette Songs mit Gesang erstellt." },
-    "surfer": { "tagline": "SEO-Content-Editor und KI-Autor, optimiert für Suchmaschinen und KI-Antworten." },
-    "synthesia": { "tagline": "KI-Avatar-Videos in Studioqualität für Schulungen und Unternehmen." },
-    "tldv": { "tagline": "KI-Meeting-Recorder für Zoom, Meet und Teams mit Notizen und CRM-Updates." },
-    "turboscribe": { "tagline": "Schnelle KI-Transkription von Audio und Video in Text und Untertitel." },
-    "udio": { "tagline": "KI-Musik-App zum Erstellen, Remixen und Teilen von Songs." },
-    "v0": { "tagline": "Vercels KI-App-Builder für Oberflächen mit React und Next.js." },
-    "veed": { "tagline": "Online-Videoeditor mit KI-Untertiteln, Avataren und sauberem Ton." },
-    "warp": { "tagline": "Agentische Entwicklungsumgebung rund um ein modernes Terminal." },
-    "windsurf": { "tagline": "Agentische IDE von Cognition, im Juni 2026 in Devin Desktop umbenannt." },
-    "wispr-flow": { "tagline": "KI-Spracheingabe, die in jeder App aus Gesprochenem sauberen Text macht." },
-    "wordtune": { "tagline": "KI-Assistent zum Umformulieren und Zusammenfassen, der deine Sätze schärft." },
-    "writesonic": { "tagline": "KI-Plattform für Texte und SEO/GEO im Content-Marketing." },
-    "zapier": { "tagline": "Automatisierungsplattform, die Tausende Apps über Workflows und KI-Agenten verbindet." }
+    "adobe-firefly": {
+      "tagline": "Adobes App für generative KI – Bilder, Video und Audio."
+    },
+    "base44": {
+      "tagline": "Chat-basierter App-Builder mit integriertem Backend, Login und Hosting."
+    },
+    "beautiful-ai": {
+      "tagline": "KI-Präsentationssoftware mit Smart Slides, die sich selbst gestalten."
+    },
+    "bolt": {
+      "tagline": "KI-Builder im Browser, der Full-Stack-Apps erstellt, ausführt und deployt."
+    },
+    "canva": {
+      "tagline": "Online-Designplattform mit KI-Bildgenerierung, Magic Design und Brand Kits."
+    },
+    "capcut": {
+      "tagline": "Videoeditor mit KI-Untertiteln, Effekten und Text-zu-Video-Tools."
+    },
+    "captions": {
+      "tagline": "KI-Videoeditor, der aus Rohmaterial fertige Videos mit Untertiteln macht."
+    },
+    "character-ai": {
+      "tagline": "Chat- und Rollenspiel-App mit KI-Charakteren, auch mit selbst erstellten."
+    },
+    "chatgpt": {
+      "tagline": "OpenAIs vielseitiger KI-Assistent für Chat, Suche, Bilder, Sprache und Agenten."
+    },
+    "claude": {
+      "tagline": "Anthropics KI-Assistent für Texte, Analysen und Code, dazu Claude Code und Cowork."
+    },
+    "clickup": {
+      "tagline": "All-in-one-Arbeitsplattform mit KI für Aufgaben, Dokumente und Chat."
+    },
+    "cline": {
+      "tagline": "Open-Source-Coding-Agent für VS Code und JetBrains, der deine eigenen API-Keys nutzt."
+    },
+    "codex": {
+      "tagline": "OpenAIs Coding-Agent für Terminal, IDE und Cloud."
+    },
+    "copy-ai": {
+      "tagline": "KI-Workflows für Go-to-Market-Inhalte und Verkaufstexte."
+    },
+    "cursor": {
+      "tagline": "KI-zentrierter Code-Editor mit Agenten, die Code planen, bearbeiten und ausführen."
+    },
+    "deepl": {
+      "tagline": "KI-Übersetzer und Schreibassistent, bekannt für natürlich klingende Übersetzungen."
+    },
+    "deepseek": {
+      "tagline": "Open-Weight-Modelle für Chat und Reasoning, mit kostenlosem Assistenten für Web und App."
+    },
+    "descript": {
+      "tagline": "Video- und Podcast-Editor, den du über das Transkript steuerst."
+    },
+    "devin": {
+      "tagline": "Autonomer KI-Softwareentwickler, der Tickets übernimmt und Pull Requests öffnet."
+    },
+    "elevenlabs": {
+      "tagline": "Realistische KI-Stimmen, Synchronisation, Spracherkennung und Sprachagenten."
+    },
+    "fathom": {
+      "tagline": "KI-Meeting-Assistent mit kostenlosem Plan, sofortigen Zusammenfassungen und CRM-Sync."
+    },
+    "fireflies": {
+      "tagline": "KI-Notizassistent, der Meetings aufzeichnet, transkribiert und zusammenfasst."
+    },
+    "frase": {
+      "tagline": "KI-Tool für SEO-Content: Recherche, Briefings und optimierte Artikel."
+    },
+    "freepik": {
+      "tagline": "Stockmaterial plus KI-Suite für Bild, Video und Upscaling, heute unter dem Namen Magnific."
+    },
+    "gamma": {
+      "tagline": "Builder für Präsentationen, Dokumente und Websites, der mit einem Prompt startet."
+    },
+    "gemini": {
+      "tagline": "Googles KI-Assistent, integriert in die Google-Suche, Android und Google Workspace."
+    },
+    "genspark": {
+      "tagline": "Workspace mit KI-Agenten für Recherche, Folien, Tabellen und Anrufe."
+    },
+    "github-copilot": {
+      "tagline": "KI-Pair-Programmer und Coding-Agent in deinem Editor und auf GitHub."
+    },
+    "google-ai-studio": {
+      "tagline": "Googles Spielwiese im Browser für Gemini-Modelle, API-Keys und Vibe Coding."
+    },
+    "google-flow": {
+      "tagline": "Googles KI-Filmtool auf Basis der Videomodelle von Veo."
+    },
+    "grammarly": {
+      "tagline": "KI-Schreibassistent für Grammatik, Tonfall und Umformulierungen in allen Apps."
+    },
+    "granola": {
+      "tagline": "KI-Notizblock, der aus deinen Meeting-Notizen saubere Zusammenfassungen macht – ohne Bot."
+    },
+    "grok": {
+      "tagline": "Assistent von xAI mit Echtzeitzugriff auf X, Bildgenerierung und Sprachmodus."
+    },
+    "gumloop": {
+      "tagline": "No-Code-Plattform für KI-Automatisierungen und Agenten über all deine Tools hinweg."
+    },
+    "hailuo": {
+      "tagline": "Text- und Bild-zu-Video-Generator von MiniMax."
+    },
+    "heygen": {
+      "tagline": "KI-Avatar-Videos, Übersetzung und lippensynchrone Vertonung."
+    },
+    "higgsfield": {
+      "tagline": "Filmische KI-Bild- und Videogenerierung mit Presets für Kamerafahrten."
+    },
+    "hugging-face": {
+      "tagline": "Die zentrale Plattform für offene KI-Modelle, Datensätze und Spaces-Demos."
+    },
+    "ideogram": {
+      "tagline": "KI-Bildgenerator, bekannt für präzisen Text in Bildern."
+    },
+    "invideo": {
+      "tagline": "Video-Tool, das aus Prompts und Skripten fertige Videos mit Stock- und KI-Material macht."
+    },
+    "jasper": {
+      "tagline": "KI-Content-Plattform für Marketingteams, ausgerichtet auf die eigene Markenstimme."
+    },
+    "jetbrains-ai": {
+      "tagline": "AI Assistant und der Coding-Agent Junie in den JetBrains-IDEs."
+    },
+    "kimi": {
+      "tagline": "Assistent von Moonshot AI für lange Dokumente, Deep Research und agentische Aufgaben."
+    },
+    "kiro": {
+      "tagline": "Agentische IDE von AWS, die aus Prompts erst Spezifikationen und dann Code macht."
+    },
+    "kling": {
+      "tagline": "Videogenerierung aus Text und Bildern, mit Bewegungssteuerung."
+    },
+    "krea": {
+      "tagline": "KI-Bild- und Videogenerierung in Echtzeit, dazu Upscaling und Bearbeitung."
+    },
+    "krisp": {
+      "tagline": "KI-Geräuschunterdrückung, Akzentanpassung und Meeting-Notizen für Anrufe."
+    },
+    "leonardo": {
+      "tagline": "KI-Bild- und Videogenerierung für kreative Projekte und Game-Assets."
+    },
+    "lindy": {
+      "tagline": "Baukasten für KI-Assistenten, die sich um E-Mails, Kalender und Meetings kümmern."
+    },
+    "lovable": {
+      "tagline": "KI-Builder, der aus einem Chat eine Full-Stack-Web-App macht."
+    },
+    "luma": {
+      "tagline": "Filmischer Video- und Bildgenerator mit Editor, basierend auf Lumas Ray-Modellen."
+    },
+    "make": {
+      "tagline": "Visuelle Automatisierungsplattform für Workflows und KI-Agenten."
+    },
+    "manus": {
+      "tagline": "Universeller KI-Agent, der recherchiert, baut und mehrstufige Aufgaben erledigt."
+    },
+    "meta-ai": {
+      "tagline": "Metas KI-Assistent in WhatsApp, Instagram, Facebook und im Web."
+    },
+    "microsoft-copilot": {
+      "tagline": "Microsofts KI-Begleiter in Windows, Edge und Microsoft 365."
+    },
+    "midjourney": {
+      "tagline": "KI-Bild- und Videogenerator für Illustrationen, Concept Art und stilisierte Visuals."
+    },
+    "mindstudio": {
+      "tagline": "No-Code-Builder für KI-Agenten und Automatisierungen."
+    },
+    "mistral": {
+      "tagline": "Assistent von Mistral AI für Chat, Arbeitsaufgaben und Coding, 2026 in Vibe umbenannt."
+    },
+    "motion": {
+      "tagline": "KI-Kalender und Projektmanager, der deinen Arbeitstag für dich plant."
+    },
+    "murf": {
+      "tagline": "KI-Stimmengenerator für Voiceovers, Synchronisation und Sprachagenten."
+    },
+    "n8n": {
+      "tagline": "Workflow-Automatisierung mit KI-Agenten – selbst gehostet oder in der Cloud."
+    },
+    "notebooklm": {
+      "tagline": "Googles Recherche-Notizbuch, heute Gemini Notebook, das aus deinen Quellen antwortet."
+    },
+    "notion": {
+      "tagline": "Vernetzter Workspace für Dokumente, Wikis und Projekte mit integrierten KI-Agenten."
+    },
+    "opusclip": {
+      "tagline": "KI-Clipping-Tool, das lange Videos in teilbare Kurzclips verwandelt."
+    },
+    "originality-ai": {
+      "tagline": "KI-Content-Detektor mit Plagiats- und Faktencheck für Publisher."
+    },
+    "otter": {
+      "tagline": "KI-Meeting-Notizen, Transkription und Meeting-Agenten."
+    },
+    "perplexity": {
+      "tagline": "KI-Antwortmaschine, die im Web sucht und ihre Quellen nennt."
+    },
+    "photoroom": {
+      "tagline": "KI-Produktfotos: Hintergründe entfernen und Studioszenen erzeugen."
+    },
+    "picsart": {
+      "tagline": "Foto- und Videoeditor mit KI-Generierung, Retusche und Vorlagen."
+    },
+    "pictory": {
+      "tagline": "Video-Tool, das Skripte, Artikel und lange Videos in kurze Clips im Markenlook verwandelt."
+    },
+    "pika": {
+      "tagline": "Verspielte KI-Videogenerierung mit Effekten, Swaps und Keyframes."
+    },
+    "pixelcut": {
+      "tagline": "KI-Fotoeditor zum Freistellen, Hochskalieren und für Produktfotos."
+    },
+    "pixverse": {
+      "tagline": "KI-Videogenerator für schnelle Clips, Effekte und Vorlagen."
+    },
+    "poe": {
+      "tagline": "Ein Abo für Chats mit vielen KI-Modellen und eigenen Bots."
+    },
+    "quillbot": {
+      "tagline": "Umformulieren, Grammatikprüfung und KI-Erkennung für Studierende und Schreibende."
+    },
+    "qwen": {
+      "tagline": "Alibabas KI-Assistent auf Basis der Open-Weight-Modelle von Qwen."
+    },
+    "reclaim": {
+      "tagline": "KI-Kalender, der Aufgaben, Gewohnheiten und Meetings automatisch einplant."
+    },
+    "recraft": {
+      "tagline": "KI-Designtool für Vektorillustrationen, Icons und markenkonforme Bilder."
+    },
+    "remini": {
+      "tagline": "KI-Fotoverbesserer, der unscharfe, alte und niedrig aufgelöste Fotos restauriert."
+    },
+    "remove-bg": {
+      "tagline": "Freistellen per KI mit einem Klick; die eigenständige Seite schließt am 1. Dezember 2026."
+    },
+    "replit": {
+      "tagline": "Cloud-IDE mit KI-Agent, der Apps baut und deployt."
+    },
+    "riverside": {
+      "tagline": "Remote-Aufnahmen in Studioqualität für Podcasts und Video, mit KI-Schnitt."
+    },
+    "runway": {
+      "tagline": "Generative Videomodelle und Schnitt-Tools für Filmschaffende."
+    },
+    "semrush": {
+      "tagline": "SEO- und Marketing-Suite mit KI-Sichtbarkeitstracking und Content-Tools."
+    },
+    "speechify": {
+      "tagline": "Vorlese-App (Text-to-Speech) für Dokumente, Webseiten und Bücher."
+    },
+    "sudowrite": {
+      "tagline": "KI-Schreibpartner für Romanautorinnen und -autoren."
+    },
+    "suno": {
+      "tagline": "Musikgenerator, der aus einem Text-Prompt komplette Songs mit Gesang erstellt."
+    },
+    "surfer": {
+      "tagline": "SEO-Content-Editor und KI-Autor, optimiert für Suchmaschinen und KI-Antworten."
+    },
+    "synthesia": {
+      "tagline": "KI-Avatar-Videos in Studioqualität für Schulungen und Unternehmen."
+    },
+    "tldv": {
+      "tagline": "KI-Meeting-Recorder für Zoom, Meet und Teams mit Notizen und CRM-Updates."
+    },
+    "turboscribe": {
+      "tagline": "Schnelle KI-Transkription von Audio und Video in Text und Untertitel."
+    },
+    "udio": {
+      "tagline": "KI-Musik-App zum Erstellen, Remixen und Teilen von Songs."
+    },
+    "v0": {
+      "tagline": "Vercels KI-App-Builder für Oberflächen mit React und Next.js."
+    },
+    "veed": {
+      "tagline": "Online-Videoeditor mit KI-Untertiteln, Avataren und sauberem Ton."
+    },
+    "warp": {
+      "tagline": "Agentische Entwicklungsumgebung rund um ein modernes Terminal."
+    },
+    "windsurf": {
+      "tagline": "Agentische IDE von Cognition, im Juni 2026 in Devin Desktop umbenannt."
+    },
+    "wispr-flow": {
+      "tagline": "KI-Spracheingabe, die in jeder App aus Gesprochenem sauberen Text macht."
+    },
+    "wordtune": {
+      "tagline": "KI-Assistent zum Umformulieren und Zusammenfassen, der deine Sätze schärft."
+    },
+    "writesonic": {
+      "tagline": "KI-Plattform für Texte und SEO/GEO im Content-Marketing."
+    },
+    "zapier": {
+      "tagline": "Automatisierungsplattform, die Tausende Apps über Workflows und KI-Agenten verbindet."
+    }
   },
   "events": {
-    "chatgpt-students-deadline-2026": { "title": "Letzter Tag für 4 kostenlose Monate ChatGPT Plus (US-Studierende)" },
+    "chatgpt-students-deadline-2026": {
+      "title": "Letzter Tag für 4 kostenlose Monate ChatGPT Plus (US-Studierende)"
+    },
     "black-friday-2026": {
       "title": "Black Friday 2026",
       "description": "Das größte Rabattfenster des Jahres für KI-Abos. Jahrespläne und Lifetime-Deals werden meist zuerst reduziert."
@@ -265,8 +608,35 @@
       "title": "Cyber Monday 2026",
       "description": "Letzter Tag der meisten Black-Friday-Angebote für Software."
     },
-    "google-ai-students-deadline-2026": { "title": "Letzter Tag, um ein kostenloses Jahr Google AI Pro oder AI Plus einzulösen (Studierende)" },
-    "claude-code-plus25-2026": { "title": "Claude-Code-Wochenlimits: Aktion mit +50 % endet, dauerhaftes Plus von 25 % beginnt" },
-    "cursor-students-closed-2026": { "title": "Cursor beendet Neuanmeldungen zum kostenlosen Pro-Jahr für Studierende" }
+    "google-ai-students-deadline-2026": {
+      "title": "Letzter Tag, um ein kostenloses Jahr Google AI Pro oder AI Plus einzulösen (Studierende)"
+    },
+    "claude-code-plus25-2026": {
+      "title": "Claude-Code-Wochenlimits: Aktion mit +50 % endet, dauerhaftes Plus von 25 % beginnt"
+    },
+    "cursor-students-closed-2026": {
+      "title": "Cursor beendet Neuanmeldungen zum kostenlosen Pro-Jahr für Studierende"
+    },
+    "claude-cloud-credit-claim-deadline-2026": {
+      "title": "Letzter Tag zum Einlösen von Claude Code Cloud-Guthaben ($100 Pro, $250 Max)"
+    },
+    "elevenlabs-v4-credits-end-2026": {
+      "title": "ElevenLabs v4: 3× Credits auf Creator und höher enden"
+    },
+    "bolt-forge-preview-end-2026": {
+      "title": "Bolt Forge kostenlose Vorschau endet und Bolt Lite Anmeldungen schließen"
+    },
+    "claude-artifact-promo-end-2026": {
+      "title": "Claude Artifact-Nutzungsaktion endet"
+    },
+    "windsurf-swe-2-free-end-2026": {
+      "title": "Letzter Tag kostenloses SWE-2 in Devin Desktop"
+    },
+    "adobe-firefly-30-off-end-2026": {
+      "title": "Adobe Firefly 30 % Erst-Jahr-Rabatt endet"
+    },
+    "pixel-10-pro-ai-pro-deadline-2026": {
+      "title": "Letzter Tag zum Kauf eines Pixel 10 Pro mit 12 Monaten Google AI Pro"
+    }
   }
 }

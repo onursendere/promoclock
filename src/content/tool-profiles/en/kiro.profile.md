@@ -29,12 +29,12 @@ pricing:
   startingPrice: 20
   currency: USD
   billing: month
-  summary: "Kiro Free includes 50 credits a month. Pro is $20/month for 1,000 credits, Pro+ $40 for 2,000, Pro Max $100 for 5,000 and Power $200 for 10,000, with add-on credits at $0.04 each on paid plans."
-  asOf: 2026-09-17
+  summary: "Kiro Free includes 50 credits a month. Pro is $20/month for 1,000 credits, Pro+ $40 for 2,000, Pro Max $100 for 5,000 and Power $200 for 10,000, with add-on credits at $0.04 each on paid plans. A first upgrade via social login or AWS Builder ID gets $20 credited toward the subscription."
+  asOf: 2026-10-03
 platforms: [web, macos, windows, linux, cli]
 savingTips:
   - "Students at eligible universities get 1,000 credits per month free for one year."
-  - "Stay on Auto for routine prompts: the same task costs about 1.3x more credits when you pick Sonnet 4.6 directly."
+  - "Stay on Auto for routine prompts: picking a model directly costs more credits, about 1.3x for Sonnet 5.5 and 2x for Opus 5.5."
   - "Add-on credit packs start at $5 for 125 credits and stay valid for 12 months, unlike monthly plan credits."
 faq:
   - q: "Is Kiro free?"
@@ -54,7 +54,7 @@ sources:
   - https://kiro.dev/web/
   - https://kiro.dev/downloads/
   - https://kiro.dev/changelog/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Kiro?
 Kiro is AWS's development environment for working with AI agents in a structured way. Instead of jumping straight from a prompt to code, spec mode produces requirements, a design and tasks that you approve, and agents implement them in parallel.

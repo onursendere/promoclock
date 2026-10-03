@@ -24,18 +24,18 @@ useCases:
   - "Transformer des notes de réunion et des recherches web en présentation client, puis l’exporter avec une formule payante."
   - "Laisser GenMail trier une boîte de réception surchargée, rédiger des réponses dans votre style et vous envoyer un récapitulatif chaque matin."
   - "Créer un CRM léger ou un tableau de bord à partir de vos propres données avec AgentBase, sans embaucher de développeur."
-  - "Remplacer des abonnements distincts de chat et d’images par Plus, où les deux ne consomment aucun crédit jusqu’à fin décembre 2026."
+  - "Remplacer des abonnements distincts de chat et d'images par Plus, où les modèles de chat et d'images essentiels ne consomment aucun crédit jusqu'à un plafond d'usage."
 pricingSummary: "Free ajoute 100 crédits par jour. Plus démarre à $24.99/mois pour 10 000 crédits et Pro à $249.99/mois pour 125 000 crédits ; les deux proposent des paliers supérieurs, et la facturation annuelle réduit le prix d’environ 20 %. Team coûte $30 par utilisateur."
 savingTips:
   - "La facturation annuelle retire environ 20 % sur chaque palier Plus et Pro, par exemple $19.99 au lieu de $24.99 par mois pour le premier palier Plus."
-  - "Avec Plus et Pro, le chat IA et la génération d’images ne consomment aucun crédit jusqu’au 31 décembre 2026, dans la limite de plafonds d’utilisation sur 5 heures."
+  - "Les abonnements Plus et Pro commencés avant le 18 septembre 2026 conservent le chat IA et les images sans crédit jusqu'au 31 décembre 2026, dans les limites de plafonds de 5 heures ; les plus récents obtiennent les modèles essentiels gratuits jusqu'à un plafond d'usage."
   - "S’il vous manque des crédits un seul mois, un pack à $20 ajoute 7 500 crédits valables 3 mois, sans changer de palier."
   - "La formule Free ne demande pas de carte bancaire : vous pouvez tester le Super Agent avant de payer."
 faq:
   - q: "Combien coûte Genspark par mois ?"
     a: "Plus démarre à $24.99/mois ($19.99 en facturation annuelle) pour 10 000 crédits et monte jusqu’à $199.99 pour 95 000. Pro va de $249.99 à $3,999.99 par mois, et la formule Team coûte $30 par utilisateur."
   - q: "Le chat IA illimité de Genspark est-il vraiment illimité ?"
-    a: "Pas tout à fait. Les abonnés Plus et Pro peuvent utiliser le chat IA et la génération d’images sans dépenser de crédits jusqu’au 31 décembre 2026, mais l’usage est plafonné par fenêtre de 5 heures et reprend une fois cette fenêtre écoulée."
+    a: "Pas complètement. Les abonnements Plus et Pro commencés avant le 18 septembre 2026 et maintenus actifs peuvent utiliser le chat IA et la génération d'images sans crédits jusqu'au 31 décembre 2026, plafonnés par fenêtre de 5 heures. Les abonnements plus récents obtiennent les modèles essentiels gratuitement jusqu'à un plafond d'usage, puis utilisent des crédits mensuels, et les modèles phares consomment toujours des crédits."
   - q: "Que comprend la formule gratuite de Genspark ?"
     a: "La formule Free offre 100 crédits par jour, sans carte bancaire, et couvre le chat, les présentations, les documents et la recherche. Certaines fonctionnalités sont limitées : par exemple, impossible d’exporter des présentations avec Free."
   - q: "Les crédits Genspark non utilisés sont-ils reportés ?"
@@ -51,6 +51,6 @@ Genspark fonctionne dans le navigateur et via toute une famille d’applications
 
 ## Points faibles
 - Toutes les fonctionnalités puisent dans une seule réserve de crédits, et les tâches d’agent lourdes en consomment bien plus qu’une simple conversation.
-- L’avantage chat et images sans crédits n’est garanti que jusqu’au 31 décembre 2026, avec des plafonds sur 5 heures.
+- L'avantage chat et images sans crédit s'applique complètement uniquement aux abonnements commencés avant le 18 septembre 2026, se termine le 31 décembre 2026 et s'accompagne de plafonds de 5 heures.
 - Pro démarre à $249.99 par mois ; ses principaux atouts par rapport à Plus sont 1 To de stockage et des modèles d’image 4K exclusifs.
 - En cas de résiliation, les crédits non utilisés sont perdus à la fin de la période, sans remboursement au prorata.

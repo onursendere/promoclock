@@ -23,7 +23,7 @@ useCases:
   - "CLI'dan başarısız bir test paketini düzeltmesini iste ve sandbox dışında çalışacak her komutu önceden onayla."
   - "Uzun bir yeniden düzenleme işini Codex cloud'a devret, ortaya çıkan diff'i daha sonra iOS uygulamasından incele."
   - "Otomatik kod incelemeyi aç; her GitHub pull request'i ekip arkadaşların bakmadan önce bir ilk incelemeden geçsin."
-pricingSummary: "Codex; ChatGPT Free ($0), Go (aylık $8), Plus (aylık $20) ve Pro (aylık en az $100; Plus'ın 5 ya da 20 katı limit) planlarına dahil. Business kullanıcı başına aylık $25, yıllık faturalandırmada $20; API anahtarıyla kullanım API ücretleriyle faturalandırılır."
+pricingSummary: "Codex, ChatGPT Free ($0), Go (aylık $8), Plus (aylık $20) ve Pro (aylık $100, $200 ya da $500; yeni $500 seviyesi Astra Ultrafast'ı ekliyor) planlarına dahil. Business kullanıcı başına aylık $25 ya da yıllık faturalama ile $20; API anahtarı kullanımı API ücretleriyle faturalandırılır."
 savingTips:
   - "Limite takılan Plus ve Pro kullanıcıları, tüm planı yükseltmek yerine ChatGPT kredisi satın alabilir."
   - "GPT-5.6 Luna'ya geçmek beş saatte Sol'dan çok daha fazla yerel mesaj verir; bu da her planı daha uzun idare ettirir."

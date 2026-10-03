@@ -31,16 +31,16 @@ pricing:
   startingPrice: 29.99
   currency: USD
   billing: month
-  summary: "Lindy sells seats: Plus is $29.99 per user per month with 3,000 credits, Pro $99.99 with 15,000 and Max $199.99 with 35,000, plus custom Enterprise. Extra workspace credits cost $10 per 1,000."
-  asOf: 2026-09-17
+  summary: "Lindy sells seats: Plus is $29.99 per user per month with 3,000 credits, Pro $99.99 with 15,000 and Max $199.99 with 35,000, plus custom Enterprise. New users can try it with $50 in credits for 7 days, no card needed. Extra workspace credits cost $10 per 1,000."
+  asOf: 2026-10-03
 platforms: [web, browser-extension]
 savingTips:
-  - "New teammates who join through Slack get a one-time 7-day free trial before their seat is billed; direct signups are billed immediately."
+  - "New users get $50 in credits for 7 days without a credit card, and teammates who join through Slack get a one-time 7-day trial before their seat is billed."
   - "Purchased top-up credits carry over and never expire, unlike plan credits, which reset each billing cycle."
   - "Admins can cap how many credits any one person draws, so a single heavy user cannot empty the shared pool."
 faq:
   - q: "Does Lindy have a free plan?"
-    a: "No. Lindy lists only paid tiers: Plus, Pro, Max and Enterprise. Someone new who joins a workspace by mentioning Lindy in Slack gets a 7-day free trial, but people who sign up directly are billed right away."
+    a: "No permanent one. Lindy's paid tiers are Plus, Pro, Max and Enterprise, but new users get $50 in credits for 7 days without a credit card, and someone who joins a workspace by mentioning Lindy in Slack gets a 7-day trial."
   - q: "How do Lindy credits work?"
     a: "Credits measure the work Lindy does and are worth about one cent each. Everyday asks use 2–250 credits, deep work 250–1,000 and big builds 1,000–2,500. Each seat adds its allowance to one shared workspace pool."
   - q: "What happens when Lindy runs out of credits?"
@@ -56,7 +56,7 @@ sources:
   - https://docs.lindy.ai/teammate/lindy-teammate-billing
   - https://docs.lindy.ai/features/imessage-sms
   - https://www.lindy.ai/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Lindy?
 Lindy calls itself an AI employee. Rather than an app you open, it sits in your team's Slack, links to each person's email, calendar and phone number, and returns finished work: answers with sources, drafted replies, meeting notes, scheduled reports and hosted dashboards it builds as artifacts.

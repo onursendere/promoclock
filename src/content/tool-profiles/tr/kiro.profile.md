@@ -24,10 +24,10 @@ useCases:
   - "Ortak bir kütüphanedeki değişikliği ve ona bağlı servisleri, birkaç depoyu kapsayan tek bir Kiro Web oturumunda koordine et."
   - "Bağımlılıkları güncelleyen ve her hafta incelemen için pull request açan, düzenli çalışan bir otomasyon zamanla."
   - "Pull request'leri bir insan bakmadan önce incelemesi için arayüzsüz Kiro CLI'ı bir CI hattında çalıştır."
-pricingSummary: "Kiro Free ayda 50 kredi içerir. Pro aylık $20 karşılığında 1.000 kredi verir; Pro+ $40 ile 2.000, Pro Max $100 ile 5.000, Power ise $200 ile 10.000 kredi sunar. Ücretli planlarda ek kredilerin tanesi $0.04."
+pricingSummary: "Kiro Free aylık 50 kredi içeriyor. Pro aylık $20 ve 1.000 kredi, Pro+ $40 ve 2.000, Pro Max $100 ve 5.000, Power $200 ve 10.000 kredi sunuyor; ücretli planlarda ek kredinin tanesi $0.04. Sosyal giriş ya da AWS Builder ID ile yapılan ilk yükseltmede aboneliğe $20 kredi tanımlanıyor."
 savingTips:
   - "Uygun üniversitelerdeki öğrenciler bir yıl boyunca her ay 1.000 krediyi ücretsiz alır."
-  - "Rutin istemlerde Auto'da kal: Sonnet 4.6'yı doğrudan seçtiğinde aynı görev yaklaşık 1,3 kat daha fazla kredi harcar."
+  - "Rutin istekler için Auto'da kal: bir modeli doğrudan seçmek daha fazla kredi harcar; Sonnet 5.5 için yaklaşık 1.3 kat, Opus 5.5 için 2 kat."
   - "Ek kredi paketleri 125 kredi karşılığı $5 ile başlar ve aylık plan kredilerinin aksine 12 ay geçerli kalır."
 faq:
   - q: "Kiro ücretsiz mi?"

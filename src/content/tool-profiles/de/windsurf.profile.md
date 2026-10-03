@@ -25,7 +25,7 @@ useCases:
   - "Ein bestehendes Windsurf-Setup inklusive Regeln und Memories mit dem eingebauten Assistenten zu Devin Local migrieren."
 pricingSummary: "Free enthält ein kleines Kontingent mit unbegrenzten Tab-Vervollständigungen. Pro kostet $20/Monat, Max $200/Monat mit deutlich höherem Kontingent, und Teams startet bei $80/Monat mit vollen Sitzen zu je $40. Enterprise ist individuell."
 savingTips:
-  - "Kostenlose Modelle zählen nicht gegen dein Kontingent, und günstigere SWE-Modelle wie SWE-1.7 strecken bezahlte Kontingente weiter."
+  - "Kostenlose Modelle zählen nicht gegen dein Kontingent und Cognitions SWE-Modelle strecken bezahlte Kontingente weiter; SWE-2 ist kostenlos in Devin Desktop und der CLI auf Pro und Max bis 16. Oktober 2026."
   - "Abonnenten, die vor der Kontingent-Umstellung im März 2026 auf Windsurf Pro waren, behalten dauerhaft den Bestandspreis von $15/Monat."
 faq:
   - q: "Wurde Windsurf eingestellt?"

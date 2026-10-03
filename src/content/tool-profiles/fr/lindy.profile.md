@@ -25,14 +25,14 @@ useCases:
   - "Recevoir chaque matin un brief quotidien couvrant vos réunions, vos e-mails urgents et tout ce que vous suivez."
   - "Faire rechercher par Lindy les participants avant un appel commercial et envoyer la relance ensuite."
   - "Transformer des données CRM et d’analyse en un tableau de bord en direct que Lindy héberge sur son propre lien."
-pricingSummary: "Lindy vend des sièges : Plus est à $29.99 par utilisateur et par mois avec 3 000 crédits, Pro $99.99 avec 15 000 et Max $199.99 avec 35 000, plus un Enterprise sur mesure. Les crédits d’espace de travail en supplément coûtent $10 les 1 000."
+pricingSummary: "Lindy vend des sièges : Plus est $29.99 par utilisateur et par mois avec 3 000 crédits, Pro $99.99 avec 15 000 et Max $199.99 avec 35 000, plus un Enterprise personnalisé. Les nouveaux utilisateurs peuvent l'essayer avec $50 de crédits pendant 7 jours, sans carte requise. Les crédits d'espace de travail en supplément coûtent $10 pour 1 000."
 savingTips:
-  - "Les nouveaux coéquipiers qui rejoignent via Slack bénéficient d’un essai gratuit unique de 7 jours avant la facturation de leur siège ; les inscriptions directes sont facturées immédiatement."
+  - "Les nouveaux utilisateurs reçoivent $50 de crédits pendant 7 jours sans carte bancaire, et les coéquipiers qui rejoignent via Slack obtiennent un essai gratuit unique de 7 jours avant la facturation de leur siège."
   - "Les crédits de recharge achetés se reportent et n’expirent jamais, contrairement aux crédits de formule, qui se réinitialisent à chaque cycle de facturation."
   - "Les administrateurs peuvent plafonner le nombre de crédits qu’une seule personne consomme, pour qu’un utilisateur intensif ne vide pas la réserve partagée."
 faq:
   - q: "Lindy a-t-il une formule gratuite ?"
-    a: "Non. Lindy ne liste que des paliers payants : Plus, Pro, Max et Enterprise. Une personne qui rejoint un espace de travail en mentionnant Lindy dans Slack bénéficie d’un essai gratuit de 7 jours, mais les personnes qui s’inscrivent directement sont facturées aussitôt."
+    a: "Aucune permanente. Les paliers payants de Lindy sont Plus, Pro, Max et Enterprise, mais les nouveaux utilisateurs reçoivent $50 de crédits pendant 7 jours sans carte, et quelqu'un qui rejoint un espace de travail en mentionnant Lindy dans Slack bénéficie d'un essai de 7 jours."
   - q: "Comment fonctionnent les crédits Lindy ?"
     a: "Les crédits mesurent le travail que fait Lindy et valent environ un centime chacun. Les demandes du quotidien utilisent 2 à 250 crédits, le travail approfondi 250 à 1 000 et les gros projets 1 000 à 2 500. Chaque siège ajoute sa dotation à une réserve d’espace de travail partagée."
   - q: "Que se passe-t-il quand Lindy n’a plus de crédits ?"

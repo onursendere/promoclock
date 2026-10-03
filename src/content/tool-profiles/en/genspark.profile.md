@@ -24,7 +24,7 @@ useCases:
   - "Turn meeting notes and web research into a client deck, then export it on a paid plan."
   - "Let GenMail sort an overloaded inbox, draft replies in your voice and send a morning briefing."
   - "Build a lightweight CRM or dashboard from your own data with AgentBase instead of hiring a developer."
-  - "Replace separate chat and image subscriptions with Plus, where both cost no credits through December 2026."
+  - "Replace separate chat and image subscriptions with Plus, where core chat and image models cost no credits up to a usage cap."
 pricing:
   freePlan: true
   startingPrice: 24.99
@@ -35,14 +35,14 @@ pricing:
 platforms: [web, ios, android, macos, windows, linux]
 savingTips:
   - "Annual billing cuts about 20% from every Plus and Pro tier, for example $19.99 instead of $24.99 a month on entry Plus."
-  - "On Plus and Pro, AI chat and image generation use no credits until December 31, 2026, within 5-hour usage caps."
+  - "Plus and Pro subscriptions started before September 18, 2026 keep credit-free AI chat and images until December 31, 2026, within 5-hour caps; newer ones get core models free up to a usage cap."
   - "If you only run short one month, a $20 credit pack adds 7,500 credits valid for 3 months without changing tiers."
   - "The Free plan needs no credit card, so you can test the Super Agent before paying."
 faq:
   - q: "How much does Genspark cost per month?"
     a: "Plus starts at $24.99/month ($19.99 billed annually) for 10,000 credits and scales to $199.99 for 95,000. Pro runs from $249.99 to $3,999.99 a month, and the Team plan is $30 per seat."
   - q: "Is Genspark's unlimited AI chat really unlimited?"
-    a: "Not completely. Plus and Pro members can use AI chat and image generation without spending credits until December 31, 2026, but usage is capped per 5-hour window and resumes once that window passes."
+    a: "Not completely. Plus and Pro subscriptions started before September 18, 2026 and kept active can use AI chat and image generation without credits until December 31, 2026, capped per 5-hour window. Newer subscriptions get core models free up to a usage cap, then use monthly credits, and flagship models always cost credits."
   - q: "What does the free Genspark plan include?"
     a: "The Free plan gives 100 credits per day, requires no credit card and covers chat, slides, docs and research. Some features are restricted; for example, you cannot export slides on Free."
   - q: "Do unused Genspark credits roll over?"
@@ -57,7 +57,7 @@ sources:
   - https://www.genspark.ai/blog/genspark-ai-workspace-4
   - https://www.genspark.ai/download
   - https://www.genspark.ai/terms
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Genspark?
 Genspark began as an AI search product and is now built as a complete AI workspace. Its Super Agent sits on a memory layer called SecondBrain and hands work to three suites: Build (Design, Code, AgentBase), Office (Slides, Sheets, Docs, GenMail) and Content (Chat, Image, Video, Music).
@@ -67,6 +67,6 @@ Genspark works in the browser and through a family of apps: the Super App for ma
 
 ## Limitations
 - Every feature draws from one credit pool, and heavier agent tasks consume far more than a quick chat.
-- The zero-credit chat and image perk is guaranteed only until December 31, 2026 and comes with 5-hour caps.
+- The zero-credit chat and image perk fully applies only to subscriptions started before September 18, 2026, ends on December 31, 2026 and comes with 5-hour caps.
 - Pro starts at $249.99 a month; its main extras over Plus are 1 TB of storage and exclusive 4K image models.
 - Canceling forfeits unused credits at the end of the term, with no prorated refund.

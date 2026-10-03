@@ -23,7 +23,7 @@ useCases:
   - "Sıralama kaybeden bir blog yazısını Content Audit uyarıları ve güncel Content Editor yönergeleriyle yenile."
   - "Yazarlara brif vermeden önce Topical Map'te yeni bir ürün kategorisi için bir makale kümesi planla."
   - "Önemli satın alma istemlerinde ChatGPT ve Perplexity'nin markanı anıp anmadığını kontrol et ve rakiplerin görünürlüğüyle karşılaştır."
-pricingSummary: "Aylık ödemede Discovery $59, Standard $119, Pro $219 ve Peace of Mind $359. Yıllık ödemede sırasıyla ayda $49, $99, $182 ve $299. AI Search Analytics $95 ya da $82, Enterprise ise ayda $999 olarak listeleniyor."
+pricingSummary: "Aylık: Discovery $59, Standard $119, Pro $219 ve Peace of Mind $359. Yıllık faturalama: ayda $49, $99, $182 ve $299. AI Search Analytics $95 ya da $82, Enterprise ise özel fiyatlı."
 savingTips:
   - "Yıllık ödeme %17'ye kadar tasarruf sağlar (örneğin Discovery'de yılda $120), ancak tüm yılın ücreti peşin alınır."
   - "Yeni hesaplar Pro'yu 7 gün ücretsiz dener. Deneme için ödeme bilgisi gerekir ve iptal etmezsen seçtiğin ücretli plana dönüşür."

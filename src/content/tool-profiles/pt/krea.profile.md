@@ -1,7 +1,7 @@
 ---
 summary: "Krea é uma plataforma de IA generativa da Krea para criar e editar imagens, vídeo e ativos 3D, com geração em tempo real que atualiza enquanto você digita ou desenha. Ela hospeda mais de 150 modelos, incluindo seu próprio modelo de imagem Krea 2, e atende designers, estúdios e agências que querem muitos modelos em uma só conta."
 metaTitle: "Preços do Krea AI, plano grátis e recursos (2026)"
-metaDescription: "Preços do Krea AI em 2026: plano gratuito com 100 unidades de computação por dia, Pro a $35/mês, níveis Max e Business, além do Krea 2, Krea Agent e alternativas."
+metaDescription: "Preços do Krea AI em 2026: plano gratuito com 100 unidades de computação por dia, Basic a $9/mês, Pro a $35, Max e Business, Krea 2, Krea Agent e alternativas."
 bestFor:
   - "Designers explorando estilos visuais"
   - "Estúdios e agências criativas"
@@ -27,7 +27,7 @@ useCases:
   - "Treinar uma LoRA em um mascote de marca para que toda imagem de campanha mantenha o mesmo personagem."
   - "Pedir ao Krea Agent para produzir seis anúncios estáticos para Instagram e um vídeo vertical a partir de uma foto de produto e um site."
   - "Fazer upscale de um pôster gerado para resolução de impressão com o Topaz Standard antes de enviar à gráfica."
-pricingSummary: "O Free dá 100 unidades de computação por dia. O Pro custa $35/mês ($21/mês na cobrança anual) com 20.000 unidades, o Max $105/mês ($63 anual) com 60.000, e o Business $200/mês ($160 anual) com 80.000 unidades para até 50 assentos."
+pricingSummary: "Free dá 100 unidades de computação por dia. Basic é $9/mês ($5/mês na cobrança anual) com 5.000 unidades, Pro $35/mês ($21 anual) com 20.000, Max $105/mês ($63 anual) com 60.000, e Business $200/mês ($160 anual) com 80.000 unidades para até 50 assentos."
 savingTips:
   - "A cobrança anual economiza 40% nos planos pagos, reduzindo o Pro de $35 para $21 ao mês."
   - "O Max continua gerando depois que suas unidades de computação acabam, com gerações relaxadas ilimitadas em modelos de imagem próprios selecionados."

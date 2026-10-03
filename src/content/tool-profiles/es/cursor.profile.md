@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "Hobby es gratis con solicitudes de Agent limitadas. Pro cuesta $20/mes, Pro+ $60/mes con límites de Agent 3x los de Pro, y Ultra $200/mes con 20x. India también tiene Start a ₹649/mes."
 savingTips:
   - "La facturación anual ahorra un 20 % frente al pago mensual."
-  - "Los propios modelos de Cursor (Grok 4.6, Grok 4.5, Composer 2.5) vienen con más uso incluido que los de terceros, así que elegirlos alarga más un plan."
+  - "Los propios modelos de Cursor (Grok 4.7, Grok 4.6, Grok 4.5, Composer 2.5) vienen con más uso incluido que los modelos de terceros, así que elegirlos estira más un plan."
 faq:
   - q: "¿Cursor sigue siendo gratis?"
     a: "Sí. El plan Hobby no cuesta nada, no necesita tarjeta de crédito e incluye Composer más un número limitado de solicitudes de Agent cada mes. Las completaciones de tab ilimitadas, Bugbot y los modelos de frontera de terceros empiezan con Pro."
@@ -41,7 +41,7 @@ faq:
 Cursor es un editor construido en torno a agentes de IA que pueden ejecutarse en tu computadora, en la nube de Cursor o en máquinas autoalojadas dentro de tu propia red. La app de escritorio está disponible para macOS, Windows y Linux, y los mismos agentes se pueden gestionar desde cursor.com/agents o Cursor para iOS.
 
 ## Lo que destaca
-- **Sus propios modelos.** Grok 4.6, Grok 4.5 y Composer 2.5 forman una reserva de uso aparte con más uso incluido que Claude, GPT o Gemini.
+- **Sus propios modelos.** Grok 4.7, Grok 4.6, Grok 4.5 y Composer 2.5 forman una reserva de uso aparte con más uso incluido que Claude, GPT o Gemini.
 - **Agentes que siguen trabajando.** Los agentes en la nube, las automatizaciones y la beta de Projects pueden reaccionar a mensajes de Slack, programaciones o pull requests sin un prompt.
 - **Modo de privacidad.** Cuando se activa, Cursor garantiza que los datos de código no se usan para entrenar, ni por Cursor ni por sus proveedores de modelos.
 

@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "Hobby ücretsiz ve sınırlı sayıda Agent isteği içeriyor. Pro aylık $20; Pro+ aylık $60 ile Pro'nun 3 katı Agent limiti, Ultra ise aylık $200 ile 20 katı limit sunuyor. Hindistan'da ayrıca aylık ₹649 olan Start planı var."
 savingTips:
   - "Yıllık ödeme, aylık ödemeye göre %20 tasarruf sağlıyor."
-  - "Cursor'ın kendi modelleri (Grok 4.6, Grok 4.5, Composer 2.5) üçüncü taraf modellere göre daha fazla dahil kullanım sunuyor; bu modelleri seçmek planının daha uzun dayanmasını sağlıyor."
+  - "Cursor'ın kendi modelleri (Grok 4.7, Grok 4.6, Grok 4.5, Composer 2.5) üçüncü taraf modellere göre daha fazla dahil kullanım içeriyor; bunları seçmek planını daha uzun kullanmanı sağlıyor."
 faq:
   - q: "Cursor hâlâ ücretsiz mi?"
     a: "Evet. Hobby planı ücretsiz, kredi kartı istemiyor ve Composer'ın yanında her ay sınırlı sayıda Agent isteği içeriyor. Sınırsız Tab tamamlamaları, Bugbot ve üçüncü taraf sağlayıcıların en gelişmiş modelleri Pro ile başlıyor."
@@ -41,7 +41,7 @@ faq:
 Cursor, AI ajanları etrafında kurulmuş bir editör. Ajanlar senin bilgisayarında, Cursor'ın bulutunda ya da kendi ağındaki, kendi barındırdığın makinelerde çalışabiliyor. Masaüstü uygulaması macOS, Windows ve Linux için sunuluyor; aynı ajanları cursor.com/agents üzerinden ya da Cursor for iOS ile yönetebiliyorsun.
 
 ## Öne çıkanlar
-- **Kendi modelleri.** Grok 4.6, Grok 4.5 ve Composer 2.5, Claude, GPT ya da Gemini'ye göre daha fazla dahil kullanım sunan ayrı bir kullanım havuzu oluşturuyor.
+- **Kendi modelleri.** Grok 4.7, Grok 4.6, Grok 4.5 ve Composer 2.5, Claude, GPT ya da Gemini'ye göre daha fazla dahil kullanım sunan ayrı bir kullanım havuzu oluşturuyor.
 - **Çalışmayı sürdüren ajanlar.** Bulut ajanları, otomasyonlar ve Projects betası, bir istem beklemeden Slack mesajlarına, zamanlamalara ya da pull request'lere tepki verebiliyor.
 - **Gizlilik modu.** Açık olduğunda Cursor, kod verilerinin ne kendisi ne de model sağlayıcıları tarafından eğitim için kullanılmayacağını garanti ediyor.
 

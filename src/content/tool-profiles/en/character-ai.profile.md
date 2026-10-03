@@ -1,7 +1,7 @@
 ---
 summary: "Character.AI is a chat and role-play app from Character Technologies where you talk with AI characters or create your own. It's known for long-form storytelling chat styles, Lorebook memory tools and newer formats like Comics and c.ai Series. Since November 2025, users under 18 can no longer use open-ended chat."
 metaTitle: "Character.AI Pricing: Free Plan vs c.ai+ (2026)"
-metaDescription: "Character.AI is free with ads, and c.ai+ costs $9.99/month or $94.99/year. See chat styles, memory limits, teen restrictions and alternatives."
+metaDescription: "Character.AI is free with ads, (c.ai) lite costs $4.99/month and c.ai+ $9.99/month. See chat styles, memory limits, teen rules and alternatives."
 bestFor:
   - "Fans of interactive fiction"
   - "Role-players who write long scenes"
@@ -10,7 +10,7 @@ keyFeatures:
   - name: "Character creation"
     description: "Build your own Characters with a personality and backstory, then chat with them or let other people find them."
   - name: "Chat styles"
-    description: "PipSqueak 2 styles come with the Free plan, while DeepSqueak and LongSqueak are reserved for c.ai+ subscribers."
+    description: "PipSqueak 3 and ShortSqueak are rolling out free to everyone, (c.ai) lite gives limited daily DeepSqueak and LongSqueak, and c.ai+ unlocks them fully."
   - name: "LongSqueak and Style Control"
     description: "A long-form chat style launched in August 2026 with 4x the memory, plus dials for reply length and dialogue versus narration."
   - name: "Memory pins and Lorebook"
@@ -28,12 +28,13 @@ pricing:
   startingPrice: 9.99
   currency: USD
   billing: month
-  summary: "The Free plan has ads, basic chat styles, 15 memory pins and slow mode. c.ai+ costs $9.99/month or $94.99/year and removes ads and slow mode, adds DeepSqueak and LongSqueak, 30 pins and 20% bonus Charms."
-  asOf: 2026-09-17
+  summary: "The Free plan has ads, basic chat styles, 15 memory pins and slow mode. (c.ai) lite costs $4.99/month or $2.49/week for limited daily premium styles, fewer ads and more memory pins. c.ai+ costs $9.99/month or $94.99/year and removes ads and slow mode, adds DeepSqueak and LongSqueak, 30 pins and 20% bonus Charms."
+  asOf: 2026-10-03
 platforms: [web, ios, android]
 savingTips:
   - "Yearly c.ai+ at $94.99 costs $24.89 less than 12 months at $9.99, about 21% off."
   - "If you buy Charms for Comics, c.ai+ adds a 20% bonus to every Charms purchase."
+  - "The (c.ai) lite plan, launched on September 28, 2026 at $4.99/month or $2.49/week, is a cheaper way to try premium chat styles than c.ai+."
 faq:
   - q: "Is Character.AI free?"
     a: "Yes. Character.AI has a permanent Free plan with basic chat styles, 15 memory pins and a basic Lorebook, supported by ads. The paid c.ai+ plan removes ads and slow mode and unlocks premium chat styles."
@@ -51,7 +52,7 @@ sources:
   - https://blog.character.ai/u18-chat-announcement/
   - https://blog.character.ai/continuing-to-build-upon-our-safety-priorities/
   - https://blog.character.ai/cai-comics/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Character.AI?
 Character.AI is built around user-made Characters rather than a single general assistant. You pick or write a Character, choose a chat style, and memory pins and Lorebook entries keep the story on track.

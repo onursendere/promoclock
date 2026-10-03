@@ -23,7 +23,7 @@ useCases:
   - "Content Audit 알림과 최신 Content Editor 가이드라인으로 순위가 떨어진 블로그 글을 개선합니다."
   - "작가에게 브리핑하기 전에 Topical Map에서 새 제품 카테고리용 글 묶음을 기획합니다."
   - "주요 구매 프롬프트에서 ChatGPT와 Perplexity가 내 브랜드를 언급하는지 확인하고 경쟁사의 노출과 비교합니다."
-pricingSummary: "월간 결제: Discovery $59, Standard $119, Pro $219, Peace of Mind $359입니다. 연간 결제 시 월 $49, $99, $182, $299입니다. AI Search Analytics는 $95 또는 $82이며, Enterprise는 월 $999로 표기되어 있습니다."
+pricingSummary: "월간 결제: Discovery $59, Standard $119, Pro $219, Peace of Mind $359입니다. 연간 결제 시 월 $49, $99, $182, $299입니다. AI Search Analytics는 월 $95 또는 $82이고, Enterprise는 맞춤 요금입니다."
 savingTips:
   - "연간 결제는 최대 17% 절약되며(예: Discovery는 연 $120), 1년치가 선결제됩니다."
   - "신규 계정은 Pro 플랜을 7일간 무료로 체험할 수 있습니다. 결제 정보가 필요하며 취소하지 않으면 선택한 유료 플랜으로 전환됩니다."

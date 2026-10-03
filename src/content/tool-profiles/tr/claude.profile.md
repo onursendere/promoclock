@@ -29,6 +29,7 @@ savingTips:
   - "Pro'yu yıllık ödemek $200 peşin tutar; bu da aylık $20 yerine yaklaşık $17 demek."
   - "Free plan zaten web araması, hafıza, bağlayıcılar ve dosya oluşturma içeriyor; hafif kullanıcıların Pro'ya ihtiyacı olmayabilir."
   - "Öğrenciler, üniversitelerinin kampüs genelinde indirimli erişim sağlayan Claude Education planına sahip olup olmadığını kontrol edebilir."
+  - "Pro'da ve standart Team koltuklarında Fable 5 ve 5.1 yalnızca kullanım kredileriyle çalışıyor; Max ise haftalık limitinin yarısına kadarını ek ücret ödemeden Fable'a harcayabiliyor."
 faq:
   - q: "Claude ücretsiz mi?"
     a: "Evet. Free plan $0; web, masaüstü ve mobilde sohbet, web araması, hafıza, bağlayıcılar ve dosya oluşturma içerir. Claude Code, Research ve Opus modelleri yoktur ve kullanım limitleri en düşük olan plandır."

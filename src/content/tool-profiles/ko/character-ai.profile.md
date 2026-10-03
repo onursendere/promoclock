@@ -1,7 +1,7 @@
 ---
 summary: "Character.AI는 Character Technologies가 만든 채팅·롤플레이 앱으로, AI 캐릭터와 대화하거나 직접 캐릭터를 만들 수 있습니다. 장문형 스토리텔링 채팅 스타일, Lorebook 기억 도구, Comics와 c.ai Series 같은 새로운 포맷으로 알려져 있습니다. 2025년 11월부터 18세 미만 사용자는 자유형 채팅을 이용할 수 없습니다."
 metaTitle: "Character.AI 요금제: 무료 플랜과 c.ai+ 비교 (2026)"
-metaDescription: "Character.AI는 광고가 있는 무료 플랜이며 c.ai+는 월 $9.99 또는 연 $94.99입니다. 채팅 스타일, 기억 한도, 청소년 제한, 대안 도구까지 살펴봅니다."
+metaDescription: "Character.AI는 광고가 있는 무료 플랜이며, c.ai lite는 월 $4.99, c.ai+는 월 $9.99입니다. 채팅 스타일, 기억 한도, 청소년 제한, 대안 도구를 살펴봅니다."
 bestFor:
   - "인터랙티브 픽션 팬"
   - "긴 장면을 쓰는 롤플레이어"
@@ -10,7 +10,7 @@ keyFeatures:
   - name: "캐릭터 만들기"
     description: "성격과 배경 설정을 갖춘 나만의 캐릭터를 만들어 대화하거나 다른 사람이 찾을 수 있게 공개합니다."
   - name: "채팅 스타일"
-    description: "PipSqueak 2 스타일은 Free 플랜에 기본 제공되며, DeepSqueak과 LongSqueak은 c.ai+ 구독자 전용입니다."
+    description: "PipSqueak 3과 ShortSqueak이 모두에게 무료로 출시되고 있으며, c.ai lite는 제한된 일일 DeepSqueak과 LongSqueak을 제공하고, c.ai+는 이들을 완전히 해금합니다."
   - name: "LongSqueak과 스타일 컨트롤"
     description: "2026년 8월 출시된 장문형 채팅 스타일로, 기억 용량이 4배이며 답변 길이와 대사·서술 비율을 조절하는 다이얼을 제공합니다."
   - name: "메모리 핀과 Lorebook"
@@ -23,10 +23,11 @@ useCases:
   - "Lorebook에 저장한 왕국의 역사를 LongSqueak이 활용하는 몇 달짜리 판타지 롤플레이를 진행합니다."
   - "소설 속 악당을 대화로 시험해 장면을 쓰기 전에 목소리가 어떻게 들리는지 확인합니다."
   - "즐겨 하던 캐릭터와의 대화를 친구와 공유할 수 있는 여러 페이지짜리 만화로 만듭니다."
-pricingSummary: "Free 플랜은 광고, 기본 채팅 스타일, 메모리 핀 15개, 슬로우 모드를 제공합니다. c.ai+는 월 $9.99 또는 연 $94.99이며 광고와 슬로우 모드를 없애고 DeepSqueak과 LongSqueak, 핀 30개, Charms 20% 보너스를 추가합니다."
+pricingSummary: "Free 플랜은 광고, 기본 채팅 스타일, 메모리 핀 15개, 슬로우 모드를 제공합니다. c.ai lite는 월 $4.99 또는 주 $2.49(제한된 일일 프리미엄 스타일, 광고 감소, 메모리 핀 증가)입니다. c.ai+는 월 $9.99 또는 연 $94.99이며 광고와 슬로우 모드를 없애고 DeepSqueak과 LongSqueak, 핀 30개, Charms 20% 보너스를 추가합니다."
 savingTips:
   - "연간 c.ai+ $94.99는 월 $9.99를 12개월 결제하는 것보다 $24.89 저렴해 약 21% 할인됩니다."
   - "Comics용 Charms를 구매하면 c.ai+가 모든 Charms 구매에 20% 보너스를 더해 줍니다."
+  - "2026년 9월 28일 출시된 c.ai lite 플랜(월 $4.99 또는 주 $2.49)은 c.ai+보다 저렴하게 프리미엄 채팅 스타일을 시도하는 방법입니다."
 faq:
   - q: "Character.AI는 무료인가요?"
     a: "네. Character.AI는 기본 채팅 스타일, 메모리 핀 15개, 기본 Lorebook을 제공하는 영구 무료 플랜이 있으며 광고로 운영됩니다. 유료 c.ai+ 플랜은 광고와 슬로우 모드를 없애고 프리미엄 채팅 스타일을 열어 줍니다."

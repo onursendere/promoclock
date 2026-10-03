@@ -1,7 +1,7 @@
 ---
 summary: "Synthesia, kendi adını taşıyan şirketin iş iletişimi için geliştirdiği bir AI video platformu. Bir senaryo yazıp bir AI avatarı ve ses seçiyorsun, platform da 160'tan fazla dilde sunuculu bir video oluşturuyor. Eğitim, ürün ve kurum içi iletişim ekipleri tarafından kullanılıyor; tüm kullanım artık ortak kredilerle işliyor."
 metaTitle: "Synthesia fiyatları, ücretsiz plan ve krediler (2026)"
-metaDescription: "Synthesia fiyatları 2026: ücretsiz Basic plan ve limitleri, aylık $29 ile başlayan Starter, $89 olan Creator, kredilerin işleyişi, avatar ve dublaj özellikleri."
+metaDescription: "Synthesia 2026 fiyatları: ücretsiz Basic plan ve limitleri, aylık $29'dan başlayan Starter, aylık $89 olan Pro, kredilerin işleyişi, avatar ve dublaj özellikleri."
 bestFor:
   - "Kurumsal eğitim ve gelişim ekipleri"
   - "Kurum içi iletişim yöneticileri"
@@ -24,22 +24,22 @@ useCases:
   - "Kaydedilmiş bir webinarı, konuşmacının aksanını koruyarak bölgesel ekipler için yedi dile dublajla."
   - "Bir ürün sürüm notunu aynı gün satış ekibi için iki dakikalık, avatarlı bir açıklama videosuna dönüştür."
   - "Yeni çalışanların etkileşimli bir avatarla, puanlanan bir Roleplay Session'da müşteri görüşmesi pratiği yapmasını sağla."
-pricingSummary: "Basic ücretsizdir; ayda 1.200 kredi, yani yaklaşık 10 dakikalık video sunar. Starter aylık $29 (yıllık ödemede ayda $18), Creator aylık $89 (yıllık ödemede ayda $64); Enterprise için özel fiyat verilir."
+pricingSummary: "Basic ücretsizdir ve aylık 500 kredi, yaklaşık 10 dakikalık video ya da dublaj sunar. Starter aylık $29 (yıllık ödemede $18) ve 1.250 kredi, eski adıyla Creator olan Pro aylık $89 (yıllık ödemede $64) ve 6.000 kredi; Enterprise özel fiyatlı."
 savingTips:
-  - "Yıllık ödemede Starter ayda $29 yerine $18, Creator ise $89 yerine $64 olur; Synthesia %38'e varan tasarruf vaat ediyor."
+  - "Yıllık ödeme Starter'ı ayda $29 yerine $18'e ve Pro'yu $89 yerine $64'e indiriyor ve Synthesia %38'e kadar tasarruf vaat ediyor."
   - "Basic kredi kartı istemez; böylece ödeme yapmadan önce avatarları ve 160'tan fazla sesi deneyebilirsin."
   - "Krediler video, dublaj ve üretilen varlıklar için tek bir ortak havuz; dağılımı ay sıfırlanmadan önce planla."
 faq:
   - q: "Synthesia ücretsiz mi?"
-    a: "Evet, ayda 1.200 kredi (yaklaşık 10 dakikalık video), 9 avatar ve bir editör kullanıcısı içeren ücretsiz bir Basic plan var. Videolarda Synthesia logosu kalır ve Basic kullanıcıları videolarını indiremez."
+    a: "Evet, aylık 500 kredi (yaklaşık 10 dakikalık video ya da dublaj), 9 avatar ve bir editör koltuğu içeren ücretsiz bir Basic planı var. Videolarda Synthesia logosu kalır ve Basic kullanıcıları bunları indiremez."
   - q: "Synthesia ücretsiz planında video indirilebilir mi?"
     a: "Hayır. Synthesia'nın yardım merkezine göre Basic ve deneme kullanıcıları video indiremez; MP4 indirme Starter ile başlar. Ücretsiz videolar yine de önizlenebilir ve bir Synthesia bağlantısıyla paylaşılabilir."
   - q: "Synthesia kredileri nasıl çalışır?"
     a: "Krediler video, dublaj, toplu kişiselleştirme ve API kullanımı için ortak para birimidir. Dudak senkronu olmadan dublaj dakikada 120 kredi, dudak senkronuyla 240 kredi harcar; kullanılmayan krediler devretmez."
   - q: "Hangi Synthesia planında API erişimi var?"
-    a: "Creator ve Enterprise'da. Creator, Synthesia API üzerinden yılda 360 dakikaya kadar video içerir ve bu süre planın kullanım limitinden düşülür; Starter ve Basic'te API erişimi yoktur."
+    a: "Pro (eski adıyla Creator) ve Enterprise. Pro, Synthesia API aracılığıyla yılda 360 dakikaya kadar video içeriyor ve bu planın kullanım limitinden düşülüyor; Starter ve Basic'te API erişimi yok."
   - q: "Synthesia kaç dile dublaj yapabiliyor?"
-    a: "AI Dubbing; Basic, Starter ve Creator'da 70'ten fazla, Enterprise'da 140'tan fazla dili kapsar. Avatar seslerinin kendisi ise tüm planlarda 160'tan fazla dilde kullanılabilir."
+    a: "AI Dublaj, Basic, Starter ve Pro'da 70+ dili, Enterprise'da 140+ dili kapsar. Avatar sesleri kendi başlarına tüm planlarda 160+ dilde mevcuttur."
 ---
 ## Synthesia nedir?
 Synthesia, AI sunucularla video hazırlamak için tarayıcı tabanlı bir stüdyo. Kamera, mikrofon ya da öğrenilecek bir zaman çizelgesi yok: bir senaryo ya da slayt sunumu yapıştırıyor, bir avatar ve dil seçiyorsun; platform da sonucu oluşturup barındırıyor. Video sayfaları, analizler ve SCORM dışa aktarma, sosyal medya kliplerinden çok eğitime ve kurum içi iletişime yönelik.
@@ -50,4 +50,4 @@ Synthesia, AI sunucularla video hazırlamak için tarayıcı tabanlı bir stüdy
 - **Sadece izletmiyor, pratik de yaptırıyor.** Roleplay Sessions, standart videonun üstüne puanlanan, etkileşimli konuşmalar ekliyor.
 
 ## Sınırlamalar
-Kullanıcı hakları dar: Starter bir editör ve üç misafir, Creator bir editör ve beş misafir içeriyor; bu yüzden gerçek ekipler genellikle Enterprise'a ihtiyaç duyuyor. Ücretsiz videolarda Synthesia logosu bulunuyor ve bu videolar indirilemiyor. Krediler her dönem sıfırlanıyor ve devretmiyor; kişisel avatar sayısı Starter'da üç, Creator'da beş ile sınırlı, sınırsız dakika ise yalnızca Enterprise'da var.
+Koltuk hakları dar: Starter bir editör ve üç misafiri, Pro bir editör ve beş misafiri içeriyor; bu yüzden gerçek takımlar genellikle Enterprise'a ihtiyaç duyuyor. Ücretsiz videolarda Synthesia logosu kalıyor ve indirilemiyor. Krediler her dönem sıfırlanıyor ve devretmiyor; kişisel avatarlar Starter'da üç, Pro'da beş ile sınırlı ve sınırsız dakika yalnızca Enterprise'da var.

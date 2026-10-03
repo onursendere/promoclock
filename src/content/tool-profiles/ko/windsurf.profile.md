@@ -25,7 +25,7 @@ useCases:
   - "규칙과 메모리를 포함한 기존 Windsurf 설정을 내장 마법사로 Devin Local로 옮깁니다."
 pricingSummary: "Free는 무제한 Tab 완성과 함께 가벼운 쿼터를 제공합니다. Pro는 월 $20, Max는 훨씬 높은 쿼터와 함께 월 $200이며, Teams는 월 $80부터 시작해 정규 좌석은 좌석당 $40입니다. Enterprise는 맞춤 견적입니다."
 savingTips:
-  - "무료 모델은 쿼터를 소모하지 않으며, SWE-1.7 같은 저비용 SWE 모델을 쓰면 유료 한도를 더 오래 늘려 쓸 수 있습니다."
+  - "무료 모델은 쿼터를 소모하지 않으며, Cognition의 SWE 모델이 유료 한도를 더 오래 늘려 쓰게 해줍니다. SWE-2는 2026년 10월 16일까지 Devin Desktop과 CLI에서 Pro, Max에 무료입니다."
   - "2026년 3월 쿼터 전환 이전부터 Windsurf Pro를 쓰던 구독자는 월 $15의 그랜드파더 가격을 무기한 유지합니다."
 faq:
   - q: "Windsurf는 서비스가 종료됐나요?"

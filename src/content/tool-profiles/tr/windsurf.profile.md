@@ -25,7 +25,7 @@ useCases:
   - "Kuralları ve anıları dahil mevcut bir Windsurf kurulumunu, yerleşik sihirbazla Devin Local'a taşı."
 pricingSummary: "Free, sınırsız Tab tamamlamalarıyla hafif bir kota içerir. Pro aylık $20, Max çok daha yüksek kotalarla aylık $200 ve Teams aylık $80'den başlar, tam koltuklar her biri $40. Enterprise kişiye özeldir."
 savingTips:
-  - "Ücretsiz modeller kotandan düşülmez ve SWE-1.7 gibi daha düşük maliyetli SWE modelleri ücretli hakları daha da uzatır."
+  - "Ücretsiz modeller kotandan düşmez ve Cognition'ın SWE modelleri ücretli kullanım hakkını daha uzun idare etmeni sağlar; SWE-2, 16 Ekim 2026'ya kadar Pro ve Max planlarında Devin Desktop'ta ve CLI'da ücretsiz."
   - "Mart 2026 kota değişiminden önce Windsurf Pro'da olan aboneler, süresiz olarak aylık $15'lik korunmuş bir fiyatı elde tutar."
 faq:
   - q: "Windsurf durduruldu mu?"

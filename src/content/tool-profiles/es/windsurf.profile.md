@@ -25,7 +25,7 @@ useCases:
   - "Migrar una configuración existente de Windsurf, incluidas reglas y memorias, a Devin Local con el asistente integrado."
 pricingSummary: "Free incluye una cuota ligera con completions de Tab ilimitadas. Pro son $20/mes, Max son $200/mes con cuotas mucho mayores, y Teams empieza en $80/mes con asientos completos a $40 cada uno. Enterprise es a medida."
 savingTips:
-  - "Los modelos gratis no cuentan contra tu cuota, y los modelos SWE de menor coste como SWE-1.7 estiran más las asignaciones de pago."
+  - "Los modelos gratis no cuentan contra tu cuota, y los modelos SWE de Cognition estiran más las asignaciones de pago; SWE-2 es gratis en Devin Desktop y CLI en Pro y Max hasta el 16 de octubre de 2026."
   - "Los suscriptores que estaban en Windsurf Pro antes del cambio de cuota de marzo de 2026 conservan indefinidamente un precio grandfathered de $15/mes."
 faq:
   - q: "¿Windsurf se ha descontinuado?"

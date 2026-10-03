@@ -28,8 +28,8 @@ pricing:
   startingPrice: 8
   currency: USD
   billing: month
-  summary: "Codex is included in ChatGPT Free ($0), Go ($8/month), Plus ($20/month) and Pro (from $100/month, with 5x or 20x Plus limits). Business is $25 per user monthly or $20 billed annually; API-key use is billed at API rates."
-  asOf: 2026-09-17
+  summary: "Codex is included in ChatGPT Free ($0), Go ($8/month), Plus ($20/month) and Pro ($100, $200 or $500 a month; the new $500 tier adds Astra Ultrafast). Business is $25 per user monthly or $20 billed annually; API-key use is billed at API rates."
+  asOf: 2026-10-03
 platforms: [web, ios, macos, windows, vscode, jetbrains, cli, api]
 savingTips:
   - "Plus and Pro users who hit a limit can buy ChatGPT credits instead of upgrading the whole plan."
@@ -50,7 +50,7 @@ sources:
   - https://learn.chatgpt.com/docs
   - https://learn.chatgpt.com/docs/codex/ide
   - https://learn.chatgpt.com/llms.txt
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is OpenAI Codex?
 Codex is OpenAI's agent for software work, tied to a ChatGPT account rather than sold on its own. OpenAI's Codex documentation now lives in the ChatGPT docs, and Codex usage is shared with ChatGPT Work, so both draw from the same limits and credits.

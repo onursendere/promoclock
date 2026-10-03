@@ -28,8 +28,8 @@ pricing:
   startingPrice: 25
   currency: USD
   billing: month
-  summary: "Free includes 1M tokens a month with a 300K daily cap. Pro starts at $25/month with 10M tokens, Teams costs $30 per member per month, and Enterprise is custom. A $9/month Lite plan is waitlist-only."
-  asOf: 2026-09-17
+  summary: "Free includes 1M tokens a month with a 300K daily cap. Pro starts at $25/month with 10M tokens, Teams costs $30 per member per month, and Enterprise is custom. The Forge-only Lite plan costs $9/month, with sign-ups open until October 14, 2026."
+  asOf: 2026-10-03
 platforms: [web]
 savingTips:
   - "Yearly billing saves up to 28% compared with monthly payments."
@@ -41,7 +41,7 @@ faq:
   - q: "Why does Bolt use so many tokens?"
     a: "Most tokens go to reading and syncing your project files with the AI, so larger projects use more tokens per message. Bolt's help center publishes guides on effective prompting and token efficiency."
   - q: "What is Bolt Forge and Bolt Lite?"
-    a: "Forge is an agent built on open-source models, in research preview from September 14 to October 14, 2026. It is free on individual Pro plans; Lite is a waitlist-only $9/month plan that offers Forge alone."
+    a: "Forge is an agent built on open-source models, in research preview from September 14 to October 14, 2026, with up to 50x more usage at no extra cost on individual Pro plans. Lite is a $9/month plan that offers Forge alone; sign-ups close on October 14, and members keep the price afterwards."
   - q: "What happens when a free Bolt site gets too much traffic?"
     a: "Free hosting allows 10 GB of bandwidth and 333,333 requests a month, then the site goes offline until the next cycle. Pro sites can buy extra capacity up to a spending cap."
 alternatives: [lovable, v0, replit, base44, google-ai-studio]
@@ -52,7 +52,7 @@ sources:
   - https://support.bolt.new/cloud/hosting/plans
   - https://support.bolt.new/integrations/expo
   - https://support.bolt.new/release-notes
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Bolt.new?
 Bolt.new works entirely in a browser tab, with a live preview of the app next to the chat. You describe what you want, then refine it by prompting, editing code directly or changing text and colors in the preview.

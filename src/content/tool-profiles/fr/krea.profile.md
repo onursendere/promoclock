@@ -1,7 +1,7 @@
 ---
 summary: "Krea est une plateforme d’IA générative de Krea pour créer et éditer images, vidéo et ressources 3D, avec une génération en temps réel qui se met à jour à mesure que vous tapez ou dessinez. Elle héberge plus de 150 modèles, dont son propre modèle d’image Krea 2, et sert designers, studios et agences qui veulent de nombreux modèles sous un seul compte."
 metaTitle: "Krea AI : prix, plan gratuit et fonctions (2026)"
-metaDescription: "Prix de Krea AI en 2026 : un plan gratuit avec 100 unités de calcul par jour, Pro à $35/mois, les paliers Max et Business, plus Krea 2 et Krea Agent."
+metaDescription: "Prix de Krea AI en 2026 : plan gratuit avec 100 unités de calcul par jour, Basic à $9/mois, Pro à $35, paliers Max et Business, Krea 2, Krea Agent et alternatives."
 bestFor:
   - "Designers explorant des styles visuels"
   - "Studios créatifs et agences"
@@ -27,7 +27,7 @@ useCases:
   - "Entraîner un LoRA sur la mascotte d’une marque pour que chaque image de campagne garde le même personnage."
   - "Confier à Krea Agent la production de six publicités Instagram fixes et d’une vidéo verticale à partir d’une photo produit et d’un site web."
   - "Agrandir une affiche générée à la résolution d’impression avec Topaz Standard avant de l’envoyer à l’imprimeur."
-pricingSummary: "Free donne 100 unités de calcul par jour. Pro est à $35/mois ($21/mois en facturation annuelle) avec 20 000 unités, Max $105/mois ($63 à l’année) avec 60 000, et Business $200/mois ($160 à l’année) avec 80 000 unités pour jusqu’à 50 sièges."
+pricingSummary: "Free donne 100 unités de calcul par jour. Basic est $9/mois ($5/mois en facturation annuelle) avec 5 000 unités, Pro $35/mois ($21 à l'année) avec 20 000, Max $105/mois ($63 à l'année) avec 60 000, et Business $200/mois ($160 à l'année) avec 80 000 unités pour jusqu'à 50 sièges."
 savingTips:
   - "La facturation annuelle économise 40 % sur les formules payantes, ramenant Pro de $35 à $21 par mois."
   - "Max continue de générer une fois ses unités de calcul épuisées, avec des générations détendues illimitées sur les modèles d’image maison pris en charge."

@@ -1,7 +1,7 @@
 ---
 summary: "Character.AI ist eine Chat- und Rollenspiel-App von Character Technologies, in der du mit KI-Charakteren sprichst oder eigene erstellst. Bekannt ist sie für erzählerische Chat-Stile, Lorebook-Gedächtnis-Tools und neuere Formate wie Comics und c.ai Series. Seit November 2025 können unter 18-Jährige den offenen Chat nicht mehr nutzen."
 metaTitle: "Character.AI Preise: Gratis-Plan vs. c.ai+ 2026"
-metaDescription: "Character.AI ist mit Werbung kostenlos, c.ai+ kostet $9.99/Monat oder $94.99/Jahr. Sieh dir Chat-Stile, Gedächtnis-Limits, Teen-Regeln und Alternativen an."
+metaDescription: "Character.AI ist kostenlos mit Werbung, (c.ai) lite kostet $4.99/Monat und c.ai+ $9.99/Monat. Siehe Chat-Stile, Memory-Limits, Teen-Regeln und Alternativen."
 bestFor:
   - "Fans interaktiver Fiktion"
   - "Rollenspieler mit langen Szenen"
@@ -10,7 +10,7 @@ keyFeatures:
   - name: "Charakter-Erstellung"
     description: "Baue eigene Charaktere mit Persönlichkeit und Hintergrundgeschichte, chatte dann mit ihnen oder lass andere Leute sie finden."
   - name: "Chat-Stile"
-    description: "PipSqueak-2-Stile gehören zum Free-Plan, während DeepSqueak und LongSqueak c.ai+-Abonnenten vorbehalten sind."
+    description: "PipSqueak 3 und ShortSqueak rollen kostenlos für alle aus, (c.ai) lite bietet täglich begrenzte DeepSqueak und LongSqueak, und c.ai+ entsperrt sie vollständig."
   - name: "LongSqueak und Style Control"
     description: "Ein erzählerischer Chat-Stil, gestartet im August 2026 mit 4x Gedächtnis, plus Regler für Antwortlänge und Dialog gegenüber Erzählung."
   - name: "Gedächtnis-Pins und Lorebook"
@@ -23,10 +23,11 @@ useCases:
   - "Ein monatelanges Fantasy-Rollenspiel führen, bei dem LongSqueak auf die in deinem Lorebook gespeicherte Königreichs-Geschichte zurückgreift."
   - "Den Antagonisten eines Romans im Gespräch testen, um seine Stimme zu hören, bevor du die Szene entwirfst."
   - "Einen Lieblings-Chat mit einem Charakter in einen mehrseitigen Comic verwandeln, den du mit Freunden teilen kannst."
-pricingSummary: "Der Free-Plan hat Werbung, einfache Chat-Stile, 15 Gedächtnis-Pins und einen Slow-Modus. c.ai+ kostet $9.99/Monat oder $94.99/Jahr und entfernt Werbung und Slow-Modus, ergänzt DeepSqueak und LongSqueak, 30 Pins und 20 % Bonus-Charms."
+pricingSummary: "Der Free-Plan hat Werbung, einfache Chat-Stile, 15 Memory-Pins und Slow-Modus. (c.ai) lite kostet $4.99/Monat oder $2.49/Woche für täglich begrenzte Premium-Stile, weniger Werbung und mehr Memory-Pins. c.ai+ kostet $9.99/Monat oder $94.99/Jahr und entfernt Werbung und Slow-Modus, ergänzt DeepSqueak und LongSqueak, 30 Pins und 20 % Bonus-Charms."
 savingTips:
   - "Jahres-c.ai+ für $94.99 kostet $24.89 weniger als 12 Monate zu $9.99, rund 21 % Ersparnis."
   - "Wenn du Charms für Comics kaufst, gibt c.ai+ auf jeden Charms-Kauf 20 % Bonus."
+  - "Der (c.ai) lite Plan, gestartet am 28. September 2026 für $4.99/Monat oder $2.49/Woche, ist eine günstigere Möglichkeit, Premium-Chat-Stile zu testen als c.ai+."
 faq:
   - q: "Ist Character.AI kostenlos?"
     a: "Ja. Character.AI hat einen dauerhaften Free-Plan mit einfachen Chat-Stilen, 15 Gedächtnis-Pins und einem einfachen Lorebook, finanziert durch Werbung. Der kostenpflichtige c.ai+-Plan entfernt Werbung und Slow-Modus und schaltet Premium-Chat-Stile frei."

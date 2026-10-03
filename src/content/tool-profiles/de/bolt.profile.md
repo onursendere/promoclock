@@ -23,7 +23,7 @@ useCases:
   - "Eine Buchungs-App für ein lokales Unternehmen bauen und noch am selben Nachmittag auf eine eigene Domain veröffentlichen."
   - "Eine Figma-Landingpage importieren und in eine funktionierende Website mit einer Anmelde-Datenbank verwandeln."
   - "Einen plattformübergreifenden Habit-Tracker erstellen und einen Test-Build an TestFlight schicken."
-pricingSummary: "Free enthält 1 Mio. Tokens pro Monat mit einer Tagesgrenze von 300K. Pro startet bei $25/Monat mit 10 Mio. Tokens, Teams kostet $30 pro Mitglied und Monat, und Enterprise ist individuell. Ein Lite-Plan für $9/Monat gibt es nur über die Warteliste."
+pricingSummary: "Free enthält 1 Mio. Tokens monatlich mit einer 300K Tagesgrenze. Pro startet bei $25/Monat mit 10 Mio. Tokens, Teams kostet $30 pro Mitglied monatlich und Enterprise ist individuell. Der reine Forge Lite Plan kostet $9/Monat, Anmeldungen sind bis 14. Oktober 2026 offen."
 savingTips:
   - "Jährliche Abrechnung spart bis zu 28 % im Vergleich zur monatlichen Zahlung."
   - "Ungenutzte bezahlte Tokens werden übertragen und bleiben zwei Monate gültig, solange dein Abo aktiv ist."
@@ -34,7 +34,7 @@ faq:
   - q: "Warum verbraucht Bolt so viele Tokens?"
     a: "Die meisten Tokens gehen ins Lesen und Synchronisieren deiner Projektdateien mit der KI, sodass größere Projekte mehr Tokens pro Nachricht verbrauchen. Bolts Hilfe-Center veröffentlicht Leitfäden zu wirksamem Prompting und Token-Effizienz."
   - q: "Was sind Bolt Forge und Bolt Lite?"
-    a: "Forge ist ein Agent auf Basis von Open-Source-Modellen, in einer Research-Preview vom 14. September bis 14. Oktober 2026. Er ist in individuellen Pro-Plänen gratis; Lite ist ein Plan für $9/Monat nur über die Warteliste, der allein Forge bietet."
+    a: "Forge ist ein Agent auf Basis von Open-Source-Modellen, in Research Vorschau vom 14. September bis 14. Oktober 2026, mit bis zu 50× mehr Nutzung kostenlos auf einzelnen Pro-Plänen. Lite ist ein $9/Monat Plan, der nur Forge bietet; Anmeldungen schließen am 14. Oktober und Mitglieder behalten danach den Preis."
   - q: "Was passiert, wenn eine kostenlose Bolt-Website zu viel Traffic bekommt?"
     a: "Kostenloses Hosting erlaubt 10 GB Bandbreite und 333.333 Anfragen pro Monat, dann geht die Website bis zum nächsten Zyklus offline. Pro-Websites können zusätzliche Kapazität bis zu einer Ausgabengrenze kaufen."
 ---

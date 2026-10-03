@@ -151,112 +151,455 @@
         "学生仍可在校园和线上活动中获得点数。",
         "免费的Hobby套餐仍然可用。"
       ]
+    },
+    "claude-code-cloud-credit-2026": {
+      "title": "Claude Code云会话：免费$100(Pro)或$250(Max)奖励积分，截止2026年10月7日前领取",
+      "headline": "Claude Code云积分：Pro $100，Max $250",
+      "value": "$100–$250积分",
+      "audience": "个人Pro和Max订阅者",
+      "summary": "Anthropic为个人Pro订阅者赠送$100，Max订阅者赠送$250的Claude Code云会话积分。这些会话在Anthropic服务器上运行。截止2026年10月7日前领取；未使用的积分将在2026年11月4日过期。",
+      "scope": "Claude Code云会话",
+      "steps": [
+        "用你的claude.ai账号登录。",
+        "在Claude桌面应用或IDE中的横幅领取积分，或在Claude Code中运行/claim-credit。",
+        "在网页、桌面、手机或CLI中启动云会话；使用优先于套餐额度。"
+      ],
+      "terms": [
+        "仅适用于2026年9月23日激活的订阅。Team、Enterprise、免费试用和逾期账户不适用。",
+        "仅适用于云会话，不包括本地Claude Code、聊天或Cowork会话。",
+        "未使用的积分将在2026年11月4日太平洋时间晚上11:59过期。"
+      ]
+    },
+    "claude-artifact-usage-promo-oct-2026": {
+      "title": "Claude工作制品使用推广：创建工作制品后会话用量减少50%(2026年10月1–15日)",
+      "headline": "Claude工作制品：会话用量减少50%",
+      "value": "用量减少50%",
+      "audience": "Pro、Max、Team",
+      "summary": "2026年10月1至15日，在Claude中创建或编辑工作制品后的工作用量计入五小时会话额度时减少50%。自动应用；每周额度不变。",
+      "scope": "Claude网页、桌面、手机和云Cowork任务",
+      "terms": [
+        "在聊天中，工作制品创建或编辑后的后续10条消息享受折扣，每条回复最多15步。",
+        "从文档、演示文稿或设计开始的Cowork任务可获得约45分钟的折扣工作时间。",
+        "Claude Code、API、Claude Slack集成、本地Cowork任务，以及Free和Enterprise套餐不适用。"
+      ]
+    },
+    "elevenlabs-v4-launch-3x-credits": {
+      "title": "ElevenLabs Eleven v4发布：Creator及以上套餐获3×积分(截止2026年10月12日)",
+      "headline": "ElevenLabs v4：Creator及以上套餐获3×积分",
+      "value": "3×积分",
+      "audience": "Creator套餐及以上",
+      "summary": "为推出Eleven v4语音模型，ElevenLabs在Creator及以上套餐提供3×积分至2026年10月12日。新订阅用户还可获得首月折扣。",
+      "terms": [
+        "在Creator及以上套餐中，使用v4的文本转语音积分最多为你月度额度的2倍且不计入余额。",
+        "首月：Starter为$1(原$6)，Creator为$11(原$22)，至2026年10月18日。"
+      ]
+    },
+    "bolt-forge-preview-2026": {
+      "title": "Bolt Forge预览：Pro用量可增加50×(免费)，$9 Bolt Lite至2026年10月14日开放",
+      "headline": "Bolt Forge：用量可增加50×(免费)",
+      "value": "用量最多增加50×",
+      "audience": "个人Pro和Lite套餐",
+      "summary": "在Bolt Forge研究预览期间，个人Pro套餐可在2026年10月14日前免费获得最多50倍的Forge用量。仅限Forge的Bolt Lite套餐(每月$9)在同一日期前向所有用户开放，成员之后保持该价格。",
+      "terms": [
+        "不适用于Team和Enterprise套餐。",
+        "Forge基于开源模型运行。去标识化的提示词和代码用于训练未来的开源模型；来自EEA、英国和瑞士的数据除外。",
+        "预览结束后的定价尚未公布。"
+      ]
+    },
+    "windsurf-swe-2-free-oct-2026": {
+      "title": "SWE-2在Devin Desktop(原Windsurf)和Devin CLI中免费使用，截止2026年10月16日",
+      "headline": "SWE-2在Devin Desktop中免费(至2026年10月16日)",
+      "value": "免费SWE-2",
+      "audience": "Pro和Max套餐",
+      "summary": "Cognition的SWE-2编程模型在Devin Desktop(原Windsurf编辑器)和Devin CLI中免费使用至2026年10月16日，仅限Pro(每月$20)和Max(每月$200)套餐。",
+      "terms": [
+        "SWE-2于2026年9月10日发布，是Cognition最新的模型。"
+      ]
+    },
+    "adobe-firefly-30-off-first-year-2026": {
+      "title": "Adobe Firefly：Firefly Pro Plus和Premium首年优惠30%(截止2026年10月21日)",
+      "headline": "Adobe Firefly Pro Plus和Premium：优惠30%",
+      "value": "首年优惠30%",
+      "audience": "首次Firefly订阅用户",
+      "summary": "新Firefly订阅用户首年可享30%折扣：Pro Plus原价$49.99/月现为$34.97，Premium原价$199.99/月现为$139.91。活动截止2026年10月21日。",
+      "terms": [
+        "需承诺12个月订阅；第二年起按原价计费。",
+        "不适用于教育、OEM或大批量许可用户。",
+        "英国用户首年Pro Plus为£33.58/月，Premium为£140.20/月。"
+      ]
+    },
+    "pixel-10-pro-google-ai-pro-2026": {
+      "title": "Pixel 10 Pro、Pro XL和Pro Fold含12个月Google AI Pro(截止2026年10月31日前购买)",
+      "headline": "Pixel 10 Pro：12个月Google AI Pro",
+      "value": "免费12个月",
+      "audience": "Pixel 10 Pro、Pro XL和Pro Fold购买者",
+      "summary": "新购Pixel 10 Pro、Pro XL或Pro Fold可获12个月Google AI Pro，但需在2026年10月31日前购买并激活。Pixel 11 Pro机型则包含6个月。",
+      "terms": [
+        "日本Pixel 10 Pro优惠为6个月。",
+        "基础Pixel 10包含6个月Google One Premium，不是AI Pro。",
+        "Pixel 11 Pro、Pro XL和Pro Fold：6个月Google AI Pro，可在2027年10月31日前激活。"
+      ]
+    },
+    "lovable-free-daily-chat-2026": {
+      "title": "Lovable聊天在Free、Pro和Business套餐上免费使用至每日额度(截止2026年10月31日)",
+      "headline": "Lovable：免费每日聊天额度",
+      "value": "免费每日聊天",
+      "audience": "Free、Pro和Business工作区",
+      "summary": "自2026年9月24日起，在Free、Pro和Business工作区中与Lovable聊天在每日额度内不消耗积分。Lovable表示此聊天定价政策适用至2026年10月31日。",
+      "terms": [
+        "生成图像或视频的聊天，或者转交给Plan或Build的工作仍会消耗积分。"
+      ]
+    },
+    "wispr-flow-notetaker-free-teams-2026": {
+      "title": "Wispr Flow Notetaker对选择Dictation套餐的团队免费(截止2026年10月31日)",
+      "headline": "Wispr Flow Notetaker对团队免费",
+      "value": "免费Notetaker",
+      "audience": "选择Dictation套餐的团队",
+      "summary": "选择Wispr Flow Dictation套餐的团队可在2026年10月31日前免费获得面向全体成员的Notetaker会议助手。",
+      "terms": [
+        "之后价格不会自动上调。",
+        "之后成员将转入受限Notetaker套餐，除非你单独升级他们。"
+      ]
+    },
+    "manus-welcome-back-bonus-2026": {
+      "title": "Manus欢迎回归奖励：免费用户首月享50%折扣，部分曾付费用户享90%折扣",
+      "headline": "Manus欢迎回归：首月折扣最高90%",
+      "value": "首月折扣50–90%",
+      "audience": "受Manus服务调整影响的用户",
+      "summary": "Manus服务调整后，受影响用户可在2026年11月22日前领取折扣首月：免费用户可获50%折扣(原价$20–$200/月)，部分曾付费用户可获90%折扣。",
+      "terms": [
+        "部分付费用户(A类)将获赠一个月附加积分，通过应用内通知提供。",
+        "90天领取期从2026年8月25日(新加坡时间)开始。"
+      ]
+    },
+    "magnific-unlimited-seedream-oct-2026": {
+      "title": "Magnific(Freepik)：无限Seedream 5.0 Pro图像(1.5K分辨率)，至2026年10月10日",
+      "headline": "Magnific：无限Seedream 5.0 Pro",
+      "value": "无限Seedream",
+      "audience": "Magnific订阅用户",
+      "summary": "Magnific(Freepik AI套件的新名称)在2026年10月10日前提供无限制的Seedream 5.0 Pro图像生成(1.5K分辨率)，根据其定价页面。"
+    },
+    "lovable-sweden-students-2026": {
+      "title": "Lovable Pro对瑞典学生免费至2026年12月31日(返校季)",
+      "headline": "Lovable Pro对瑞典学生免费",
+      "value": "免费Pro",
+      "audience": "瑞典大学学生",
+      "summary": "瑞典大学、高等学院和人民高中的学生可免费使用Lovable Pro至2026年12月31日。之后自动享受50%学生折扣。",
+      "steps": [
+        "用机构学生邮箱注册Lovable。",
+        "在Lovable返校季页面领取该优惠。"
+      ],
+      "terms": [
+        "每个学生一个工作区；不可与其他Lovable优惠叠加。"
+      ]
     }
   },
   "tools": {
-    "adobe-firefly": { "tagline": "Adobe出品的生成式AI应用，覆盖图像、视频和音频。" },
-    "base44": { "tagline": "对话式应用搭建工具，自带后端、登录认证和托管。" },
-    "beautiful-ai": { "tagline": "AI演示文稿软件，智能幻灯片自动完成排版设计。" },
-    "bolt": { "tagline": "浏览器里的AI搭建工具，全栈应用的创建、运行和部署一站完成。" },
-    "canva": { "tagline": "在线设计平台，提供AI生图、Magic Design和品牌工具包。" },
-    "capcut": { "tagline": "视频剪辑工具，支持AI字幕、特效和文字成片。" },
-    "captions": { "tagline": "AI视频编辑器，把原始素材直接剪成带字幕的成片。" },
-    "character-ai": { "tagline": "与AI角色聊天和角色扮演的应用，还能创建你自己的角色。" },
-    "chatgpt": { "tagline": "OpenAI的通用AI助手，支持聊天、搜索、图像、语音和智能体。" },
-    "claude": { "tagline": "Anthropic的AI助手，擅长写作、分析和编程，还提供Claude Code和Cowork。" },
-    "clickup": { "tagline": "内置AI的一体化办公应用，集任务、文档和聊天于一身。" },
-    "cline": { "tagline": "适用于VS Code和JetBrains的开源编程智能体，使用你自己的模型API密钥。" },
-    "codex": { "tagline": "OpenAI的编程智能体，可在终端、IDE和云端运行。" },
-    "copy-ai": { "tagline": "面向市场推广内容和销售文案的AI工作流平台。" },
-    "cursor": { "tagline": "AI优先的代码编辑器，智能体能规划、修改并运行代码。" },
-    "deepl": { "tagline": "以译文自然著称的AI翻译和写作助手。" },
-    "deepseek": { "tagline": "开放权重的对话和推理模型，另有免费的网页版和手机版助手。" },
-    "descript": { "tagline": "视频和播客剪辑工具，改文字稿就能剪片。" },
-    "devin": { "tagline": "自主AI软件工程师，能接任务工单并提交拉取请求。" },
-    "elevenlabs": { "tagline": "逼真的AI语音平台，提供配音、语音转文字和语音智能体。" },
-    "fathom": { "tagline": "有免费套餐的AI会议助手，即时生成摘要并同步到CRM。" },
-    "fireflies": { "tagline": "AI会议记录工具，自动录制、转写和总结会议。" },
-    "frase": { "tagline": "AI SEO内容工具，用于调研、写内容大纲和优化文章。" },
-    "freepik": { "tagline": "素材库加AI创作套件，涵盖图像、视频和高清放大，现已更名为Magnific。" },
-    "gamma": { "tagline": "输入提示词即可生成演示文稿、文档和网站的AI工具。" },
-    "gemini": { "tagline": "Google的AI助手，内置于Google搜索、Android和Google Workspace。" },
-    "genspark": { "tagline": "AI智能体工作区，能做调研、幻灯片和表格，还能打电话。" },
-    "github-copilot": { "tagline": "编辑器和GitHub里的AI结对编程助手与编程智能体。" },
-    "google-ai-studio": { "tagline": "Google的浏览器端实验平台，可试用Gemini模型、获取API密钥、用氛围编程做应用。" },
-    "google-flow": { "tagline": "Google基于Veo视频模型打造的AI影片创作工具。" },
-    "grammarly": { "tagline": "跨应用使用的AI写作助手，检查语法、调整语气、改写句子。" },
-    "granola": { "tagline": "AI记事本，无需会议机器人入会，就能把会议笔记整理成精炼摘要。" },
-    "grok": { "tagline": "xAI的AI助手，可实时获取X上的内容，支持生图和语音模式。" },
-    "gumloop": { "tagline": "无代码平台，在你常用的工具之间搭建AI自动化和智能体。" },
-    "hailuo": { "tagline": "MiniMax推出的文生视频和图生视频工具。" },
-    "heygen": { "tagline": "AI数字人视频工具，支持视频翻译和口型同步配音。" },
-    "higgsfield": { "tagline": "电影感AI图像与视频生成工具，内置运镜预设。" },
-    "hugging-face": { "tagline": "开源AI模型、数据集和Spaces演示的汇集地。" },
-    "ideogram": { "tagline": "以图中文字渲染准确著称的AI图像生成器。" },
-    "invideo": { "tagline": "视频制作工具，用素材库和AI画面把提示词和脚本变成剪好的成片。" },
-    "jasper": { "tagline": "面向营销团队的AI内容平台，以品牌调性为核心。" },
-    "jetbrains-ai": { "tagline": "JetBrains IDE内置的AI Assistant和编程智能体Junie。" },
-    "kimi": { "tagline": "月之暗面推出的AI助手，擅长长文档、深度研究和智能体任务。" },
-    "kiro": { "tagline": "AWS推出的智能体IDE，先把提示词变成需求规格，再生成代码。" },
-    "kling": { "tagline": "支持运动控制的文生视频和图生视频工具。" },
-    "krea": { "tagline": "实时AI图像和视频生成工具，还能高清放大和编辑。" },
-    "krisp": { "tagline": "通话用AI工具，提供降噪、口音转换和会议纪要。" },
-    "leonardo": { "tagline": "面向创意工作和游戏素材的AI图像与视频生成工具。" },
-    "lindy": { "tagline": "AI助理搭建平台，让助理替你处理邮件、日程和会议。" },
-    "lovable": { "tagline": "AI搭建工具，聊着天就能做出全栈Web应用。" },
-    "luma": { "tagline": "基于Luma Ray模型的电影感视频和图像生成与编辑工具。" },
-    "make": { "tagline": "可视化自动化平台，用来搭建工作流和AI智能体。" },
-    "manus": { "tagline": "通用AI智能体，能做调研、搭建成品并完成多步骤任务。" },
-    "meta-ai": { "tagline": "Meta的AI助手，覆盖WhatsApp、Instagram、Facebook和网页端。" },
-    "microsoft-copilot": { "tagline": "微软的AI助手，贯穿Windows、Edge和Microsoft 365。" },
-    "midjourney": { "tagline": "AI图像与视频生成器，擅长插画、概念设计和风格化视觉。" },
-    "mindstudio": { "tagline": "搭建AI智能体和自动化流程的无代码工具。" },
-    "mistral": { "tagline": "Mistral AI的AI助手，2026年更名为Vibe，可用于聊天、办公和编程。" },
-    "motion": { "tagline": "AI日历和项目管理工具，自动帮你规划每天的工作。" },
-    "murf": { "tagline": "AI语音生成器，用于旁白配音、视频译配和语音智能体。" },
-    "n8n": { "tagline": "支持AI智能体的工作流自动化平台，可自托管，也可用云端版。" },
-    "notebooklm": { "tagline": "Google的研究笔记本（现名Gemini Notebook），基于你自己的资料回答问题。" },
-    "notion": { "tagline": "内置AI智能体的一体化工作区，管理文档、知识库和项目。" },
-    "opusclip": { "tagline": "AI切片工具，把长视频剪成可直接发布的短视频。" },
-    "originality-ai": { "tagline": "面向内容发布方的AI内容检测工具，还能查重和核查事实。" },
-    "otter": { "tagline": "AI会议纪要工具，提供转写和会议智能体。" },
-    "perplexity": { "tagline": "联网搜索并标注来源的AI问答引擎。" },
-    "photoroom": { "tagline": "AI商品图工具，一键抠图，生成影棚级场景。" },
-    "picsart": { "tagline": "照片和视频编辑器，集AI生成、修图和模板于一体。" },
-    "pictory": { "tagline": "视频工具，把脚本、文章和长视频变成带品牌风格的短视频。" },
-    "pika": { "tagline": "好玩的AI视频生成工具，支持特效、元素替换和关键帧。" },
-    "pixelcut": { "tagline": "AI修图工具，支持抠图、高清放大和商品图制作。" },
-    "pixverse": { "tagline": "AI视频生成器，快速出短片，支持特效和模板。" },
-    "poe": { "tagline": "一份订阅，畅聊众多AI模型和自定义机器人。" },
-    "quillbot": { "tagline": "面向学生和写作者的改写、语法检查和AI检测工具。" },
-    "qwen": { "tagline": "阿里巴巴基于开放权重Qwen模型打造的AI助手。" },
-    "reclaim": { "tagline": "自动安排任务、习惯和会议的AI日历。" },
-    "recraft": { "tagline": "AI设计工具，生成矢量插画、图标和统一品牌风格的图片。" },
-    "remini": { "tagline": "AI画质增强工具，修复模糊、老旧和低分辨率照片。" },
-    "remove-bg": { "tagline": "一键AI抠图工具；独立网站将于2026年12月1日关闭。" },
-    "replit": { "tagline": "内置AI智能体的云端IDE，能搭建并部署应用。" },
-    "riverside": { "tagline": "录音棚级的播客和视频远程录制工具，自带AI剪辑。" },
-    "runway": { "tagline": "面向影视创作者的生成式视频模型和剪辑工具。" },
-    "semrush": { "tagline": "SEO与营销套件，提供AI可见度追踪和内容工具。" },
-    "speechify": { "tagline": "文字转语音朗读工具，可朗读文档、网页和书籍。" },
-    "sudowrite": { "tagline": "为小说作者打造的AI写作搭档。" },
-    "suno": { "tagline": "音乐生成工具，一段文字提示就能生成带人声的完整歌曲。" },
-    "surfer": { "tagline": "SEO内容编辑器和AI写作工具，同时针对搜索引擎和AI回答优化。" },
-    "synthesia": { "tagline": "面向培训和商务场景的影棚级AI数字人视频。" },
-    "tldv": { "tagline": "适用于Zoom、Meet和Teams的AI会议录制工具，可生成笔记并更新CRM。" },
-    "turboscribe": { "tagline": "快速的AI转写工具，把音视频转成文字和字幕。" },
-    "udio": { "tagline": "AI音乐应用，用来创作、混音和分享歌曲。" },
-    "v0": { "tagline": "Vercel的AI应用搭建工具，专做React和Next.js界面。" },
-    "veed": { "tagline": "在线视频编辑器，提供AI字幕、数字人和音频降噪。" },
-    "warp": { "tagline": "以现代终端为核心的智能体开发环境。" },
-    "windsurf": { "tagline": "Cognition的智能体IDE，2026年6月更名为Devin Desktop。" },
-    "wispr-flow": { "tagline": "AI语音输入工具，在任何应用里把口述转成干净的文字。" },
-    "wordtune": { "tagline": "AI改写和摘要助手，让你的句子更精炼。" },
-    "writesonic": { "tagline": "面向内容营销的AI写作与SEO/GEO平台。" },
-    "zapier": { "tagline": "自动化平台，用工作流和AI智能体连接数千款应用。" }
+    "adobe-firefly": {
+      "tagline": "Adobe出品的生成式AI应用，覆盖图像、视频和音频。"
+    },
+    "base44": {
+      "tagline": "对话式应用搭建工具，自带后端、登录认证和托管。"
+    },
+    "beautiful-ai": {
+      "tagline": "AI演示文稿软件，智能幻灯片自动完成排版设计。"
+    },
+    "bolt": {
+      "tagline": "浏览器里的AI搭建工具，全栈应用的创建、运行和部署一站完成。"
+    },
+    "canva": {
+      "tagline": "在线设计平台，提供AI生图、Magic Design和品牌工具包。"
+    },
+    "capcut": {
+      "tagline": "视频剪辑工具，支持AI字幕、特效和文字成片。"
+    },
+    "captions": {
+      "tagline": "AI视频编辑器，把原始素材直接剪成带字幕的成片。"
+    },
+    "character-ai": {
+      "tagline": "与AI角色聊天和角色扮演的应用，还能创建你自己的角色。"
+    },
+    "chatgpt": {
+      "tagline": "OpenAI的通用AI助手，支持聊天、搜索、图像、语音和智能体。"
+    },
+    "claude": {
+      "tagline": "Anthropic的AI助手，擅长写作、分析和编程，还提供Claude Code和Cowork。"
+    },
+    "clickup": {
+      "tagline": "内置AI的一体化办公应用，集任务、文档和聊天于一身。"
+    },
+    "cline": {
+      "tagline": "适用于VS Code和JetBrains的开源编程智能体，使用你自己的模型API密钥。"
+    },
+    "codex": {
+      "tagline": "OpenAI的编程智能体，可在终端、IDE和云端运行。"
+    },
+    "copy-ai": {
+      "tagline": "面向市场推广内容和销售文案的AI工作流平台。"
+    },
+    "cursor": {
+      "tagline": "AI优先的代码编辑器，智能体能规划、修改并运行代码。"
+    },
+    "deepl": {
+      "tagline": "以译文自然著称的AI翻译和写作助手。"
+    },
+    "deepseek": {
+      "tagline": "开放权重的对话和推理模型，另有免费的网页版和手机版助手。"
+    },
+    "descript": {
+      "tagline": "视频和播客剪辑工具，改文字稿就能剪片。"
+    },
+    "devin": {
+      "tagline": "自主AI软件工程师，能接任务工单并提交拉取请求。"
+    },
+    "elevenlabs": {
+      "tagline": "逼真的AI语音平台，提供配音、语音转文字和语音智能体。"
+    },
+    "fathom": {
+      "tagline": "有免费套餐的AI会议助手，即时生成摘要并同步到CRM。"
+    },
+    "fireflies": {
+      "tagline": "AI会议记录工具，自动录制、转写和总结会议。"
+    },
+    "frase": {
+      "tagline": "AI SEO内容工具，用于调研、写内容大纲和优化文章。"
+    },
+    "freepik": {
+      "tagline": "素材库加AI创作套件，涵盖图像、视频和高清放大，现已更名为Magnific。"
+    },
+    "gamma": {
+      "tagline": "输入提示词即可生成演示文稿、文档和网站的AI工具。"
+    },
+    "gemini": {
+      "tagline": "Google的AI助手，内置于Google搜索、Android和Google Workspace。"
+    },
+    "genspark": {
+      "tagline": "AI智能体工作区，能做调研、幻灯片和表格，还能打电话。"
+    },
+    "github-copilot": {
+      "tagline": "编辑器和GitHub里的AI结对编程助手与编程智能体。"
+    },
+    "google-ai-studio": {
+      "tagline": "Google的浏览器端实验平台，可试用Gemini模型、获取API密钥、用氛围编程做应用。"
+    },
+    "google-flow": {
+      "tagline": "Google基于Veo视频模型打造的AI影片创作工具。"
+    },
+    "grammarly": {
+      "tagline": "跨应用使用的AI写作助手，检查语法、调整语气、改写句子。"
+    },
+    "granola": {
+      "tagline": "AI记事本，无需会议机器人入会，就能把会议笔记整理成精炼摘要。"
+    },
+    "grok": {
+      "tagline": "xAI的AI助手，可实时获取X上的内容，支持生图和语音模式。"
+    },
+    "gumloop": {
+      "tagline": "无代码平台，在你常用的工具之间搭建AI自动化和智能体。"
+    },
+    "hailuo": {
+      "tagline": "MiniMax推出的文生视频和图生视频工具。"
+    },
+    "heygen": {
+      "tagline": "AI数字人视频工具，支持视频翻译和口型同步配音。"
+    },
+    "higgsfield": {
+      "tagline": "电影感AI图像与视频生成工具，内置运镜预设。"
+    },
+    "hugging-face": {
+      "tagline": "开源AI模型、数据集和Spaces演示的汇集地。"
+    },
+    "ideogram": {
+      "tagline": "以图中文字渲染准确著称的AI图像生成器。"
+    },
+    "invideo": {
+      "tagline": "视频制作工具，用素材库和AI画面把提示词和脚本变成剪好的成片。"
+    },
+    "jasper": {
+      "tagline": "面向营销团队的AI内容平台，以品牌调性为核心。"
+    },
+    "jetbrains-ai": {
+      "tagline": "JetBrains IDE内置的AI Assistant和编程智能体Junie。"
+    },
+    "kimi": {
+      "tagline": "月之暗面推出的AI助手，擅长长文档、深度研究和智能体任务。"
+    },
+    "kiro": {
+      "tagline": "AWS推出的智能体IDE，先把提示词变成需求规格，再生成代码。"
+    },
+    "kling": {
+      "tagline": "支持运动控制的文生视频和图生视频工具。"
+    },
+    "krea": {
+      "tagline": "实时AI图像和视频生成工具，还能高清放大和编辑。"
+    },
+    "krisp": {
+      "tagline": "通话用AI工具，提供降噪、口音转换和会议纪要。"
+    },
+    "leonardo": {
+      "tagline": "面向创意工作和游戏素材的AI图像与视频生成工具。"
+    },
+    "lindy": {
+      "tagline": "AI助理搭建平台，让助理替你处理邮件、日程和会议。"
+    },
+    "lovable": {
+      "tagline": "AI搭建工具，聊着天就能做出全栈Web应用。"
+    },
+    "luma": {
+      "tagline": "基于Luma Ray模型的电影感视频和图像生成与编辑工具。"
+    },
+    "make": {
+      "tagline": "可视化自动化平台，用来搭建工作流和AI智能体。"
+    },
+    "manus": {
+      "tagline": "通用AI智能体，能做调研、搭建成品并完成多步骤任务。"
+    },
+    "meta-ai": {
+      "tagline": "Meta的AI助手，覆盖WhatsApp、Instagram、Facebook和网页端。"
+    },
+    "microsoft-copilot": {
+      "tagline": "微软的AI助手，贯穿Windows、Edge和Microsoft 365。"
+    },
+    "midjourney": {
+      "tagline": "AI图像与视频生成器，擅长插画、概念设计和风格化视觉。"
+    },
+    "mindstudio": {
+      "tagline": "搭建AI智能体和自动化流程的无代码工具。"
+    },
+    "mistral": {
+      "tagline": "Mistral AI的AI助手，2026年更名为Vibe，可用于聊天、办公和编程。"
+    },
+    "motion": {
+      "tagline": "AI日历和项目管理工具，自动帮你规划每天的工作。"
+    },
+    "murf": {
+      "tagline": "AI语音生成器，用于旁白配音、视频译配和语音智能体。"
+    },
+    "n8n": {
+      "tagline": "支持AI智能体的工作流自动化平台，可自托管，也可用云端版。"
+    },
+    "notebooklm": {
+      "tagline": "Google的研究笔记本（现名Gemini Notebook），基于你自己的资料回答问题。"
+    },
+    "notion": {
+      "tagline": "内置AI智能体的一体化工作区，管理文档、知识库和项目。"
+    },
+    "opusclip": {
+      "tagline": "AI切片工具，把长视频剪成可直接发布的短视频。"
+    },
+    "originality-ai": {
+      "tagline": "面向内容发布方的AI内容检测工具，还能查重和核查事实。"
+    },
+    "otter": {
+      "tagline": "AI会议纪要工具，提供转写和会议智能体。"
+    },
+    "perplexity": {
+      "tagline": "联网搜索并标注来源的AI问答引擎。"
+    },
+    "photoroom": {
+      "tagline": "AI商品图工具，一键抠图，生成影棚级场景。"
+    },
+    "picsart": {
+      "tagline": "照片和视频编辑器，集AI生成、修图和模板于一体。"
+    },
+    "pictory": {
+      "tagline": "视频工具，把脚本、文章和长视频变成带品牌风格的短视频。"
+    },
+    "pika": {
+      "tagline": "好玩的AI视频生成工具，支持特效、元素替换和关键帧。"
+    },
+    "pixelcut": {
+      "tagline": "AI修图工具，支持抠图、高清放大和商品图制作。"
+    },
+    "pixverse": {
+      "tagline": "AI视频生成器，快速出短片，支持特效和模板。"
+    },
+    "poe": {
+      "tagline": "一份订阅，畅聊众多AI模型和自定义机器人。"
+    },
+    "quillbot": {
+      "tagline": "面向学生和写作者的改写、语法检查和AI检测工具。"
+    },
+    "qwen": {
+      "tagline": "阿里巴巴基于开放权重Qwen模型打造的AI助手。"
+    },
+    "reclaim": {
+      "tagline": "自动安排任务、习惯和会议的AI日历。"
+    },
+    "recraft": {
+      "tagline": "AI设计工具，生成矢量插画、图标和统一品牌风格的图片。"
+    },
+    "remini": {
+      "tagline": "AI画质增强工具，修复模糊、老旧和低分辨率照片。"
+    },
+    "remove-bg": {
+      "tagline": "一键AI抠图工具；独立网站将于2026年12月1日关闭。"
+    },
+    "replit": {
+      "tagline": "内置AI智能体的云端IDE，能搭建并部署应用。"
+    },
+    "riverside": {
+      "tagline": "录音棚级的播客和视频远程录制工具，自带AI剪辑。"
+    },
+    "runway": {
+      "tagline": "面向影视创作者的生成式视频模型和剪辑工具。"
+    },
+    "semrush": {
+      "tagline": "SEO与营销套件，提供AI可见度追踪和内容工具。"
+    },
+    "speechify": {
+      "tagline": "文字转语音朗读工具，可朗读文档、网页和书籍。"
+    },
+    "sudowrite": {
+      "tagline": "为小说作者打造的AI写作搭档。"
+    },
+    "suno": {
+      "tagline": "音乐生成工具，一段文字提示就能生成带人声的完整歌曲。"
+    },
+    "surfer": {
+      "tagline": "SEO内容编辑器和AI写作工具，同时针对搜索引擎和AI回答优化。"
+    },
+    "synthesia": {
+      "tagline": "面向培训和商务场景的影棚级AI数字人视频。"
+    },
+    "tldv": {
+      "tagline": "适用于Zoom、Meet和Teams的AI会议录制工具，可生成笔记并更新CRM。"
+    },
+    "turboscribe": {
+      "tagline": "快速的AI转写工具，把音视频转成文字和字幕。"
+    },
+    "udio": {
+      "tagline": "AI音乐应用，用来创作、混音和分享歌曲。"
+    },
+    "v0": {
+      "tagline": "Vercel的AI应用搭建工具，专做React和Next.js界面。"
+    },
+    "veed": {
+      "tagline": "在线视频编辑器，提供AI字幕、数字人和音频降噪。"
+    },
+    "warp": {
+      "tagline": "以现代终端为核心的智能体开发环境。"
+    },
+    "windsurf": {
+      "tagline": "Cognition的智能体IDE，2026年6月更名为Devin Desktop。"
+    },
+    "wispr-flow": {
+      "tagline": "AI语音输入工具，在任何应用里把口述转成干净的文字。"
+    },
+    "wordtune": {
+      "tagline": "AI改写和摘要助手，让你的句子更精炼。"
+    },
+    "writesonic": {
+      "tagline": "面向内容营销的AI写作与SEO/GEO平台。"
+    },
+    "zapier": {
+      "tagline": "自动化平台，用工作流和AI智能体连接数千款应用。"
+    }
   },
   "events": {
-    "chatgpt-students-deadline-2026": { "title": "免费领取4个月ChatGPT Plus的最后一天（美国学生）" },
+    "chatgpt-students-deadline-2026": {
+      "title": "免费领取4个月ChatGPT Plus的最后一天（美国学生）"
+    },
     "black-friday-2026": {
       "title": "2026年黑色星期五",
       "description": "一年中AI订阅折扣力度最大的时段。年付套餐和终身买断通常最先打折。"
@@ -265,8 +608,35 @@
       "title": "2026年网络星期一",
       "description": "大多数黑五软件促销的最后一天。"
     },
-    "google-ai-students-deadline-2026": { "title": "免费领取一年Google AI Pro或AI Plus的最后一天（学生）" },
-    "claude-code-plus25-2026": { "title": "Claude Code每周额度：+50%提升结束，永久+25%开始" },
-    "cursor-students-closed-2026": { "title": "Cursor学生免费Pro一年停止接受新申请" }
+    "google-ai-students-deadline-2026": {
+      "title": "免费领取一年Google AI Pro或AI Plus的最后一天（学生）"
+    },
+    "claude-code-plus25-2026": {
+      "title": "Claude Code每周额度：+50%提升结束，永久+25%开始"
+    },
+    "cursor-students-closed-2026": {
+      "title": "Cursor学生免费Pro一年停止接受新申请"
+    },
+    "claude-cloud-credit-claim-deadline-2026": {
+      "title": "Claude Code云积分领取最后一天($100 Pro、$250 Max)"
+    },
+    "elevenlabs-v4-credits-end-2026": {
+      "title": "ElevenLabs v4 3×积分活动结束"
+    },
+    "bolt-forge-preview-end-2026": {
+      "title": "Bolt Forge预览结束，Bolt Lite报名截止"
+    },
+    "claude-artifact-promo-end-2026": {
+      "title": "Claude工作制品使用推广结束"
+    },
+    "windsurf-swe-2-free-end-2026": {
+      "title": "Devin Desktop SWE-2免费最后一天"
+    },
+    "adobe-firefly-30-off-end-2026": {
+      "title": "Adobe Firefly首年30%折扣结束"
+    },
+    "pixel-10-pro-ai-pro-deadline-2026": {
+      "title": "Pixel 10 Pro含12个月Google AI Pro购买截止日"
+    }
   }
 }

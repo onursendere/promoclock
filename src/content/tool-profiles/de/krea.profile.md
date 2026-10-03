@@ -1,7 +1,7 @@
 ---
 summary: "Krea ist eine generative KI-Plattform von Krea zum Erstellen und Bearbeiten von Bildern, Video und 3D-Assets, mit Echtzeit-Generierung, die sich beim Tippen oder Zeichnen aktualisiert. Sie hostet über 150 Modelle, darunter das eigene Bildmodell Krea 2, und dient Designern, Studios und Agenturen, die viele Modelle unter einem Konto wollen."
 metaTitle: "Krea AI: Preise, Gratis-Plan & Funktionen 2026"
-metaDescription: "Krea-AI-Preise 2026: kostenloser Plan mit 100 Compute-Einheiten am Tag, Pro für $35/Monat, Max- und Business-Stufen, plus Krea 2, Krea Agent und Alternativen."
+metaDescription: "Krea KI Preise 2026: Gratis-Plan mit 100 Compute-Einheiten täglich, Basic für $9/Monat, Pro für $35, Max und Business, Krea 2, Krea Agent und Alternativen."
 bestFor:
   - "Designer, die visuelle Stile erkunden"
   - "Kreativstudios und Agenturen"
@@ -27,7 +27,7 @@ useCases:
   - "Ein LoRA auf ein Marken-Maskottchen trainieren, damit jedes Kampagnenbild dieselbe Figur behält."
   - "Krea Agent beauftragen, aus einem Produktfoto und einer Website sechs statische Instagram-Anzeigen und ein vertikales Video zu erstellen."
   - "Ein generiertes Poster mit Topaz Standard auf Druckauflösung hochskalieren, bevor es an die Druckerei geht."
-pricingSummary: "Free gibt 100 Compute-Einheiten am Tag. Pro kostet $35/Monat ($21/Monat bei jährlicher Abrechnung) mit 20.000 Einheiten, Max $105/Monat ($63 jährlich) mit 60.000, und Business $200/Monat ($160 jährlich) mit 80.000 Einheiten für bis zu 50 Sitze."
+pricingSummary: "Free gibt 100 Compute-Einheiten täglich. Basic kostet $9/Monat ($5/Monat jährlich abgerechnet) mit 5.000 Einheiten, Pro $35/Monat ($21 jährlich) mit 20.000, Max $105/Monat ($63 jährlich) mit 60.000 und Business $200/Monat ($160 jährlich) mit 80.000 Einheiten für bis zu 50 Sitzplätze."
 savingTips:
   - "Jährliche Abrechnung spart 40 % bei Bezahlplänen und senkt Pro von $35 auf $21 im Monat."
   - "Max generiert weiter, auch wenn die Compute-Einheiten aufgebraucht sind, mit unbegrenzten entspannten Generierungen bei unterstützten hauseigenen Bildmodellen."

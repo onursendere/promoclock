@@ -23,7 +23,7 @@ useCases:
   - "Crear una app de reservas para un negocio local y publicarla en un dominio propio la misma tarde."
   - "Importar una landing de Figma y convertirla en un sitio funcional con una base de datos de registros."
   - "Crear un seguidor de hábitos multiplataforma y enviar una versión de prueba a TestFlight."
-pricingSummary: "El plan gratis incluye 1M de tokens al mes con un tope diario de 300K. Pro empieza en $25/mes con 10M de tokens, Teams cuesta $30 por miembro al mes, y Enterprise es a medida. Un plan Lite de $9/mes está solo en lista de espera."
+pricingSummary: "Free incluye 1M de tokens al mes con un tope diario de 300K. Pro empieza en $25/mes con 10M de tokens, Teams cuesta $30 por miembro al mes, y Enterprise es a medida. El plan Lite solo para Forge cuesta $9/mes, con registro abierto hasta el 14 de octubre de 2026."
 savingTips:
   - "La facturación anual ahorra hasta un 28 % frente al pago mensual."
   - "Los tokens de pago sin usar se acumulan y siguen válidos dos meses mientras tu suscripción esté activa."
@@ -34,7 +34,7 @@ faq:
   - q: "¿Por qué Bolt usa tantos tokens?"
     a: "La mayoría de los tokens se van en leer y sincronizar los archivos de tu proyecto con la IA, así que los proyectos más grandes usan más tokens por mensaje. El centro de ayuda de Bolt publica guías sobre prompts eficaces y eficiencia de tokens."
   - q: "¿Qué son Bolt Forge y Bolt Lite?"
-    a: "Forge es un agente construido sobre modelos de código abierto, en vista previa de investigación del 14 de septiembre al 14 de octubre de 2026. Es gratis en los planes Pro individuales; Lite es un plan de $9/mes solo por lista de espera que ofrece únicamente Forge."
+    a: "Forge es un agente construido sobre modelos de código abierto, en vista previa de investigación del 14 de septiembre al 14 de octubre de 2026, con hasta 50× más uso sin costo extra en planes Pro individuales. Lite es un plan de $9/mes que ofrece solo Forge; el registro cierra el 14 de octubre, y los miembros mantienen el precio después."
   - q: "¿Qué pasa cuando un sitio gratis de Bolt recibe demasiado tráfico?"
     a: "El hosting gratis permite 10 GB de ancho de banda y 333.333 solicitudes al mes, y luego el sitio se desconecta hasta el siguiente ciclo. Los sitios Pro pueden comprar capacidad extra hasta un tope de gasto."
 ---

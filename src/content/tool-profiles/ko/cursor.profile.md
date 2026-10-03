@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "Hobby는 제한된 Agent 요청과 함께 무료입니다. Pro는 월 $20, Pro+는 Pro Agent 한도의 3배로 월 $60, Ultra는 20배로 월 $200입니다. 인도에는 월 ₹649인 Start도 있습니다."
 savingTips:
   - "연간 결제는 월간 결제보다 20% 저렴합니다."
-  - "Cursor 자체 모델(Grok 4.6, Grok 4.5, Composer 2.5)은 타사 모델보다 더 많은 포함 사용량을 제공하므로 이를 선택하면 플랜을 더 오래 쓸 수 있습니다."
+  - "Cursor 자체 모델(Grok 4.7, Grok 4.6, Grok 4.5, Composer 2.5)은 타사 모델보다 더 많은 포함 사용량을 제공하므로 이를 선택하면 플랜을 더 오래 쓸 수 있습니다."
 faq:
   - q: "Cursor는 아직 무료로 쓸 수 있나요?"
     a: "네. Hobby 플랜은 무료이고 신용카드가 필요 없으며 Composer와 매달 제한된 수의 Agent 요청을 포함합니다. 무제한 탭 완성, Bugbot, 타사 프런티어 모델은 Pro부터 시작됩니다."
@@ -41,7 +41,7 @@ faq:
 Cursor는 내 컴퓨터, Cursor의 클라우드, 또는 자체 네트워크 안의 셀프 호스팅 머신에서 실행할 수 있는 AI 에이전트를 중심으로 만들어진 에디터입니다. 데스크톱 앱은 macOS, Windows, Linux용으로 제공되며, 같은 에이전트를 cursor.com/agents나 Cursor for iOS에서도 관리할 수 있습니다.
 
 ## 눈에 띄는 점
-- **자체 모델.** Grok 4.6, Grok 4.5, Composer 2.5는 Claude, GPT, Gemini보다 더 많은 포함 사용량을 갖춘 별도의 사용량 풀을 이룹니다.
+- **자체 모델.** Grok 4.7, Grok 4.6, Grok 4.5, Composer 2.5는 Claude, GPT, Gemini보다 더 많은 포함 사용량을 갖춘 별도의 사용량 풀을 이룹니다.
 - **계속 작동하는 에이전트.** 클라우드 에이전트, 자동화, Projects 베타는 프롬프트 없이도 Slack 메시지, 일정, 풀 리퀘스트에 반응할 수 있습니다.
 - **프라이버시 모드.** 활성화하면 Cursor는 코드 데이터가 Cursor나 모델 제공사의 학습에 쓰이지 않는다고 보장합니다.
 

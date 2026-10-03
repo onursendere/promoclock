@@ -23,7 +23,7 @@ useCases:
   - "Refrescar un post de blog que perdió posiciones usando alertas de Content Audit y guías actualizadas del Content Editor."
   - "Planificar un clúster de artículos para una nueva categoría de producto en Topical Map antes de asignar redactores."
   - "Comprobar si ChatGPT y Perplexity mencionan tu marca para prompts de compra clave y comparar la visibilidad de la competencia."
-pricingSummary: "Mensual: Discovery $59, Standard $119, Pro $219 y Peace of Mind $359. Con facturación anual: $49, $99, $182 y $299 al mes. AI Search Analytics son $95 o $82, y Enterprise aparece a $999 al mes."
+pricingSummary: "Mensual: Discovery $59, Standard $119, Pro $219 y Peace of Mind $359. Con facturación anual: $49, $99, $182 y $299 al mes. AI Search Analytics cuesta $95 o $82, y Enterprise tiene precio a medida."
 savingTips:
   - "La facturación anual ahorra hasta un 17 %, por ejemplo $120 al año en Discovery, pero se cobra el año completo por adelantado."
   - "Las cuentas nuevas obtienen una prueba gratis de 7 días de Pro. Requiere datos de facturación y se convierte en el plan de pago elegido salvo que canceles."

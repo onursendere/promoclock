@@ -25,14 +25,14 @@ useCases:
   - "Receber um resumo diário toda manhã cobrindo suas reuniões, e-mails urgentes e qualquer outra coisa que você acompanha."
   - "Pedir ao Lindy para pesquisar os participantes antes de uma chamada de vendas e enviar o follow-up depois."
   - "Transformar dados de CRM e analytics em um painel ao vivo que o Lindy hospeda em seu próprio link."
-pricingSummary: "O Lindy vende assentos: o Plus custa $29.99 por usuário ao mês com 3.000 créditos, o Pro $99.99 com 15.000 e o Max $199.99 com 35.000, além do Enterprise personalizado. Créditos extras de workspace custam $10 por 1.000."
+pricingSummary: "Lindy vende assentos: Plus é $29.99 por usuário/mês com 3.000 créditos, Pro $99.99 com 15.000 e Max $199.99 com 35.000, além do Enterprise personalizado. Usuários novos podem testar com $50 em créditos por 7 dias, sem cartão. Créditos extras de workspace custam $10 por 1.000."
 savingTips:
-  - "Novos colegas que entram pelo Slack ganham um teste grátis único de 7 dias antes de o assento ser cobrado; quem se cadastra direto é cobrado na hora."
+  - "Usuários novos ganham $50 em créditos por 7 dias sem cartão de crédito, e colegas que entram pelo Slack ganham um teste único de 7 dias antes de o assento ser cobrado."
   - "Créditos avulsos comprados acumulam e nunca expiram, ao contrário dos créditos do plano, que resetam a cada ciclo de cobrança."
   - "Administradores podem limitar quantos créditos qualquer pessoa consome, para que um único usuário intenso não esvazie o pool compartilhado."
 faq:
   - q: "O Lindy tem plano gratuito?"
-    a: "Não. O Lindy lista apenas níveis pagos: Plus, Pro, Max e Enterprise. Alguém novo que entra em um workspace mencionando o Lindy no Slack ganha um teste grátis de 7 dias, mas quem se cadastra diretamente é cobrado na hora."
+    a: "Não um permanente. Os níveis pagos do Lindy são Plus, Pro, Max e Enterprise, mas usuários novos ganham $50 em créditos por 7 dias sem cartão de crédito, e quem entra em um workspace mencionando Lindy no Slack ganha um teste de 7 dias."
   - q: "Como funcionam os créditos do Lindy?"
     a: "Os créditos medem o trabalho que o Lindy faz e valem cerca de um centavo cada. Pedidos do dia a dia usam de 2 a 250 créditos, trabalho profundo de 250 a 1.000 e grandes construções de 1.000 a 2.500. Cada assento soma sua cota a um único pool compartilhado do workspace."
   - q: "O que acontece quando o Lindy fica sem créditos?"

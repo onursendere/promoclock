@@ -24,18 +24,18 @@ useCases:
   - "Meeting-Notizen und Web-Recherche in ein Kunden-Deck verwandeln und es dann in einem Bezahlplan exportieren."
   - "GenMail einen überfüllten Posteingang sortieren, Antworten in deinem Stil entwerfen und ein Morgen-Briefing schicken lassen."
   - "Ein leichtgewichtiges CRM oder Dashboard aus deinen Daten mit AgentBase bauen, statt einen Entwickler einzustellen."
-  - "Separate Chat- und Bild-Abos durch Plus ersetzen, wo beide bis Dezember 2026 keine Credits kosten."
+  - "Ersetze separate Chat- und Bild-Abos durch Plus, wo Core-Chat- und Bildmodelle bis zu einer Nutzungsobergrenze kostenlos sind."
 pricingSummary: "Free ergänzt 100 Credits täglich. Plus startet bei $24.99/Monat für 10.000 Credits und Pro bei $249.99/Monat für 125.000 Credits; beide skalieren durch höhere Stufen, und jährliche Abrechnung nimmt rund 20 % ab. Team kostet $30 pro Sitz."
 savingTips:
   - "Jährliche Abrechnung schneidet rund 20 % von jeder Plus- und Pro-Stufe, zum Beispiel $19.99 statt $24.99 im Monat in Einstiegs-Plus."
-  - "In Plus und Pro nutzen KI-Chat und Bildgenerierung bis 31. Dezember 2026 keine Credits, innerhalb von 5-Stunden-Nutzungsobergrenzen."
+  - "Plus- und Pro-Abos, gestartet vor dem 18. September 2026, behalten kostenlose KI-Chat und Bilder bis 31. Dezember 2026, innerhalb von 5-Stunden-Limits; neuere bekommen Core-Modelle kostenlos bis zu einer Nutzungsobergrenze."
   - "Wenn du nur einen Monat knapp bist, ergänzt ein $20-Credit-Pack 7.500 Credits, gültig für 3 Monate, ohne die Stufe zu wechseln."
   - "Der Free-Plan braucht keine Kreditkarte, du kannst den Super Agent also vor dem Bezahlen testen."
 faq:
   - q: "Wie viel kostet Genspark pro Monat?"
     a: "Plus startet bei $24.99/Monat ($19.99 jährlich abgerechnet) für 10.000 Credits und skaliert auf $199.99 für 95.000. Pro läuft von $249.99 bis $3,999.99 im Monat, und der Team-Plan kostet $30 pro Sitz."
   - q: "Ist Gensparks unbegrenzter KI-Chat wirklich unbegrenzt?"
-    a: "Nicht ganz. Plus- und Pro-Mitglieder können KI-Chat und Bildgenerierung bis 31. Dezember 2026 nutzen, ohne Credits auszugeben, aber die Nutzung ist pro 5-Stunden-Fenster gedeckelt und läuft weiter, sobald dieses Fenster verstrichen ist."
+    a: "Nicht ganz. Plus- und Pro-Abos, gestartet vor dem 18. September 2026 und aktiv gehalten, können KI-Chat und Bildgenerierung bis 31. Dezember 2026 kostenlos nutzen, begrenzt pro 5-Stunden-Fenster. Neuere Abos bekommen Core-Modelle kostenlos bis zu einer Nutzungsobergrenze, dann nutzen monatliche Credits, und Flagship-Modelle kosten immer Credits."
   - q: "Was enthält der Free-Genspark-Plan?"
     a: "Der Free-Plan gibt 100 Credits pro Tag, braucht keine Kreditkarte und deckt Chat, Slides, Docs und Recherche ab. Manche Funktionen sind eingeschränkt; du kannst zum Beispiel in Free keine Slides exportieren."
   - q: "Rollen ungenutzte Genspark-Credits weiter?"
@@ -51,6 +51,6 @@ Genspark läuft im Browser und über eine Familie an Apps: die Super App für ma
 
 ## Grenzen
 - Jede Funktion schöpft aus einem Credit-Pool, und schwerere Agent-Aufgaben verbrauchen weit mehr als ein kurzer Chat.
-- Der Null-Credit-Perk für Chat und Bild ist nur bis 31. Dezember 2026 garantiert und kommt mit 5-Stunden-Obergrenzen.
+- Der Null-Credit-Perk für Chat und Bild gilt vollständig nur für Abos, gestartet vor dem 18. September 2026, endet am 31. Dezember 2026 und kommt mit 5-Stunden-Obergrenzen.
 - Pro startet bei $249.99 im Monat; die Hauptextras gegenüber Plus sind 1 TB Speicher und exklusive 4K-Bildmodelle.
 - Kündigung verwirkt ungenutzte Credits am Laufzeitende, ohne anteilige Rückerstattung.

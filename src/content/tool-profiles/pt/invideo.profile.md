@@ -24,9 +24,9 @@ useCases:
   - "Produzir cinco variantes regionais de um vídeo de campanha trocando a locução e o texto na tela."
   - "Cortar um curta-metragem com um coeditor no mesmo projeto, cada um vendo as mudanças do outro ao vivo."
   - "Transformar a foto de um produto em um plano principal animado com um modelo de imagem para vídeo, e depois corrigir a cor na linha do tempo."
-pricingSummary: "Um plano grátis dá créditos limitados renovados semanalmente. O Starter custa $20 por assento por mês com 400 créditos, o Plus $60 ($50 na cobrança anual) com 2.000, e o Max $150 ($101 na cobrança anual) com 5.000."
+pricingSummary: "Um plano grátis dá créditos limitados que reset semanalmente. Starter é $20 por assento por mês com 400 créditos, Plus $60 ($36 no anual) com 2.000, e Max $150 ($75 no anual) com 5.000."
 savingTips:
-  - "A cobrança anual economiza 17% no Plus ($50 por assento em vez de $60) e 33% no Max ($101 em vez de $150); o Starter custa $20 nos dois casos."
+  - "Cobrança anual economiza 40% no Plus ($36 por assento em vez de $60) e 50% no Max ($75 em vez de $150); Starter custa $20 nos dois casos."
   - "A edição na linha do tempo, incluindo multiplayer e exportação 4K das suas próprias filmagens, não usa créditos."
   - "Os créditos do plano grátis se renovam toda segunda-feira à 0h UTC, então dá para testar agentes e modelos ao longo de várias semanas."
 faq:

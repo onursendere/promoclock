@@ -24,10 +24,10 @@ useCases:
   - "Coordinar un cambio de librería compartida y los servicios dependientes en una sesión de Kiro Web entre varios repositorios."
   - "Agendar una automatización recurrente que actualice dependencias y abra pull requests para revisión cada semana."
   - "Correr el Kiro CLI headless en un pipeline CI para revisar pull requests antes de que los mire un humano."
-pricingSummary: "Kiro Free incluye 50 créditos al mes. Pro es $20/mes por 1.000 créditos, Pro+ $40 por 2.000, Pro Max $100 por 5.000 y Power $200 por 10.000, con créditos add-on a $0,04 cada uno en planes de pago."
+pricingSummary: "Kiro Free incluye 50 créditos al mes. Pro es $20/mes por 1.000 créditos, Pro+ $40 por 2.000, Pro Max $100 por 5.000 y Power $200 por 10.000, con créditos add-on a $0.04 cada uno en planes de pago. El primer upgrade vía inicio de sesión social o AWS Builder ID obtiene $20 acreditados hacia la suscripción."
 savingTips:
   - "Los estudiantes en universidades elegibles obtienen 1.000 créditos al mes gratis durante un año."
-  - "Mantente en Auto para prompts de rutina: la misma tarea cuesta cerca de 1,3x más créditos cuando eliges Sonnet 4.6 directamente."
+  - "Mantente en Auto para prompts de rutina: elegir un modelo directamente cuesta más créditos, alrededor de 1,3x para Sonnet 5.5 y 2x para Opus 5.5."
   - "Los packs de créditos add-on empiezan en $5 por 125 créditos y siguen válidos 12 meses, a diferencia de los créditos mensuales del plan."
 faq:
   - q: "¿Kiro es gratis?"

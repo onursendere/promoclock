@@ -32,7 +32,7 @@ pricing:
   asOf: 2026-09-17
 platforms: [macos, windows, linux, jetbrains]
 savingTips:
-  - "Free models don't count against your quota, and lower-cost SWE models such as SWE-1.7 stretch paid allowances further."
+  - "Free models don't count against your quota, and Cognition's SWE models stretch paid allowances further; SWE-2 is free in Devin Desktop and the CLI on Pro and Max through October 16, 2026."
   - "Subscribers who were on Windsurf Pro before the March 2026 quota switch keep a grandfathered price of $15/month indefinitely."
 faq:
   - q: "Is Windsurf discontinued?"
@@ -51,7 +51,7 @@ sources:
   - https://docs.devin.ai/desktop/accounts/quota
   - https://docs.devin.ai/admin/billing/self-serve
   - https://cognition.com/blog/windsurf
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What happened to Windsurf?
 Windsurf began as Codeium's editor and passed to Cognition in 2025. In June 2026 Cognition unified its products under one brand: Devin Desktop for the IDE, Devin Cloud for autonomous cloud agents, Devin CLI for the terminal and Devin Review for code review. Existing Windsurf rules, including `.windsurfrules`, still work.

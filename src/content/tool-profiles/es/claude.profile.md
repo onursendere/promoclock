@@ -29,6 +29,7 @@ savingTips:
   - "Pagar Pro por año cuesta $200 por adelantado, unos $17/mes en vez de $20."
   - "El plan Free ya incluye búsqueda web, memoria, conectores y creación de archivos, así que quien usa poco puede no necesitar Pro."
   - "Los estudiantes pueden comprobar si su universidad tiene el plan Education de Claude, que da acceso a todo el campus a tarifas con descuento."
+  - "En asientos Pro y Team estándar, Fable 5 y 5.1 se ejecutan solo con créditos de uso, mientras que Max puede gastar hasta la mitad de su límite semanal en Fable sin costo extra."
 faq:
   - q: "¿Claude es gratis?"
     a: "Sí. El plan Free cuesta $0 e incluye chat en web, escritorio y móvil, búsqueda web, memoria, conectores y creación de archivos. No incluye Claude Code, Research ni los modelos Opus, y tiene los límites de uso más bajos."

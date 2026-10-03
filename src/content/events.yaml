@@ -46,3 +46,59 @@
   deal: cursor-student-pro-year
   title:
     en: "Cursor's free Pro year for students closes to new sign-ups"
+
+- id: claude-cloud-credit-claim-deadline-2026
+  date: 2026-10-08T06:59:00Z
+  kind: deadline
+  tool: claude
+  deal: claude-code-cloud-credit-2026
+  title:
+    en: "Last day to claim Claude Code cloud credit ($100 Pro, $250 Max)"
+
+- id: elevenlabs-v4-credits-end-2026
+  date: 2026-10-12T23:59:00Z
+  kind: deadline
+  tool: elevenlabs
+  deal: elevenlabs-v4-launch-3x-credits
+  title:
+    en: "ElevenLabs v4 launch: 3× credits on Creator and up end"
+
+- id: bolt-forge-preview-end-2026
+  date: 2026-10-14T23:59:00Z
+  kind: deadline
+  tool: bolt
+  deal: bolt-forge-preview-2026
+  title:
+    en: "Bolt Forge free preview ends and Bolt Lite sign-ups close"
+
+- id: claude-artifact-promo-end-2026
+  date: 2026-10-16T06:59:00Z
+  kind: deadline
+  tool: claude
+  deal: claude-artifact-usage-promo-oct-2026
+  title:
+    en: "Claude artifact usage promotion ends"
+
+- id: windsurf-swe-2-free-end-2026
+  date: 2026-10-16T23:59:00Z
+  kind: deadline
+  tool: windsurf
+  deal: windsurf-swe-2-free-oct-2026
+  title:
+    en: "Last day of free SWE-2 in Devin Desktop"
+
+- id: adobe-firefly-30-off-end-2026
+  date: 2026-10-21T23:59:00Z
+  kind: deadline
+  tool: adobe-firefly
+  deal: adobe-firefly-30-off-first-year-2026
+  title:
+    en: "Adobe Firefly 30% first-year discount ends"
+
+- id: pixel-10-pro-ai-pro-deadline-2026
+  date: 2026-10-31T23:59:00Z
+  kind: deadline
+  tool: gemini
+  deal: pixel-10-pro-google-ai-pro-2026
+  title:
+    en: "Last day to buy a Pixel 10 Pro with 12 months of Google AI Pro"

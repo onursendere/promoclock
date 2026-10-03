@@ -23,7 +23,7 @@ useCases:
   - "CLI에게 실패한 테스트 스위트를 고치도록 요청하고, 샌드박스 밖에서 실행되는 각 명령을 승인합니다."
   - "긴 리팩터링을 Codex 클라우드에 맡기고 나중에 iOS 앱에서 결과 diff를 리뷰합니다."
   - "자동 코드 리뷰를 켜서 모든 GitHub 풀 리퀘스트가 팀원이 보기 전에 먼저 검토받게 합니다."
-pricingSummary: "Codex는 ChatGPT Free($0), Go(월 $8), Plus(월 $20), Pro(월 $100부터, Plus 한도의 5배 또는 20배)에 포함됩니다. Business는 사용자당 월 $25이며 연간 결제 시 월 $20이고, API 키 사용은 API 요금으로 청구됩니다."
+pricingSummary: "Codex는 ChatGPT Free($0), Go(월 $8), Plus(월 $20), Pro(월 $100, $200 또는 $500, 새로운 $500 등급은 Astra Ultrafast 추가)에 포함됩니다. Business는 사용자당 월 $25 또는 연간 결제 시 월 $20이며, API 키 사용은 API 요금으로 청구됩니다."
 savingTips:
   - "한도에 도달한 Plus와 Pro 사용자는 플랜 전체를 업그레이드하는 대신 ChatGPT 크레딧을 구매할 수 있습니다."
   - "GPT-5.6 Luna로 전환하면 Sol보다 5시간당 훨씬 많은 로컬 메시지를 받아 어떤 플랜이든 더 오래 씁니다."

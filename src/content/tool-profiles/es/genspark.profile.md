@@ -24,18 +24,18 @@ useCases:
   - "Convertir notas de reunión e investigación web en un deck para el cliente, y luego exportarlo en un plan de pago."
   - "Dejar que GenMail ordene una bandeja saturada, redacte respuestas con tu voz y envíe un briefing matinal."
   - "Construir un CRM ligero o un dashboard con tus propios datos usando AgentBase en lugar de contratar a un desarrollador."
-  - "Reemplazar suscripciones separadas de chat e imagen con Plus, donde ambos no cuestan créditos hasta diciembre de 2026."
+  - "Reemplazar suscripciones separadas de chat e imagen con Plus, donde los modelos de chat e imagen básicos no cuestan créditos hasta un tope de uso."
 pricingSummary: "Free suma 100 créditos al día. Plus empieza en $24,99/mes por 10.000 créditos y Pro en $249,99/mes por 125.000 créditos; ambos escalan a niveles más altos, y la facturación anual descuenta cerca del 20 %. Team es $30 por asiento."
 savingTips:
   - "La facturación anual recorta cerca del 20 % en cada nivel de Plus y Pro, por ejemplo $19,99 en vez de $24,99 al mes en el Plus de entrada."
-  - "En Plus y Pro, el chat de IA y la generación de imágenes no usan créditos hasta el 31 de diciembre de 2026, dentro de topes de uso de 5 horas."
+  - "Las suscripciones de Plus y Pro iniciadas antes del 18 de septiembre de 2026 mantienen chat y imágenes de IA sin créditos hasta el 31 de diciembre de 2026, dentro de topes de 5 horas; las más nuevas obtienen modelos básicos gratis hasta un tope de uso."
   - "Si corres corto solo un mes, un pack de $20 en créditos suma 7.500 créditos válidos por 3 meses sin cambiar de nivel."
   - "El plan Free no requiere tarjeta, así puedes probar el Super Agent antes de pagar."
 faq:
   - q: "¿Cuánto cuesta Genspark al mes?"
     a: "Plus empieza en $24,99/mes ($19,99 con facturación anual) por 10.000 créditos y escala hasta $199,99 por 95.000. Pro va de $249,99 a $3.999,99 al mes, y el plan Team es $30 por asiento."
   - q: "¿El chat de IA ilimitado de Genspark es realmente ilimitado?"
-    a: "No del todo. Los miembros de Plus y Pro pueden usar chat de IA y generación de imágenes sin gastar créditos hasta el 31 de diciembre de 2026, pero el uso está topeado por ventana de 5 horas y se reanuda al pasar esa ventana."
+    a: "No del todo. Las suscripciones de Plus y Pro iniciadas antes del 18 de septiembre de 2026 y mantenidas activas pueden usar chat y generación de imágenes de IA sin créditos hasta el 31 de diciembre de 2026, topeadas por ventana de 5 horas. Las suscripciones más nuevas obtienen modelos básicos gratis hasta un tope de uso, luego usan créditos mensuales, y los modelos insignia siempre cuestan créditos."
   - q: "¿Qué incluye el plan gratis de Genspark?"
     a: "El plan Free da 100 créditos por día, no requiere tarjeta de crédito y cubre chat, diapositivas, docs e investigación. Algunas funciones están restringidas; por ejemplo, no puedes exportar diapositivas en Free."
   - q: "¿Los créditos no usados de Genspark se acumulan?"
@@ -51,6 +51,6 @@ Genspark trabaja en el navegador y a través de una familia de apps: la Super Ap
 
 ## Limitaciones
 - Cada función toma de un solo pozo de créditos y las tareas de agente más pesadas consumen mucho más que un chat rápido.
-- La ventaja de chat e imágenes sin créditos está garantizada solo hasta el 31 de diciembre de 2026 y viene con topes de 5 horas.
+- La ventaja de chat e imágenes sin créditos se aplica completamente solo a suscripciones iniciadas antes del 18 de septiembre de 2026, termina el 31 de diciembre de 2026 y viene con topes de 5 horas.
 - Pro empieza en $249,99 al mes; sus principales extras frente a Plus son 1 TB de almacenamiento y modelos de imagen 4K exclusivos.
 - Cancelar hace que se pierdan los créditos no usados al final del término, sin reembolso prorrateado.

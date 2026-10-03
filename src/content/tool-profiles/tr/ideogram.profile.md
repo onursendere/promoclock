@@ -27,12 +27,12 @@ useCases:
   - "Bir reklam kreatifini Ad Resizer ile birkaç yerleşime yeniden boyutlandır."
   - "Talep üzerine baskı dükkânı için okunaklı sloganlı tişört ve kupa tasarımları oluştur."
   - "Şirket içinde markalı görseller üretmek için Ideogram 4.0 ağırlıklarını kendi GPU'larında çalıştır."
-pricingSummary: "Uygun ücretsiz hesaplar haftalık yavaş kredi alıyor. Plus aylık $20 ve 1.000 öncelikli kredi, Pro aylık $60 ve 3.500 kredi, Team kullanıcı başına aylık $30 (en az 2 kullanıcı); yıllık ödeme Plus'ı $15'e, Pro'yu $42'ye indiriyor."
+pricingSummary: "Ücretsiz hesaplar haftalık 30 kredi alıyor. Plus aylık $20 ve 2.400 kredi, Pro aylık $60 ve 7.500 kredi, Team kullanıcı başına aylık $30 ve 3.600 kredi (en az 2 kullanıcı); yıllık ödeme Plus'ı $15'e, Pro'yu $42'ye ve Team'i $20'ye indiriyor."
 savingTips:
   - "Yıllık ödeme Plus'ı aylık $15'e (yılda $180) ve Pro'yu aylık $42'ye (yılda $504) getiriyor."
   - "Ek öncelikli krediler $4 ve abonelik kredilerinin aksine, kullanmazsan devrediyor."
   - "Ücretli planlar sınırsız yavaş kredi içeriyor, böylece acil olmayan görseller yavaş kuyrukta bekleyebilir."
-  - "Ücretsiz haftalık krediler Google, Apple ya da Microsoft ile giriş gerektiriyor ve miktar değişebiliyor."
+  - "Ücretsiz hesaplar Google, Apple ya da Microsoft ile giriş yaptığında haftalık 30 kredi alıyor."
 faq:
   - q: "Ideogram ücretsiz mi?"
     a: "Evet, sınırlarla. Uygun ücretsiz hesaplar Google, Apple ya da Microsoft ile giriş yapınca haftalık yavaş kredi alıyor ve aynı anda bir üretim çalıştırabiliyor. Ücretsiz görseller herkese açık yayımlanıyor ve ücretli planların denemesi yok."

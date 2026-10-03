@@ -24,9 +24,9 @@ useCases:
   - "Producir cinco variantes regionales de un video de campaña cambiando voz en off y texto en pantalla."
   - "Cortar un corto con un co-editor en el mismo proyecto, cada uno viendo los cambios del otro en vivo."
   - "Convertir una foto de producto en una toma hero animada con un modelo image-to-video, y luego colorearla en el timeline."
-pricingSummary: "Un plan gratis da créditos limitados que se reinician semanalmente. Starter es $20 por asiento al mes con 400 créditos, Plus $60 ($50 con facturación anual) con 2.000 y Max $150 ($101 anual) con 5.000."
+pricingSummary: "Un plan gratis da créditos limitados que se reinician semanalmente. Starter es $20 por asiento al mes con 400 créditos, Plus $60 ($36 con facturación anual) con 2.000, y Max $150 ($75 anual) con 5.000."
 savingTips:
-  - "La facturación anual ahorra 17 % en Plus ($50 por asiento en vez de $60) y 33 % en Max ($101 en vez de $150); Starter cuesta $20 igual."
+  - "La facturación anual ahorra 40 % en Plus ($36 por asiento en vez de $60) y 50 % en Max ($75 en vez de $150); Starter cuesta $20 igual."
   - "La edición en timeline, incluida la multiplayer y la exportación 4K de tu propio material, no usa créditos."
   - "Los créditos del plan gratis se refrescan cada lunes a las 12 a. m. UTC, así puedes probar agentes y modelos durante varias semanas."
 faq:

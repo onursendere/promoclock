@@ -23,7 +23,7 @@ useCases:
   - "Créer une application de réservation pour un commerce local et la publier sur un domaine personnalisé dans l’après-midi."
   - "Importer une landing page Figma et la transformer en site fonctionnel avec une base de données d’inscriptions."
   - "Créer une application multiplateforme de suivi d’habitudes et envoyer une version de test sur TestFlight."
-pricingSummary: "Free inclut 1 million de tokens par mois, avec un plafond de 300 000 par jour. Pro démarre à $25/mois avec 10 millions de tokens, Teams coûte $30 par membre et par mois, et Enterprise est sur devis. Une formule Lite à $9/mois est accessible uniquement sur liste d’attente."
+pricingSummary: "Free inclut 1M de tokens par mois avec un plafond quotidien de 300K. Pro démarre à $25/mois avec 10M de tokens, Teams coûte $30 par membre et par mois, et Enterprise est personnalisé. Le plan Lite réservé à Forge coûte $9/mois, avec inscriptions ouvertes jusqu'au 14 octobre 2026."
 savingTips:
   - "La facturation annuelle permet d’économiser jusqu’à 28 % par rapport au paiement mensuel."
   - "Les tokens payants non utilisés sont reportés et restent valables deux mois tant que votre abonnement est actif."
@@ -34,7 +34,7 @@ faq:
   - q: "Pourquoi Bolt consomme-t-il autant de tokens ?"
     a: "L’essentiel des tokens sert à lire et à synchroniser les fichiers de votre projet avec l’IA : plus le projet est gros, plus chaque message consomme de tokens. Le centre d’aide de Bolt publie des guides pour mieux rédiger ses prompts et économiser des tokens."
   - q: "Que sont Bolt Forge et Bolt Lite ?"
-    a: "Forge est un agent fondé sur des modèles open source, en préversion de recherche du 14 septembre au 14 octobre 2026. Il est gratuit dans les formules Pro individuelles ; Lite est une formule à $9/mois, sur liste d’attente uniquement, qui donne accès à Forge seul."
+    a: "Forge est un agent fondé sur des modèles open source, en preview de recherche du 14 septembre au 14 octobre 2026, avec jusqu'à 50× plus d'usage sans frais supplémentaires sur les formules Pro individuelles. Lite est un plan $9/mois qui propose Forge seul ; les inscriptions ferment le 14 octobre, et les membres conservent ce prix après."
   - q: "Que se passe-t-il quand un site Bolt gratuit reçoit trop de trafic ?"
     a: "L’hébergement gratuit autorise 10 Go de bande passante et 333 333 requêtes par mois ; au-delà, le site est mis hors ligne jusqu’au cycle suivant. Les sites Pro peuvent acheter de la capacité supplémentaire, dans la limite d’un plafond de dépenses."
 ---

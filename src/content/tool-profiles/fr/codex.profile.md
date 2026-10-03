@@ -23,7 +23,7 @@ useCases:
   - "Demander à la CLI de réparer une suite de tests en échec et valider chaque commande avant qu’elle ne s’exécute hors du bac à sable."
   - "Confier une longue refactorisation à Codex cloud et relire le diff obtenu plus tard depuis l’application iOS."
   - "Activer la revue de code automatique pour que chaque pull request GitHub ait droit à une première relecture avant celle des collègues."
-pricingSummary: "Codex est inclus dans ChatGPT Free ($0), Go ($8/mois), Plus ($20/mois) et Pro (à partir de $100/mois, avec 5 ou 20 fois les limites de Plus). Business coûte $25 par utilisateur et par mois, ou $20 en facturation annuelle ; l’usage avec une clé d’API est facturé au tarif de l’API."
+pricingSummary: "Codex est inclus dans ChatGPT Free ($0), Go ($8/mois), Plus ($20/mois) et Pro ($100, $200 ou $500 par mois ; le nouveau palier $500 ajoute Astra Ultrafast). Business coûte $25 par utilisateur et par mois ou $20 en facturation annuelle ; l'usage avec une clé d'API est facturé au tarif de l'API."
 savingTips:
   - "Les abonnés Plus et Pro qui atteignent une limite peuvent acheter des crédits ChatGPT au lieu de passer à la formule supérieure."
   - "Passer à GPT-5.6 Luna donne bien plus de messages locaux par tranche de cinq heures que Sol, ce qui fait durer n’importe quelle formule."

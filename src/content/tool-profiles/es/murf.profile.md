@@ -28,7 +28,8 @@ pricingSummary: "El plan Free incluye 10 minutos de generación de voz sin desca
 savingTips:
   - "La facturación anual ahorra alrededor de un 33 %: Creator baja a $19/mes ($228 al año) y Business a $66/mes ($792 al año)."
   - "El plan Free te deja probar funciones del plan Business durante 10 minutos de generación de voz, sin tarjeta de crédito."
-  - "La prueba gratis de la API de Murf incluye $10 de crédito cada mes, sin necesidad de tarjeta de crédito."
+  - "La prueba gratis de la API de Murf incluye 100.000 caracteres, sin tarjeta de crédito requerida."
+  - "Estudiantes, maestros, escuelas y organizaciones sin ánimo de lucro pueden solicitar 20 % de descuento: los primeros 6 meses de un plan mensual o un término anual."
 faq:
   - q: "¿Murf AI es gratis?"
     a: "Sí, con límites estrictos. El plan Free da 10 minutos de generación de voz y 10 proyectos, y te deja probar funciones de Business. El audio gratuito no se puede descargar y no tiene derechos comerciales."

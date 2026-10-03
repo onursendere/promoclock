@@ -28,7 +28,8 @@ pricingSummary: "Free planı indirme olmadan 10 dakika ses üretimi içerir. Cre
 savingTips:
   - "Yıllık faturalandırma yaklaşık %33 tasarruf sağlar: Creator aylık $19'a (yılda $228), Business aylık $66'a (yılda $792) düşer."
   - "Free planı, kredi kartı gerekmeden 10 dakikalık ses üretimiyle Business planı özelliklerini denemeni sağlar."
-  - "Murf API ücretsiz denemesi, kredi kartı gerekmeden her ay $10 kredi içerir."
+  - "Murf API ücretsiz denemesi kredi kartı gerektirmeden 100.000 karakter içeriyor."
+  - "Öğrenciler, öğretmenler, okullar ve kâr amacı gütmeyen kuruluşlar %20 indirim talep edebiliyor: aylık planda ilk 6 ay, yıllık planda bir dönem."
 faq:
   - q: "Murf AI ücretsiz mi?"
     a: "Evet, ama sınırları dar. Free planı 10 dakika ses üretimi ve 10 proje sunar, Business özelliklerini denemene de izin verir. Ücretsiz planda üretilen sesler indirilemez ve ticari kullanım hakkı içermez."

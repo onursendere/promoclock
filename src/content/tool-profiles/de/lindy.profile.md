@@ -25,14 +25,14 @@ useCases:
   - "Jeden Morgen ein tägliches Briefing über deine Meetings, dringende E-Mails und alles andere bekommen, was du verfolgst."
   - "Lindy vor einem Sales-Call Teilnehmer recherchieren lassen und danach das Follow-up verschicken lassen."
   - "CRM- und Analytics-Daten in ein Live-Dashboard verwandeln, das Lindy auf einem eigenen Link hostet."
-pricingSummary: "Lindy verkauft Sitzplätze: Plus kostet $29.99 pro Nutzer und Monat mit 3.000 Credits, Pro $99.99 mit 15.000 und Max $199.99 mit 35.000, dazu individuelles Enterprise. Zusätzliche Workspace-Credits kosten $10 pro 1.000."
+pricingSummary: "Lindy verkauft Sitzplätze: Plus kostet $29.99 pro Nutzer pro Monat mit 3.000 Credits, Pro $99.99 mit 15.000 und Max $199.99 mit 35.000, plus individuelles Enterprise. Neue Nutzer können es mit $50 Credits für 7 Tage ohne Karte testen. Zusätzliche Workspace-Credits kosten $10 pro 1.000."
 savingTips:
-  - "Neue Teammitglieder, die über Slack einsteigen, bekommen eine einmalige 7-tägige kostenlose Testphase, bevor ihr Sitzplatz abgerechnet wird; direkte Anmeldungen werden sofort berechnet."
+  - "Neue Nutzer bekommen $50 Credits für 7 Tage ohne Kreditkarte, und Teamkollegen, die über Slack beitreten, bekommen eine einmalige 7-Tage-Testphase vor ihrer Sitzgebühr."
   - "Gekaufte Zusatz-Credits werden übertragen und verfallen nie, anders als Plan-Credits, die sich jeden Abrechnungszyklus zurücksetzen."
   - "Admins können begrenzen, wie viele Credits eine Person verbraucht, damit ein einzelner Vielnutzer den geteilten Pool nicht leert."
 faq:
   - q: "Hat Lindy einen Gratis-Plan?"
-    a: "Nein. Lindy listet nur Bezahlstufen: Plus, Pro, Max und Enterprise. Wer neu einem Workspace beitritt, indem er Lindy in Slack erwähnt, bekommt eine 7-tägige kostenlose Testphase, aber wer sich direkt anmeldet, wird sofort abgerechnet."
+    a: "Keine dauerhafte. Lindys bezahlte Stufen sind Plus, Pro, Max und Enterprise, aber neue Nutzer bekommen $50 Credits für 7 Tage ohne Kreditkarte, und wer einem Workspace beitritt, indem er Lindy in Slack erwähnt, bekommt 7 Tage Testphase."
   - q: "Wie funktionieren Lindy-Credits?"
     a: "Credits messen die Arbeit, die Lindy erledigt, und sind etwa einen Cent wert. Alltägliche Anfragen brauchen 2–250 Credits, tiefere Arbeit 250–1.000 und große Builds 1.000–2.500. Jeder Sitzplatz zahlt in einen geteilten Workspace-Pool ein."
   - q: "Was passiert, wenn Lindy die Credits ausgehen?"

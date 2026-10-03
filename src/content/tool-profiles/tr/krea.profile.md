@@ -1,7 +1,7 @@
 ---
 summary: "Krea, aynı adlı şirketin görsel, video ve 3D varlık oluşturup düzenlemeye yarayan üretken AI platformu; sen yazarken ya da çizerken anında güncellenen gerçek zamanlı üretim sunar. Kendi görsel modeli Krea 2 dahil 150'den fazla model barındırır ve birçok modeli tek hesapta toplamak isteyen tasarımcılara, stüdyolara ve ajanslara hitap eder."
 metaTitle: "Krea AI fiyatları 2026: ücretsiz plan ve özellikler"
-metaDescription: "Krea AI fiyatları 2026: günde 100 işlem birimi veren ücretsiz plan, aylık $35 olan Pro, Max ve Business planları, ayrıca Krea 2, Krea Agent ve alternatifler."
+metaDescription: "Krea AI 2026 fiyatları: günde 100 işlem birimi veren ücretsiz plan, aylık $9 Basic, aylık $35 Pro, Max ve Business seviyeleri, Krea 2, Krea Agent ve alternatifler."
 bestFor:
   - "Görsel stilleri keşfeden tasarımcılar"
   - "Kreatif stüdyolar ve ajanslar"
@@ -27,7 +27,7 @@ useCases:
   - "Her kampanya görselinde aynı karakter kalsın diye marka maskotu üzerinde bir LoRA eğit."
   - "Tek bir ürün fotoğrafı ve bir web sitesinden altı statik Instagram reklamı ile dikey bir video üretmesi için Krea Agent'a brif ver."
   - "Üretilen bir afişi matbaaya göndermeden önce Topaz Standard ile baskı çözünürlüğüne büyüt."
-pricingSummary: "Free günde 100 işlem birimi verir. Pro aylık $35 (yıllık ödemede aylık $21) ile 20.000 birim, Max aylık $105 (yıllık ödemede $63) ile 60.000 birim, Business ise aylık $200 (yıllık ödemede $160) ile 50 koltuğa kadar 80.000 birim sunar."
+pricingSummary: "Ücretsiz plan günde 100 işlem birimi veriyor. Basic aylık $9 (yıllık ödemede $5) ve 5.000 birim, Pro aylık $35 (yıllık $21) ve 20.000 birim, Max aylık $105 (yıllık $63) ve 60.000 birim, Business aylık $200 (yıllık $160) ve 50 koltuğa kadar 80.000 birim sunuyor."
 savingTips:
   - "Yıllık faturalandırma ücretli planlarda %40 tasarruf sağlar; Pro'nun aylık fiyatı $35 yerine $21 olur."
   - "Max, işlem birimleri bittikten sonra da üretmeye devam eder; desteklenen Krea görsel modellerinde sınırsız yavaş modda (relaxed) üretim sunar."

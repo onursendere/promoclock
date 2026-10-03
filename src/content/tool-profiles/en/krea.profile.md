@@ -1,7 +1,7 @@
 ---
 summary: "Krea is a generative AI platform from Krea for creating and editing images, video and 3D assets, with real-time generation that updates as you type or draw. It hosts more than 150 models, including its own Krea 2 image model, and serves designers, studios and agencies that want many models under one account."
 metaTitle: "Krea AI Pricing, Free Plan & Features (2026)"
-metaDescription: "Krea AI pricing in 2026: a free plan with 100 compute units a day, Pro at $35/month, Max and Business tiers, plus Krea 2, Krea Agent and alternatives."
+metaDescription: "Krea AI pricing in 2026: free plan with 100 compute units a day, Basic at $9/month, Pro at $35, Max and Business tiers, Krea 2, Krea Agent and alternatives."
 bestFor:
   - "Designers exploring visual styles"
   - "Creative studios and agencies"
@@ -32,8 +32,8 @@ pricing:
   startingPrice: 35
   currency: USD
   billing: month
-  summary: "Free gives 100 compute units a day. Pro is $35/month ($21/month billed yearly) with 20,000 units, Max $105/month ($63 yearly) with 60,000, and Business $200/month ($160 yearly) with 80,000 units for up to 50 seats."
-  asOf: 2026-09-17
+  summary: "Free gives 100 compute units a day. Basic is $9/month ($5/month billed yearly) with 5,000 units, Pro $35/month ($21 yearly) with 20,000, Max $105/month ($63 yearly) with 60,000, and Business $200/month ($160 yearly) with 80,000 units for up to 50 seats."
+  asOf: 2026-10-03
 platforms: [web, ios, api]
 savingTips:
   - "Yearly billing saves 40% on paid plans, cutting Pro from $35 to $21 a month."
@@ -58,7 +58,7 @@ sources:
   - https://www.krea.ai/blog/krea-2-image-model
   - https://www.krea.ai/blog/what-is-krea-agent
   - https://www.krea.ai/download/ios
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Krea?
 Krea is a browser-based creative suite that puts image, video, 3D and enhancement models behind one account. It made its name with real-time generation and now covers the wider production loop, from exploration and editing to upscaling and team workflows.

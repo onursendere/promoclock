@@ -23,7 +23,7 @@ useCases:
   - "Yerel bir işletme için rezervasyon uygulaması yap ve aynı öğleden sonra özel bir alan adında yayınla."
   - "Bir Figma açılış sayfasını içe aktar ve kayıt veritabanı olan, çalışan bir siteye dönüştür."
   - "Platformlar arası bir alışkanlık takip uygulaması oluştur ve test sürümünü TestFlight'a gönder."
-pricingSummary: "Free planda ayda 1 milyon token var, günlük sınır 300 bin. Pro planları aylık $25 ile başlar ve 10 milyon token sunar; Teams üye başına aylık $30, Enterprise ise özel fiyatlıdır. Aylık $9 olan Lite planı yalnızca bekleme listesiyle alınabiliyor."
+pricingSummary: "Ücretsiz plan aylık 1 milyon token ve günlük 300 bin sınır içeriyor. Pro aylık $25'ten başlıyor ve 10 milyon token sunuyor, Teams üye başına aylık $30, Enterprise ise özel fiyatlı. Yalnızca Forge sunan Lite planı aylık $9; kayıtlar 14 Ekim 2026'ya kadar açık."
 savingTips:
   - "Yıllık faturalandırma, aylık ödemeye göre %28'e kadar tasarruf sağlar."
   - "Kullanılmayan ücretli tokenlar devreder ve aboneliğin aktif olduğu sürece iki ay geçerli kalır."
@@ -34,7 +34,7 @@ faq:
   - q: "Bolt neden bu kadar çok token harcıyor?"
     a: "Tokenların çoğu proje dosyalarının okunup AI ile senkronize edilmesine gider; bu yüzden proje büyüdükçe mesaj başına harcanan token da artar. Bolt'un yardım merkezinde etkili komut yazma ve token verimliliği üzerine rehberler var."
   - q: "Bolt Forge ve Bolt Lite nedir?"
-    a: "Forge, açık kaynak modeller üzerine kurulu bir ajan ve 14 Eylül–14 Ekim 2026 arasında araştırma önizlemesinde. Bireysel Pro planlarda ücretsizdir; Lite ise yalnızca Forge sunan, bekleme listesiyle alınabilen aylık $9 tutarında bir plan."
+    a: "Forge, açık kaynak modeller üzerine kurulu bir ajan; 14 Eylül–14 Ekim 2026 arasında araştırma önizlemesinde ve bireysel Pro planlarında ek ücret ödemeden 50 kata kadar daha fazla kullanım sunuyor. Lite yalnızca Forge sunan aylık $9'lık bir plan; kayıtlar 14 Ekim'de kapanıyor ve üyeler bu fiyatı sonrasında da koruyor."
   - q: "Ücretsiz Bolt sitesine çok trafik gelirse ne olur?"
     a: "Ücretsiz barındırma ayda 10 GB bant genişliğine ve 333.333 isteğe izin verir; sonrasında site bir sonraki döneme kadar çevrimdışı kalır. Pro siteler ise bir harcama sınırına kadar ek kapasite satın alabilir."
 ---

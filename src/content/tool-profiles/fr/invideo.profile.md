@@ -24,9 +24,9 @@ useCases:
   - "Produire cinq variantes régionales d’une vidéo de campagne en changeant la voix off et le texte à l’écran."
   - "Monter un court-métrage avec un coéquipier dans le même projet, chacun voyant en direct les changements de l’autre."
   - "Transformer une photo produit en plan héros animé avec un modèle image-vers-vidéo, puis l’étalonner sur la timeline."
-pricingSummary: "La formule gratuite donne des crédits limités réinitialisés chaque semaine. Starter est à $20 par licence et par mois avec 400 crédits, Plus $60 ($50 en annuel) avec 2 000, et Max $150 ($101 en annuel) avec 5 000."
+pricingSummary: "Un plan gratuit donne des crédits limités qui se réinitialisent hebdomadairement. Starter est $20 par siège et par mois avec 400 crédits, Plus $60 ($36 en facturation annuelle) avec 2 000, et Max $150 ($75 annuellement) avec 5 000."
 savingTips:
-  - "La facturation annuelle fait économiser 17 % sur Plus ($50 la licence au lieu de $60) et 33 % sur Max ($101 au lieu de $150) ; Starter coûte $20 dans les deux cas."
+  - "La facturation annuelle économise 40 % sur Plus ($36 par siège au lieu de $60) et 50 % sur Max ($75 au lieu de $150) ; Starter coûte $20 dans les deux cas."
   - "Le montage sur la timeline, multijoueur et export 4K de vos propres séquences compris, ne consomme aucun crédit."
   - "Les crédits de la formule gratuite se renouvellent chaque lundi à 0 h UTC : vous pouvez tester agents et modèles sur plusieurs semaines."
 faq:

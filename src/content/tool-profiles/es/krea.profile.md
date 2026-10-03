@@ -1,7 +1,7 @@
 ---
 summary: "Krea es una plataforma de IA generativa de Krea para crear y editar imágenes, video y assets 3D, con generación en tiempo real que se actualiza mientras escribes o dibujas. Aloja más de 150 modelos, incluido su propio Krea 2, y sirve a diseñadores, estudios y agencias que quieren muchos modelos en una sola cuenta."
 metaTitle: "Krea AI: precios, plan gratis y funciones (2026)"
-metaDescription: "Precios de Krea AI en 2026: un plan gratis con 100 unidades de cómputo al día, Pro a $35/mes, niveles Max y Business, más Krea 2, Krea Agent y alternativas."
+metaDescription: "Precios de Krea AI en 2026: plan gratis con 100 unidades de cómputo al día, Basic a $9/mes, Pro a $35, niveles Max y Business, más Krea 2, Krea Agent y alternativas."
 bestFor:
   - "Diseñadores explorando estilos visuales"
   - "Estudios y agencias creativas"
@@ -27,7 +27,7 @@ useCases:
   - "Entrenar una LoRA sobre una mascota de marca para que cada imagen de campaña mantenga el mismo personaje."
   - "Informar a Krea Agent para producir seis anuncios estáticos de Instagram y un video vertical desde una foto de producto y un sitio web."
   - "Upscalear un póster generado a resolución de impresión con Topaz Standard antes de enviarlo a la imprenta."
-pricingSummary: "Free da 100 unidades de cómputo al día. Pro es $35/mes ($21/mes con facturación anual) con 20.000 unidades, Max $105/mes ($63 anual) con 60.000 y Business $200/mes ($160 anual) con 80.000 unidades para hasta 50 asientos."
+pricingSummary: "Free da 100 unidades de cómputo al día. Basic es $9/mes ($5/mes con facturación anual) con 5.000 unidades, Pro $35/mes ($21 anual) con 20.000, Max $105/mes ($63 anual) con 60.000 y Business $200/mes ($160 anual) con 80.000 unidades para hasta 50 asientos."
 savingTips:
   - "La facturación anual ahorra 40 % en los planes de pago, recortando Pro de $35 a $21 al mes."
   - "Max sigue generando después de agotar sus unidades de cómputo, con generaciones relaxed ilimitadas en modelos de imagen in-house soportados."

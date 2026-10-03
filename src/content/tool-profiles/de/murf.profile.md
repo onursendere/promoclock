@@ -28,7 +28,8 @@ pricingSummary: "Der Free-Plan enthält 10 Minuten Stimmengenerierung ohne Downl
 savingTips:
   - "Jährliche Zahlung spart rund 33 %: Creator sinkt auf $19/Monat ($228 pro Jahr) und Business auf $66/Monat ($792 pro Jahr)."
   - "Der Free-Plan lässt dich Business-Plan-Funktionen für 10 Minuten Stimmengenerierung ausprobieren, ohne Kreditkarte."
-  - "Die kostenlose Testphase der Murf-API enthält jeden Monat $10 Guthaben, ohne Kreditkarte."
+  - "Die kostenlose Testphase der Murf API enthält 100.000 Zeichen ohne Kreditkarte."
+  - "Studierende, Lehrkräfte, Schulen und Gemeinnützige können 20 % Rabatt anfragen: die ersten 6 Monate eines Monatsplans oder ein Jahr Jahresplan."
 faq:
   - q: "Ist Murf AI kostenlos?"
     a: "Ja, mit engen Grenzen. Der Free-Plan bietet 10 Minuten Stimmengenerierung und 10 Projekte und lässt dich Business-Funktionen testen. Kostenloses Audio kann nicht heruntergeladen werden und trägt keine kommerziellen Rechte."

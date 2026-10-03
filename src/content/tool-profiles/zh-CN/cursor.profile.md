@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "Hobby免费，Agent请求有限。Pro每月$20，Pro+每月$60(Agent限额为Pro的3倍)，Ultra每月$200(限额为Pro的20倍)。印度还提供每月₹649的Start套餐。"
 savingTips:
   - "按年付费比按月付费省20%。"
-  - "Cursor自研模型(Grok 4.6、Grok 4.5、Composer 2.5)比第三方模型附带更多内置用量，选用它们能让套餐用得更久。"
+  - "Cursor自研模型(Grok 4.7、Grok 4.6、Grok 4.5、Composer 2.5)比第三方模型附带更多内置用量，选用它们能让套餐用得更久。"
 faq:
   - q: "Cursor现在还能免费用吗？"
     a: "可以。Hobby套餐不收费，无需信用卡，包含Composer以及每月一定数量的Agent请求。无限次Tab补全、Bugbot和第三方前沿模型从Pro开始才有。"
@@ -41,7 +41,7 @@ faq:
 Cursor是一款围绕AI智能体构建的编辑器，这些智能体可以运行在你的电脑上、Cursor的云端，或你自己网络内的自托管机器上。桌面应用支持macOS、Windows和Linux，同样的智能体也可以通过cursor.com/agents或Cursor for iOS来管理。
 
 ## 亮点
-- **自研模型。** Grok 4.6、Grok 4.5和Composer 2.5组成一个独立的用量池，内置用量比Claude、GPT或Gemini更多。
+- **自研模型。** Grok 4.7、Grok 4.6、Grok 4.5和Composer 2.5组成一个独立的用量池，内置用量比Claude、GPT或Gemini更多。
 - **持续工作的智能体。** 云端智能体、自动化流程和Projects测试版能对Slack消息、定时任务或拉取请求作出反应，无需你手动发起。
 - **隐私模式。** 开启后，Cursor承诺代码数据不会被Cursor或其模型提供商用于训练。
 

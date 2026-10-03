@@ -23,7 +23,7 @@ useCases:
   - "根据Content Audit提醒和更新后的Content Editor指南，刷新一篇排名下滑的博文。"
   - "在给写手下简报前，用主题地图为新产品类别规划一组文章集群。"
   - "检查ChatGPT和Perplexity在关键购买提示词中是否提到你的品牌，并对比竞争对手的可见度。"
-pricingSummary: "按月计费：Discovery为$59，Standard为$119，Pro为$219，Peace of Mind为$359。按年计费每月为$49、$99、$182和$299。AI Search Analytics为$95或$82，Enterprise标价为$999/月。"
+pricingSummary: "按月计费：Discovery为$59，Standard为$119，Pro为$219，Peace of Mind为$359。按年计费每月为$49、$99、$182和$299。AI Search Analytics为$95或$82，Enterprise按需报价。"
 savingTips:
   - "按年付费最高省17%，例如Discovery一年省$120，但需一次性预付全年费用。"
   - "新账户可获得Pro套餐的7天免费试用，需要提供账单信息，除非取消否则会转为付费套餐。"

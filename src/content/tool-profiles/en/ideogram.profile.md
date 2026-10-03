@@ -33,14 +33,14 @@ pricing:
   startingPrice: 20
   currency: USD
   billing: month
-  summary: "Eligible free accounts get weekly slow credits. Plus is $20/month with 1,000 priority credits, Pro $60/month with 3,500 and Team $30 per user/month (2-user minimum); yearly billing lowers Plus to $15 and Pro to $42."
-  asOf: 2026-09-17
+  summary: "Free accounts get 30 credits a week. Plus is $20/month with 2,400 credits, Pro $60/month with 7,500 and Team $30 per user/month with 3,600 per user (2-user minimum); yearly billing lowers Plus to $15, Pro to $42 and Team to $20."
+  asOf: 2026-10-03
 platforms: [web, ios, api]
 savingTips:
   - "Yearly billing brings Plus to $15/month ($180 a year) and Pro to $42/month ($504 a year)."
   - "Top-up priority credits cost $4 and, unlike subscription credits, carry over if you don't use them."
   - "Paid plans include unlimited slow credits, so non-urgent images can wait in the slow queue."
-  - "Free weekly credits require signing in with Google, Apple or Microsoft, and the amount may vary."
+  - "Free accounts get 30 credits a week when signing in with Google, Apple or Microsoft."
 faq:
   - q: "Is Ideogram free?"
     a: "Yes, with limits. Eligible free accounts receive weekly slow credits when signing in with Google, Apple or Microsoft and can run one generation at a time. Free images are published publicly, and there are no free trials of paid plans."
@@ -59,7 +59,7 @@ sources:
   - https://ideogram.ai/blog/ideogram-4.0/
   - https://ideogram.ai/features/text-layers/
   - https://ideogram.ai/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Ideogram?
 Ideogram is a generative media platform built around its own image models, with creative apps, an API and MCP access. Its models target design work where words must be legible, such as posters, book covers, merch and ads.

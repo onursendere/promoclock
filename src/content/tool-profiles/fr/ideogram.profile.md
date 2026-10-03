@@ -27,12 +27,12 @@ useCases:
   - "Redimensionner une même création publicitaire en plusieurs emplacements avec Ad Resizer."
   - "Créer des designs de t-shirts et de mugs aux slogans lisibles pour une boutique de print on demand."
   - "Exécuter les poids d’Ideogram 4.0 sur vos propres GPU pour générer des images de marque en interne."
-pricingSummary: "Les comptes gratuits éligibles reçoivent des crédits lents hebdomadaires. Plus est à $20/mois avec 1 000 crédits prioritaires, Pro $60/mois avec 3 500 et Team $30 par utilisateur/mois (minimum 2 utilisateurs) ; l’annuel ramène Plus à $15 et Pro à $42."
+pricingSummary: "Les comptes gratuits reçoivent 30 crédits par semaine. Plus est $20/mois avec 2 400 crédits, Pro $60/mois avec 7 500 et Team $30 par utilisateur/mois avec 3 600 par utilisateur (minimum 2 utilisateurs) ; la facturation annuelle ramène Plus à $15, Pro à $42 et Team à $20."
 savingTips:
   - "La facturation annuelle ramène Plus à $15/mois ($180 par an) et Pro à $42/mois ($504 par an)."
   - "Les crédits prioritaires en recharge coûtent $4 et, contrairement aux crédits d’abonnement, se reportent s’ils ne sont pas utilisés."
   - "Les formules payantes incluent des crédits lents illimités : les images non urgentes peuvent attendre dans la file lente."
-  - "Les crédits gratuits hebdomadaires exigent une connexion via Google, Apple ou Microsoft, et le montant peut varier."
+  - "Les comptes gratuits reçoivent 30 crédits par semaine quand on se connecte via Google, Apple ou Microsoft."
 faq:
   - q: "Ideogram est-il gratuit ?"
     a: "Oui, avec des limites. Les comptes gratuits éligibles reçoivent des crédits lents hebdomadaires en se connectant via Google, Apple ou Microsoft, et peuvent lancer une génération à la fois. Les images gratuites sont publiées publiquement, et il n’y a pas d’essai des formules payantes."

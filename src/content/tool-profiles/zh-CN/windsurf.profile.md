@@ -25,7 +25,7 @@ useCases:
   - "用内置向导把现有的Windsurf配置（包括规则和记忆）迁移到Devin Local。"
 pricingSummary: "免费套餐提供较少配额，Tab自动补全不受限。Pro为$20/月，Max为$200/月且配额更高，Teams起价为$80/月，完整席位每人$40起；Enterprise按需定制。"
 savingTips:
-  - "免费模型不消耗配额，SWE-1.7等低成本SWE模型可以让付费额度用得更久。"
+  - "免费模型不消耗配额，Cognition的SWE模型可让付费额度用得更久；SWE-2在Devin Desktop和CLI中对Pro和Max套餐免费至2026年10月16日。"
   - "在2026年3月配额制切换之前就订阅Windsurf Pro的用户，可以无限期保留每月$15的老价格。"
 faq:
   - q: "Windsurf停止运营了吗？"

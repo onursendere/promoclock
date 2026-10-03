@@ -24,9 +24,9 @@ useCases:
   - "Seslendirme ve ekran üstü metni değiştirerek bir kampanya videosunun beş bölgesel varyantını üret."
   - "Bir kısa filmi aynı projede bir yardımcı editörle kes; her biri diğerinin değişikliklerini canlı izlesin."
   - "Bir ürün fotoğrafını görsel-videoya modeliyle animasyonlu bir açılış çekimine dönüştür, sonra zaman çizelgesinde renklendir."
-pricingSummary: "Ücretsiz plan haftalık sıfırlanan sınırlı krediler veriyor. Starter koltuk başına aylık $20 ve 400 kredi, Plus $60 (yıllık $50) ve 2.000 kredi, Max $150 (yıllık $101) ve 5.000 kredi sunuyor."
+pricingSummary: "Ücretsiz plan haftalık sıfırlanan sınırlı krediler veriyor. Starter koltuk başına aylık $20 ve 400 kredi, Plus aylık $60 (yıllık $36) ve 2.000 kredi, Max aylık $150 (yıllık $75) ve 5.000 kredi sunuyor."
 savingTips:
-  - "Yıllık ödeme Plus'ta %17 (koltuk başına $60 yerine $50) ve Max'te %33 ($150 yerine $101) tasarruf sağlıyor; Starter iki türlü de $20."
+  - "Yıllık ödeme Plus'ta %40 tasarruf sağlıyor (koltuk başına $60 yerine $36) ve Max'te %50 ($150 yerine $75); Starter her iki şekilde de $20."
   - "Çok oyunculu ve kendi görüntünün 4K dışa aktarımı dahil zaman çizelgesi düzenlemesi hiç kredi kullanmıyor."
   - "Ücretsiz planın kredileri her Pazartesi 00.00 UTC'de yenileniyor, böylece ajanları ve modelleri birkaç hafta boyunca test edebilirsin."
 faq:

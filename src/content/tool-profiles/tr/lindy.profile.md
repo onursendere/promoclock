@@ -25,14 +25,14 @@ useCases:
   - "Her sabah toplantılarını, acil e-postalarını ve takip ettiğin diğer her şeyi kapsayan günlük bir özet al."
   - "Lindy bir satış görüşmesinden önce katılımcıları araştırsın, görüşmeden sonra da takip e-postasını göndersin."
   - "CRM ve analitik verilerini, Lindy'nin kendi bağlantısında barındırdığı canlı bir panoya dönüştür."
-pricingSummary: "Lindy koltuk bazında satılır: Plus kullanıcı başına aylık $29.99 ile 3.000 kredi, Pro $99.99 ile 15.000, Max $199.99 ile 35.000 kredi sunar; ayrıca özel fiyatlı Enterprise var. Ek çalışma alanı kredileri 1.000 kredi için $10."
+pricingSummary: "Lindy koltuk bazında satılıyor: Plus kullanıcı başına aylık $29.99 ve 3.000 kredi, Pro $99.99 ve 15.000, Max $199.99 ve 35.000 kredi; ayrıca özel fiyatlı Enterprise var. Yeni kullanıcılar kart gerekmeden 7 gün boyunca $50 krediyle deneyebiliyor. Ek çalışma alanı kredileri 1.000 kredi için $10."
 savingTips:
-  - "Slack üzerinden katılan yeni ekip arkadaşları, koltukları faturalandırılmadan önce tek seferlik 7 günlük ücretsiz deneme alır; doğrudan kaydolanlar ise hemen faturalandırılır."
+  - "Yeni kullanıcılar kart gerekmeden 7 gün geçerli $50 kredi alıyor; Slack üzerinden katılan takım arkadaşları da koltukları faturalanmadan önce tek seferlik 7 günlük deneme alıyor."
   - "Satın alınan ek krediler, her fatura döneminde sıfırlanan plan kredilerinin aksine sonraki döneme devreder ve süresi hiç dolmaz."
   - "Yöneticiler tek bir kişinin kullanabileceği kredi miktarına sınır koyabilir; böylece yoğun kullanan biri ortak havuzu tek başına boşaltamaz."
 faq:
   - q: "Lindy'nin ücretsiz planı var mı?"
-    a: "Hayır. Lindy yalnızca ücretli planlar listeliyor: Plus, Pro, Max ve Enterprise. Slack'te Lindy'yi etiketleyerek bir çalışma alanına katılan yeni biri 7 günlük ücretsiz deneme alır, ancak doğrudan kaydolanlar hemen faturalandırılır."
+    a: "Hayır, kalıcı bir tane yok. Lindy'nin ücretli seviyeleri Plus, Pro, Max ve Enterprise'dır; ama yeni kullanıcılar kartsız 7 gün boyunca $50 kredi alıyor ve bir çalışma alanına Slack'te Lindy'yi etiketleyerek katılan biri 7 günlük deneme alıyor."
   - q: "Lindy kredileri nasıl işler?"
     a: "Krediler Lindy'nin yaptığı işi ölçer ve her biri yaklaşık bir sent değerindedir. Gündelik istekler 2–250, derin işler 250–1.000, büyük geliştirmeler ise 1.000–2.500 kredi harcar. Her koltuk kendi kotasını tek bir ortak çalışma alanı havuzuna ekler."
   - q: "Lindy'nin kredileri bitince ne olur?"

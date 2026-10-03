@@ -23,7 +23,7 @@ useCases:
   - "Construir um app de reservas para um negócio local e publicá-lo em um domínio próprio na mesma tarde."
   - "Importar uma página inicial do Figma e transformá-la em um site funcional com banco de dados de cadastro."
   - "Criar um app multiplataforma de hábitos e enviar uma versão de teste para o TestFlight."
-pricingSummary: "O plano grátis inclui 1M de tokens por mês com limite diário de 300K. O Pro começa em $25/mês com 10M de tokens, o Teams custa $30 por membro por mês, e o Enterprise é sob consulta. Um plano Lite de $9/mês está em lista de espera."
+pricingSummary: "Free inclui 1M de tokens por mês com limite diário de 300K. Pro começa em $25/mês com 10M de tokens, Teams custa $30 por membro/mês, e Enterprise é personalizado. O plano Lite apenas para Forge custa $9/mês, com cadastros abertos até 14 de outubro de 2026."
 savingTips:
   - "A cobrança anual economiza até 28% comparada aos pagamentos mensais."
   - "Tokens pagos não usados acumulam e ficam válidos por dois meses enquanto a assinatura estiver ativa."
@@ -34,7 +34,7 @@ faq:
   - q: "Por que o Bolt usa tantos tokens?"
     a: "A maior parte dos tokens vai para ler e sincronizar os arquivos do seu projeto com a IA, então projetos maiores usam mais tokens por mensagem. A central de ajuda do Bolt publica guias sobre como escrever prompts eficientes e economizar tokens."
   - q: "O que são o Bolt Forge e o Bolt Lite?"
-    a: "O Forge é um agente construído sobre modelos de código aberto, em prévia de pesquisa de 14 de setembro a 14 de outubro de 2026. É grátis nos planos Pro individuais; o Lite é um plano de $9/mês só por lista de espera que oferece apenas o Forge."
+    a: "Forge é um agente construído em modelos de código aberto, em prévia de pesquisa de 14 de setembro a 14 de outubro de 2026, com até 50x mais uso sem custo extra em planos Pro individuais. Lite é um plano de $9/mês que oferece apenas Forge; cadastros fecham em 14 de outubro e membros mantêm o preço depois."
   - q: "O que acontece quando um site grátis do Bolt recebe tráfego demais?"
     a: "A hospedagem grátis permite 10 GB de tráfego e 333.333 requisições por mês, depois o site sai do ar até o próximo ciclo. Sites do Pro podem comprar capacidade extra até um limite de gasto."
 ---

@@ -29,8 +29,8 @@ pricing:
   startingPrice: 59
   currency: USD
   billing: month
-  summary: "Monthly: Discovery $59, Standard $119, Pro $219 and Peace of Mind $359. Billed yearly: $49, $99, $182 and $299 per month. AI Search Analytics is $95 or $82, and Enterprise is listed at $999 per month."
-  asOf: 2026-09-17
+  summary: "Monthly: Discovery $59, Standard $119, Pro $219 and Peace of Mind $359. Billed yearly: $49, $99, $182 and $299 per month. AI Search Analytics is $95 or $82, and Enterprise is custom-priced."
+  asOf: 2026-10-03
 platforms: [web, browser-extension, api]
 savingTips:
   - "Yearly billing saves up to 17%, for example $120 a year on Discovery, but the full year is charged upfront."
@@ -51,7 +51,7 @@ sources:
   - https://docs.surferseo.com/en/articles/12944181-how-does-the-surfer-trial-work
   - https://positivegroup.com/news/positive-acquires-surfer
   - https://surferseo.com/blog/surfer-acquisition/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Surfer?
 Surfer, found at surferseo.com, is a web app for planning, writing and optimizing content for Google and AI answer engines. Its Content Editor compares your draft with pages that already rank and suggests topics to cover, a structure and a target length.

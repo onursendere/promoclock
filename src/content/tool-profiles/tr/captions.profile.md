@@ -1,7 +1,7 @@
 ---
 summary: "Captions, 2025'e kadar kendisi de Captions adını taşıyan New York merkezli Mirage şirketinin AI video düzenleme uygulaması; ham görüntüleri kurgulanmış, altyazılı videolara dönüştürür. İçerik üreticileri ve küçük işletmeler için AI Edit stilleri, AI avatarlar, 100'den fazla dilde çeviri ve göz teması düzeltmesi sunar."
 metaTitle: "Captions uygulaması fiyatları, ücretsiz plan ve özellikler"
-metaDescription: "Captions uygulaması fiyatları 2026: ücretsiz sürümde neler var, Max ve Scale kredileri, AI Edit ve avatarlar, Mirage'a geçiş ve Captions alternatifleri."
+metaDescription: "Captions uygulaması 2026 fiyatları: ücretsiz sürümde neler var, Max ve Frontier kredileri, AI Edit, avatarlar, Mirage markası ve Captions alternatifleri."
 bestFor:
   - "iPhone ile çekim yapan üreticiler"
   - "Video reklam yapan küçük işletmeler"
@@ -23,7 +23,7 @@ useCases:
   - "iPhone'la kameraya konuştuğun bir ipucu videosu çek, paylaşmadan önce kesmeleri, B-roll'u ve altyazıları AI Edit eklesin."
   - "Kamera karşısına oyuncu ayarlamak yerine bir AI oyuncuyla UGC tarzı bir ürün reklamı oluştur."
   - "Bir kurucu videosunu uluslararası izleyiciler için dudak senkronlu seslendirmeyle İspanyolca ve Fransızcaya çevir."
-pricingSummary: "Ücretsiz sürüm temel düzenlemeyi kapsar. Max aylık $24.99 ile 500 kredi sunar; Scale katmanları 1.400 ila 5.600 kredi için aylık $69.99, $139.99 ya da $279.99 tutar. Listelenen fiyatlar USD cinsinden iOS plan fiyatlarıdır."
+pricingSummary: "Ücretsiz sürüm temel düzenlemeyi kapsar. Max aylık $24.99 ve 500 kredi; Frontier seviyeleri (eski adıyla Scale) 1.400 ila 5.600 kredi için aylık $69.99, $139.99 ya da $279.99 tutarında. Listelenen fiyatlar USD cinsinden iOS plan fiyatlarıdır."
 savingTips:
   - "Kullanılmayan krediler iki aya kadar devreder; böylece bakiyen aylık hakkının üç katına ulaşabilir."
   - "Yıllık planlar 12 ayı peşin, aylık ödemeye göre indirimli bir ücretle faturalandırır."
@@ -49,7 +49,7 @@ Captions, Mirage'ın tüketiciye yönelik uygulaması. Şirket onu “cebindeki 
 - İş akışı mobil öncelikli; telefonla çekilen bir kayıt masaüstüne gerek kalmadan bitmiş bir dikey videoya dönüşebilir.
 
 ## Sınırlamalar
-- Üretken özelliklerin neredeyse tamamı Max veya Scale gerektirir; ücretsiz sürüm temel düzenlemeyle sınırlı.
+- Üretken işlevlerin neredeyse tamamı Max ya da Frontier gerektirir; ücretsiz sürüm temel düzenlemeyle sınırlı.
 - Web sitesindeki fiyatlar iOS planlarını yansıtır, bu yüzden web'de ya da Android'de ödediğin tutar farklı olabilir.
-- Scale aylık $69.99 ile başlıyor; bu, Max'teki 500 krediyi aşan ekipler için büyük bir sıçrama.
+- Frontier aylık $69.99'dan başlıyor; bu, Max'teki 500 krediyi aşan takımlar için büyük bir sıçrama.
 - Üretim başına kredi maliyetleri fiyat sayfasında yayımlanmıyor, bu yüzden kullanımı öngörmek zor.

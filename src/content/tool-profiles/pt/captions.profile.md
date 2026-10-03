@@ -1,7 +1,7 @@
 ---
 summary: "Captions é um app de edição de vídeo com IA da Mirage, a empresa de Nova York que se chamava Captions até 2025, e transforma filmagens brutas em vídeos editados e legendados. Oferece estilos AI Edit, avatares de IA, tradução em mais de 100 idiomas e correção de contato visual para criadores e pequenas empresas."
 metaTitle: "Preços do app Captions, Plano Grátis e Recursos (2026)"
-metaDescription: "Preços do app Captions em 2026: o que a versão grátis inclui, créditos Max e Scale, AI Edit e avatares, o rebranding para Mirage e alternativas ao Captions."
+metaDescription: "Preços do app Captions em 2026: o que a versão grátis inclui, créditos Max e Frontier, AI Edit e avatares e alternativas ao Captions."
 bestFor:
   - "Criadores gravando no iPhone"
   - "Pequenas empresas com anúncios em vídeo"
@@ -23,7 +23,7 @@ useCases:
   - "Filmar uma dica de rosto na câmera no iPhone e deixar o AI Edit adicionar cortes, B-roll e legendas antes de publicar."
   - "Criar um anúncio de produto estilo UGC com um ator de IA em vez de contratar talento presencial."
   - "Traduzir um vídeo de fundador para espanhol e francês com dublagem sincronizada labialmente para o público internacional."
-pricingSummary: "A versão grátis cobre edição básica. O Max custa $24.99/mês com 500 créditos, e os níveis Scale custam $69.99, $139.99 ou $279.99/mês para 1.400 a 5.600 créditos; os preços listados são os do plano iOS em dólares."
+pricingSummary: "A versão grátis cobre edição básica. Max é $24.99/mês com 500 créditos, e os níveis Frontier (antigo Scale) custam $69.99, $139.99 ou $279.99/mês para 1.400 a 5.600 créditos; os preços listados são do plano iOS em dólares."
 savingTips:
   - "Créditos não usados acumulam por até dois meses extras, então o saldo pode chegar a três vezes a cota mensal."
   - "Os planos anuais cobram 12 meses adiantados com um valor reduzido em comparação com o pagamento mensal."
@@ -49,7 +49,7 @@ O Captions é o app de consumo da Mirage, que o descreve como seu agente nas sua
 - O fluxo é voltado para celular, então uma gravação de telefone pode virar um vídeo vertical finalizado sem precisar de um computador.
 
 ## Limitações
-- Quase tudo que é generativo exige o Max ou o Scale; a versão grátis se limita à edição básica.
+- Quase tudo que é generativo exige o Max ou Frontier; a versão grátis se limita à edição básica.
 - Os preços do site refletem os planos do iOS, então o que você paga na web ou no Android pode ser diferente.
-- O Scale começa em $69.99/mês, um salto grande para times que ultrapassam os 500 créditos do Max.
+- Frontier começa em $69.99/mês, um grande salto para times que ultrapassam os 500 créditos do Max.
 - O custo em créditos por geração não é publicado na página de preços, o que dificulta prever o uso.

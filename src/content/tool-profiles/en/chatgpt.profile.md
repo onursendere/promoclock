@@ -30,21 +30,21 @@ pricing:
   startingPrice: 8
   currency: USD
   billing: month
-  summary: "Free costs $0. In the US, Go is $8/month, Plus $20/month, and Pro comes as Pro $100 (5x Plus usage) and Pro $200 (20x), which is closed to new sign-ups."
-  asOf: 2026-09-17
+  summary: "Free costs $0. In the US, Go is $8/month and Plus $20/month. Pro has three tiers: $100 (5x Plus usage), $200 (reopened to new sign-ups on September 29, 2026, reportedly with 10x instead of 20x) and a new $500 tier with the most usage."
+  asOf: 2026-10-03
 platforms: [web, ios, android, macos, windows, browser-extension]
 savingTips:
   - "Go at $8/month raises Free's limits on uploads, image creation and memory for less than half the price of Plus, but it may show ads."
   - "Don't wait for an annual discount: OpenAI doesn't offer yearly billing for Go, Plus or Pro."
-  - "Pro $100 has the same core Pro features as Pro $200, with 5x instead of 20x Plus usage."
+  - "Pro $100 has the same core Pro features as the pricier Pro tiers, with 5x Plus usage, so start there unless you hit its limits."
   - "Verified US K–12 teachers can use ChatGPT for Teachers free through June 2027."
 faq:
   - q: "Is ChatGPT free?"
     a: "Yes. The Free plan includes unlimited text chats with GPT-5.6 Luna, subject to abuse guardrails, plus limited uploads, image generation, voice chats, deep research and Codex access. Ads may appear below responses."
   - q: "Does ChatGPT show ads?"
     a: "Yes, on Free and Go. OpenAI started testing ads in the US on February 9, 2026, shown below responses and labeled as sponsored. Plus, Pro, Business, Enterprise and Edu accounts have no ads, and neither do accounts of users under 18."
-  - q: "Why can't I subscribe to ChatGPT Pro $200?"
-    a: "OpenAI paused new sign-ups and upgrades to Pro $200 on September 10, 2026. Existing subscribers keep renewing, and Pro $100 is still open with the same core capabilities and 5x Plus usage."
+  - q: "Can I subscribe to ChatGPT Pro $200 again?"
+    a: "Yes. OpenAI paused Pro $200 sign-ups on September 10, 2026 and reopened them on September 29. According to reports, the tier now includes 10x Plus usage instead of 20x, and existing subscribers keep the old allowance until October 29. A new Pro $500 tier offers the most usage."
   - q: "What's the difference between ChatGPT Go and Plus?"
     a: "Go ($8/month) mainly raises Free's limits, and its Think option uses GPT-5.6 Luna without GPT-5.6 Sol or legacy models. Plus ($20/month) adds GPT-6 Astra reasoning, expanded deep research and Codex usage, and no ads."
   - q: "Can I stop ChatGPT from using my chats for training?"
@@ -57,7 +57,7 @@ sources:
   - https://help.openai.com/en/articles/20001047-ads-in-chatgpt
   - https://openai.com/index/chatgpt-for-your-most-ambitious-work/
   - https://chatgpt.com/download
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is ChatGPT?
 ChatGPT is OpenAI's general-purpose assistant, available on the web, iOS, Android, a Chrome extension and desktop apps for Mac and Windows. One account covers chat, voice, images, deep research, ChatGPT Work and Codex, and each plan raises the allowances.

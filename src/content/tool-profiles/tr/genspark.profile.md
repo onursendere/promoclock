@@ -24,18 +24,18 @@ useCases:
   - "Toplantı notlarını ve web araştırmasını müşteri sunumuna dönüştür, ardından ücretli bir planla dışa aktar."
   - "GenMail dolup taşan gelen kutunu ayıklasın, senin üslubunla yanıt taslakları yazsın ve sana sabah özeti göndersin."
   - "Geliştirici tutmak yerine AgentBase ile kendi verilerinden basit bir CRM ya da gösterge paneli kur."
-  - "Ayrı sohbet ve görsel aboneliklerinin yerine, ikisinin de Aralık 2026 sonuna kadar kredi harcamadığı Plus'ı kullan."
+  - "Ayrı sohbet ve görsel aboneliklerinin yerine Plus'ı kullan; temel sohbet ve görsel modelleri belirli bir kullanım sınırına kadar kredi harcamaz."
 pricingSummary: "Free plan her gün 100 kredi ekliyor. Plus, 10.000 kredi için aylık $24.99'dan, Pro ise 125.000 kredi için aylık $249.99'dan başlıyor; ikisi de üst kademelerle büyüyor ve yıllık ödemede yaklaşık %20 indirim var. Team planı kullanıcı başına $30."
 savingTips:
   - "Yıllık ödeme her Plus ve Pro kademesinde yaklaşık %20 tasarruf sağlıyor; örneğin giriş seviyesi Plus aylık $24.99 yerine $19.99'a geliyor."
-  - "Plus ve Pro'da AI sohbet ve görsel üretimi, 5 saatlik kullanım sınırları içinde kalmak şartıyla 31 Aralık 2026'ya kadar kredi harcamıyor."
+  - "18 Eylül 2026'dan önce başlayan Plus ve Pro abonelikleri, 31 Aralık 2026'ya kadar 5 saatlik limitler içinde kredisiz AI sohbet ve görsel kullanmaya devam ediyor; daha yeni abonelikler temel modelleri bir kullanım sınırına kadar ücretsiz kullanıyor."
   - "Yalnızca bir ay kredin yetmezse, $20'lik kredi paketi kademeni değiştirmeden 3 ay geçerli 7.500 kredi ekliyor."
   - "Free plan kredi kartı istemiyor; ödeme yapmadan önce Super Agent'ı deneyebilirsin."
 faq:
   - q: "Genspark aylık ücreti ne kadar?"
     a: "Plus, 10.000 kredi için aylık $24.99'dan (yıllık ödemede $19.99) başlıyor ve 95.000 kredi için $199.99'a kadar çıkıyor. Pro aylık $249.99 ile $3,999.99 arasında değişiyor; Team planı ise kullanıcı başına $30."
   - q: "Genspark'ın sınırsız AI sohbeti gerçekten sınırsız mı?"
-    a: "Tam olarak değil. Plus ve Pro üyeleri 31 Aralık 2026'ya kadar AI sohbet ve görsel üretimini kredi harcamadan kullanabiliyor, ancak kullanım her 5 saatlik zaman diliminde sınırlı; o süre dolunca yeniden açılıyor."
+    a: "Tam olarak değil. 18 Eylül 2026'dan önce başlayıp aktif tutulan Plus ve Pro abonelikleri, 31 Aralık 2026'ya kadar AI sohbet ve görsel üretimini kredi harcamadan kullanabiliyor; kullanım 5 saatlik pencere başına sınırlı. Daha yeni abonelikler temel modelleri bir kullanım sınırına kadar ücretsiz kullanıyor, sonra aylık kredilere geçiyor; en üst seviye modeller ise her zaman kredi harcıyor."
   - q: "Genspark'ın ücretsiz planında neler var?"
     a: "Free plan günde 100 kredi veriyor ve kredi kartı istemiyor; sohbet, sunum, belge ve araştırma özelliklerini kapsıyor. Bazı özellikler kısıtlı; örneğin Free planda sunumları dışa aktaramıyorsun."
   - q: "Genspark'ta kullanılmayan krediler sonraki aya devreder mi?"
@@ -51,6 +51,6 @@ Genspark tarayıcıda ve bir dizi uygulama üzerinden çalışıyor: macOS, Wind
 
 ## Sınırlamalar
 - Her özellik tek bir kredi havuzundan harcıyor; ağır ajan görevleri kısa bir sohbetten çok daha fazla kredi tüketiyor.
-- Kredisiz sohbet ve görsel ayrıcalığı yalnızca 31 Aralık 2026'ya kadar garanti ve 5 saatlik sınırlarla geliyor.
+- Kredisiz sohbet ve görsel ayrıcalığı tam olarak yalnızca 18 Eylül 2026'dan önce başlayan aboneliklerde geçerli, 31 Aralık 2026'da sona eriyor ve 5 saatlik limitlerle geliyor.
 - Pro aylık $249.99'dan başlıyor; Plus'a göre başlıca artıları 1 TB depolama ve Pro'ya özel 4K görsel modelleri.
 - İptal edersen kullanılmayan kredilerini dönem sonunda kaybedersin; orantılı iade yapılmıyor.

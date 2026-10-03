@@ -1,7 +1,7 @@
 ---
 summary: "Character.AI是Character Technologies推出的聊天和角色扮演应用，你可以和AI角色聊天，也可以自己创建角色。它以长篇故事式聊天风格、Lorebook记忆工具，以及Comics、c.ai Series等新形式著称。自2025年11月起，未满18岁用户已无法使用开放式聊天。"
 metaTitle: "Character.AI价格：免费套餐 vs c.ai+"
-metaDescription: "Character.AI免费带广告，c.ai+为$9.99/月或$94.99/年。了解聊天风格、记忆限制、未成年人限制与替代工具。"
+metaDescription: "Character.AI免费带广告，(c.ai) lite为$4.99/月，c.ai+为$9.99/月。查看聊天风格、记忆限制、未成年人限制和替代工具。"
 bestFor:
   - "互动小说爱好者"
   - "写长篇场景的角色扮演玩家"
@@ -10,7 +10,7 @@ keyFeatures:
   - name: "角色创建"
     description: "打造有个性和背景故事的自制角色，与之聊天，或让其他人也能发现它。"
   - name: "聊天风格"
-    description: "免费套餐自带PipSqueak 2风格，DeepSqueak和LongSqueak则仅供c.ai+订阅者使用。"
+    description: "PipSqueak 3和ShortSqueak正向所有用户免费推出，(c.ai) lite每日免费提供有限的DeepSqueak和LongSqueak，c.ai+则完全解锁。"
   - name: "LongSqueak与风格控制"
     description: "2026年8月推出的长篇聊天风格，记忆量是其他风格的4倍，还能调节回复长度和对话与旁白的比例。"
   - name: "记忆置顶与Lorebook"
@@ -23,10 +23,11 @@ useCases:
   - "进行一场持续数月的奇幻角色扮演，LongSqueak会调用你存在Lorebook里的王国历史。"
   - "在对话中试探一部小说反派的语气，在动笔写场景前先听听效果。"
   - "把和某个角色喜欢的一段聊天变成多页漫画，分享给朋友。"
-pricingSummary: "免费套餐带广告，提供基础聊天风格、15条记忆置顶和慢速模式。c.ai+为$9.99/月或$94.99/年，取消广告和慢速模式，新增DeepSqueak和LongSqueak、30条置顶，以及20%的Charms充值奖励。"
+pricingSummary: "免费套餐带广告，提供基础聊天风格、15条记忆置顶和慢速模式。(c.ai) lite为$4.99/月或$2.49/周，提供有限的每日高级风格、更少广告和更多置顶。c.ai+为$9.99/月或$94.99/年，取消广告和慢速模式，新增DeepSqueak和LongSqueak、30条置顶和20% Charms充值奖励。"
 savingTips:
   - "按年付费$94.99比12个月按月付费（每月$9.99）便宜$24.89，约省21%。"
   - "如果你为Comics购买Charms，c.ai+会为每次Charms购买提供20%额外奖励。"
+  - "(c.ai) lite套餐于2026年9月28日推出，价格为$4.99/月或$2.49/周，是比c.ai+更便宜地尝试高级聊天风格的方式。"
 faq:
   - q: "Character.AI是免费的吗？"
     a: "是的。Character.AI有永久免费套餐，提供基础聊天风格、15条记忆置顶和基础Lorebook，靠广告支持。付费的c.ai+套餐取消广告和慢速模式，并解锁高级聊天风格。"

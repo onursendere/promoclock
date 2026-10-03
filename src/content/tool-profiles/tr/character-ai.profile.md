@@ -1,7 +1,7 @@
 ---
 summary: "Character.AI, Character Technologies'in AI karakterlerle sohbet edebildiğin ya da kendi karakterini yaratabildiğin sohbet ve rol yapma uygulaması. Uzun soluklu hikâye anlatımına uygun sohbet stilleri, Lorebook hafıza araçları ve Comics ile c.ai Series gibi yeni formatlarıyla tanınır. Kasım 2025'ten beri 18 yaş altı kullanıcılar serbest sohbeti kullanamıyor."
 metaTitle: "Character.AI fiyatları: ücretsiz plan mı, c.ai+ mı? (2026)"
-metaDescription: "Character.AI reklamlı olarak ücretsiz; c.ai+ ise aylık $9.99 ya da yıllık $94.99. Sohbet stilleri, hafıza sınırları, yaş kısıtlamaları ve alternatifler."
+metaDescription: "Character.AI reklamlı haliyle ücretsiz; (c.ai) lite aylık $4.99, c.ai+ aylık $9.99. Sohbet stillerine, hafıza limitlerine, genç kurallarına ve alternatiflere göz at."
 bestFor:
   - "Etkileşimli kurgu hayranları"
   - "Uzun sahneler yazan rol oyuncuları"
@@ -10,7 +10,7 @@ keyFeatures:
   - name: "Karakter oluşturma"
     description: "Kişiliği ve geçmişi olan kendi karakterlerini yarat, sonra onlarla sohbet et ya da başkalarının da bulmasına izin ver."
   - name: "Sohbet stilleri"
-    description: "PipSqueak 2 stilleri Free planla gelir; DeepSqueak ve LongSqueak ise c.ai+ abonelerine ayrılmıştır."
+    description: "PipSqueak 3 ve ShortSqueak herkese ücretsiz olarak sunulmaya başlanıyor, (c.ai) lite sınırlı günlük DeepSqueak ve LongSqueak veriyor ve c.ai+ bunları tamamen açıyor."
   - name: "LongSqueak ve Style Control"
     description: "Ağustos 2026'da çıkan, 4 kat hafızalı uzun soluklu bir sohbet stili; yanıt uzunluğu ve diyalog-anlatım dengesi için ayarlar da sunar."
   - name: "Hafıza pinleri ve Lorebook"
@@ -23,10 +23,11 @@ useCases:
   - "Krallığın tarihini Lorebook'una kaydettiğin ve LongSqueak'in bundan yararlandığı, aylarca süren bir fantastik rol oyunu yürüt."
   - "Sahneyi yazmadan önce bir romanın kötü karakterini sohbette dene ve sesinin nasıl durduğunu duy."
   - "Bir karakterle en sevdiğin sohbeti arkadaşlarınla paylaşabileceğin çok sayfalı bir çizgi romana dönüştür."
-pricingSummary: "Free plan reklamlı; temel sohbet stilleri, 15 hafıza pini ve yavaş mod içerir. c.ai+ aylık $9.99 ya da yıllık $94.99; reklamları ve yavaş modu kaldırır, DeepSqueak ve LongSqueak'i, 30 pini ve %20 bonus Charms'ı ekler."
+pricingSummary: "Ücretsiz planda reklamlar, temel sohbet stilleri, 15 hafıza pini ve yavaş mod var. (c.ai) lite aylık $4.99 ya da haftalık $2.49 karşılığında günlük sınırlı premium stiller, daha az reklam ve daha fazla hafıza pini veriyor. c.ai+ aylık $9.99 ya da yıllık $94.99; reklamları ve yavaş modu kaldırıyor, DeepSqueak ve LongSqueak'i, 30 pini ve %20 bonus Charms'ı ekliyor."
 savingTips:
   - "Yıllık c.ai+ $94.99 ile 12 ay boyunca $9.99 ödemekten $24.89 daha ucuz; yaklaşık %21 indirim."
   - "Comics için Charms alıyorsan c.ai+ her Charms alımına %20 bonus ekler."
+  - "28 Eylül 2026'da çıkan (c.ai) lite planı, aylık $4.99 ya da haftalık $2.49 fiyatıyla premium sohbet stillerini c.ai+'dan daha ucuza denemenin bir yolu."
 faq:
   - q: "Character.AI ücretsiz mi?"
     a: "Evet. Character.AI'ın temel sohbet stilleri, 15 hafıza pini ve temel bir Lorebook içeren, reklamlarla desteklenen kalıcı bir Free planı var. Ücretli c.ai+ planı reklamları ve yavaş modu kaldırır, premium sohbet stillerini açar."

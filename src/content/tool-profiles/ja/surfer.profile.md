@@ -23,7 +23,7 @@ useCases:
   - "Content Auditのアラートと更新されたContent Editorの指針を使って、順位が下がったブログ記事を更新する。"
   - "ライターに依頼する前に、Topical Mapで新しい製品カテゴリの記事クラスターを計画する。"
   - "主要な購入プロンプトでChatGPTとPerplexityが自社ブランドに言及するか確認し、競合の表示状況と比べる。"
-pricingSummary: "月払いはDiscoveryが$59、Standardが$119、Proが$219、Peace of Mindが$359です。年払いでは月額$49、$99、$182、$299です。AI Search Analyticsは$95または$82、Enterpriseは月額$999と掲載されています。"
+pricingSummary: "月払いはDiscoveryが$59、Standardが$119、Proが$219、Peace of Mindが$359です。年払いでは月額$49、$99、$182、$299です。AI Search Analyticsは$95または$82、Enterpriseは個別料金です。"
 savingTips:
   - "年払いは最大17%安く、たとえばDiscoveryでは年$120の節約になりますが、1年分が前払いです。"
   - "新規アカウントにはProの7日間無料トライアルが付きます。請求情報が必要で、解約しない限り選んだ有料プランに移行します。"

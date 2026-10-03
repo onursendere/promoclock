@@ -23,7 +23,7 @@ useCases:
   - "让CLI修复失败的测试套件，并在每条命令跳出沙箱执行前逐一批准。"
   - "把一次长重构交给Codex云端处理，之后再从iOS应用查看生成的差异。"
   - "开启自动代码审查，让每个GitHub拉取请求在队友查看前先过一遍。"
-pricingSummary: "Codex包含在ChatGPT Free($0)、Go($8/月)、Plus($20/月)和Pro(起价$100/月，享有Plus的5倍或20倍额度)中。Business为每用户每月$25，按年付为$20；使用API密钥则按API费率计费。"
+pricingSummary: "Codex包含在ChatGPT Free($0)、Go($8/月)、Plus($20/月)和Pro($100、$200或$500/月；新增$500套餐包含Astra Ultrafast)中。Business为每用户每月$25或按年$20；使用API密钥则按API费率计费。"
 savingTips:
   - "达到限额的Plus和Pro用户可以购买ChatGPT额度包，而不必升级整个套餐。"
   - "切换到GPT-5.6 Luna，每五小时可用的本地消息数远多于Sol，能让任何套餐用得更久。"

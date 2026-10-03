@@ -29,6 +29,7 @@ savingTips:
   - "Payer Pro à l’année coûte $200 d’avance, soit environ $17/mois au lieu de $20."
   - "La formule Free inclut déjà la recherche web, la mémoire, les connecteurs et la création de fichiers : pour un usage léger, Pro n’est pas forcément nécessaire."
   - "Les étudiants peuvent vérifier si leur université dispose de la formule Education de Claude, qui donne accès à Claude sur tout le campus à tarif réduit."
+  - "Sur Pro et les sièges Team standard, Fable 5 et 5.1 ne fonctionnent que sur les crédits d'usage, tandis que Max peut dépenser jusqu'à la moitié de sa limite hebdomadaire sur Fable sans frais supplémentaires."
 faq:
   - q: "Claude est-il gratuit ?"
     a: "Oui. La formule Free coûte $0 et comprend le chat sur le web, sur ordinateur et sur mobile, la recherche web, la mémoire, les connecteurs et la création de fichiers. Elle n’inclut ni Claude Code, ni Research, ni les modèles Opus, et ses limites d’utilisation sont les plus basses."

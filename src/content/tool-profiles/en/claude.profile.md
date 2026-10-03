@@ -36,6 +36,7 @@ savingTips:
   - "Paying for Pro yearly costs $200 up front, about $17/month instead of $20."
   - "The Free plan already includes web search, memory, connectors and file creation, so light users may not need Pro."
   - "Students can check whether their university has Claude's Education plan, which gives campus-wide access at discounted rates."
+  - "On Pro and standard Team seats, Fable 5 and 5.1 run only on usage credits, while Max can spend up to half its weekly limit on Fable at no extra cost."
 faq:
   - q: "Is Claude free to use?"
     a: "Yes. The Free plan costs $0 and includes chat on web, desktop and mobile, web search, memory, connectors and file creation. It does not include Claude Code, Research or Opus models, and it has the lowest usage limits."
@@ -57,7 +58,7 @@ sources:
   - https://www.anthropic.com/news/higher-limits-spacex
   - https://claude.com/download
   - https://code.claude.com/docs/en/setup
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-03
 ---
 ## What is Claude?
 Claude is Anthropic's assistant for writing, analysis, research and coding. It runs in the browser, in desktop apps for macOS and Windows (Linux is in beta for Ubuntu and Debian), and on iOS and Android. Developers reach the same models through the Claude API.

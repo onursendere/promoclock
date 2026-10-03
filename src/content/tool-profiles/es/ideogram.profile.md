@@ -27,12 +27,12 @@ useCases:
   - "Redimensionar un creative de anuncio en varias colocaciones con Ad Resizer."
   - "Crear diseños de camisetas y tazas con eslóganes legibles para una tienda print-on-demand."
   - "Correr los pesos de Ideogram 4.0 en tus propias GPUs para generar imágenes con branding en casa."
-pricingSummary: "Las cuentas gratis elegibles reciben créditos slow semanales. Plus es $20/mes con 1.000 créditos priority, Pro $60/mes con 3.500 y Team $30 por usuario/mes (mínimo 2 usuarios); la facturación anual baja Plus a $15 y Pro a $42."
+pricingSummary: "Las cuentas Free reciben 30 créditos a la semana. Plus es $20/mes con 2.400 créditos, Pro $60/mes con 7.500 y Team $30 por usuario/mes con 3.600 por usuario (mínimo 2 usuarios); la facturación anual baja Plus a $15, Pro a $42 y Team a $20."
 savingTips:
   - "La facturación anual lleva Plus a $15/mes ($180 al año) y Pro a $42/mes ($504 al año)."
   - "Los top-up de créditos priority cuestan $4 y, a diferencia de los créditos de suscripción, se conservan si no los usas."
   - "Los planes de pago incluyen créditos slow ilimitados, así que las imágenes no urgentes pueden esperar en la cola slow."
-  - "Los créditos gratis semanales requieren iniciar sesión con Google, Apple o Microsoft, y la cantidad puede variar."
+  - "Las cuentas Free reciben 30 créditos a la semana al iniciar sesión con Google, Apple o Microsoft."
 faq:
   - q: "¿Ideogram es gratis?"
     a: "Sí, con límites. Las cuentas gratis elegibles reciben créditos slow semanales al iniciar sesión con Google, Apple o Microsoft y pueden correr una generación a la vez. Las imágenes gratis se publican de forma pública, y no hay pruebas gratis de planes de pago."

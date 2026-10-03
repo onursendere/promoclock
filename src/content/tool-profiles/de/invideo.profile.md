@@ -24,9 +24,9 @@ useCases:
   - "Fünf regionale Varianten eines Kampagnenvideos produzieren, indem du Voiceover und Text tauschst."
   - "Einen Kurzfilm mit einer Co-Editorin im selben Projekt schneiden, jede sieht Änderungen der anderen live."
   - "Ein Produktfoto mit einem Bild-zu-Video-Modell in einen animierten Hero-Shot verwandeln und auf der Timeline graden."
-pricingSummary: "Ein Gratis-Plan gibt begrenzte Credits, die wöchentlich zurücksetzen. Starter kostet $20 pro Sitz pro Monat mit 400 Credits, Plus $60 ($50 jährlich abgerechnet) mit 2.000 und Max $150 ($101 jährlich) mit 5.000."
+pricingSummary: "Ein kostenloser Plan gibt begrenzte Credits, die wöchentlich zurücksetzen. Starter kostet $20 pro Sitz pro Monat mit 400 Credits, Plus $60 ($36 jährlich abgerechnet) mit 2.000 und Max $150 ($75 jährlich) mit 5.000."
 savingTips:
-  - "Jährliche Abrechnung spart 17 % in Plus ($50 pro Sitz statt $60) und 33 % in Max ($101 statt $150); Starter kostet $20 so oder so."
+  - "Jahresabrechnung spart 40 % auf Plus ($36 pro Sitz statt $60) und 50 % auf Max ($75 statt $150); Starter kostet $20 so oder so."
   - "Timeline-Editing, inklusive Multiplayer und 4K-Export deines eigenen Materials, nutzt gar keine Credits."
   - "Die Credits des Gratis-Plans frischen sich jeden Montag um 12:00 UTC auf, du kannst Agenten und Modelle also über mehrere Wochen testen."
 faq:

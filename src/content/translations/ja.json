@@ -151,112 +151,455 @@
         "キャンパス内やオンラインのイベントでは、引き続きクレジットを受け取れます。",
         "無料のHobbyプランは引き続き利用できます。"
       ]
+    },
+    "claude-code-cloud-credit-2026": {
+      "title": "Claude Codeクラウドセッション：Pro月額$100またはMax $250のボーナスクレジット、10月7日までに請求",
+      "headline": "Claude Codeクラウドクレジット：Pro $100、Max $250",
+      "value": "$100～$250クレジット",
+      "audience": "個人Pro・Max契約者",
+      "summary": "AnthropicはAnthropicのサーバーで実行されるClaude Codeクラウドセッション用に、個人Pro契約者に$100、Max契約者に$250の無料クレジットを提供しています。10月7日までに請求してください。未使用クレジットは2026年11月4日に期限切れとなります。",
+      "scope": "Claude Codeクラウドセッション",
+      "steps": [
+        "claude.aiアカウントでサインインします。",
+        "Claude デスクトップアプリまたはIDEのバナーからクレジットを請求するか、Claude Codeで/claim-creditを実行します。",
+        "ウェブ、デスクトップ、モバイル、CLIでクラウドセッションを開始します。クレジットがプランの上限より先に使われます。"
+      ],
+      "terms": [
+        "2026年9月23日にアクティブだった契約のみが対象です。Team、Enterprise、無料トライアル、支払い遅延中のアカウントは対象外です。",
+        "クラウドセッションのみが対象で、ローカルClaude Code、チャット、Coworkセッションは含まれません。",
+        "未使用クレジットは2026年11月4日午後11時59分PT（米国太平洋時間）に期限切れです。"
+      ]
+    },
+    "claude-artifact-usage-promo-oct-2026": {
+      "title": "Claude アーティファクト使用プロモーション：アーティファクト作成・編集後のセッション使用量が50%削減（2026年10月1～15日）",
+      "headline": "Claude アーティファクト：セッション使用量50%削減",
+      "value": "使用量50%削減",
+      "audience": "Pro、Max、Team",
+      "summary": "2026年10月1～15日、Claude内でアーティファクトを作成・編集した後の作業は、5時間のセッション上限に対して50%少ない量でカウントされます。自動適用され、週間上限は変わりません。",
+      "scope": "Claude ウェブ、デスクトップ、モバイル、クラウドCoworkタスク",
+      "terms": [
+        "チャットでは、アーティファクト作成・編集後の次の10メッセージまで割引が適用され、回答あたり最大15ステップまでです。",
+        "Document、Presentation、Designから開始したCoworkタスクは、割引対象の作業が約45分あります。",
+        "Claude Code、API、Claude in Slack、ローカルCoworkタスク、FreeおよびEnterpriseプランは対象外です。"
+      ]
+    },
+    "elevenlabs-v4-launch-3x-credits": {
+      "title": "ElevenLabsのEleven v4ローンチ：Creator以上のプランでクレジット3倍（2026年10月12日まで）",
+      "headline": "ElevenLabs v4：Creator以上で3倍クレジット",
+      "value": "3倍クレジット",
+      "audience": "Creator プラン以上",
+      "summary": "Eleven v4音声モデルのローンチに伴い、ElevenLabsはCreator以上のプランで2026年10月12日までクレジット3倍を提供しています。新規契約者は割引初月も利用可能です。",
+      "terms": [
+        "Creatorプラン以上では、v4に使用した月間テキスト音声変換クレジットまで2倍分まで残高にカウントされません。",
+        "初月：Starterは月額$6ではなく$1、Creatorは月額$22ではなく$11で、10月18日まで。"
+      ]
+    },
+    "bolt-forge-preview-2026": {
+      "title": "Bolt Forge プレビュー：Pro最大50倍の無料使用量、$9 Bolt Lite（2026年10月14日まで）",
+      "headline": "Bolt Forge：最大50倍の無料使用量",
+      "value": "最大50倍使用量",
+      "audience": "個人Pro・Liteプラン",
+      "summary": "Bolt Forge研究プレビュー中、個人Proプランは2026年10月14日までForge使用量が最大50倍の追加費用なしとなります。Forge専用 Bolt Liteプラン（月額$9）は同日まで誰でも利用可能で、その後も会員はその価格を維持します。",
+      "terms": [
+        "TeamsプランとEnterpriseプランは対象外です。",
+        "Forgeはオープンソースモデルで実行されます。匿名化されたプロンプトとコードは将来のオープンモデル訓練に役立てられます。EEA、英国、スイスのデータは除外されます。",
+        "プレビュー終了後の料金はまだ発表されていません。"
+      ]
+    },
+    "windsurf-swe-2-free-oct-2026": {
+      "title": "SWE-2がDevin Desktop（旧Windsurf）とDevin CLIで無料（2026年10月16日まで）",
+      "headline": "SWE-2がDevin Desktopで無料（10月16日まで）",
+      "value": "無料SWE-2",
+      "audience": "Pro・Maxプラン",
+      "summary": "CognitionのSWE-2コーディングモデルはDevin Desktop（改名されたWindsurfエディタ）とDevin CLIで、2026年10月16日までPro（月額$20）およびMax（月額$200）で無料で利用できます。",
+      "terms": [
+        "SWE-2は2026年9月10日にCognitionの最新モデルとしてローンチされました。"
+      ]
+    },
+    "adobe-firefly-30-off-first-year-2026": {
+      "title": "Adobe Firefly：Firefly Pro PlusおよびPremiumの初年度30%割引（2026年10月21日まで）",
+      "headline": "Adobe Firefly Pro Plus・Premium：初年度30%割引",
+      "value": "初年度30%割引",
+      "audience": "初めてFirefly契約する方",
+      "summary": "新規Firefly契約者は初年度が30%割引：Pro Plusが月額$49.99ではなく$34.97、Premiumが月額$199.99ではなく$139.91です。2026年10月21日までのキャンペーンです。",
+      "terms": [
+        "12か月契約が必須で、2年目から正規料金が適用されます。",
+        "教育機関、OEM、ボリュームライセンス顧客には対象外です。",
+        "英国では初年度がPro Plusで月額£33.58、Premiumで月額£140.20です。"
+      ]
+    },
+    "pixel-10-pro-google-ai-pro-2026": {
+      "title": "Pixel 10 Pro・Pro XL・Pro Fold：Google AI Pro 12か月付属（2026年10月31日までに購入）",
+      "headline": "Pixel 10 Pro：Google AI Pro 12か月無料",
+      "value": "12か月無料",
+      "audience": "Pixel 10 Pro・Pro XL・Pro Foldの購入者",
+      "summary": "新型Pixel 10 Pro、Pro XL、Pro FoldにはGoogle AI Pro 12か月が付属します。ただし購入・利用開始は2026年10月31日までに限られます。Pixel 11 Proモデルは6か月が付属します。",
+      "terms": [
+        "日本ではPixel 10 Pro特典は6か月です。",
+        "ベースモデルのPixel 10はGoogle One Premium 6か月が付属し、AI Proではありません。",
+        "Pixel 11 Pro・Pro XL・Pro Fold：Google AI Pro 6か月、利用開始期限は2027年10月31日まで。"
+      ]
+    },
+    "lovable-free-daily-chat-2026": {
+      "title": "Lovable チャット無料（Free・Pro・Business日次枠内）（2026年10月31日まで）",
+      "headline": "Lovable：無料日次チャット枠",
+      "value": "無料日次チャット",
+      "audience": "Free・Pro・Business ワークスペース",
+      "summary": "2026年9月24日から、Free・Pro・Businessワークスペースでのチャットは日次枠内でクレジット不要です。Lovableはこのチャット料金が2026年10月31日まで適用されると述べています。",
+      "terms": [
+        "画像・動画生成、またはPlan・Buildへの作業移行を行うチャットは引き続きクレジットを消費します。"
+      ]
+    },
+    "wispr-flow-notetaker-free-teams-2026": {
+      "title": "Wispr Flow Notetaker：Dictationプラン対象チームで無料（2026年10月31日まで）",
+      "headline": "Wispr Flow Notetaker：チーム無料",
+      "value": "無料Notetaker",
+      "audience": "Dictationプラン対象チーム",
+      "summary": "Wispr FlowのDictationプランを選択したチームは、Notetaker会議アシスタントをチーム全体で2026年10月31日まで追加費用なしで利用できます。",
+      "terms": [
+        "その後、料金は自動的に値上げされません。",
+        "会員は個別アップグレードしない限り、限定的なNotetakerプランに移行します。"
+      ]
+    },
+    "manus-welcome-back-bonus-2026": {
+      "title": "Manus Welcome Backボーナス：無料ユーザーは初月50%割引、一部過去の有料ユーザーは90%割引",
+      "headline": "Manus Welcome Back：最大初月90%割引",
+      "value": "初月50～90%割引",
+      "audience": "Manusサービス変更の影響を受けたユーザー",
+      "summary": "サービス変更後、Manusは影響を受けたユーザーに2026年11月22日までの割引初月を提供：無料ユーザーは月額$20～$200の月次プランで50%割引、過去の有料ユーザーの一部は90%割引となります。",
+      "terms": [
+        "一部有料ユーザー（Type A）は代わりに追加クレジット1か月分が提供されます。アプリ内通知で案内されます。",
+        "90日間の請求ウィンドウは2026年8月25日シンガポール時間から始まりました。"
+      ]
+    },
+    "magnific-unlimited-seedream-oct-2026": {
+      "title": "Magnific（Freepik）：Seedream 5.0 Proの無制限1.5K画像生成（2026年10月10日まで）",
+      "headline": "Magnific：Seedream 5.0 Pro無制限",
+      "value": "無制限Seedream",
+      "audience": "Magnific契約者",
+      "summary": "Freepikの新しい名称Magnificは、2026年10月10日までSeedream 5.0 Pro画像生成を無制限で1.5K解像度で提供しています（料金ページより）。"
+    },
+    "lovable-sweden-students-2026": {
+      "title": "Lovable Pro：スウェーデンの学生が12月31日まで無料（Back to School）",
+      "headline": "Lovable Pro：スウェーデンの学生無料",
+      "value": "無料Pro",
+      "audience": "スウェーデンの大学生",
+      "summary": "スウェーデンの大学、高等専門学校、国民高等学校の学生はLovable Proを2026年12月31日まで無料で利用できます。その後は自動的に学生向け50%割引が適用されます。",
+      "steps": [
+        "機関の学生メールアドレスを使用してLovableにサインアップします。",
+        "LovableのBack to Schoolページで特典を請求します。"
+      ],
+      "terms": [
+        "学生1人につき1ワークスペースまで。他のLovable特典との併用はできません。"
+      ]
     }
   },
   "tools": {
-    "adobe-firefly": { "tagline": "画像・動画・音声を生成できるAdobeの生成AIアプリ。" },
-    "base44": { "tagline": "バックエンド、認証、ホスティングを内蔵したチャット型アプリビルダー。" },
-    "beautiful-ai": { "tagline": "レイアウトを自動で整えるスマートスライドを備えたAIプレゼンソフト。" },
-    "bolt": { "tagline": "フルスタックアプリの作成・実行・デプロイまでブラウザで完結するAIビルダー。" },
-    "canva": { "tagline": "AI画像生成、マジックデザイン、ブランドキットを備えたオンラインデザインツール。" },
-    "capcut": { "tagline": "AI字幕、エフェクト、テキストからの動画生成を備えた動画編集アプリ。" },
-    "captions": { "tagline": "撮影素材を字幕付きの完成動画に仕上げるAI動画エディター。" },
-    "character-ai": { "tagline": "自作キャラクターも含め、AIキャラクターとの会話やロールプレイを楽しめるアプリ。" },
-    "chatgpt": { "tagline": "チャット、検索、画像、音声、エージェントに対応したOpenAIの汎用AIアシスタント。" },
-    "claude": { "tagline": "Claude CodeやCoworkもそろう、文章作成・分析・コーディング向けのAnthropicのAIアシスタント。" },
-    "clickup": { "tagline": "タスク、ドキュメント、チャットをAIでまとめるオールインワン業務アプリ。" },
-    "cline": { "tagline": "自分のAPIキーで使える、VS Code・JetBrains対応のオープンソースのコーディングエージェント。" },
-    "codex": { "tagline": "ターミナル、IDE、クラウドで動くOpenAIのコーディングエージェント。" },
-    "copy-ai": { "tagline": "販促コンテンツやセールスコピーを生み出すAIワークフロー。" },
-    "cursor": { "tagline": "コードの計画・編集・実行をこなすエージェントを備えた、AIファーストのコードエディター。" },
-    "deepl": { "tagline": "自然な訳文で知られるAI翻訳・文章作成アシスタント。" },
-    "deepseek": { "tagline": "無料のWeb版・モバイル版アシスタントを備えた、オープンウェイトのチャット・推論モデル。" },
-    "descript": { "tagline": "文字起こしを編集する感覚で、動画やポッドキャストを編集できるエディター。" },
-    "devin": { "tagline": "チケットを引き受けてプルリクエストまで作成する、自律型AIソフトウェアエンジニア。" },
-    "elevenlabs": { "tagline": "リアルなAI音声、吹き替え、文字起こし、音声エージェント。" },
-    "fathom": { "tagline": "無料プラン、即時の要約、CRM連携を備えたAI会議アシスタント。" },
-    "fireflies": { "tagline": "会議の録音・文字起こし・要約をこなすAI議事録ツール。" },
-    "frase": { "tagline": "リサーチから構成案、最適化された記事まで作れるAI SEOコンテンツツール。" },
-    "freepik": { "tagline": "現在はMagnificブランドで展開する、素材ライブラリと画像・動画生成・高画質化のAIツール群。" },
-    "gamma": { "tagline": "プロンプトからプレゼン、ドキュメント、Webサイトを作れるビルダー。" },
-    "gemini": { "tagline": "Google検索、Android、Google Workspaceに組み込まれたGoogleのAIアシスタント。" },
-    "genspark": { "tagline": "リサーチ、スライド、スプレッドシート、電話までこなすAIエージェントのワークスペース。" },
-    "github-copilot": { "tagline": "エディターとGitHubで使えるAIペアプログラマー兼コーディングエージェント。" },
-    "google-ai-studio": { "tagline": "Geminiモデルの試用、APIキーの取得、バイブコーディングでのアプリ作成ができるGoogleのブラウザ環境。" },
-    "google-flow": { "tagline": "Veo動画モデルを基盤にしたGoogleのAI映像制作ツール。" },
-    "grammarly": { "tagline": "さまざまなアプリで文法、トーン、書き換えを支援するAIライティングアシスタント。" },
-    "granola": { "tagline": "会議にボットを参加させず、メモを整った要約に仕上げるAIメモ帳。" },
-    "grok": { "tagline": "Xのリアルタイム情報、画像生成、音声モードを備えたxAIのアシスタント。" },
-    "gumloop": { "tagline": "普段使いのツールをまたいでAI自動化やエージェントを組めるノーコードプラットフォーム。" },
-    "hailuo": { "tagline": "テキストや画像から動画を生成するMiniMaxの動画生成AI。" },
-    "heygen": { "tagline": "AIアバター動画、動画翻訳、リップシンク吹き替え。" },
-    "higgsfield": { "tagline": "カメラワークのプリセットで、映画のような画像・動画を作るAI生成ツール。" },
-    "hugging-face": { "tagline": "オープンなAIモデル、データセット、Spacesのデモが集まるハブ。" },
-    "ideogram": { "tagline": "画像内の文字を正確に描けることで知られるAI画像生成ツール。" },
-    "invideo": { "tagline": "プロンプトや台本から、ストック素材とAI映像で編集済みの動画を作る動画作成ツール。" },
-    "jasper": { "tagline": "ブランドボイスを軸にした、マーケティングチーム向けAIコンテンツプラットフォーム。" },
-    "jetbrains-ai": { "tagline": "JetBrains IDEに組み込まれたAI Assistantとコーディングエージェント「Junie」。" },
-    "kimi": { "tagline": "長文ドキュメント、ディープリサーチ、エージェント型タスクに強いMoonshot AIのアシスタント。" },
-    "kiro": { "tagline": "プロンプトを仕様書に、さらにコードへと変えるAWSのエージェント型IDE。" },
-    "kling": { "tagline": "動きを細かく制御できる、テキスト・画像からの動画生成AI。" },
-    "krea": { "tagline": "リアルタイムのAI画像・動画生成、高画質化、編集。" },
-    "krisp": { "tagline": "通話向けのAIノイズ除去、アクセント変換、議事録作成。" },
-    "leonardo": { "tagline": "クリエイティブ制作やゲーム素材向けのAI画像・動画生成。" },
-    "lindy": { "tagline": "メール、カレンダー、会議をこなすAIアシスタントを作れるビルダー。" },
-    "lovable": { "tagline": "チャットからフルスタックのWebアプリを作るAIビルダー。" },
-    "luma": { "tagline": "LumaのRayモデルを使った、映画のような動画・画像の生成・編集ツール。" },
-    "make": { "tagline": "ワークフローやAIエージェントを視覚的に組める自動化プラットフォーム。" },
-    "manus": { "tagline": "調査や制作など、複数ステップのタスクを最後までこなす汎用AIエージェント。" },
-    "meta-ai": { "tagline": "WhatsApp、Instagram、Facebook、Webで使えるMetaのAIアシスタント。" },
-    "microsoft-copilot": { "tagline": "Windows、Edge、Microsoft 365で使えるMicrosoftのAIコンパニオン。" },
-    "midjourney": { "tagline": "イラスト、コンセプトアート、作風のあるビジュアル向けのAI画像・動画生成ツール。" },
-    "mindstudio": { "tagline": "AIエージェントや自動化をノーコードで作れるビルダー。" },
-    "mistral": { "tagline": "2026年にVibeへ改称した、チャット・業務・コーディング向けのMistral AIのアシスタント。" },
-    "motion": { "tagline": "1日の仕事を自動で計画してくれるAIカレンダー兼プロジェクト管理ツール。" },
-    "murf": { "tagline": "ナレーション、吹き替え、音声エージェント向けのAI音声生成ツール。" },
-    "n8n": { "tagline": "セルフホストでもクラウドでも使える、AIエージェント対応のワークフロー自動化ツール。" },
-    "notebooklm": { "tagline": "現在はGemini Notebookとして提供される、自分の資料をもとに回答するGoogleのリサーチノート。" },
-    "notion": { "tagline": "AIエージェントを内蔵した、ドキュメント・Wiki・プロジェクトをつなぐワークスペース。" },
-    "opusclip": { "tagline": "長い動画から、そのまま投稿できるショートクリップを切り出すAIツール。" },
-    "originality-ai": { "tagline": "盗用チェックやファクトチェックも備えた、Webメディア向けのAIコンテンツ検出ツール。" },
-    "otter": { "tagline": "AIによる議事録、文字起こし、会議エージェント。" },
-    "perplexity": { "tagline": "Webを検索し、出典を示して答えるAI回答エンジン。" },
-    "photoroom": { "tagline": "背景削除やスタジオ風シーンの生成ができるAI商品写真ツール。" },
-    "picsart": { "tagline": "AI生成、レタッチ、テンプレートを備えた写真・動画編集アプリ。" },
-    "pictory": { "tagline": "台本、記事、長い動画を、ブランドに合わせた短いクリップに変える動画ツール。" },
-    "pika": { "tagline": "エフェクト、差し替え、キーフレームで遊び心のある動画を作れるAI動画生成。" },
-    "pixelcut": { "tagline": "背景削除、高画質化、商品写真に使えるAI写真編集アプリ。" },
-    "pixverse": { "tagline": "短いクリップをエフェクトやテンプレートですばやく作れるAI動画生成ツール。" },
-    "poe": { "tagline": "1つのサブスクリプションで、多数のAIモデルやカスタムボットと話せるサービス。" },
-    "quillbot": { "tagline": "学生やライター向けの言い換え、文法チェック、AI文章検出。" },
-    "qwen": { "tagline": "オープンウェイトのQwenモデルを基盤にしたAlibabaのAIアシスタント。" },
-    "reclaim": { "tagline": "タスク、習慣、会議を自動でスケジュールに組み込むAIカレンダー。" },
-    "recraft": { "tagline": "ベクターイラスト、アイコン、ブランドの統一感を保った画像を作るAIデザインツール。" },
-    "remini": { "tagline": "ぼやけた写真や古い写真、低解像度の写真を鮮明にするAI高画質化アプリ。" },
-    "remove-bg": { "tagline": "ワンクリックでできるAI背景削除。単体サイトは2026年12月1日に終了予定。" },
-    "replit": { "tagline": "アプリの構築からデプロイまでこなすAIエージェントを備えたクラウドIDE。" },
-    "riverside": { "tagline": "ポッドキャストや動画をスタジオ品質でリモート収録し、AIで編集できるツール。" },
-    "runway": { "tagline": "映像制作者向けの動画生成モデルと編集ツール。" },
-    "semrush": { "tagline": "AI検索での可視性の追跡やコンテンツツールを備えたSEO・マーケティングスイート。" },
-    "speechify": { "tagline": "ドキュメント、Webページ、本を音声で読み上げるアプリ。" },
-    "sudowrite": { "tagline": "小説家や物語の書き手のためのAI執筆パートナー。" },
-    "suno": { "tagline": "テキストのプロンプトから、ボーカル入りの楽曲を丸ごと作る音楽生成AI。" },
-    "surfer": { "tagline": "検索結果とAIの回答の両方に最適化する、SEOコンテンツエディター兼AIライター。" },
-    "synthesia": { "tagline": "研修やビジネス向けの、スタジオ品質のAIアバター動画。" },
-    "tldv": { "tagline": "Zoom、Meet、Teamsに対応し、メモ作成やCRM更新もこなすAI会議レコーダー。" },
-    "turboscribe": { "tagline": "音声や動画をすばやくテキストや字幕にするAI文字起こし。" },
-    "udio": { "tagline": "楽曲の作成、リミックス、共有ができるAI音楽アプリ。" },
-    "v0": { "tagline": "ReactとNext.jsのUIを作れるVercelのAIアプリビルダー。" },
-    "veed": { "tagline": "AI字幕、アバター、音声のノイズ除去を備えたオンライン動画エディター。" },
-    "warp": { "tagline": "モダンなターミナルを核にしたエージェント型開発環境。" },
-    "windsurf": { "tagline": "2026年6月にDevin Desktopへ改称した、Cognitionのエージェント型IDE。" },
-    "wispr-flow": { "tagline": "どのアプリでも、話した言葉を整った文章にするAI音声入力。" },
-    "wordtune": { "tagline": "文章を磨き上げる、AIの言い換え・要約アシスタント。" },
-    "writesonic": { "tagline": "コンテンツマーケティング向けのAIライティング・SEO/GEOプラットフォーム。" },
-    "zapier": { "tagline": "ワークフローとAIエージェントで数千のアプリをつなぐ自動化プラットフォーム。" }
+    "adobe-firefly": {
+      "tagline": "画像・動画・音声を生成できるAdobeの生成AIアプリ。"
+    },
+    "base44": {
+      "tagline": "バックエンド、認証、ホスティングを内蔵したチャット型アプリビルダー。"
+    },
+    "beautiful-ai": {
+      "tagline": "レイアウトを自動で整えるスマートスライドを備えたAIプレゼンソフト。"
+    },
+    "bolt": {
+      "tagline": "フルスタックアプリの作成・実行・デプロイまでブラウザで完結するAIビルダー。"
+    },
+    "canva": {
+      "tagline": "AI画像生成、マジックデザイン、ブランドキットを備えたオンラインデザインツール。"
+    },
+    "capcut": {
+      "tagline": "AI字幕、エフェクト、テキストからの動画生成を備えた動画編集アプリ。"
+    },
+    "captions": {
+      "tagline": "撮影素材を字幕付きの完成動画に仕上げるAI動画エディター。"
+    },
+    "character-ai": {
+      "tagline": "自作キャラクターも含め、AIキャラクターとの会話やロールプレイを楽しめるアプリ。"
+    },
+    "chatgpt": {
+      "tagline": "チャット、検索、画像、音声、エージェントに対応したOpenAIの汎用AIアシスタント。"
+    },
+    "claude": {
+      "tagline": "Claude CodeやCoworkもそろう、文章作成・分析・コーディング向けのAnthropicのAIアシスタント。"
+    },
+    "clickup": {
+      "tagline": "タスク、ドキュメント、チャットをAIでまとめるオールインワン業務アプリ。"
+    },
+    "cline": {
+      "tagline": "自分のAPIキーで使える、VS Code・JetBrains対応のオープンソースのコーディングエージェント。"
+    },
+    "codex": {
+      "tagline": "ターミナル、IDE、クラウドで動くOpenAIのコーディングエージェント。"
+    },
+    "copy-ai": {
+      "tagline": "販促コンテンツやセールスコピーを生み出すAIワークフロー。"
+    },
+    "cursor": {
+      "tagline": "コードの計画・編集・実行をこなすエージェントを備えた、AIファーストのコードエディター。"
+    },
+    "deepl": {
+      "tagline": "自然な訳文で知られるAI翻訳・文章作成アシスタント。"
+    },
+    "deepseek": {
+      "tagline": "無料のWeb版・モバイル版アシスタントを備えた、オープンウェイトのチャット・推論モデル。"
+    },
+    "descript": {
+      "tagline": "文字起こしを編集する感覚で、動画やポッドキャストを編集できるエディター。"
+    },
+    "devin": {
+      "tagline": "チケットを引き受けてプルリクエストまで作成する、自律型AIソフトウェアエンジニア。"
+    },
+    "elevenlabs": {
+      "tagline": "リアルなAI音声、吹き替え、文字起こし、音声エージェント。"
+    },
+    "fathom": {
+      "tagline": "無料プラン、即時の要約、CRM連携を備えたAI会議アシスタント。"
+    },
+    "fireflies": {
+      "tagline": "会議の録音・文字起こし・要約をこなすAI議事録ツール。"
+    },
+    "frase": {
+      "tagline": "リサーチから構成案、最適化された記事まで作れるAI SEOコンテンツツール。"
+    },
+    "freepik": {
+      "tagline": "現在はMagnificブランドで展開する、素材ライブラリと画像・動画生成・高画質化のAIツール群。"
+    },
+    "gamma": {
+      "tagline": "プロンプトからプレゼン、ドキュメント、Webサイトを作れるビルダー。"
+    },
+    "gemini": {
+      "tagline": "Google検索、Android、Google Workspaceに組み込まれたGoogleのAIアシスタント。"
+    },
+    "genspark": {
+      "tagline": "リサーチ、スライド、スプレッドシート、電話までこなすAIエージェントのワークスペース。"
+    },
+    "github-copilot": {
+      "tagline": "エディターとGitHubで使えるAIペアプログラマー兼コーディングエージェント。"
+    },
+    "google-ai-studio": {
+      "tagline": "Geminiモデルの試用、APIキーの取得、バイブコーディングでのアプリ作成ができるGoogleのブラウザ環境。"
+    },
+    "google-flow": {
+      "tagline": "Veo動画モデルを基盤にしたGoogleのAI映像制作ツール。"
+    },
+    "grammarly": {
+      "tagline": "さまざまなアプリで文法、トーン、書き換えを支援するAIライティングアシスタント。"
+    },
+    "granola": {
+      "tagline": "会議にボットを参加させず、メモを整った要約に仕上げるAIメモ帳。"
+    },
+    "grok": {
+      "tagline": "Xのリアルタイム情報、画像生成、音声モードを備えたxAIのアシスタント。"
+    },
+    "gumloop": {
+      "tagline": "普段使いのツールをまたいでAI自動化やエージェントを組めるノーコードプラットフォーム。"
+    },
+    "hailuo": {
+      "tagline": "テキストや画像から動画を生成するMiniMaxの動画生成AI。"
+    },
+    "heygen": {
+      "tagline": "AIアバター動画、動画翻訳、リップシンク吹き替え。"
+    },
+    "higgsfield": {
+      "tagline": "カメラワークのプリセットで、映画のような画像・動画を作るAI生成ツール。"
+    },
+    "hugging-face": {
+      "tagline": "オープンなAIモデル、データセット、Spacesのデモが集まるハブ。"
+    },
+    "ideogram": {
+      "tagline": "画像内の文字を正確に描けることで知られるAI画像生成ツール。"
+    },
+    "invideo": {
+      "tagline": "プロンプトや台本から、ストック素材とAI映像で編集済みの動画を作る動画作成ツール。"
+    },
+    "jasper": {
+      "tagline": "ブランドボイスを軸にした、マーケティングチーム向けAIコンテンツプラットフォーム。"
+    },
+    "jetbrains-ai": {
+      "tagline": "JetBrains IDEに組み込まれたAI Assistantとコーディングエージェント「Junie」。"
+    },
+    "kimi": {
+      "tagline": "長文ドキュメント、ディープリサーチ、エージェント型タスクに強いMoonshot AIのアシスタント。"
+    },
+    "kiro": {
+      "tagline": "プロンプトを仕様書に、さらにコードへと変えるAWSのエージェント型IDE。"
+    },
+    "kling": {
+      "tagline": "動きを細かく制御できる、テキスト・画像からの動画生成AI。"
+    },
+    "krea": {
+      "tagline": "リアルタイムのAI画像・動画生成、高画質化、編集。"
+    },
+    "krisp": {
+      "tagline": "通話向けのAIノイズ除去、アクセント変換、議事録作成。"
+    },
+    "leonardo": {
+      "tagline": "クリエイティブ制作やゲーム素材向けのAI画像・動画生成。"
+    },
+    "lindy": {
+      "tagline": "メール、カレンダー、会議をこなすAIアシスタントを作れるビルダー。"
+    },
+    "lovable": {
+      "tagline": "チャットからフルスタックのWebアプリを作るAIビルダー。"
+    },
+    "luma": {
+      "tagline": "LumaのRayモデルを使った、映画のような動画・画像の生成・編集ツール。"
+    },
+    "make": {
+      "tagline": "ワークフローやAIエージェントを視覚的に組める自動化プラットフォーム。"
+    },
+    "manus": {
+      "tagline": "調査や制作など、複数ステップのタスクを最後までこなす汎用AIエージェント。"
+    },
+    "meta-ai": {
+      "tagline": "WhatsApp、Instagram、Facebook、Webで使えるMetaのAIアシスタント。"
+    },
+    "microsoft-copilot": {
+      "tagline": "Windows、Edge、Microsoft 365で使えるMicrosoftのAIコンパニオン。"
+    },
+    "midjourney": {
+      "tagline": "イラスト、コンセプトアート、作風のあるビジュアル向けのAI画像・動画生成ツール。"
+    },
+    "mindstudio": {
+      "tagline": "AIエージェントや自動化をノーコードで作れるビルダー。"
+    },
+    "mistral": {
+      "tagline": "2026年にVibeへ改称した、チャット・業務・コーディング向けのMistral AIのアシスタント。"
+    },
+    "motion": {
+      "tagline": "1日の仕事を自動で計画してくれるAIカレンダー兼プロジェクト管理ツール。"
+    },
+    "murf": {
+      "tagline": "ナレーション、吹き替え、音声エージェント向けのAI音声生成ツール。"
+    },
+    "n8n": {
+      "tagline": "セルフホストでもクラウドでも使える、AIエージェント対応のワークフロー自動化ツール。"
+    },
+    "notebooklm": {
+      "tagline": "現在はGemini Notebookとして提供される、自分の資料をもとに回答するGoogleのリサーチノート。"
+    },
+    "notion": {
+      "tagline": "AIエージェントを内蔵した、ドキュメント・Wiki・プロジェクトをつなぐワークスペース。"
+    },
+    "opusclip": {
+      "tagline": "長い動画から、そのまま投稿できるショートクリップを切り出すAIツール。"
+    },
+    "originality-ai": {
+      "tagline": "盗用チェックやファクトチェックも備えた、Webメディア向けのAIコンテンツ検出ツール。"
+    },
+    "otter": {
+      "tagline": "AIによる議事録、文字起こし、会議エージェント。"
+    },
+    "perplexity": {
+      "tagline": "Webを検索し、出典を示して答えるAI回答エンジン。"
+    },
+    "photoroom": {
+      "tagline": "背景削除やスタジオ風シーンの生成ができるAI商品写真ツール。"
+    },
+    "picsart": {
+      "tagline": "AI生成、レタッチ、テンプレートを備えた写真・動画編集アプリ。"
+    },
+    "pictory": {
+      "tagline": "台本、記事、長い動画を、ブランドに合わせた短いクリップに変える動画ツール。"
+    },
+    "pika": {
+      "tagline": "エフェクト、差し替え、キーフレームで遊び心のある動画を作れるAI動画生成。"
+    },
+    "pixelcut": {
+      "tagline": "背景削除、高画質化、商品写真に使えるAI写真編集アプリ。"
+    },
+    "pixverse": {
+      "tagline": "短いクリップをエフェクトやテンプレートですばやく作れるAI動画生成ツール。"
+    },
+    "poe": {
+      "tagline": "1つのサブスクリプションで、多数のAIモデルやカスタムボットと話せるサービス。"
+    },
+    "quillbot": {
+      "tagline": "学生やライター向けの言い換え、文法チェック、AI文章検出。"
+    },
+    "qwen": {
+      "tagline": "オープンウェイトのQwenモデルを基盤にしたAlibabaのAIアシスタント。"
+    },
+    "reclaim": {
+      "tagline": "タスク、習慣、会議を自動でスケジュールに組み込むAIカレンダー。"
+    },
+    "recraft": {
+      "tagline": "ベクターイラスト、アイコン、ブランドの統一感を保った画像を作るAIデザインツール。"
+    },
+    "remini": {
+      "tagline": "ぼやけた写真や古い写真、低解像度の写真を鮮明にするAI高画質化アプリ。"
+    },
+    "remove-bg": {
+      "tagline": "ワンクリックでできるAI背景削除。単体サイトは2026年12月1日に終了予定。"
+    },
+    "replit": {
+      "tagline": "アプリの構築からデプロイまでこなすAIエージェントを備えたクラウドIDE。"
+    },
+    "riverside": {
+      "tagline": "ポッドキャストや動画をスタジオ品質でリモート収録し、AIで編集できるツール。"
+    },
+    "runway": {
+      "tagline": "映像制作者向けの動画生成モデルと編集ツール。"
+    },
+    "semrush": {
+      "tagline": "AI検索での可視性の追跡やコンテンツツールを備えたSEO・マーケティングスイート。"
+    },
+    "speechify": {
+      "tagline": "ドキュメント、Webページ、本を音声で読み上げるアプリ。"
+    },
+    "sudowrite": {
+      "tagline": "小説家や物語の書き手のためのAI執筆パートナー。"
+    },
+    "suno": {
+      "tagline": "テキストのプロンプトから、ボーカル入りの楽曲を丸ごと作る音楽生成AI。"
+    },
+    "surfer": {
+      "tagline": "検索結果とAIの回答の両方に最適化する、SEOコンテンツエディター兼AIライター。"
+    },
+    "synthesia": {
+      "tagline": "研修やビジネス向けの、スタジオ品質のAIアバター動画。"
+    },
+    "tldv": {
+      "tagline": "Zoom、Meet、Teamsに対応し、メモ作成やCRM更新もこなすAI会議レコーダー。"
+    },
+    "turboscribe": {
+      "tagline": "音声や動画をすばやくテキストや字幕にするAI文字起こし。"
+    },
+    "udio": {
+      "tagline": "楽曲の作成、リミックス、共有ができるAI音楽アプリ。"
+    },
+    "v0": {
+      "tagline": "ReactとNext.jsのUIを作れるVercelのAIアプリビルダー。"
+    },
+    "veed": {
+      "tagline": "AI字幕、アバター、音声のノイズ除去を備えたオンライン動画エディター。"
+    },
+    "warp": {
+      "tagline": "モダンなターミナルを核にしたエージェント型開発環境。"
+    },
+    "windsurf": {
+      "tagline": "2026年6月にDevin Desktopへ改称した、Cognitionのエージェント型IDE。"
+    },
+    "wispr-flow": {
+      "tagline": "どのアプリでも、話した言葉を整った文章にするAI音声入力。"
+    },
+    "wordtune": {
+      "tagline": "文章を磨き上げる、AIの言い換え・要約アシスタント。"
+    },
+    "writesonic": {
+      "tagline": "コンテンツマーケティング向けのAIライティング・SEO/GEOプラットフォーム。"
+    },
+    "zapier": {
+      "tagline": "ワークフローとAIエージェントで数千のアプリをつなぐ自動化プラットフォーム。"
+    }
   },
   "events": {
-    "chatgpt-students-deadline-2026": { "title": "ChatGPT Plus 4か月無料特典（米国の学生向け）の申し込み最終日" },
+    "chatgpt-students-deadline-2026": {
+      "title": "ChatGPT Plus 4か月無料特典（米国の学生向け）の申し込み最終日"
+    },
     "black-friday-2026": {
       "title": "ブラックフライデー2026",
       "description": "AIサブスクリプションが1年でいちばん安くなる時期。年間プランや買い切りプランから先にセールになることが多いです。"
@@ -265,8 +608,35 @@
       "title": "サイバーマンデー2026",
       "description": "ブラックフライデーのソフトウェアセールの多くが終わる日。"
     },
-    "google-ai-students-deadline-2026": { "title": "Google AI ProまたはAI Plus 1年間無料（学生向け）の申し込み最終日" },
-    "claude-code-plus25-2026": { "title": "Claude Codeの週間上限：+50%の引き上げが終了し、恒久的な+25%が開始" },
-    "cursor-students-closed-2026": { "title": "学生向けCursor Pro 1年無料の新規受付が終了" }
+    "google-ai-students-deadline-2026": {
+      "title": "Google AI ProまたはAI Plus 1年間無料（学生向け）の申し込み最終日"
+    },
+    "claude-code-plus25-2026": {
+      "title": "Claude Codeの週間上限：+50%の引き上げが終了し、恒久的な+25%が開始"
+    },
+    "cursor-students-closed-2026": {
+      "title": "学生向けCursor Pro 1年無料の新規受付が終了"
+    },
+    "claude-cloud-credit-claim-deadline-2026": {
+      "title": "Claude Codeクラウドクレジット請求期限（Pro $100、Max $250）"
+    },
+    "elevenlabs-v4-credits-end-2026": {
+      "title": "ElevenLabs v4ローンチ：Creator以上3倍クレジット終了"
+    },
+    "bolt-forge-preview-end-2026": {
+      "title": "Bolt Forge無料プレビュー終了、Bolt Lite新規登録受付終了"
+    },
+    "claude-artifact-promo-end-2026": {
+      "title": "Claude アーティファクト使用プロモーション終了"
+    },
+    "windsurf-swe-2-free-end-2026": {
+      "title": "Devin Desktopでの無料SWE-2提供終了"
+    },
+    "adobe-firefly-30-off-end-2026": {
+      "title": "Adobe Firefly初年度30%割引終了"
+    },
+    "pixel-10-pro-ai-pro-deadline-2026": {
+      "title": "Pixel 10 ProとGoogle AI Pro 12か月購入期限"
+    }
   }
 }
