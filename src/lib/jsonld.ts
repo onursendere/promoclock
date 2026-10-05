@@ -32,6 +32,9 @@ export function siteNodes(): Node[] {
       name: AUTHOR.name,
       url: AUTHOR.x,
       jobTitle: "Founder",
+      description:
+        "Founder of PromoClock and Digiwings. Tracks AI tool pricing, Claude usage limits and AI promotions, and checks each fact against the vendor's own pages.",
+      knowsAbout: ["AI tool pricing", "Claude usage limits", "AI subscriptions", "Software promotions", "SEO"],
       worksFor: { "@type": "Organization", name: "Digiwings", url: AUTHOR.agency },
       sameAs: [AUTHOR.x, AUTHOR.github, AUTHOR.linkedin],
     },
@@ -55,6 +58,12 @@ export function webPageNode(opts: {
   type?: string;
   speakable?: string[];
   about?: Node;
+  /** @id of the page's main image node (ImageObject). */
+  primaryImage?: string;
+  /** @id of the BreadcrumbList on the page. */
+  breadcrumb?: string;
+  /** Defaults to the founder; blog pages are authored by the organization. */
+  authorId?: string;
 }): Node {
   return {
     "@type": opts.type ?? "WebPage",
@@ -65,16 +74,19 @@ export function webPageNode(opts: {
     inLanguage: opts.lang,
     isPartOf: { "@id": WEBSITE_ID },
     publisher: { "@id": ORG_ID },
-    author: { "@id": PERSON_ID },
+    author: { "@id": opts.authorId ?? PERSON_ID },
     ...(opts.dateModified ? { dateModified: iso(opts.dateModified) } : {}),
     ...(opts.speakable ? { speakable: { "@type": "SpeakableSpecification", cssSelector: opts.speakable } } : {}),
     ...(opts.about ? { about: opts.about } : {}),
+    ...(opts.primaryImage ? { primaryImageOfPage: { "@id": opts.primaryImage } } : {}),
+    ...(opts.breadcrumb ? { breadcrumb: { "@id": opts.breadcrumb } } : {}),
   };
 }
 
-export function breadcrumbNode(items: { name: string; path: string }[]): Node {
+export function breadcrumbNode(items: { name: string; path: string }[], id?: string): Node {
   return {
     "@type": "BreadcrumbList",
+    ...(id ? { "@id": id } : {}),
     itemListElement: items.map((item, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -160,5 +172,145 @@ export function howToNode(deal: DealRecord, lang: Locale, name: string): Node | 
     "@type": "HowTo",
     name,
     step: deal.steps.map((step, i) => ({ "@type": "HowToStep", position: i + 1, text: localize(step, lang) })),
+  };
+}
+
+/** A "how to" with named steps (blog posts); the steps are also visible on the page. */
+export function howToStepsNode(name: string, steps: { name: string; text: string }[], url: string, lang: Locale): Node {
+  return {
+    "@type": "HowTo",
+    "@id": `${url}#howto`,
+    name,
+    inLanguage: lang,
+    step: steps.map((step, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: step.name,
+      text: step.text,
+      url: `${url}#step-${i + 1}`,
+    })),
+  };
+}
+
+/** Hero photo with its credit and license, so image search can show both. */
+export function imageObjectNode(opts: {
+  id: string;
+  url: string;
+  width: number;
+  height: number;
+  caption: string;
+  credit: string;
+  creditUrl: string;
+  license: string;
+}): Node {
+  const creator = opts.credit.split(/\s+\/\s+|\s+via\s+|\s+on\s+/)[0];
+  return {
+    "@type": "ImageObject",
+    "@id": opts.id,
+    url: opts.url,
+    contentUrl: opts.url,
+    width: opts.width,
+    height: opts.height,
+    caption: opts.caption,
+    creditText: opts.credit,
+    creator: { "@type": "Person", name: creator },
+    license: opts.license,
+    acquireLicensePage: opts.creditUrl,
+  };
+}
+
+export interface BlogPostingInput {
+  url: string;
+  lang: Locale;
+  headline: string;
+  description: string;
+  /** Absolute URLs: 16:9, 4:3 and 1:1 crops of the hero photo. */
+  images: string[];
+  publishedAt: number;
+  updatedAt: number;
+  wordCount: number;
+  readingMinutes: number;
+  section: string;
+  keywords: string[];
+  /** The tools the post is about, most important first. */
+  tools: Node[];
+  sources: string[];
+  blogUrl: string;
+  /** English original, set on translations. */
+  translationOf?: string;
+  /** Translations, set on the English original. */
+  translations?: { url: string; lang: Locale }[];
+}
+
+export function blogPostingNode(p: BlogPostingInput): Node {
+  return {
+    "@type": "BlogPosting",
+    "@id": `${p.url}#article`,
+    mainEntityOfPage: { "@id": `${p.url}#webpage` },
+    url: p.url,
+    headline: p.headline.length > 110 ? `${p.headline.slice(0, 107)}…` : p.headline,
+    description: p.description,
+    ...(p.images.length ? { image: p.images, thumbnailUrl: p.images[0] } : {}),
+    datePublished: iso(p.publishedAt),
+    dateModified: iso(p.updatedAt),
+    author: { "@id": ORG_ID },
+    publisher: { "@id": ORG_ID },
+    inLanguage: p.lang,
+    wordCount: p.wordCount,
+    timeRequired: `PT${p.readingMinutes}M`,
+    articleSection: p.section,
+    keywords: p.keywords.join(", "),
+    isAccessibleForFree: true,
+    isPartOf: { "@id": `${p.blogUrl}#blog` },
+    ...(p.tools.length ? { about: p.tools.slice(0, 3), ...(p.tools.length > 3 ? { mentions: p.tools.slice(3) } : {}) } : {}),
+    citation: p.sources.map((url) => ({ "@type": "CreativeWork", url })),
+    speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", ".page-summary", ".key-takeaways"] },
+    ...(p.translationOf ? { translationOfWork: { "@id": `${p.translationOf}#article` } } : {}),
+    ...(p.translations?.length
+      ? { workTranslation: p.translations.map((t) => ({ "@id": `${t.url}#article`, inLanguage: t.lang })) }
+      : {}),
+  };
+}
+
+/** The blog itself, listing its posts (newest first). */
+export function blogNode(opts: {
+  url: string;
+  lang: Locale;
+  name: string;
+  description: string;
+  posts: { url: string; headline: string; publishedAt: number; updatedAt: number; image?: string }[];
+}): Node {
+  return {
+    "@type": "Blog",
+    "@id": `${opts.url}#blog`,
+    url: opts.url,
+    name: opts.name,
+    description: opts.description,
+    inLanguage: opts.lang,
+    isPartOf: { "@id": WEBSITE_ID },
+    publisher: { "@id": ORG_ID },
+    author: { "@id": ORG_ID },
+    blogPost: opts.posts.map((post) => ({
+      "@type": "BlogPosting",
+      "@id": `${post.url}#article`,
+      url: post.url,
+      headline: post.headline,
+      datePublished: iso(post.publishedAt),
+      dateModified: iso(post.updatedAt),
+      author: { "@id": ORG_ID },
+      ...(post.image ? { image: post.image } : {}),
+    })),
+  };
+}
+
+/** A tool as the subject of an article: name, vendor site and our profile page. */
+export function toolMentionNode(tool: ToolRecord, profileUrl: string): Node {
+  return {
+    "@type": "SoftwareApplication",
+    name: tool.name,
+    applicationCategory: SCHEMA_CATEGORY[tool.category],
+    url: tool.website,
+    publisher: { "@type": "Organization", name: tool.vendor },
+    subjectOf: { "@type": "WebPage", url: profileUrl },
   };
 }

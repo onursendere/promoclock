@@ -2,6 +2,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import type { DealRecord, LocalizedText, ToolRecord } from "@/lib/deals";
 import type { ProfileText, ToolProfile } from "@/lib/profiles";
+import { countWords, plainText, readingMinutes, type BlogPost, type PostText } from "@/lib/blog";
 
 /**
  * Content is authored in English (deals.yaml, tools/*.md, events.yaml). Translations live in
@@ -223,4 +224,109 @@ export async function getToolProfiles(): Promise<Map<string, ToolProfile>> {
     if (profile) profiles.set(id, profile);
   }
   return profiles;
+}
+
+type PostEntry = CollectionEntry<"blog">;
+type EnglishPostData = Extract<PostEntry["data"], { category: unknown }>;
+type LocalizedPostData = Exclude<PostEntry["data"], EnglishPostData>;
+
+function postText(data: EnglishPostData | LocalizedPostData): PostText {
+  return {
+    title: data.title,
+    metaTitle: data.metaTitle,
+    metaDescription: data.metaDescription,
+    excerpt: data.excerpt,
+    keyTakeaways: data.keyTakeaways,
+    faq: data.faq,
+    ...(data.howTo ? { howTo: data.howTo } : {}),
+  };
+}
+
+export interface PostLookup {
+  /** English slugs, newest first (featured posts lead ties). */
+  slugs: string[];
+  /** English facts + text in `lang`, English text while a translation is missing. */
+  get(slug: string, lang: Locale): BlogPost | undefined;
+}
+
+/**
+ * Loads every post once. Facts always come from `en/<slug>`; text and body from `<lang>/<slug>`,
+ * falling back to English while a translation is missing. Structural mistakes (wrong folder,
+ * translation without an English original, facts in a translation) fail the build.
+ */
+export async function createPostLookup(): Promise<PostLookup> {
+  const entries = await getCollection("blog");
+  const english = new Map<string, { data: EnglishPostData; body: string }>();
+  const localized = new Map<string, { data: LocalizedPostData; body: string }>();
+
+  for (const { id, data, body = "" } of entries) {
+    const [locale, slug, ...rest] = id.split("/");
+    const where = `src/content/blog/${id}.md`;
+    if (rest.length || !slug || !isLocale(locale)) throw new Error(`${where}: expected blog/<locale>/<slug>.md`);
+    const isEnglishShape = "category" in data;
+    if (locale === "en") {
+      if (!isEnglishShape) throw new Error(`${where}: English posts need the facts (category, dates, tools, sources)`);
+      english.set(slug, { data, body });
+    } else {
+      if (isEnglishShape) throw new Error(`${where}: translations carry text only (facts live in en/${slug}.md)`);
+      localized.set(id, { data, body });
+    }
+  }
+  for (const id of localized.keys()) {
+    const slug = id.split("/")[1];
+    if (!english.has(slug)) throw new Error(`src/content/blog/${id}.md: no English original at en/${slug}.md`);
+  }
+
+  const englishWords = new Map([...english].map(([slug, { body }]) => [slug, countWords(plainText(body), "en")]));
+  const slugs = [...english.keys()].sort((a, b) => {
+    const x = english.get(a)!.data, y = english.get(b)!.data;
+    return (
+      y.publishedAt.getTime() - x.publishedAt.getTime() ||
+      Number(Boolean(y.featured)) - Number(Boolean(x.featured)) ||
+      y.updatedAt.getTime() - x.updatedAt.getTime() ||
+      x.title.localeCompare(y.title)
+    );
+  });
+
+  return {
+    slugs,
+    get(slug, lang) {
+      const en = english.get(slug);
+      if (!en) return undefined;
+      const translation = lang === "en" ? undefined : localized.get(`${lang}/${slug}`);
+      const text = translation ?? en;
+      const textLang: Locale = translation ? lang : "en";
+      const { data } = en;
+      return {
+        slug,
+        ...postText(text.data),
+        category: data.category,
+        featured: Boolean(data.featured),
+        publishedAt: data.publishedAt.getTime(),
+        updatedAt: data.updatedAt.getTime(),
+        ...(data.image
+          ? {
+              image: {
+                ...data.image,
+                alt: (translation?.data.imageAlt ?? data.image.alt),
+              },
+            }
+          : {}),
+        tools: data.tools.map((ref) => ref.id),
+        linkedDeals: [...new Set([...en.body.matchAll(/\]\(\/deals\/([^/)#\s]+)\//g)].map((m) => m[1]))],
+        sources: data.sources,
+        textLang,
+        locales: i18n.locales.filter((l) => (l === "en" ? true : localized.has(`${l}/${slug}`))),
+        bodyId: `${textLang}/${slug}`,
+        wordCount: translation ? countWords(plainText(text.body), lang) : englishWords.get(slug)!,
+        readingMinutes: readingMinutes(englishWords.get(slug)!),
+      };
+    },
+  };
+}
+
+/** Every post in `lang` (English text where a translation is missing), in lookup order. */
+export async function getPosts(lang: Locale): Promise<BlogPost[]> {
+  const lookup = await createPostLookup();
+  return lookup.slugs.map((slug) => lookup.get(slug, lang)!);
 }

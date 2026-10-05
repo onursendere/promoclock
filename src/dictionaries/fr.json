@@ -88,6 +88,7 @@
       "deals": "Offres IA",
       "tools": "Outils IA",
       "calendar": "Calendrier",
+      "blog": "Blog",
       "api": "API",
       "menu": "Menu",
       "language": "Langue",
@@ -328,6 +329,43 @@
           "body": "Vous avez repéré une offre périmée ou une nouvelle promo ? Envoyez-la à @onursendere sur X."
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "Guides des prix IA et comparatifs | Blog PromoClock",
+      "metaDescription": "Heures de pointe et limites de Claude, comparatifs de formules IA, offres étudiantes et astuces pour payer moins, vérifiés auprès des sources officielles.",
+      "title": "Le blog PromoClock",
+      "subtitle": "Guides, comparatifs et astuces d’économie pour Claude et 100 outils IA populaires, vérifiés sur les pages de prix officielles.",
+      "featured": "À la une",
+      "latest": "Derniers articles",
+      "readMore": "Lire l’article",
+      "readingTime": "{n} min de lecture",
+      "published": "Publié le {date}",
+      "updated": "Mis à jour le {date}",
+      "by": "Par {name}",
+      "keyTakeaways": "L’essentiel",
+      "onThisPage": "Sur cette page",
+      "steps": "Étape par étape",
+      "faq": "Questions fréquentes",
+      "sources": "Sources",
+      "toolsInArticle": "Outils cités dans cet article",
+      "keepReading": "À lire aussi",
+      "photo": "Photo : {credit}",
+      "authorRole": "Suivi indépendant des limites de Claude et des offres IA",
+      "authorBio": "PromoClock vérifie chaque prix, limite et offre de ces articles sur les pages officielles de l’éditeur avant publication et indique la date de la dernière vérification.",
+      "methodology": "Notre méthode de vérification",
+      "rss": "Flux RSS",
+      "homeTitle": "Sur le blog",
+      "homeSubtitle": "Des guides et des comparatifs pour payer moins cher vos outils IA et en tirer davantage.",
+      "allArticles": "Tous les articles",
+      "toolArticles": "Articles sur {name}",
+      "factChecked": "Informations vérifiées auprès des sources officielles le {date}",
+      "untranslated": "Cet article n’est pas encore traduit en français : vous lisez la version originale en anglais.",
+      "categories": {
+        "guides": "Guides",
+        "comparisons": "Comparatifs",
+        "deals": "Offres",
+        "news": "Actualités"
+      }
     },
     "notFound": {
       "title": "Cette page fait une pause",

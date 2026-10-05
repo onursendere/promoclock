@@ -1,7 +1,7 @@
 ---
 import "@/styles/global.css";
 import type { Locale } from "@/lib/i18n/config";
-import { hubLocales, isHubTranslated, type Dictionary as UiDictionary } from "@/lib/i18n/dictionaries";
+import { hubLocales, type Dictionary as UiDictionary } from "@/lib/i18n/dictionaries";
 import { siteNodes } from "@/lib/jsonld";
 import { IS_STAGING, SITE_NAME } from "@/lib/site";
 import { absoluteUrl, alternateLinks, localePath } from "@/lib/seo";
@@ -25,21 +25,45 @@ interface Props {
   noindex?: boolean;
   /** Hub pages (deals, tools, calendar, about) fall back to English until translated. */
   hub?: boolean;
+  /** Locales that really have this page (e.g. a blog post's translations); overrides `hub`. */
+  availableIn?: Locale[];
+  /** Absolute URL of a 1200×630 share image; defaults to the generated /og/<path>.png card. */
+  ogImage?: string;
+  ogImageAlt?: string;
+  /** Article metadata for Open Graph (blog posts). */
+  article?: { publishedTime: string; modifiedTime: string; section: string; tags: string[] };
 }
 
-const { lang, dict, path = "", title, description, ogTitle, ogDescription, jsonLd = [], noindex = false, hub = false } =
-  Astro.props;
-// An untranslated hub page is English content under another locale: point it at the English
+const {
+  lang,
+  dict,
+  path = "",
+  title,
+  description,
+  ogTitle,
+  ogDescription,
+  jsonLd = [],
+  noindex = false,
+  hub = false,
+  availableIn,
+  ogImage: ogImageProp,
+  ogImageAlt,
+  article,
+} = Astro.props;
+// An untranslated page is English content under another locale: point it at the English
 // original and only advertise the languages that really have it.
-const untranslated = hub && !isHubTranslated(lang);
+const translatedIn: readonly Locale[] | undefined = availableIn ?? (hub ? hubLocales : undefined);
+const untranslated = translatedIn !== undefined && !translatedIn.includes(lang);
 const canonical = absoluteUrl(localePath(untranslated ? "en" : lang, path));
 const alternates = alternateLinks(path).filter(
-  (alt) => !hub || alt.hreflang === "x-default" || (hubLocales as string[]).includes(alt.hreflang),
+  (alt) => !translatedIn || alt.hreflang === "x-default" || (translatedIn as readonly string[]).includes(alt.hreflang),
 );
 const htmlLang = untranslated ? "en" : lang;
 const graph = { "@context": "https://schema.org", "@graph": [...siteNodes(), ...jsonLd] };
-const robots = IS_STAGING || noindex ? "noindex, nofollow" : "index, follow";
-const ogImage = absoluteUrl(`/og/${path || "home"}.png`);
+// Large image previews and full snippets for Search, Discover and AI answers.
+const robots = IS_STAGING || noindex ? "noindex, nofollow" : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
+const ogImage = ogImageProp ?? absoluteUrl(`/og/${path || "home"}.png`);
+const rssHref = absoluteUrl(`${localePath(lang, "blog")}rss.xml`);
 
 const pathname = Astro.url.pathname;
 const nav = dict.hub.nav;
@@ -49,6 +73,7 @@ const navItems = [
   { href: section("deals"), label: nav.deals, active: pathname.startsWith(section("deals")) },
   { href: section("tools"), label: nav.tools, active: pathname.startsWith(section("tools")) },
   { href: section("calendar"), label: nav.calendar, active: pathname.startsWith(section("calendar")) },
+  { href: section("blog"), label: nav.blog, active: pathname.startsWith(section("blog")) },
   { href: `${localePath(lang)}#developer-tools`, label: nav.api, active: false },
 ];
 ---
@@ -66,23 +91,37 @@ const navItems = [
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="/logo.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${dict.hub.blog.title} (${lang})`} href={rssHref} />
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={article ? "article" : "website"} />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:locale" content={lang.replace("-", "_")} />
-    <meta name="author" content="Onur Şendere" />
+    <meta name="author" content={article ? SITE_NAME : AUTHOR.name} />
     <meta property="og:url" content={canonical} />
     <meta property="og:title" content={ogTitle ?? title} />
     <meta property="og:description" content={ogDescription ?? description} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    {ogImageAlt && <meta property="og:image:alt" content={ogImageAlt} />}
+    {
+      article && (
+        <>
+          <meta property="article:published_time" content={article.publishedTime} />
+          <meta property="article:modified_time" content={article.modifiedTime} />
+          <meta property="article:author" content={absoluteUrl(localePath(lang, "about"))} />
+          <meta property="article:section" content={article.section} />
+          {article.tags.map((tag) => <meta property="article:tag" content={tag} />)}
+        </>
+      )
+    }
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={ogTitle ?? title} />
     <meta name="twitter:description" content={ogDescription ?? description} />
     <meta name="twitter:image" content={ogImage} />
+    {ogImageAlt && <meta name="twitter:image:alt" content={ogImageAlt} />}
     <meta name="twitter:creator" content="@onursendere" />
 
     <script is:inline>

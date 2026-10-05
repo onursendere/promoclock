@@ -88,6 +88,7 @@
       "deals": "Ofertas de IA",
       "tools": "Herramientas",
       "calendar": "Calendario",
+      "blog": "Blog",
       "api": "API",
       "menu": "Menú",
       "language": "Idioma",
@@ -328,6 +329,43 @@
           "body": "¿Viste una oferta desactualizada o una promoción nueva? Envíala a @onursendere en X."
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "Guías de precios de IA y comparativas | Blog de PromoClock",
+      "metaDescription": "Horas pico y límites de uso de Claude, comparativas de planes de IA, ofertas para estudiantes y formas de pagar menos, verificadas con fuentes oficiales.",
+      "title": "Blog de PromoClock",
+      "subtitle": "Guías, comparativas y consejos para ahorrar en Claude y 100 herramientas de IA populares, verificados con las páginas de precios oficiales.",
+      "featured": "Destacado",
+      "latest": "Últimos artículos",
+      "readMore": "Leer artículo",
+      "readingTime": "{n} min de lectura",
+      "published": "Publicado el {date}",
+      "updated": "Actualizado el {date}",
+      "by": "Por {name}",
+      "keyTakeaways": "Lo esencial",
+      "onThisPage": "En esta página",
+      "steps": "Paso a paso",
+      "faq": "Preguntas frecuentes",
+      "sources": "Fuentes",
+      "toolsInArticle": "Herramientas en este artículo",
+      "keepReading": "Sigue leyendo",
+      "photo": "Foto: {credit}",
+      "authorRole": "Seguimiento independiente de los límites de Claude y las ofertas de IA",
+      "authorBio": "PromoClock comprueba cada precio, límite y oferta de estos artículos en las páginas oficiales del proveedor antes de publicarlos e indica la fecha de la última revisión.",
+      "methodology": "Cómo verificamos",
+      "rss": "Feed RSS",
+      "homeTitle": "Del blog",
+      "homeSubtitle": "Guías y comparativas para que pagues menos por tus herramientas de IA y les saques más provecho.",
+      "allArticles": "Todos los artículos",
+      "toolArticles": "Artículos sobre {name}",
+      "factChecked": "Datos verificados con fuentes oficiales el {date}",
+      "untranslated": "Este artículo aún no está disponible en español, así que estás leyendo el original en inglés.",
+      "categories": {
+        "guides": "Guías",
+        "comparisons": "Comparativas",
+        "deals": "Ofertas",
+        "news": "Noticias"
+      }
     },
     "notFound": {
       "title": "Esta página se tomó un descanso",

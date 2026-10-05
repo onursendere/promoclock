@@ -88,6 +88,7 @@
       "deals": "Ofertas de IA",
       "tools": "Ferramentas",
       "calendar": "Calendário",
+      "blog": "Blog",
       "api": "API",
       "menu": "Menu",
       "language": "Idioma",
@@ -328,6 +329,43 @@
           "body": "Viu uma oferta desatualizada ou uma promoção nova? Mande para @onursendere no X."
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "Guias de preços de IA e comparativos | Blog do PromoClock",
+      "metaDescription": "Horário de pico e limites de uso do Claude, comparativos de planos de IA, ofertas para estudantes e formas de pagar menos, verificados em fontes oficiais.",
+      "title": "Blog do PromoClock",
+      "subtitle": "Guias, comparativos e dicas de economia para o Claude e 100 ferramentas de IA populares, verificados nas páginas de preços oficiais.",
+      "featured": "Destaque",
+      "latest": "Artigos recentes",
+      "readMore": "Ler artigo",
+      "readingTime": "{n} min de leitura",
+      "published": "Publicado em {date}",
+      "updated": "Atualizado em {date}",
+      "by": "Por {name}",
+      "keyTakeaways": "Principais pontos",
+      "onThisPage": "Nesta página",
+      "steps": "Passo a passo",
+      "faq": "Perguntas frequentes",
+      "sources": "Fontes",
+      "toolsInArticle": "Ferramentas neste artigo",
+      "keepReading": "Continue lendo",
+      "photo": "Foto: {credit}",
+      "authorRole": "Acompanhamento independente dos limites do Claude e das ofertas de IA",
+      "authorBio": "O PromoClock confere cada preço, limite e oferta destes artigos nas páginas oficiais do fornecedor antes de publicar e mostra a data da última verificação.",
+      "methodology": "Como verificamos",
+      "rss": "Feed RSS",
+      "homeTitle": "Do blog",
+      "homeSubtitle": "Guias e comparativos para você pagar menos pelas ferramentas de IA e aproveitar mais cada uma.",
+      "allArticles": "Todos os artigos",
+      "toolArticles": "Artigos sobre {name}",
+      "factChecked": "Dados conferidos em fontes oficiais em {date}",
+      "untranslated": "Este artigo ainda não está disponível em português, então você está lendo o original em inglês.",
+      "categories": {
+        "guides": "Guias",
+        "comparisons": "Comparativos",
+        "deals": "Ofertas",
+        "news": "Notícias"
+      }
     },
     "notFound": {
       "title": "Esta página foi dar uma volta",

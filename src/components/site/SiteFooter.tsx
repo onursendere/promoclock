@@ -34,6 +34,7 @@ export function SiteFooter({ lang, dict }: { lang: Locale; dict: UiDictionary })
         { label: nav.deals, href: localePath(lang, "deals") },
         { label: nav.tools, href: localePath(lang, "tools") },
         { label: nav.calendar, href: localePath(lang, "calendar") },
+        { label: nav.blog, href: localePath(lang, "blog") },
       ],
     },
     {

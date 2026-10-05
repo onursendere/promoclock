@@ -88,6 +88,7 @@
       "deals": "KI-Deals",
       "tools": "KI-Tools",
       "calendar": "Kalender",
+      "blog": "Blog",
       "api": "API",
       "menu": "Menü",
       "language": "Sprache",
@@ -328,6 +329,43 @@
           "body": "Veralteten Deal oder neue Aktion entdeckt? Schreib an @onursendere auf X."
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "KI-Preisratgeber & Vergleiche | PromoClock Blog",
+      "metaDescription": "Claudes Stoßzeiten und Nutzungslimits, KI-Abos im Vergleich, Studentenangebote und Spartipps für KI-Tools – geprüft anhand offizieller Quellen.",
+      "title": "PromoClock Blog",
+      "subtitle": "Ratgeber, Vergleiche und Spartipps für Claude und 100 beliebte KI-Tools – geprüft anhand der offiziellen Preisseiten.",
+      "featured": "Empfohlen",
+      "latest": "Neueste Artikel",
+      "readMore": "Artikel lesen",
+      "readingTime": "{n} Min. Lesezeit",
+      "published": "Veröffentlicht am {date}",
+      "updated": "Aktualisiert am {date}",
+      "by": "Von {name}",
+      "keyTakeaways": "Das Wichtigste in Kürze",
+      "onThisPage": "Auf dieser Seite",
+      "steps": "Schritt für Schritt",
+      "faq": "Häufige Fragen",
+      "sources": "Quellen",
+      "toolsInArticle": "Tools in diesem Artikel",
+      "keepReading": "Weiterlesen",
+      "photo": "Foto: {credit}",
+      "authorRole": "Unabhängiger Tracker für Claude-Limits und KI-Deals",
+      "authorBio": "PromoClock gleicht jeden Preis, jedes Limit und jedes Angebot in diesen Artikeln vor der Veröffentlichung mit den Seiten des Anbieters ab und nennt das Datum der letzten Prüfung.",
+      "methodology": "So prüfen wir",
+      "rss": "RSS-Feed",
+      "homeTitle": "Aus dem Blog",
+      "homeSubtitle": "Ratgeber und Vergleiche, damit du weniger für KI-Tools zahlst und mehr aus ihnen herausholst.",
+      "allArticles": "Alle Artikel",
+      "toolArticles": "Artikel über {name}",
+      "factChecked": "Fakten am {date} anhand offizieller Quellen geprüft",
+      "untranslated": "Dieser Artikel ist noch nicht auf Deutsch verfügbar – du liest das englische Original.",
+      "categories": {
+        "guides": "Ratgeber",
+        "comparisons": "Vergleiche",
+        "deals": "Deals",
+        "news": "News"
+      }
     },
     "notFound": {
       "title": "Diese Seite macht gerade Pause",

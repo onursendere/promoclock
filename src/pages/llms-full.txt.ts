@@ -1,8 +1,8 @@
 import type { APIRoute } from "astro";
-import { getDeals, getToolProfiles, getTools } from "@/lib/content";
+import { getDeals, getPosts, getToolProfiles, getTools } from "@/lib/content";
 import { buildLlmsFullTxt } from "@/lib/llms";
 
 export const GET: APIRoute = async () => {
-  const [tools, deals, profiles] = await Promise.all([getTools(), getDeals(), getToolProfiles()]);
-  return new Response(buildLlmsFullTxt(tools, deals, profiles), { headers: { "Content-Type": "text/plain; charset=utf-8" } });
+  const [tools, deals, profiles, posts] = await Promise.all([getTools(), getDeals(), getToolProfiles(), getPosts("en")]);
+  return new Response(buildLlmsFullTxt(tools, deals, profiles, posts), { headers: { "Content-Type": "text/plain; charset=utf-8" } });
 };

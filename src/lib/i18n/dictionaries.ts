@@ -1,5 +1,6 @@
 import type { Locale } from "./config";
 import type { Platform } from "@/lib/deals";
+import type { BlogCategory } from "@/lib/blog";
 import en from "@/dictionaries/en.json";
 import hi from "@/dictionaries/hi.json";
 import ja from "@/dictionaries/ja.json";
@@ -38,7 +39,7 @@ export interface Dictionary {
 }
 
 export interface HubDictionary {
-  nav: { claude: Text; deals: Text; tools: Text; calendar: Text; api: Text; menu: Text; language: Text; theme: Text; about: Text };
+  nav: { claude: Text; deals: Text; tools: Text; calendar: Text; blog: Text; api: Text; menu: Text; language: Text; theme: Text; about: Text };
   common: {
     verified: Text;
     startsIn: Text;
@@ -182,6 +183,38 @@ export interface HubDictionary {
     aSource: Text;
   };
   about: { metaTitle: Text; metaDescription: Text; title: Text; intro: Text; sections: { title: Text; body: Text }[] };
+  blog: {
+    metaTitle: Text;
+    metaDescription: Text;
+    title: Text;
+    subtitle: Text;
+    featured: Text;
+    latest: Text;
+    readMore: Text;
+    readingTime: Text;
+    published: Text;
+    updated: Text;
+    by: Text;
+    keyTakeaways: Text;
+    onThisPage: Text;
+    steps: Text;
+    faq: Text;
+    sources: Text;
+    toolsInArticle: Text;
+    keepReading: Text;
+    photo: Text;
+    authorRole: Text;
+    authorBio: Text;
+    methodology: Text;
+    rss: Text;
+    homeTitle: Text;
+    homeSubtitle: Text;
+    allArticles: Text;
+    toolArticles: Text;
+    factChecked: Text;
+    untranslated: Text;
+    categories: Record<BlogCategory, Text>;
+  };
   notFound: { title: Text; body: Text; cta: Text };
 }
 

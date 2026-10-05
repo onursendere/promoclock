@@ -5,6 +5,7 @@ import { getDealStatus, partitionDeals, type DealRecord, type ToolRecord } from 
 import { AUTHOR, BUILD_TIME, SITE_URL } from "@/lib/site";
 import { localePath } from "@/lib/seo";
 import { startingPriceLabel, type ToolProfile } from "@/lib/profiles";
+import type { BlogPost } from "@/lib/blog";
 
 const day = (ms: number) => new Date(ms).toISOString().slice(0, 10);
 const url = (path: string) => `${SITE_URL}${path}`;
@@ -37,7 +38,16 @@ function peakSection(): string {
   ].join("\n");
 }
 
-export function buildLlmsTxt(tools: ToolRecord[], deals: DealRecord[]): string {
+const postUrl = (post: BlogPost) => url(localePath("en", `blog/${post.slug}`));
+
+function blogSection(posts: BlogPost[]): string {
+  if (!posts.length) return "";
+  return `\n## Blog: guides and comparisons (${posts.length})\n${posts
+    .map((p) => `- [${p.title}](${postUrl(p)}): ${p.excerpt} (updated ${day(p.updatedAt)})`)
+    .join("\n")}\n`;
+}
+
+export function buildLlmsTxt(tools: ToolRecord[], deals: DealRecord[], posts: BlogPost[] = []): string {
   const map = new Map(tools.map((t) => [t.slug, t]));
   const claude = deals.filter((d) => d.tool === "claude").sort((a, b) => b.startsAt - a.startsAt);
   const { live, upcoming } = partitionDeals(deals.filter((d) => d.tool !== "claude"), BUILD_TIME);
@@ -54,13 +64,14 @@ ${claude.slice(0, 5).map((d) => dealLine(d, map)).join("\n")}
 
 ## Live AI deals (${live.length})
 ${live.map((d) => dealLine(d, map)).join("\n") || "- None right now"}
-${upcoming.length ? `\n## Upcoming\n${upcoming.map((d) => dealLine(d, map)).join("\n")}\n` : ""}
+${upcoming.length ? `\n## Upcoming\n${upcoming.map((d) => dealLine(d, map)).join("\n")}\n` : ""}${blogSection(posts)}
 ## Pages
 - Claude Watch (home): ${url(localePath("en"))}
 - All AI deals: ${url(localePath("en", "deals"))}
 - AI tools directory: ${url(localePath("en", "tools"))}
 - Tool profiles: ${url(localePath("en", "tools"))}<slug>/ — summary, pricing, platforms, FAQ, alternatives (${tools.length} tools)
 - Promo calendar: ${url(localePath("en", "calendar"))}
+- Blog (guides, comparisons, money-saving tips): ${url(localePath("en", "blog"))} · RSS: ${url(localePath("en", "blog"))}rss.xml
 - About & methodology: ${url(localePath("en", "about"))}
 - Affiliate disclosure: ${url(localePath("en", "affiliate-disclosure"))}
 - Languages: ${i18n.locales.join(", ")} (e.g. ${url(localePath("tr"))})
@@ -95,7 +106,29 @@ function profileLines(tool: ToolRecord, profile: ToolProfile, tools: Map<string,
   ].join("\n");
 }
 
-export function buildLlmsFullTxt(tools: ToolRecord[], deals: DealRecord[], profiles: Map<string, ToolProfile> = new Map()): string {
+function postDetails(post: BlogPost, tools: Map<string, ToolRecord>): string {
+  return [
+    `### ${post.title}`,
+    `- URL: ${postUrl(post)}`,
+    `- Published: ${day(post.publishedAt)} · Updated: ${day(post.updatedAt)} · ${post.readingMinutes} min read`,
+    `- Tools: ${post.tools.map((slug) => tools.get(slug)?.name ?? slug).join(", ")}`,
+    "",
+    post.excerpt,
+    "",
+    "Key takeaways:",
+    ...post.keyTakeaways.map((t) => `- ${t}`),
+    "",
+    ...post.faq.flatMap((f) => [`Q: ${f.q}`, `A: ${f.a}`, ""]),
+    `Sources: ${post.sources.join(" · ")}`,
+  ].join("\n");
+}
+
+export function buildLlmsFullTxt(
+  tools: ToolRecord[],
+  deals: DealRecord[],
+  profiles: Map<string, ToolProfile> = new Map(),
+  posts: BlogPost[] = [],
+): string {
   const map = new Map(tools.map((t) => [t.slug, t]));
   const dict = getDictionary("en");
   const byCategory = new Map<string, ToolRecord[]>();
@@ -118,7 +151,7 @@ export function buildLlmsFullTxt(tools: ToolRecord[], deals: DealRecord[], profi
   return `# PromoClock — Complete Reference
 > Generated ${new Date(BUILD_TIME).toISOString()} from the same data as ${SITE_URL}
 
-${buildLlmsTxt(tools, deals).split("\n").slice(2).join("\n")}
+${buildLlmsTxt(tools, deals, posts).split("\n").slice(2).join("\n")}
 
 ${peakSection()}
 
@@ -151,7 +184,7 @@ ${[...byCategory.entries()]
   )
   .join("\n\n")}
 
-## FAQ
+${posts.length ? `## Blog articles (${posts.length})\n${posts.map((p) => postDetails(p, map)).join("\n\n")}\n\n` : ""}## FAQ
 ${dict.faq.items.map((item) => `Q: ${item.question}\nA: ${item.answer}`).join("\n\n")}
 
 ## API example

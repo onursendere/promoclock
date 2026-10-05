@@ -31,3 +31,4 @@ export function switchLocalePath(pathname: string, target: Locale): string {
 
 export const dealPath = (lang: Locale, id: string) => localePath(lang, `deals/${id}`);
 export const toolPath = (lang: Locale, slug: string) => localePath(lang, `tools/${slug}`);
+export const blogPath = (lang: Locale, slug?: string) => localePath(lang, slug ? `blog/${slug}` : "blog");

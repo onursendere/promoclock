@@ -88,6 +88,7 @@
       "deals": "AI 특가",
       "tools": "AI 도구",
       "calendar": "캘린더",
+      "blog": "블로그",
       "api": "API",
       "menu": "메뉴",
       "language": "언어",
@@ -328,6 +329,43 @@
           "body": "오래된 특가나 새 프로모션을 발견하셨나요? X에서 @onursendere로 알려 주세요."
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "AI 요금 가이드·비교 | PromoClock 블로그",
+      "metaDescription": "Claude 피크 시간대와 사용 한도, AI 플랜 비교, 학생 혜택, AI 도구 비용을 줄이는 방법까지 정리했습니다. 모든 정보는 공식 출처로 확인했습니다.",
+      "title": "PromoClock 블로그",
+      "subtitle": "Claude와 인기 AI 도구 100개에 대한 가이드, 비교, 절약 팁. 공식 요금 페이지로 확인한 정보만 담았습니다.",
+      "featured": "추천 글",
+      "latest": "최신 글",
+      "readMore": "글 읽기",
+      "readingTime": "{n}분 분량",
+      "published": "게시일 {date}",
+      "updated": "업데이트 {date}",
+      "by": "작성: {name}",
+      "keyTakeaways": "핵심 요약",
+      "onThisPage": "목차",
+      "steps": "단계별 안내",
+      "faq": "자주 묻는 질문",
+      "sources": "출처",
+      "toolsInArticle": "이 글에 나온 도구",
+      "keepReading": "함께 읽기",
+      "photo": "사진: {credit}",
+      "authorRole": "Claude 사용 한도와 AI 특가를 추적하는 독립 사이트",
+      "authorBio": "PromoClock은 이 글들의 모든 가격, 한도, 혜택을 게시 전에 제공사의 공식 페이지와 대조해 확인하고, 마지막 확인 날짜를 함께 표시합니다.",
+      "methodology": "확인 방법",
+      "rss": "RSS 피드",
+      "homeTitle": "블로그",
+      "homeSubtitle": "AI 도구 비용은 줄이고 활용도는 높이는 가이드와 비교 글.",
+      "allArticles": "전체 글",
+      "toolArticles": "{name} 관련 글",
+      "factChecked": "{date} 공식 출처로 확인",
+      "untranslated": "이 글은 아직 한국어로 번역되지 않아 영어 원문을 보여 드립니다.",
+      "categories": {
+        "guides": "가이드",
+        "comparisons": "비교",
+        "deals": "특가",
+        "news": "뉴스"
+      }
     },
     "notFound": {
       "title": "이 페이지는 휴식 중입니다",

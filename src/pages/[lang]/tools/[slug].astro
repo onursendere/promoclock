@@ -3,11 +3,13 @@ import { getEntry, render } from "astro:content";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { format, getDictionary } from "@/lib/i18n/dictionaries";
-import { createProfileLookup, getDeals, getTools } from "@/lib/content";
+import { createPostLookup, createProfileLookup, getDeals, getTools } from "@/lib/content";
+import type { BlogPost } from "@/lib/blog";
+import { cardImage } from "@/lib/blog-images";
 import { lastVerified, localize, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
 import type { ToolProfile } from "@/lib/profiles";
 import { breadcrumbNode, faqNode, itemListNode, softwareNode, webPageNode } from "@/lib/jsonld";
-import { absoluteUrl, dealPath, localePath, toolPath } from "@/lib/seo";
+import { absoluteUrl, blogPath, dealPath, localePath, toolPath } from "@/lib/seo";
 import { formatDate } from "@/lib/time";
 import { BUILD_TIME } from "@/lib/site";
 import { ToolHero } from "@/components/site/ToolHero";
@@ -26,9 +28,10 @@ import {
   profileProse,
 } from "@/components/site/ToolProfile";
 import FaqAccordion from "@/components/islands/FaqAccordion";
+import { BlogCard } from "@/components/site/Blog";
 
 export async function getStaticPaths() {
-  const [tools, deals, profileFor] = await Promise.all([getTools(), getDeals(), createProfileLookup()]);
+  const [tools, deals, profileFor, posts] = await Promise.all([getTools(), getDeals(), createProfileLookup(), createPostLookup()]);
   const bySlug = new Map(tools.map((t) => [t.slug, t]));
   const liveByTool = Object.fromEntries(
     tools.map((t) => [t.slug, partitionDeals(deals.filter((d) => d.tool === t.slug), BUILD_TIME).live.length]),
@@ -47,6 +50,10 @@ export async function getStaticPaths() {
             ? profile.alternatives.flatMap((slug) => bySlug.get(slug) ?? [])
             : tools.filter((t) => t.category === tool.category && t.slug !== tool.slug).slice(0, 6),
           liveByTool,
+          articles: posts.slugs
+            .map((slug) => posts.get(slug, lang)!)
+            .filter((post) => post.tools.includes(tool.slug))
+            .slice(0, 3),
         },
       };
     }),
@@ -59,10 +66,12 @@ interface Props {
   deals: DealRecord[];
   related: ToolRecord[];
   liveByTool: Record<string, number>;
+  articles: BlogPost[];
 }
 
 const lang = Astro.params.lang as Locale;
-const { tool, profile, deals, related, liveByTool } = Astro.props;
+const { tool, profile, deals, related, liveByTool, articles } = Astro.props;
+const articleImages = await Promise.all(articles.map((post) => (post.image ? cardImage(post.image) : undefined)));
 const dict = getDictionary(lang);
 const { hub } = dict;
 const t = hub.tools;
@@ -200,6 +209,21 @@ const h2 = "text-xl font-semibold tracking-tight";
           <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((r) => (
               <ToolCard tool={r} liveCount={liveByTool[r.slug] ?? 0} lang={lang} hub={hub} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      articles.length > 0 && (
+        <section class="flex flex-col gap-4" aria-labelledby="tool-articles">
+          <h2 id="tool-articles" class={h2}>
+            {format(hub.blog.toolArticles, { name: tool.name })}
+          </h2>
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {articles.map((post, i) => (
+              <BlogCard post={post} image={articleImages[i]} href={blogPath(lang, post.slug)} lang={lang} hub={hub} />
             ))}
           </div>
         </section>

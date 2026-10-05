@@ -88,6 +88,7 @@
       "deals": "AI特典",
       "tools": "AIツール",
       "calendar": "カレンダー",
+      "blog": "ブログ",
       "api": "API",
       "menu": "メニュー",
       "language": "言語",
@@ -328,6 +329,43 @@
           "body": "古くなった特典や新しいキャンペーンを見つけたら、Xの@onursendereまでお知らせください。"
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "AI料金ガイド・比較 | PromoClockブログ",
+      "metaDescription": "Claudeのピーク時間帯と利用上限、AIプランの比較、学生向け特典、AIツールを安く使う方法を解説。すべて公式情報で確認しています。",
+      "title": "PromoClockブログ",
+      "subtitle": "Claudeと人気AIツール100種のガイド、比較、節約のヒント。公式の料金ページで確認した情報だけを掲載しています。",
+      "featured": "注目記事",
+      "latest": "最新記事",
+      "readMore": "記事を読む",
+      "readingTime": "{n}分で読めます",
+      "published": "公開日：{date}",
+      "updated": "更新日：{date}",
+      "by": "執筆：{name}",
+      "keyTakeaways": "この記事のポイント",
+      "onThisPage": "目次",
+      "steps": "手順",
+      "faq": "よくある質問",
+      "sources": "出典",
+      "toolsInArticle": "この記事で紹介したツール",
+      "keepReading": "関連記事",
+      "photo": "写真：{credit}",
+      "authorRole": "Claudeの利用上限とAI特典を追う独立系トラッカー",
+      "authorBio": "PromoClockは、記事内の料金・上限・特典を公開前に提供元の公式ページと照合し、最終確認日を明記しています。",
+      "methodology": "確認方法について",
+      "rss": "RSSフィード",
+      "homeTitle": "ブログ",
+      "homeSubtitle": "AIツールをもっと安く、もっと便利に使うためのガイドと比較記事。",
+      "allArticles": "すべての記事",
+      "toolArticles": "{name}に関する記事",
+      "factChecked": "{date}に公式情報で確認済み",
+      "untranslated": "この記事はまだ日本語に翻訳されていないため、英語の原文を表示しています。",
+      "categories": {
+        "guides": "ガイド",
+        "comparisons": "比較",
+        "deals": "特典",
+        "news": "ニュース"
+      }
     },
     "notFound": {
       "title": "このページはひと休み中です",

@@ -88,6 +88,7 @@
       "deals": "AI优惠",
       "tools": "AI工具",
       "calendar": "日历",
+      "blog": "博客",
       "api": "API",
       "menu": "菜单",
       "language": "语言",
@@ -328,6 +329,43 @@
           "body": "发现过期的优惠或新活动？请在X上发给@onursendere。"
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "AI价格指南与对比 | PromoClock博客",
+      "metaDescription": "Claude高峰时段与用量额度详解、AI套餐价格对比、学生优惠汇总，以及少花钱用好AI工具的实用方法。所有信息均经官方来源核实。",
+      "title": "PromoClock博客",
+      "subtitle": "关于Claude和100款热门AI工具的指南、对比与省钱技巧，所有信息均以官方价格页面为准。",
+      "featured": "精选",
+      "latest": "最新文章",
+      "readMore": "阅读全文",
+      "readingTime": "阅读约{n}分钟",
+      "published": "发布于{date}",
+      "updated": "更新于{date}",
+      "by": "作者：{name}",
+      "keyTakeaways": "要点速览",
+      "onThisPage": "目录",
+      "steps": "操作步骤",
+      "faq": "常见问题",
+      "sources": "来源",
+      "toolsInArticle": "本文提到的工具",
+      "keepReading": "继续阅读",
+      "photo": "图片：{credit}",
+      "authorRole": "独立追踪Claude额度与AI优惠的网站",
+      "authorBio": "PromoClock在发布前会将文中的每一项价格、额度和优惠与厂商官方页面逐一核对，并注明最后核实日期。",
+      "methodology": "我们如何核实",
+      "rss": "RSS订阅",
+      "homeTitle": "博客精选",
+      "homeSubtitle": "帮你少花钱、用好AI工具的指南和对比文章。",
+      "allArticles": "全部文章",
+      "toolArticles": "关于{name}的文章",
+      "factChecked": "已于{date}对照官方来源核实",
+      "untranslated": "本文尚未翻译成中文，当前显示的是英文原文。",
+      "categories": {
+        "guides": "指南",
+        "comparisons": "对比",
+        "deals": "优惠",
+        "news": "资讯"
+      }
     },
     "notFound": {
       "title": "这个页面去休息了",

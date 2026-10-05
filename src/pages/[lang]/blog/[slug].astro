@@ -1,0 +1,302 @@
+---
+import { getEntry, render } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import { getDictionary } from "@/lib/i18n/dictionaries";
+import { createPostLookup, getDeals, getTools } from "@/lib/content";
+import { getDealStatus, isLive, type ToolRecord } from "@/lib/deals";
+import type { BlogPost } from "@/lib/blog";
+import { cardImage, heroImage, shareImages } from "@/lib/blog-images";
+import {
+  blogPostingNode,
+  breadcrumbNode,
+  faqNode,
+  howToStepsNode,
+  imageObjectNode,
+  toolMentionNode,
+  webPageNode,
+  ORG_ID,
+} from "@/lib/jsonld";
+import { absoluteUrl, blogPath, localePath, toolPath } from "@/lib/seo";
+import { BUILD_TIME } from "@/lib/site";
+import {
+  AuthorCard,
+  BlogCard,
+  HowToSteps,
+  KeyTakeaways,
+  MobileTableOfContents,
+  PostHeader,
+  PostHero,
+  PostSources,
+  TableOfContents,
+  UntranslatedNote,
+  articleProse,
+} from "@/components/site/Blog";
+import { ToolCard } from "@/components/site/ToolCard";
+import { AffiliateNote } from "@/components/site/AffiliateNote";
+import FaqAccordion from "@/components/islands/FaqAccordion";
+
+export async function getStaticPaths() {
+  const [lookup, tools, deals] = await Promise.all([createPostLookup(), getTools(), getDeals()]);
+  const bySlug = new Map(tools.map((t) => [t.slug, t]));
+  const liveByTool: Record<string, number> = {};
+  for (const deal of deals) {
+    if (isLive(getDealStatus(deal, BUILD_TIME))) liveByTool[deal.tool] = (liveByTool[deal.tool] ?? 0) + 1;
+  }
+  return i18n.locales.flatMap((lang) => {
+    const posts = lookup.slugs.map((slug) => lookup.get(slug, lang)!);
+    return posts.map((post) => {
+      // Related: most shared tools first, then same category, then newest.
+      const related = posts
+        .filter((other) => other.slug !== post.slug)
+        .map((other) => ({
+          other,
+          score: other.tools.filter((t) => post.tools.includes(t)).length * 2 + (other.category === post.category ? 1 : 0),
+        }))
+        .sort((a, b) => b.score - a.score || b.other.publishedAt - a.other.publishedAt)
+        .slice(0, 3)
+        .map(({ other }) => other);
+      return {
+        params: { lang, slug: post.slug },
+        props: { post, tools: post.tools.flatMap((slug) => bySlug.get(slug) ?? []), related, liveByTool },
+      };
+    });
+  });
+}
+
+interface Props {
+  post: BlogPost;
+  tools: ToolRecord[];
+  related: BlogPost[];
+  liveByTool: Record<string, number>;
+}
+
+const lang = Astro.params.lang as Locale;
+const { post, tools, related, liveByTool } = Astro.props;
+const dict = getDictionary(lang);
+const { hub } = dict;
+const t = hub.blog;
+
+const entry = await getEntry("blog", post.bodyId);
+if (!entry) throw new Error(`blog entry ${post.bodyId} not found`);
+const { Content, headings } = await render(entry);
+
+const untranslated = post.textLang !== lang;
+const [hero, share, relatedImages] = await Promise.all([
+  post.image ? heroImage(post.image) : undefined,
+  post.image ? shareImages(post.image) : undefined,
+  Promise.all(related.map((p) => (p.image ? cardImage(p.image) : undefined))),
+]);
+
+const sections = {
+  howTo: "post-howto",
+  faq: "post-faq",
+  sources: "post-sources",
+} as const;
+const toc = [
+  ...headings.filter((h) => h.depth === 2),
+  ...(post.howTo ? [{ depth: 2, slug: sections.howTo, text: post.howTo.name }] : []),
+  { depth: 2, slug: sections.faq, text: t.faq },
+];
+
+// An untranslated post canonicalises to English, so its structured data describes the English URL.
+const pageLang: Locale = untranslated ? "en" : lang;
+const url = absoluteUrl(blogPath(pageLang, post.slug));
+const title = `${post.metaTitle} | PromoClock`;
+const category = t.categories[post.category];
+const toolNames = tools.map((tool) => tool.name);
+const jsonLd = [
+  webPageNode({
+    url,
+    name: title,
+    description: post.metaDescription,
+    lang: pageLang,
+    dateModified: post.updatedAt,
+    ...(share ? { primaryImage: `${url}#primaryimage` } : {}),
+    breadcrumb: `${url}#breadcrumb`,
+    authorId: ORG_ID,
+  }),
+  ...(share && post.image
+    ? [
+        imageObjectNode({
+          id: `${url}#primaryimage`,
+          url: share.primary.url,
+          width: share.primary.width,
+          height: share.primary.height,
+          caption: post.image.alt,
+          credit: post.image.credit,
+          creditUrl: post.image.creditUrl,
+          license: post.image.license,
+        }),
+      ]
+    : []),
+  blogPostingNode({
+    url,
+    lang: pageLang,
+    headline: post.title,
+    description: post.excerpt,
+    images: share?.schema ?? [],
+    publishedAt: post.publishedAt,
+    updatedAt: post.updatedAt,
+    wordCount: post.wordCount,
+    readingMinutes: post.readingMinutes,
+    section: category,
+    keywords: [...toolNames, category],
+    tools: tools.map((tool) => toolMentionNode(tool, absoluteUrl(toolPath(pageLang, tool.slug)))),
+    sources: post.sources,
+    blogUrl: absoluteUrl(blogPath(pageLang)),
+    ...(pageLang !== "en" ? { translationOf: absoluteUrl(blogPath("en", post.slug)) } : {}),
+    ...(pageLang === "en"
+      ? {
+          translations: post.locales
+            .filter((l) => l !== "en")
+            .map((l) => ({ url: absoluteUrl(blogPath(l, post.slug)), lang: l })),
+        }
+      : {}),
+  }),
+  faqNode(
+    post.faq.map(({ q, a }) => ({ question: q, answer: a })),
+    url,
+  ),
+  ...(post.howTo ? [howToStepsNode(post.howTo.name, post.howTo.steps, url, pageLang)] : []),
+  breadcrumbNode(
+    [
+      { name: "PromoClock", path: localePath(pageLang) },
+      { name: getDictionary(pageLang).hub.nav.blog, path: blogPath(pageLang) },
+      { name: post.title, path: blogPath(pageLang, post.slug) },
+    ],
+    `${url}#breadcrumb`,
+  ),
+];
+const h2 = "scroll-m-20 text-2xl font-semibold tracking-tight";
+---
+
+<BaseLayout
+  lang={lang}
+  dict={dict}
+  path={`blog/${post.slug}`}
+  title={title}
+  description={post.metaDescription}
+  jsonLd={jsonLd}
+  availableIn={post.locales}
+  ogImage={share?.og}
+  ogImageAlt={post.image?.alt}
+  article={{
+    publishedTime: new Date(post.publishedAt).toISOString(),
+    modifiedTime: new Date(post.updatedAt).toISOString(),
+    section: category,
+    tags: toolNames,
+  }}
+>
+  <article lang={post.textLang}>
+    <PostHeader post={post} lang={lang} hub={hub} />
+    {
+      hero && (
+        <div class="mx-auto w-full max-w-6xl px-4 pt-6 sm:px-6 sm:pt-8">
+          <PostHero image={hero} post={post} hub={hub} />
+        </div>
+      )
+    }
+    <div class="mx-auto grid w-full max-w-6xl gap-10 px-4 py-8 sm:px-6 sm:py-10 lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-14">
+      <div class="flex min-w-0 flex-col gap-8">
+        {untranslated && <UntranslatedNote message={t.untranslated} />}
+        <KeyTakeaways items={post.keyTakeaways} title={t.keyTakeaways} />
+        <MobileTableOfContents headings={toc} title={t.onThisPage} />
+        <div class={articleProse} data-article-body>
+          <Content />
+        </div>
+
+        {
+          post.howTo && (
+            <section class="flex max-w-3xl flex-col gap-4" aria-labelledby={sections.howTo}>
+              <h2 id={sections.howTo} class={h2}>
+                {post.howTo.name}
+              </h2>
+              <p class="text-sm text-muted-foreground">{t.steps}</p>
+              <HowToSteps howTo={post.howTo} />
+            </section>
+          )
+        }
+
+        <section class="flex max-w-3xl flex-col gap-4" aria-labelledby={sections.faq}>
+          <h2 id={sections.faq} class={h2}>{t.faq}</h2>
+          <FaqAccordion client:visible items={post.faq.map(({ q, a }) => ({ question: q, answer: a }))} />
+        </section>
+
+        <section class="flex max-w-3xl flex-col gap-4" aria-labelledby={sections.sources}>
+          <h2 id={sections.sources} class="text-xl font-semibold tracking-tight">{t.sources}</h2>
+          <PostSources sources={post.sources} updatedAt={post.updatedAt} lang={lang} hub={hub} />
+        </section>
+
+        <div class="max-w-3xl">
+          <AuthorCard lang={lang} hub={hub} />
+        </div>
+      </div>
+
+      <aside class="hidden lg:block" aria-label={t.onThisPage}>
+        <div class="sticky top-20 max-h-[calc(100dvh-6rem)] overflow-y-auto pb-6">
+          <TableOfContents headings={toc} title={t.onThisPage} />
+        </div>
+      </aside>
+    </div>
+  </article>
+
+  <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 pb-10 sm:gap-14 sm:px-6">
+    {
+      tools.length > 0 && (
+        <section class="flex flex-col gap-4" aria-labelledby="post-tools">
+          <h2 id="post-tools" class="text-xl font-semibold tracking-tight">
+            {t.toolsInArticle}
+          </h2>
+          <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {tools.map((tool) => (
+              <ToolCard tool={tool} liveCount={liveByTool[tool.slug] ?? 0} lang={lang} hub={hub} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      related.length > 0 && (
+        <section class="flex flex-col gap-4" aria-labelledby="post-related">
+          <h2 id="post-related" class="text-xl font-semibold tracking-tight">
+            {t.keepReading}
+          </h2>
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {related.map((other, i) => (
+              <BlogCard post={other} image={relatedImages[i]} href={blogPath(lang, other.slug)} lang={lang} hub={hub} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <AffiliateNote lang={lang} hub={hub} />
+  </div>
+</BaseLayout>
+
+<script>
+  // Highlight the table-of-contents entry of the section being read: the last heading above the fold line.
+  const links = new Map<string, HTMLElement[]>();
+  for (const link of document.querySelectorAll<HTMLElement>("[data-toc-link]")) {
+    const id = link.dataset.tocLink!;
+    links.set(id, [...(links.get(id) ?? []), link]);
+  }
+  const targets = [...links.keys()].flatMap((id) => document.getElementById(id) ?? []);
+  let frame = 0;
+  const update = () => {
+    frame = 0;
+    const line = Math.min(window.innerHeight * 0.3, 240);
+    let current: string | undefined;
+    for (const el of targets) {
+      if (el.getBoundingClientRect().top <= line) current = el.id;
+      else break;
+    }
+    for (const [id, els] of links) for (const el of els) el.dataset.active = String(id === current);
+  };
+  if (targets.length) {
+    addEventListener("scroll", () => (frame ||= requestAnimationFrame(update)), { passive: true });
+    update();
+  }
+</script>

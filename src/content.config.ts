@@ -2,6 +2,7 @@ import { defineCollection, reference } from "astro:content";
 import { file, glob } from "astro/loaders";
 import { z } from "astro/zod";
 import { DEAL_KINDS, PLATFORMS, TOOL_CATEGORIES } from "@/lib/deals";
+import { BLOG_CATEGORIES } from "@/lib/blog";
 
 const localizedText = z
   .object({ en: z.string().min(1) })
@@ -136,4 +137,59 @@ const toolProfiles = defineCollection({
   schema: z.union([englishProfile, localizedProfile]),
 });
 
-export const collections = { tools, deals, events, toolProfiles };
+/**
+ * Blog posts: `blog/<locale>/<slug>.md` (id = "<locale>/<slug>"). English files carry the facts
+ * (dates, category, hero image, tools, sources) plus the English text; other locales carry only
+ * the localized text and body. See src/lib/blog.ts and docs/blog/BLOG-BRIEF.md.
+ */
+const howTo = z.strictObject({
+  name: z.string().min(1),
+  steps: z.array(z.strictObject({ name: z.string().min(1), text: z.string().min(1) })).min(3).max(8),
+});
+const postText = {
+  title: z.string().min(1).max(110),
+  metaTitle: z.string().min(1).max(70),
+  metaDescription: z.string().min(1).max(200),
+  excerpt: z.string().min(1),
+  keyTakeaways: z.array(z.string().min(1)).min(3).max(5),
+  faq: z.array(faqItem).min(4).max(6),
+  howTo: howTo.optional(),
+};
+
+const blog = defineCollection({
+  loader: glob({
+    pattern: "*/*.md",
+    base: "./src/content/blog",
+    generateId: ({ entry }) => entry.replace(/\.md$/, ""),
+  }),
+  schema: ({ image }) =>
+    z.union([
+      z.strictObject({
+        ...postText,
+        category: z.enum(BLOG_CATEGORIES),
+        /** Leads the blog index when several posts share the newest date. */
+        featured: z.boolean().optional(),
+        publishedAt: z.coerce.date(),
+        updatedAt: z.coerce.date(),
+        image: z
+          .strictObject({
+            src: image(),
+            alt: z.string().min(1),
+            credit: z.string().min(1),
+            creditUrl: z.url(),
+            /** License deed URL, e.g. https://creativecommons.org/publicdomain/zero/1.0/ */
+            license: z.url(),
+          })
+          .optional(),
+        tools: z
+          .array(reference("tools"))
+          .min(1)
+          .max(14)
+          .refine((list) => new Set(list.map((r) => r.id)).size === list.length, { message: "tools: duplicates" }),
+        sources: z.array(z.string().regex(/^https:\/\/\S+$/, "sources: https URL required")).min(2).max(12),
+      }),
+      z.strictObject({ ...postText, imageAlt: z.string().min(1).optional() }),
+    ]),
+});
+
+export const collections = { tools, deals, events, toolProfiles, blog };

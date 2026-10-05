@@ -88,6 +88,7 @@
       "deals": "AI Deals",
       "tools": "AI Tools",
       "calendar": "Calendar",
+      "blog": "Blog",
       "api": "API",
       "menu": "Menu",
       "language": "Change language",
@@ -328,6 +329,43 @@
           "body": "Spotted an outdated deal or a new promotion? Send it to @onursendere on X."
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "AI Pricing Guides & Comparisons | PromoClock Blog",
+      "metaDescription": "Guides to Claude's peak hours and usage limits, AI plan comparisons, student discounts and ways to pay less for AI tools, checked against official sources.",
+      "title": "PromoClock Blog",
+      "subtitle": "Guides, comparisons and money-saving tips for Claude and 100 popular AI tools, checked against official pricing pages.",
+      "featured": "Featured",
+      "latest": "Latest articles",
+      "readMore": "Read article",
+      "readingTime": "{n} min read",
+      "published": "Published {date}",
+      "updated": "Updated {date}",
+      "by": "By {name}",
+      "keyTakeaways": "Key takeaways",
+      "onThisPage": "On this page",
+      "steps": "Step by step",
+      "faq": "Frequently asked questions",
+      "sources": "Sources",
+      "toolsInArticle": "Tools in this article",
+      "keepReading": "Keep reading",
+      "photo": "Photo: {credit}",
+      "authorRole": "Independent tracker for Claude limits and AI deals",
+      "authorBio": "PromoClock checks every price, limit and offer in these articles against the vendor's own pages before publishing and shows the date of the last check.",
+      "methodology": "How we verify",
+      "rss": "RSS feed",
+      "homeTitle": "From the blog",
+      "homeSubtitle": "Guides and comparisons to help you pay less for AI tools and get more out of them.",
+      "allArticles": "All articles",
+      "toolArticles": "Articles about {name}",
+      "factChecked": "Facts checked against official sources on {date}",
+      "untranslated": "This article isn't available in your language yet, so you're reading the English original.",
+      "categories": {
+        "guides": "Guides",
+        "comparisons": "Comparisons",
+        "deals": "Deals",
+        "news": "News"
+      }
     },
     "notFound": {
       "title": "This page took a break",

@@ -88,6 +88,7 @@
       "deals": "AI Fırsatları",
       "tools": "AI Araçları",
       "calendar": "Takvim",
+      "blog": "Blog",
       "api": "API",
       "menu": "Menü",
       "language": "Dil",
@@ -328,6 +329,43 @@
           "body": "Güncelliğini yitirmiş bir fırsat ya da yeni bir promosyon mu gördün? X'te @onursendere hesabına gönder."
         }
       ]
+    },
+    "blog": {
+      "metaTitle": "AI Fiyat Rehberleri ve Karşılaştırmalar | PromoClock Blog",
+      "metaDescription": "Claude'un yoğun saatleri ve limitleri, AI plan karşılaştırmaları, öğrenci teklifleri ve AI araçlarında tasarruf yolları; hepsi resmî kaynaklarla doğrulandı.",
+      "title": "PromoClock Blog",
+      "subtitle": "Claude ve 100 popüler AI aracı için rehberler, karşılaştırmalar ve tasarruf ipuçları; resmî fiyat sayfalarıyla doğrulandı.",
+      "featured": "Öne çıkan",
+      "latest": "Son yazılar",
+      "readMore": "Yazıyı oku",
+      "readingTime": "{n} dk okuma",
+      "published": "Yayın tarihi: {date}",
+      "updated": "Güncelleme: {date}",
+      "by": "Yazar: {name}",
+      "keyTakeaways": "Kısaca",
+      "onThisPage": "Bu sayfada",
+      "steps": "Adım adım",
+      "faq": "Sık sorulan sorular",
+      "sources": "Kaynaklar",
+      "toolsInArticle": "Bu yazıdaki araçlar",
+      "keepReading": "Okumaya devam et",
+      "photo": "Fotoğraf: {credit}",
+      "authorRole": "Claude limitleri ve AI fırsatları için bağımsız takip sitesi",
+      "authorBio": "PromoClock, bu yazılardaki her fiyatı, limiti ve teklifi yayından önce şirketin kendi sayfalarıyla karşılaştırır ve son kontrol tarihini gösterir.",
+      "methodology": "Nasıl doğruluyoruz",
+      "rss": "RSS akışı",
+      "homeTitle": "Blogdan",
+      "homeSubtitle": "AI araçlarına daha az ödemen ve onlardan daha fazlasını alman için rehberler ve karşılaştırmalar.",
+      "allArticles": "Tüm yazılar",
+      "toolArticles": "{name} hakkında yazılar",
+      "factChecked": "Bilgiler {date} tarihinde resmî kaynaklarla kontrol edildi",
+      "untranslated": "Bu yazı henüz Türkçeye çevrilmedi; şu an İngilizce orijinalini okuyorsun.",
+      "categories": {
+        "guides": "Rehberler",
+        "comparisons": "Karşılaştırmalar",
+        "deals": "Fırsatlar",
+        "news": "Haberler"
+      }
     },
     "notFound": {
       "title": "Bu sayfa mola verdi",
