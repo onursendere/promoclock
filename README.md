@@ -54,8 +54,33 @@ Each tool page (`/<lang>/tools/<slug>/`) is built from `src/content/tool-profile
 The only public endpoint is `GET /api/status`: live Claude peak-hours status as JSON, CORS enabled, rate limited to 60 requests per minute per IP. It keeps the exact response shape of the original Next.js endpoint; `tests/api/contract.test.ts` runs the built PHP and fails CI if a field changes. Deals and tools are not offered via API (the old `/api/deals` and `/api/tools.json` answer `410 Gone`).
 
 ```bash
-curl -s https://promoclock.co/api/status | python3 -c "import sys,json;d=json.load(sys.stdin);print(d['emoji'],d['label'])"
+curl -s -A "my-prompt/1.0 (+https://github.com/me/dotfiles)" https://promoclock.co/api/status | python3 -c "import sys,json;d=json.load(sys.stdin);print(d['emoji'],d['label'])"
 ```
+
+### Terms of use
+
+The API is free for non-commercial use under the [API terms](API_TERMS.md). In short:
+
+- Credit PromoClock with a link to https://promoclock.co wherever you show the data. If there is no room on screen, put the credit in your README or About screen.
+- Commercial use needs written permission.
+- Send a `User-Agent` with your app's name and a link, and ask at most once a minute.
+
+### Used by
+
+Open-source projects that call the API, as of October 2026:
+
+| Project | What it is |
+| --- | --- |
+| [AI Usage for Windows](https://github.com/datell1357/AI-Usage-for-Windows) | Windows tray app for AI coding subscription usage |
+| [Cirrondly Desk Community](https://github.com/cirrondly/cirrondly-desk-community) | macOS menu bar app that tracks AI coding tool usage |
+| [Codex Pet Meter](https://github.com/rain2day/codex-pet-meter) | Floating Codex usage overlay that also shows Claude's peak-hours state |
+| [monitoring-claude](https://github.com/xavinsky/monitoring-claude) | Self-hosted Claude Code quota tracking with systemd and a dashboard |
+| [Prism](https://github.com/mttmcknn/prism) | Status line for Claude Code, with a peak-hours plugin |
+| [Sidekick Agent Hub](https://github.com/cesarandreslopez/sidekick-agent-hub) | Session monitor for AI coding agents in VS Code and the terminal |
+| [tokmon](https://github.com/DavidIlie/tokmon) | Terminal dashboard for Claude Code usage and costs |
+| [UsageWatch](https://github.com/Taznc/UsageWatch) | Tray app for Claude, Codex and Cursor usage limits |
+
+If your project follows the terms, open a pull request to add it here.
 
 ## Deploy
 
@@ -69,7 +94,7 @@ Repository secrets: `CPANEL_FTP_SERVER`, `CPANEL_FTP_USERNAME`, `CPANEL_FTP_PASS
 
 ## License
 
-Source-available, non-commercial, no derivatives — see [LICENSE](LICENSE).
+Source-available, non-commercial, no derivatives — see [LICENSE](LICENSE). The license covers the code in this repository; use of the API is covered by the [API terms](API_TERMS.md).
 
 PromoClock is an independent project and is not affiliated with Anthropic or any tool listed. Some outbound links may be affiliate links; see the affiliate disclosure on the site.
 
