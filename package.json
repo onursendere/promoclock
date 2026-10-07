@@ -13,6 +13,7 @@
     "test": "vitest run",
     "test:api": "vitest run --config vitest.api.config.ts",
     "audit:indexing": "node scripts/audit-indexing.mjs",
+    "audit:structured-data": "node scripts/audit-structured-data.mjs",
     "astro": "astro"
   },
   "dependencies": {

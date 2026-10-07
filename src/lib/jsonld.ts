@@ -192,7 +192,11 @@ export function howToStepsNode(name: string, steps: { name: string; text: string
   };
 }
 
-/** Hero photo with its credit and license, so image search can show both. */
+/**
+ * Hero photo with its credit and license, so image search can show both. Carries every image
+ * metadata field Google checks (Search Console flags each missing one). `url` must be the <img src>
+ * the page shows: Google ties the metadata to the image whose URL matches contentUrl.
+ */
 export function imageObjectNode(opts: {
   id: string;
   url: string;
@@ -214,6 +218,8 @@ export function imageObjectNode(opts: {
     caption: opts.caption,
     creditText: opts.credit,
     creator: { "@type": "Person", name: creator },
+    // Unsplash and CC BY photographers keep the copyright; a CC0 or public domain photo has none.
+    copyrightNotice: opts.license.includes("/publicdomain/") ? `${creator}, public domain` : `© ${creator}`,
     license: opts.license,
     acquireLicensePage: opts.creditUrl,
   };

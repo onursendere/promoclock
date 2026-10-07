@@ -4,6 +4,7 @@ import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { i18n } from "@/lib/i18n/config";
 import { countWords, licenseLabel, localizeHref, plainText, readingMinutes } from "@/lib/blog";
+import { imageObjectNode } from "@/lib/jsonld";
 
 /**
  * Blog posts: src/content/blog/<locale>/<slug>.md. English holds the facts; translations mirror
@@ -66,5 +67,28 @@ describe("blog helpers", () => {
     expect(licenseLabel("https://unsplash.com/license")).toBe("Unsplash License");
     expect(licenseLabel("https://creativecommons.org/publicdomain/zero/1.0/")).toBe("CC0");
     expect(licenseLabel("https://creativecommons.org/licenses/by-sa/4.0/")).toBe("CC BY-SA 4.0");
+  });
+
+  it("gives hero photos every image metadata field Search Console checks", () => {
+    const photo = {
+      id: "https://promoclock.co/en/blog/claude-peak-hours/#primaryimage",
+      url: "https://promoclock.co/_astro/claude-peak-hours.webp",
+      width: 1600,
+      height: 900,
+      caption: "Wall clock",
+      credit: "CHUTTERSNAP / Unsplash",
+      creditUrl: "https://unsplash.com/photos/white-round-wall-clock-at-225-saFcXkj0xog",
+      license: "https://unsplash.com/license",
+    };
+    expect(imageObjectNode(photo)).toMatchObject({
+      contentUrl: photo.url,
+      creator: { "@type": "Person", name: "CHUTTERSNAP" },
+      creditText: "CHUTTERSNAP / Unsplash",
+      copyrightNotice: "© CHUTTERSNAP",
+      license: photo.license,
+      acquireLicensePage: photo.creditUrl,
+    });
+    const cc0 = imageObjectNode({ ...photo, license: "https://creativecommons.org/publicdomain/zero/1.0/" });
+    expect(cc0.copyrightNotice).toBe("CHUTTERSNAP, public domain");
   });
 });

@@ -42,5 +42,5 @@ export async function shareImages(image: PostImage) {
       absoluteUrl(r.src),
     );
   const [og, wide, standard, square] = await Promise.all([jpeg(1200, 630), jpeg(1200, 675), jpeg(1200, 900), jpeg(1200, 1200)]);
-  return { og, schema: [wide, standard, square], primary: { url: wide, width: 1200, height: 675 } };
+  return { og, schema: [wide, standard, square] };
 }

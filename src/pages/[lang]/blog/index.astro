@@ -38,11 +38,12 @@ const jsonLd = [
     lang,
     name: t.title,
     description: t.subtitle,
-    posts: posts.map((post) => ({
+    posts: posts.map((post, i) => ({
       url: absoluteUrl(hrefOf(post.slug)),
       headline: post.title,
       publishedAt: post.publishedAt,
       updatedAt: post.updatedAt,
+      ...(images[i] ? { image: absoluteUrl(images[i].src) } : {}),
     })),
   }),
   itemListNode(

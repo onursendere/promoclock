@@ -112,17 +112,17 @@ const jsonLd = [
     description: post.metaDescription,
     lang: pageLang,
     dateModified: post.updatedAt,
-    ...(share ? { primaryImage: `${url}#primaryimage` } : {}),
+    ...(hero ? { primaryImage: `${url}#primaryimage` } : {}),
     breadcrumb: `${url}#breadcrumb`,
     authorId: ORG_ID,
   }),
-  ...(share && post.image
+  ...(hero && post.image
     ? [
         imageObjectNode({
           id: `${url}#primaryimage`,
-          url: share.primary.url,
-          width: share.primary.width,
-          height: share.primary.height,
+          url: absoluteUrl(hero.src),
+          width: hero.width,
+          height: hero.height,
           caption: post.image.alt,
           credit: post.image.credit,
           creditUrl: post.image.creditUrl,

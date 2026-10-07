@@ -3,7 +3,6 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { getEvents, getTools } from "@/lib/content";
-import { localize } from "@/lib/deals";
 import { breadcrumbNode, webPageNode } from "@/lib/jsonld";
 import { absoluteUrl, dealPath, localePath } from "@/lib/seo";
 import { BUILD_TIME } from "@/lib/site";
@@ -43,18 +42,10 @@ for (const event of upcoming) {
   else months.push({ label, events: [event] });
 }
 
+// No Event markup: Google's event guidelines forbid marking up sales, discounts and deadlines as
+// events, and it supports only in-person events (Search Console's Events report flags the rest).
 const jsonLd = [
   webPageNode({ url: absoluteUrl(localePath(lang, "calendar")), name: t.metaTitle, description: t.metaDescription, lang }),
-  ...upcoming.map((event) => ({
-    "@type": "Event",
-    name: localize(event.title, lang),
-    startDate: new Date(event.date).toISOString(),
-    ...(event.endDate ? { endDate: new Date(event.endDate).toISOString() } : {}),
-    eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
-    eventStatus: "https://schema.org/EventScheduled",
-    location: { "@type": "VirtualLocation", url: absoluteUrl(event.href ?? localePath(lang, "calendar")) },
-    ...(event.description ? { description: localize(event.description, lang) } : {}),
-  })),
   breadcrumbNode([
     { name: "PromoClock", path: localePath(lang) },
     { name: hub.nav.calendar, path: localePath(lang, "calendar") },
