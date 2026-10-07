@@ -1,4 +1,5 @@
 import type { Locale } from "@/lib/i18n/config";
+import { outboundUrl } from "@/lib/outbound";
 
 export const DEAL_KINDS = [
   "limit-boost",
@@ -177,11 +178,12 @@ export function getClaudeHeroState(
 /** Latest verification date across deals — used as dateModified. */
 export const lastVerified = (deals: DealRecord[]) => Math.max(...deals.map((d) => d.verifiedAt));
 
-/** Outbound URL for a tool: the tracked /go/ redirect. */
-export const goPath = (slug: string) => `/go/${slug}/`;
-
+/**
+ * Deal CTA: the deal's own URL, else the tool's site. Links go straight to the target; an internal
+ * redirect hop would show up in Search Console as a non-indexed page for every tool.
+ */
 export function dealHref(deal: DealRecord, tool: ToolRecord | undefined): { href: string; sponsored: boolean } {
   if (deal.ctaUrl) return { href: deal.ctaUrl, sponsored: false };
-  if (tool) return { href: goPath(tool.slug), sponsored: Boolean(tool.affiliate) };
+  if (tool) return { href: outboundUrl(tool), sponsored: Boolean(tool.affiliate) };
   return { href: deal.sourceUrl, sponsored: false };
 }

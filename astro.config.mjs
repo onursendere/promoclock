@@ -45,7 +45,7 @@ export default defineConfig({
       },
       filter: (page) => {
         const { pathname } = new URL(page);
-        if (pathname === "/" || pathname.startsWith("/go/") || pathname.startsWith("/og/")) return false;
+        if (pathname === "/" || pathname.startsWith("/og/")) return false;
         const post = pathname.match(BLOG_POST);
         if (post && !hasPost(post[1], post[2])) return false;
         const hub = pathname.match(HUB_SECTIONS);

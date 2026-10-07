@@ -12,6 +12,7 @@
     "preview": "astro preview",
     "test": "vitest run",
     "test:api": "vitest run --config vitest.api.config.ts",
+    "audit:indexing": "node scripts/audit-indexing.mjs",
     "astro": "astro"
   },
   "dependencies": {

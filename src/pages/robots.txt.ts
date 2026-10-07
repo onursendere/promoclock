@@ -2,8 +2,8 @@ import type { APIRoute } from "astro";
 import { IS_STAGING, SITE_URL } from "@/lib/site";
 
 /**
- * /go/<slug>/ outbound redirects stay crawlable on purpose: blocking them here made Google report
- * "Blocked by robots.txt". They answer 302 with X-Robots-Tag: noindex (see the .htaccess generator).
+ * Nothing is disallowed on purpose: a robots.txt block shows up in Search Console as "Blocked by
+ * robots.txt". Keep URLs out of the index with noindex instead, and don't link to URLs that aren't pages.
  */
 export const GET: APIRoute = () => {
   const body = IS_STAGING

@@ -12,7 +12,8 @@ import { Button } from "@/components/ui/button";
 import { ToolLogo } from "@/components/site/ToolLogo";
 import type { Locale } from "@/lib/i18n/config";
 import { format, type HubDictionary } from "@/lib/i18n/dictionaries";
-import { goPath, localize, type ToolRecord } from "@/lib/deals";
+import { localize, type ToolRecord } from "@/lib/deals";
+import { outboundUrl } from "@/lib/outbound";
 import { localePath } from "@/lib/seo";
 
 export function ToolHero({
@@ -67,7 +68,7 @@ export function ToolHero({
           </div>
           <div className="flex w-full flex-col gap-2 sm:w-auto sm:shrink-0">
             <Button asChild className="w-full sm:w-auto">
-              <a href={goPath(tool.slug)} target="_blank" rel={tool.affiliate ? "sponsored noopener" : "noopener"}>
+              <a href={outboundUrl(tool)} target="_blank" rel={tool.affiliate ? "sponsored noopener" : "noopener"}>
                 {format(hub.common.visit, { name: tool.name })}
                 <ArrowUpRight data-icon="inline-end" />
               </a>

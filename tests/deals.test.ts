@@ -109,7 +109,7 @@ describe("helpers", () => {
     expect(switchLocalePath("/", "de")).toBe("/de/");
   });
 
-  it("routes deal CTAs through /go/ unless the deal has its own URL", () => {
+  it("links deal CTAs straight to the tool's site unless the deal has its own URL", () => {
     const tool: ToolRecord = {
       slug: "cursor",
       name: "Cursor",
@@ -119,7 +119,15 @@ describe("helpers", () => {
       popularityRank: 1,
       tagline: { en: "x" },
     };
-    expect(dealHref(deal({ tool: "cursor" }), tool)).toEqual({ href: "/go/cursor/", sponsored: false });
+    expect(dealHref(deal({ tool: "cursor" }), tool)).toEqual({
+      href: "https://cursor.com/?utm_source=promoclock&utm_medium=referral&utm_campaign=tools",
+      sponsored: false,
+    });
+    const affiliate = { url: "https://cursor.com/?ref=pc", network: "direct", commission: "20%", verifiedAt: 0 };
+    expect(dealHref(deal({ tool: "cursor" }), { ...tool, affiliate })).toEqual({
+      href: "https://cursor.com/?ref=pc&utm_source=promoclock&utm_medium=referral&utm_campaign=tools",
+      sponsored: true,
+    });
     expect(dealHref(deal({ ctaUrl: "https://cursor.com/students" }), tool).href).toBe("https://cursor.com/students");
   });
 });

@@ -5,7 +5,7 @@ import path from "node:path";
 
 /**
  * Writes dist/.htaccess for Apache/LiteSpeed (cPanel) after the static build:
- * HTTPS, language redirect for "/", the /api/status rewrite, /go/<slug>/ 302s built
+ * HTTPS, language redirect for "/", the /api/status rewrite, legacy /go/<slug>/ 301s built
  * from dist/go/redirects.json (deleted afterwards), caching, compression and security headers.
  *
  * @param {{ locales: readonly string[]; defaultLocale: string; staging?: boolean }} options
@@ -55,9 +55,9 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
           "  # Retired endpoints.",
           "  RewriteRule ^api/(deals(\\.php|\\.json)?|tools\\.json)/?$ - [G,L]",
           "",
-          "  # Outbound tool links (affiliate or official site, with UTM). Crawlable, but never indexed:",
-          "  # PC_OUTBOUND triggers the X-Robots-Tag header below.",
-          ...tools.map((t) => `  RewriteRule ^go/${t.slug}/?$ ${escapeTarget(t.outbound)} [R=302,L,NE,E=PC_OUTBOUND:1]`),
+          "  # Retired /go/<slug>/ outbound links: pages link straight to the tool's site now, and old URLs",
+          "  # move there permanently (no noindex, so Search Console lists them as redirects, not exclusions).",
+          ...tools.map((t) => `  RewriteRule ^go/${t.slug}/?$ ${escapeTarget(t.outbound)} [R=301,L,NE]`),
           "",
           "  # Legacy URLs from the Next.js site.",
           "  RewriteRule ^sitemap\\.xml$ /sitemap-index.xml [R=301,L]",
@@ -84,7 +84,6 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
           '  Header always set X-Frame-Options "SAMEORIGIN"',
           '  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"',
           ...(staging ? ['  Header always set X-Robots-Tag "noindex, nofollow"'] : []),
-          '  Header always set X-Robots-Tag "noindex, nofollow" env=PC_OUTBOUND',
           '  <FilesMatch "\\.html$">',
           '    Header set Cache-Control "public, max-age=0, must-revalidate"',
           "  </FilesMatch>",
@@ -117,7 +116,7 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
           "utf8",
         );
 
-        logger.info(`.htaccess written with ${tools.length} /go/ redirects${staging ? " (staging)" : ""}`);
+        logger.info(`.htaccess written with ${tools.length} legacy /go/ redirects${staging ? " (staging)" : ""}`);
       },
     },
   };

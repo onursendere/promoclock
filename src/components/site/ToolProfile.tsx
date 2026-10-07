@@ -17,6 +17,18 @@ import { formatDate } from "@/lib/time";
 
 const isoDay = (ms: number) => new Date(ms).toISOString().slice(0, 10);
 
+const EMAIL = /([\w.%+-]+@[\w-]+(?:\.[\w-]+)+)/;
+
+/**
+ * Text whose e-mail addresses (e.g. Fireflies' fred@fireflies.ai) are fenced off from Cloudflare's
+ * Email Obfuscation, which would turn them into /cdn-cgi/l/email-protection links that crawlers report as 404s.
+ */
+function TextWithEmails({ text }: { text: string }) {
+  return text.split(EMAIL).map((part, i) =>
+    i % 2 ? <span key={i} dangerouslySetInnerHTML={{ __html: `<!--email_off-->${part}<!--/email_off-->` }} /> : part,
+  );
+}
+
 /** Vendor, category, platforms, free plan, pricing from, last reviewed — two tables side by side from sm. */
 export function ToolQuickFacts({ tool, profile, lang, hub }: { tool: ToolRecord; profile: ToolProfile; lang: Locale; hub: HubDictionary }) {
   const t = hub.toolPage;
@@ -86,7 +98,9 @@ export function ToolFeatures({ features }: { features: ToolProfile["keyFeatures"
         <Item key={feature.name} role="listitem" variant="outline" className="h-full items-start bg-card">
           <ItemContent>
             <ItemTitle className="line-clamp-none">{feature.name}</ItemTitle>
-            <ItemDescription className="line-clamp-none">{feature.description}</ItemDescription>
+            <ItemDescription className="line-clamp-none">
+              <TextWithEmails text={feature.description} />
+            </ItemDescription>
           </ItemContent>
         </Item>
       ))}

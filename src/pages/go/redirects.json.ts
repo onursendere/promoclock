@@ -3,8 +3,8 @@ import { getTools } from "@/lib/content";
 import { outboundUrl } from "@/lib/outbound";
 
 /**
- * Build-only list of /go/<slug>/ targets. integrations/cpanel-htaccess.mjs turns it into
- * 302 rules and then deletes the file from dist/, so it is never published.
+ * Build-only list of legacy /go/<slug>/ targets. integrations/cpanel-htaccess.mjs turns it into
+ * 301 rules and then deletes the file from dist/, so it is never published.
  */
 export const GET: APIRoute = async () => {
   const tools = await getTools();
