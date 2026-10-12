@@ -15,7 +15,9 @@ $peak = is_array($config['peakHours'] ?? null) ? $config['peakHours'] : ['startU
 $start = (int) $peak['startUtc'];
 $end = (int) $peak['endUtc'];
 
-$now = time();
+// One clock reading for everything below, so minutesUntilChange always matches timestamp.
+$micro = microtime(true);
+$now = (int) floor($micro);
 $day = (int) gmdate('w', $now);
 $hour = (int) gmdate('G', $now);
 $year = (int) gmdate('Y', $now);
@@ -48,7 +50,6 @@ $ptLabel = static function (int $h) use ($at, $pacific): string {
 $ptAbbr = (new DateTimeImmutable('@' . $now))->setTimezone($pacific)->format('T');
 
 $secondsUntilChange = $next - $now;
-$micro = microtime(true);
 
 pc_json_headers();
 header(sprintf('Cache-Control: public, s-maxage=%d, stale-while-revalidate=10', max(0, min($secondsUntilChange, 60))));
@@ -63,7 +64,7 @@ echo json_encode([
     'label' => $isPeak ? 'Peak Hours — Limits Drain Faster' : 'Off-Peak — Normal Speed',
     'peakHours' => sprintf('Weekdays %s–%s UTC / %s–%s %s', $utcLabel($start), $utcLabel($end), $ptLabel($start), $ptLabel($end), $ptAbbr),
     'nextChange' => pc_iso($next),
-    'minutesUntilChange' => intdiv($secondsUntilChange, 60),
+    'minutesUntilChange' => (int) floor(($next - $micro) / 60),
     'timestamp' => gmdate('Y-m-d\TH:i:s', (int) $micro) . sprintf('.%03dZ', (int) (($micro - floor($micro)) * 1000)),
     'utcHour' => $hour,
     'utcDay' => $day,
