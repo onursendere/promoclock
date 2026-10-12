@@ -11,7 +11,7 @@ const BLOG = path.join(REPO, "src/content/blog");
 const LOCALES = ["en", "hi", "ja", "fr", "pt", "ko", "es", "de", "zh-CN", "tr"];
 const CJK = new Set(["ja", "zh-CN"]);
 const CATEGORIES = ["guides", "comparisons", "deals", "news"];
-const SECTIONS = new Set(["", "deals", "tools", "calendar", "about", "affiliate-disclosure", "blog"]);
+const SECTIONS = new Set(["", "deals", "tools", "calendar", "about", "affiliate-disclosure", "privacy", "blog"]);
 const toolSlugs = new Set(readdirSync(path.join(REPO, "src/content/tools")).map((f) => f.replace(/\.md$/, "")));
 const dealIds = new Set([...readFileSync(path.join(REPO, "src/content/deals.yaml"), "utf8").matchAll(/^- id: (\S+)/gm)].map((m) => m[1]));
 // Published English posts plus the planned slugs listed in the brief (posts are written in parallel).

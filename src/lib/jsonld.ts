@@ -1,6 +1,6 @@
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { localize, type DealRecord, type ToolRecord } from "@/lib/deals";
-import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
+import { AUTHOR, CONTACT_EMAIL, SITE_NAME, SITE_URL } from "@/lib/site";
 import { SCHEMA_CATEGORY, operatingSystems, type ToolProfile } from "@/lib/profiles";
 
 /**
@@ -23,6 +23,7 @@ export function siteNodes(): Node[] {
       name: SITE_NAME,
       url: SITE_URL,
       logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png`, width: 512, height: 512 },
+      email: CONTACT_EMAIL,
       founder: { "@id": PERSON_ID },
       sameAs: [AUTHOR.repo],
     },

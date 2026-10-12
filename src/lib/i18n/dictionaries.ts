@@ -1,6 +1,7 @@
 import type { Locale } from "./config";
 import type { Platform } from "@/lib/deals";
 import type { BlogCategory } from "@/lib/blog";
+import type { StorageItem } from "@/lib/consent";
 import en from "@/dictionaries/en.json";
 import hi from "@/dictionaries/hi.json";
 import ja from "@/dictionaries/ja.json";
@@ -35,6 +36,18 @@ export interface Dictionary {
     stackopticCta: Text;
   };
   footer: { crafted: Text; coffeeLead: Text; buymeacoffee: Text; disclaimer: Text; rights: Text };
+  consent: {
+    title: Text;
+    body: Text;
+    accept: Text;
+    reject: Text;
+    policy: Text;
+    settings: Text;
+    current: Text;
+    currentAnalytics: Text;
+    currentNecessary: Text;
+    saved: Text;
+  };
   hub: HubDictionary;
 }
 
@@ -183,6 +196,21 @@ export interface HubDictionary {
     aSource: Text;
   };
   about: { metaTitle: Text; metaDescription: Text; title: Text; intro: Text; sections: { title: Text; body: Text }[] };
+  privacy: {
+    metaTitle: Text;
+    metaDescription: Text;
+    title: Text;
+    intro: Text;
+    updated: Text;
+    manage: Text;
+    sections: { title: Text; body: Text }[];
+    storageTitle: Text;
+    storageIntro: Text;
+    columns: { name: Text; purpose: Text; duration: Text };
+    categories: { necessary: Text; analytics: Text };
+    kinds: { cookie: Text; localStorage: Text };
+    items: Record<StorageItem, { purpose: Text; duration: Text }>;
+  };
   blog: {
     metaTitle: Text;
     metaDescription: Text;

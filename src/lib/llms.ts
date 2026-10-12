@@ -2,7 +2,7 @@ import { CITY_SCHEDULES, PEAK_HOURS } from "@/data/claude";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { i18n } from "@/lib/i18n/config";
 import { getDealStatus, partitionDeals, type DealRecord, type ToolRecord } from "@/lib/deals";
-import { AUTHOR, BUILD_TIME, SITE_URL } from "@/lib/site";
+import { AUTHOR, BUILD_TIME, CONTACT_EMAIL, SITE_URL } from "@/lib/site";
 import { localePath } from "@/lib/seo";
 import { startingPriceLabel, type ToolProfile } from "@/lib/profiles";
 import type { BlogPost } from "@/lib/blog";
@@ -74,6 +74,7 @@ ${upcoming.length ? `\n## Upcoming\n${upcoming.map((d) => dealLine(d, map)).join
 - Blog (guides, comparisons, money-saving tips): ${url(localePath("en", "blog"))} · RSS: ${url(localePath("en", "blog"))}rss.xml
 - About & methodology: ${url(localePath("en", "about"))}
 - Affiliate disclosure: ${url(localePath("en", "affiliate-disclosure"))}
+- Privacy & cookies: ${url(localePath("en", "privacy"))}
 - Languages: ${i18n.locales.join(", ")} (e.g. ${url(localePath("tr"))})
 
 ## API (JSON, CORS enabled, 60 requests/minute per IP)
@@ -82,6 +83,7 @@ ${upcoming.length ? `\n## Upcoming\n${upcoming.map((d) => dealLine(d, map)).join
 ## Links
 - Full reference: ${url("/llms-full.txt")}
 - Source code: ${AUTHOR.repo}
+- Contact: ${CONTACT_EMAIL}
 - Author: ${AUTHOR.x}
 - Agency: ${AUTHOR.agency}
 `;

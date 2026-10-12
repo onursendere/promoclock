@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ContactText } from "@/components/site/ContactText";
 
 export function AboutSections({ sections }: { sections: { title: string; body: string }[] }) {
   return (
@@ -10,7 +11,9 @@ export function AboutSections({ sections }: { sections: { title: string; body: s
               <h2>{section.title}</h2>
             </CardTitle>
           </CardHeader>
-          <CardContent className="leading-relaxed text-muted-foreground">{section.body}</CardContent>
+          <CardContent className="leading-relaxed text-muted-foreground">
+            <ContactText text={section.body} />
+          </CardContent>
         </Card>
       ))}
     </div>

@@ -8,6 +8,7 @@ import { absoluteUrl, alternateLinks, localePath } from "@/lib/seo";
 import { i18n, localeNames } from "@/lib/i18n/config";
 import { AUTHOR } from "@/lib/site";
 import SiteHeader from "@/components/islands/SiteHeader";
+import CookieConsent from "@/components/islands/CookieConsent";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { CoffeeButton } from "@/components/site/CoffeeButton";
 
@@ -134,21 +135,11 @@ const navItems = [
       })();
     </script>
 
-    {
-      !IS_STAGING && (
-        <>
-          <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-MN3F77SZVF" />
-          <script is:inline>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-              dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
-            gtag("config", "G-MN3F77SZVF");
-          </script>
-        </>
-      )
-    }
+    <script>
+      // Consent Mode defaults first; Google Analytics loads only after the visitor allows it.
+      import { initConsent } from "@/lib/consent";
+      initConsent();
+    </script>
 
     <script is:inline type="application/ld+json" set:html={JSON.stringify(graph)} />
   </head>
@@ -158,6 +149,7 @@ const navItems = [
       class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[60] focus:rounded-md focus:bg-primary focus:px-3 focus:py-2 focus:text-primary-foreground"
       >Skip to content</a
     >
+    <CookieConsent client:load text={dict.consent} policyHref={localePath(lang, "privacy")} />
     <SiteHeader
       client:load
       lang={lang}

@@ -14,7 +14,7 @@ const locales = i18n.locales;
 const hubLocales = locales.filter(
   (l) => l === "en" || "hub" in JSON.parse(readFileSync(new URL(`./src/dictionaries/${l}.json`, import.meta.url), "utf8")),
 );
-const HUB_SECTIONS = /^\/([^/]+)\/(deals|tools|calendar|affiliate-disclosure|about|blog)\//;
+const HUB_SECTIONS = /^\/([^/]+)\/(deals|tools|calendar|affiliate-disclosure|privacy|about|blog)\//;
 const BLOG_POST = /^\/([^/]+)\/blog\/([^/]+)\/$/;
 const staging = process.env.PUBLIC_STAGING === "true";
 

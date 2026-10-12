@@ -82,6 +82,18 @@
     "disclaimer": "O PromoClock é um projeto independente, sem ligação com a Anthropic ou o Claude. Conteúdo apenas informativo.",
     "rights": "© 2026 PromoClock. Criado por Onur Şendere."
   },
+  "consent": {
+    "title": "Cookies de análise",
+    "body": "Gostaríamos de usar cookies do Google Analytics para contar visitas e entender quais páginas ajudam. Eles ficam desativados, a menos que você permita, e nunca usamos cookies de publicidade. Suas configurações de idioma e tema são salvas de qualquer forma.",
+    "accept": "Permitir análises",
+    "reject": "Só o necessário",
+    "policy": "Privacidade e cookies",
+    "settings": "Preferências de cookies",
+    "current": "Escolha atual: {choice}.",
+    "currentAnalytics": "análises permitidas",
+    "currentNecessary": "só o necessário",
+    "saved": "Sua escolha de cookies foi salva."
+  },
   "hub": {
     "nav": {
       "claude": "Claude Watch",
@@ -287,7 +299,7 @@
         "Parcerias de afiliados nunca decidem se uma oferta entra na lista. Listamos ofertas disponíveis publicamente nos canais oficiais de cada ferramenta, com link para a fonte original e a data da nossa última verificação.",
         "Só mostramos códigos promocionais que a própria ferramenta divulga ou que o programa de parceiros dela fornece. Ofertas expiradas saem sozinhas das listas de ofertas ativas.",
         "Ferramentas sem programa de afiliados, como ChatGPT, Gemini, Claude e Midjourney, recebem exatamente o mesmo tratamento. O PromoClock não tem ligação com a Anthropic nem com nenhuma ferramenta listada.",
-        "Dúvidas? Fale com a gente no X: @onursendere."
+        "Dúvidas? Fale com a gente pelo e-mail {email} ou no X: @onursendere."
       ]
     },
     "dealPage": {
@@ -326,9 +338,92 @@
         },
         {
           "title": "Contato",
-          "body": "Viu uma oferta desatualizada ou uma promoção nova? Mande para @onursendere no X."
+          "body": "Viu uma oferta desatualizada ou uma promoção nova? Mande um e-mail para {email} ou uma mensagem para @onursendere no X."
         }
       ]
+    },
+    "privacy": {
+      "metaTitle": "Política de Privacidade e Cookies | PromoClock",
+      "metaDescription": "O que o PromoClock coleta, por que o Google Analytics só roda com o seu consentimento, quais cookies e armazenamento local o site usa e como mudar sua escolha.",
+      "title": "Privacidade e cookies",
+      "intro": "O PromoClock coleta o mínimo possível. Esta página explica o que é processado quando você visita o site, quais cookies e armazenamento ele usa e como mudar de ideia a qualquer momento.",
+      "updated": "Última atualização: {date}",
+      "manage": "Alterar escolha de cookies",
+      "sections": [
+        {
+          "title": "Quem é o responsável",
+          "body": "O PromoClock é mantido por Onur Şendere, em Shrewsbury, no Reino Unido, que é o controlador de dados deste site. Para dúvidas ou solicitações sobre privacidade, envie um e-mail para {email} ou uma mensagem para @onursendere no X."
+        },
+        {
+          "title": "Quando você visita",
+          "body": "Para entregar as páginas e manter o site seguro, nosso servidor de hospedagem e a Cloudflare, que fica à frente dele, processam dados técnicos de cada requisição: seu endereço IP, o tipo de navegador e de dispositivo, a página solicitada e o horário. Não usamos esses dados para identificar você nem para criar perfis. O endpoint /api/status guarda por alguns minutos um hash unidirecional do seu endereço IP para aplicar o limite de requisições."
+        },
+        {
+          "title": "Google Analytics, só com o seu consentimento",
+          "body": "Se você escolher “{accept}”, seu navegador carrega o Google Analytics 4 para que possamos contar visitas e ver quais páginas são úteis. Ele registra as páginas que você vê, o site que levou você até aqui, sua localização aproximada (país e cidade, obtidos a partir do seu endereço IP), seu dispositivo, navegador, sistema operacional, tamanho de tela e idioma, além de interações como rolagem e cliques em links externos. Esses dados são associados a um ID aleatório guardado nos cookies _ga. O Google Analytics não armazena endereços IP. Os recursos de publicidade ficam desativados: Google signals, personalização de anúncios e armazenamento para anúncios estão desligados. Se você escolher “{reject}” ou não escolher nada, o Google Analytics não é carregado e nada é enviado ao Google."
+        },
+        {
+          "title": "Base legal",
+          "body": "O Google Analytics só roda com o seu consentimento (art. 6º, 1, a), do UK GDPR e regulamento 6 do PECR; na UE, art. 6º, 1, a), do RGPD e art. 5º, 3, da Diretiva ePrivacy). Os dados de requisição e o armazenamento necessário listado abaixo se baseiam em nosso interesse legítimo em manter um site seguro e em oferecer os recursos que você usa, o que não exige consentimento."
+        },
+        {
+          "title": "Por quanto tempo guardamos os dados",
+          "body": "O Google Analytics guarda dados em nível de evento por 2 meses; depois disso, restam apenas relatórios agregados. Os cookies _ga expiram após 13 meses. Sua escolha de cookies é lembrada por 6 meses, e então perguntamos de novo, ou antes, se mudarmos a forma como usamos cookies."
+        },
+        {
+          "title": "Transferências internacionais",
+          "body": "O Google e a Cloudflare podem processar dados nos Estados Unidos e em outros países. Ambos são certificados no Quadro de Privacidade de Dados UE-EUA (Data Privacy Framework) e em sua Extensão para o Reino Unido, que abrange essas transferências."
+        },
+        {
+          "title": "Suas escolhas e direitos",
+          "body": "Você pode alterar ou retirar seu consentimento a qualquer momento em “{settings}”, no rodapé de todas as páginas. Retirar o consentimento interrompe a medição na hora e apaga os cookies do Google Analytics do seu navegador. Você também pode pedir para acessar, corrigir ou excluir seus dados, ou se opor ao uso deles ou pedir que seja restringido; como os dados de análise estão ligados apenas a um ID aleatório, talvez não consigamos associá-los a você. Se não estiver satisfeito com o tratamento dos seus dados, você pode apresentar uma reclamação ao Information Commissioner's Office (ico.org.uk) ou à sua autoridade local de proteção de dados."
+        },
+        {
+          "title": "Mudanças nesta política",
+          "body": "Quando esta política mudar, atualizamos a data no topo desta página. Se a mudança afetar os cookies, o banner pede sua escolha de novo."
+        }
+      ],
+      "storageTitle": "Cookies e armazenamento que usamos",
+      "storageIntro": "Os itens necessários só são salvos quando você usa o recurso a que pertencem. Eles ficam no seu dispositivo, exceto o cookie de idioma, que é enviado ao nosso servidor para que a página inicial abra no seu idioma. Os cookies de análise só são definidos depois que você os permite.",
+      "columns": {
+        "name": "Nome",
+        "purpose": "Finalidade",
+        "duration": "Duração"
+      },
+      "categories": {
+        "necessary": "Necessários",
+        "analytics": "Análise (somente com o seu consentimento)"
+      },
+      "kinds": {
+        "cookie": "Cookie",
+        "localStorage": "Armazenamento local"
+      },
+      "items": {
+        "consent": {
+          "purpose": "Lembra a sua escolha de cookies, quando você a fez e qual versão da política você viu.",
+          "duration": "6 meses"
+        },
+        "locale": {
+          "purpose": "Lembra o idioma que você escolheu para que a página inicial abra nele.",
+          "duration": "1 ano"
+        },
+        "theme": {
+          "purpose": "Lembra o modo claro ou escuro, caso você o troque.",
+          "duration": "Até você apagar"
+        },
+        "notifications": {
+          "purpose": "Lembram se você ativou as notificações e o som do horário de pico.",
+          "duration": "Até você apagá-los"
+        },
+        "ga": {
+          "purpose": "Distingue navegadores por meio de um ID aleatório para que os visitantes possam ser contados.",
+          "duration": "13 meses"
+        },
+        "gaSession": {
+          "purpose": "Acompanha a sessão atual e o número de visitas.",
+          "duration": "13 meses"
+        }
+      }
     },
     "blog": {
       "metaTitle": "Guias de preços de IA e comparativos | Blog do PromoClock",

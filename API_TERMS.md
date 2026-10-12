@@ -24,7 +24,7 @@ Ask before you use the API in or for a commercial product. Commercial use includ
 - free products that a company offers to sell or promote its paid service
 - reselling or redistributing the data
 
-To ask for permission, contact [@onursendere on X](https://x.com/onursendere).
+To ask for permission, email [info@promoclock.co](mailto:info@promoclock.co) or contact [@onursendere on X](https://x.com/onursendere).
 
 ## 4. Identify your app
 

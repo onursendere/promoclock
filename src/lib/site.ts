@@ -1,5 +1,7 @@
 export const SITE_URL = "https://promoclock.co";
 export const SITE_NAME = "PromoClock";
+/** Privacy and general contact address. */
+export const CONTACT_EMAIL = "info@promoclock.co";
 
 /** Staging builds are noindex and disallow all crawlers. */
 export const IS_STAGING = import.meta.env.PUBLIC_STAGING === "true";

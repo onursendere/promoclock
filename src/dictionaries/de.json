@@ -82,6 +82,18 @@
     "disclaimer": "PromoClock ist ein unabhängiges Projekt ohne Verbindung zu Anthropic oder Claude. Alle Angaben ohne Gewähr.",
     "rights": "© 2026 PromoClock. Entwickelt von Onur Şendere."
   },
+  "consent": {
+    "title": "Analyse-Cookies",
+    "body": "Wir würden gern Cookies von Google Analytics verwenden, um Besuche zu zählen und zu erfahren, welche Seiten helfen. Sie bleiben ausgeschaltet, solange du sie nicht erlaubst, und Werbe-Cookies nutzen wir nie. Deine Einstellungen für Sprache und Design werden in jedem Fall gespeichert.",
+    "accept": "Analyse erlauben",
+    "reject": "Nur notwendige",
+    "policy": "Datenschutz & Cookies",
+    "settings": "Cookie-Einstellungen",
+    "current": "Aktuelle Auswahl: {choice}.",
+    "currentAnalytics": "Analyse-Cookies erlaubt",
+    "currentNecessary": "nur notwendige Cookies",
+    "saved": "Deine Cookie-Auswahl wurde gespeichert."
+  },
   "hub": {
     "nav": {
       "claude": "Claude Watch",
@@ -287,7 +299,7 @@
         "Ob ein Deal aufgeführt wird, hängt nie von Affiliate-Beziehungen ab. Wir zeigen Angebote, die über die offiziellen Kanäle des Tools öffentlich verfügbar sind, verlinken die Originalquelle und nennen das Datum unserer letzten Prüfung.",
         "Promo-Codes zeigen wir nur, wenn das Tool sie selbst veröffentlicht oder sein Partnerprogramm sie bereitstellt. Abgelaufene Angebote verschwinden automatisch aus den aktuellen Listen.",
         "Tools ohne Affiliate-Programm – darunter ChatGPT, Gemini, Claude und Midjourney – behandeln wir genauso. PromoClock ist weder mit Anthropic noch mit einem der aufgeführten Tools verbunden.",
-        "Fragen? Schreib auf X an @onursendere."
+        "Fragen? Schreib eine E-Mail an {email} oder auf X an @onursendere."
       ]
     },
     "dealPage": {
@@ -326,9 +338,92 @@
         },
         {
           "title": "Kontakt",
-          "body": "Veralteten Deal oder neue Aktion entdeckt? Schreib an @onursendere auf X."
+          "body": "Veralteten Deal oder neue Aktion entdeckt? Schreib eine E-Mail an {email} oder an @onursendere auf X."
         }
       ]
+    },
+    "privacy": {
+      "metaTitle": "Datenschutzerklärung & Cookies | PromoClock",
+      "metaDescription": "Was PromoClock erfasst, warum Google Analytics nur mit deiner Einwilligung läuft, welche Cookies die Website nutzt und wie du deine Auswahl änderst.",
+      "title": "Datenschutz & Cookies",
+      "intro": "PromoClock erfasst so wenig wie möglich. Diese Seite erklärt, was bei deinem Besuch verarbeitet wird, welche Cookies und Speicher die Website nutzt und wie du deine Entscheidung jederzeit ändern kannst.",
+      "updated": "Zuletzt aktualisiert: {date}",
+      "manage": "Cookie-Auswahl ändern",
+      "sections": [
+        {
+          "title": "Wer verantwortlich ist",
+          "body": "PromoClock wird von Onur Şendere in Shrewsbury (UK) betrieben. Verantwortlich im Sinne des Datenschutzrechts ist Onur Şendere. Bei Fragen oder Anliegen zum Datenschutz schreib eine E-Mail an {email} oder eine Nachricht an @onursendere auf X."
+        },
+        {
+          "title": "Wenn du die Website besuchst",
+          "body": "Um Seiten auszuliefern und die Website abzusichern, verarbeiten unser Hosting-Server und das davorgeschaltete Cloudflare bei jeder Anfrage technische Daten: deine IP-Adresse, Browser- und Gerätetyp, die angeforderte Seite und den Zeitpunkt. Wir nutzen diese Daten nicht, um dich zu identifizieren oder ein Profil von dir zu erstellen. Der Endpunkt /api/status speichert einige Minuten lang einen Einweg-Hash deiner IP-Adresse, um seine Ratenbegrenzung durchzusetzen."
+        },
+        {
+          "title": "Google Analytics, nur mit deiner Einwilligung",
+          "body": "Wenn du „{accept}“ wählst, lädt dein Browser Google Analytics 4, damit wir Besuche zählen und sehen können, welche Seiten nützlich sind. Erfasst werden die aufgerufenen Seiten, die Website, von der du kommst, dein ungefährer Standort (Land und Stadt, abgeleitet aus deiner IP-Adresse), dein Gerät, Browser, Betriebssystem, deine Bildschirmgröße und Sprache sowie Interaktionen wie Scrollen und Klicks auf ausgehende Links. Diese Daten sind mit einer zufälligen ID verknüpft, die in den _ga-Cookies gespeichert wird. Google Analytics speichert keine IP-Adressen. Werbefunktionen bleiben aus: Google signals, Anzeigenpersonalisierung und Anzeigenspeicherung sind deaktiviert. Wenn du „{reject}“ wählst oder keine Auswahl triffst, wird Google Analytics nicht geladen und es werden keine Daten an Google gesendet."
+        },
+        {
+          "title": "Rechtsgrundlage",
+          "body": "Google Analytics läuft nur mit deiner Einwilligung (Art. 6 Abs. 1 lit. a UK GDPR und Regulation 6 der PECR; in der EU Art. 6 Abs. 1 lit. a DSGVO und Art. 5 Abs. 3 der ePrivacy-Richtlinie). Die Anfragedaten und der unten aufgeführte notwendige Speicher beruhen auf unserem berechtigten Interesse am sicheren Betrieb der Website und an der Bereitstellung der Funktionen, die du nutzt; dafür ist keine Einwilligung erforderlich."
+        },
+        {
+          "title": "Wie lange Daten gespeichert werden",
+          "body": "Google Analytics speichert Daten auf Ereignisebene 2 Monate lang; danach bleiben nur aggregierte Berichte erhalten. Die _ga-Cookies laufen nach 13 Monaten ab. Deine Cookie-Auswahl merken wir uns 6 Monate lang, danach fragen wir erneut nach, oder früher, wenn wir ändern, wie wir Cookies nutzen."
+        },
+        {
+          "title": "Internationale Datenübermittlungen",
+          "body": "Google und Cloudflare können Daten in den USA und in anderen Ländern verarbeiten. Beide sind nach dem EU–US Data Privacy Framework (EU-US-Datenschutzrahmen) und dessen UK Extension zertifiziert, womit diese Übermittlungen abgedeckt sind."
+        },
+        {
+          "title": "Deine Wahlmöglichkeiten und Rechte",
+          "body": "Du kannst deine Einwilligung jederzeit über „{settings}“ am Ende jeder Seite ändern oder widerrufen. Ein Widerruf beendet die Messung sofort und löscht die Cookies von Google Analytics aus deinem Browser. Außerdem kannst du Auskunft über deine Daten sowie deren Berichtigung oder Löschung verlangen, der Nutzung widersprechen oder ihre Einschränkung verlangen; da Analysedaten nur mit einer zufälligen ID verknüpft sind, können wir sie dir möglicherweise nicht zuordnen. Wenn du mit dem Umgang mit deinen Daten nicht zufrieden bist, kannst du dich beim Information Commissioner's Office (ico.org.uk) oder bei deiner örtlichen Datenschutzbehörde beschweren."
+        },
+        {
+          "title": "Änderungen dieser Erklärung",
+          "body": "Wenn sich diese Erklärung ändert, aktualisieren wir das Datum oben auf dieser Seite. Betrifft eine Änderung Cookies, fragt das Banner erneut nach deiner Auswahl."
+        }
+      ],
+      "storageTitle": "Cookies und Speicher, die wir nutzen",
+      "storageIntro": "Notwendige Einträge werden nur gespeichert, wenn du die Funktion nutzt, zu der sie gehören. Sie bleiben auf deinem Gerät, mit Ausnahme des Sprach-Cookies, das an unseren Server gesendet wird, damit die Startseite in deiner Sprache öffnet. Analyse-Cookies werden erst gesetzt, nachdem du sie erlaubt hast.",
+      "columns": {
+        "name": "Name",
+        "purpose": "Zweck",
+        "duration": "Dauer"
+      },
+      "categories": {
+        "necessary": "Notwendig",
+        "analytics": "Analyse (nur mit deiner Einwilligung)"
+      },
+      "kinds": {
+        "cookie": "Cookie",
+        "localStorage": "Lokaler Speicher"
+      },
+      "items": {
+        "consent": {
+          "purpose": "Merkt sich deine Cookie-Auswahl, wann du sie getroffen hast und welche Version der Erklärung du gesehen hast.",
+          "duration": "6 Monate"
+        },
+        "locale": {
+          "purpose": "Merkt sich die gewählte Sprache, damit die Startseite darin öffnet.",
+          "duration": "1 Jahr"
+        },
+        "theme": {
+          "purpose": "Merkt sich den hellen oder dunklen Modus, wenn du ihn wechselst.",
+          "duration": "Bis zum Löschen"
+        },
+        "notifications": {
+          "purpose": "Merken sich, ob du Benachrichtigungen und Ton für Stoßzeiten aktiviert hast.",
+          "duration": "Bis zum Löschen"
+        },
+        "ga": {
+          "purpose": "Unterscheidet Browser anhand einer zufälligen ID, damit Besucher gezählt werden können.",
+          "duration": "13 Monate"
+        },
+        "gaSession": {
+          "purpose": "Verfolgt die aktuelle Sitzung und die Anzahl der Besuche.",
+          "duration": "13 Monate"
+        }
+      }
     },
     "blog": {
       "metaTitle": "KI-Preisratgeber & Vergleiche | PromoClock Blog",

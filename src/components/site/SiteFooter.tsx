@@ -94,9 +94,18 @@ export function SiteFooter({ lang, dict }: { lang: Locale; dict: UiDictionary })
       <Separator />
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-1.5 px-4 py-4 text-xs text-muted-foreground sm:flex-row sm:justify-between sm:gap-2 sm:px-6 sm:py-6">
         <p>{dict.footer.disclaimer}</p>
-        <p className="shrink-0">
-          <Rights text={dict.footer.rights} />
-        </p>
+        <div className="flex shrink-0 flex-wrap items-center gap-x-4 gap-y-1.5">
+          <a href={localePath(lang, "privacy")} className="transition-colors hover:text-foreground">
+            {dict.consent.policy}
+          </a>
+          {/* Reopens the cookie banner (CookieConsent listens for [data-consent-open]). */}
+          <button type="button" data-consent-open className="cursor-pointer transition-colors hover:text-foreground">
+            {dict.consent.settings}
+          </button>
+          <p>
+            <Rights text={dict.footer.rights} />
+          </p>
+        </div>
       </div>
     </footer>
   );

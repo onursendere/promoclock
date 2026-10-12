@@ -43,6 +43,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
       card: { eyebrow: "PromoClock Blog", title: "AI pricing guides & comparisons", subtitle: dict.hub.blog.subtitle },
     },
     {
+      route: "privacy",
+      card: { eyebrow: "Privacy", title: "Privacy & cookies", subtitle: "Google Analytics runs only with your consent. No advertising cookies." },
+    },
+    {
       route: "about",
       card: { eyebrow: "About", title: "How PromoClock verifies AI deals", subtitle: dict.hub.about.intro },
     },

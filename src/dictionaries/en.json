@@ -82,6 +82,18 @@
     "disclaimer": "PromoClock is an independent project and is not affiliated with Anthropic or Claude. For informational purposes only.",
     "rights": "© 2026 PromoClock. Built by Onur Şendere."
   },
+  "consent": {
+    "title": "Analytics cookies",
+    "body": "We'd like to use Google Analytics cookies to count visits and learn which pages help. They stay off unless you allow them, and we never use advertising cookies. Your language and theme settings are saved either way.",
+    "accept": "Allow analytics",
+    "reject": "Necessary only",
+    "policy": "Privacy & cookies",
+    "settings": "Cookie preferences",
+    "current": "Current choice: {choice}.",
+    "currentAnalytics": "analytics allowed",
+    "currentNecessary": "necessary only",
+    "saved": "Your cookie choice has been saved."
+  },
   "hub": {
     "nav": {
       "claude": "Claude Watch",
@@ -287,7 +299,7 @@
         "Affiliate relationships never decide whether a deal is listed. We list offers that are publicly available from the tool's official channels, link to the original source, and show the date we last verified each one.",
         "We only show promo codes that the tool publishes or that its partner program provides. Expired offers are removed from live lists automatically.",
         "Tools without an affiliate program — including ChatGPT, Gemini, Claude and Midjourney — are covered in exactly the same way. PromoClock is not affiliated with Anthropic or any tool listed.",
-        "Questions? Reach out on X at @onursendere."
+        "Questions? Email {email} or reach out on X at @onursendere."
       ]
     },
     "dealPage": {
@@ -326,9 +338,92 @@
         },
         {
           "title": "Contact",
-          "body": "Spotted an outdated deal or a new promotion? Send it to @onursendere on X."
+          "body": "Spotted an outdated deal or a new promotion? Email {email} or send it to @onursendere on X."
         }
       ]
+    },
+    "privacy": {
+      "metaTitle": "Privacy & Cookie Policy | PromoClock",
+      "metaDescription": "What PromoClock collects, why Google Analytics runs only with your consent, which cookies and local storage the site uses, and how to change your choice.",
+      "title": "Privacy & cookies",
+      "intro": "PromoClock collects as little as it can. This page explains what is processed when you visit, which cookies and storage the site uses, and how to change your mind at any time.",
+      "updated": "Last updated: {date}",
+      "manage": "Change cookie choice",
+      "sections": [
+        {
+          "title": "Who is responsible",
+          "body": "PromoClock is run by Onur Şendere in Shrewsbury, UK, who is the data controller for this site. For privacy questions or requests, email {email} or message @onursendere on X."
+        },
+        {
+          "title": "When you visit",
+          "body": "To deliver pages and keep the site secure, our hosting server and Cloudflare, which sits in front of it, process technical data from each request: your IP address, browser and device type, the page you asked for and the time. We don't use this data to identify or profile you. The /api/status endpoint keeps a one-way hash of your IP address for a few minutes to enforce its rate limit."
+        },
+        {
+          "title": "Google Analytics, only with your consent",
+          "body": "If you choose “{accept}”, your browser loads Google Analytics 4 so we can count visits and see which pages are useful. It records the pages you view, the site that sent you, your approximate location (country and city, derived from your IP address), your device, browser, operating system, screen size and language, and interactions such as scrolling and clicks on outbound links. These are linked to a random ID stored in the _ga cookies. Google Analytics doesn't store IP addresses. Advertising features stay off: Google signals, ad personalisation and ad storage are disabled. If you choose “{reject}” or don't choose, Google Analytics isn't loaded and nothing is sent to Google."
+        },
+        {
+          "title": "Legal basis",
+          "body": "Google Analytics runs only with your consent (UK GDPR Article 6(1)(a) and regulation 6 of PECR; in the EU, GDPR Article 6(1)(a) and Article 5(3) of the ePrivacy Directive). Request data and the necessary storage listed below rely on our legitimate interest in running a secure site and on providing the features you use, which doesn't require consent."
+        },
+        {
+          "title": "How long data is kept",
+          "body": "Google Analytics keeps event-level data for 2 months; after that only aggregated reports remain. The _ga cookies expire after 13 months. Your cookie choice is remembered for 6 months, then we ask again, or sooner if we change how we use cookies."
+        },
+        {
+          "title": "International transfers",
+          "body": "Google and Cloudflare may process data in the United States and other countries. Both are certified under the EU–US Data Privacy Framework and its UK Extension, which covers these transfers."
+        },
+        {
+          "title": "Your choices and rights",
+          "body": "You can change or withdraw your consent at any time with “{settings}” at the bottom of every page. Withdrawing stops measurement straight away and deletes the Google Analytics cookies from your browser. You can also ask to access, correct or delete your data, or object to or restrict its use; because analytics data is tied only to a random ID, we may not be able to match it to you. If you're unhappy with how your data is handled, you can complain to the Information Commissioner's Office (ico.org.uk) or your local data protection authority."
+        },
+        {
+          "title": "Changes to this policy",
+          "body": "When this policy changes, we update the date at the top of this page. If a change affects cookies, the banner asks for your choice again."
+        }
+      ],
+      "storageTitle": "Cookies and storage we use",
+      "storageIntro": "Necessary items are saved only when you use the feature they belong to. They stay on your device, except the language cookie, which is sent to our server so the home page opens in your language. Analytics cookies are set only after you allow them.",
+      "columns": {
+        "name": "Name",
+        "purpose": "Purpose",
+        "duration": "Duration"
+      },
+      "categories": {
+        "necessary": "Necessary",
+        "analytics": "Analytics (only with your consent)"
+      },
+      "kinds": {
+        "cookie": "Cookie",
+        "localStorage": "Local storage"
+      },
+      "items": {
+        "consent": {
+          "purpose": "Remembers your cookie choice, when you made it and which policy version you saw.",
+          "duration": "6 months"
+        },
+        "locale": {
+          "purpose": "Remembers the language you picked so the home page opens in it.",
+          "duration": "1 year"
+        },
+        "theme": {
+          "purpose": "Remembers light or dark mode if you switch it.",
+          "duration": "Until you clear it"
+        },
+        "notifications": {
+          "purpose": "Remember whether you turned on peak-hour notifications and sound.",
+          "duration": "Until you clear them"
+        },
+        "ga": {
+          "purpose": "Tells browsers apart with a random ID so visitors can be counted.",
+          "duration": "13 months"
+        },
+        "gaSession": {
+          "purpose": "Keeps track of the current session and the number of visits.",
+          "duration": "13 months"
+        }
+      }
     },
     "blog": {
       "metaTitle": "AI Pricing Guides & Comparisons | PromoClock Blog",

@@ -82,6 +82,18 @@
     "disclaimer": "PromoClock bağımsız bir projedir; Anthropic veya Claude ile bağlantısı yoktur. Yalnızca bilgilendirme amaçlıdır.",
     "rights": "© 2026 PromoClock. Onur Şendere tarafından geliştirildi."
   },
+  "consent": {
+    "title": "Analitik çerezleri",
+    "body": "Ziyaretleri saymak ve hangi sayfaların işe yaradığını öğrenmek için Google Analytics çerezlerini kullanmak istiyoruz. Sen izin vermedikçe kapalı kalırlar ve reklam çerezlerini hiçbir zaman kullanmayız. Dil ve tema ayarların her durumda kaydedilir.",
+    "accept": "Analitiğe izin ver",
+    "reject": "Yalnızca gerekli",
+    "policy": "Gizlilik ve çerezler",
+    "settings": "Çerez tercihleri",
+    "current": "Şu anki seçimin: {choice}.",
+    "currentAnalytics": "analitiğe izin verildi",
+    "currentNecessary": "yalnızca gerekli",
+    "saved": "Çerez seçimin kaydedildi."
+  },
   "hub": {
     "nav": {
       "claude": "Claude Watch",
@@ -287,7 +299,7 @@
         "Ortaklık ilişkileri, bir fırsatın listelenip listelenmeyeceğini asla belirlemez. Aracın resmi kanallarında herkese açık olan teklifleri listeler, özgün kaynağa bağlantı verir ve her birini en son ne zaman doğruladığımızı gösteririz.",
         "Yalnızca aracın kendi yayınladığı ya da partner programının sağladığı promosyon kodlarını gösteririz. Süresi dolan teklifler canlı listelerden otomatik olarak kaldırılır.",
         "Ortaklık programı olmayan araçlar da (ChatGPT, Gemini, Claude ve Midjourney dahil) tamamen aynı şekilde ele alınır. PromoClock'un Anthropic ya da listelenen herhangi bir araçla bağlantısı yoktur.",
-        "Soruların mı var? X'te @onursendere hesabından bana ulaşabilirsin."
+        "Soruların mı var? {email} adresine e-posta gönderebilir ya da X'te @onursendere hesabından bana ulaşabilirsin."
       ]
     },
     "dealPage": {
@@ -326,9 +338,92 @@
         },
         {
           "title": "İletişim",
-          "body": "Güncelliğini yitirmiş bir fırsat ya da yeni bir promosyon mu gördün? X'te @onursendere hesabına gönder."
+          "body": "Güncelliğini yitirmiş bir fırsat ya da yeni bir promosyon mu gördün? {email} adresine e-posta gönder ya da X'te @onursendere hesabına yaz."
         }
       ]
+    },
+    "privacy": {
+      "metaTitle": "Gizlilik ve Çerez Politikası | PromoClock",
+      "metaDescription": "PromoClock'un neler topladığı, Google Analytics'in neden yalnızca onayınla çalıştığı, sitenin hangi çerezleri kullandığı ve seçimini nasıl değiştireceğin.",
+      "title": "Gizlilik ve çerezler",
+      "intro": "PromoClock mümkün olduğunca az veri toplar. Bu sayfa, siteyi ziyaret ettiğinde nelerin işlendiğini, sitenin hangi çerezleri ve depolamayı kullandığını ve fikrini istediğin zaman nasıl değiştirebileceğini anlatır.",
+      "updated": "Son güncelleme: {date}",
+      "manage": "Çerez seçimini değiştir",
+      "sections": [
+        {
+          "title": "Veri sorumlusu kim",
+          "body": "PromoClock'u İngiltere'nin Shrewsbury kentinde Onur Şendere yönetiyor; bu site için veri sorumlusu da kendisidir. Gizlilikle ilgili sorular ya da talepler için {email} adresine e-posta gönderebilir veya X'te @onursendere hesabına mesaj yazabilirsin."
+        },
+        {
+          "title": "Siteyi ziyaret ettiğinde",
+          "body": "Sayfaları sunmak ve siteyi güvende tutmak için barındırma sunucumuz ve onun önünde yer alan Cloudflare, her istekteki teknik verileri işler: IP adresin, tarayıcı ve cihaz türün, istediğin sayfa ve zaman. Bu verileri seni tanımlamak ya da profilini çıkarmak için kullanmayız. /api/status uç noktası, istek sınırını uygulamak için IP adresinin geri döndürülemez bir özetini (hash) birkaç dakika boyunca tutar."
+        },
+        {
+          "title": "Google Analytics, yalnızca onayınla",
+          "body": "“{accept}” seçeneğini seçersen tarayıcın Google Analytics 4'ü yükler; böylece ziyaretleri sayabilir ve hangi sayfaların işe yaradığını görebiliriz. Görüntülediğin sayfaları, seni yönlendiren siteyi, yaklaşık konumunu (IP adresinden türetilen ülke ve şehir), cihazını, tarayıcını, işletim sistemini, ekran boyutunu ve dilini, ayrıca kaydırma ve dış bağlantılara tıklama gibi etkileşimleri kaydeder. Bunlar _ga çerezlerinde saklanan rastgele bir kimliğe bağlanır. Google Analytics IP adreslerini saklamaz. Reklam özellikleri kapalı kalır: Google signals, reklam kişiselleştirme ve reklam depolama devre dışıdır. “{reject}” seçeneğini seçersen ya da hiçbir seçim yapmazsan Google Analytics yüklenmez ve Google'a hiçbir şey gönderilmez."
+        },
+        {
+          "title": "Hukuki dayanak",
+          "body": "Google Analytics yalnızca senin onayınla çalışır (UK GDPR Madde 6(1)(a) ve PECR Madde 6; AB'de GDPR Madde 6(1)(a) ve e-Gizlilik Direktifi Madde 5(3)). İstek verileri ve aşağıda listelenen gerekli depolama, güvenli bir site işletmedeki meşru menfaatimize ve kullandığın özellikleri sunmamıza dayanır; bunlar için onay gerekmez."
+        },
+        {
+          "title": "Veriler ne kadar süre saklanır",
+          "body": "Google Analytics olay düzeyindeki verileri 2 ay saklar; bundan sonra yalnızca toplu raporlar kalır. _ga çerezleri 13 ay sonra sona erer. Çerez seçimin 6 ay boyunca hatırlanır, ardından yeniden soruruz; çerezleri kullanma biçimimizi değiştirirsek daha erken sorarız."
+        },
+        {
+          "title": "Uluslararası aktarımlar",
+          "body": "Google ve Cloudflare verileri Amerika Birleşik Devletleri'nde ve diğer ülkelerde işleyebilir. İkisi de bu aktarımları kapsayan AB-ABD Veri Gizliliği Çerçevesi ve Birleşik Krallık Uzantısı kapsamında sertifikalıdır."
+        },
+        {
+          "title": "Seçimlerin ve haklarının",
+          "body": "Onayını istediğin zaman, her sayfanın altındaki “{settings}” seçeneğiyle değiştirebilir ya da geri çekebilirsin. Onayı geri çekmek ölçümü hemen durdurur ve Google Analytics çerezlerini tarayıcından siler. Ayrıca verilerine erişmeyi, düzeltilmesini ya da silinmesini isteyebilir, kullanımına itiraz edebilir veya kısıtlanmasını talep edebilirsin; ancak analitik verileri yalnızca rastgele bir kimliğe bağlı olduğundan bunları seninle eşleştiremeyebiliriz. Verilerinin işlenme biçiminden memnun değilsen Information Commissioner's Office'e (ico.org.uk) ya da yerel veri koruma kurumuna şikâyette bulunabilirsin."
+        },
+        {
+          "title": "Bu politikadaki değişiklikler",
+          "body": "Bu politika değiştiğinde sayfanın en üstündeki tarihi güncelleriz. Değişiklik çerezleri etkiliyorsa çerez bildirimi seçimini yeniden sorar."
+        }
+      ],
+      "storageTitle": "Kullandığımız çerezler ve depolama",
+      "storageIntro": "Gerekli öğeler yalnızca ait oldukları özelliği kullandığında kaydedilir. Ana sayfanın senin dilinde açılması için sunucumuza gönderilen dil çerezi dışında hepsi cihazında kalır. Analitik çerezleri ancak sen izin verdikten sonra ayarlanır.",
+      "columns": {
+        "name": "Ad",
+        "purpose": "Amaç",
+        "duration": "Süre"
+      },
+      "categories": {
+        "necessary": "Gerekli",
+        "analytics": "Analitik (yalnızca onayınla)"
+      },
+      "kinds": {
+        "cookie": "Çerez",
+        "localStorage": "Yerel depolama"
+      },
+      "items": {
+        "consent": {
+          "purpose": "Çerez seçimini, bu seçimi ne zaman yaptığını ve hangi politika sürümünü gördüğünü hatırlar.",
+          "duration": "6 ay"
+        },
+        "locale": {
+          "purpose": "Seçtiğin dili hatırlar; böylece ana sayfa o dilde açılır.",
+          "duration": "1 yıl"
+        },
+        "theme": {
+          "purpose": "Değiştirdiysen açık ya da karanlık modu hatırlar.",
+          "duration": "Sen silene kadar"
+        },
+        "notifications": {
+          "purpose": "Yoğun saat bildirimlerini ve sesi açıp açmadığını hatırlar.",
+          "duration": "Sen silene kadar"
+        },
+        "ga": {
+          "purpose": "Ziyaretçilerin sayılabilmesi için tarayıcıları rastgele bir kimlikle birbirinden ayırır.",
+          "duration": "13 ay"
+        },
+        "gaSession": {
+          "purpose": "Geçerli oturumu ve ziyaret sayısını takip eder.",
+          "duration": "13 ay"
+        }
+      }
     },
     "blog": {
       "metaTitle": "AI Fiyat Rehberleri ve Karşılaştırmalar | PromoClock Blog",

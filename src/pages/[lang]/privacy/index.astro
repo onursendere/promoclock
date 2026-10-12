@@ -1,0 +1,41 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { i18n, type Locale } from "@/lib/i18n/config";
+import { getDictionary } from "@/lib/i18n/dictionaries";
+import { breadcrumbNode, webPageNode } from "@/lib/jsonld";
+import { absoluteUrl, localePath } from "@/lib/seo";
+import { CONSENT_VERSION } from "@/lib/consent";
+import { formatDate } from "@/lib/time";
+import { PageHeader } from "@/components/site/PageHeader";
+import { PrivacyPolicy } from "@/components/site/PrivacyPolicy";
+
+export function getStaticPaths() {
+  return i18n.locales.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Locale;
+const dict = getDictionary(lang);
+const t = dict.hub.privacy;
+// The policy date is the consent version: changing the cookie list re-asks every visitor.
+const updatedAt = Date.parse(`${CONSENT_VERSION}T00:00:00Z`);
+const jsonLd = [
+  webPageNode({
+    url: absoluteUrl(localePath(lang, "privacy")),
+    name: t.metaTitle,
+    description: t.metaDescription,
+    lang,
+    dateModified: updatedAt,
+  }),
+  breadcrumbNode([
+    { name: "PromoClock", path: localePath(lang) },
+    { name: t.title, path: localePath(lang, "privacy") },
+  ]),
+];
+---
+
+<BaseLayout lang={lang} dict={dict} path="privacy" title={t.metaTitle} description={t.metaDescription} jsonLd={jsonLd} hub>
+  <PageHeader crumbs={[{ label: "PromoClock", href: localePath(lang) }, { label: t.title }]} title={t.title} description={t.intro} />
+  <div class="mx-auto w-full max-w-3xl px-4 py-8 sm:px-6 sm:py-10">
+    <PrivacyPolicy t={t} consent={dict.consent} updated={formatDate(updatedAt, lang, { month: "long" })} />
+  </div>
+</BaseLayout>
