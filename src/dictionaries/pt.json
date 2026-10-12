@@ -368,7 +368,7 @@
         },
         {
           "title": "Por quanto tempo guardamos os dados",
-          "body": "O Google Analytics guarda dados em nível de evento por 2 meses; depois disso, restam apenas relatórios agregados. Os cookies _ga expiram após 13 meses. Sua escolha de cookies é lembrada por 6 meses, e então perguntamos de novo, ou antes, se mudarmos a forma como usamos cookies."
+          "body": "O Google Analytics guarda dados em nível de evento por 14 meses; depois disso, restam apenas relatórios agregados. Os cookies _ga expiram após 13 meses. Sua escolha de cookies é lembrada por 6 meses, e então perguntamos de novo, ou antes, se mudarmos a forma como usamos cookies."
         },
         {
           "title": "Transferências internacionais",

@@ -368,7 +368,7 @@
         },
         {
           "title": "Veriler ne kadar süre saklanır",
-          "body": "Google Analytics olay düzeyindeki verileri 2 ay saklar; bundan sonra yalnızca toplu raporlar kalır. _ga çerezleri 13 ay sonra sona erer. Çerez seçimin 6 ay boyunca hatırlanır, ardından yeniden soruruz; çerezleri kullanma biçimimizi değiştirirsek daha erken sorarız."
+          "body": "Google Analytics olay düzeyindeki verileri 14 ay saklar; bundan sonra yalnızca toplu raporlar kalır. _ga çerezleri 13 ay sonra sona erer. Çerez seçimin 6 ay boyunca hatırlanır, ardından yeniden soruruz; çerezleri kullanma biçimimizi değiştirirsek daha erken sorarız."
         },
         {
           "title": "Uluslararası aktarımlar",

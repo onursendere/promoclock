@@ -368,7 +368,7 @@
         },
         {
           "title": "How long data is kept",
-          "body": "Google Analytics keeps event-level data for 2 months; after that only aggregated reports remain. The _ga cookies expire after 13 months. Your cookie choice is remembered for 6 months, then we ask again, or sooner if we change how we use cookies."
+          "body": "Google Analytics keeps event-level data for 14 months; after that only aggregated reports remain. The _ga cookies expire after 13 months. Your cookie choice is remembered for 6 months, then we ask again, or sooner if we change how we use cookies."
         },
         {
           "title": "International transfers",

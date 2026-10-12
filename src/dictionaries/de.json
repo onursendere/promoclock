@@ -368,7 +368,7 @@
         },
         {
           "title": "Wie lange Daten gespeichert werden",
-          "body": "Google Analytics speichert Daten auf Ereignisebene 2 Monate lang; danach bleiben nur aggregierte Berichte erhalten. Die _ga-Cookies laufen nach 13 Monaten ab. Deine Cookie-Auswahl merken wir uns 6 Monate lang, danach fragen wir erneut nach, oder früher, wenn wir ändern, wie wir Cookies nutzen."
+          "body": "Google Analytics speichert Daten auf Ereignisebene 14 Monate lang; danach bleiben nur aggregierte Berichte erhalten. Die _ga-Cookies laufen nach 13 Monaten ab. Deine Cookie-Auswahl merken wir uns 6 Monate lang, danach fragen wir erneut nach, oder früher, wenn wir ändern, wie wir Cookies nutzen."
         },
         {
           "title": "Internationale Datenübermittlungen",

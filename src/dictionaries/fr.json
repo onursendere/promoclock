@@ -368,7 +368,7 @@
         },
         {
           "title": "Durée de conservation des données",
-          "body": "Google Analytics conserve les données au niveau des événements pendant 2 mois ; ensuite, seuls des rapports agrégés subsistent. Les cookies _ga expirent au bout de 13 mois. Votre choix concernant les cookies est mémorisé pendant 6 mois, après quoi nous vous le redemandons, ou plus tôt si nous modifions la façon dont nous utilisons les cookies."
+          "body": "Google Analytics conserve les données au niveau des événements pendant 14 mois ; ensuite, seuls des rapports agrégés subsistent. Les cookies _ga expirent au bout de 13 mois. Votre choix concernant les cookies est mémorisé pendant 6 mois, après quoi nous vous le redemandons, ou plus tôt si nous modifions la façon dont nous utilisons les cookies."
         },
         {
           "title": "Transferts internationaux",
