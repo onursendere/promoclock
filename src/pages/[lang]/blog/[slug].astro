@@ -35,6 +35,7 @@ import {
 import { ToolCard } from "@/components/site/ToolCard";
 import { AffiliateNote } from "@/components/site/AffiliateNote";
 import FaqAccordion from "@/components/islands/FaqAccordion";
+import { subsectionClass, subsectionTitleClass } from "@/components/site/SectionHeading";
 
 export async function getStaticPaths() {
   const [lookup, tools, deals] = await Promise.all([createPostLookup(), getTools(), getDeals()]);
@@ -168,7 +169,7 @@ const jsonLd = [
     `${url}#breadcrumb`,
   ),
 ];
-const h2 = "scroll-m-20 text-2xl font-semibold tracking-tight";
+const h2 = subsectionTitleClass;
 ---
 
 <BaseLayout
@@ -208,7 +209,7 @@ const h2 = "scroll-m-20 text-2xl font-semibold tracking-tight";
 
         {
           post.howTo && (
-            <section class="flex max-w-3xl flex-col gap-4" aria-labelledby={sections.howTo}>
+            <section class:list={[subsectionClass, "max-w-3xl"]} aria-labelledby={sections.howTo}>
               <h2 id={sections.howTo} class={h2}>
                 {post.howTo.name}
               </h2>
@@ -218,13 +219,13 @@ const h2 = "scroll-m-20 text-2xl font-semibold tracking-tight";
           )
         }
 
-        <section class="flex max-w-3xl flex-col gap-4" aria-labelledby={sections.faq}>
+        <section class:list={[subsectionClass, "max-w-3xl"]} aria-labelledby={sections.faq}>
           <h2 id={sections.faq} class={h2}>{t.faq}</h2>
           <FaqAccordion client:visible items={post.faq.map(({ q, a }) => ({ question: q, answer: a }))} />
         </section>
 
-        <section class="flex max-w-3xl flex-col gap-4" aria-labelledby={sections.sources}>
-          <h2 id={sections.sources} class="text-xl font-semibold tracking-tight">{t.sources}</h2>
+        <section class:list={[subsectionClass, "max-w-3xl"]} aria-labelledby={sections.sources}>
+          <h2 id={sections.sources} class={h2}>{t.sources}</h2>
           <PostSources sources={post.sources} updatedAt={post.updatedAt} lang={lang} hub={hub} />
         </section>
 
@@ -244,8 +245,8 @@ const h2 = "scroll-m-20 text-2xl font-semibold tracking-tight";
   <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 pb-10 sm:gap-14 sm:px-6">
     {
       tools.length > 0 && (
-        <section class="flex flex-col gap-4" aria-labelledby="post-tools">
-          <h2 id="post-tools" class="text-xl font-semibold tracking-tight">
+        <section class={subsectionClass} aria-labelledby="post-tools">
+          <h2 id="post-tools" class={h2}>
             {t.toolsInArticle}
           </h2>
           <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -259,8 +260,8 @@ const h2 = "scroll-m-20 text-2xl font-semibold tracking-tight";
 
     {
       related.length > 0 && (
-        <section class="flex flex-col gap-4" aria-labelledby="post-related">
-          <h2 id="post-related" class="text-xl font-semibold tracking-tight">
+        <section class={subsectionClass} aria-labelledby="post-related">
+          <h2 id="post-related" class={h2}>
             {t.keepReading}
           </h2>
           <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">

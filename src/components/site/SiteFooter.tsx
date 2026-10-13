@@ -2,6 +2,7 @@ import { Coffee } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Logo } from "@/components/site/Logo";
+import { CoffeeButton } from "@/components/site/CoffeeButton";
 import type { Locale } from "@/lib/i18n/config";
 import type { UiDictionary } from "@/lib/i18n/dictionaries";
 import { localePath } from "@/lib/seo";
@@ -57,7 +58,7 @@ export function SiteFooter({ lang, dict }: { lang: Locale; dict: UiDictionary })
   ];
 
   return (
-    <footer className="border-t bg-muted/30">
+    <footer className="border-t bg-background">
       <div className="mx-auto grid w-full max-w-6xl grid-cols-3 gap-x-4 gap-y-6 px-4 py-8 sm:gap-x-6 sm:px-6 sm:py-12 md:grid-cols-[1.4fr_repeat(3,1fr)] md:gap-10">
         <div className="col-span-3 flex min-w-0 flex-col items-start gap-3 md:col-span-1 md:gap-4">
           <Logo />
@@ -107,6 +108,8 @@ export function SiteFooter({ lang, dict }: { lang: Locale; dict: UiDictionary })
           </p>
         </div>
       </div>
+      {/* Fixed to the viewport corner, but kept inside the footer landmark for screen readers. */}
+      <CoffeeButton label={dict.footer.buymeacoffee} />
     </footer>
   );
 }

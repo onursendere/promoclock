@@ -1,12 +1,67 @@
 // @ts-check
-import { readFile, writeFile, mkdir, rm } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { readFile, readdir, writeFile, mkdir, rm } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+
+/** Third parties the pages talk to: Google Analytics (only after consent) and Cloudflare Web Analytics. */
+const ANALYTICS = {
+  script: ["https://www.googletagmanager.com", "https://static.cloudflareinsights.com"],
+  connect: [
+    "https://*.google-analytics.com",
+    "https://*.analytics.google.com",
+    "https://*.googletagmanager.com",
+    "https://cloudflareinsights.com",
+  ],
+  img: ["https://*.google-analytics.com", "https://*.googletagmanager.com"],
+};
+
+const JS_TYPES = new Set(["", "module", "text/javascript", "application/javascript"]);
+
+/**
+ * Content-Security-Policy without 'unsafe-inline' scripts: every inline <script> the build emitted
+ * (theme bootstrap, Astro island loaders, …) is allowed by its SHA-256 hash, so the policy always
+ * matches the pages it ships with. Fails the build on inline event handlers or javascript: URLs,
+ * which a hash-based policy would silently block.
+ *
+ * @param {string} outDir
+ */
+async function contentSecurityPolicy(outDir) {
+  const files = (await readdir(outDir, { recursive: true })).filter((f) => f.endsWith(".html"));
+  const hashes = new Set();
+  for (const file of files) {
+    const html = await readFile(path.join(outDir, file), "utf8");
+    if (/<[a-z][^>]*\son[a-z]+\s*=\s*["']/i.test(html) || /\shref\s*=\s*["']\s*javascript:/i.test(html)) {
+      throw new Error(`${file}: inline event handler or javascript: URL — the CSP would block it`);
+    }
+    for (const [, attrs, body] of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) {
+      if (/\ssrc\s*=/i.test(attrs) || !body) continue;
+      const type = attrs.match(/\stype\s*=\s*["']?([^"'\s>]+)/i)?.[1]?.toLowerCase() ?? "";
+      if (!JS_TYPES.has(type)) continue;
+      hashes.add(`'sha256-${createHash("sha256").update(body, "utf8").digest("base64")}'`);
+    }
+  }
+  const policy = [
+    "default-src 'self'",
+    `script-src 'self' ${[...hashes].sort().join(" ")} ${ANALYTICS.script.join(" ")}`,
+    "style-src 'self' 'unsafe-inline'",
+    `img-src 'self' data: ${ANALYTICS.img.join(" ")}`,
+    "font-src 'self'",
+    `connect-src 'self' ${ANALYTICS.connect.join(" ")}`,
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+    "frame-ancestors 'self'",
+    "upgrade-insecure-requests",
+  ].join("; ");
+  return { policy, hashCount: hashes.size, pageCount: files.length };
+}
 
 /**
  * Writes dist/.htaccess for Apache/LiteSpeed (cPanel) after the static build:
  * HTTPS, language redirect for "/", the /api/status rewrite, legacy /go/<slug>/ 301s built
- * from dist/go/redirects.json (deleted afterwards), caching, compression and security headers.
+ * from dist/go/redirects.json (deleted afterwards), caching, compression and security headers
+ * (HSTS, a hash-based CSP, COOP/COEP/CORP).
  *
  * @param {{ locales: readonly string[]; defaultLocale: string; staging?: boolean }} options
  * @returns {import("astro").AstroIntegration}
@@ -22,6 +77,7 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
         const tools = JSON.parse(await readFile(redirectsFile, "utf8"));
         await rm(redirectsFile);
 
+        const csp = await contentSecurityPolicy(outDir);
         const escapeTarget = (/** @type {string} */ url) => url.replace(/\s/g, "%20");
         const nonDefault = locales.filter((l) => l !== defaultLocale && !l.includes("-"));
         const regional = locales.filter((l) => l.includes("-"));
@@ -83,7 +139,17 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
           '  Header always set Referrer-Policy "strict-origin-when-cross-origin"',
           '  Header always set X-Frame-Options "SAMEORIGIN"',
           '  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"',
+          '  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"',
+          `  Header always set Content-Security-Policy "${csp.policy}"`,
+          '  Header always set Cross-Origin-Opener-Policy "same-origin"',
+          // credentialless: cross-origin isolation without requiring CORP from Google/Cloudflare scripts.
+          '  Header always set Cross-Origin-Embedder-Policy "credentialless"',
+          '  Header always set Cross-Origin-Resource-Policy "same-site"',
           ...(staging ? ['  Header always set X-Robots-Tag "noindex, nofollow"'] : []),
+          "  # Files other sites and apps may load: images (share cards, logo), feeds, llms.txt and the JSON API.",
+          '  <FilesMatch "\\.(png|jpe?g|webp|avif|gif|svg|ico|txt|xml|json|webmanifest|php)$">',
+          '    Header always set Cross-Origin-Resource-Policy "cross-origin"',
+          "  </FilesMatch>",
           '  <FilesMatch "\\.html$">',
           '    Header set Cache-Control "public, max-age=0, must-revalidate"',
           "    # Edge-only lifetime: Cloudflare caches pages for an hour and keeps answering from cache while it",
@@ -120,7 +186,9 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
           "utf8",
         );
 
-        logger.info(`.htaccess written with ${tools.length} legacy /go/ redirects${staging ? " (staging)" : ""}`);
+        logger.info(
+          `.htaccess written with ${tools.length} legacy /go/ redirects and a CSP of ${csp.hashCount} inline-script hashes from ${csp.pageCount} pages${staging ? " (staging)" : ""}`,
+        );
       },
     },
   };

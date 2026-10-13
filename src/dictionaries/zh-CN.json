@@ -174,10 +174,6 @@
       "heroSubtitle": "看清Claude额度何时消耗更快，追踪100款AI工具的优惠。",
       "ctaDeals": "查看进行中的优惠",
       "ctaTools": "浏览100款工具",
-      "statsLive": "进行中的优惠",
-      "statsTools": "收录的AI工具",
-      "statsDeadline": "下个截止日",
-      "statsLanguages": "语言",
       "sponsored": "赞助",
       "dealsTitle": "进行中的AI优惠",
       "dealsSubtitle": "经过核实的优惠，附来源和实时倒计时。",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "受影响的套餐",
-      "scheduleTitle": "你所在城市的高峰时段"
+      "scheduleTitle": "你所在城市的高峰时段",
+      "peakLabel": "高峰时段",
+      "historyLabel": "历史",
+      "faqLabel": "常见问题"
     },
     "deals": {
       "metaTitle": "AI优惠与学生优惠（{month}） | PromoClock",

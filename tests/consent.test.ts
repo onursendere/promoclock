@@ -13,6 +13,8 @@ import {
 
 const DAY = 24 * 60 * 60 * 1000;
 const CONSENT_MODULE = path.normalize("src/lib/consent.ts");
+/** The CSP generator names GA's hosts in its ANALYTICS allowlist so gtag.js may run once allowed; it never loads them. */
+const CSP_GENERATOR = path.normalize("integrations/cpanel-htaccess.mjs");
 
 /** Every source file that ends up in the site (pages, islands, scripts, integrations, PHP). */
 function sources(dir: string): string[] {
@@ -61,7 +63,11 @@ describe("analytics cookies", () => {
 describe("consent gate", () => {
   it("loads Google Analytics only from the consent module", () => {
     const offenders = files
-      .filter(({ file, text }) => path.normalize(file) !== CONSENT_MODULE && /googletagmanager\.com|google-analytics\.com|\bgtag\s*\(/.test(text))
+      .filter(({ file, text }) => {
+        if (path.normalize(file) === CONSENT_MODULE) return false;
+        const checked = path.normalize(file) === CSP_GENERATOR ? text.replace(/const ANALYTICS = \{[\s\S]*?\n\};/, "") : text;
+        return /googletagmanager\.com|google-analytics\.com|\bgtag\s*\(/.test(checked);
+      })
       .map(({ file }) => file);
     expect(offenders).toEqual([]);
   });

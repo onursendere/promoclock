@@ -3,12 +3,12 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import Section from "@/components/Section.astro";
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import { getDeals, getEvents, getPosts, getTools, toolMap } from "@/lib/content";
+import { getDeals, getPosts, getTools, toolMap } from "@/lib/content";
 import { cardImage } from "@/lib/blog-images";
-import { getDealStatus, isLive, lastVerified, localize, partitionDeals } from "@/lib/deals";
+import { getDealStatus, isLive, lastVerified, localize, partitionDeals, watchDeals } from "@/lib/deals";
 import { faqNode, itemListNode, webPageNode } from "@/lib/jsonld";
 import { absoluteUrl, blogPath, dealPath, localePath } from "@/lib/seo";
-import { BUILD_TIME, SITE_URL } from "@/lib/site";
+import { BUILD_TIME, LAUNCH_DATE, SITE_URL } from "@/lib/site";
 import { scheduleRows } from "@/lib/schedule";
 import { formatDate } from "@/lib/time";
 import { PEAK_HOURS } from "@/data/claude";
@@ -17,7 +17,6 @@ import FaqAccordion from "@/components/islands/FaqAccordion";
 import ApiTabs from "@/components/islands/ApiTabs";
 import { HeroActions, HeroHeading } from "@/components/site/HeroIntro";
 import { SponsorBanner } from "@/components/site/SponsorBanner";
-import { StatCards, type Stat } from "@/components/site/StatCards";
 import { DealCard } from "@/components/site/DealCard";
 import { ToolTiles } from "@/components/site/ToolTiles";
 import { PeakFacts } from "@/components/site/PeakFacts";
@@ -33,13 +32,14 @@ export function getStaticPaths() {
 const lang = Astro.params.lang as Locale;
 const dict = getDictionary(lang);
 const { hub } = dict;
-const [tools, deals, events, allPosts] = await Promise.all([getTools(), getDeals(), getEvents(), getPosts(lang)]);
+const [tools, deals, allPosts] = await Promise.all([getTools(), getDeals(), getPosts(lang)]);
 const posts = allPosts.slice(0, 3);
 const postImages = await Promise.all(posts.map((post) => (post.image ? cardImage(post.image) : undefined)));
 const byTool = toolMap(tools);
 
 const claudeDeals = deals.filter((d) => d.tool === "claude");
-const links = Object.fromEntries(claudeDeals.map((d) => [d.id, { href: dealPath(lang, d.id), date: formatDate(d.startsAt, lang) }]));
+const watch = watchDeals(claudeDeals, lang, BUILD_TIME);
+const links = Object.fromEntries(watch.map((d) => [d.id, { href: dealPath(lang, d.id), date: formatDate(d.startsAt, lang) }]));
 const { live } = partitionDeals(deals.filter((d) => d.tool !== "claude"), BUILD_TIME);
 const allLive = deals.filter((d) => isLive(getDealStatus(d, BUILD_TIME)));
 const liveByTool: Record<string, number> = {};
@@ -50,18 +50,17 @@ const history = claudeDeals
   .sort((a, b) => b.startsAt - a.startsAt);
 const peakSource = claudeDeals.find((d) => d.id === "claude-peak-hours-introduced");
 
-const nextDeadline = events.find((e) => e.kind === "deadline" && e.date > BUILD_TIME);
-const stats: Stat[] = [
-  { label: hub.home.statsLive, value: String(allLive.length), icon: "tag", href: localePath(lang, "deals") },
-  { label: hub.home.statsTools, value: String(tools.length), icon: "layers", href: localePath(lang, "tools") },
-  {
-    label: hub.home.statsDeadline,
-    value: nextDeadline ? formatDate(nextDeadline.date, lang, { year: undefined }) : "—",
-    icon: "calendar",
-    href: localePath(lang, "calendar"),
-  },
-  { label: hub.home.statsLanguages, value: String(i18n.locales.length), icon: "globe" },
-];
+// Sections alternate between the page background and a grey band, so each one starts visibly.
+const sectionOrder = [
+  live.length > 0 && "live-deals",
+  "schedule",
+  "tools",
+  posts.length > 0 && "blog",
+  "promotion-history",
+  "faq",
+  "developer-tools",
+].filter(Boolean);
+const band = (id: string) => sectionOrder.indexOf(id) % 2 === 0;
 
 const snippets = [
   {
@@ -89,6 +88,7 @@ const jsonLd = [
     name: dict.meta.title,
     description: dict.meta.description,
     lang,
+    datePublished: LAUNCH_DATE,
     dateModified: lastVerified(deals),
     speakable: ["h1", ".hero-summary", ".peak-answer"],
   }),
@@ -127,7 +127,7 @@ const jsonLd = [
           lang={lang}
           watch={hub.claudeWatch}
           common={hub.common}
-          deals={claudeDeals}
+          deals={watch}
           links={links}
           buildTime={BUILD_TIME}
           peakEnabled={PEAK_HOURS.enabled}
@@ -143,9 +143,8 @@ const jsonLd = [
         />
       </div>
     </div>
-    <div class="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 pb-10 sm:px-6 lg:pb-14">
+    <div class="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6 lg:pb-16">
       <SponsorBanner dict={dict} />
-      <StatCards stats={stats} />
     </div>
   </section>
 
@@ -153,15 +152,17 @@ const jsonLd = [
     live.length > 0 && (
       <Section
         id="live-deals"
+        eyebrow={hub.nav.deals}
+        icon="deals"
         title={hub.home.dealsTitle}
         description={hub.home.dealsSubtitle}
         actionHref={localePath(lang, "deals")}
         actionLabel={hub.home.dealsCta}
-        muted
+        band={band("live-deals")}
       >
         <div data-live-list class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {live.slice(0, 6).map((deal) => (
-            <div>
+          {live.slice(0, 6).map((deal, i) => (
+            <div class={i >= 3 ? "hidden sm:block" : undefined}>
               <DealCard deal={deal} tool={byTool.get(deal.tool)} lang={lang} hub={hub} now={BUILD_TIME} />
             </div>
           ))}
@@ -171,31 +172,38 @@ const jsonLd = [
     )
   }
 
-  <Section id="schedule" title={hub.home.peakTitle}>
+  <Section id="schedule" eyebrow={hub.home.peakLabel} icon="clock" title={hub.home.peakTitle} band={band("schedule")}>
     {peakSource && <PeakFacts dict={dict} source={{ label: peakSource.sourceLabel, url: peakSource.sourceUrl }} />}
-    <h3 class="text-lg font-semibold tracking-tight">{hub.home.scheduleTitle}</h3>
-    <ScheduleCard dict={dict} rows={scheduleRows(BUILD_TIME)} />
+    <div class="flex flex-col gap-4">
+      <h3 class="text-xl font-semibold tracking-tight">{hub.home.scheduleTitle}</h3>
+      <ScheduleCard dict={dict} rows={scheduleRows(BUILD_TIME)} />
+    </div>
   </Section>
 
   <Section
     id="tools"
+    eyebrow={hub.nav.tools}
+    icon="tools"
     title={hub.home.toolsTitle}
     description={hub.home.toolsSubtitle}
     actionHref={localePath(lang, "tools")}
     actionLabel={hub.home.toolsCta}
-    muted
+    band={band("tools")}
   >
-    <ToolTiles tools={tools.slice(0, 18)} lang={lang} live={liveByTool} />
+    <ToolTiles tools={tools.slice(0, 18)} lang={lang} live={liveByTool} liveLabel={hub.home.dealsTitle} />
   </Section>
 
   {
     posts.length > 0 && (
       <Section
         id="blog"
+        eyebrow={hub.nav.blog}
+        icon="blog"
         title={hub.blog.homeTitle}
         description={hub.blog.homeSubtitle}
         actionHref={blogPath(lang)}
         actionLabel={hub.blog.allArticles}
+        band={band("blog")}
       >
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map((post, i) => (
@@ -206,15 +214,31 @@ const jsonLd = [
     )
   }
 
-  <Section id="promotion-history" title={hub.home.historyTitle} description={hub.home.historySubtitle}>
+  <Section
+    id="promotion-history"
+    eyebrow={hub.home.historyLabel}
+    icon="history"
+    title={hub.home.historyTitle}
+    description={hub.home.historySubtitle}
+    band={band("promotion-history")}
+  >
     <DealTimeline deals={history} lang={lang} hub={hub} />
   </Section>
 
-  <Section id="faq" title={dict.faq.title} muted>
-    <FaqAccordion client:visible items={dict.faq.items} />
+  <Section id="faq" eyebrow={hub.home.faqLabel} icon="faq" title={dict.faq.title} band={band("faq")}>
+    <div class="max-w-3xl">
+      <FaqAccordion client:visible items={dict.faq.items} />
+    </div>
   </Section>
 
-  <Section id="developer-tools" title={dict.devTools.title} description={dict.devTools.subtitle}>
+  <Section
+    id="developer-tools"
+    eyebrow={hub.nav.api}
+    icon="api"
+    title={dict.devTools.title}
+    description={dict.devTools.subtitle}
+    band={band("developer-tools")}
+  >
     <ApiTabs
       client:visible
       title={dict.devTools.apiTitle}

@@ -23,6 +23,8 @@ export default function ToolFilters({ root, allLabel, liveLabel, searchPlacehold
   const [query, setQuery] = useState("");
   const [liveOnly, setLiveOnly] = useState(false);
   const [empty, setEmpty] = useState(false);
+  // The tabs filter one server-rendered list (there are no tab panels): point them at it.
+  const controls = root.startsWith("#") ? root.slice(1) : undefined;
   const input = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -82,9 +84,11 @@ export default function ToolFilters({ root, allLabel, liveLabel, searchPlacehold
       <Tabs value={category} onValueChange={setCategory}>
         <ScrollArea className="w-full whitespace-nowrap">
           <TabsList variant="line" className="w-max">
-            <TabsTrigger value="all">{allLabel}</TabsTrigger>
+            <TabsTrigger value="all" aria-controls={controls}>
+              {allLabel}
+            </TabsTrigger>
             {categories.map((c) => (
-              <TabsTrigger key={c.value} value={c.value}>
+              <TabsTrigger key={c.value} value={c.value} aria-controls={controls}>
                 {c.label}
               </TabsTrigger>
             ))}

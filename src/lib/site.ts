@@ -6,6 +6,9 @@ export const CONTACT_EMAIL = "info@promoclock.co";
 /** Staging builds are noindex and disallow all crawlers. */
 export const IS_STAGING = import.meta.env.PUBLIC_STAGING === "true";
 
+/** PromoClock v1.0 went live on this day (first public release). */
+export const LAUNCH_DATE = Date.UTC(2026, 2, 15);
+
 /** Frozen at build start so every page in one build agrees on "now". */
 export const BUILD_TIME = Date.now();
 

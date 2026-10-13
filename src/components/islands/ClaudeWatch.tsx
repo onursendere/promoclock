@@ -8,7 +8,7 @@ import { Progress } from "@/components/ui/progress";
 import { Skeleton } from "@/components/ui/skeleton";
 import { getPeakStatus, PEAK_HOURS } from "@/data/claude";
 import type { HubDictionary } from "@/lib/i18n/dictionaries";
-import { getClaudeHeroState, localize, type DealRecord } from "@/lib/deals";
+import { getClaudeHeroState, type WatchDeal } from "@/lib/deals";
 import type { Locale } from "@/lib/i18n/config";
 import { getCountdown, pad2, formatUnit } from "@/lib/time";
 import { cn } from "@/lib/utils";
@@ -17,7 +17,8 @@ interface Props {
   lang: Locale;
   watch: HubDictionary["claudeWatch"];
   common: HubDictionary["common"];
-  deals: DealRecord[];
+  /** From watchDeals(): only deals the clock can still show, text already localized. */
+  deals: WatchDeal[];
   /** Deal id → { href, date } for the "New" row. */
   links: Record<string, { href: string; date: string }>;
   buildTime: number;
@@ -66,14 +67,14 @@ export default function ClaudeWatch(props: Props) {
         <CardHeader className="border-b py-4">
           <CardTitle className="text-sm font-medium text-muted-foreground">{watch.livePromo}</CardTitle>
           <CardAction>
-            <Badge className="gap-1.5 bg-success text-white">
-              <span className="size-1.5 animate-pulse rounded-full bg-white" aria-hidden="true" />
+            <Badge className="gap-1.5 bg-success text-background">
+              <span className="size-1.5 animate-pulse rounded-full bg-background" aria-hidden="true" />
               {common.live}
             </Badge>
           </CardAction>
-          <p className="col-span-2 mt-2 text-xl font-semibold tracking-tight">{localize(state.promo.headline, lang)}</p>
+          <p className="col-span-2 mt-2 text-xl font-semibold tracking-tight">{state.promo.headline}</p>
           <p className="col-span-2 text-sm text-muted-foreground">
-            {localize(state.promo.value, lang)} · {localize(state.promo.audience, lang)}
+            {state.promo.value} · {state.promo.audience}
           </p>
           {state.promo.endsAt !== undefined && (
             <div className="col-span-2 mt-3 flex flex-col gap-2">
@@ -85,7 +86,7 @@ export default function ClaudeWatch(props: Props) {
                     : clock(getCountdown(state.promo.endsAt, t).totalMs)}
                 </span>
               </div>
-              <Progress value={pct(state.promo.startsAt, state.promo.endsAt, t)} />
+              <Progress value={pct(state.promo.startsAt, state.promo.endsAt, t)} aria-label={watch.promoEndsIn} />
             </div>
           )}
         </CardHeader>
@@ -146,7 +147,7 @@ export default function ClaudeWatch(props: Props) {
         </div>
 
         <div className="flex flex-col gap-2">
-          <Progress value={mounted ? pct(windowStart, windowEnd, t) : 0} />
+          <Progress value={mounted ? pct(windowStart, windowEnd, t) : 0} aria-label={watch.changesIn} />
           <div className="flex justify-between font-mono text-xs text-muted-foreground tabular-nums">
             <span>{mounted ? localTime(windowStart) : "--:--"}</span>
             <span>{mounted ? localTime(windowEnd) : "--:--"}</span>
@@ -167,7 +168,7 @@ export default function ClaudeWatch(props: Props) {
           className="flex items-center gap-3 border-t bg-muted/30 px-4 py-3 text-sm transition-colors hover:bg-muted"
         >
           <Badge className="shrink-0">{watch.whatsNew}</Badge>
-          <span className="min-w-0 flex-1 font-medium text-pretty">{localize(news.headline, lang)}</span>
+          <span className="min-w-0 flex-1 font-medium text-pretty">{news.headline}</span>
           <ChevronRight className="size-4 shrink-0 text-muted-foreground" aria-hidden="true" />
         </a>
       )}

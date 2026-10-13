@@ -174,10 +174,6 @@
       "heroSubtitle": "Sachez quand les limites de Claude s’épuisent plus vite et suivez les offres de 100 outils IA.",
       "ctaDeals": "Voir les offres",
       "ctaTools": "Voir les 100 outils",
-      "statsLive": "Offres en cours",
-      "statsTools": "Outils IA suivis",
-      "statsDeadline": "Prochaine échéance",
-      "statsLanguages": "Langues",
       "sponsored": "Sponsorisé",
       "dealsTitle": "Offres IA du moment",
       "dealsSubtitle": "Des offres vérifiées, avec leur source et un compte à rebours en direct.",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "Formules concernées",
-      "scheduleTitle": "Les heures de pointe dans votre ville"
+      "scheduleTitle": "Les heures de pointe dans votre ville",
+      "peakLabel": "Heures de pointe",
+      "historyLabel": "Historique",
+      "faqLabel": "FAQ"
     },
     "deals": {
       "metaTitle": "Offres IA et promos étudiantes ({month}) | PromoClock",

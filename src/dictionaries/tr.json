@@ -174,10 +174,6 @@
       "heroSubtitle": "Claude limitlerinin ne zaman daha hızlı tükendiğini gör, 100 AI aracındaki fırsatları takip et.",
       "ctaDeals": "Canlı fırsatlara göz at",
       "ctaTools": "100 aracı keşfet",
-      "statsLive": "Canlı fırsat",
-      "statsTools": "Takip edilen AI aracı",
-      "statsDeadline": "En yakın son tarih",
-      "statsLanguages": "Dil",
       "sponsored": "Sponsorlu",
       "dealsTitle": "Canlı AI fırsatları",
       "dealsSubtitle": "Kaynağı ve canlı geri sayımıyla doğrulanmış fırsatlar.",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "Etkilenen planlar",
-      "scheduleTitle": "Şehrine göre yoğun saatler"
+      "scheduleTitle": "Şehrine göre yoğun saatler",
+      "peakLabel": "Yoğun saatler",
+      "historyLabel": "Geçmiş",
+      "faqLabel": "SSS"
     },
     "deals": {
       "metaTitle": "AI fırsatları ve öğrenci teklifleri ({month}) | PromoClock",

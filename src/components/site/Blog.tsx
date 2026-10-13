@@ -87,41 +87,43 @@ export function BlogCard({
 }) {
   const Heading = headingLevel;
   return (
-    <Card
-      className={cn(
-        "group/post relative h-full gap-0 py-0 transition-shadow hover:ring-foreground/25",
-        featured && "md:grid md:grid-cols-2",
-      )}
-    >
-      {image && (
-        <Img
-          image={image}
-          priority={featured}
-          className={cn("aspect-video w-full bg-muted object-cover", featured && "md:aspect-auto md:h-full")}
-        />
-      )}
-      <div className={cn("flex flex-1 flex-col gap-3 p-4", featured && "justify-center gap-4 p-5 sm:p-8")}>
-        <div className="flex flex-wrap items-center gap-2">
-          {featured && <Badge>{hub.blog.featured}</Badge>}
-          <Badge variant="secondary">{hub.blog.categories[post.category]}</Badge>
+    <article className="h-full">
+      <Card
+        className={cn(
+          "group/post relative h-full gap-0 py-0 transition-shadow hover:ring-foreground/25",
+          featured && "md:grid md:grid-cols-2",
+        )}
+      >
+        {image && (
+          <Img
+            image={image}
+            priority={featured}
+            className={cn("aspect-video w-full bg-muted object-cover", featured && "md:aspect-auto md:h-full")}
+          />
+        )}
+        <div className={cn("flex flex-1 flex-col gap-3 p-4", featured && "justify-center gap-4 p-5 sm:p-8")}>
+          <div className="flex flex-wrap items-center gap-2">
+            {featured && <Badge>{hub.blog.featured}</Badge>}
+            <Badge variant="secondary">{hub.blog.categories[post.category]}</Badge>
+          </div>
+          <Heading className={cn("font-semibold tracking-tight text-balance", featured ? "text-2xl sm:text-3xl" : "text-lg leading-snug")}>
+            <a href={href} className="after:absolute after:inset-0 after:content-[''] focus-visible:outline-none">
+              {post.title}
+            </a>
+          </Heading>
+          <p className={cn("text-pretty text-muted-foreground", featured ? "text-base leading-relaxed" : "line-clamp-3 text-sm leading-relaxed")}>
+            {post.excerpt}
+          </p>
+          <div className="mt-auto flex items-center justify-between gap-3 pt-1">
+            <PostMeta post={post} lang={lang} hub={hub} />
+            <span className="inline-flex items-center gap-1 text-sm font-medium text-foreground">
+              {featured && hub.blog.readMore}
+              <ArrowRight className="size-4 transition-transform group-hover/post:translate-x-0.5" aria-hidden="true" />
+            </span>
+          </div>
         </div>
-        <Heading className={cn("font-semibold tracking-tight text-balance", featured ? "text-2xl sm:text-3xl" : "text-lg leading-snug")}>
-          <a href={href} className="after:absolute after:inset-0 after:content-[''] focus-visible:outline-none">
-            {post.title}
-          </a>
-        </Heading>
-        <p className={cn("text-pretty text-muted-foreground", featured ? "text-base leading-relaxed" : "line-clamp-3 text-sm leading-relaxed")}>
-          {post.excerpt}
-        </p>
-        <div className="mt-auto flex items-center justify-between gap-3 pt-1">
-          <PostMeta post={post} lang={lang} hub={hub} />
-          <span className="inline-flex items-center gap-1 text-sm font-medium text-foreground">
-            {featured && hub.blog.readMore}
-            <ArrowRight className="size-4 transition-transform group-hover/post:translate-x-0.5" aria-hidden="true" />
-          </span>
-        </div>
-      </div>
-    </Card>
+      </Card>
+    </article>
   );
 }
 
@@ -130,7 +132,7 @@ export function PostHeader({ post, lang, hub }: { post: BlogPost; lang: Locale; 
   const t = hub.blog;
   const updated = post.updatedAt > post.publishedAt;
   return (
-    <div className="border-b bg-muted/30">
+    <div className="border-b bg-band">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-5 px-4 pt-8 pb-8 sm:px-6 sm:pt-12 sm:pb-10">
         <Breadcrumb>
           <BreadcrumbList>
@@ -435,16 +437,18 @@ export function PostList({ posts, title, lang, hub }: { posts: BlogPost[]; title
       <h2 className="text-sm font-medium text-muted-foreground">{title}</h2>
       <ItemGroup className="gap-2">
         {posts.map((post) => (
-          <Item key={post.slug} variant="outline" size="sm" asChild className="bg-card hover:bg-muted/50">
-            <a href={localePath(lang, `blog/${post.slug}`)}>
-              <ItemContent className="min-w-0">
-                <ItemTitle className="line-clamp-2">{post.title}</ItemTitle>
-                <ItemDescription className="line-clamp-1">
-                  {hub.blog.categories[post.category]} · {format(hub.blog.readingTime, { n: post.readingMinutes })}
-                </ItemDescription>
-              </ItemContent>
-            </a>
-          </Item>
+          <div key={post.slug} role="listitem">
+            <Item variant="outline" size="sm" asChild className="bg-card hover:bg-muted/50">
+              <a href={localePath(lang, `blog/${post.slug}`)}>
+                <ItemContent className="min-w-0">
+                  <ItemTitle className="line-clamp-2">{post.title}</ItemTitle>
+                  <ItemDescription className="line-clamp-1">
+                    {hub.blog.categories[post.category]} · {format(hub.blog.readingTime, { n: post.readingMinutes })}
+                  </ItemDescription>
+                </ItemContent>
+              </a>
+            </Item>
+          </div>
         ))}
       </ItemGroup>
     </div>

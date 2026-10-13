@@ -1,21 +1,28 @@
 ---
-import { SectionHeading } from "@/components/site/SectionHeading";
+import { SectionHeading, type SectionIcon } from "@/components/site/SectionHeading";
 
 interface Props {
   id: string;
   title: string;
+  /** Short label above the title (e.g. the matching nav item) so each section start is easy to spot. */
+  eyebrow?: string;
+  icon?: SectionIcon;
   description?: string;
   actionHref?: string;
   actionLabel?: string;
   titleClassName?: string;
-  muted?: boolean;
+  /** Grey band background; alternate it between neighbouring sections. */
+  band?: boolean;
 }
-const { id, title, description, actionHref, actionLabel, titleClassName, muted = false } = Astro.props;
+const { id, title, eyebrow, icon, description, actionHref, actionLabel, titleClassName, band = false } = Astro.props;
 ---
 
-<section id={id} class:list={["scroll-mt-14 border-t", muted && "bg-muted/30"]} aria-labelledby={`${id}-title`}>
-  <div class="mx-auto flex w-full max-w-6xl flex-col gap-6 sm:gap-8 px-4 py-12 sm:px-6 sm:py-20">
+<section id={id} class:list={["scroll-mt-14 border-t", band && "bg-band"]} aria-labelledby={`${id}-title`}>
+  <div class="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-14 sm:gap-10 sm:px-6 sm:py-20">
     <SectionHeading
+      id={`${id}-title`}
+      eyebrow={eyebrow}
+      icon={icon}
       title={title}
       description={description}
       actionHref={actionHref}

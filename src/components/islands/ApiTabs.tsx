@@ -34,7 +34,8 @@ export default function ApiTabs({ title, description, copyLabel, copiedLabel, sn
           </TabsList>
           {snippets.map((s) => (
             <TabsContent key={s.id} value={s.id} className="relative">
-              <pre className="overflow-x-auto rounded-lg border bg-muted/50 p-4 pr-24 font-mono text-xs leading-relaxed">
+              {/* Long commands wrap instead of scrolling sideways; the Copy button copies them whole. */}
+              <pre className="rounded-lg border bg-muted/50 p-4 pr-24 font-mono text-xs leading-relaxed break-all whitespace-pre-wrap">
                 <code>{s.code}</code>
               </pre>
               <Button

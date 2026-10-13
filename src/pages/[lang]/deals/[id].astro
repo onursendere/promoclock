@@ -88,7 +88,7 @@ const jsonLd = [
       <DealSteps deal={deal} lang={lang} hub={hub} />
       <DealTerms deal={deal} lang={lang} hub={hub} />
       <section class="flex flex-col gap-3" aria-labelledby="deal-faq">
-        <h2 id="deal-faq" class="text-lg font-semibold tracking-tight">{hub.dealPage.faqTitle}</h2>
+        <h2 id="deal-faq" class="text-xl font-semibold tracking-tight">{hub.dealPage.faqTitle}</h2>
         <FaqAccordion client:visible items={faq} />
       </section>
       <AffiliateNote lang={lang} hub={hub} />

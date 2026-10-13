@@ -28,6 +28,7 @@
   --color-success: var(--success);
   --color-warning: var(--warning);
   --color-info: var(--info);
+  --color-band: var(--band);
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
@@ -67,13 +68,17 @@
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
+  /* Darker than shadcn's 0.556 so secondary text stays readable (6.5:1 on white, 5.9:1 on --band). */
+  --muted-foreground: oklch(0.48 0 0);
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --success: oklch(0.56 0.13 150);
-  --warning: oklch(0.67 0.16 60);
-  --info: oklch(0.56 0.12 240);
+  /* Status colours are also used as small text: each keeps ≥4.5:1 on white, --muted and --band. */
+  --destructive: oklch(0.53 0.21 27);
+  --success: oklch(0.5 0.12 150);
+  --warning: oklch(0.54 0.14 52);
+  --info: oklch(0.5 0.12 245);
+  /* Alternating page bands: makes the step from one section to the next visible. */
+  --band: oklch(0.97 0 0);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
@@ -104,13 +109,14 @@
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
+  --muted-foreground: oklch(0.74 0 0);
   --accent: oklch(0.269 0 0);
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.704 0.191 22.216);
   --success: oklch(0.72 0.14 150);
   --warning: oklch(0.78 0.14 70);
   --info: oklch(0.72 0.11 240);
+  --band: oklch(0.19 0 0);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.556 0 0);
@@ -150,13 +156,31 @@
   word-break: auto-phrase;
 }
 
+/* Cookie banner: rendered into the HTML, hidden before paint when a choice is already stored. */
+html[data-consent-stored] [data-consent-banner] {
+  display: none;
+}
+
 /* Deals that end after the page was built are hidden from live lists by the timer script. */
 [data-live-list] > [data-ended] {
   display: none;
 }
 
+/* Visitors who ask for less motion get no pulsing dots, slides or smooth scrolling. */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Devanagari marks sit above and below the line: give Hindi headings room so they never clip. */
+:lang(hi) :is(h1, h2, h3) {
+  line-height: 1.35;
 }

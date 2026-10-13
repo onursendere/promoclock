@@ -118,7 +118,7 @@ export function getDealStatus(
 export const isLive = (status: DealStatus) => status === "active" || status === "ending-soon";
 
 /** Live first (soonest deadline first, open-ended by recency), then upcoming. */
-export function sortLive(deals: DealRecord[]): DealRecord[] {
+export function sortLive<T extends Pick<DealRecord, "featured" | "startsAt" | "endsAt">>(deals: T[]): T[] {
   return [...deals].sort((a, b) => {
     if (a.featured !== b.featured) return a.featured ? -1 : 1;
     const ae = a.endsAt ?? Number.POSITIVE_INFINITY;
@@ -147,21 +147,24 @@ export function partitionDeals(deals: DealRecord[], now: number) {
 
 export type ClaudeHeroMode = "promo" | "peak" | "policy";
 
-export interface ClaudeHeroState {
+/** The deal fields the Claude hero logic reads; the island gets only these plus localized text. */
+export type HeroDeal = Pick<DealRecord, "id" | "tool" | "kind" | "startsAt" | "endsAt" | "ongoing" | "featured">;
+
+export interface ClaudeHeroState<T extends HeroDeal = DealRecord> {
   mode: ClaudeHeroMode;
-  promo?: DealRecord;
-  latestChange?: DealRecord;
+  promo?: T;
+  latestChange?: T;
 }
 
 /**
  * Hero priority: a live Claude limit boost beats everything; otherwise the
  * peak-hours clock (if enabled); otherwise the latest limit change on its own.
  */
-export function getClaudeHeroState(
-  deals: DealRecord[],
+export function getClaudeHeroState<T extends HeroDeal>(
+  deals: T[],
   now: number,
   peakEnabled: boolean,
-): ClaudeHeroState {
+): ClaudeHeroState<T> {
   const claude = deals.filter((d) => d.tool === "claude");
   const promo = sortLive(
     claude.filter((d) => d.kind === "limit-boost" && isLive(getDealStatus(d, now))),
@@ -173,6 +176,35 @@ export function getClaudeHeroState(
 
   const mode: ClaudeHeroMode = promo ? "promo" : peakEnabled ? "peak" : "policy";
   return { mode, promo, latestChange };
+}
+
+export interface WatchDeal extends HeroDeal {
+  headline: string;
+  value: string;
+  audience: string;
+}
+
+/**
+ * Claude deals the hero clock can still show from `now` on (a live boost or recent news), with
+ * their text in one language. Keeps the island's serialized props small: every deal in every
+ * language made up a quarter of the homepage HTML.
+ */
+export function watchDeals(deals: DealRecord[], lang: Locale, now: number): WatchDeal[] {
+  return deals
+    .filter((d) => d.tool === "claude" && (d.kind === "limit-boost" || d.kind === "limit-change" || d.kind === "launch"))
+    .filter((d) => now - d.startsAt <= NEWS_FRESH_MS || (d.endsAt !== undefined ? d.endsAt > now : Boolean(d.ongoing)))
+    .map((d) => ({
+      id: d.id,
+      tool: d.tool,
+      kind: d.kind,
+      startsAt: d.startsAt,
+      ...(d.endsAt !== undefined ? { endsAt: d.endsAt } : {}),
+      ...(d.ongoing ? { ongoing: true } : {}),
+      ...(d.featured ? { featured: true } : {}),
+      headline: localize(d.headline, lang),
+      value: localize(d.value, lang),
+      audience: localize(d.audience, lang),
+    }));
 }
 
 /** Latest verification date across deals — used as dateModified. */

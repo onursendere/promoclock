@@ -3,6 +3,7 @@ import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
+import { Features } from "lightningcss";
 import cpanelHtaccess from "./integrations/cpanel-htaccess.mjs";
 import blogMarkdown from "./integrations/blog-markdown.mjs";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
@@ -62,5 +63,8 @@ export default defineConfig({
   ],
   vite: {
     plugins: [tailwindcss()],
+    // Lightning CSS (Vite's CSS minifier) rewrites Tailwind's `@media (width >= …)` range queries as
+    // min-width/max-width: Safari before 16.4 and many audit tools only understand that form.
+    css: { lightningcss: { include: Features.MediaQueries } },
   },
 });

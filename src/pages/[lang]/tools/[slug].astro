@@ -29,6 +29,7 @@ import {
 } from "@/components/site/ToolProfile";
 import FaqAccordion from "@/components/islands/FaqAccordion";
 import { BlogCard } from "@/components/site/Blog";
+import { subsectionClass, subsectionTitleClass } from "@/components/site/SectionHeading";
 
 export async function getStaticPaths() {
   const [tools, deals, profileFor, posts] = await Promise.all([getTools(), getDeals(), createProfileLookup(), createPostLookup()]);
@@ -114,38 +115,38 @@ const jsonLd = [
     { name: tool.name, path: toolPath(lang, tool.slug) },
   ]),
 ];
-const h2 = "text-xl font-semibold tracking-tight";
+const h2 = subsectionTitleClass;
 ---
 
 <BaseLayout lang={lang} dict={dict} path={`tools/${tool.slug}`} title={title} description={description} jsonLd={jsonLd} hub>
   <ToolHero tool={tool} lang={lang} hub={hub} liveCount={live.length} summary={profile?.summary} />
-  <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-8 sm:gap-14 sm:px-6 sm:py-10">
+  <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-10 sm:gap-12 sm:px-6 sm:py-14">
     {!profile && tool.body && <p class="max-w-3xl leading-relaxed text-muted-foreground">{tool.body}</p>}
 
     {
       profile && (
         <>
-          <section class="flex flex-col gap-4" aria-labelledby="tool-quick-facts">
+          <section class={subsectionClass} aria-labelledby="tool-quick-facts">
             <h2 id="tool-quick-facts" class={h2}>{tp.quickFacts}</h2>
             <ToolQuickFacts tool={tool} profile={profile} lang={lang} hub={hub} />
           </section>
 
-          <section class="flex flex-col gap-4" aria-labelledby="tool-best-for">
+          <section class={subsectionClass} aria-labelledby="tool-best-for">
             <h2 id="tool-best-for" class={h2}>{tp.bestFor}</h2>
             <ToolBestFor items={profile.bestFor} />
           </section>
 
-          <section class="flex flex-col gap-4" aria-labelledby="tool-key-features">
+          <section class={subsectionClass} aria-labelledby="tool-key-features">
             <h2 id="tool-key-features" class={h2}>{tp.keyFeatures}</h2>
             <ToolFeatures features={profile.keyFeatures} />
           </section>
 
-          <section class="flex flex-col gap-4" aria-labelledby="tool-use-cases">
+          <section class={subsectionClass} aria-labelledby="tool-use-cases">
             <h2 id="tool-use-cases" class={h2}>{tp.useCases}</h2>
             <ToolUseCases items={profile.useCases} />
           </section>
 
-          <section class="flex flex-col gap-4" aria-labelledby="tool-pricing">
+          <section class={subsectionClass} aria-labelledby="tool-pricing">
             <h2 id="tool-pricing" class={h2}>{tp.pricing}</h2>
             <ToolPricing profile={profile} lang={lang} hub={hub} />
           </section>
@@ -153,7 +154,7 @@ const h2 = "text-xl font-semibold tracking-tight";
       )
     }
 
-    <section class="flex flex-col gap-4" aria-labelledby="current-deals">
+    <section class={subsectionClass} aria-labelledby="current-deals">
       <h2 id="current-deals" class={h2}>{t.currentDeals}</h2>
       {
         current.length > 0 ? (
@@ -172,7 +173,7 @@ const h2 = "text-xl font-semibold tracking-tight";
 
     {
       archive.length > 0 && (
-        <section class="flex flex-col gap-4" aria-labelledby="past-deals">
+        <section class={subsectionClass} aria-labelledby="past-deals">
           <h2 id="past-deals" class={h2}>
             {t.pastDeals}
           </h2>
@@ -183,15 +184,17 @@ const h2 = "text-xl font-semibold tracking-tight";
 
     {
       profile && Body && (
-        <section aria-label={tp.overview} class={profileProse}>
-          <Body />
+        <section aria-label={tp.overview} class={subsectionClass}>
+          <div class={profileProse}>
+            <Body />
+          </div>
         </section>
       )
     }
 
     {
       profile && (
-        <section class="flex flex-col gap-4" aria-labelledby="tool-faq">
+        <section class={subsectionClass} aria-labelledby="tool-faq">
           <h2 id="tool-faq" class={h2}>{faqTitle}</h2>
           <div class="max-w-3xl">
             <FaqAccordion client:visible items={faq} />
@@ -202,7 +205,7 @@ const h2 = "text-xl font-semibold tracking-tight";
 
     {
       related.length > 0 && (
-        <section class="flex flex-col gap-4" aria-labelledby="related-tools">
+        <section class={subsectionClass} aria-labelledby="related-tools">
           <h2 id="related-tools" class={h2}>
             {profile ? alternativesTitle : hub.categories[tool.category]}
           </h2>
@@ -217,7 +220,7 @@ const h2 = "text-xl font-semibold tracking-tight";
 
     {
       articles.length > 0 && (
-        <section class="flex flex-col gap-4" aria-labelledby="tool-articles">
+        <section class={subsectionClass} aria-labelledby="tool-articles">
           <h2 id="tool-articles" class={h2}>
             {format(hub.blog.toolArticles, { name: tool.name })}
           </h2>
@@ -232,7 +235,7 @@ const h2 = "text-xl font-semibold tracking-tight";
 
     {
       profile && (
-        <section class="flex flex-col gap-4" aria-labelledby="tool-sources">
+        <section class={subsectionClass} aria-labelledby="tool-sources">
           <h2 id="tool-sources" class={h2}>{tp.sources}</h2>
           <ToolSources sources={profile.sources} reviewedAt={profile.reviewedAt} lang={lang} hub={hub} />
         </section>

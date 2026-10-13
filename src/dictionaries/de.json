@@ -174,10 +174,6 @@
       "heroSubtitle": "Sieh, wann Claudes Limits schneller verbraucht werden, und behalte die Deals von 100 KI-Tools im Blick.",
       "ctaDeals": "Aktuelle Deals ansehen",
       "ctaTools": "100 Tools entdecken",
-      "statsLive": "Aktuelle Deals",
-      "statsTools": "KI-Tools im Blick",
-      "statsDeadline": "Nächste Frist",
-      "statsLanguages": "Sprachen",
       "sponsored": "Gesponsert",
       "dealsTitle": "Aktuelle KI-Deals",
       "dealsSubtitle": "Geprüfte Angebote mit Quelle und Live-Countdown.",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "Betroffene Pläne",
-      "scheduleTitle": "Stoßzeiten in deiner Stadt"
+      "scheduleTitle": "Stoßzeiten in deiner Stadt",
+      "peakLabel": "Stoßzeiten",
+      "historyLabel": "Chronik",
+      "faqLabel": "FAQ"
     },
     "deals": {
       "metaTitle": "KI-Deals & Studentenangebote ({month}) | PromoClock",

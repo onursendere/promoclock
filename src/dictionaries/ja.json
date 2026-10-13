@@ -174,10 +174,6 @@
       "heroSubtitle": "Claudeの上限の消費が早くなる時間帯と、AIツール100種の特典をまとめてチェック。",
       "ctaDeals": "実施中の特典を見る",
       "ctaTools": "100のツールを見る",
-      "statsLive": "実施中の特典",
-      "statsTools": "掲載中のAIツール",
-      "statsDeadline": "次の締め切り",
-      "statsLanguages": "対応言語",
       "sponsored": "スポンサー",
       "dealsTitle": "実施中のAI特典",
       "dealsSubtitle": "出典とカウントダウン付きの確認済み特典。",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "対象プラン",
-      "scheduleTitle": "都市別のピーク時間帯"
+      "scheduleTitle": "都市別のピーク時間帯",
+      "peakLabel": "ピーク時間帯",
+      "historyLabel": "履歴",
+      "faqLabel": "よくある質問"
     },
     "deals": {
       "metaTitle": "{month}のAI特典・学生向け特典まとめ | PromoClock",

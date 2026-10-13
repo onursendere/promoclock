@@ -15,7 +15,7 @@ export function HeroHeading({ hub }: { hub: HubDictionary }) {
         </span>
         {hub.home.heroEyebrow}
       </Badge>
-      <h1 className="text-4xl leading-[1.05] font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
+      <h1 className="text-[clamp(2.25rem,1.4rem+3.6vw,3.75rem)] leading-[1.12] font-semibold tracking-tight text-balance">
         {hub.home.heroTitle}
       </h1>
     </div>
@@ -38,7 +38,7 @@ export function HeroActions({
   const { home } = hub;
   return (
     <div className="flex flex-col items-start gap-6">
-      <p className="hero-summary max-w-lg text-lg text-pretty text-muted-foreground">{home.heroSubtitle}</p>
+      <p className="hero-summary max-w-lg text-lg leading-relaxed text-pretty text-muted-foreground sm:text-xl">{home.heroSubtitle}</p>
       <div className="flex w-full flex-col gap-3 min-[420px]:w-auto min-[420px]:flex-row">
         <Button size="lg" asChild className="h-11 px-5">
           <a href={dealsHref}>

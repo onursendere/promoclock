@@ -7,10 +7,12 @@ import { IS_STAGING, SITE_NAME } from "@/lib/site";
 import { absoluteUrl, alternateLinks, localePath } from "@/lib/seo";
 import { i18n, localeNames } from "@/lib/i18n/config";
 import { AUTHOR } from "@/lib/site";
+import { CONSENT_KEY, CONSENT_MAX_AGE_DAYS, CONSENT_STORED_ATTR, CONSENT_VERSION } from "@/lib/consent";
 import SiteHeader from "@/components/islands/SiteHeader";
 import CookieConsent from "@/components/islands/CookieConsent";
 import { SiteFooter } from "@/components/site/SiteFooter";
-import { CoffeeButton } from "@/components/site/CoffeeButton";
+// Preloaded so the hero text paints in Geist straight away instead of swapping fonts late.
+import geistLatin from "@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url";
 
 interface Props {
   lang: Locale;
@@ -90,7 +92,9 @@ const navItems = [
     <link rel="canonical" href={canonical} />
     {alternates.map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
     <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="preload" href={geistLatin} as="font" type="font/woff2" crossorigin />
     <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title={`${dict.hub.blog.title} (${lang})`} href={rssHref} />
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
@@ -135,6 +139,21 @@ const navItems = [
       })();
     </script>
 
+    <script
+      is:inline
+      define:vars={{ key: CONSENT_KEY, version: CONSENT_VERSION, maxAge: CONSENT_MAX_AGE_DAYS * 864e5, attr: CONSENT_STORED_ATTR }}
+    >
+      // The cookie banner is in the HTML so first-time visitors see it at first paint; a stored choice
+      // hides it before paint (CookieConsent re-checks the record properly once it hydrates).
+      try {
+        var stored = JSON.parse(localStorage.getItem(key) || "null");
+        if (stored && stored.version === version && Date.now() - Date.parse(stored.at) < maxAge) {
+          document.documentElement.setAttribute(attr, "");
+        }
+      } catch (e) {}
+    </script>
+    <noscript><style>[data-consent-banner] { display: none; }</style></noscript>
+
     <script>
       // Consent Mode defaults first; Google Analytics loads only after the visitor allows it.
       import { initConsent } from "@/lib/consent";
@@ -167,7 +186,6 @@ const navItems = [
       <slot />
     </main>
     <SiteFooter lang={lang} dict={dict} />
-    <CoffeeButton label={dict.footer.buymeacoffee} />
     <script>
       import "@/scripts/live";
     </script>

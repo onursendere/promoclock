@@ -37,15 +37,15 @@ export function CalendarMonths({
             <CardTitle className="font-semibold capitalize">{month.label}</CardTitle>
           </CardHeader>
           <CardContent className="px-2">
-            <ItemGroup>
+            <ItemGroup className="gap-0">
               {month.events.map((event, i) => {
                 const Icon = icons[event.kind];
                 const tool = event.tool ? tools[event.tool] : undefined;
                 const title = localize(event.title, lang);
                 return (
                   <Fragment key={event.id}>
-                    {i > 0 && <ItemSeparator />}
-                    <Item className="items-start">
+                    {i > 0 && <ItemSeparator className="my-1" />}
+                    <Item role="listitem" className="items-start">
                       <ItemMedia className="w-14 flex-col gap-0 rounded-md border bg-muted/50 py-1.5 text-center">
                         <span className="text-[10px] font-medium text-muted-foreground uppercase">
                           {formatDate(event.date, lang, { day: undefined, year: undefined, month: "short" })}

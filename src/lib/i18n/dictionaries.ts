@@ -103,10 +103,6 @@ export interface HubDictionary {
     heroSubtitle: Text;
     ctaDeals: Text;
     ctaTools: Text;
-    statsLive: Text;
-    statsTools: Text;
-    statsDeadline: Text;
-    statsLanguages: Text;
     sponsored: Text;
     dealsTitle: Text;
     dealsSubtitle: Text;
@@ -121,6 +117,10 @@ export interface HubDictionary {
     peakFacts: { label: Text; value: Text }[];
     affectedPlans: Text;
     scheduleTitle: Text;
+    /** Short eyebrow labels for homepage sections without a matching nav item. */
+    peakLabel: Text;
+    historyLabel: Text;
+    faqLabel: Text;
   };
   deals: {
     metaTitle: Text;

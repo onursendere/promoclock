@@ -218,4 +218,4 @@ export function ToolSources({ sources, reviewedAt, lang, hub }: { sources: strin
 
 /** Readable markdown body with shadcn typography (no plugin): foreground text, muted markers only. */
 export const profileProse =
-  "max-w-3xl text-base leading-relaxed [&>*:first-child]:mt-0 [&_h2]:mt-10 [&_h2]:scroll-m-20 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_h3]:mt-6 [&_h3]:font-semibold [&_p]:mt-3 [&_ul]:mt-3 [&_ul]:ml-5 [&_ul]:list-disc [&_ol]:mt-3 [&_ol]:ml-5 [&_ol]:list-decimal [&_li]:mt-2 [&_li]:pl-1 [&_li::marker]:text-muted-foreground [&_strong]:font-semibold [&_a]:font-medium [&_a]:underline [&_a]:underline-offset-4";
+  "max-w-3xl text-base leading-relaxed [&>*:first-child]:mt-0 [&_h2]:mt-12 [&_h2]:scroll-m-20 [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_h3]:mt-6 [&_h3]:font-semibold [&_p]:mt-3 [&_ul]:mt-3 [&_ul]:ml-5 [&_ul]:list-disc [&_ol]:mt-3 [&_ol]:ml-5 [&_ol]:list-decimal [&_li]:mt-2 [&_li]:pl-1 [&_li::marker]:text-muted-foreground [&_strong]:font-semibold [&_a]:font-medium [&_a]:underline [&_a]:underline-offset-4";

@@ -10,6 +10,7 @@ import { BUILD_TIME } from "@/lib/site";
 import { PageHeader } from "@/components/site/PageHeader";
 import { ToolCard } from "@/components/site/ToolCard";
 import ToolFilters from "@/components/islands/ToolFilters";
+import { subsectionClass, subsectionTitleClass } from "@/components/site/SectionHeading";
 
 export function getStaticPaths() {
   return i18n.locales.map((lang) => ({ params: { lang } }));
@@ -59,8 +60,8 @@ const jsonLd = [
     <div id="tools-root" class="flex flex-col gap-10">
       {
         groups.map((group) => (
-          <section data-tool-section class="flex flex-col gap-4" aria-labelledby={`cat-${group.category}`}>
-            <h2 id={`cat-${group.category}`} class="text-lg font-semibold tracking-tight">
+          <section data-tool-section class={subsectionClass} aria-labelledby={`cat-${group.category}`}>
+            <h2 id={`cat-${group.category}`} class={subsectionTitleClass}>
               {hub.categories[group.category]}
             </h2>
             <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">

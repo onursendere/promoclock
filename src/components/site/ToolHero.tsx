@@ -31,7 +31,7 @@ export function ToolHero({
   summary?: string;
 }) {
   return (
-    <div className="border-b bg-muted/30">
+    <div className="border-b bg-band">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-5 px-4 py-8 sm:gap-6 sm:px-6 sm:py-10">
         <Breadcrumb>
           <BreadcrumbList>

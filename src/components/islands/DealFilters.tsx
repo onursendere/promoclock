@@ -18,6 +18,8 @@ interface Props {
 export default function DealFilters({ root, allLabel, emptyLabel, options, total }: Props) {
   const [kind, setKind] = useState("all");
   const [empty, setEmpty] = useState(false);
+  // The tabs filter one server-rendered list (there are no tab panels): point them at it.
+  const controls = root.startsWith("#") ? root.slice(1) : undefined;
 
   useEffect(() => {
     const container = document.querySelector(root);
@@ -40,14 +42,14 @@ export default function DealFilters({ root, allLabel, emptyLabel, options, total
       <Tabs value={kind} onValueChange={setKind}>
         <ScrollArea className="w-full whitespace-nowrap">
           <TabsList className="w-max">
-            <TabsTrigger value="all">
+            <TabsTrigger value="all" aria-controls={controls}>
               {allLabel}
               <Badge variant="secondary" className="ml-1 font-mono">
                 {total}
               </Badge>
             </TabsTrigger>
             {options.map((option) => (
-              <TabsTrigger key={option.value} value={option.value}>
+              <TabsTrigger key={option.value} value={option.value} aria-controls={controls}>
                 {option.label}
                 <Badge variant="secondary" className="ml-1 font-mono">
                   {option.count}

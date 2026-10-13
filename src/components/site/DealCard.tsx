@@ -91,76 +91,78 @@ export function DealCard({
   const news = isLimitNews(deal);
 
   return (
-    <Card data-deal-card data-kind={deal.kind} className="h-full gap-4">
-      <CardHeader>
-        {hideTool || !tool ? (
-          <Badge variant="secondary" className="w-fit">
-            {kinds[deal.kind]}
-          </Badge>
-        ) : (
-          <a href={toolPath(lang, tool.slug)} className="flex w-fit items-center gap-2.5 hover:underline">
-            <ToolLogo slug={tool.slug} name={tool.name} size="sm" />
-            <span className="text-sm font-medium">{tool.name}</span>
-          </a>
-        )}
-        <CardAction>
-          <DealTimer deal={deal} hub={hub} now={now} lang={lang} />
-        </CardAction>
-      </CardHeader>
-      <CardContent className="flex flex-1 flex-col gap-4">
-        <CardTitle className="text-lg leading-snug font-semibold text-balance">
-          <h3>
-            <a href={details} className="hover:underline">
-              {localize(deal.headline, lang)}
+    <article className="h-full">
+      <Card data-deal-card data-kind={deal.kind} className="h-full gap-4">
+        <CardHeader>
+          {hideTool || !tool ? (
+            <Badge variant="secondary" className="w-fit">
+              {kinds[deal.kind]}
+            </Badge>
+          ) : (
+            <a href={toolPath(lang, tool.slug)} className="flex w-fit items-center gap-2.5 hover:underline">
+              <ToolLogo slug={tool.slug} name={tool.name} size="sm" />
+              <span className="text-sm font-medium">{tool.name}</span>
             </a>
-          </h3>
-        </CardTitle>
-        <DealFacts deal={deal} lang={lang} hub={hub} />
-        {deal.code && (
-          <InputGroup>
-            <InputGroupInput readOnly value={deal.code} className="font-mono font-semibold tracking-widest" aria-label={common.code} />
-            <InputGroupAddon align="inline-end">
-              <InputGroupButton size="xs" data-copy={deal.code} data-copied-label={common.copied}>
-                <Copy />
-                <span data-copy-label>{common.copy}</span>
-              </InputGroupButton>
-            </InputGroupAddon>
-          </InputGroup>
-        )}
-        <p className="mt-auto flex items-center gap-1.5 text-xs text-muted-foreground">
-          <BadgeCheck className="size-3.5 shrink-0 text-success" aria-hidden="true" />
-          <span className="truncate">
-            {common.verified} {formatDate(deal.verifiedAt, lang)} · {deal.sourceLabel}
-          </span>
-        </p>
-      </CardContent>
-      <CardFooter className="gap-2">
-        {news ? (
-          <>
-            <Button size="sm" asChild className="flex-1">
-              <a href={details}>{common.details}</a>
-            </Button>
-            <Button size="sm" variant="outline" asChild>
-              <a href={deal.sourceUrl} target="_blank" rel="noopener noreferrer">
-                {common.sources}
-                <ArrowUpRight data-icon="inline-end" />
+          )}
+          <CardAction>
+            <DealTimer deal={deal} hub={hub} now={now} lang={lang} />
+          </CardAction>
+        </CardHeader>
+        <CardContent className="flex flex-1 flex-col gap-4">
+          <CardTitle className="text-lg leading-snug font-semibold text-balance">
+            <h3>
+              <a href={details} className="hover:underline">
+                {localize(deal.headline, lang)}
               </a>
-            </Button>
-          </>
-        ) : (
-          <>
-            <Button size="sm" asChild className="flex-1">
-              <a href={cta.href} target="_blank" rel={cta.sponsored ? "sponsored noopener" : "noopener"}>
-                {common.getDeal}
-                <ArrowUpRight data-icon="inline-end" />
-              </a>
-            </Button>
-            <Button size="sm" variant="outline" asChild>
-              <a href={details}>{common.details}</a>
-            </Button>
-          </>
-        )}
-      </CardFooter>
-    </Card>
+            </h3>
+          </CardTitle>
+          <DealFacts deal={deal} lang={lang} hub={hub} />
+          {deal.code && (
+            <InputGroup>
+              <InputGroupInput readOnly value={deal.code} className="font-mono font-semibold tracking-widest" aria-label={common.code} />
+              <InputGroupAddon align="inline-end">
+                <InputGroupButton size="xs" data-copy={deal.code} data-copied-label={common.copied}>
+                  <Copy />
+                  <span data-copy-label>{common.copy}</span>
+                </InputGroupButton>
+              </InputGroupAddon>
+            </InputGroup>
+          )}
+          <p className="mt-auto flex items-center gap-1.5 text-xs text-muted-foreground">
+            <BadgeCheck className="size-3.5 shrink-0 text-success" aria-hidden="true" />
+            <span className="truncate">
+              {common.verified} {formatDate(deal.verifiedAt, lang)} · {deal.sourceLabel}
+            </span>
+          </p>
+        </CardContent>
+        <CardFooter className="gap-2">
+          {news ? (
+            <>
+              <Button size="sm" asChild className="flex-1">
+                <a href={details}>{common.details}</a>
+              </Button>
+              <Button size="sm" variant="outline" asChild>
+                <a href={deal.sourceUrl} target="_blank" rel="noopener noreferrer">
+                  {common.sources}
+                  <ArrowUpRight data-icon="inline-end" />
+                </a>
+              </Button>
+            </>
+          ) : (
+            <>
+              <Button size="sm" asChild className="flex-1">
+                <a href={cta.href} target="_blank" rel={cta.sponsored ? "sponsored noopener" : "noopener"}>
+                  {common.getDeal}
+                  <ArrowUpRight data-icon="inline-end" />
+                </a>
+              </Button>
+              <Button size="sm" variant="outline" asChild>
+                <a href={details}>{common.details}</a>
+              </Button>
+            </>
+          )}
+        </CardFooter>
+      </Card>
+    </article>
   );
 }

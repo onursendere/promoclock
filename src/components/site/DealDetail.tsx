@@ -111,19 +111,21 @@ export function RelatedDeals({ deals, tools, lang, hub }: { deals: DealRecord[];
         {deals.map((deal) => {
           const tool = tools[deal.tool];
           return (
-            <Item key={deal.id} variant="outline" size="sm" asChild className="bg-card hover:bg-muted/50">
-              <a href={dealPath(lang, deal.id)}>
-                {tool && (
-                  <ItemMedia>
-                    <ToolLogo slug={tool.slug} name={tool.name} size="sm" />
-                  </ItemMedia>
-                )}
-                <ItemContent className="min-w-0">
-                  <ItemTitle className="line-clamp-1">{localize(deal.headline, lang)}</ItemTitle>
-                  <ItemDescription className="line-clamp-1">{localize(deal.value, lang)}</ItemDescription>
-                </ItemContent>
-              </a>
-            </Item>
+            <div key={deal.id} role="listitem">
+              <Item variant="outline" size="sm" asChild className="bg-card hover:bg-muted/50">
+                <a href={dealPath(lang, deal.id)}>
+                  {tool && (
+                    <ItemMedia>
+                      <ToolLogo slug={tool.slug} name={tool.name} size="sm" />
+                    </ItemMedia>
+                  )}
+                  <ItemContent className="min-w-0">
+                    <ItemTitle className="line-clamp-1">{localize(deal.headline, lang)}</ItemTitle>
+                    <ItemDescription className="line-clamp-1">{localize(deal.value, lang)}</ItemDescription>
+                  </ItemContent>
+                </a>
+              </Item>
+            </div>
           );
         })}
       </ItemGroup>

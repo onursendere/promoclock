@@ -1,6 +1,6 @@
 import { i18n, type Locale } from "@/lib/i18n/config";
 import { localize, type DealRecord, type ToolRecord } from "@/lib/deals";
-import { AUTHOR, CONTACT_EMAIL, SITE_NAME, SITE_URL } from "@/lib/site";
+import { AUTHOR, CONTACT_EMAIL, LAUNCH_DATE, SITE_NAME, SITE_URL } from "@/lib/site";
 import { SCHEMA_CATEGORY, operatingSystems, type ToolProfile } from "@/lib/profiles";
 
 /**
@@ -22,8 +22,10 @@ export function siteNodes(): Node[] {
       "@id": ORG_ID,
       name: SITE_NAME,
       url: SITE_URL,
+      description: "PromoClock tracks Claude peak hours, Claude usage-limit changes and verified deals across 100 AI tools.",
       logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png`, width: 512, height: 512 },
       email: CONTACT_EMAIL,
+      foundingDate: iso(LAUNCH_DATE).slice(0, 10),
       founder: { "@id": PERSON_ID },
       sameAs: [AUTHOR.repo],
     },
@@ -55,6 +57,7 @@ export function webPageNode(opts: {
   name: string;
   description: string;
   lang: Locale;
+  datePublished?: number;
   dateModified?: number;
   type?: string;
   speakable?: string[];
@@ -76,6 +79,7 @@ export function webPageNode(opts: {
     isPartOf: { "@id": WEBSITE_ID },
     publisher: { "@id": ORG_ID },
     author: { "@id": opts.authorId ?? PERSON_ID },
+    ...(opts.datePublished ? { datePublished: iso(opts.datePublished) } : {}),
     ...(opts.dateModified ? { dateModified: iso(opts.dateModified) } : {}),
     ...(opts.speakable ? { speakable: { "@type": "SpeakableSpecification", cssSelector: opts.speakable } } : {}),
     ...(opts.about ? { about: opts.about } : {}),

@@ -9,7 +9,9 @@ export function NotFound({ title, body, cta, href }: { title: string; body: stri
         <EmptyMedia variant="icon">
           <Compass />
         </EmptyMedia>
-        <EmptyTitle>404 · {title}</EmptyTitle>
+        <EmptyTitle className="text-2xl font-semibold">
+          <h1>404 · {title}</h1>
+        </EmptyTitle>
         <EmptyDescription>{body}</EmptyDescription>
       </EmptyHeader>
       <EmptyContent>

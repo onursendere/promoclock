@@ -15,6 +15,8 @@ export const CONSENT_KEY = "pc-consent";
 export const CONSENT_VERSION = "2026-10-12";
 /** A choice — allow or refuse — is remembered for 6 months, then asked again. */
 export const CONSENT_MAX_AGE_DAYS = 182;
+/** Set on <html> before first paint when a choice is stored, so the server-rendered banner stays hidden. */
+export const CONSENT_STORED_ATTR = "data-consent-stored";
 /** _ga cookies expire after 13 months instead of Google's default 2 years. */
 export const GA_COOKIE_DAYS = 395;
 

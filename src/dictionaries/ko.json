@@ -174,10 +174,6 @@
       "heroSubtitle": "Claude 한도가 빨리 소진되는 시간을 확인하고, AI 도구 100개의 특가를 한눈에 살펴보세요.",
       "ctaDeals": "진행 중인 특가 보기",
       "ctaTools": "도구 100개 둘러보기",
-      "statsLive": "진행 중인 특가",
-      "statsTools": "추적 중인 AI 도구",
-      "statsDeadline": "다음 마감",
-      "statsLanguages": "지원 언어",
       "sponsored": "스폰서",
       "dealsTitle": "진행 중인 AI 특가",
       "dealsSubtitle": "출처를 확인한 특가를 실시간 카운트다운과 함께 보여 드립니다.",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "대상 플랜",
-      "scheduleTitle": "도시별 피크 시간대"
+      "scheduleTitle": "도시별 피크 시간대",
+      "peakLabel": "피크 시간대",
+      "historyLabel": "기록",
+      "faqLabel": "FAQ"
     },
     "deals": {
       "metaTitle": "AI 특가·학생 혜택 ({month}) | PromoClock",

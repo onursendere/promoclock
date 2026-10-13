@@ -14,6 +14,7 @@ import { AffiliateNote } from "@/components/site/AffiliateNote";
 import { SponsorBanner } from "@/components/site/SponsorBanner";
 import { Badge } from "@/components/ui/badge";
 import DealFilters from "@/components/islands/DealFilters";
+import { subsectionClass, subsectionTitleClass } from "@/components/site/SectionHeading";
 
 export function getStaticPaths() {
   return i18n.locales.map((lang) => ({ params: { lang } }));
@@ -69,12 +70,12 @@ const jsonLd = [
   <div class="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-10 sm:px-6">
     <SponsorBanner dict={dict} />
     <DealFilters client:load root="#deals-root" allLabel={t.filterAll} emptyLabel={t.empty} options={kindOptions} total={shown.length} />
-    <div id="deals-root" class="flex flex-col gap-12">
+    <div id="deals-root" class="flex flex-col gap-10 sm:gap-12">
       {
         sections.map((section) => (
-          <section data-deal-section class="flex flex-col gap-4" aria-labelledby={`deals-${section.id}`}>
+          <section data-deal-section class={subsectionClass} aria-labelledby={`deals-${section.id}`}>
             <div class="flex items-center gap-2">
-              <h2 id={`deals-${section.id}`} class="text-lg font-semibold tracking-tight">
+              <h2 id={`deals-${section.id}`} class={subsectionTitleClass}>
                 {section.title}
               </h2>
               <Badge variant="secondary" className="font-mono">

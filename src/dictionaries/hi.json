@@ -174,10 +174,6 @@
       "heroSubtitle": "देखें कि Claude की लिमिट कब तेज़ी से ख़त्म होती है, और 100 AI टूल्स की डील्स पर नज़र रखें।",
       "ctaDeals": "लाइव डील्स देखें",
       "ctaTools": "100 टूल्स देखें",
-      "statsLive": "लाइव डील्स",
-      "statsTools": "AI टूल्स पर नज़र",
-      "statsDeadline": "अगली डेडलाइन",
-      "statsLanguages": "भाषाएं",
       "sponsored": "प्रायोजित",
       "dealsTitle": "लाइव AI डील्स",
       "dealsSubtitle": "स्रोत और लाइव काउंटडाउन के साथ वेरिफ़ाइड ऑफ़र।",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "किन प्लान पर असर",
-      "scheduleTitle": "आपके शहर में पीक आवर्स"
+      "scheduleTitle": "आपके शहर में पीक आवर्स",
+      "peakLabel": "पीक आवर्स",
+      "historyLabel": "इतिहास",
+      "faqLabel": "FAQ"
     },
     "deals": {
       "metaTitle": "AI डील्स और स्टूडेंट ऑफ़र ({month}) | PromoClock",

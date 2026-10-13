@@ -174,10 +174,6 @@
       "heroSubtitle": "See when Claude's limits drain faster and track deals across 100 AI tools.",
       "ctaDeals": "Browse live deals",
       "ctaTools": "Explore 100 tools",
-      "statsLive": "Live deals",
-      "statsTools": "AI tools tracked",
-      "statsDeadline": "Next deadline",
-      "statsLanguages": "Languages",
       "sponsored": "Sponsored",
       "dealsTitle": "Live AI deals",
       "dealsSubtitle": "Verified offers with sources and live countdowns.",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "Affected plans",
-      "scheduleTitle": "Peak hours in your city"
+      "scheduleTitle": "Peak hours in your city",
+      "peakLabel": "Peak hours",
+      "historyLabel": "History",
+      "faqLabel": "FAQ"
     },
     "deals": {
       "metaTitle": "AI Deals & Student Offers ({month}) | PromoClock",

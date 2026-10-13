@@ -174,10 +174,6 @@
       "heroSubtitle": "Mira cuándo se agotan más rápido los límites de Claude y sigue las ofertas de 100 herramientas de IA.",
       "ctaDeals": "Ver ofertas en vivo",
       "ctaTools": "Ver 100 herramientas",
-      "statsLive": "Ofertas en vivo",
-      "statsTools": "Herramientas de IA",
-      "statsDeadline": "Próxima fecha límite",
-      "statsLanguages": "Idiomas",
       "sponsored": "Patrocinado",
       "dealsTitle": "Ofertas de IA en vivo",
       "dealsSubtitle": "Ofertas verificadas, con fuente y cuenta regresiva.",
@@ -212,7 +208,10 @@
         }
       ],
       "affectedPlans": "Planes afectados",
-      "scheduleTitle": "Horas pico en tu ciudad"
+      "scheduleTitle": "Horas pico en tu ciudad",
+      "peakLabel": "Horas pico",
+      "historyLabel": "Historial",
+      "faqLabel": "FAQ"
     },
     "deals": {
       "metaTitle": "Ofertas de IA y para estudiantes ({month}) | PromoClock",
