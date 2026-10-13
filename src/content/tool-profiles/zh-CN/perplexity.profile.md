@@ -25,9 +25,10 @@ useCases:
   - "在Pro搜索中调用Statista和PitchBook的数据，撰写一份市场规模简报。"
   - "把竞品分析交给Perplexity Computer，取回一份完整的报告和表格。"
   - "在手机上让Comet总结并对比多个浏览中的产品页面。"
-pricingSummary: "Free免费，每日用量有限。Pro为每月$20，Max为每月$200，已认证的学生和教育工作者可获得每月$10的Education Pro。"
+pricingSummary: "Free免费，每日用量有限。Pro为每月$20，按年付费为每月$17；Max为每月$200，按年付费为每月$167。已认证的学生和教育工作者可获得每月$10的Education Pro。"
 savingTips:
   - "通过SheerID认证的学生和教育工作者可以以每月$10使用Education Pro，是Pro价格的一半，且包含Pro的全部功能。"
+  - "按年付费可把Pro降到$17/月，Max降到$167/月。"
   - "Free套餐的每个答案仍带有引用，偶尔核实事实无需订阅。"
   - "Enterprise Pro席位年付为每席位$400，而月付则为每月$40。"
 faq:

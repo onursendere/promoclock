@@ -9,14 +9,14 @@ keyTakeaways:
   - "Adobe Firefly Standard kostet US$9.99/Monat mit 2.000 Credits und unbegrenzter Standard-Bildgenerierung, und laut Adobe dürfen Ergebnisse der Firefly-Modelle kommerziell genutzt werden."
   - "Ideogram ist die Wahl für lesbaren Text in Bildern: Kostenlose Konten bekommen 30 Credits pro Woche, und Plus kostet $20/Monat oder $15/Monat bei jährlicher Abrechnung."
   - "Recraft erzeugt in jedem Plan editierbare SVG-Vektoren, doch Bilder aus dem kostenlosen Plan gehören Recraft und dürfen nicht kommerziell genutzt werden; Basic kostet $12/Monat."
-  - "Im Oktober 2026 laufen zwei Bild-Deals: 30 % Rabatt auf Firefly Pro Plus und Premium bis 21. Oktober und unbegrenztes Seedream 5.0 Pro bei Magnific bis 10. Oktober."
+  - "Mitte Oktober 2026 laufen zwei Bild-Deals: 30 % Rabatt auf Firefly Pro Plus und Premium bis 21. Oktober und unbegrenzte Magnific-One-Generierungen bei Magnific bis 15. Oktober."
 faq:
   - q: "Welcher kostenlose KI-Bildgenerator ist der beste?"
     a: "Gemini und ChatGPT erstellen und bearbeiten Bilder beide auch mit kostenlosen Konten. Unter den spezialisierten Tools erneuert Leonardo.ai jeden Tag 150 Fast Tokens, Krea gibt 100 Compute Units pro Tag, Ideogram 30 Credits pro Woche und Adobe Firefly kostenlose tägliche Generierungen. Gratis-Bilder sind oft öffentlich, und die kostenlosen Pläne von Recraft, Krea und Freepik schließen die kommerzielle Nutzung aus."
   - q: "Was ist besser: Midjourney oder Adobe Firefly?"
     a: "Midjourney ist besser für unverwechselbare, ausgefeilte Artworks und beginnt bei $10/Monat, ohne kostenlosen Plan. Adobe Firefly ist besser für kommerzielle Arbeit und Creative Cloud: Standard kostet US$9.99/Monat mit unbegrenzter Standard-Bildgenerierung, und Adobe trainiert seine eigenen Modelle mit lizenzierten und gemeinfreien Inhalten. Firefly Pro für US$19.99/Monat enthält außerdem Photoshop im Web und mobil."
   - q: "Was kostet Ideogram?"
-    a: "Ideogram ist mit 30 Credits pro Woche kostenlos. Plus kostet $20/Monat für 2.400 Credits, Pro $60/Monat für 7.500 und Team $30 pro Nutzer und Monat bei mindestens zwei Nutzern. Jährliche Abrechnung senkt Plus auf $15, Pro auf $42 und Team auf $20 im Monat, und Top-up-Credits für $4 werden übertragen."
+    a: "Ideogram ist mit 30 Credits pro Woche kostenlos. Plus kostet $20/Monat für 2.400 Credits, Pro $60/Monat für 7.500 und Team $30 pro Nutzer und Monat bei mindestens zwei Nutzern. Jährliche Abrechnung senkt Plus auf $15, Pro auf $42 und Team auf $20 im Monat, und zusätzliche Credits kosten einen Cent pro Stück und sind 365 Tage gültig."
   - q: "Was kostet Leonardo AI?"
     a: "Der kostenlose Plan von Leonardo.ai gibt 150 Fast Tokens pro Tag, und jedes Gratisbild ist öffentlich. Essential kostet $12/Monat, Premium $30 und Ultimate $60, oder $10, $24 und $48 im Monat bei jährlicher Abrechnung, jeweils ohne Steuern. Ungenutzte bezahlte Tokens wandern in eine Bank mit bis zu 3 Monatswerten, etwa 25.500 Tokens bei Essential."
   - q: "Sind Bilder aus KI-Bildgeneratoren privat?"
@@ -89,7 +89,7 @@ Der kostenlose Plan von Leonardo.ai erneuert jeden Tag 150 Fast Tokens, doch jed
 
 ### Recraft
 
-Recraft Basic kostet $12/Monat ($10 bei jährlicher Abrechnung) für 1.000 Credits, Pro beginnt bei $20/Monat für 2.000 Credits, und Teams beginnt bei $22 pro Platz bei mindestens zwei Plätzen. Vektorgenerierung ist in jedem Plan enthalten, sogar in Free, und liefert editierbare SVG-Dateien. Recraft V4.1, veröffentlicht im Mai 2026, gibt es in acht Versionen, darunter Vector und Utility.
+Recraft Basic kostet $12/Monat ($10 bei jährlicher Abrechnung) für 1.000 Credits, Pro beginnt bei $20/Monat für 2.000 Credits, und Teams beginnt bei $22 pro Platz bei mindestens zwei Plätzen. Vektorgenerierung ist in jedem Plan enthalten, sogar in Free, und liefert editierbare SVG-Dateien. Recraft V4.1, veröffentlicht im Mai 2026, gibt es jetzt in neun Versionen, darunter Vector, Utility und ein günstiges Flash-Modell.
 
 ### Krea
 
@@ -140,7 +140,7 @@ Wenn du Fotos bearbeiten statt generieren willst, liegen Photoroom und Pixelcut 
 Ja: Mit Stand Oktober 2026 laufen bei Adobe Firefly und Magnific zeitlich begrenzte Angebote, und Studierende an US-Hochschulen können Google AI Pro oder ChatGPT Plus gratis bekommen.
 
 - [30 % Rabatt auf Firefly Pro Plus und Premium](/deals/adobe-firefly-30-off-first-year-2026/): Neue Abonnenten zahlen im ersten Jahr US$34.97/Monat statt US$49.99 für Pro Plus oder US$139.91 statt US$199.99 für Premium. Endet am 21. Oktober 2026.
-- [Unbegrenztes Seedream 5.0 Pro bei Magnific](/deals/magnific-unlimited-seedream-oct-2026/): unbegrenzte Generierungen in 1.5K für Abonnenten bis 10. Oktober 2026.
+- [Unbegrenztes Magnific One bei Magnific](/deals/magnific-one-unlimited-oct-2026/): unbegrenzte Generierungen in der Qualitätsstufe High mit 2K und 4K für Premium+, Pro und Business bis 15. Oktober 2026, nachdem ein Angebot mit unbegrenztem Seedream 5.0 Pro am 10. Oktober endete.
 - [Ein Jahr Google AI Pro gratis](/deals/google-ai-pro-students-2026/): für berechtigte Studierende an US-Hochschulen, die bis 31. Dezember 2026 einlösen.
 - [4 Monate ChatGPT Plus gratis](/deals/chatgpt-plus-students-back-to-school-2026/): für berechtigte Studierende an US-Hochschulen, die sich das Angebot bis 31. Oktober 2026 sichern.
 

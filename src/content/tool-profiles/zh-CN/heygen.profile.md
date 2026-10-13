@@ -1,7 +1,7 @@
 ---
 summary: "HeyGen是一个AI视频平台，能把脚本、照片和提示词变成由逼真数字人主播的视频。它以Avatar V模型、支持175种以上语言的克隆语音翻译加对口型，以及提示词驱动的Video Agent而闻名。营销人员、教育工作者和销售团队都在使用它；新订阅用户使用的是基于额度的套餐。"
-metaTitle: "HeyGen价格、额度与免费套餐"
-metaDescription: "2026年HeyGen价格：免费套餐每月3个视频，Creator为$29/月，额度如何取代了无限套餐，以及数字人和翻译功能详解。"
+metaTitle: "HeyGen价格：免费套餐、Creator $29、Pro $49"
+metaDescription: "HeyGen免费套餐每月可制作3个1分钟视频。Creator为$29/月含600点额度，Pro为$49含1,000点额度和4K，Business为$149/月。"
 bestFor:
   - "制作代言人视频的营销人员"
   - "本地化视频内容的团队"

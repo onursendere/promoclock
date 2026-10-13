@@ -1,7 +1,7 @@
 ---
 summary: "Grok是xAI推出的AI助手，SpaceX已于2026年2月收购xAI，现以SpaceXAI的品牌运营。它把聊天与实时X和网络搜索、Grok Imagine图像视频生成、语音和编程智能体结合在一起。适合重度X用户、视频创作者，以及希望所有产品共用同一用量池的人。"
-metaTitle: "Grok价格：SuperGrok套餐与免费层级"
-metaDescription: "2026年Grok价格：免费层级、SuperGrok每月$30、SuperGrok Plus每月$100。了解每周用量池、功能、限制和替代工具。"
+metaTitle: "Grok价格：免费、SuperGrok $30、Plus $100"
+metaDescription: "Grok可免费使用。xAI定价页显示SuperGrok为$30/月，SuperGrok Plus为$100/月；SuperGrok Lite和Heavy的价格未公开。"
 bestFor:
   - "重度X用户"
   - "制作AI短视频的创作者"

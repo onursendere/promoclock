@@ -54,6 +54,6 @@ Fireflies encaja con equipos que sostienen muchas llamadas externas y quieren la
 ## Limitaciones
 - El almacenamiento de Free se queda en 400 minutos, y los resúmenes con IA en Free son limitados.
 - El almacenamiento de Pro está limitado a 8.000 minutos por asiento; el ilimitado empieza en Business.
-- Subidas, transferencias por API y llamadas de marcador comparten un tope mensual de 3.000 minutos por fuente para individuos, con exceso facturado a $0,01 por minuto.
+- Subidas, transferencias por API y llamadas de marcador comparten un tope mensual de 3.000 minutos por fuente para individuos, con exceso facturado a $0.01 por minuto.
 - Cada miembro del workspace cuenta como asiento pagado en los planes de pago.
 - A algunos invitados les disgusta un bot en la llamada; la app de escritorio lo evita, pero no guarda archivo de grabación.

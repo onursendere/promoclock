@@ -1,7 +1,7 @@
 ---
 summary: "Freepik은 Freepik Company의 스톡 콘텐츠·AI 크리에이티브 플랫폼으로, 2026년 Magnific으로 이름을 바꿔 이제 freepik.com은 magnific.com으로 리디렉션됩니다. 2억 5천만 개 이상의 사진, 벡터, 영상, 템플릿을 30개 이상의 모델을 아우르는 AI 이미지·영상·오디오·업스케일링 도구와 결합합니다. 디자이너, 마케터, 에이전시가 하나의 구독으로 비주얼을 찾고 만드는 데 사용합니다."
-metaTitle: "Freepik(현 Magnific) 요금과 무료 플랜 2026"
-metaDescription: "Freepik은 이제 Magnific입니다. 2026년 Premium, Premium+, Pro 요금, 무료 플랜 한도, AI 크레딧, 무제한 생성과 달라진 점을 확인하세요."
+metaTitle: "Freepik은 이제 Magnific: 요금, 무료 플랜, 달라진 점"
+metaDescription: "Freepik은 이제 Magnific입니다. 무료 플랜은 여전히 하루 스톡 다운로드 10건을 제공하며 영국 기준 Premium은 월 £14부터입니다. 2026년 플랜, AI 크레딧, 한도를 확인하세요."
 bestFor:
   - "스톡과 AI가 모두 필요한 디자이너"
   - "소셜·마케팅 팀"

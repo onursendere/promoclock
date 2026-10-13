@@ -174,13 +174,13 @@
       "title": "Claude工作制品使用推广：创建工作制品后会话用量减少50%(2026年10月1–15日)",
       "headline": "Claude工作制品：会话用量减少50%",
       "value": "用量减少50%",
-      "audience": "Pro、Max、Team",
-      "summary": "2026年10月1至15日，在Claude中创建或编辑工作制品后的工作用量计入五小时会话额度时减少50%。自动应用；每周额度不变。",
+      "audience": "Free、Pro、Max、Team",
+      "summary": "2026年10月15日前，在Claude中创建或编辑工作制品后的工作，计入五小时会话额度的用量减少50%。该活动10月1日在Pro、Max和Team上开始，Free套餐自10月7日起加入，每周额度不变。",
       "scope": "Claude网页、桌面、手机和云Cowork任务",
       "terms": [
         "在聊天中，工作制品创建或编辑后的后续10条消息享受折扣，每条回复最多15步。",
         "从文档、演示文稿或设计开始的Cowork任务可获得约45分钟的折扣工作时间。",
-        "Claude Code、API、Claude Slack集成、本地Cowork任务，以及Free和Enterprise套餐不适用。"
+        "Claude Code、API、Claude Slack集成、本地和定时Cowork任务、独立的Claude Design应用以及Enterprise套餐不适用。"
       ]
     },
     "elevenlabs-v4-launch-3x-credits": {
@@ -210,10 +210,12 @@
       "title": "SWE-2在Devin Desktop(原Windsurf)和Devin CLI中免费使用，截止2026年10月16日",
       "headline": "SWE-2在Devin Desktop中免费(至2026年10月16日)",
       "value": "免费SWE-2",
-      "audience": "Pro和Max套餐",
-      "summary": "Cognition的SWE-2编程模型在Devin Desktop(原Windsurf编辑器)和Devin CLI中免费使用至2026年10月16日，仅限Pro(每月$20)和Max(每月$200)套餐。",
+      "audience": "自助的Pro、Max和Teams套餐",
+      "summary": "Cognition的SWE-2编程模型在Devin Desktop(原Windsurf编辑器)和Devin CLI中免费使用至2026年10月16日，适用于自助套餐，包括Pro(每月$20)和Max(每月$200)。",
       "terms": [
-        "SWE-2于2026年9月10日发布，是Cognition最新的模型。"
+        "SWE-2于2026年9月10日发布，是Cognition最新的模型。",
+        "Devin的模型文档给出的最后一个免费日是10月15日，所以请在此之前集中使用。",
+        "免费期结束后，SWE-2按标准模型费率计费。"
       ]
     },
     "adobe-firefly-30-off-first-year-2026": {
@@ -224,6 +226,7 @@
       "summary": "新Firefly订阅用户首年可享30%折扣：Pro Plus原价$49.99/月现为$34.97，Premium原价$199.99/月现为$139.91。活动截止2026年10月21日。",
       "terms": [
         "需承诺12个月订阅；第二年起按原价计费。",
+        "Adobe的套餐页面注明，首年可在部分Firefly模型上无限次生成。",
         "不适用于教育、OEM或大批量许可用户。",
         "英国用户首年Pro Plus为£33.58/月，Premium为£140.20/月。"
       ]
@@ -291,6 +294,125 @@
       ],
       "terms": [
         "每个学生一个工作区；不可与其他Lovable优惠叠加。"
+      ]
+    },
+    "claude-for-startups-team-year-2026": {
+      "title": "Claude for Startups：免费1年Claude Team和$1,000 API积分（2026年10月起超出承载能力）",
+      "headline": "Claude for Startups：免费Team一年（已暂停）",
+      "value": "1年Team + $1,000",
+      "audience": "已获准加入Claude for Startups的初创公司",
+      "summary": "2026年10月6日，Anthropic为Claude for Startups新增了最多五个席位的1年免费Claude Team和$1,000 API积分。几天内，Anthropic表示这两项优惠都已超出承载能力，将重新审核所有申请；已经领取的初创公司可继续保留。",
+      "terms": [
+        "API积分仅适用于Anthropic官方的Claude API，不适用于Amazon Bedrock或Google Vertex AI。",
+        "该计划的其余部分，包括最高$45,000的合作伙伴折扣和答疑时间，仍然接受申请。"
+      ]
+    },
+    "magnific-one-unlimited-oct-2026": {
+      "title": "Magnific（Freepik）：Premium+、Pro和Business套餐2026年10月15日前无限次使用Magnific One生成图像",
+      "headline": "Magnific One无限使用至10月15日",
+      "value": "无限使用Magnific One",
+      "audience": "Premium+、Pro和Business订阅者",
+      "summary": "Magnific是Freepik旗下AI套件的新名称。2026年10月15日前，Premium+、Pro和Business套餐可在桌面端无限次使用新的Magnific One图像模型。Max质量仍会消耗积分。",
+      "terms": [
+        "无限范围涵盖High质量下2K和4K的Draft与Final。",
+        "它取代了10月10日结束的无限Seedream 5.0 Pro优惠。"
+      ]
+    },
+    "elevenlabs-starter-1-first-month-2026": {
+      "title": "ElevenLabs Starter仅$1：新订阅者首月减83%（2026年10月18日前）",
+      "headline": "ElevenLabs Starter：首月$1",
+      "value": "首月$1",
+      "audience": "Starter新订阅者",
+      "summary": "2026年10月18日前，ElevenLabs新订阅者可用$1（而非$6）订阅Starter套餐的首月。Creator套餐首月也显示为$11（原价$22）。",
+      "terms": [
+        "仅限首月；之后Starter按$6/月续订，Creator按$22/月续订。",
+        "价格页面上没有标注Creator折扣的结束日期。"
+      ]
+    },
+    "runway-enterprise-two-months-free-2026": {
+      "title": "Runway Enterprise：2026年10月31日前签约的企业可免费使用2个月",
+      "headline": "Runway Enterprise：免费使用2个月",
+      "value": "免费2个月",
+      "audience": "签署Runway Enterprise协议的企业",
+      "summary": "2026年10月31日前签署Enterprise协议的企业，Runway赠送2个月的使用额度。这是销售主导的优惠，自助套餐不适用。",
+      "steps": [
+        "通过runway.com上的横幅联系Runway销售团队。",
+        "在10月31日前签署Enterprise协议。"
+      ],
+      "terms": [
+        "仅限Enterprise协议；Free、Standard、Pro、Max和Team套餐不适用。",
+        "适用Runway单独的优惠条款。"
+      ]
+    },
+    "kiro-startups-pro-plus-credits-2026": {
+      "title": "Kiro for Startups：早期初创公司免费用Kiro Pro+并获一年积分（2026年12月31日前申请）",
+      "headline": "初创公司免费用Kiro Pro+",
+      "value": "免费Pro+和积分",
+      "audience": "拥有AWS账号的早期至A轮初创公司",
+      "summary": "AWS为符合条件的初创公司免费提供Kiro Pro+使用权限和一年的Kiro推广积分。2026年4月7日至12月31日开放申请。",
+      "steps": [
+        "用公司的AWS账号ID，通过Kiro的初创公司计划申请。",
+        "选择适合你团队的Pro+档位；积分金额取决于档位。"
+      ],
+      "terms": [
+        "仅限拥有AWS账号、处于早期至A轮阶段的公司。",
+        "积分自发放到你的AWS账号起一年后过期。"
+      ]
+    },
+    "gemini-3-8-flash-intro-pricing-2026": {
+      "title": "Gemini 3.8 Flash API入门价：每100万token输入$0.75、输出$3.75（至2026年12月31日）",
+      "headline": "Gemini 3.8 Flash API半价至2026年底",
+      "value": "API费率减50%",
+      "audience": "使用Gemini API付费层级的开发者",
+      "summary": "2026年12月31日前，在Gemini API付费的Standard层级上，Gemini 3.8 Flash每100万输入token收费$0.75，每100万输出token收费$3.75。自2027年1月1日起，费率翻倍至$1.50和$7.50。",
+      "terms": [
+        "上下文缓存同样在2026年底前半价。",
+        "Gemini API的免费层级继续免费。"
+      ]
+    },
+    "synthesia-syren-launch-credits-2026": {
+      "title": "Synthesia Syren上线：每位用户可获免费Syren积分，有效期一个月（2026年10月）",
+      "headline": "Synthesia Syren：免费启动积分",
+      "value": "免费Syren积分",
+      "audience": "所有Synthesia用户，包括免费套餐",
+      "summary": "Synthesia于2026年10月9日推出AI视频智能体Syren的测试版，并为每位用户赠送仅限Syren使用的免费积分，用来制作第一支视频。积分有效期一个月，之后Syren会使用你正常套餐的积分。",
+      "steps": [
+        "登录Synthesia，从左侧导航栏打开Syren。",
+        "描述你想要的视频或附上文件，然后通过聊天继续完善。"
+      ],
+      "terms": [
+        "Syren处于测试阶段，生成的视频最长三分钟。",
+        "启动积分只能在Syren中使用。"
+      ]
+    },
+    "kiro-student-free-year-2026": {
+      "title": "Kiro大学生免费：一年内每月1,000积分",
+      "headline": "Kiro学生免费用一年",
+      "value": "免费1年",
+      "audience": "符合条件大学的学生",
+      "summary": "符合条件大学的学生可免费获得一年的Kiro积分，每月1,000个，与Kiro Pro的月度额度相同。一年后账户转为Free套餐，你的作品会保留。",
+      "steps": [
+        "用与大学邮箱绑定的账号登录Kiro。",
+        "在账户用量页面，点击Kiro Students横幅中的验证。",
+        "通过SheerID完成学生身份验证。"
+      ],
+      "terms": [
+        "你必须年满18岁，并就读于名单上的大学。",
+        "积分不会结转，也不提供附加积分。"
+      ]
+    },
+    "codex-for-open-source-chatgpt-pro-2026": {
+      "title": "Codex for Open Source：开源维护者可获6个月带Codex的ChatGPT Pro",
+      "headline": "Codex for Open Source：6个月Pro",
+      "value": "6个月Pro",
+      "audience": "广泛使用的开源项目的维护者",
+      "summary": "OpenAI的Codex for Open Source计划为获批的维护者提供六个月带Codex的ChatGPT Pro。项目还可以从$100万基金中申请API积分，核心维护者还可申请Codex Security使用权限。",
+      "steps": [
+        "通过OpenAI的Codex for Open Source页面上的表单申请。"
+      ],
+      "terms": [
+        "逐案审批；核心维护者和广泛使用的公开项目的负责人是主要对象。",
+        "未列出申请截止日期。"
       ]
     }
   },
@@ -637,6 +759,24 @@
     },
     "pixel-10-pro-ai-pro-deadline-2026": {
       "title": "Pixel 10 Pro含12个月Google AI Pro购买截止日"
+    },
+    "magnific-one-unlimited-end-2026": {
+      "title": "Magnific One无限生成结束"
+    },
+    "elevenlabs-starter-1-end-2026": {
+      "title": "以$1订阅ElevenLabs Starter首月的最后一天"
+    },
+    "runway-enterprise-offer-end-2026": {
+      "title": "签约Runway Enterprise并免费使用2个月的最后一天"
+    },
+    "kiro-startups-deadline-2026": {
+      "title": "申请初创公司免费Kiro Pro+的最后一天"
+    },
+    "gemini-3-8-flash-intro-pricing-end-2026": {
+      "title": "Gemini 3.8 Flash API入门价结束，1月1日费率翻倍"
+    },
+    "claude-for-startups-launch-2026": {
+      "title": "Claude for Startups新增免费1年Claude Team和$1,000 API积分"
     }
   }
 }

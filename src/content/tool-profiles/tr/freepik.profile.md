@@ -1,7 +1,7 @@
 ---
 summary: "Freepik, Freepik Company'nin stok içerik ve AI yaratıcı platformu; 2026'da Magnific olarak yeniden adlandırıldı ve freepik.com artık magnific.com'a yönlendiriyor. 250 milyondan fazla fotoğraf, vektör, video ve şablonu; 30'dan fazla model üzerinden AI görsel, video, ses ve büyütme araçlarıyla birleştiriyor. Tasarımcılar, pazarlamacılar ve ajanslar görselleri tek abonelikte bulup üretmek için kullanıyor."
-metaTitle: "Freepik (artık Magnific) fiyatları ve ücretsiz plan"
-metaDescription: "Freepik artık Magnific. Premium, Premium+ ve Pro için 2026 fiyatları, ücretsiz plan sınırları, AI kredileri, sınırsız üretim ve kullanıcılar için değişenler."
+metaTitle: "Freepik artık Magnific: fiyatlar, ücretsiz plan, değişenler"
+metaDescription: "Freepik artık Magnific. Ücretsiz planda hâlâ günde 10 stok indirme var; Premium İngiltere'de aylık £14'tan başlıyor. 2026 planları, AI kredileri ve limitler."
 bestFor:
   - "Stok ve AI'a ihtiyacı olan tasarımcılar"
   - "Sosyal medya ve pazarlama ekipleri"

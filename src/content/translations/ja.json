@@ -174,13 +174,13 @@
       "title": "Claude アーティファクト使用プロモーション：アーティファクト作成・編集後のセッション使用量が50%削減（2026年10月1～15日）",
       "headline": "Claude アーティファクト：セッション使用量50%削減",
       "value": "使用量50%削減",
-      "audience": "Pro、Max、Team",
-      "summary": "2026年10月1～15日、Claude内でアーティファクトを作成・編集した後の作業は、5時間のセッション上限に対して50%少ない量でカウントされます。自動適用され、週間上限は変わりません。",
+      "audience": "Free、Pro、Max、Team",
+      "summary": "2026年10月15日まで、Claude内でアーティファクトを作成・編集した後の作業は、5時間のセッション上限に対して50%少ない量でカウントされます。Pro、Max、Teamでは10月1日に始まり、Freeプランは10月7日から対象になりました。週間上限は変わりません。",
       "scope": "Claude ウェブ、デスクトップ、モバイル、クラウドCoworkタスク",
       "terms": [
         "チャットでは、アーティファクト作成・編集後の次の10メッセージまで割引が適用され、回答あたり最大15ステップまでです。",
         "Document、Presentation、Designから開始したCoworkタスクは、割引対象の作業が約45分あります。",
-        "Claude Code、API、Claude in Slack、ローカルCoworkタスク、FreeおよびEnterpriseプランは対象外です。"
+        "Claude Code、API、Claude in Slack、ローカルおよびスケジュール実行のCoworkタスク、単体のClaude Designアプリ、Enterpriseプランは対象外です。"
       ]
     },
     "elevenlabs-v4-launch-3x-credits": {
@@ -210,10 +210,12 @@
       "title": "SWE-2がDevin Desktop（旧Windsurf）とDevin CLIで無料（2026年10月16日まで）",
       "headline": "SWE-2がDevin Desktopで無料（10月16日まで）",
       "value": "無料SWE-2",
-      "audience": "Pro・Maxプラン",
-      "summary": "CognitionのSWE-2コーディングモデルはDevin Desktop（改名されたWindsurfエディタ）とDevin CLIで、2026年10月16日までPro（月額$20）およびMax（月額$200）で無料で利用できます。",
+      "audience": "セルフサーブのPro・Max・Teamsプラン",
+      "summary": "CognitionのSWE-2コーディングモデルはDevin Desktop（改名されたWindsurfエディタ）とDevin CLIで、2026年10月16日まで、Pro（月額$20）およびMax（月額$200）を含むセルフサーブのプランで無料で利用できます。",
       "terms": [
-        "SWE-2は2026年9月10日にCognitionの最新モデルとしてローンチされました。"
+        "SWE-2は2026年9月10日にCognitionの最新モデルとしてローンチされました。",
+        "Devinのモデルドキュメントでは無料の最終日は10月15日とされているため、まとまった利用はそれまでに済ませましょう。",
+        "無料期間の終了後、SWE-2は標準のモデル料金で課金されます。"
       ]
     },
     "adobe-firefly-30-off-first-year-2026": {
@@ -224,6 +226,7 @@
       "summary": "新規Firefly契約者は初年度が30%割引：Pro Plusが月額$49.99ではなく$34.97、Premiumが月額$199.99ではなく$139.91です。2026年10月21日までのキャンペーンです。",
       "terms": [
         "12か月契約が必須で、2年目から正規料金が適用されます。",
+        "Adobeのプランページによると、初年度は一部のFireflyモデルで生成が無制限になります。",
         "教育機関、OEM、ボリュームライセンス顧客には対象外です。",
         "英国では初年度がPro Plusで月額£33.58、Premiumで月額£140.20です。"
       ]
@@ -291,6 +294,125 @@
       ],
       "terms": [
         "学生1人につき1ワークスペースまで。他のLovable特典との併用はできません。"
+      ]
+    },
+    "claude-for-startups-team-year-2026": {
+      "title": "Claude for Startups：Claude Teamの1年間無料と$1,000のAPIクレジット（2026年10月以降は定員超過）",
+      "headline": "Claude for Startups：Team 1年無料（一時停止中）",
+      "value": "Team 1年間＋$1,000",
+      "audience": "Claude for Startupsに承認されたスタートアップ",
+      "summary": "2026年10月6日、AnthropicはClaude for Startupsに、最大5シートまでのClaude Team 1年間無料と$1,000のAPIクレジットを追加しました。数日後、両方の特典で定員を超えたとして、すべての申請を再審査すると発表しています。すでに受け取ったスタートアップは引き続き利用できます。",
+      "terms": [
+        "APIクレジットはAnthropicが直接提供するClaude APIでのみ使え、Amazon BedrockやGoogle Vertex AIでは使えません。",
+        "最大$45,000のパートナー割引やオフィスアワーなど、プログラムのそれ以外の内容は、引き続き申請を受け付けています。"
+      ]
+    },
+    "magnific-one-unlimited-oct-2026": {
+      "title": "Magnific（Freepik）：Premium+・Pro・BusinessでMagnific Oneの画像生成が無制限（2026年10月15日まで）",
+      "headline": "Magnific One無制限：10月15日まで",
+      "value": "Magnific One無制限",
+      "audience": "Premium+、Pro、Businessの契約者",
+      "summary": "FreepikのAIスイートの新名称であるMagnificは、新しい画像モデルMagnific Oneを、Premium+、Pro、Businessプランのデスクトップ版で2026年10月15日まで無制限にしています。Max品質では引き続きクレジットを消費します。",
+      "terms": [
+        "無制限の対象は、High品質のDraftとFinal（2Kと4K）です。",
+        "10月10日に終了したSeedream 5.0 Proの無制限特典に代わるものです。"
+      ]
+    },
+    "elevenlabs-starter-1-first-month-2026": {
+      "title": "ElevenLabs Starterが$1：新規契約者は初月83%オフ（2026年10月18日まで）",
+      "headline": "ElevenLabs Starter：初月$1",
+      "value": "初月$1",
+      "audience": "Starterの新規契約者",
+      "summary": "ElevenLabsの新規契約者は、2026年10月18日までStarterプランの初月が$6ではなく$1になります。Creatorプランの初月も$22ではなく$11と表示されています。",
+      "terms": [
+        "割引は初月のみで、その後Starterは月額$6、Creatorは月額$22で更新されます。",
+        "料金ページには、Creatorの割引の終了日が記載されていません。"
+      ]
+    },
+    "runway-enterprise-two-months-free-2026": {
+      "title": "Runway Enterprise：2026年10月31日までに契約する企業は利用料2か月分が無料",
+      "headline": "Runway Enterprise：利用料2か月分無料",
+      "value": "2か月無料",
+      "audience": "Runway Enterprise契約を結ぶ企業",
+      "summary": "Runwayは、2026年10月31日までにEnterprise契約を結んだ企業に、利用料2か月分を無料で提供します。営業担当を通じた特典で、セルフサーブのプランでは利用できません。",
+      "steps": [
+        "runway.comのバナーから、Runwayの営業チームに問い合わせます。",
+        "10月31日までにEnterprise契約を締結します。"
+      ],
+      "terms": [
+        "Enterprise契約のみが対象で、Free、Standard、Pro、Max、Teamのプランは対象外です。",
+        "Runwayの別途の特典条件が適用されます。"
+      ]
+    },
+    "kiro-startups-pro-plus-credits-2026": {
+      "title": "Kiro for Startups：初期段階のスタートアップにKiro Pro+を無料提供、1年分のクレジット付き（2026年12月31日まで申請可）",
+      "headline": "スタートアップはKiro Pro+が無料",
+      "value": "Pro+とクレジットが無料",
+      "audience": "AWSアカウントを持つ、初期段階からシリーズAまでのスタートアップ",
+      "summary": "AWSは、対象となるスタートアップにKiro Pro+のアクセスと、1年間有効のKiroプロモーションクレジットを無償で提供します。申請は2026年4月7日から12月31日まで受け付けています。",
+      "steps": [
+        "会社のAWSアカウントIDを使って、Kiroのスタートアップ向けプログラムに申請します。",
+        "チームに合ったPro+のティアを選びます。クレジット額はティアによって決まります。"
+      ],
+      "terms": [
+        "AWSアカウントを持つ、初期段階からシリーズAまでの企業に限られます。",
+        "クレジットは、AWSアカウントに付与されてから1年後に失効します。"
+      ]
+    },
+    "gemini-3-8-flash-intro-pricing-2026": {
+      "title": "Gemini 3.8 Flash APIの導入価格：2026年12月31日まで入力100万トークンあたり$0.75、出力$3.75",
+      "headline": "Gemini 3.8 Flash APIが2026年末まで半額",
+      "value": "API料金50%オフ",
+      "audience": "Gemini APIの有料ティアを使う開発者",
+      "summary": "2026年12月31日まで、Gemini 3.8 Flashは、Gemini APIの有料Standardティアで、入力100万トークンあたり$0.75、出力100万トークンあたり$3.75です。2027年1月1日からは料金が2倍の$1.50と$7.50になります。",
+      "terms": [
+        "コンテキストキャッシュも、2026年末まで半額です。",
+        "Gemini APIの無料ティアは引き続き無料です。"
+      ]
+    },
+    "synthesia-syren-launch-credits-2026": {
+      "title": "SynthesiaのSyrenローンチ：全ユーザーにSyrenの無料クレジット、有効期間は1か月（2026年10月）",
+      "headline": "Synthesia Syren：ローンチクレジットが無料",
+      "value": "Syrenクレジット無料",
+      "audience": "無料プランを含むSynthesiaの全ユーザー",
+      "summary": "Synthesiaは2026年10月9日、AI動画エージェントのSyrenをベータ版として公開し、最初の動画を作れるSyren専用の無料クレジットを各ユーザーに付与しています。クレジットの有効期間は1か月で、その後Syrenでは通常のプランのクレジットが使われます。",
+      "steps": [
+        "Synthesiaにサインインし、左側のナビゲーションからSyrenを開きます。",
+        "作りたい動画を説明するかファイルを添付し、チャットで調整します。"
+      ],
+      "terms": [
+        "Syrenはベータ版で、動画の長さは最大3分です。",
+        "ローンチクレジットはSyrenでのみ使えます。"
+      ]
+    },
+    "kiro-student-free-year-2026": {
+      "title": "Kiroが大学生は無料：1年間、毎月1,000クレジット",
+      "headline": "Kiroが学生は1年間無料",
+      "value": "1年間無料",
+      "audience": "対象大学の学生",
+      "summary": "対象大学の学生は、Kiro Proと同じ月間枠である1,000 Kiroクレジットを毎月、1年間無料で使えます。1年後はアカウントがFreeティアに移り、作成した内容はそのまま残ります。",
+      "steps": [
+        "大学のメールアドレスに紐づいたアカウントでKiroにサインインします。",
+        "アカウントの使用状況ページで、Kiro Studentsのバナーにある「verify」をクリックします。",
+        "SheerIDで学生認証を完了します。"
+      ],
+      "terms": [
+        "18歳以上で、対象大学に在籍している必要があります。",
+        "クレジットは繰り越せず、追加クレジットも利用できません。"
+      ]
+    },
+    "codex-for-open-source-chatgpt-pro-2026": {
+      "title": "Codex for Open Source：オープンソースのメンテナーにChatGPT ProとCodexを6か月提供",
+      "headline": "Codex for Open Source：Pro 6か月",
+      "value": "Pro 6か月",
+      "audience": "広く使われているオープンソースプロジェクトのメンテナー",
+      "summary": "OpenAIのCodex for Open Sourceプログラムは、承認されたメンテナーにCodex付きのChatGPT Proを6か月提供します。プロジェクトは$100万のファンドからのAPIクレジットにも申請でき、コアメンテナーはCodex Securityも利用できます。",
+      "steps": [
+        "OpenAIのCodex for Open Sourceページにあるフォームから申請します。"
+      ],
+      "terms": [
+        "承認は個別に判断され、主な対象はコアメンテナーと、広く使われている公開プロジェクトのリーダーです。",
+        "申請期限は記載されていません。"
       ]
     }
   },
@@ -637,6 +759,24 @@
     },
     "pixel-10-pro-ai-pro-deadline-2026": {
       "title": "Pixel 10 ProとGoogle AI Pro 12か月購入期限"
+    },
+    "magnific-one-unlimited-end-2026": {
+      "title": "Magnific Oneの無制限生成が終了"
+    },
+    "elevenlabs-starter-1-end-2026": {
+      "title": "ElevenLabs Starterの初月$1を利用できる最終日"
+    },
+    "runway-enterprise-offer-end-2026": {
+      "title": "Runway Enterpriseの利用料2か月分無料で契約できる最終日"
+    },
+    "kiro-startups-deadline-2026": {
+      "title": "スタートアップ向けKiro Pro+無料の申請最終日"
+    },
+    "gemini-3-8-flash-intro-pricing-end-2026": {
+      "title": "Gemini 3.8 Flash APIの導入価格が終了、1月1日に料金が2倍に"
+    },
+    "claude-for-startups-launch-2026": {
+      "title": "Claude for StartupsにClaude Teamの1年間無料と$1,000のAPIクレジットが追加"
     }
   }
 }

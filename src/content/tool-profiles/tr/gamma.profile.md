@@ -1,7 +1,7 @@
 ---
 summary: "Gamma, Gamma Tech, Inc.'in geliştirdiği bir AI tasarım aracı: bir istemi, bir taslağı ya da içe aktarılan bir dosyayı sunumlara, belgelere, web sitelerine, sosyal gönderilere ve grafiklere dönüştürüyor. Kredilerle çalışıyor, PowerPoint, PDF ve Google Slides'a aktarıyor; dakikalar içinde şık bir sunum isteyen kurucular, danışmanlar ve öğretmenlere uygun."
-metaTitle: "Gamma AI fiyatları, krediler ve ücretsiz plan (2026)"
-metaDescription: "2026 Gamma fiyatları: 400 kredili ücretsiz plan, ardından aylık $12 Plus, $25 Pro ve $100 Ultra. Kredileri, dışa aktarımları ve alternatifleri karşılaştır."
+metaTitle: "Gamma AI fiyatı 2026: 400 ücretsiz kredi, Plus $12, Pro $25"
+metaDescription: "Gamma, tek seferlik 400 krediyle ücretsiz. Plus koltuk başına aylık $12 (yıllık $9) ve 1.000 kredi, Pro $25 ve 4.000 kredi, Ultra $100 ve 20.000 kredi sunar."
 bestFor:
   - "Yatırım sunumu hazırlayan kurucular"
   - "Danışmanlar ve satış ekipleri"

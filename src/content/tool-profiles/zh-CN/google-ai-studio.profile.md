@@ -1,7 +1,7 @@
 ---
 summary: "Google AI Studio是谷歌推出的免费浏览器工作区，用于测试Gemini模型、创建Gemini API密钥，并在Build模式下进行氛围编程。开发者用它来快速验证提示词并导出代码，非程序员则只需描述一个应用，让Antigravity智能体用Firebase登录和Firestore数据库把它搭建出来。"
-metaTitle: "Google AI Studio：免费额度与Build模式"
-metaDescription: "Google AI Studio可免费使用。了解Build模式能做什么、Gemini API如何计费，以及2026年Google AI Pro和Ultra新增了哪些内容。"
+metaTitle: "Google AI Studio免费吗？免费额度与API价格"
+metaDescription: "Google AI Studio可免费使用，Gemini访问有速率限制。Google AI Pro和Ultra可提高配额，超出免费层的Gemini API用量需预付，$5起。"
 bestFor:
   - "用Gemini做原型的开发者"
   - "搭建网页应用的非程序员"

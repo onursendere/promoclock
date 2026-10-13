@@ -54,6 +54,6 @@ O Fireflies serve times que fazem muitas chamadas externas e querem o conteúdo 
 ## Limitações
 - O armazenamento gratuito para em 400 minutos, e os resumos de IA no Free são limitados.
 - O armazenamento do Pro é limitado a 8.000 minutos por usuário; o armazenamento ilimitado começa no Business.
-- Uploads, transferências via API e chamadas por discador dividem um limite mensal de 3.000 minutos por fonte para indivíduos, com excedente cobrado a $0,01 por minuto.
+- Uploads, transferências via API e chamadas por discador dividem um limite mensal de 3.000 minutos por fonte para indivíduos, com excedente cobrado a $0.01 por minuto.
 - Todo membro do workspace conta como usuário pago nos planos pagos.
 - Alguns convidados não gostam de um robô na chamada; o app de desktop evita isso, mas não guarda arquivo de gravação.

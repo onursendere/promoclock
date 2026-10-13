@@ -33,7 +33,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free gives 100 compute units a day. Basic is $9/month ($5/month billed yearly) with 5,000 units, Pro $35/month ($21 yearly) with 20,000, Max $105/month ($63 yearly) with 60,000, and Business $200/month ($160 yearly) with 80,000 units for up to 50 seats."
-  asOf: 2026-10-03
+  asOf: 2026-10-12
 platforms: [web, ios, api]
 savingTips:
   - "Yearly billing saves 40% on paid plans, cutting Pro from $35 to $21 a month."
@@ -58,7 +58,7 @@ sources:
   - https://www.krea.ai/blog/krea-2-image-model
   - https://www.krea.ai/blog/what-is-krea-agent
   - https://www.krea.ai/download/ios
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is Krea?
 Krea is a browser-based creative suite that puts image, video, 3D and enhancement models behind one account. It made its name with real-time generation and now covers the wider production loop, from exploration and editing to upscaling and team workflows.

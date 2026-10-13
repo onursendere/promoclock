@@ -24,7 +24,7 @@ useCases:
   - "Rodar o mesmo prompt no Gen-4.5 e no Seedance 2.0 para escolher a melhor versão de uma cena."
   - "Entregar cenas geradas em ProRes ou HDR direto no fluxo de cor e finalização de uma agência, no Max."
   - "Adicionar efeitos sonoros gerados por IA e uma linha com voz clonada a um curta de pitch."
-pricingSummary: "O Free dá 125 créditos únicos. O Standard custa $15/mês (625 créditos), o Pro $35/mês (2.250 créditos) e o Max $95/mês (9.500 créditos); a cobrança anual reduz cada um em 20%."
+pricingSummary: "O Free dá 125 créditos únicos. O Standard custa $15/mês (625 créditos), o Pro $35/mês (2.250 créditos) e o Max $95/mês (9.500 créditos); a cobrança anual reduz cada um em 20%. O Team, para 2 a 9 pessoas, custa $69 por assento ($55 no anual) com 6.900 créditos em pool por assento."
 savingTips:
   - "A cobrança anual custa 20% menos: Standard cai para $12/mês, Pro para $28 e Max para $76."
   - "Os 125 créditos do plano gratuito nunca expiram, então dá para testar os modelos com calma, mas eles não são recarregados."
@@ -39,6 +39,8 @@ faq:
     a: "O Gen-4.5 custa 60 créditos a cada 5 segundos. O Runway estima que isso equivale a cerca de 52 segundos no Standard, 187 segundos no Pro e 791 segundos no Max por mês."
   - q: "O Runway tem app mobile?"
     a: "Sim. O Runway Creative roda no navegador e tem apps para iOS e Android. Desenvolvedores usam a plataforma separada Runway Dev API para incorporar os modelos aos próprios produtos."
+  - q: "O Runway tem plano para equipes pequenas?"
+    a: "Sim. Desde setembro de 2026, o plano Team self-serve atende de 2 a 9 pessoas por $69 por assento ao mês, ou $55 na cobrança anual. Cada assento soma 6.900 créditos a um único pool compartilhado, com até 100 projetos compartilhados e 1 TB de armazenamento do workspace."
 ---
 ## O que é o Runway?
 O Runway cria modelos generativos e as ferramentas para usá-los. O Runway Creative é o app para trabalhos de vídeo, imagem e áudio; o Runway Dev é a plataforma de API; o Runway Robotics usa o modelo de mundo GWM-1 para simulação fotorrealista. O site principal agora está em runway.com.

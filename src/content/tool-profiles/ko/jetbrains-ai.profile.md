@@ -1,7 +1,7 @@
 ---
 summary: "JetBrains AI는 JetBrains IDE를 위한 AI 구독 서비스로, AI Assistant 기능과 Junie 코딩 에이전트, 그리고 Claude Agent, Codex, Gemini CLI 같은 서드파티 에이전트를 아우릅니다. IntelliJ IDEA, PyCharm 등 JetBrains IDE를 이미 쓰는 개발자가 코드 완성, 채팅, 에이전트 기반 변경 작업에 활용하며, 월간 AI 크레딧으로 요금이 매겨집니다."
-metaTitle: "JetBrains AI 요금 2026: Free·Pro·Ultimate"
-metaDescription: "JetBrains AI 2026년 요금: AI Free는 크레딧 3개, AI Pro는 월 $10, AI Ultimate은 월 $30입니다. Junie, 크레딧, 체험판까지 확인하세요."
+metaTitle: "JetBrains AI 요금 2026: Free, AI Pro $10, Ultimate $30"
+metaDescription: "JetBrains AI Free는 30일마다 AI 크레딧 3개를 포함합니다. AI Pro는 월 $10에 10개, AI Ultimate는 월 $30에 35개이며 All Products Pack은 AI Pro를 포함합니다."
 bestFor:
   - "기존 JetBrains IDE 사용자"
   - "Java·Kotlin 개발자"
@@ -38,7 +38,7 @@ faq:
   - q: "JetBrains AI Pro를 무료로 받는 사람은 누구인가요?"
     a: "All Products Pack과 dotUltimate 구독자, Developer Recognition Program 회원, JetBrains Content Creator, DataSpell 사용자는 AI Pro를 기본 포함으로 받습니다. 학생, 교사, 강의실, 오픈소스 프로젝트용 무상 All Products Pack 라이선스에는 포함되지 않습니다."
   - q: "Junie는 JetBrains AI에 포함되나요?"
-    a: "네. Junie는 동일한 AI 크레딧을 사용하며, JetBrains는 Junie를 자주 쓰려면 AI Ultimate을 권장합니다. Junie CLI도 무료로 시작할 수 있고, 자신의 API 키를 쓰면 마진 없이 제공사 요금 그대로 지불합니다."
+    a: "네. Junie는 동일한 AI 크레딧을 사용하며, JetBrains는 Junie를 자주 쓰려면 AI Ultimate을 권장합니다. 이제 Junie는 체험판이나 카드 없이 모든 JetBrains 계정에서 상시 이용할 수 있는 무료 모델인 Junie Lite도 제공하며, 자신의 API 키를 쓰면 마진 없이 제공사 요금 그대로 지불합니다."
   - q: "JetBrains는 코드를 AI 모델 학습에 쓰나요?"
     a: "허용할 때만요. 상세 데이터 공유는 유료 라이선스에서는 옵트인이지만 비상업 라이선스에서는 기본적으로 켜져 있고 이때는 거부할 수 있습니다. 공유된 데이터는 Mellum 같은 JetBrains 모델 학습에 쓰이며 제3자에게 전달되지 않습니다."
 ---

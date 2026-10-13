@@ -48,7 +48,7 @@ Cline ist ein autonomer Coding-Agent, der in deinem Editor oder Terminal arbeite
 - **VS-Code-Erweiterung**, auch in Cursor und Windsurf installierbar.
 - **JetBrains-Plugin** im Early Access.
 - **CLI** mit Kanban-Board, Plugins, Zeitplänen und Headless-CI-Nutzung.
-- **Cline für Desktop**, eine eigenständige Beta-App für macOS und Windows.
+- **Cline für Desktop**, eine eigenständige Beta-App für macOS, Windows und Linux.
 - **SDK** zum Einbetten des Agenten in andere Tools.
 
 ## Grenzen

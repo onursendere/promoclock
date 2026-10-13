@@ -1,7 +1,7 @@
 ---
 summary: "VEED ist ein browserbasierter Videoeditor von VEED, der eine Timeline mit KI-Untertiteln, Übersetzung, Dubbing, Avataren und KI-Videogenerierung kombiniert. Bekannt für schnelle Auto-Untertitel und Brand-Kits, passt es zu Marketern, Social-Teams und Creators, die kurze Videos ohne Desktop-Schnittsoftware veröffentlichen."
-metaTitle: "VEED: Preise, Free-Plan & KI-Funktionen (2026)"
-metaDescription: "VEED-Preise 2026: was Wasserzeichen und 720p-Limit im Free-Plan bedeuten, wie KI-Credits funktionieren, und die besten VEED-Alternativen fürs Videoschneiden."
+metaTitle: "VEED Testphase & Preise 2026: Free-Plan, Creator £20/Monat"
+metaDescription: "VEEDs Testphase gilt nur für Enterprise-Teams ab 3 Personen; Einzelne starten im Free-Plan (720p, Wasserzeichen). In Großbritannien: Creator £20/Monat, Pro £35."
 bestFor:
   - "Social-Media-Marketer"
   - "Creators mit Untertitel-Bedarf"

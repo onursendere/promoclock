@@ -1,7 +1,7 @@
 ---
 summary: "Gamma是Gamma Tech, Inc.推出的AI设计工具，能把一句提示词、一份大纲或一个导入文件变成演示文稿、文档、网站、社媒帖子和图形。它按额度计费，可导出为PowerPoint、PDF和Google Slides，适合需要在几分钟内做出精美幻灯片的创始人、顾问和教师。"
-metaTitle: "Gamma AI价格与免费额度"
-metaDescription: "2026年Gamma价格：免费套餐含400点额度，Plus为$12/月，Pro为$25，Ultra为$100。对比额度、导出功能和替代工具。"
+metaTitle: "Gamma AI价格：免费400点、Plus $12、Pro $25"
+metaDescription: "Gamma免费套餐含400点一次性额度。Plus为每席位$12/月（按年付费$9），每月1,000点；Pro为$25，含4,000点；Ultra为$100，含20,000点。"
 bestFor:
   - "制作路演文稿的创始人"
   - "顾问和销售团队"

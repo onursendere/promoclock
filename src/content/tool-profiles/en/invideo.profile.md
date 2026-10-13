@@ -29,11 +29,11 @@ pricing:
   startingPrice: 20
   currency: USD
   billing: month
-  summary: "A free plan gives limited credits that reset weekly. Starter is $20 per seat a month with 400 credits, Plus $60 ($36 billed annually) with 2,000, and Max $150 ($75 annually) with 5,000."
-  asOf: 2026-10-03
+  summary: "A free plan gives limited credits that reset weekly. Starter is $20 per seat a month ($10 billed annually) with 400 credits, Plus $60 ($30 annually) with 2,000, and Max $150 ($75 annually) with 5,000."
+  asOf: 2026-10-12
 platforms: [web, ios, android]
 savingTips:
-  - "Annual billing saves 40% on Plus ($36 a seat instead of $60) and 50% on Max ($75 instead of $150); Starter costs $20 either way."
+  - "Annual billing currently halves every plan: Starter $10, Plus $30 and Max $75 a seat per month, and annual plans add 30 days of unlimited image generation."
   - "Timeline editing, including multiplayer and 4K export of your own footage, uses no credits at all."
   - "The free plan's credits refresh every Monday at 12 a.m. UTC, so you can test agents and models over several weeks."
 faq:
@@ -53,7 +53,7 @@ sources:
   - https://invideo.io/
   - https://invideo.io/agent-two/
   - https://help.invideo.io/en/articles/9380226-can-i-use-invideo-ai-for-free
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is InVideo AI?
 InVideo AI describes itself as the agentic video editor for serious creatives. The product has two halves: an AI agent that plans and generates shots, and a conventional multitrack editor where those shots can be trimmed, graded and mixed. Everything is billed per seat, with credits covering generation.

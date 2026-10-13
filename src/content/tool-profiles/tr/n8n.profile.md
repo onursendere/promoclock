@@ -39,7 +39,7 @@ faq:
   - q: "n8n Cloud denemesi bitince ne olur?"
     a: "Deneme 14 günün sonunda otomatik olarak sona erer ve plan yükseltmezsen n8n çalışma alanını siler. İş akışlarını indirmek için 90 günün olur; hiçbir şey yapmazsan ücret alınmaz."
   - q: "n8n AI ile iş akışı oluşturabilir mi?"
-    a: "Evet. Eski adı AI Assistant olan n8n Assistant, sade dilde yazılan isteklerden iş akışlarını oluşturabilir, düzenleyebilir, test edebilir ve sorunlarını giderebilir. Cloud Starter bunun için ayda 2.300 AI kredisi, Pro ise 13.700'e kadar kredi içerir."
+    a: "Evet. Eski adı AI Assistant olan n8n Assistant, sade dilde yazılan isteklerden iş akışlarını oluşturabilir, düzenleyebilir, test edebilir ve sorunlarını giderebilir. Cloud Starter bunun için ayda 1.600 Assistant kredisi, Pro ise boyuta göre 4.000 ya da 9.600 kredi içerir; 30 Eylül 2026'dan beri sahipler ayrıca kredi yükleyebiliyor."
   - q: "n8n kullanıcı başına ücret alıyor mu?"
     a: "Hayır. Her n8n planı sınırsız kullanıcı ve iş akışı içerir. Planlar aylık çalıştırma sayısı, eş zamanlı çalıştırmalar, paylaşılan projeler, içgörü (insights) geçmişi ve SSO gibi yönetici özellikleri açısından farklılaşır."
 ---

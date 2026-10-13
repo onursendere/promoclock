@@ -1,7 +1,7 @@
 ---
 summary: "Devin, Cognition'ın AI yazılım mühendisi: ticket'ları devralan, kendi makinesinde çalışan ve pull request açan bir bulut ajanı. 2 Haziran 2026'dan beri Cognition'ın Windsurf editörü Devin Desktop adını taşıyor; böylece tek bir Devin planı artık bulut ajanını, masaüstü IDE'yi ve Devin CLI'ı kapsıyor. Mühendislik ekipleri onu geçiş projeleri, hata düzeltmeleri ve kod incelemeleri için kullanıyor."
-metaTitle: "Devin fiyatları 2026: ücretsiz plan, Cloud, Desktop ve CLI"
-metaDescription: "2026 Devin fiyatları: ücretsiz plan, aylık $20 Pro, $200 Max ve aylık $80'dan başlayan Teams. Windsurf'ün Devin Desktop olmasıyla nelerin değiştiğini de gör."
+metaTitle: "Devin fiyatları 2026: ücretsiz, Pro $20, Max $200, Desktop"
+metaDescription: "Devin'in hafif ajan kotalı ücretsiz bir planı var. Pro, Devin Cloud ile aylık $20; Max aylık $200; Teams aylık $80'dan başlıyor. Windsurf artık Devin Desktop."
 bestFor:
   - "Backlog'u kabarık mühendislik ekipleri"
   - "Görevi tamamen devreden geliştiriciler"

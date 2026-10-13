@@ -28,7 +28,7 @@ useCases:
 pricingSummary: "Free es limitado y no comercial. Pro cuesta $12.99/mes o $89.99/año con 8.000 créditos de IA, Max $34.99/mes o $250/año con 25.000, Ultra $99/mes o $990/año con 75.000 créditos, y Enterprise es con presupuesto."
 savingTips:
   - "La facturación anual ahorra hasta un 33 %: Pro cuesta $89.99 por el año en lugar de $12.99 al mes."
-  - "El primer Space que mejores tiene una prueba gratis de 7 días, y es una prueba por cliente."
+  - "El primer Space que mejores a un plan anual Pro o Max tiene una prueba gratis de 7 días, y es una prueba por cliente."
   - "Las herramientas básicas como Background Remover, Retouch y AI Expand no cuestan créditos en los planes de pago, así que guarda los créditos para escenas, modelos y video."
 faq:
   - q: "¿Photoroom es gratis?"
@@ -40,7 +40,7 @@ faq:
   - q: "¿Puedo usar Photoroom con Claude?"
     a: "Sí. Photoroom ofrece un conector MCP que funciona como conector personalizado en Claude. El uso de la API y de MCP corre por una asignación aparte, así que no consumen el límite de exportación de tu plan de la app."
   - q: "¿Photoroom tiene prueba gratis?"
-    a: "Sí, una prueba de 7 días aplicada automáticamente la primera vez que mejoras un Space. Está disponible una vez por cliente, los Spaces posteriores se facturan de inmediato, y la facturación empieza el día 8 salvo que canceles antes."
+    a: "Sí, una prueba de 7 días en los planes anuales Pro y Max, aplicada automáticamente la primera vez que mejoras un Space. Está disponible una vez por cliente, los planes Ultra y de API no tienen prueba estándar, los Spaces posteriores se facturan de inmediato, y la facturación empieza el día 8 salvo que canceles antes."
 ---
 ## ¿Qué es Photoroom?
 Photoroom es un editor con IA orientado a las fotos de producto y de anuncio más que al diseño general. Funciona en iPhone, iPad, Android y la web, y el trabajo ocurre dentro de los Spaces, donde cada Space lleva su propia suscripción y su bolsa de créditos.

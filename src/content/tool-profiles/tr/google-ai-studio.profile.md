@@ -1,7 +1,7 @@
 ---
 summary: "Google AI Studio, Google'ın Gemini modellerini denemek, Gemini API anahtarları oluşturmak ve Build modunda vibe coding ile uygulama geliştirmek için sunduğu ücretsiz, tarayıcı tabanlı çalışma alanı. Geliştiriciler istemleri prototiplemek ve kodu dışa aktarmak için kullanıyor; kod bilmeyenler ise uygulamayı tarif edip Antigravity ajanına Firebase girişi ve Firestore veritabanıyla kurduruyor."
-metaTitle: "Google AI Studio 2026: Ücretsiz plan, fiyat ve Build modu"
-metaDescription: "Google AI Studio ücretsiz. Build modunun neler üretebildiğini, Gemini API ücretlendirmesini ve Google AI Pro ile Ultra'nın 2026'da neler kattığını gör."
+metaTitle: "Google AI Studio ücretsiz mi? Evet: limitler ve API (2026)"
+metaDescription: "Google AI Studio ücretsiz, Gemini erişimi hız sınırlı. Google AI Pro ve Ultra kotaları artırır; ücretsiz katmanın ötesindeki Gemini API kullanımı $5'tan ön ödemeli."
 bestFor:
   - "Gemini ile prototip geliştirenler"
   - "Kod bilmeden web uygulaması yapanlar"

@@ -1,7 +1,7 @@
 ---
 summary: "HeyGen은 대본, 사진, 프롬프트를 실감 나는 아바타가 진행하는 영상으로 바꾸는 AI 영상 플랫폼입니다. Avatar V 모델, 175개 이상 언어의 음성 복제 번역과 립싱크, 프롬프트 기반 Video Agent로 유명하며, 마케터, 교육자, 영업 팀이 사용합니다. 신규 구독자는 크레딧 기반 플랜을 받습니다."
-metaTitle: "HeyGen 가격·크레딧·무료 플랜 완전 정리 (2026)"
-metaDescription: "HeyGen 2026년 가격: 무료 플랜 월 3개 영상, 월 $29 Creator, 무제한 플랜을 대체한 크레딧 방식, 아바타와 번역 기능을 정리했습니다."
+metaTitle: "HeyGen 요금 2026: 무료 플랜, Creator 월 $29, Pro 월 $49"
+metaDescription: "HeyGen 무료 플랜은 월 1분짜리 영상 3개를 만들 수 있습니다. Creator는 월 $29에 크레딧 600개, Pro는 $49에 크레딧 1,000개와 4K, Business는 월 $149입니다."
 bestFor:
   - "진행자 영상을 만드는 마케터"
   - "영상 콘텐츠를 현지화하는 팀"

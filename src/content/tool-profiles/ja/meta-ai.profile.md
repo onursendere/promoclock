@@ -1,7 +1,7 @@
 ---
 summary: "Meta AIはMetaのAIアシスタントで、専用アプリやmeta.ai、WhatsApp、Instagram、Facebook、Messenger内で使えます。2026年4月からMuseモデルで動作し、日常利用は無料のまま、2026年9月開始のMeta One定期購読が画像・動画生成を強化します。"
-metaTitle: "Meta AIは無料？Meta Oneの料金2026"
-metaDescription: "Meta AIは日常利用が無料。Muse Sparkの機能、Meta One CoreとPremiumが追加する内容、料金、知っておきたいプライバシー要点を紹介します。"
+metaTitle: "Meta AIは無料？Meta Oneは月$7.99から(2026)"
+metaDescription: "Meta AIは日常利用なら無料です。Meta One Coreは月$7.99、Premiumは月$19.99で、画像・動画の生成枠が増えます。価格は地域によって異なります。"
 bestFor:
   - "WhatsAppやInstagramの利用者"
   - "無料アシスタントを求める人"

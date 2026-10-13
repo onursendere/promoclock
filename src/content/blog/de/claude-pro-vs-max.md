@@ -63,7 +63,7 @@ Claude Max bietet mehr Nutzung pro Sitzung, Fable innerhalb deiner Plan-Limits, 
 - **Nutzung.** Max 5x bekommt das 5-Fache und Max 20x das 20-Fache des Pro-Kontingents pro 5-Stunden-Sitzung. Beide haben weiterhin ein Wochenlimit über alle Modelle, das sich zu einem festen, deinem Konto zugewiesenen Zeitpunkt zurücksetzt.
 - **Fable.** In Pro laufen Fable 5 und 5.1 nur über Nutzungs-Credits, abgerechnet zu API-Preisen. Max kann bis zur Hälfte seines Wochenlimits ohne Aufpreis für Fable nutzen.
 - **Vorrang und früher Zugang.** Die Preisseite nennt für beide Max-Stufen bevorzugten Zugang bei hoher Auslastung, höhere Ausgabelimits und frühen Zugang zu neuen Funktionen.
-- **Größere Aktionsguthaben.** In Anthropics aktueller [Aktion mit Cloud-Guthaben für Claude Code](/deals/claude-code-cloud-credit-2026/) bekommen einzelne Max-Abonnenten $250, Pro-Abonnenten $100 – sofern das Abo am 23. September 2026 aktiv war und das Guthaben bis 7. Oktober eingelöst wird.
+- **Größere Aktionsguthaben.** In Anthropics [Aktion mit Cloud-Guthaben für Claude Code](/deals/claude-code-cloud-credit-2026/) bekamen einzelne Max-Abonnenten $250, Pro-Abonnenten $100. Die Einlösung endete am 7. Oktober 2026, eingelöstes Guthaben lässt sich bis 4. November nutzen.
 
 Pro enthält bereits Claude Code, Recherche, Opus, Claude Design, Slides und Docs, Claude in Chrome, die Microsoft-365-Add-ins und Projekte ohne die Fünf-Projekte-Grenze von Free. Ein Upgrade auf Max kauft dir Spielraum, keine neuen Apps. Unsere [Claude-Toolseite](/tools/claude/) listet alle Funktionen nach Plan.
 
@@ -141,7 +141,7 @@ Die Stoßzeiten wirken auf Pro und Max gleich: Werktags von 13:00 bis 19:00 UTC 
 - **Betroffene Pläne:** Free, Pro, Max und Team. Enterprise ist nicht betroffen, und die Wochenlimits ändern sich nicht. Sieh dir den [Eintrag zu den Stoßzeiten](/deals/claude-peak-hours-introduced/) und die Live-Uhr auf [Claude Watch](/) an.
 - **Der bevorzugte Zugang von Max** hilft dir, zu Stoßzeiten durchzukommen, doch auch die Sitzungslimits von Max sinken im Stoßzeit-Fenster schneller.
 - **Die Limits von Claude Code sind gestiegen.** Am 6. Mai 2026 hat Anthropic [die 5-Stunden-Limits von Claude Code](/deals/claude-code-5h-limits-doubled/) in den Bezahlplänen verdoppelt, und seit dem 14. September 2026 [liegen die Wochenlimits von Claude Code dauerhaft 25 % höher](/deals/claude-code-weekly-plus25-permanent/) als das alte Basisniveau.
-- **Aktuelle Aktion:** Vom 1. bis 15. Oktober 2026 zählt die Arbeit nach dem Erstellen oder Bearbeiten eines Artifacts in Pro, Max und Team 50 % weniger auf das 5-Stunden-Limit ([Details](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Aktuelle Aktion:** Vom 1. bis 15. Oktober 2026 zählt die Arbeit nach dem Erstellen oder Bearbeiten eines Artifacts in Pro, Max und Team sowie seit dem 7. Oktober in Free 50 % weniger auf das 5-Stunden-Limit ([Details](/deals/claude-artifact-usage-promo-oct-2026/)).
 
 Tipps zum Timing findest du in unserem Ratgeber zu [Claudes Stoßzeiten](/blog/claude-peak-hours/). Wie Sitzungs- und Wochenlimits zusammenspielen, zeigt [Claudes Nutzungslimits erklärt](/blog/claude-usage-limits/).
 

@@ -11,8 +11,8 @@ keyFeatures:
     description: "Over 300 layouts that handle spacing, alignment and hierarchy for you, adjusting the design automatically whenever the content changes."
   - name: "Create with AI workflow"
     description: "Start from a prompt, an outline or a document, edit the text-first outline, then generate polished slides and refine them one at a time."
-  - name: "Brand themes and controls"
-    description: "Build a custom theme with your colors, fonts, logos and footers, then switch an entire deck to another theme in one click."
+  - name: "Brand Kits and controls"
+    description: "Brand Kits, called themes until September 2026, hold your colors, fonts, logos and AI preferences, and you can switch an entire deck to another kit in one click."
   - name: "Data visualization"
     description: "Dynamic charts and tables that redraw as numbers change, with live data linking to charts available on the Team plan."
   - name: "Viewer analytics"
@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Beautiful.ai has no free plan. Pro is $14.50 per month billed annually, or $45 per month for ad hoc monthly billing. Teams is $40 per month billed annually or $50 billed monthly, covering up to 3 users, and Enterprise pricing is custom."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, macos, windows]
 savingTips:
   - "Students with a valid .edu email can claim a free annual Pro subscription, valid for 12 months from activation."
@@ -57,12 +57,12 @@ sources:
   - https://www.beautiful.ai/education
   - https://www.beautiful.ai/integrations
   - https://www.beautiful.ai/product-updates
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Beautiful.ai?
 Beautiful.ai is a browser-based presentation tool that takes design decisions off your plate. You pick a Smart Slide layout, add content, and the slide re-arranges itself: spacing, alignment and chart proportions stay consistent as the deck grows.
 
-The AI side was rebuilt in March 2026 with Create with AI, described by the company as Beautiful.ai 3.0. You choose a theme first, feed in a prompt, outline or document, review a text-only outline, then generate designed slides and regenerate single slides instead of the whole deck.
+The AI side was rebuilt in March 2026 with Create with AI, described by the company as Beautiful.ai 3.0. You choose a Brand Kit first, feed in a prompt, outline or document, review a text-only outline, then generate designed slides and regenerate single slides instead of the whole deck.
 
 ## Who it's for
 It fits people who present often but do not want to fight with slide design, and teams that need every deck to match a brand. Team seats add live collaboration, a shared slide library, locked slides, engagement analytics and translation into 100+ languages.

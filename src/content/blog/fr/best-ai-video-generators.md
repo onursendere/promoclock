@@ -68,7 +68,7 @@ Choisissez Runway ou Luma pour des plans dirigés de qualité production, Kling 
 
 ### Runway
 
-Runway Standard coûte $15/mois pour 625 crédits, Pro $35 pour 2 250 et Max $95 pour 9 500, avec 20 % de réduction en facturation annuelle, selon [la page des tarifs de Runway](https://runway.com/pricing). Max, lancé le 1er juin 2026 pour remplacer Unlimited, ajoute ProRes, le HDR et le report d’un mois de crédits.
+Runway Standard coûte $15/mois pour 625 crédits, Pro $35 pour 2 250 et Max $95 pour 9 500, avec 20 % de réduction en facturation annuelle, selon [la page des tarifs de Runway](https://runway.com/pricing). Max, lancé le 1er juin 2026 pour remplacer Unlimited, ajoute ProRes, le HDR et le report d’un mois de crédits. Une formule Team pour 2 à 9 personnes, ajoutée en septembre 2026, coûte $69 par siège ($55 à l’année) avec 6 900 crédits mutualisés par siège.
 
 ### Kling
 
@@ -136,7 +136,7 @@ La formule gratuite de HeyGen permet 3 vidéos par mois, d’une minute maximum 
 
 ### Synthesia
 
-La formule gratuite Basic de Synthesia inclut 500 crédits par mois, soit environ 10 minutes de vidéo ou de doublage, mais les utilisateurs de Basic ne peuvent pas télécharger leurs vidéos. Starter coûte $29/mois ($18 à l’année) pour 1 250 crédits, et Pro, anciennement Creator, $89/mois ($64 à l’année) pour 6 000 crédits plus l’accès à l’API. Le doublage coûte 120 crédits par minute, ou 240 avec synchronisation labiale.
+La formule gratuite Basic de Synthesia inclut 500 crédits par mois, soit environ 10 minutes de vidéo ou de doublage, mais les utilisateurs de Basic ne peuvent pas télécharger leurs vidéos. Starter coûte $29/mois ($18 à l’année) pour 1 250 crédits, et Pro, anciennement Creator, $89/mois ($64 à l’année) pour 6 000 crédits plus l’accès à l’API. Sur les formules en libre-service, le doublage coûte environ 76 crédits par minute, le double avec synchronisation labiale, et l’agent Syren, en bêta depuis le 9 octobre 2026, crée des vidéos entières à partir d’un prompt.
 
 ## Quels éditeurs vidéo IA et outils de découpage valent leur prix ?
 
@@ -164,7 +164,7 @@ La formule gratuite de [VEED](/tools/veed/) exporte des vidéos en 720p jusqu’
 
 ### InVideo AI
 
-Les crédits gratuits d’[InVideo AI](/tools/invideo/) se renouvellent chaque lundi. Starter coûte $20 par siège et par mois pour 400 crédits, Plus $60 ($36 à l’année) et Max $150 ($75 à l’année). Son Agent Two prépare les plans et choisit les modèles, et le montage sur la timeline ne consomme aucun crédit.
+Les crédits gratuits d’[InVideo AI](/tools/invideo/) se renouvellent chaque lundi. Starter coûte $20 par siège et par mois ($10 à l’année) pour 400 crédits, Plus $60 ($30 à l’année) et Max $150 ($75 à l’année). Son Agent Two prépare les plans et choisit les modèles, et le montage sur la timeline ne consomme aucun crédit.
 
 ### Pictory
 
@@ -177,6 +177,8 @@ Oui : en octobre 2026, Adobe fait une remise sur les formules Firefly les plus 
 - [30 % de réduction sur Firefly Pro Plus et Premium](/deals/adobe-firefly-30-off-first-year-2026/) : US$34.97/mois au lieu de US$49.99, ou US$139.91 au lieu de US$199.99, la première année, jusqu’au 21 octobre 2026. Adobe annonce jusqu’à 100 vidéos de cinq secondes sur Pro Plus et des générations Veo 3.1 Fast et Kling 3.0 illimitées sur Premium.
 - [Google AI Pro gratuit pour les étudiants](/deals/google-ai-pro-students-2026/) : 12 mois pour les étudiants éligibles aux États-Unis qui activent l’offre au plus tard le 31 décembre 2026.
 - [12 mois de Google AI Pro avec un Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/) : achat et activation au plus tard le 31 octobre 2026.
+- [Crédits Syren offerts sur Synthesia](/deals/synthesia-syren-launch-credits-2026/) : chaque utilisateur reçoit des crédits de lancement pour le nouvel agent vidéo, valables un mois.
+- [Runway Enterprise avec 2 mois d’utilisation offerts](/deals/runway-enterprise-two-months-free-2026/) : pour les entreprises qui signent au plus tard le 31 octobre 2026.
 
 D’autres offres figurent sur notre [page des offres](/deals/), et notre guide pour [payer moins cher vos abonnements IA](/blog/save-money-on-ai-subscriptions/) explique la facturation annuelle.
 

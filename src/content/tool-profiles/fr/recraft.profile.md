@@ -11,7 +11,7 @@ keyFeatures:
   - name: "Génération vectorielle"
     description: "Crée des icônes, logos et illustrations SVG modifiables à partir d’un prompt ; la génération vectorielle est incluse dans toutes les formules, même Free."
   - name: "Modèles Recraft V4.1"
-    description: "Sortis en mai 2026 en huit versions, dont Pro pour une résolution plus élevée, Utility pour les mockups et les fiches produits, et Vector pour les SVG."
+    description: "Sortis en mai 2026 et désormais en neuf versions, dont Pro pour une résolution plus élevée, Utility pour les mockups et les fiches produits, Vector pour les SVG et un modèle Flash à bas coût."
   - name: "Styles personnalisés"
     description: "Créez et réutilisez des styles personnalisés pour garder une série d’images cohérente ; le partage de styles est disponible avec la formule Teams."
   - name: "Retouche et vectorisation"

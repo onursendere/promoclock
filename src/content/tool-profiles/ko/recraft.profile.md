@@ -11,7 +11,7 @@ keyFeatures:
   - name: "벡터 생성"
     description: "프롬프트로 편집 가능한 SVG 아이콘, 로고, 일러스트를 만들며 벡터 생성은 Free를 포함한 모든 플랜에 포함됩니다."
   - name: "Recraft V4.1 모델"
-    description: "2026년 5월 8개 버전으로 출시되었으며, 고해상도용 Pro, 목업과 리스팅용 Utility, SVG 출력용 Vector를 포함합니다."
+    description: "2026년 5월 출시되어 현재 9개 버전이 있으며, 고해상도용 Pro, 목업과 리스팅용 Utility, SVG 출력용 Vector, 저비용 Flash 모델을 포함합니다."
   - name: "커스텀 스타일"
     description: "커스텀 스타일을 만들고 재사용해 이미지 시리즈의 일관성을 유지하며, 공유 스타일은 Teams 플랜에서 이용할 수 있습니다."
   - name: "편집과 벡터화"

@@ -1,7 +1,7 @@
 ---
 summary: "DevinはCognitionのAIエンジニアで、チケットを受け取り自分のマシンで作業しプルリクエストを開くクラウドエージェントです。2026年6月2日以降、WindsurfはDevin Desktopとなり、1つのプランでクラウドエージェント、デスクトップIDE、CLIをカバーします。移行やバグ修正、レビューに使われます。"
-metaTitle: "Devin料金と無料プラン2026"
-metaDescription: "Devinの2026年料金：無料プラン、Proは月$20、Maxは月$200、Teamsは月$80から。WindsurfがDevin Desktopになった経緯も紹介します。"
+metaTitle: "Devin料金2026｜無料・Pro $20・Max $200"
+metaDescription: "Devinは軽いエージェント枠の無料プランあり。Proは月$20でDevin Cloud付き、Maxは月$200、Teamsは月$80から。WindsurfはDevin Desktopに。"
 bestFor:
   - "バックログが多いエンジニアチーム"
   - "チケット全体を任せたい開発者"

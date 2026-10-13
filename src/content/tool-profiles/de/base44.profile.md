@@ -1,7 +1,7 @@
 ---
 summary: "Base44 ist ein No-Code-KI-App-Builder von Wix, das das Start-up im Juni 2025 gekauft hat. Du beschreibst eine App, Website oder einen KI-Agenten in normaler Sprache und Base44 generiert das Ganze samt Datenbank, Nutzer-Logins und Hosting. Gründer, kleine Unternehmen und Studierende bauen damit interne Tools und Kunden-Apps ohne separates Backend."
-metaTitle: "Base44: Preise, Gratis-Plan & Credits erklärt 2026"
-metaDescription: "Base44 Preise 2026: kostenloser Plan mit 25 Nachrichten-Credits, Starter ab $20/Monat, 50 % Studentenrabatt und wie Nachrichten- und Integrations-Credits laufen."
+metaTitle: "Base44 Preise 2026: Free, Starter $20, 50 % Studentenrabatt"
+metaDescription: "Base44 ist mit 25 Nachrichten-Credits/Monat gratis. Starter: $20/Monat ($16 jährlich), Builder $50, Pro $100; Studierende erhalten bis zu 12 Monate 50 % Rabatt."
 bestFor:
   - "Gründer ohne Technikhintergrund"
   - "Kleine Firmen, die Tools bauen"

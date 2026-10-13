@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "TurboScribe Free transcribes 3 files a day of up to 30 minutes each at lower priority. TurboScribe Unlimited costs $20/month, or $120 billed yearly ($10/month), for one person."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web]
 savingTips:
   - "Yearly billing halves the cost of Unlimited, from $20 to $10 a month ($120 a year)."
@@ -53,7 +53,7 @@ sources:
   - https://turboscribe.ai/
   - https://turboscribe.ai/help/does-turboscribe-have-a-mobile-app
   - https://turboscribe.ai/blog/security-and-privacy-faq
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is TurboScribe?
 TurboScribe is an upload-and-transcribe service: you drop in an audio or video file, choose the spoken language and mode, and get back a transcript you can edit, translate and export. It accepts common formats including MP3, WAV, M4A, MP4 and MOV, and it runs entirely in the browser on desktop and mobile.

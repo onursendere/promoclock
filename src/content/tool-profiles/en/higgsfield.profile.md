@@ -1,7 +1,7 @@
 ---
 summary: "Higgsfield is an AI image and video generation platform from Higgsfield AI, based in San Francisco. It combines in-house models such as Soul 2.0 with third-party models like Seedance, Kling, Veo and Nano Banana, plus Cinema Studio for camera-directed scenes. Social creators, marketers and AI filmmakers use it for ads, short videos and cinematic clips."
-metaTitle: "Higgsfield AI Pricing, Credits & Free Plan (2026)"
-metaDescription: "Higgsfield pricing in 2026: free tier, Starter $19, Plus $59 and Ultra $129 a month, how credits and Unlimited models work, Cinema Studio and alternatives."
+metaTitle: "Higgsfield Pricing 2026: Credits, Free Plan & Plans From $19"
+metaDescription: "Higgsfield's free tier covers a few models with no credits. Starter costs $19/month for 270 credits, Plus $59 for 1,200 and Ultra from $129 for 3,000 credits."
 bestFor:
   - "UGC and product ad creators"
   - "AI filmmakers and music video makers"
@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "The free tier covers a small set of models with no credits. Starter is $19/month for 270 credits, Plus $59/month for 1,200 credits and Ultra from $129/month for 3,000 credits; annual billing lowers Plus to $47 and Ultra to $99."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api, cli]
 savingTips:
   - "Annual billing cuts Plus from $59 to $47 a month and Ultra from $129 to $99; Starter costs $19 either way."
@@ -55,7 +55,7 @@ sources:
   - https://higgsfield.ai/creator-hub/help-center/credits/what-are-unlimited-models-and-which-plans-include-them
   - https://higgsfield.ai/cinematic-video-generator
   - https://higgsfield.ai/mcp
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Higgsfield?
 Higgsfield is a browser-based creative suite from Higgsfield AI that puts dozens of image and video models behind one credit system. Beyond general generators, it offers studios for specific jobs, including Cinema Studio, Marketing Studio, Lipsync Studio and UGC Factory.

@@ -1,7 +1,7 @@
 ---
 summary: "VEED é um editor de vídeo online feito pela VEED que combina uma linha do tempo no navegador com legendas por IA, tradução, dublagem, avatares e geração de vídeo por IA. É conhecido pelas legendas automáticas rápidas e kits de marca, e serve marqueteiros, times de redes sociais e criadores que publicam vídeos curtos sem editor de vídeo instalado."
-metaTitle: "Preço do VEED: plano grátis e recursos de IA"
-metaDescription: "Preço do VEED em 2026, o que a marca d'água e o limite de 720p do plano grátis significam, como funcionam os créditos de IA e as melhores alternativas."
+metaTitle: "Teste grátis e preços do VEED 2026: Creator £20/mês"
+metaDescription: "O teste grátis do VEED é só para equipes Enterprise de 3+ pessoas; indivíduos usam o plano grátis (720p, marca d'água). No Reino Unido: Creator £20/mês e Pro £35."
 bestFor:
   - "Profissionais de social media"
   - "Criadores que querem legendas rápidas"

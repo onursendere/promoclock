@@ -26,8 +26,8 @@ useCases:
   - "Eine konsistente Bildserie für eine Kampagne generieren und die besten Frames dann zu kurzen Videoclips erweitern."
 pricingSummary: "Basic ist kostenlos mit monatlichen Credits, die beim Login abgeholt werden. Standard kostet $10/Monat (660 Credits), Pro $37 (3.000), Premier $92 (8.000) und Ultra $180 (26.000). Jährliche Abrechnung spart 34 %."
 savingTips:
-  - "Jährliche Abrechnung spart 34 %: Standard kostet $79,20 im Jahr statt $120, Pro $293,04 statt $444."
-  - "Credits werden bei größeren Plänen günstiger, von $1,06 pro 100 Credits bei monatlichem Standard bis $0,49 bei Ultra."
+  - "Jährliche Abrechnung spart 34 %: Standard kostet $79.20 im Jahr statt $120, Pro $293.04 statt $444."
+  - "Credits werden bei größeren Plänen günstiger, von $1.06 pro 100 Credits bei monatlichem Standard bis $0.49 bei Ultra."
   - "Nicht-Abonnenten können sich beim Login kostenlose monatliche Credits holen; sie bleiben 31 Tage gültig."
   - "Gekaufte Credit-Pakete bleiben 2 Jahre gültig, sodass Gelegenheitsnutzer aufladen statt abonnieren können."
 faq:

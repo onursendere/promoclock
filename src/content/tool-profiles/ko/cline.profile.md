@@ -48,7 +48,7 @@ Cline은 별도의 호스팅 서비스가 아니라 에디터나 터미널 안�
 - **VS Code 확장 프로그램**으로, Cursor와 Windsurf에도 설치할 수 있습니다.
 - **JetBrains 플러그인**은 얼리 액세스 상태입니다.
 - **CLI**는 칸반 보드, 플러그인, 스케줄, 헤드리스 CI 사용을 지원합니다.
-- **Cline for Desktop**은 macOS와 Windows용 베타 독립 앱입니다.
+- **Cline for Desktop**은 macOS, Windows, Linux용 베타 독립 앱입니다.
 - **SDK**로 에이전트를 다른 도구에 내장할 수 있습니다.
 
 ## 한계

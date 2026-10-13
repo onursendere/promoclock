@@ -1,7 +1,7 @@
 ---
 summary: "Semrush是Semrush Holdings推出的SEO和AI搜索可见性平台，Adobe已于2026年4月收购该公司。它把关键词研究、排名跟踪和网站审计，与监测ChatGPT、Gemini、Perplexity和Google AI回答中品牌提及的功能结合在一起。代理商、内部SEO团队和内容营销人员用它规划和衡量搜索工作。"
-metaTitle: "Semrush定价：免费套餐与限制"
-metaDescription: "2026年Semrush定价：免费套餐每天10份报告，SEO套餐每月$139，Starter、Pro+和Advanced，7天试用与替代工具。"
+metaTitle: "Semrush定价：$139/月起、免费套餐与试用"
+metaDescription: "Semrush的SEO套餐为$139/月，Starter为$199，Pro+为$299，Advanced为$549。免费套餐每天10份报告，多数工具包提供7天试用。"
 bestFor:
   - "SEO专家和顾问"
   - "向客户汇报的代理商"

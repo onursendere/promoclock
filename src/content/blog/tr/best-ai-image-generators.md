@@ -9,14 +9,14 @@ keyTakeaways:
   - "Adobe Firefly Standard aylık US$9.99 ile 2.000 kredi ve sınırsız standart görsel üretimi sunuyor; Adobe, Firefly modellerinin çıktılarının ticari olarak kullanılabileceğini söylüyor."
   - "Görsellerde okunaklı metin için seçimimiz Ideogram: ücretsiz hesaplar haftada 30 kredi alıyor, Plus ise aylık $20 ya da yıllık faturalandırmada aylık $15."
   - "Recraft her planda düzenlenebilir SVG vektörler üretiyor, ama ücretsiz plandaki görseller Recraft'a ait ve ticari olarak kullanılamıyor; Basic aylık $12."
-  - "Ekim 2026'da iki görsel fırsatı canlı: 21 Ekim'e kadar Firefly Pro Plus ve Premium'da %30 indirim, 10 Ekim'e kadar Magnific'te sınırsız Seedream 5.0 Pro."
+  - "Ekim 2026 ortasında iki görsel fırsatı canlı: 21 Ekim'e kadar Firefly Pro Plus ve Premium'da %30 indirim, 15 Ekim'e kadar Magnific'te sınırsız Magnific One üretimi."
 faq:
   - q: "En iyi ücretsiz AI görsel oluşturucu hangisi?"
     a: "Gemini ve ChatGPT, ücretsiz hesaplarda da görsel üretip düzenliyor. Bu işe özel araçlar arasında Leonardo.ai her gün 150 hızlı token yeniliyor; Krea günde 100 işlem birimi, Ideogram haftada 30 kredi, Adobe Firefly ise her gün ücretsiz üretim hakkı veriyor. Ücretsiz görseller çoğu zaman herkese açık; Recraft, Krea ve Freepik'in ücretsiz planları da ticari kullanımı kapsamıyor."
   - q: "Midjourney mi, Adobe Firefly mı daha iyi?"
     a: "Kendine özgü, rafine görseller için Midjourney daha iyi; ücretsiz planı yok ve aylık $10'dan başlıyor. Ticari işler ve Creative Cloud için Adobe Firefly daha iyi: Standard aylık US$9.99 ile sınırsız standart görsel üretimi sunuyor, Adobe da kendi modellerini lisanslı ve kamu malı içerikle eğitiyor. Aylık US$19.99'luk Firefly Pro, web ve mobilde Photoshop'u da içeriyor."
   - q: "Ideogram ne kadar?"
-    a: "Ideogram haftada 30 krediyle ücretsiz. Plus aylık $20 ile 2.400 kredi, Pro aylık $60 ile 7.500 kredi sunuyor; Team ise en az iki kullanıcıyla kullanıcı başına aylık $30. Yıllık faturalandırma aylık fiyatı Plus'ta $15'e, Pro'da $42'ye, Team'de $20'ye indiriyor; $4'lük ek krediler de sonraki döneme devrediyor."
+    a: "Ideogram haftada 30 krediyle ücretsiz. Plus aylık $20 ile 2.400 kredi, Pro aylık $60 ile 7.500 kredi sunuyor; Team ise en az iki kullanıcıyla kullanıcı başına aylık $30. Yıllık faturalandırma aylık fiyatı Plus'ta $15'e, Pro'da $42'ye, Team'de $20'ye indiriyor; ek krediler ise tanesi bir sent ve 365 gün geçerli."
   - q: "Leonardo AI ne kadar?"
     a: "Leonardo.ai'ın ücretsiz planı günde 150 hızlı token veriyor ve her ücretsiz görsel herkese açık. Vergiler hariç Essential aylık $12, Premium $30, Ultimate $60; yıllık faturalandırmada aylık $10, $24 ve $48. Ücretli planlarda kullanılmayan token hakkı, 3 aylık miktara kadar biriken bir bankaya aktarılıyor; Essential'da bu 25.500 token ediyor."
   - q: "AI görsel oluşturucularla üretilen görseller gizli mi?"
@@ -89,7 +89,7 @@ Leonardo.ai'ın ücretsiz planı her gün 150 hızlı token yeniliyor, ama her �
 
 ### Recraft
 
-Recraft Basic aylık $12 (yıllık faturalandırmada $10) ile 1.000 kredi sunuyor; Pro 2.000 kredi için aylık $20'den, Teams ise en az iki koltukla koltuk başına $22'den başlıyor. Vektör üretimi Free dahil her planda var ve düzenlenebilir SVG dosyaları veriyor. Mayıs 2026'da çıkan Recraft V4.1, aralarında Vector ve Utility'nin de bulunduğu sekiz sürümle geliyor.
+Recraft Basic aylık $12 (yıllık faturalandırmada $10) ile 1.000 kredi sunuyor; Pro 2.000 kredi için aylık $20'den, Teams ise en az iki koltukla koltuk başına $22'den başlıyor. Vektör üretimi Free dahil her planda var ve düzenlenebilir SVG dosyaları veriyor. Mayıs 2026'da çıkan Recraft V4.1 artık aralarında Vector, Utility ve düşük maliyetli bir Flash modelinin de bulunduğu dokuz sürümle geliyor.
 
 ### Krea
 
@@ -140,7 +140,7 @@ Fotoğraf üretmek yerine düzenlemek istiyorsan ürün çekimlerinde Photoroom 
 Evet: Ekim 2026 itibarıyla Adobe Firefly ve Magnific'te sınırlı süreli teklifler var; ABD'deki üniversite öğrencileri de Google AI Pro'yu ya da ChatGPT Plus'ı ücretsiz alabiliyor.
 
 - [Firefly Pro Plus ve Premium'da %30 indirim](/deals/adobe-firefly-30-off-first-year-2026/): ilk kez abone olanlar ilk yıl Pro Plus için US$49.99 yerine aylık US$34.97, Premium için US$199.99 yerine aylık US$139.91 ödüyor. 21 Ekim 2026'da sona eriyor.
-- [Magnific'te sınırsız Seedream 5.0 Pro](/deals/magnific-unlimited-seedream-oct-2026/): 10 Ekim 2026'ya kadar abonelere 1.5K çözünürlükte sınırsız üretim.
+- [Magnific'te sınırsız Magnific One](/deals/magnific-one-unlimited-oct-2026/): 15 Ekim 2026'ya kadar Premium+, Pro ve Business'ta 2K ve 4K çözünürlükte sınırsız High kalite üretim; sınırsız Seedream 5.0 Pro teklifi 10 Ekim'de sona erdi.
 - [Bir yıl ücretsiz Google AI Pro](/deals/google-ai-pro-students-2026/): teklifi 31 Aralık 2026'ya kadar kullanan uygun ABD'li üniversite öğrencileri için.
 - [4 ay ücretsiz ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/): teklifi 31 Ekim 2026'ya kadar talep eden uygun ABD'li üniversite öğrencileri için.
 

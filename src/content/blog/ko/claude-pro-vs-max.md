@@ -63,7 +63,7 @@ Claude Max는 세션당 더 많은 사용량, 플랜 한도 안의 Fable, 더 �
 - **사용량.** 5시간 세션당 Max 5x는 Pro의 5배, Max 20x는 20배를 받습니다. 둘 다 모든 모델에 걸친 주간 한도가 여전히 있으며, 이 한도는 계정마다 정해진 시각에 초기화됩니다.
 - **Fable.** Pro에서 Fable 5와 5.1은 API 요금으로 청구되는 사용 크레딧으로만 쓸 수 있습니다. Max는 주간 한도의 최대 절반을 추가 비용 없이 Fable에 쓸 수 있습니다.
 - **우선 접속과 얼리 액세스.** 요금 페이지에 따르면 두 Max 등급 모두 트래픽이 많을 때의 우선 접속, 더 높은 출력 한도, 고급 기능 얼리 액세스를 제공합니다.
-- **더 큰 프로모션 크레딧.** Anthropic이 현재 진행 중인 [Claude Code 클라우드 크레딧 프로모션](/deals/claude-code-cloud-credit-2026/)에서 개인 Max 구독자는 $250, Pro 구독자는 $100의 크레딧을 받습니다. 2026년 9월 23일에 구독이 활성 상태였고 10월 7일까지 크레딧을 신청한 경우에 해당합니다.
+- **더 큰 프로모션 크레딧.** Anthropic의 [Claude Code 클라우드 크레딧 프로모션](/deals/claude-code-cloud-credit-2026/)에서 개인 Max 구독자는 $250, Pro 구독자는 $100의 크레딧을 받았습니다. 신청은 2026년 10월 7일에 마감됐으며, 신청한 크레딧은 11월 4일까지 쓸 수 있습니다.
 
 Pro에는 이미 Claude Code, Research, Opus, Claude Design·Slides·Docs, Claude in Chrome, Microsoft 365 애드인, Free의 5개 제한이 없는 프로젝트가 포함됩니다. Max로 업그레이드하면 새 앱이 아니라 여유 사용량을 사는 셈입니다. 플랜별 전체 기능은 [Claude 도구 페이지](/tools/claude/)에 정리돼 있습니다.
 
@@ -141,7 +141,7 @@ Anthropic의 [사용 크레딧 도움말](https://support.claude.com/en/articles
 - **적용 플랜:** Free, Pro, Max, Team. Enterprise는 영향을 받지 않고, 주간 한도도 바뀌지 않습니다. [피크 시간대 항목](/deals/claude-peak-hours-introduced/)과 [Claude Watch](/)의 실시간 시계를 확인하세요.
 - **Max의 우선 접속**은 붐비는 시간에 접속하는 데 도움이 되지만, Max의 세션 한도도 피크 시간대에는 더 빨리 소진됩니다.
 - **Claude Code 한도는 올랐습니다.** 2026년 5월 6일 Anthropic은 유료 플랜의 [Claude Code 5시간 한도를 두 배로 늘렸고](/deals/claude-code-5h-limits-doubled/), 2026년 9월 14일부터 [Claude Code 주간 한도는 이전 기준보다 영구적으로 25% 높아졌습니다](/deals/claude-code-weekly-plus25-permanent/).
-- **진행 중인 프로모션:** 2026년 10월 1일부터 15일까지 Pro, Max, Team에서 아티팩트를 만들거나 편집한 뒤의 작업은 5시간 한도에 50% 적게 반영됩니다([자세히 보기](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **진행 중인 프로모션:** 2026년 10월 1일부터 15일까지 Pro, Max, Team에서(Free는 10월 7일부터) 아티팩트를 만들거나 편집한 뒤의 작업은 5시간 한도에 50% 적게 반영됩니다([자세히 보기](/deals/claude-artifact-usage-promo-oct-2026/)).
 
 시간 활용 팁은 [Claude 피크 시간대 가이드](/blog/claude-peak-hours/)를, 세션 한도와 주간 한도가 어떻게 맞물리는지는 [Claude 사용 한도 총정리](/blog/claude-usage-limits/)를 읽어 보세요.
 

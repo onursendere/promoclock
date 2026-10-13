@@ -114,12 +114,12 @@ Kostenlose Testphasen sparen nur Geld, wenn du dich vor dem Verlängerungsdatum 
 
 ### 10. Plane Anmeldungen passend zu laufenden Aktionen
 
-Kurze Aktionen können die Kosten eines Monats deutlich senken. Mit Stand 4. Oktober 2026:
+Kurze Aktionen können die Kosten eines Monats deutlich senken. Mit Stand 12. Oktober 2026:
 
-- **Claude Code**: Einzelne Pro-Abonnenten können bis 7. Oktober 2026 $100 und Max-Abonnenten $250 kostenloses Guthaben für Cloud-Sessions einlösen, wenn ihr Plan am 23. September aktiv war. Siehe [das Guthaben-Angebot für Claude Code](/deals/claude-code-cloud-credit-2026/).
-- **Claude-Artifacts**: Bis 15. Oktober 2026 zählt die Arbeit nach dem Erstellen oder Bearbeiten eines Artifacts in Pro, Max und Team 50 % weniger auf die Sitzungslimits.
-- **ElevenLabs**: Für neue Abonnenten kostet der erste Monat Starter bis 18. Oktober $1 statt $6 und Creator $11 statt $22.
+- **Claude-Artifacts**: Bis 15. Oktober 2026 zählt die Arbeit nach dem Erstellen oder Bearbeiten eines Artifacts in Free, Pro, Max und Team 50 % weniger auf die Sitzungslimits. Siehe [die Artifact-Aktion](/deals/claude-artifact-usage-promo-oct-2026/).
+- **ElevenLabs**: Für neue Abonnenten kostet [der erste Monat Starter $1](/deals/elevenlabs-starter-1-first-month-2026/) statt $6 bis 18. Oktober und Creator $11 statt $22.
 - **Adobe Firefly**: Neue Abonnenten in den USA und Großbritannien zahlen bis 21. Oktober 2026 im ersten Jahr von Pro Plus oder Premium 30 % weniger, bei 12 Monaten Mindestlaufzeit.
+- **Gemini API**: Entwickler zahlen bis 31. Dezember 2026 die Hälfte des regulären Preises für [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/).
 
 Unsere Seite [KI-Deals](/deals/) listet alle laufenden Angebote, und der [Aktionskalender](/calendar/) zeigt, wann jedes endet.
 
@@ -139,7 +139,7 @@ Unser [Vergleich ChatGPT vs. Claude vs. Gemini](/blog/chatgpt-vs-claude-vs-gemin
 
 ### 12. Rechne Team-Plätze jährlich ab und prüf, was schon abgedeckt ist
 
-Team-Pläne folgen derselben Jahreslogik. Team-Standard-Plätze von Claude kosten $25/Monat oder $20/Monat bei jährlicher Abrechnung, ChatGPT Business kostet $25 pro Nutzer monatlich oder $20 bei jährlicher Abrechnung, und Perplexity Enterprise Pro kostet $400 im Jahr pro Platz statt $40 im Monat. Microsoft 365 Family teilt Apps und je 1 TB Speicher mit bis zu sechs Personen für $12.99/Monat, doch die Copilot-Funktionen gibt es nur für den Inhaber des Abos.
+Team-Pläne folgen derselben Jahreslogik. Team-Standard-Plätze von Claude kosten $25/Monat oder $20/Monat bei jährlicher Abrechnung, ChatGPT Business kostet $25 pro Nutzer monatlich oder $20 bei jährlicher Abrechnung, und Perplexity Enterprise Pro kostet $400 im Jahr pro Platz statt $40 im Monat. Microsoft 365 Family teilt Apps und einen gemeinsamen Speicherpool von 2 TB mit bis zu sechs Personen für $12.99/Monat, doch die Copilot-Funktionen gibt es nur für den Inhaber des Abos.
 
 ## Monatlich oder jährlich: Welche KI-Pläne sind im Jahresabo günstiger?
 
@@ -150,6 +150,7 @@ Die jährliche Abrechnung ist bei jedem KI-Plan unten, der sie anbietet, günsti
 | Claude Pro | $20/Monat | $200/Jahr (rund $17/Monat) |
 | Claude Max 5x | $100/Monat | Nicht angeboten |
 | ChatGPT Plus | $20/Monat | Nicht angeboten |
+| Perplexity Pro | $20/Monat | $17/Monat bei jährlicher Abrechnung |
 | Notion Plus | $12/Mitglied/Monat | $10/Mitglied/Monat |
 | Grammarly Pro | $30/Monat | $144/Jahr (im Schnitt $12/Monat) |
 | QuillBot Premium | $19.95/Monat | $99.95/Jahr (rund $8.33/Monat) |

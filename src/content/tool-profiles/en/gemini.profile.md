@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Gemini is free with a Google Account. In the US, Google AI Plus costs $4.99/month, Google AI Pro $19.99/month, and Google AI Ultra $99.99/month (5x Pro usage) or $199.99/month (20x)."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows]
 savingTips:
   - "Eligible US college students aged 18+ can get Google AI Pro free for one year if they redeem by December 31, 2026; it then renews at $19.99/month unless canceled."
@@ -53,7 +53,7 @@ sources:
   - https://gemini.google/subscriptions/
   - https://gemini.google/release-notes/
   - https://gemini.google/us/students/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Gemini?
 Gemini is Google's assistant for chat, research, images and video. You can use it at gemini.google.com, in the Android and iOS apps, and in desktop apps for Mac and Windows. Paid Google AI plans also switch on Gemini inside Gmail, Docs and Vids.

@@ -11,8 +11,8 @@ keyFeatures:
     description: "Boşluk, hizalama ve hiyerarşiyi senin yerine ayarlayan 300'den fazla şablon; içerik değiştikçe tasarım kendiliğinden uyum sağlar."
   - name: "Create with AI akışı"
     description: "Bir komut, taslak ya da belgeyle başla, metin odaklı taslağı düzenle, ardından şık slaytlar üret ve onları tek tek iyileştir."
-  - name: "Marka temaları ve kontroller"
-    description: "Renklerin, yazı tiplerin, logoların ve alt bilgilerinle özel bir tema oluştur, sonra tüm sunumu tek tıkla başka bir temaya geçir."
+  - name: "Brand Kits ve kontroller"
+    description: "Eylül 2026'ya kadar tema olarak adlandırılan Brand Kits; renklerini, yazı tiplerini, logolarını ve AI tercihlerini tutar, tüm sunumu tek tıkla başka bir Brand Kit'e geçirebilirsin."
   - name: "Veri görselleştirme"
     description: "Sayılar değiştikçe yeniden çizilen dinamik grafikler ve tablolar; grafiklere canlı veri bağlama Team planında sunulur."
   - name: "İzleyici analitiği"
@@ -46,7 +46,7 @@ faq:
 ## Beautiful.ai nedir?
 Beautiful.ai, tasarım kararlarını senin yerine veren tarayıcı tabanlı bir sunum aracı. Bir Smart Slide şablonu seçip içerik eklersin, slayt kendini yeniden düzenler: sunum büyüdükçe boşluklar, hizalama ve grafik oranları tutarlı kalır.
 
-AI tarafı Mart 2026'da Create with AI ile yeniden kuruldu; şirket bunu Beautiful.ai 3.0 olarak tanımlıyor. Önce bir tema seçer, bir komut, taslak ya da belge verir ve yalnızca metinden oluşan taslağı gözden geçirirsin. Ardından tasarlanmış slaytları üretir, gerekirse tüm sunum yerine tek tek slaytları yeniden oluşturursun.
+AI tarafı Mart 2026'da Create with AI ile yeniden kuruldu; şirket bunu Beautiful.ai 3.0 olarak tanımlıyor. Önce bir Brand Kit seçer, bir komut, taslak ya da belge verir ve yalnızca metinden oluşan taslağı gözden geçirirsin. Ardından tasarlanmış slaytları üretir, gerekirse tüm sunum yerine tek tek slaytları yeniden oluşturursun.
 
 ## Kimler için?
 Sık sunum yapan ama slayt tasarımıyla uğraşmak istemeyenlere ve her sunumun markaya uymasını isteyen ekiplere uygun. Team koltukları canlı iş birliği, ortak slayt kütüphanesi, kilitli slaytlar, etkileşim analitiği ve 100'den fazla dile çeviri ekler.

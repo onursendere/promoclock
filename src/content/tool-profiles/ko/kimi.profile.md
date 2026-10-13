@@ -1,7 +1,7 @@
 ---
 summary: "Kimi는 Moonshot AI의 AI 어시스턴트이자 에이전트 워크스페이스입니다. 2026년 7월 공개된 2.8조 파라미터 오픈 웨이트 모델 Kimi K3가 100만 토큰 컨텍스트 창으로 작동합니다. 채팅을 넘어 문서, 슬라이드, 심층 리서치, 웹사이트를 다루며 Kimi Code로 코딩을, Kimi Work로 데스크톱 작업을 지원합니다."
-metaTitle: "Kimi 요금제와 무료 플랜, K3 기능 정리 (2026)"
-metaDescription: "Kimi(Moonshot AI)는 무료 Adagio 플랜과 월 $19부터 시작하는 유료 플랜이 있습니다. Kimi K3, Agent Swarm, Kimi Code, Kimi Work를 확인하세요."
+metaTitle: "Kimi K3 요금 2026: 무료 플랜, Plus $19, Pro $39"
+metaDescription: "Kimi K3는 Adagio 플랜에서 한 번에 에이전트 작업 1개씩 무료입니다. Plus는 월 $19, Pro $39, Max $99, Ultra $199이며 Max와 Ultra는 최대 100만 토큰 채팅을 지원합니다."
 bestFor:
   - "리서치·장문 문서 작업"
   - "다단계 에이전트 작업 위임"
@@ -36,7 +36,7 @@ faq:
   - q: "Kimi K3는 오픈소스인가요?"
     a: "Kimi K3의 전체 가중치는 Moonshot 자체의 Kimi K3 라이선스 아래 Hugging Face에서 내려받을 수 있습니다. 모델은 2026년 7월 17일 공개되었으며 kimi.com, 모바일 앱, Kimi Work, Kimi Code, Kimi API에서 작동합니다."
   - q: "Kimi 고객센터는 왜 위안화로 가격을 표시하나요?"
-    a: "고객센터에는 Andante, Moderato, Allegretto, Allegro라는 별도 플랜이 월 ¥49부터 ¥699까지로 안내되어 있습니다. kimi.com의 영문 요금 페이지에는 Plus, Pro, Max, Ultra 플랜이 미국 달러로 표시됩니다."
+    a: "고객센터에는 Go, Plus, Pro, Max라는 이름의 위안화 플랜이 월 ¥49부터 ¥699까지로 안내되어 있습니다. kimi.com의 영문 요금 페이지에는 Plus, Pro, Max, Ultra가 미국 달러로 표시되므로, 같은 플랜 이름이 통화마다 다른 등급을 가리킬 수 있습니다."
 ---
 ## Kimi란?
 Kimi는 채팅, 에이전트, 코딩을 아우르는 Moonshot AI의 소비자 제품군입니다. Kimi K3는 2026년 7월 17일 출시되었으며 kimi.com과 iOS, Android, HarmonyOS 앱에서 작동합니다.
@@ -50,4 +50,4 @@ Kimi는 다단계 리서치, 오피스 파일, 코딩 작업을 맡기려는 사
 - Kimi Code, Kimi Work, Deep Research, 슬라이드는 하나의 월간 크레딧 풀을 공유하며 남은 크레딧은 소멸합니다.
 - 플랜별 에이전트 사용 횟수는 일반적인 토큰 소비를 기준으로 한 추정치이며 고정 할당량이 아닙니다.
 - Goal 모드는 Pro부터 가능하고, 100만 토큰 채팅은 Max나 Ultra가 필요합니다.
-- 플랜 이름과 가격이 위안화 고객센터와 달러 요금 페이지 사이에서 달라 구매자가 헷갈릴 수 있습니다.
+- 위안화 고객센터와 달러 요금 페이지가 Plus, Pro, Max 같은 플랜 이름을 서로 다른 등급과 가격에 재사용해 구매자가 헷갈릴 수 있습니다.

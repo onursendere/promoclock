@@ -30,7 +30,7 @@ useCases:
 pricingSummary: "Les comptes gratuits reçoivent 30 crédits par semaine. Plus est $20/mois avec 2 400 crédits, Pro $60/mois avec 7 500 et Team $30 par utilisateur/mois avec 3 600 par utilisateur (minimum 2 utilisateurs) ; la facturation annuelle ramène Plus à $15, Pro à $42 et Team à $20."
 savingTips:
   - "La facturation annuelle ramène Plus à $15/mois ($180 par an) et Pro à $42/mois ($504 par an)."
-  - "Les crédits prioritaires en recharge coûtent $4 et, contrairement aux crédits d’abonnement, se reportent s’ils ne sont pas utilisés."
+  - "Les crédits supplémentaires coûtent un centime chacun, de $1 à $300 à la fois, et, contrairement aux crédits mensuels de la formule, restent valables 365 jours après l’achat."
   - "Les formules payantes incluent des crédits lents illimités : les images non urgentes peuvent attendre dans la file lente."
   - "Les comptes gratuits reçoivent 30 crédits par semaine quand on se connecte via Google, Apple ou Microsoft."
 faq:

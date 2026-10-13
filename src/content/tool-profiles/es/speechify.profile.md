@@ -26,14 +26,14 @@ useCases:
   - "Convertir tus apuntes de estudio en un podcast con IA para repasar caminando o en el gimnasio."
 pricingSummary: "El plan Free ofrece texto a voz con 10 voces básicas hasta 1,5x de velocidad. Premium cuesta $29/mes o $139/año y añade más de 1.000 voces, 5x de velocidad, escaneo, herramientas de IA y dictado por voz."
 savingTips:
-  - "La facturación anual deja Premium en $139, unos $11,58 al mes y aproximadamente un 60 % menos que pagar $29 al mes."
+  - "La facturación anual deja Premium en $139, unos $11.58 al mes y aproximadamente un 60 % menos que pagar $29 al mes."
   - "La propia guía para estudiantes de Speechify indica un 25 % de descuento en Premium para estudiantes verificados vía UNiDAYS o Student Beans."
   - "Speechify ofrece una prueba gratis de Premium, así que puedes probar las voces y velocidades antes de pagar."
 faq:
   - q: "¿Speechify es gratis?"
     a: "Sí. Speechify tiene un plan gratis que lee texto en voz alta en la web, en móvil, en escritorio y en la extensión de Chrome, con 10 voces de sonido robótico y velocidades hasta 1,5x. Las voces naturales, el escaneo y las funciones de IA requieren Premium."
   - q: "¿Cuánto cuesta Speechify Premium?"
-    a: "Speechify Premium cuesta $29 al mes con facturación mensual o $139 al año con facturación anual, lo que sale a unos $11,58 al mes. Speechify Studio y la API de Speechify se cotizan aparte."
+    a: "Speechify Premium cuesta $29 al mes con facturación mensual o $139 al año con facturación anual, lo que sale a unos $11.58 al mes. Speechify Studio y la API de Speechify se cotizan aparte."
   - q: "¿Speechify tiene descuento para estudiantes?"
     a: "Sí, según la guía educativa de Speechify actualizada en julio de 2026: los estudiantes verificados obtienen un 25 % de descuento en Premium a través de UNiDAYS o Student Beans. La verificación se hace con el partner, no metiendo un correo escolar al pagar."
   - q: "¿Qué diferencia hay entre Speechify y Speechify Studio?"

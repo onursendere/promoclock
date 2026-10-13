@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "The free version covers basic editing. Max is $24.99/month with 500 credits, and the Frontier tiers (formerly Scale) cost $69.99, $139.99 or $279.99/month for 1,400 to 5,600 credits; the listed prices are iOS plan prices in USD."
-  asOf: 2026-10-03
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, api]
 savingTips:
   - "Unused credits roll over for up to two extra months, so a balance can reach three times the monthly allowance."
@@ -52,7 +52,7 @@ sources:
   - https://captions.ai/
   - https://captions.ai/help/docs/introduction
   - https://mirage.app/about-us
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is Captions?
 Captions is the consumer app from Mirage, which describes it as its agent in your hands: the agent plans, edits and designs a video while every layer stays editable until you publish. The company used the Captions name itself until its 2025 rebrand.

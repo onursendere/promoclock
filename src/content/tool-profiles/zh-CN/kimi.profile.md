@@ -1,7 +1,7 @@
 ---
 summary: "Kimi是月之暗面（Moonshot AI）推出的AI助手和智能体工作区。它运行在Kimi K3之上，这是一个拥有2.8万亿参数、上下文窗口达100万token的开放权重模型，于2026年7月发布。除了聊天，Kimi还能处理文档、幻灯片、深度调研和网站，并通过Kimi Code扩展到编程，通过Kimi Work扩展到桌面办公。"
-metaTitle: "Kimi价格、免费套餐与K3功能"
-metaDescription: "月之暗面的Kimi提供名为Adagio的免费套餐，付费套餐起价$19/月。了解Kimi K3、Agent Swarm、Kimi Code和Kimi Work能为你做什么。"
+metaTitle: "Kimi K3价格：免费套餐、Plus $19、Pro $39"
+metaDescription: "Kimi K3在Adagio免费套餐可用，同时一个智能体任务。Plus为$19/月，Pro为$39，Max为$99，Ultra为$199；Max和Ultra支持100万token对话。"
 bestFor:
   - "调研和长文档处理"
   - "交办多步骤智能体任务"
@@ -36,7 +36,7 @@ faq:
   - q: "Kimi K3是开源的吗？"
     a: "Kimi K3的完整权重可在Hugging Face上下载，遵循月之暗面自己的Kimi K3许可协议。该模型于2026年7月17日发布，运行在kimi.com、移动应用、Kimi Work、Kimi Code和Kimi API上。"
   - q: "为什么Kimi帮助中心显示的价格是人民币？"
-    a: "帮助中心列出了另一套名为Andante、Moderato、Allegretto和Allegro的套餐，价格从每月¥49到¥699不等。kimi.com上的英文定价页面则以美元显示Plus、Pro、Max和Ultra套餐。"
+    a: "帮助中心列出了以人民币计价、名为Go、Plus、Pro和Max的套餐，价格从每月¥49到¥699不等。kimi.com上的英文定价页面则以美元显示Plus、Pro、Max和Ultra套餐，因此同一个套餐名在两种货币下可能对应不同的档位。"
 ---
 ## Kimi是什么？
 Kimi是月之暗面面向消费者的产品线，涵盖聊天、智能体和编程。Kimi K3于2026年7月17日发布，运行在kimi.com以及iOS、安卓和鸿蒙应用上。
@@ -50,5 +50,4 @@ Kimi适合把多步骤调研、办公文件或编程工作交办出去的用户�
 - Kimi Code、Kimi Work、Deep Research和幻灯片功能共用一个每月额度池，未用完的额度会过期。
 - 各套餐的智能体使用次数只是基于典型token消耗的估算，而非固定配额。
 - 目标模式从Pro起才提供，100万token的对话需要Max或Ultra。
-- 人民币计价的帮助中心与美元计价的定价页面在套餐名称和价格上不一致，可能让购买者感到困惑。
----
+- 人民币计价的帮助中心与美元计价的定价页面在Plus、Pro、Max等套餐名称上重复使用，却对应不同的档位和价格，可能让购买者感到困惑。

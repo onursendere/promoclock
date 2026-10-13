@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "The Free plan offers text to speech with 10 basic voices at up to 1.5x speed. Premium costs $29/month or $139/year and adds 1,000+ voices, 5x speed, scanning, AI tools and voice typing."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, browser-extension, api]
 savingTips:
   - "Yearly billing brings Premium to $139, about $11.58 a month and roughly 60% less than paying $29 monthly."
@@ -54,7 +54,7 @@ sources:
   - https://speechify.com/
   - https://speechify.com/speechify-free-vs-premium/
   - https://speechify.com/blog/is-speechify-free-for-students/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Speechify?
 Speechify is a listening app: you give it text and it reads it back in a synthetic voice while highlighting the words. It runs in the browser, on iPhone, iPad and Android, on Mac and Windows, and as a Chrome or Edge extension, so a document started on a laptop can continue on a phone.

@@ -79,7 +79,7 @@ Claude Code는 채팅과 같은 5시간 한도와 주간 한도를 쓰지만, An
 - **5시간 한도:** Anthropic의 [공식 발표](https://www.anthropic.com/news/higher-limits-spacex)에 따르면 2026년 5월 6일 유료 플랜의 [Claude Code 5시간 한도가 두 배로 늘었습니다](/deals/claude-code-5h-limits-doubled/).
 - **피크 시간대:** 같은 업데이트로 Pro와 Max의 Claude Code에 적용되던 피크 시간대 한도 감소가 사라졌습니다.
 - **주간 한도:** 2026년 5월 13일부터 9월 14일까지 [주간 한도 +50% 상향](/deals/claude-code-weekly-plus50-2026/)이 적용됐고, 이후 [영구 +25%](/deals/claude-code-weekly-plus25-permanent/)로 대체됐습니다. 기준을 100으로 보면 프로모션 전 100, 프로모션 중 150, 현재 125입니다.
-- **클라우드 세션:** 개인 Pro 구독자는 $100, Max 구독자는 $250의 [Claude Code 클라우드 크레딧](/deals/claude-code-cloud-credit-2026/)을 받으며, 클라우드 세션은 플랜 한도보다 이 크레딧을 먼저 씁니다. 2026년 10월 7일까지 신청해야 하고, 쓰지 않은 크레딧은 2026년 11월 4일에 만료됩니다.
+- **클라우드 세션:** 개인 Pro 구독자는 $100, Max 구독자는 $250의 [Claude Code 클라우드 크레딧](/deals/claude-code-cloud-credit-2026/)을 받으며, 클라우드 세션은 플랜 한도보다 이 크레딧을 먼저 씁니다. 신청 기간은 2026년 10월 7일에 마감됐고, 신청한 크레딧은 2026년 11월 4일까지 쓸 수 있습니다.
 
 Free 플랜에는 Claude Code가 포함되지 않습니다.
 
@@ -93,7 +93,7 @@ Enterprise 플랜은 영향을 받지 않고, Pro와 Max의 Claude Code는 적�
 
 ## 2026년 Claude 사용 한도는 어떻게 바뀌었을까?
 
-2026년의 한도 변경과 프로모션은 모두 9건이며, 그중 4건은 Claude Code만 대상입니다. 2026년 10월 4일 현재 2건의 프로모션이 진행 중입니다.
+2026년의 한도 변경과 프로모션은 모두 9건이며, 그중 4건은 Claude Code만 대상입니다. 2026년 10월 12일 현재 진행 중인 프로모션은 1건입니다.
 
 | 날짜 | 변경 내용 | 대상 플랜 | 상태 |
 |---|---|---|---|
@@ -104,10 +104,10 @@ Enterprise 플랜은 영향을 받지 않고, Pro와 Max의 Claude Code는 적�
 | 2026년 6월 5일–7월 5일 | [Cowork 5시간 한도 2배](/deals/claude-cowork-june-2026-2x/) | Pro, Max, Team, 레거시 Enterprise | 종료 |
 | 2026년 7월 | Pro와 Team 표준 좌석의 Fable 5를 사용 크레딧으로 전환 | Pro, Team 표준 좌석 | 적용 중 |
 | 2026년 9월 14일 | Claude Code 주간 한도를 프로모션 이전 기준보다 영구 +25% | Pro, Max, Team, 좌석 기반 Enterprise | 영구 |
-| 2026년 9월 23일–10월 7일 | Claude Code 클라우드 크레딧: $100(Pro) 또는 $250(Max) | 개인 Pro, Max | 진행 중 |
-| 2026년 10월 1–15일 | [아티팩트를 만들거나 편집한 뒤 세션 사용량 50% 감소](/deals/claude-artifact-usage-promo-oct-2026/) | Pro, Max, Team | 진행 중 |
+| 2026년 9월 23일–10월 7일 | [Claude Code 클라우드 크레딧](/deals/claude-code-cloud-credit-2026/): $100(Pro) 또는 $250(Max) | 개인 Pro, Max | 신청 마감, 크레딧은 11월 4일까지 사용 가능 |
+| 2026년 10월 1–15일 | [아티팩트를 만들거나 편집한 뒤 세션 사용량 50% 감소](/deals/claude-artifact-usage-promo-oct-2026/) | Free(10월 7일부터), Pro, Max, Team | 10월 15일 종료 |
 
-[Anthropic의 프로모션 안내 페이지](https://support.claude.com/en/articles/17274727-artifact-usage-promotion)에 따르면 아티팩트 프로모션은 아티팩트를 만들거나 편집한 뒤의 다음 채팅 메시지 10개에 적용되며, 10월 15일 오후 11시 59분(PT)에 끝납니다. Claude Code, API, Free·Enterprise 플랜은 제외됩니다.
+[Anthropic의 프로모션 안내 페이지](https://support.claude.com/en/articles/17274727-artifact-usage-promotion)에 따르면 아티팩트 프로모션은 아티팩트를 만들거나 편집한 뒤의 다음 채팅 메시지 10개에 적용되며, 10월 15일 오후 11시 59분(PT)에 끝납니다. Free 플랜은 10월 7일부터 포함됐고, Claude Code, API, Enterprise 플랜은 제외됩니다.
 
 ## 어떤 모델을 쓰느냐에 따라 한도 소진 속도가 달라질까?
 
@@ -151,7 +151,7 @@ Claude 사용 크레딧을 쓰면 Pro, Max 5x, Max 20x 구독자는 플랜 한�
 - **참고 파일은 프로젝트에 넣으세요.** Anthropic에 따르면 프로젝트에 캐시된 콘텐츠는 한도에 더 적게 반영됩니다.
 - **더 가벼운 모델을 고르세요.** Sonnet을 기본으로 쓰고, 간단한 작업에는 effort 수준을 낮추세요.
 - **도구는 필요할 때만 쓰세요.** Research와 웹 검색은 사용량을 늘리므로 답에 꼭 필요할 때 켜세요.
-- **진행 중인 프로모션을 활용하세요.** 2026년 10월 15일까지 Pro, Max, Team에서 아티팩트로 작업하면 세션 사용량이 50% 적게 듭니다.
+- **진행 중인 프로모션을 활용하세요.** 2026년 10월 15일까지 Free, Pro, Max, Team에서 아티팩트로 작업하면 세션 사용량이 50% 적게 듭니다.
 
 ## 결론: 플랜별로 한도를 어떻게 관리할까?
 
@@ -160,7 +160,7 @@ Claude의 한도는 5시간 세션 한도와 주간 한도로 이뤄지며, 어�
 - **Free 사용자:** 채팅을 짧게 유지하고 피크 시간대 밖에서 작업하세요. 매일 한도에 걸린다면 Pro로 올리면 됩니다.
 - **Pro 사용자:** Sonnet을 기본으로 쓰고, 어쩌다 한도를 넘는 날에는 사용 크레딧을 더하세요. Claude Code는 피크 시간대 적용 대상에서 제외됩니다.
 - **주간 한도에 걸리는 Pro 헤비 유저:** Max 5x(월 $100)는 Pro의 5배 세션 사용량을 제공합니다.
-- **Max 사용자:** Fable 50% 상한에 주의하고, 2026년 10월 7일까지 $250 클라우드 크레딧을 신청하세요.
+- **Max 사용자:** Fable 50% 상한에 주의하고, 신청한 클라우드 크레딧은 2026년 11월 4일 만료 전에 쓰세요.
 - **팀:** Anthropic이 Team의 Claude Code에 대한 피크 시간대 제외를 발표하지 않았으므로, 대규모 작업은 비피크로 잡으세요.
 
 PromoClock은 [Claude Watch](/)에서 Claude의 모든 한도 변경을 실시간으로 추적합니다.

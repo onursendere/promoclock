@@ -8,7 +8,7 @@ bestFor:
   - "AIの推奨を逃しているB2Bブランド"
 keyFeatures:
   - name: "AI可視性の追跡"
-    description: "ChatGPT、Gemini、GoogleのAI Overviewsでプロンプトと回答を毎日追跡し、Enterpriseでは対象が10のAIプラットフォームに広がります。"
+    description: "ChatGPT、Gemini、GoogleのAI Overviewsでプロンプトと回答を毎日追跡し、Enterpriseでは対象が8つのAIプラットフォームに広がります。"
   - name: "AI Article Writer"
     description: "アップロードしたデータと保存した文体を使い、毎月SEO記事を作成します。Starterは15本、Growthは50本までです。"
   - name: "サイト監査"
@@ -33,7 +33,7 @@ faq:
   - q: "WritesonicはまだAIライティングツールですか"
     a: "一部はそうです。全プランにAI Article Writerが含まれますが、Writesonicは今ではAI検索の成長エンジンを名乗っています。中心はGEO、AEO、そしてAIの回答でブランドがどう表示されるかの追跡です。"
   - q: "WritesonicはどのAIプラットフォームを追跡しますか"
-    a: "Starter、Basic、GrowthはChatGPT、Gemini、GoogleのAI Overviewsを追跡します。Enterpriseは10のプラットフォームを追跡し、Perplexity、Claude、Microsoft Copilot、Grok、DeepSeek、Meta AI、GoogleのAI Modeが加わります。"
+    a: "Starter、Basic、GrowthはChatGPT、Gemini、GoogleのAI Overviewsを追跡します。Enterpriseは8つのプラットフォームを追跡し、Perplexity、Claude、Microsoft Copilot、Grok、GoogleのAI Modeが加わります。"
   - q: "Writesonicはいつでも解約できますか"
     a: "はい。アップグレードは即時に反映され、ダウングレードと解約は次の請求サイクルで有効になります。Writesonicは、理由を問わない7日間の返金も掲げています。"
   - q: "Writesonicの各プランには何ユーザー含まれますか"

@@ -9,14 +9,14 @@ keyTakeaways:
   - "Adobe Firefly Standard coûte US$9.99/mois avec 2 000 crédits et la génération d’images standard illimitée, et Adobe indique que les créations des modèles Firefly peuvent être utilisées commercialement."
   - "Ideogram est le bon choix pour du texte lisible dans les images : les comptes gratuits reçoivent 30 crédits par semaine, et Plus coûte $20/mois, ou $15/mois en facturation annuelle."
   - "Recraft génère des vecteurs SVG modifiables avec toutes les formules, mais les images de la formule gratuite appartiennent à Recraft et ne peuvent pas être utilisées commercialement ; Basic coûte $12/mois."
-  - "Deux offres sur l’image sont en cours en octobre 2026 : 30 % de réduction sur Firefly Pro Plus et Premium jusqu’au 21 octobre, et Seedream 5.0 Pro en illimité sur Magnific jusqu’au 10 octobre."
+  - "Deux offres sur l’image sont en cours à la mi-octobre 2026 : 30 % de réduction sur Firefly Pro Plus et Premium jusqu’au 21 octobre, et des générations Magnific One illimitées sur Magnific jusqu’au 15 octobre."
 faq:
   - q: "Quel est le meilleur générateur d’images IA gratuit ?"
     a: "Gemini et ChatGPT génèrent et retouchent tous deux des images avec un compte gratuit. Parmi les outils dédiés, Leonardo.ai renouvelle 150 tokens rapides par jour, Krea donne 100 unités de calcul par jour, Ideogram 30 crédits par semaine et Adobe Firefly des générations quotidiennes gratuites. Les images gratuites sont souvent publiques, et les formules gratuites de Recraft, Krea et Freepik excluent l’usage commercial."
   - q: "Midjourney ou Adobe Firefly : lequel est le meilleur ?"
     a: "Midjourney est meilleur pour des visuels soignés et singuliers, et démarre à $10/mois, sans formule gratuite. Adobe Firefly est meilleur pour le travail commercial et dans Creative Cloud : Standard coûte US$9.99/mois avec la génération d’images standard illimitée, et Adobe entraîne ses propres modèles sur des contenus sous licence et du domaine public. Firefly Pro, à US$19.99/mois, inclut aussi Photoshop sur le web et sur mobile."
   - q: "Combien coûte Ideogram ?"
-    a: "Ideogram est gratuit avec 30 crédits par semaine. Plus coûte $20/mois pour 2 400 crédits, Pro $60/mois pour 7 500 et Team $30 par utilisateur et par mois, avec un minimum de deux utilisateurs. La facturation annuelle fait passer Plus à $15, Pro à $42 et Team à $20 par mois, et les recharges de crédits à $4 sont reportées d’un mois sur l’autre."
+    a: "Ideogram est gratuit avec 30 crédits par semaine. Plus coûte $20/mois pour 2 400 crédits, Pro $60/mois pour 7 500 et Team $30 par utilisateur et par mois, avec un minimum de deux utilisateurs. La facturation annuelle fait passer Plus à $15, Pro à $42 et Team à $20 par mois, et les crédits supplémentaires coûtent un cent chacun et restent valables 365 jours."
   - q: "Combien coûte Leonardo AI ?"
     a: "La formule gratuite de Leonardo.ai donne 150 tokens rapides par jour, et chaque image gratuite est publique. Essential coûte $12/mois, Premium $30 et Ultimate $60, ou $10, $24 et $48 par mois en facturation annuelle, hors taxes. Les tokens payants inutilisés s’accumulent dans une réserve pouvant contenir jusqu’à 3 mois de dotation, soit 25 500 tokens sur Essential."
   - q: "Les images des générateurs d’images IA sont-elles privées ?"
@@ -89,7 +89,7 @@ La formule gratuite de Leonardo.ai renouvelle 150 tokens rapides par jour, mais 
 
 ### Recraft
 
-Recraft Basic coûte $12/mois ($10 en facturation annuelle) pour 1 000 crédits, Pro démarre à $20/mois pour 2 000 crédits, et Teams à $22 par siège, avec un minimum de deux sièges. La génération vectorielle est incluse dans toutes les formules, même Free, et produit des fichiers SVG modifiables. Recraft V4.1, sorti en mai 2026, existe en huit versions, dont Vector et Utility.
+Recraft Basic coûte $12/mois ($10 en facturation annuelle) pour 1 000 crédits, Pro démarre à $20/mois pour 2 000 crédits, et Teams à $22 par siège, avec un minimum de deux sièges. La génération vectorielle est incluse dans toutes les formules, même Free, et produit des fichiers SVG modifiables. Recraft V4.1, sorti en mai 2026, existe désormais en neuf versions, dont Vector, Utility et un modèle Flash à bas coût.
 
 ### Krea
 
@@ -140,7 +140,7 @@ Pour retoucher des photos plutôt que les générer, Photoroom et Pixelcut domin
 Oui : en octobre 2026, Adobe Firefly et Magnific proposent tous deux des offres à durée limitée, et les étudiants aux États-Unis peuvent obtenir Google AI Pro ou ChatGPT Plus gratuitement.
 
 - [30 % de réduction sur Firefly Pro Plus et Premium](/deals/adobe-firefly-30-off-first-year-2026/) : les nouveaux abonnés paient US$34.97/mois au lieu de US$49.99 pour Pro Plus, ou US$139.91 au lieu de US$199.99 pour Premium, la première année. L’offre se termine le 21 octobre 2026.
-- [Seedream 5.0 Pro en illimité sur Magnific](/deals/magnific-unlimited-seedream-oct-2026/) : générations illimitées en 1,5K pour les abonnés jusqu’au 10 octobre 2026.
+- [Magnific One en illimité sur Magnific](/deals/magnific-one-unlimited-oct-2026/) : générations illimitées en qualité High, en 2K et 4K, sur Premium+, Pro et Business jusqu’au 15 octobre 2026, après la fin le 10 octobre d’une offre Seedream 5.0 Pro illimité.
 - [Google AI Pro gratuit pendant un an](/deals/google-ai-pro-students-2026/) : pour les étudiants éligibles aux États-Unis qui activent l’offre au plus tard le 31 décembre 2026.
 - [4 mois de ChatGPT Plus offerts](/deals/chatgpt-plus-students-back-to-school-2026/) : pour les étudiants éligibles aux États-Unis qui en profitent au plus tard le 31 octobre 2026.
 

@@ -42,7 +42,7 @@ PromoClock은 AI 도구 100개의 프로모션을 공식 출처로 확인해 추
 
 ## 2026년 학생 할인이 있는 AI 도구는?
 
-2026년 10월 4일 기준 [AI 특가 페이지](/deals/)에는 AI 학생 혜택 7개가 올라 있습니다. 6개는 신규 가입이 가능하고, 나머지 1개인 Cursor의 혜택은 종료됐습니다.
+2026년 10월 12일 기준 [AI 특가 페이지](/deals/)에는 AI 학생 혜택 8개가 올라 있습니다. 7개는 신규 가입이 가능하고, 나머지 1개인 Cursor의 혜택은 종료됐습니다.
 
 | 도구 | 혜택 | 대상 | 기간 또는 가격 | 상태 | 자세히 |
 |---|---|---|---|---|---|
@@ -52,6 +52,7 @@ PromoClock은 AI 도구 100개의 프로모션을 공식 출처로 확인해 추
 | Perplexity | Education Pro | 인증된 학생과 교육자 | 월 $10(Pro는 월 $20) | 상시 | [Perplexity Education Pro](/deals/perplexity-education-pro/) |
 | Notion | Plus 플랜 무료 | 자격 요건을 갖춘 학교 이메일이 있는 학생과 교육자 | 무료, 연 1회 재인증 | 상시 | [Notion Education Plus](/deals/notion-education-plus-free/) |
 | Lovable | Lovable Pro 무료 | 스웨덴의 대학교, 단과대학, 시민대학(folk high school) 학생 | 2026년 12월 31일까지 무료, 이후 50% 할인 | 진행 중 | [Lovable 스웨덴 혜택](/deals/lovable-sweden-students-2026/) |
+| Kiro | 매달 1,000크레딧 무료 | 자격을 갖춘 대학의 학생, 만 18세 이상 | 1년, 이후 Free 티어 | 상시 | [Kiro 학생 혜택](/deals/kiro-student-free-year-2026/) |
 | Cursor | Cursor Pro 무료 | 인증된 대학생 | 1년 | 2026년 6월 25일 종료 | [Cursor 학생 프로그램](/deals/cursor-student-pro-year/) |
 
 ## 지금 가장 좋은 AI 학생 혜택은?
@@ -118,12 +119,11 @@ Anthropic 요금 페이지에는 Claude 개인 학생 할인이 없습니다. �
 
 ## 교육 할인을 제공하는 다른 AI 도구는?
 
-학생 또는 교육 요금을 안내하는 AI 도구 13개를 더 추적하고 있으며, 혜택은 20% 할인부터 1년 무료까지 다양합니다.
+학생 또는 교육 요금을 안내하는 AI 도구 12개를 더 추적하고 있으며, 혜택은 20% 할인부터 1년 무료까지 다양합니다.
 
 | 도구 | 학생·교육 혜택 |
 |---|---|
-| Mistral | 인증된 학생은 Pro를 월 $14.99 대신 월 $5.99에 이용 |
-| Kiro | 자격을 갖춘 대학(2026년 9월 기준 132곳)에서 1년간 매달 1,000크레딧 무료 |
+| Mistral | Vibe를 처음 쓰는 인증된 학생은 최대 12개월간 Pro를 월 $14.99 대신 월 $5.99에 이용 |
 | Beautiful.ai | 유효한 .edu 이메일로 Pro 12개월 무료, 신규 학생 구독자 한정 |
 | Granola | 미국·영국·캐나다의 인가 대학 학생에게 Business 12개월 무료, 신청제 |
 | Base44 | Starter 또는 Builder 최대 12개월 50% 할인 |

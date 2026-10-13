@@ -35,7 +35,7 @@
     - en: "Unused credit expires on November 4, 2026 at 11:59 PM PT."
   startsAt: 2026-09-23T21:00:00Z
   endsAt: 2026-10-08T06:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://support.claude.com/en/articles/17152539-cloud-sessions-bonus-credit-promotion
   sourceLabel: "Anthropic Help Center"
 
@@ -50,20 +50,42 @@
   value:
     en: "50% less usage"
   audience:
-    en: "Pro, Max, Team"
+    en: "Free, Pro, Max, Team"
   summary:
-    en: "From October 1 to 15, 2026, work that follows creating or editing an artifact in Claude counts 50% less toward your five-hour session limit. It applies automatically; weekly limits don't change."
+    en: "Until October 15, 2026, work that follows creating or editing an artifact in Claude counts 50% less toward your five-hour session limit. It started on Pro, Max and Team on October 1, Free plans joined on October 7, and weekly limits don't change."
   scope:
     en: "Claude web, desktop, mobile and cloud Cowork tasks"
   terms:
     - en: "In chats, the next 10 messages after an artifact is created or edited get the discount, up to 15 steps per reply."
     - en: "Cowork tasks started from Document, Presentation or Design get about 45 minutes of discounted work."
-    - en: "Claude Code, the API, Claude in Slack, local Cowork tasks, and Free and Enterprise plans are excluded."
+    - en: "Claude Code, the API, Claude in Slack, local and scheduled Cowork tasks, the standalone Claude Design app and Enterprise plans are excluded."
   startsAt: 2026-10-01T18:00:00Z
   endsAt: 2026-10-16T06:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://support.claude.com/en/articles/17274727-artifact-usage-promotion
   sourceLabel: "Anthropic Help Center"
+
+- id: claude-for-startups-team-year-2026
+  tool: claude
+  kind: free-trial
+  title:
+    en: "Claude for Startups: a free year of Claude Team and $1,000 in API credits (over capacity since October 2026)"
+  headline:
+    en: "Claude for Startups: free Team year (paused)"
+  value:
+    en: "1 year of Team + $1,000"
+  audience:
+    en: "Startups approved for Claude for Startups"
+  summary:
+    en: "On October 6, 2026, Anthropic added a free year of Claude Team for up to five seats and $1,000 in API credits to Claude for Startups. Within days it said it was over capacity on both offers and would re-review all applications; startups that already claimed them keep them."
+  terms:
+    - en: "API credits work only on the first-party Claude API, not Amazon Bedrock or Google Vertex AI."
+    - en: "The rest of the program, including up to $45,000 in partner discounts and office hours, stays open to applications."
+  startsAt: 2026-10-06T00:00:00Z
+  endsAt: 2026-10-09T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://claude.com/programs/startups
+  sourceLabel: "Claude for Startups"
 
 - id: claude-code-weekly-plus25-permanent
   tool: claude
@@ -85,7 +107,7 @@
     - en: "Applies to Claude Code only; 5-hour limits are unchanged."
     - en: "On a baseline of 100: 100 before the promo, 150 during it, 125 from September 14."
   startsAt: 2026-09-14T00:00:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://x.com/ClaudeDevs/status/2093742321473065266
   sourceLabel: "@ClaudeDevs (X)"
 
@@ -220,7 +242,7 @@
     - en: "First month: Starter $1 instead of $6 until October 18, and Creator $11 instead of $22."
   startsAt: 2026-09-28T00:00:00Z
   endsAt: 2026-10-12T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://elevenlabs.io/blog/eleven-v4
   sourceLabel: "ElevenLabs Blog"
   ctaUrl: https://elevenlabs.io/pricing
@@ -244,7 +266,7 @@
     - en: "Pricing after the preview hasn't been announced."
   startsAt: 2026-09-14T00:00:00Z
   endsAt: 2026-10-14T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://bolt.new/blog/what-is-bolt-forge
   sourceLabel: "Bolt Blog"
   ctaUrl: https://bolt.new/bolt-lite
@@ -259,15 +281,17 @@
   value:
     en: "Free SWE-2"
   audience:
-    en: "Pro and Max plans"
+    en: "Self-serve Pro, Max and Teams plans"
   summary:
-    en: "Cognition's SWE-2 coding model is free to use in Devin Desktop, the renamed Windsurf editor, and in the Devin CLI through October 16, 2026 on Pro ($20/month) and Max ($200/month)."
+    en: "Cognition's SWE-2 coding model is free to use in Devin Desktop, the renamed Windsurf editor, and in the Devin CLI through October 16, 2026 on self-serve plans, including Pro ($20/month) and Max ($200/month)."
   terms:
     - en: "SWE-2 launched on September 10, 2026 as Cognition's latest model."
+    - en: "Devin's model docs give October 15 as the last free day, so plan heavy use before then."
+    - en: "After the free period, SWE-2 is billed at its standard model rates."
   startsAt: 2026-10-03T00:00:00Z
   startKnown: false
   endsAt: 2026-10-16T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://devin.ai/pricing
   sourceLabel: "Devin Pricing"
 
@@ -286,12 +310,13 @@
     en: "New Firefly subscribers pay 30% less for the first year: Pro Plus is $34.97/month instead of $49.99, and Premium $139.91/month instead of $199.99. The offer runs until October 21, 2026."
   terms:
     - en: "Requires a 12-month commitment; the regular price applies from the second year."
+    - en: "Adobe's plans page adds unlimited generations on select Firefly models for the first year."
     - en: "Not for education, OEM or volume-licensing customers."
     - en: "In the UK, the first year costs £33.58/month for Pro Plus and £140.20/month for Premium."
   regions: ["US", "GB"]
   startsAt: 2026-05-21T00:00:00Z
   endsAt: 2026-10-21T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://www.adobe.com/qa_en/offer-terms/ff-full-special-offer.html
   sourceLabel: "Adobe offer terms"
   ctaUrl: https://www.adobe.com/products/firefly/plans.html
@@ -315,7 +340,7 @@
     - en: "Pixel 11 Pro, Pro XL and Pro Fold: 6 months of Google AI Pro, redeemable until October 31, 2027."
   startsAt: 2025-08-20T00:00:00Z
   endsAt: 2026-10-31T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://support.google.com/pixelphone/answer/13529884
   sourceLabel: "Google Pixel Help"
 
@@ -336,7 +361,7 @@
     - en: "Chat that generates images or video, or hands work off to Plan or Build, still uses credits."
   startsAt: 2026-09-24T00:00:00Z
   endsAt: 2026-10-31T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://lovable.dev/blog/chat-for-free
   sourceLabel: "Lovable Blog"
 
@@ -359,7 +384,7 @@
   startsAt: 2026-10-03T00:00:00Z
   startKnown: false
   endsAt: 2026-10-31T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://wisprflow.ai/pricing
   sourceLabel: "Wispr Flow Pricing"
 
@@ -381,7 +406,7 @@
     - en: "The 90-day claim window started on August 25, 2026, Singapore time."
   startsAt: 2026-08-24T16:00:00Z
   endsAt: 2026-11-22T15:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://help.manus.im/en/articles/16147914-service-change-overview-welcome-back-bonus-for-affected-users
   sourceLabel: "Manus Help Center"
 
@@ -401,9 +426,156 @@
   startsAt: 2026-10-03T00:00:00Z
   startKnown: false
   endsAt: 2026-10-10T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://www.magnific.com/pricing
   sourceLabel: "Magnific Pricing"
+
+- id: magnific-one-unlimited-oct-2026
+  tool: freepik
+  kind: limit-boost
+  title:
+    en: "Magnific (Freepik): unlimited Magnific One image generations on Premium+, Pro and Business until October 15, 2026"
+  headline:
+    en: "Magnific One unlimited until October 15"
+  value:
+    en: "Unlimited Magnific One"
+  audience:
+    en: "Premium+, Pro and Business subscribers"
+  summary:
+    en: "Magnific, the new name of Freepik's AI suite, makes its new Magnific One image model unlimited on desktop until October 15, 2026 for Premium+, Pro and Business plans. Max quality still uses credits."
+  terms:
+    - en: "Unlimited covers Draft and Final in High quality, at 2K and 4K."
+    - en: "It replaces the unlimited Seedream 5.0 Pro offer that ended on October 10."
+  startsAt: 2026-10-12T00:00:00Z
+  startKnown: false
+  endsAt: 2026-10-15T23:59:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://www.magnific.com/pricing
+  sourceLabel: "Magnific Pricing"
+
+- id: elevenlabs-starter-1-first-month-2026
+  tool: elevenlabs
+  kind: discount
+  title:
+    en: "ElevenLabs Starter for $1: first month 83% off for new subscribers (until October 18, 2026)"
+  headline:
+    en: "ElevenLabs Starter: first month for $1"
+  value:
+    en: "$1 first month"
+  audience:
+    en: "New Starter subscribers"
+  summary:
+    en: "New ElevenLabs subscribers can get the first month of the Starter plan for $1 instead of $6 until October 18, 2026. The Creator plan's first month is also shown at $11 instead of $22."
+  terms:
+    - en: "First month only; Starter then renews at $6/month and Creator at $22/month."
+    - en: "The Creator discount has no end date on the pricing page."
+  startsAt: 2026-10-03T00:00:00Z
+  startKnown: false
+  endsAt: 2026-10-18T23:59:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://elevenlabs.io/pricing
+  sourceLabel: "ElevenLabs Pricing"
+  ctaUrl: https://elevenlabs.io/pricing
+
+- id: runway-enterprise-two-months-free-2026
+  tool: runway
+  kind: discount
+  title:
+    en: "Runway Enterprise: 2 months of usage free for companies that sign by October 31, 2026"
+  headline:
+    en: "Runway Enterprise: 2 months of usage free"
+  value:
+    en: "2 months free"
+  audience:
+    en: "Companies signing a Runway Enterprise agreement"
+  summary:
+    en: "Runway gives enterprises 2 months of usage free when they sign an Enterprise agreement by October 31, 2026. It is a sales-led offer, not available on self-serve plans."
+  steps:
+    - en: "Contact Runway's sales team from the banner on runway.com."
+    - en: "Sign the Enterprise agreement by October 31."
+  terms:
+    - en: "Enterprise agreements only; Free, Standard, Pro, Max and Team plans are excluded."
+    - en: "Runway's separate offer terms apply."
+  startsAt: 2026-10-12T00:00:00Z
+  startKnown: false
+  endsAt: 2026-10-31T23:59:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://runway.com/pricing
+  sourceLabel: "Runway Pricing"
+
+- id: kiro-startups-pro-plus-credits-2026
+  tool: kiro
+  kind: free-trial
+  title:
+    en: "Kiro for Startups: free Kiro Pro+ and a year of credits for early-stage startups (apply by December 31, 2026)"
+  headline:
+    en: "Kiro Pro+ free for startups"
+  value:
+    en: "Free Pro+ and credits"
+  audience:
+    en: "Early-stage to Series A startups with an AWS account"
+  summary:
+    en: "AWS gives eligible startups complimentary Kiro Pro+ access and one year of Kiro promotion credits. Applications are open from April 7 to December 31, 2026."
+  steps:
+    - en: "Apply through Kiro's startup program with your company's AWS account ID."
+    - en: "Pick the Pro+ tier that fits your team; the credit amount depends on the tier."
+  terms:
+    - en: "Limited to companies from early stage to Series A that have an AWS account."
+    - en: "Credits expire one year after they are issued to your AWS account."
+  startsAt: 2026-04-07T00:00:00Z
+  endsAt: 2026-12-31T23:59:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://kiro.dev/startups/terms/
+  sourceLabel: "Kiro"
+
+- id: gemini-3-8-flash-intro-pricing-2026
+  tool: google-ai-studio
+  kind: discount
+  title:
+    en: "Gemini 3.8 Flash API intro pricing: $0.75 input and $3.75 output per 1M tokens until December 31, 2026"
+  headline:
+    en: "Gemini 3.8 Flash API at half price until 2027"
+  value:
+    en: "50% off API rates"
+  audience:
+    en: "Developers on the paid Gemini API tier"
+  summary:
+    en: "Until December 31, 2026, Gemini 3.8 Flash costs $0.75 per 1M input tokens and $3.75 per 1M output tokens on the Gemini API's paid Standard tier. From January 1, 2027 the rates double to $1.50 and $7.50."
+  terms:
+    - en: "Context caching is also half price until the end of 2026."
+    - en: "The free tier of the Gemini API stays free of charge."
+  startsAt: 2026-10-12T00:00:00Z
+  startKnown: false
+  endsAt: 2026-12-31T23:59:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://ai.google.dev/gemini-api/docs/pricing
+  sourceLabel: "Gemini API Docs"
+  ctaUrl: https://aistudio.google.com
+
+- id: synthesia-syren-launch-credits-2026
+  tool: synthesia
+  kind: launch
+  title:
+    en: "Synthesia Syren launch: free Syren credits for every user, valid for one month (October 2026)"
+  headline:
+    en: "Synthesia Syren: free launch credits"
+  value:
+    en: "Free Syren credits"
+  audience:
+    en: "All Synthesia users, including the free plan"
+  summary:
+    en: "Synthesia launched Syren, its AI video agent, in beta on October 9, 2026, and gives each user free Syren-only credits to make a first video. The credits are valid for one month, after which Syren uses your normal plan credits."
+  steps:
+    - en: "Sign in to Synthesia and open Syren from the left-hand navigation."
+    - en: "Describe the video you want or attach files, then refine it by chat."
+  terms:
+    - en: "Syren is in beta, and its videos run up to three minutes."
+    - en: "The launch credits work only in Syren."
+  startsAt: 2026-10-09T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://www.synthesia.io/post/syren-studio
+  sourceLabel: "Synthesia Blog"
+  ctaUrl: https://www.synthesia.io/pricing
 
 # ── Student offers ────────────────────────────────────────────────────────────
 
@@ -428,7 +600,7 @@
   regions: ["SE"]
   startsAt: 2026-09-01T00:00:00Z
   endsAt: 2026-12-31T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://back-to-school.lovable.app/terms
   sourceLabel: "Lovable"
   ctaUrl: https://back-to-school.lovable.app
@@ -459,7 +631,7 @@
   startsAt: 2026-09-01T00:00:00Z
   startKnown: false
   endsAt: 2026-10-31T23:59:00Z
-  verifiedAt: 2026-09-16T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://help.openai.com/en/articles/20001493-chatgpt-back-to-school-offer-for-students
   sourceLabel: "OpenAI Help Center"
   ctaUrl: https://chatgpt.com/students/2026/
@@ -487,10 +659,64 @@
     - en: "The AI Plus offer excludes the US, Bolivia, Albania, Canada, Macau, Hong Kong and Tunisia."
   startsAt: 2026-08-19T00:00:00Z
   endsAt: 2026-12-31T23:59:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/
   sourceLabel: "Google Blog"
   ctaUrl: https://one.google.com/ai-student
+
+- id: kiro-student-free-year-2026
+  tool: kiro
+  kind: student
+  ongoing: true
+  title:
+    en: "Kiro free for university students: 1,000 credits a month for one year"
+  headline:
+    en: "Kiro free for students for a year"
+  value:
+    en: "1 year free"
+  audience:
+    en: "Students at eligible universities"
+  summary:
+    en: "Students at eligible universities get 1,000 Kiro credits a month free for one year, the same monthly allowance as Kiro Pro. After the year, the account moves to the Free tier and your work stays."
+  steps:
+    - en: "Sign in to Kiro with an account tied to your university email."
+    - en: "On your account usage page, click verify in the Kiro Students banner."
+    - en: "Complete the student check with SheerID."
+  terms:
+    - en: "You must be 18 or older and study at a listed university."
+    - en: "Credits don't roll over, and add-on credits aren't available."
+  startsAt: 2026-10-12T00:00:00Z
+  startKnown: false
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://kiro.dev/students/
+  sourceLabel: "Kiro"
+  ctaUrl: https://kiro.dev/students/
+
+- id: codex-for-open-source-chatgpt-pro-2026
+  tool: codex
+  kind: free-trial
+  ongoing: true
+  title:
+    en: "Codex for Open Source: six months of ChatGPT Pro with Codex for open-source maintainers"
+  headline:
+    en: "Codex for Open Source: 6 months of Pro"
+  value:
+    en: "6 months of Pro"
+  audience:
+    en: "Maintainers of widely used open-source projects"
+  summary:
+    en: "OpenAI's Codex for Open Source program gives approved maintainers six months of ChatGPT Pro with Codex. Projects can also apply for API credits from a $1 million fund and, for core maintainers, Codex Security access."
+  steps:
+    - en: "Apply through the form on OpenAI's Codex for Open Source page."
+  terms:
+    - en: "Approval is case by case; core maintainers and leaders of widely used public projects are the main audience."
+    - en: "No application deadline is listed."
+  startsAt: 2026-10-12T00:00:00Z
+  startKnown: false
+  verifiedAt: 2026-10-12T00:00:00Z
+  sourceUrl: https://developers.openai.com/community/codex-for-oss
+  sourceLabel: "OpenAI Developers"
+  ctaUrl: https://openai.com/form/codex-for-oss/
 
 - id: github-copilot-student-plan
   tool: github-copilot
@@ -515,7 +741,7 @@
     - en: "Activation can take a few days after verification."
     - en: "Auto model selection picks the model."
   startsAt: 2026-03-12T00:00:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://docs.github.com/copilot/how-tos/manage-your-account/free-access-with-copilot-student
   sourceLabel: "GitHub Docs"
   ctaUrl: https://education.github.com/pack
@@ -540,7 +766,7 @@
     - en: "Select Verify as student and complete verification."
   startsAt: 2026-09-16T00:00:00Z
   startKnown: false
-  verifiedAt: 2026-09-16T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://www.perplexity.ai/help-center/en/articles/12590157-what-is-education-pro
   sourceLabel: "Perplexity Help Center"
 
@@ -567,7 +793,7 @@
     - en: "Thousands of school domains qualify, not just .edu."
   startsAt: 2026-09-16T00:00:00Z
   startKnown: false
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://www.notion.com/help/notion-for-education
   sourceLabel: "Notion Help Center"
   ctaUrl: https://www.notion.com/product/notion-for-education
@@ -591,6 +817,6 @@
   startsAt: 2026-06-24T00:00:00Z
   startKnown: false
   endsAt: 2026-06-25T00:00:00Z
-  verifiedAt: 2026-10-03T00:00:00Z
+  verifiedAt: 2026-10-12T00:00:00Z
   sourceUrl: https://cursor.com/help/account-and-billing/student-discount
   sourceLabel: "Cursor Docs"

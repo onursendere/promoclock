@@ -1,7 +1,7 @@
 ---
 summary: "Semrush é uma plataforma de SEO e visibilidade em buscas de IA da Semrush Holdings, comprada pela Adobe em abril de 2026. Ela une pesquisa de palavras-chave, rastreamento de posições e auditorias de site ao monitoramento de como ChatGPT, Gemini, Perplexity e o Google AI mencionam uma marca. Agências, times internos de SEO e profissionais de conteúdo usam a ferramenta para planejar e medir o trabalho de busca."
-metaTitle: "Semrush: preços 2026, plano grátis e limites"
-metaDescription: "Preços do Semrush em 2026: 10 relatórios diários no plano grátis, o plano SEO a $139 por mês, Starter, Pro+ e Advanced, o teste de 7 dias e alternativas."
+metaTitle: "Semrush 2026: planos de $139/mês, plano grátis e teste"
+metaDescription: "O Semrush custa $139/mês no SEO, $199 no Starter, $299 no Pro+ e $549 no Advanced. O plano grátis dá 10 relatórios/dia; a maioria dos toolkits tem teste de 7 dias."
 bestFor:
   - "Especialistas e consultores de SEO"
   - "Agências que reportam para clientes"

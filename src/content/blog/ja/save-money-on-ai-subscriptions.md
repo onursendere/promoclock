@@ -114,12 +114,12 @@ Claudeの5時間のセッション上限は、Free、Pro、Max、Teamプラン�
 
 ### 10. 実施中のキャンペーンに合わせて登録する
 
-短期間のキャンペーンで、1か月分の費用を大きく下げられることがあります。2026年10月4日時点では次のとおりです。
+短期間のキャンペーンで、1か月分の費用を大きく下げられることがあります。2026年10月12日時点では次のとおりです。
 
-- **Claude Code**：9月23日時点でプランが有効だった個人のPro契約者は$100、Max契約者は$250のクラウドセッション用の無料クレジットを、2026年10月7日までに受け取れます。[Claude Codeのクレジット特典](/deals/claude-code-cloud-credit-2026/)をご覧ください。
-- **Claudeのアーティファクト**：2026年10月15日まで、アーティファクトを作成・編集した後の作業は、Pro、Max、Teamのセッション上限に対して50%少なくカウントされます。
-- **ElevenLabs**：10月18日まで、新規契約者はStarterの初月が$6ではなく$1、Creatorが$22ではなく$11です。
+- **Claudeのアーティファクト**：2026年10月15日まで、アーティファクトを作成・編集した後の作業は、Free、Pro、Max、Teamのセッション上限に対して50%少なくカウントされます。[アーティファクトのキャンペーン](/deals/claude-artifact-usage-promo-oct-2026/)をご覧ください。
+- **ElevenLabs**：10月18日まで、新規契約者は[Starterの初月が$6ではなく$1](/deals/elevenlabs-starter-1-first-month-2026/)、Creatorが$22ではなく$11です。
 - **Adobe Firefly**：米国と英国の新規契約者は、12か月の契約を条件に、2026年10月21日までPro PlusまたはPremiumの初年度が30%安くなります。
+- **Gemini API**：2026年12月31日まで、開発者は[Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/)を通常料金の半額で利用できます。
 
 [特典ページ](/deals/)には実施中のすべての特典を、[キャンペーンカレンダー](/calendar/)にはそれぞれの終了日を掲載しています。
 
@@ -139,7 +139,7 @@ ChatGPT Plus、Claude Pro、Google AI Proはどれもチャット、リサーチ
 
 ### 12. チームのシートは年払いにし、既存の契約を確認する
 
-チームプランも、年払いの考え方は同じです。Claude Team Standardのシートは月額$25、年払いなら月額$20、ChatGPT Businessは1ユーザーあたり月額$25、年払いなら$20、Perplexity Enterprise Proは1シートあたり月額$40に対して年額$400です。Microsoft 365 Familyは月額$12.99で、最大6人とアプリを共有し、それぞれ1 TBのストレージを使えますが、Copilotの機能を使えるのは契約者本人だけです。
+チームプランも、年払いの考え方は同じです。Claude Team Standardのシートは月額$25、年払いなら月額$20、ChatGPT Businessは1ユーザーあたり月額$25、年払いなら$20、Perplexity Enterprise Proは1シートあたり月額$40に対して年額$400です。Microsoft 365 Familyは月額$12.99で、最大6人とアプリと2 TBのストレージプールを共有できますが、Copilotの機能を使えるのは契約者本人だけです。
 
 ## 月払いと年払い、どちらが安い？AIプラン別の比較
 
@@ -150,6 +150,7 @@ ChatGPT Plus、Claude Pro、Google AI Proはどれもチャット、リサーチ
 | Claude Pro | 月額$20 | 年額$200（月あたり約$17） |
 | Claude Max 5x | 月額$100 | 提供なし |
 | ChatGPT Plus | 月額$20 | 提供なし |
+| Perplexity Pro | 月額$20 | 月額$17（年払い） |
 | Notion Plus | 1メンバーあたり月額$12 | 1メンバーあたり月額$10 |
 | Grammarly Pro | 月額$30 | 年額$144（平均で月額$12） |
 | QuillBot Premium | 月額$19.95 | 年額$99.95（月あたり約$8.33） |

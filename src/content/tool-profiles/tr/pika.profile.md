@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "Free plan ücretsizdir ama aylık kredi içermez, yalnızca satın aldığın kredi paketleri vardır. Starter aylık $10 ile 900 kredi, Creator aylık $35 ile 3.150 kredi ve Fancy aylık $95'ten başlar; yıllık faturalandırma %20 tasarruf sağlar."
 savingTips:
   - "Yıllık faturalandırma %20 tasarruf sağlar: Starter aylık $8'e ve Creator $28'e düşer."
-  - "Ek yükleme kredileri, plan kredilerinin aksine harcanana dek bakiyende kalır ve her planda $1 başına 60 kredidir."
+  - "Ek yükleme kredileri, plan kredilerinin aksine satın alımdan sonra 365 gün geçerlidir ve her planda $1 başına 60 kredidir; yalnızca pika.art üzerindeki Pika Create'te kullanılır."
   - "Daha ucuz modeller bakiyeni uzatır: 5 saniyelik 720p bir Wan 3.0 klibi 33 kredi, Seedance 2.5 ise 122 kredi kullanır."
 faq:
   - q: "Pika ücretsiz mi?"
@@ -34,11 +34,11 @@ faq:
   - q: "Hangi Pika planı ticari lisans içerir?"
     a: "Aylık $35 ya da yıllık faturalandırmada aylık $28 olan Creator, ticari lisanslı en ucuz plandır. Free ve Starter ticari kullanımı hariç tutar; Fancy ve Enterprise ise onu ve bir öncelik kuyruğunu içerir."
   - q: "Kullanılmayan Pika kredileri devreder mi?"
-    a: "Plan kredileri devretmez. Her fatura döneminde yenilenir ve kullanılmayan her şey kaybolur; tek seferlik yükleme olarak alınan krediler ise harcayana dek bakiyende kalır."
+    a: "Plan kredileri devretmez. Her fatura döneminde yenilenir ve kullanılmayan her şey kaybolur; tek seferlik yükleme olarak alınan krediler ise devreder ve satın alımdan 365 gün sonra sona erer."
   - q: "Pika hâlâ kendi modellerini geliştiriyor mu?"
     a: "Evet. Pika 2.5 mevcut video modelidir ve Ağustos 2026'da Pika Speech, Pika Music, Pika SFX ve Pika Soundtrack'i çıkardı. Platform, bunların yanında diğer laboratuvarların iş ortağı modellerini de barındırır."
   - q: "Pika planımı iptal edersem ne olur?"
-    a: "Planın mevcut fatura döneminin sonuna dek etkin kalır, ardından hesap Free plana geçer. Yükleme olarak satın aldığın krediler bakiyede kalır ve hâlâ harcanabilir."
+    a: "Planın mevcut fatura döneminin sonuna dek etkin kalır, ardından hesap Free plana geçer. Yükleme olarak satın aldığın krediler bakiyede kalır ve satın alımdan 365 gün sonra sona erene dek harcanabilir."
 ---
 ## Pika bugün nedir?
 Pika, Pikaffects ve Pikaswaps gibi efektlerle bilinen eğlenceli bir metinden videoya uygulaması olarak başladı. 2026'ya gelindiğinde; video, görsel ve ses için ayrı uygulamaları ve Pika'nın kendi modellerini iş ortağı modellerle harmanlayan bir model seçicisi olan daha geniş bir yaratıcı platform hâline geldi.

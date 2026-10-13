@@ -26,9 +26,9 @@ useCases:
   - "Rascunhar uma mensagem no seu primeiro idioma e receber sugestões em inglês para enviar a colegas."
   - "Resumir um artigo longo para decidir se vale a pena ler por inteiro."
   - "Suavizar o tom de uma resposta de suporte antes que ela chegue a um cliente insatisfeito."
-pricingSummary: "Basic é grátis com 10 reescritas por dia. Advanced custa $13.99/mês ou $6.99/mês na cobrança anual, e Unlimited custa $19.99/mês ou $9.99/mês na cobrança anual. Os dois planos pagos começam com um teste grátis de 3 dias."
+pricingSummary: "Basic é grátis com 10 reescritas por dia. Advanced custa $13.99/mês e Unlimited custa $19.99/mês. Na cobrança anual, a página de planos agora mostra o Advanced a $4.89/mês e o Unlimited a $6.99/mês, antes $6.99 e $9.99. Os dois planos pagos começam com um teste grátis de 3 dias."
 savingTips:
-  - "A cobrança anual reduz o preço quase pela metade: o Unlimited cai de $19.99 para $9.99 por mês."
+  - "A cobrança anual reduz o preço em mais da metade: o Unlimited cai de $19.99 para $6.99 por mês na tarifa anual atual."
   - "Estudantes e educadores com e-mail .edu válido, e funcionários de ONGs, podem falar com o suporte para conseguir 30% de desconto em planos mensais ou anuais."
   - "O teste de 3 dias pede dados de pagamento e o Wordtune não dá reembolso, então cancele antes do fim se estiver em dúvida."
 faq:

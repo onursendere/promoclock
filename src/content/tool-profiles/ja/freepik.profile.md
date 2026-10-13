@@ -1,7 +1,7 @@
 ---
 summary: "Freepikは素材・AIクリエイティブプラットフォームで、2026年にMagnificへ改名し、freepik.comは現在magnific.comへリダイレクトされます。2.5億点以上の素材と、30以上のモデルによるAI画像・動画・音声機能を1つにまとめ、デザイナーや代理店が調達と生成を1サブスクリプションで行えます。"
-metaTitle: "Freepik(現Magnific)料金・無料プラン"
-metaDescription: "FreepikはMagnificになりました。2026年のPremium、Premium+、Proの料金、無料プランの上限、AIクレジット、無制限生成の変更点を解説します。"
+metaTitle: "FreepikはMagnificに改名｜料金・無料プラン・変更点"
+metaDescription: "FreepikはMagnificになりました。無料プランは今も1日10件のストックをダウンロードでき、Premiumは英国で月£14から。プランとAIクレジットを解説。"
 bestFor:
   - "素材とAI両方が必要なデザイナー"
   - "SNS・マーケティングチーム"

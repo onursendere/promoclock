@@ -1,7 +1,7 @@
 ---
 summary: "Lindy es un compañero de IA de Lindy que vive en el Slack de tu equipo, se conecta a más de 1.000 herramientas y maneja email, reuniones, agendas, research y reportes. Se vende como asientos por usuario que comparten un pozo único de créditos, y no hay plan gratis. Los equipos que ya trabajan en Slack y Gmail son quienes más lo aprovechan."
 metaTitle: "Lindy AI: precios 2026, planes, créditos y prueba"
-metaDescription: "Precios de Lindy en 2026: Plus a $29,99, Pro a $99,99 y Max a $199,99 por usuario al mes, créditos compartidos y alternativas."
+metaDescription: "Lindy en 2026: $50 en créditos gratis por 7 días y luego asientos Team desde $49.99 por usuario al mes con 5.000 créditos. Cómo funcionan los créditos compartidos."
 bestFor:
   - "Equipos que corren en Slack"
   - "Fundadores enterrados en email"
@@ -25,22 +25,22 @@ useCases:
   - "Recibir un briefing diario cada mañana con tus reuniones, email urgente y cualquier otra cosa que sigas."
   - "Hacer que Lindy investigue a los asistentes antes de una llamada de ventas y envíe el follow-up después."
   - "Convertir datos de CRM y de analytics en un dashboard en vivo que Lindy aloja en su propio enlace."
-pricingSummary: "Lindy vende asientos: Plus es $29.99 por usuario al mes con 3.000 créditos, Pro $99.99 con 15.000 y Max $199.99 con 35.000, más Enterprise a medida. Los nuevos usuarios pueden probarlo con $50 en créditos por 7 días, sin tarjeta. Los créditos extra de workspace cuestan $10 por 1.000."
+pricingSummary: "Lindy factura a cada usuario activo un asiento Team, desde $49.99 al mes por 5.000 créditos, con escalones mayores como $99.99 por 15.000 y $199.99 por 35.000, más Enterprise a medida. Los nuevos usuarios pueden probarlo con $50 en créditos por 7 días, sin tarjeta. Los créditos extra de workspace cuestan $10 por 1.000."
 savingTips:
   - "Los nuevos usuarios obtienen $50 en créditos por 7 días sin tarjeta de crédito, y los compañeros que se unen por Slack obtienen una prueba única de 7 días antes de que se facture su asiento."
   - "Los créditos comprados de top-up se conservan y nunca expiran, a diferencia de los del plan, que se reinician cada ciclo de facturación."
   - "Los admins pueden topear cuántos créditos gasta una persona, así un solo usuario intensivo no vacía el pozo compartido."
 faq:
   - q: "¿Lindy tiene plan gratis?"
-    a: "No de forma permanente. Los niveles de pago de Lindy son Plus, Pro, Max y Enterprise, pero los nuevos usuarios obtienen $50 en créditos por 7 días sin tarjeta de crédito, y quien entra a un workspace mencionando a Lindy en Slack recibe una prueba de 7 días."
+    a: "No de forma permanente. La página de precios de Lindy lista asientos Team desde $49.99 por usuario al mes y Enterprise a medida, pero los nuevos usuarios obtienen $50 en créditos por 7 días sin tarjeta de crédito, y quien entra a un workspace mencionando a Lindy en Slack recibe una prueba de 7 días."
   - q: "¿Cómo funcionan los créditos de Lindy?"
     a: "Los créditos miden el trabajo que hace Lindy y valen cerca de un centavo cada uno. Las tareas diarias usan 2–250 créditos, el trabajo profundo 250–1.000 y las construcciones grandes 1.000–2.500. Cada asiento suma su asignación a un pozo compartido del workspace."
   - q: "¿Qué pasa cuando Lindy se queda sin créditos?"
     a: "Lindy pausa las acciones que consumen créditos y te avisa en vez de facturar un exceso. El trabajo se reanuda cuando los créditos se reinicien el próximo ciclo, o antes si un admin hace top-up a $10 por 1.000 créditos o sube a un plan mayor."
   - q: "¿Lindy enviará correos sin aprobación?"
     a: "No. Cualquier cosa con impacto externo, como enviar un correo, actualizar un ticket, postear en otro canal o publicar un doc, espera tu aprobación. Las consultas de solo lectura desde fuentes aprobadas corren sin preguntar."
-  - q: "¿Qué plan de Lindy incluye computer use?"
-    a: "Los docs de Lindy listan computer use a partir de Pro a $99,99 por usuario al mes. Pro también sube las bandejas conectadas de 2 a 3 y añade onboarding en vivo, mientras que Max permite 5 bandejas y Enterprise añade SSO, SCIM y HIPAA."
+  - q: "¿Cuánto cuesta Lindy por usuario?"
+    a: "Cada usuario activo se factura como un asiento Team. El asiento más pequeño cuesta $49.99 al mes por 5.000 créditos, y los escalones mayores incluyen $99.99 por 15.000, $199.99 por 35.000 y $399.98 por 70.000. Enterprise añade SSO, SCIM y HIPAA a un precio a medida."
 ---
 ## ¿Qué es Lindy?
 Lindy se llama a sí misma un AI employee. En lugar de una app que abres, se sienta en el Slack de tu equipo, se enlaza con el email, calendario y número de teléfono de cada persona y devuelve trabajo terminado: respuestas con fuentes, borradores de respuesta, notas de reunión, reportes programados y dashboards hospedados que arma como artefactos.

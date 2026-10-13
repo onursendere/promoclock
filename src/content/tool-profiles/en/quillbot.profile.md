@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "The Free plan caps the Paraphraser and Humanizer at 125 words. Premium costs $19.95 per month or $99.95 per year (about $8.33 a month), with a quarterly option. The Team Plan is priced separately."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, browser-extension]
 savingTips:
   - "The annual Premium plan at $99.95 works out to about $8.33 a month, which QuillBot shows as 58% off monthly billing."
@@ -52,7 +52,7 @@ sources:
   - https://quillbot.com/premium/student-discount
   - https://help.quillbot.com/hc/en-us/articles/6046562291223-Can-I-get-a-refund-for-Quillbot-subscription
   - https://help.quillbot.com/hc/en-us/articles/36491424881943-What-is-the-price-of-Quillbot-Premium
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is QuillBot?
 QuillBot is a set of writing tools owned by Learneo. Its Paraphraser rewrites sentences in different styles, and one account also gives you grammar checking, summaries, AI detection, humanizing, translation and citations. It works on the web, in browser extensions and in desktop and mobile apps.

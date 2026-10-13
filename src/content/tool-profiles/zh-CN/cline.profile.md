@@ -48,7 +48,7 @@ Cline是一款自主编程智能体，直接运行在你的编辑器或终端中
 - **VS Code扩展**，同样可以装在Cursor和Windsurf里。
 - **JetBrains插件**，目前处于早期体验阶段。
 - **CLI**，带看板、插件、定时任务和无界面CI用法。
-- **Cline桌面版**，面向macOS和Windows的测试版独立应用。
+- **Cline桌面版**，面向macOS、Windows和Linux的测试版独立应用。
 - **SDK**，用于把该智能体嵌入其他工具。
 
 ## 局限性

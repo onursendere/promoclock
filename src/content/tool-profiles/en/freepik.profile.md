@@ -1,7 +1,7 @@
 ---
 summary: "Freepik is the stock content and AI creative platform from Freepik Company, renamed Magnific in 2026, with freepik.com now redirecting to magnific.com. It combines 250M+ photos, vectors, videos and templates with AI image, video, audio and upscaling tools across 30+ models. Designers, marketers and agencies use it to source and generate visuals in one subscription."
-metaTitle: "Freepik (Now Magnific) Pricing & Free Plan 2026"
-metaDescription: "Freepik is now Magnific. See 2026 pricing for Premium, Premium+ and Pro, free plan limits, AI credits, unlimited generations and what changed for users."
+metaTitle: "Freepik Is Now Magnific: Pricing, Free Plan & What Changed"
+metaDescription: "Freepik is now Magnific. The free plan still gives 10 stock downloads a day, and Premium starts at £14/month in the UK. See 2026 plans, AI credits and limits."
 bestFor:
   - "Designers needing stock and AI"
   - "Social and marketing teams"
@@ -34,7 +34,7 @@ pricing:
   currency: GBP
   billing: month
   summary: "Free includes limited daily AI and 10 stock downloads a day. As shown in the UK, Premium is £14/month, Premium+ £32/month and Pro Starter £78/month, about 25% less on annual billing, excluding VAT."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, api]
 savingTips:
   - "Annual billing saves 25% on individual plans, and the whole year's credits arrive upfront."
@@ -58,7 +58,7 @@ sources:
   - https://www.magnific.com/freepik
   - https://www.magnific.com/desktop
   - https://www.magnific.com/mobile-app
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Freepik (now Magnific)?
 Freepik began in 2010 as a search engine for graphic resources and grew into a stock library with a full AI suite. In 2026 the whole platform took the name of its Magnific upscaler, so freepik.com now redirects to magnific.com.

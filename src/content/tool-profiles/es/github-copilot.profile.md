@@ -31,7 +31,7 @@ faq:
   - q: "¿GitHub Copilot es gratis?"
     a: "Sí. Copilot Free no requiere tarjeta de crédito e incluye 2.000 code completions al mes, chat y uso de agente limitados, y Copilot CLI. Los modelos se eligen solo mediante auto model selection."
   - q: "¿Cómo funcionan los GitHub AI Credits?"
-    a: "Un AI credit equivale a $0,01. Chat, agent mode, code review, el agente en la nube y Copilot CLI consumen créditos según el modelo y la tarea. Las asignaciones se reinician a las 00:00 UTC del primer día de cada mes, y los créditos no usados no se acumulan."
+    a: "Un AI credit equivale a $0.01. Chat, agent mode, code review, el agente en la nube y Copilot CLI consumen créditos según el modelo y la tarea. Las asignaciones se reinician a las 00:00 UTC del primer día de cada mes, y los créditos no usados no se acumulan."
   - q: "¿Se puede volver a suscribir a Copilot Pro?"
     a: "Sí. GitHub pausó los nuevos registros a Pro, Pro+ y Student el 20 de abril de 2026, citando la demanda de cómputo de agentes, y empezó a reabrir Student, Pro, Pro+ y Max a nuevos suscriptores el 17 de junio de 2026."
   - q: "¿Qué pasa cuando agotas los créditos mensuales?"

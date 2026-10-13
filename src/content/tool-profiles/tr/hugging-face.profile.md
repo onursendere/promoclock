@@ -11,7 +11,7 @@ keyFeatures:
   - name: "Model ve veri kümesi Hub'ı"
     description: "Açık ağırlıklı modellere ve veri kümelerine göz at, bunları indir ve herkese açık ya da özel görünürlüklü, Git tabanlı depolarda sürümle."
   - name: "Spaces"
-    description: "Gradio, Docker ya da statik demo uygulamaları barındır; CPU Basic donanımı ücretsiz, Nvidia T4 small ise saatte $0.40."
+    description: "Gradio, Docker ya da statik demo uygulamaları barındır; statik Spaces ücretsiz, işlem gücü kullanan yeni Spaces ücretli plan gerektiriyor, Nvidia T4 small ise saatte $0.40."
   - name: "ZeroGPU"
     description: "Gradio Spaces, hesap türüne göre belirlenen günlük kota dahilinde her fonksiyon çağrısı için NVIDIA RTX Pro 6000 Blackwell GPU'larını ödünç alıyor."
   - name: "Inference Providers"
@@ -29,12 +29,12 @@ useCases:
   - "Team planıyla şirket ekibine özel modeller için SSO, denetim kayıtları ve depolama bölgeleri sağla."
 pricingSummary: "Hub ücretsiz. PRO aylık $9; her ay $2 değerinde işlem kredisi ve 8 kat ZeroGPU kotası içeriyor. Team kullanıcı başına aylık $20, Enterprise $50. Spaces GPU'ları, Inference Endpoints ve ek depolama kullanıma göre faturalanıyor."
 savingTips:
-  - "Ücretsiz hesaplar her ay $0.10 değerinde Inference Providers kredisi alıyor; PRO'da bu tutar $2.00 oluyor ve Hugging Face'in tüm işlem hizmetlerinde kullanılabiliyor."
+  - "Ücretsiz hesaplar artık aylık Inference Providers kredisi almıyor ve kredi satın almak zorunda; PRO ise Hugging Face'in tüm işlem hizmetlerinde kullanılabilen aylık $2.00 içeriyor."
   - "ZeroGPU Spaces'i kullanmak ücretsiz: ücretsiz hesapta günde 5 dakika, PRO'da 40 dakika GPU süresi var."
   - "E-postası doğrulanmış, 30 günden eski ücretsiz hesaplar en fazla 2 ZeroGPU Space'i ücretsiz barındırabiliyor."
 faq:
   - q: "Hugging Face ücretsiz mi?"
-    a: "Evet. Hesap açmak, herkese açık model ve veri kümesi indirmek, CPU Basic Spaces ve ZeroGPU Spaces ücretsiz. PRO, Team ya da Enterprise planları, yükseltilmiş Spaces donanımı, Inference Endpoints ve dahil olan aylık kredilerin ötesindeki çıkarım için ödeme yapıyorsun."
+    a: "Evet. Hesap açmak, herkese açık model ve veri kümesi indirmek, statik Spaces ve en fazla 2 ZeroGPU Space ücretsiz. PRO, Team ya da Enterprise planları, işlem gücü kullanan yeni Gradio veya Docker Spaces, yükseltilmiş Spaces donanımı, Inference Endpoints ve çıkarım kredileri için ödeme yapıyorsun."
   - q: "Hugging Face PRO'da neler var?"
     a: "PRO aylık $9 ve her ay $2.00 işlem kredisi, en yüksek kuyruk önceliğiyle günde 40 dakika ZeroGPU süresi, en fazla 10 ZeroGPU Space barındırma, Spaces Dev Mode ve özel veri kümeleri için veri kümesi görüntüleyici ekliyor."
   - q: "NVIDIA Hugging Face'i satın alıyor mu?"
@@ -48,8 +48,8 @@ faq:
 Hugging Face; açık AI modelleri, veri kümeleri ve Spaces uygulamaları için ortak bir yuva olan Hub'ı işletiyor. Etkinliğin çoğu herkese açık ve ücretsiz; ücretli planlar depolama, işlem kredisi ve kuruluş kontrolleri ekliyor.
 
 ## Planlara kısa bakış
-- **Free:** herkese açık depolar, CPU Basic Spaces, günde 5 dakika ZeroGPU ve aylık $0.10 çıkarım kredisi.
-- **PRO (aylık $9):** 10 kat özel depolama, 20 kat çıkarım kredisi, 8 kat ZeroGPU kotası ve Dev Mode.
+- **Free:** herkese açık depolar, statik Spaces ve günde 5 dakika ZeroGPU; çıkarım için kredi satın almak gerekir.
+- **PRO (aylık $9):** 10 kat özel depolama, aylık $2.00 çıkarım kredisi, 8 kat ZeroGPU kotası, işlem gücü kullanan Spaces ve Dev Mode.
 - **Team (kullanıcı başına aylık $20):** SSO, depolama bölgeleri, denetim kayıtları ve kaynak grupları.
 - **Enterprise (kullanıcı başına aylık $50):** SCIM ile kullanıcı sağlama, en yüksek limitler ve özel destek.
 
@@ -59,4 +59,4 @@ Dahil olan limitlerin ötesindeki depolama TB başına fiyatlandırılıyor: öz
 3 Eylül 2026'da NVIDIA, Hugging Face'i satın almak için anlaşmaya vardığını duyurdu. NVIDIA'ya göre platform, ekosistemin her yerinden açık kaynak ve açık ağırlıklı modelleri desteklemeye devam edecek.
 
 ## Sınırlamalar
-ZeroGPU yalnızca Gradio SDK ile çalışıyor ve torch.compile desteklemiyor; ücretsiz hesaplar ücretli hesaplara göre daha düşük kuyruk önceliği alıyor. Aylık $0.10'lık ücretsiz çıkarım kotası çabuk tükeniyor. Model lisansları depodan depoya değişiyor; ticari kullanımdan önce her birini kontrol et.
+ZeroGPU yalnızca Gradio SDK ile çalışıyor ve torch.compile desteklemiyor; ücretsiz hesaplar ücretli hesaplara göre daha düşük kuyruk önceliği alıyor. Ücretsiz hesapların dahil çıkarım kotası yok, bu yüzden hafif API kullanımı bile kredi satın almayı gerektiriyor. Model lisansları depodan depoya değişiyor; ticari kullanımdan önce her birini kontrol et.

@@ -114,12 +114,12 @@ Les essais gratuits ne font économiser que si vous décidez avant la date de re
 
 ### 10. Calez vos inscriptions sur les promotions en cours
 
-Les promotions courtes peuvent faire nettement baisser le coût d’un mois. Au 4 octobre 2026 :
+Les promotions courtes peuvent faire nettement baisser le coût d’un mois. Au 12 octobre 2026 :
 
-- **Claude Code :** les abonnés Pro individuels peuvent obtenir $100 et les abonnés Max $250 de crédit gratuit pour les sessions cloud, au plus tard le 7 octobre 2026, si leur formule était active le 23 septembre. Voir [l’offre de crédit Claude Code](/deals/claude-code-cloud-credit-2026/).
-- **Artifacts Claude :** jusqu’au 15 octobre 2026, le travail qui suit la création ou la modification d’un artifact compte 50 % de moins dans les limites de session de Pro, Max et Team.
-- **ElevenLabs :** pour les nouveaux abonnés, le premier mois de Starter coûte $1 au lieu de $6 jusqu’au 18 octobre, et Creator $11 au lieu de $22.
+- **Artifacts Claude :** jusqu’au 15 octobre 2026, le travail qui suit la création ou la modification d’un artifact compte 50 % de moins dans les limites de session de Free, Pro, Max et Team. Voir [la promotion sur les artifacts](/deals/claude-artifact-usage-promo-oct-2026/).
+- **ElevenLabs :** pour les nouveaux abonnés, [le premier mois de Starter coûte $1](/deals/elevenlabs-starter-1-first-month-2026/) au lieu de $6 jusqu’au 18 octobre, et Creator $11 au lieu de $22.
 - **Adobe Firefly :** aux États-Unis et au Royaume-Uni, les nouveaux abonnés paient 30 % de moins la première année de Pro Plus ou Premium jusqu’au 21 octobre 2026, avec un engagement de 12 mois.
+- **API Gemini :** les développeurs paient moitié prix pour [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/) jusqu’au 31 décembre 2026.
 
 Notre [page des offres](/deals/) recense toutes les offres en cours, et le [calendrier des promotions](/calendar/) indique quand chacune se termine.
 
@@ -139,7 +139,7 @@ Notre [comparatif ChatGPT, Claude et Gemini](/blog/chatgpt-vs-claude-vs-gemini/)
 
 ### 12. Facturez les sièges d’équipe à l’année et vérifiez ce qui est déjà couvert
 
-Les formules d’équipe suivent la même logique annuelle. Les sièges Claude Team Standard coûtent $25/mois, ou $20/mois en facturation annuelle, ChatGPT Business coûte $25 par utilisateur au mois ou $20 à l’année, et Perplexity Enterprise Pro coûte $400 par an et par siège contre $40 par mois. Microsoft 365 Family partage les applications et 1 To de stockage par personne avec jusqu’à six personnes pour $12.99/mois, mais les fonctionnalités Copilot ne fonctionnent que pour le titulaire de l’abonnement.
+Les formules d’équipe suivent la même logique annuelle. Les sièges Claude Team Standard coûtent $25/mois, ou $20/mois en facturation annuelle, ChatGPT Business coûte $25 par utilisateur au mois ou $20 à l’année, et Perplexity Enterprise Pro coûte $400 par an et par siège contre $40 par mois. Microsoft 365 Family partage les applications et un espace de stockage commun de 2 To avec jusqu’à six personnes pour $12.99/mois, mais les fonctionnalités Copilot ne fonctionnent que pour le titulaire de l’abonnement.
 
 ## Prix mensuel ou annuel : quelles formules IA sont moins chères à l’année ?
 
@@ -150,6 +150,7 @@ La facturation annuelle est moins chère pour toutes les formules IA ci-dessous 
 | Claude Pro | $20/mois | $200/an (environ $17/mois) |
 | Claude Max 5x | $100/mois | Non proposée |
 | ChatGPT Plus | $20/mois | Non proposée |
+| Perplexity Pro | $20/mois | $17/mois, facturés à l’année |
 | Notion Plus | $12/membre/mois | $10/membre/mois |
 | Grammarly Pro | $30/mois | $144/an ($12/mois en moyenne) |
 | QuillBot Premium | $19.95/mois | $99.95/an (environ $8.33/mois) |

@@ -1,7 +1,7 @@
 ---
 summary: "JetBrains AI, JetBrains के IDE के लिए उसकी AI सब्सक्रिप्शन है, जिसमें AI Assistant फ़ीचर, Junie कोडिंग एजेंट और Claude Agent, Codex व Gemini CLI जैसे थर्ड-पार्टी एजेंट शामिल हैं। IntelliJ IDEA, PyCharm या दूसरे JetBrains IDE में काम करने वाले डेवलपर्स इसे कोड कम्प्लीशन, चैट और एजेंट-चालित बदलावों के लिए इस्तेमाल करते हैं, जिसका भुगतान मासिक AI Credits से होता है।"
-metaTitle: "JetBrains AI प्राइसिंग: AI Free, Pro और Ultimate (2026)"
-metaDescription: "JetBrains AI की 2026 प्राइसिंग: AI Free में 3 क्रेडिट, AI Pro $10/महीना और AI Ultimate $30/महीना। Junie, क्रेडिट, ट्रायल और AI Pro फ़्री पाने वाले देखें।"
+metaTitle: "JetBrains AI प्राइसिंग 2026: Free, AI Pro $10, Ultimate $30"
+metaDescription: "JetBrains AI Free में हर 30 दिन में 3 AI क्रेडिट मिलते हैं। AI Pro $10/महीना में 10 क्रेडिट, AI Ultimate $30/महीना में 35; All Products Pack में AI Pro शामिल है।"
 bestFor:
   - "मौजूदा JetBrains IDE यूज़र्स"
   - "Java और Kotlin डेवलपर्स"
@@ -38,7 +38,7 @@ faq:
   - q: "JetBrains AI Pro फ़्री में किसे मिलता है?"
     a: "All Products Pack और dotUltimate सब्सक्राइबर्स, Developer Recognition Program के सदस्यों, JetBrains Content Creators और DataSpell यूज़र्स को AI Pro शामिल मिलता है। यह स्टूडेंट्स, टीचर्स, क्लासरूम या ओपन-सोर्स प्रोजेक्ट्स के लिए मुफ़्त All Products Pack लाइसेंस में शामिल नहीं है।"
   - q: "क्या Junie, JetBrains AI में शामिल है?"
-    a: "हाँ। Junie वही AI Credits इस्तेमाल करता है, और JetBrains नियमित Junie इस्तेमाल के लिए AI Ultimate की सलाह देता है। Junie CLI भी शुरू करने के लिए फ़्री है, और अपनी API key के साथ आप प्रोवाइडर की दर पर, बिना किसी मार्कअप के, भुगतान करते हैं।"
+    a: "हाँ। Junie वही AI Credits इस्तेमाल करता है, और JetBrains नियमित Junie इस्तेमाल के लिए AI Ultimate की सलाह देता है। Junie अब Junie Lite भी देता है, जो हर JetBrains अकाउंट में बिना ट्रायल या कार्ड के मिलने वाला फ़्री, हमेशा चालू मॉडल है, और अपनी API key के साथ आप प्रोवाइडर की दर पर, बिना किसी मार्कअप के, भुगतान करते हैं।"
   - q: "क्या JetBrains आपके कोड से AI मॉडल ट्रेन करता है?"
     a: "सिर्फ़ तब, जब आप अनुमति दें। विस्तृत डेटा शेयरिंग पेड लाइसेंस पर ऑप्ट-इन है, लेकिन नॉन-कमर्शियल लाइसेंस पर डिफ़ॉल्ट रूप से चालू है, जहां आप ऑप्ट आउट कर सकते हैं। शेयर किया गया डेटा Mellum जैसे JetBrains मॉडल को ट्रेन करता है और थर्ड पार्टी को नहीं दिया जाता।"
 ---

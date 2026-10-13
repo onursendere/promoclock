@@ -42,7 +42,7 @@ Seguimos promociones verificadas de 100 herramientas de IA. A continuación: qui
 
 ## ¿Qué herramientas de IA tienen descuentos para estudiantes en 2026?
 
-A 4 de octubre de 2026, nuestra [página de ofertas](/deals/) incluye siete ofertas de IA para estudiantes: seis aceptan nuevos registros y una, la de Cursor, ya terminó.
+A 12 de octubre de 2026, nuestra [página de ofertas](/deals/) incluye ocho ofertas de IA para estudiantes: siete aceptan nuevos registros y una, la de Cursor, ya terminó.
 
 | Herramienta | Oferta | Quién puede acceder | Duración o precio | Estado | Detalles |
 |---|---|---|---|---|---|
@@ -52,6 +52,7 @@ A 4 de octubre de 2026, nuestra [página de ofertas](/deals/) incluye siete ofer
 | Perplexity | Education Pro | Estudiantes y docentes verificados | $10/mes (Pro cuesta $20/mes) | Vigente | [Perplexity Education Pro](/deals/perplexity-education-pro/) |
 | Notion | Plan Plus gratis | Estudiantes y docentes con un correo institucional válido | Gratis, con nueva verificación una vez al año | Vigente | [Notion Education Plus](/deals/notion-education-plus-free/) |
 | Lovable | Lovable Pro gratis | Estudiantes de universidades, escuelas universitarias y escuelas populares superiores de Suecia | Gratis hasta el 31 de diciembre de 2026, luego 50 % de descuento | En vivo | [Oferta de Lovable en Suecia](/deals/lovable-sweden-students-2026/) |
+| Kiro | 1000 créditos al mes gratis | Estudiantes de universidades elegibles, mayores de 18 años | 1 año, luego el nivel Free | Vigente | [Oferta de Kiro para estudiantes](/deals/kiro-student-free-year-2026/) |
 | Cursor | Cursor Pro gratis | Universitarios verificados | 1 año | Terminó el 25 de junio de 2026 | [Programa de Cursor para estudiantes](/deals/cursor-student-pro-year/) |
 
 ## ¿Cuáles son las mejores ofertas de IA para estudiantes ahora mismo?
@@ -118,12 +119,11 @@ Claude no tiene descuento individual para estudiantes en la página de precios d
 
 ## ¿Qué otras herramientas de IA tienen precios para educación?
 
-Seguimos otras 13 herramientas de IA con precios para estudiantes o educación, desde un 20 % de descuento hasta un año gratis.
+Seguimos otras 12 herramientas de IA con precios para estudiantes o educación, desde un 20 % de descuento hasta un año gratis.
 
 | Herramienta | Oferta para estudiantes o educación |
 |---|---|
-| Mistral | Pro a $5.99/mes en lugar de $14.99 para estudiantes verificados |
-| Kiro | 1000 créditos al mes gratis durante un año en universidades elegibles (132 en la lista en septiembre de 2026) |
+| Mistral | Pro a $5.99/mes en lugar de $14.99 durante un máximo de 12 meses, para estudiantes verificados nuevos en Vibe |
 | Beautiful.ai | Pro gratis durante 12 meses con un correo .edu válido, solo para nuevos suscriptores estudiantes |
 | Granola | 12 meses de Business gratis para estudiantes de universidades acreditadas de EE. UU., Reino Unido y Canadá, previa solicitud |
 | Base44 | 50 % de descuento en Starter o Builder durante hasta 12 meses |

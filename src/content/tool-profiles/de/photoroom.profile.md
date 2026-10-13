@@ -28,7 +28,7 @@ useCases:
 pricingSummary: "Free ist begrenzt und nicht kommerziell. Pro kostet $12.99/Monat oder $89.99/Jahr mit 8.000 KI-Credits, Max $34.99/Monat oder $250/Jahr mit 25.000, Ultra $99/Monat oder $990/Jahr mit 75.000 Credits, und Enterprise auf Angebot."
 savingTips:
   - "Jährliche Zahlung spart bis zu 33 %: Pro kostet $89.99 fürs Jahr statt $12.99 pro Monat."
-  - "Der erste Space, den du upgradest, erhält eine 7-tägige kostenlose Testphase, und es ist eine Testphase pro Kunde."
+  - "Der erste Space, den du auf einen jährlichen Pro- oder Max-Plan upgradest, erhält eine 7-tägige kostenlose Testphase, und es ist eine Testphase pro Kunde."
   - "Kern-Tools wie Hintergrund-Entferner, Retusche und KI-Erweitern kosten in bezahlten Plänen keine Credits, spare Credits also für Szenen, Models und Video."
 faq:
   - q: "Ist Photoroom kostenlos?"
@@ -40,7 +40,7 @@ faq:
   - q: "Kann ich Photoroom mit Claude nutzen?"
     a: "Ja. Photoroom bietet einen MCP-Konnektor, der als eigener Konnektor in Claude funktioniert. API- und MCP-Nutzung laufen auf einem eigenen Kontingent, sie zehren also nicht am Export-Limit deines App-Plans."
   - q: "Hat Photoroom eine kostenlose Testphase?"
-    a: "Ja, eine 7-Tage-Testphase, automatisch angewandt, wenn du zum ersten Mal einen Space upgradest. Sie ist einmal pro Kunde verfügbar, spätere Spaces werden sofort abgerechnet, und die Abrechnung startet an Tag 8, sofern du nicht vorher kündigst."
+    a: "Ja, eine 7-Tage-Testphase für jährliche Pro- und Max-Pläne, automatisch angewandt, wenn du zum ersten Mal einen Space upgradest. Sie ist einmal pro Kunde verfügbar, Ultra- und API-Pläne haben keine Standard-Testphase, spätere Spaces werden sofort abgerechnet, und die Abrechnung startet an Tag 8, sofern du nicht vorher kündigst."
 ---
 ## Was ist Photoroom?
 Photoroom ist ein KI-Editor, der auf Produkt- und Angebotsfotos zielt statt auf allgemeines Design. Er läuft auf iPhone, iPad, Android und im Web, und die Arbeit passiert in Spaces, wobei jeder Space sein eigenes Abo und seinen eigenen Credit-Topf trägt.

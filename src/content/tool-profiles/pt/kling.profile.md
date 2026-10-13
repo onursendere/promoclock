@@ -26,8 +26,8 @@ useCases:
   - "Gerar uma série de imagens consistente para uma campanha e depois estender os melhores quadros em clipes de vídeo curtos."
 pricingSummary: "O Basic é gratuito, com créditos mensais resgatados no login. O Standard custa $10/mês (660 créditos), o Pro $37 (3.000), o Premier $92 (8.000) e o Ultra $180 (26.000). A cobrança anual tem 34% de desconto."
 savingTips:
-  - "A cobrança anual tem 34% de desconto: o Standard custa $79,20 ao ano em vez de $120, e o Pro $293,04 em vez de $444."
-  - "Os créditos ficam mais baratos em planos maiores, de $1,06 por 100 créditos no Standard mensal a $0,49 no Ultra."
+  - "A cobrança anual tem 34% de desconto: o Standard custa $79.20 ao ano em vez de $120, e o Pro $293.04 em vez de $444."
+  - "Os créditos ficam mais baratos em planos maiores, de $1.06 por 100 créditos no Standard mensal a $0.49 no Ultra."
   - "Quem não assina pode resgatar créditos mensais gratuitos no login; eles valem por 31 dias."
   - "Pacotes de créditos comprados valem por 2 anos, então usuários ocasionais podem recarregar em vez de assinar."
 faq:

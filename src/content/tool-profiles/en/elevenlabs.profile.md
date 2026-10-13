@@ -33,7 +33,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free includes 10,000 credits a month. Starter is $6/month (30,000 credits), Creator $22/month (121,000), Pro $99/month (600,000), Scale $299/month and Business $990/month with extra seats; Enterprise is custom."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, api]
 savingTips:
   - "Annual billing charges 10 months for a full year, so Starter works out to $5/month and Creator to $18.33/month."
@@ -57,7 +57,7 @@ sources:
   - https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform
   - https://elevenlabs.io/docs/help-center/account/general/what-happens-to-my-content-after-my-subscription-ends
   - https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-labs-for-ios-and-android/what-is-the-eleven-labs-app
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is ElevenLabs?
 ElevenLabs began as a text-to-speech service and now covers most AI audio work in one account. Its products are grouped as ElevenCreative for content tools, ElevenAgents for conversational voice agents and ElevenAPI for developers, all running on one credit balance.

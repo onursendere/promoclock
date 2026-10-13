@@ -35,7 +35,7 @@ faq:
   - q: "Frase'in ücretsiz planı var mı?"
     a: "Hayır. Frase kalıcı bir ücretsiz plan sunmuyor, yalnızca kredi kartı gerektirmeyen 7 günlük ücretsiz bir deneme var. Ücretsiz ekstraları ise GEO Score Checker, AI Visibility Checker ve Agent Readiness Checker gibi herkese açık araçlar."
   - q: "Frase plan sınırına ulaşınca ne oluyor?"
-    a: "Starter, döngün sıfırlanana kadar duruyor. Professional'da aşımları açabilirsin: fazladan makale başına $5, denetim sayfası başına $0,50 ve AI istemi başına $0,25; Scale $4, $0,40 ve $0,20 ödüyor. Aşımlar döngü sonunda faturalanıyor."
+    a: "Starter, döngün sıfırlanana kadar duruyor. Professional'da aşımları açabilirsin: fazladan makale başına $5, denetim sayfası başına $0.50 ve AI istemi başına $0.25; Scale $4, $0.40 ve $0.20 ödüyor. Aşımlar döngü sonunda faturalanıyor."
   - q: "Legacy Frase kullanıcıları yeni uygulamaya geçmek zorunda mı?"
     a: "Hayır. Frase, geçişin isteğe bağlı ve süresiz olduğunu, eski hesapların app.frase.io'da erişilebilir kaldığını ve uygun aboneliklerin fiyatını koruduğunu söylüyor. İçerik yönetişimi ayarları otomatik taşınmıyor ve Brand Hub'da yeniden kurulmalı."
   - q: "Frase İngilizce dışındaki dillerde yazabilir mi?"

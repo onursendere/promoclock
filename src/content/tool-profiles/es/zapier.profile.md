@@ -1,7 +1,7 @@
 ---
 summary: "Zapier es una plataforma de automatización sin código de Zapier que conecta más de 9.000 apps mediante flujos multi-paso llamados Zaps, además de Tables, Forms, agentes de IA y un servidor MCP. Desde 2026 factura pasos de Zap, pasos de IA, código y llamadas MCP desde un mismo pool de tareas. La usan equipos de operaciones, marketing y ventas."
 metaTitle: "Precios de Zapier 2026: plan gratis, tareas y agentes IA"
-metaDescription: "Precios de Zapier en 2026: plan gratis con 100 tareas, Professional desde $29,99/mes, cómo se cuentan las tareas y pasos de IA, Zapier Agents y alternativas."
+metaDescription: "Precios de Zapier en 2026: plan gratis con 100 tareas, Professional desde $29.99/mes, cómo se cuentan las tareas y pasos de IA, Zapier Agents y alternativas."
 bestFor:
   - "Equipos de operaciones no técnicos"
   - "Pymes con muchas apps SaaS"
@@ -25,9 +25,9 @@ useCases:
   - "Da a un asistente de IA acceso a tu calendario, correo y herramientas de proyecto mediante Zapier MCP sin escribir integraciones."
   - "Recoge solicitudes con Zapier Forms, guárdalas en Tables e inicia un flujo de aprobación automáticamente."
   - "Ejecuta un agente que vigile las páginas de la competencia y resuma los cambios cada semana."
-pricingSummary: "Free incluye 100 tareas al mes y Zaps de dos pasos. Professional parte de $29,99/mes ($19,99 anual) para 750 tareas, Team cuesta $103,50/mes ($69 anual) con 25 usuarios, y Enterprise es a medida."
+pricingSummary: "Free incluye 100 tareas al mes y Zaps de dos pasos. Professional parte de $29.99/mes ($19.99 anual) para 750 tareas, Team cuesta $103.50/mes ($69 anual) con 25 usuarios, y Enterprise es a medida."
 savingTips:
-  - "Pagar anual ahorra hasta un 33 %, bajando Professional de $29,99 a $19,99 al mes."
+  - "Pagar anual ahorra hasta un 33 %, bajando Professional de $29.99 a $19.99 al mes."
   - "Las cuentas nuevas reciben 14 días de prueba gratis de Professional, sin tarjeta de crédito."
   - "Las organizaciones sin fines de lucro obtienen 15 % de descuento en cualquier plan pago, sin contar los cargos por tarea extra."
   - "Los pasos de Formatter, Paths, Filters, Delay, Tables y Forms usan 0 tareas, así que puedes construir lógica con ellos libremente."
@@ -39,7 +39,7 @@ faq:
   - q: "¿Qué pasa cuando llegas al límite de tareas de Zapier?"
     a: "Zapier te avisa por correo cuando te acercas al límite y de nuevo al alcanzarlo. Con la facturación por tarea extra activada, los Zaps siguen funcionando a un precio mayor hasta un tope; de lo contrario se pausan hasta el siguiente periodo."
   - q: "¿Zapier Agents está incluido en un plan pago?"
-    a: "No, Agents se factura aparte. Agents Free cubre 400 actividades al mes, Agents Pro cuesta $400 facturado anual ($33,33/mes) para 1.500 actividades, y Agents Enterprise es a medida."
+    a: "No, Agents se factura aparte. Agents Free cubre 400 actividades al mes, Agents Pro cuesta $400 facturado anual ($33.33/mes) para 1.500 actividades, y Agents Enterprise es a medida."
   - q: "¿Cuánto cuesta Zapier MCP?"
     a: "Zapier MCP no tiene costo aparte y está disponible para todas las cuentas, pero cada llamada de herramienta consume 2 tareas de la cuota de tu plan. El SDK de Zapier es gratis mientras esté en beta."
 ---

@@ -79,7 +79,7 @@ Claude Code和聊天使用同样的5小时额度和每周额度，但Anthropic�
 - **5小时额度**：根据[官方公告](https://www.anthropic.com/news/higher-limits-spacex)，Anthropic在2026年5月6日[把付费套餐上Claude Code的5小时额度翻倍](/deals/claude-code-5h-limits-doubled/)。
 - **高峰时段**：同一次更新取消了Pro和Max上Claude Code的高峰时段削减。
 - **每周额度**：[每周额度+50%的提升](/deals/claude-code-weekly-plus50-2026/)从2026年5月13日持续到9月14日，随后由[永久+25%](/deals/claude-code-weekly-plus25-permanent/)取代。以基准100计算：之前是100，活动期间是150，现在是125。
-- **云会话**：个人Pro订阅者可获得$100、Max订阅者可获得$250的[Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)，云会话会先消耗这笔积分，再动用套餐额度。需在2026年10月7日前领取；未使用的积分于2026年11月4日过期。
+- **云会话**：个人Pro订阅者可获得$100、Max订阅者可获得$250的[Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)，云会话会先消耗这笔积分，再动用套餐额度。领取窗口已于2026年10月7日关闭，已领取的积分可用到2026年11月4日。
 
 Free套餐不含Claude Code。
 
@@ -93,7 +93,7 @@ Enterprise套餐不受影响，Pro和Max上的Claude Code也享有豁免。我�
 
 ## 2026年Claude用量额度有哪些变化？
 
-我们统计到2026年共有9次额度调整和活动，其中4次只针对Claude Code。截至2026年10月4日，有两项活动正在进行。
+我们统计到2026年共有9次额度调整和活动，其中4次只针对Claude Code。截至2026年10月12日，仍有一项活动正在进行。
 
 | 日期 | 变化 | 套餐 | 状态 |
 |---|---|---|---|
@@ -104,10 +104,10 @@ Enterprise套餐不受影响，Pro和Max上的Claude Code也享有豁免。我�
 | 2026年6月5日–7月5日 | [Cowork 5小时额度翻倍](/deals/claude-cowork-june-2026-2x/) | Pro、Max、Team、旧版Enterprise | 已结束 |
 | 2026年7月 | Pro和Team标准席位上的Fable 5改为使用用量积分 | Pro、Team标准席位 | 生效中 |
 | 2026年9月14日 | Claude Code每周额度永久比活动前基准高25% | Pro、Max、Team、按席位计费的Enterprise | 永久 |
-| 2026年9月23日–10月7日 | Claude Code云会话积分：$100（Pro）或$250（Max） | 个人Pro和Max | 进行中 |
-| 2026年10月1日–15日 | [创建或编辑Artifact后会话用量减少50%](/deals/claude-artifact-usage-promo-oct-2026/) | Pro、Max、Team | 进行中 |
+| 2026年9月23日–10月7日 | [Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)：$100（Pro）或$250（Max） | 个人Pro和Max | 已截止领取；积分可用到11月4日 |
+| 2026年10月1日–15日 | [创建或编辑Artifact后会话用量减少50%](/deals/claude-artifact-usage-promo-oct-2026/) | Free（自10月7日起）、Pro、Max、Team | 10月15日结束 |
 
-根据[Anthropic的活动页面](https://support.claude.com/en/articles/17274727-artifact-usage-promotion)，Artifact活动适用于你创建或编辑Artifact之后的10条聊天消息，于太平洋时间10月15日23:59结束。Claude Code、API以及Free和Enterprise套餐不参与。
+根据[Anthropic的活动页面](https://support.claude.com/en/articles/17274727-artifact-usage-promotion)，Artifact活动适用于你创建或编辑Artifact之后的10条聊天消息，于太平洋时间10月15日23:59结束。Free套餐自10月7日起加入，Claude Code、API和Enterprise套餐不参与。
 
 ## 选用的模型会影响额度消耗速度吗？
 
@@ -151,7 +151,7 @@ Claude用量积分让Pro、Max 5x和Max 20x订阅者在达到套餐上限后继�
 - **用项目存放参考文件**。Anthropic表示，项目中的缓存内容占用的额度更少。
 - **选更轻的模型**。默认用Sonnet，简单任务调低推理强度。
 - **按需开启工具**。Research和网页搜索会增加用量，答案确实需要时再打开。
-- **利用进行中的活动**。2026年10月15日前，在Pro、Max或Team上用Artifact创作，会话用量减少50%。
+- **利用进行中的活动**。2026年10月15日前，在Free、Pro、Max或Team上用Artifact创作，会话用量减少50%。
 
 ## 总结
 
@@ -160,7 +160,7 @@ Claude的额度由5小时会话额度和每周上限组成，什么时候用和�
 - **Free用户**：保持对话简短，避开高峰时段；如果每天都会用到上限，就该升级到Pro。
 - **Pro用户**：默认用Sonnet，偶尔超额的日子加用用量积分。Claude Code用户不受高峰时段影响。
 - **经常用完每周额度的Pro重度用户**：Max 5x（$100/月）提供5倍于Pro的会话用量。
-- **Max用户**：留意Fable的50%上限，并在2026年10月7日前领取$250的云会话积分。
+- **Max用户**：留意Fable的50%上限，并在2026年11月4日过期前用完已领取的云会话积分。
 - **团队**：Anthropic尚未宣布Team上的Claude Code享有高峰时段豁免，大批量任务请安排在非高峰时段。
 
 我们在[Claude Watch](/)上实时追踪Claude的每一次额度调整。

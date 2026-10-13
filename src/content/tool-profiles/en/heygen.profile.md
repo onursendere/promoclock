@@ -1,7 +1,7 @@
 ---
 summary: "HeyGen is an AI video platform that turns scripts, photos and prompts into videos presented by lifelike avatars. It is known for the Avatar V model, voice-cloned translation with lip sync in 175+ languages, and a prompt-driven Video Agent. Marketers, educators and sales teams use it; new subscribers get credit-based plans."
-metaTitle: "HeyGen Pricing, Credits & Free Plan (2026)"
-metaDescription: "HeyGen pricing in 2026: the free plan's 3 videos a month, Creator at $29/month, how credits replaced unlimited plans, avatar and translation features."
+metaTitle: "HeyGen Pricing 2026: Free Plan, Creator $29/mo & Pro $49/mo"
+metaDescription: "HeyGen's free plan makes 3 one-minute videos a month. Creator costs $29/month with 600 credits, Pro $49 with 1,000 credits and 4K, and Business $149 a month."
 bestFor:
   - "Marketers making spokesperson videos"
   - "Teams localizing video content"
@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free allows 3 videos a month up to 1 minute. Creator is $29/month (600 credits), Pro $49/month (1,000 credits, 4K), and Business $149/month plus $20 per extra seat."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, api]
 savingTips:
   - "Annual billing saves about 17%: Creator drops to $24/month, Pro to $41 and Business to $124."
@@ -55,7 +55,7 @@ sources:
   - https://www.heygen.com/blog/heygen-monthly-video-duration-limits
   - https://help.heygen.com/en/articles/15126059-how-to-use-credits-on-heygen
   - https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-explained
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is HeyGen?
 HeyGen makes videos without a camera crew: you type or paste a script, choose a stock or custom avatar, and the platform renders a presenter speaking it. The same account translates existing footage, converts PDFs and slides into video, and exposes these tools through an API. It works in the browser and in iOS and Android apps.

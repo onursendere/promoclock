@@ -1,7 +1,7 @@
 ---
 summary: "Lindy, aynı adlı şirketin geliştirdiği bir AI ekip arkadaşı: ekibinin Slack'inde yaşar, 1.000'den fazla araca bağlanır; e-posta, toplantılar, takvim planlama, araştırma ve raporlarla ilgilenir. Tek bir kredi havuzunu paylaşan, kullanıcı başına koltuklarla satılır ve ücretsiz planı yoktur. En çok, zaten Slack ve Gmail'de çalışan ekipler faydalanır."
 metaTitle: "Lindy AI fiyatları 2026: planlar, krediler, ücretsiz deneme"
-metaDescription: "Lindy fiyatları 2026: kullanıcı başına aylık $29.99 Plus, $99.99 Pro ve $199.99 Max; ortak kredilerin nasıl işlediği, Slack denemesi ve alternatifler."
+metaDescription: "2026 Lindy fiyatları: 7 gün $50 ücretsiz kredi, ardından kullanıcı başına aylık $49.99'dan Team koltukları (5.000 kredi) ve ortak kredilerin işleyişi."
 bestFor:
   - "Slack üzerinden çalışan ekipler"
   - "E-postaya gömülmüş kurucular"
@@ -25,22 +25,22 @@ useCases:
   - "Her sabah toplantılarını, acil e-postalarını ve takip ettiğin diğer her şeyi kapsayan günlük bir özet al."
   - "Lindy bir satış görüşmesinden önce katılımcıları araştırsın, görüşmeden sonra da takip e-postasını göndersin."
   - "CRM ve analitik verilerini, Lindy'nin kendi bağlantısında barındırdığı canlı bir panoya dönüştür."
-pricingSummary: "Lindy koltuk bazında satılıyor: Plus kullanıcı başına aylık $29.99 ve 3.000 kredi, Pro $99.99 ve 15.000, Max $199.99 ve 35.000 kredi; ayrıca özel fiyatlı Enterprise var. Yeni kullanıcılar kart gerekmeden 7 gün boyunca $50 krediyle deneyebiliyor. Ek çalışma alanı kredileri 1.000 kredi için $10."
+pricingSummary: "Lindy her aktif kullanıcıya bir Team koltuğu faturalar: 5.000 kredi için aylık $49.99'dan başlar; 15.000 kredi için $99.99 ve 35.000 kredi için $199.99 gibi daha büyük kademeler ile özel fiyatlı Enterprise de var. Yeni kullanıcılar kart gerekmeden 7 gün boyunca $50 krediyle deneyebiliyor. Ek çalışma alanı kredileri 1.000 kredi için $10."
 savingTips:
   - "Yeni kullanıcılar kart gerekmeden 7 gün geçerli $50 kredi alıyor; Slack üzerinden katılan takım arkadaşları da koltukları faturalanmadan önce tek seferlik 7 günlük deneme alıyor."
   - "Satın alınan ek krediler, her fatura döneminde sıfırlanan plan kredilerinin aksine sonraki döneme devreder ve süresi hiç dolmaz."
   - "Yöneticiler tek bir kişinin kullanabileceği kredi miktarına sınır koyabilir; böylece yoğun kullanan biri ortak havuzu tek başına boşaltamaz."
 faq:
   - q: "Lindy'nin ücretsiz planı var mı?"
-    a: "Hayır, kalıcı bir tane yok. Lindy'nin ücretli seviyeleri Plus, Pro, Max ve Enterprise'dır; ama yeni kullanıcılar kartsız 7 gün boyunca $50 kredi alıyor ve bir çalışma alanına Slack'te Lindy'yi etiketleyerek katılan biri 7 günlük deneme alıyor."
+    a: "Hayır, kalıcı bir tane yok. Lindy'nin fiyat sayfası kullanıcı başına aylık $49.99'dan başlayan Team koltuklarını ve özel fiyatlı Enterprise'ı listeliyor; ama yeni kullanıcılar kartsız 7 gün boyunca $50 kredi alıyor ve bir çalışma alanına Slack'te Lindy'yi etiketleyerek katılan biri 7 günlük deneme alıyor."
   - q: "Lindy kredileri nasıl işler?"
     a: "Krediler Lindy'nin yaptığı işi ölçer ve her biri yaklaşık bir sent değerindedir. Gündelik istekler 2–250, derin işler 250–1.000, büyük geliştirmeler ise 1.000–2.500 kredi harcar. Her koltuk kendi kotasını tek bir ortak çalışma alanı havuzuna ekler."
   - q: "Lindy'nin kredileri bitince ne olur?"
     a: "Lindy, aşım ücreti kesmek yerine kredi harcayan eylemleri duraklatır ve sana haber verir. İş, krediler bir sonraki dönemde sıfırlandığında devam eder; bir yönetici 1.000 kredi başına $10 ücretle kredi yüklerse ya da daha büyük bir plana geçerse daha erken."
   - q: "Lindy onay almadan e-posta gönderir mi?"
     a: "Hayır. E-posta göndermek, bir talebi (ticket) güncellemek, başka bir kanala mesaj atmak ya da bir belge yayımlamak gibi dışarıya etkisi olan her şey onayını bekler. Onaylı kaynaklardaki yalnızca okuma amaçlı sorgular ise sormadan çalışır."
-  - q: "Hangi Lindy planında bilgisayar kullanımı (computer use) var?"
-    a: "Lindy'nin belgelerine göre bilgisayar kullanımı, kullanıcı başına aylık $99.99 olan Pro ile başlıyor. Pro ayrıca bağlı gelen kutusu sayısını 2'den 3'e çıkarır ve canlı ilk kurulum desteği ekler; Max 5 gelen kutusuna izin verir, Enterprise ise SSO, SCIM ve HIPAA ekler."
+  - q: "Lindy kullanıcı başına ne kadar tutuyor?"
+    a: "Her aktif kullanıcıya bir Team koltuğu faturalanır. En küçük koltuk 5.000 kredi için aylık $49.99'dur; daha büyük kademeler arasında 15.000 kredi için $99.99, 35.000 kredi için $199.99 ve 70.000 kredi için $399.98 var. Enterprise, özel fiyatla SSO, SCIM ve HIPAA ekler."
 ---
 ## Lindy nedir?
 Lindy kendini bir AI çalışanı olarak tanımlıyor. Açtığın bir uygulama olmak yerine ekibinin Slack'inde durur, her kişinin e-postasına, takvimine ve telefon numarasına bağlanır ve bitmiş iş teslim eder: kaynaklı yanıtlar, taslak cevaplar, toplantı notları, zamanlanmış raporlar ve artifact olarak oluşturup barındırdığı panolar.

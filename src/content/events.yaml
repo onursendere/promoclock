@@ -102,3 +102,51 @@
   deal: pixel-10-pro-google-ai-pro-2026
   title:
     en: "Last day to buy a Pixel 10 Pro with 12 months of Google AI Pro"
+
+- id: magnific-one-unlimited-end-2026
+  date: 2026-10-15T23:59:00Z
+  kind: deadline
+  tool: freepik
+  deal: magnific-one-unlimited-oct-2026
+  title:
+    en: "Unlimited Magnific One generations end"
+
+- id: elevenlabs-starter-1-end-2026
+  date: 2026-10-18T23:59:00Z
+  kind: deadline
+  tool: elevenlabs
+  deal: elevenlabs-starter-1-first-month-2026
+  title:
+    en: "Last day to get ElevenLabs Starter's first month for $1"
+
+- id: runway-enterprise-offer-end-2026
+  date: 2026-10-31T23:59:00Z
+  kind: deadline
+  tool: runway
+  deal: runway-enterprise-two-months-free-2026
+  title:
+    en: "Last day to sign Runway Enterprise with 2 months of usage free"
+
+- id: kiro-startups-deadline-2026
+  date: 2026-12-31T23:59:00Z
+  kind: deadline
+  tool: kiro
+  deal: kiro-startups-pro-plus-credits-2026
+  title:
+    en: "Last day to apply for free Kiro Pro+ for startups"
+
+- id: gemini-3-8-flash-intro-pricing-end-2026
+  date: 2026-12-31T23:59:00Z
+  kind: deadline
+  tool: google-ai-studio
+  deal: gemini-3-8-flash-intro-pricing-2026
+  title:
+    en: "Gemini 3.8 Flash API intro pricing ends; rates double on January 1"
+
+- id: claude-for-startups-launch-2026
+  date: 2026-10-06T00:00:00Z
+  kind: launch
+  tool: claude
+  deal: claude-for-startups-team-year-2026
+  title:
+    en: "Claude for Startups adds a free year of Claude Team and $1,000 in API credits"

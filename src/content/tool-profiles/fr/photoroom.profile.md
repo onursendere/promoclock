@@ -28,7 +28,7 @@ useCases:
 pricingSummary: "La formule Free est limitée et non commerciale. Pro coûte $12.99/mois ou $89.99/an avec 8 000 crédits IA, Max $34.99/mois ou $250/an avec 25 000, Ultra $99/mois ou $990/an avec 75 000 crédits, et Enterprise se fait sur devis."
 savingTips:
   - "La facturation annuelle fait économiser jusqu’à 33 % : Pro revient à $89.99 pour l’année au lieu de $12.99 par mois."
-  - "Le premier Space que vous passez à une formule supérieure bénéficie d’un essai gratuit de 7 jours, à raison d’un seul essai par client."
+  - "Le premier Space que vous passez à une formule annuelle Pro ou Max bénéficie d’un essai gratuit de 7 jours, à raison d’un seul essai par client."
   - "Les outils de base comme la suppression d’arrière-plan, la retouche et l’extension IA ne coûtent aucun crédit sur les formules payantes : gardez vos crédits pour les scènes, les mannequins et la vidéo."
 faq:
   - q: "Photoroom est-il gratuit ?"
@@ -40,7 +40,7 @@ faq:
   - q: "Puis-je utiliser Photoroom avec Claude ?"
     a: "Oui. Photoroom propose un connecteur MCP qui fonctionne comme connecteur personnalisé dans Claude. L’usage de l’API et du MCP repose sur un quota distinct : il n’entame donc pas la limite d’export de votre formule applicative."
   - q: "Photoroom propose-t-il un essai gratuit ?"
-    a: "Oui, un essai de 7 jours appliqué automatiquement la première fois que vous passez un Space à une formule supérieure. Il est offert une fois par client, les Spaces suivants sont facturés immédiatement, et la facturation démarre au 8e jour sauf résiliation préalable."
+    a: "Oui, un essai de 7 jours sur les formules annuelles Pro et Max, appliqué automatiquement la première fois que vous passez un Space à une formule supérieure. Il est offert une fois par client, les formules Ultra et API n’ont pas d’essai standard, les Spaces suivants sont facturés immédiatement, et la facturation démarre au 8e jour sauf résiliation préalable."
 ---
 ## Qu’est-ce que Photoroom ?
 Photoroom est un éditeur IA orienté vers les photos de produits et d’annonces plutôt que vers le design généraliste. Il fonctionne sur iPhone, iPad, Android et le web, et le travail se déroule au sein de Spaces, chaque Space possédant son propre abonnement et sa propre réserve de crédits.

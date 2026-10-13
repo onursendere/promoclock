@@ -114,12 +114,12 @@ Takip ettiğimiz en büyük AI indirimlerinin bazıları öğrencilere. Uygun AB
 
 ### 10. Kaydını canlı promosyonlara göre zamanla
 
-Kısa süreli promosyonlar bir ayın maliyetini ciddi ölçüde düşürebilir. 4 Ekim 2026 itibarıyla:
+Kısa süreli promosyonlar bir ayın maliyetini ciddi ölçüde düşürebilir. 12 Ekim 2026 itibarıyla:
 
-- **Claude Code**: planı 23 Eylül'de aktif olan bireysel Pro aboneleri $100, Max aboneleri ise $250 ücretsiz bulut oturumu kredisini 7 Ekim 2026'ya kadar talep edebilir. [Claude Code kredi teklifine](/deals/claude-code-cloud-credit-2026/) bak.
-- **Claude artifact promosyonu**: 15 Ekim 2026'ya kadar bir artifact oluşturduktan ya da düzenledikten sonraki işler, Pro, Max ve Team'deki oturum limitlerine %50 daha az sayılıyor.
-- **ElevenLabs**: 18 Ekim'e kadar yeni aboneler Starter'ın ilk ayı için $6 yerine $1, Creator'ın ilk ayı için $22 yerine $11 ödüyor.
+- **Claude artifact promosyonu**: 15 Ekim 2026'ya kadar bir artifact oluşturduktan ya da düzenledikten sonraki işler, Free, Pro, Max ve Team'deki oturum limitlerine %50 daha az sayılıyor. [Artifact promosyonuna](/deals/claude-artifact-usage-promo-oct-2026/) bak.
+- **ElevenLabs**: 18 Ekim'e kadar yeni aboneler [Starter'ın ilk ayı için $6 yerine $1](/deals/elevenlabs-starter-1-first-month-2026/), Creator'ın ilk ayı için $22 yerine $11 ödüyor.
 - **Adobe Firefly**: 21 Ekim 2026'ya kadar ABD ve Birleşik Krallık'taki yeni aboneler, 12 aylık taahhütle Pro Plus ya da Premium'un ilk yılı için %30 daha az ödüyor.
+- **Gemini API**: geliştiriciler 31 Aralık 2026'ya kadar [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/) için normal fiyatın yarısını ödüyor.
 
 [Fırsatlar sayfamız](/deals/) tüm canlı teklifleri listeliyor; [fırsat takvimimiz](/calendar/) de her birinin ne zaman bittiğini gösteriyor.
 
@@ -139,7 +139,7 @@ ChatGPT Plus, Claude Pro ve Google AI Pro'nun üçü de sohbet, araştırma ve d
 
 ### 12. Ekip koltuklarını yıllık öde ve zaten nelerin kapsandığını kontrol et
 
-Ekip planlarında da aynı yıllık mantık geçerli. Claude Team Standard koltukları aylık $25, yıllık faturalandırmada aylık $20; ChatGPT Business kullanıcı başına aylık $25, yıllık faturalandırmada $20; Perplexity Enterprise Pro ise koltuk başına aylık $40'a karşılık yıllık $400. Microsoft 365 Family, aylık $12.99 ile uygulamaları ve kişi başına 1 TB depolamayı altı kişiye kadar paylaştırıyor, ama Copilot özellikleri yalnızca abonelik sahibi için çalışıyor.
+Ekip planlarında da aynı yıllık mantık geçerli. Claude Team Standard koltukları aylık $25, yıllık faturalandırmada aylık $20; ChatGPT Business kullanıcı başına aylık $25, yıllık faturalandırmada $20; Perplexity Enterprise Pro ise koltuk başına aylık $40'a karşılık yıllık $400. Microsoft 365 Family, aylık $12.99 ile uygulamaları ve 2 TB'lık ortak depolama havuzunu altı kişiye kadar paylaştırıyor, ama Copilot özellikleri yalnızca abonelik sahibi için çalışıyor.
 
 ## Aylık mı yıllık mı: hangi AI planları yıllık ödemede daha ucuz?
 
@@ -150,6 +150,7 @@ Aşağıdaki planlardan yıllık faturalandırma sunan her birinde yıllık öde
 | Claude Pro | Aylık $20 | Yıllık $200 (aylık yaklaşık $17) |
 | Claude Max 5x | Aylık $100 | Sunulmuyor |
 | ChatGPT Plus | Aylık $20 | Sunulmuyor |
+| Perplexity Pro | Aylık $20 | Yıllık faturalandırmada aylık $17 |
 | Notion Plus | Üye başına aylık $12 | Üye başına aylık $10 |
 | Grammarly Pro | Aylık $30 | Yıllık $144 (ortalama aylık $12) |
 | QuillBot Premium | Aylık $19.95 | Yıllık $99.95 (aylık yaklaşık $8.33) |

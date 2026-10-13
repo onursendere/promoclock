@@ -1,7 +1,7 @@
 ---
 summary: "Kiro, Amazon Web Services'in spesifikasyon odaklı geliştirme (spec-driven development) üzerine kurulu, ajan tabanlı kodlama ortamı: ajanlar kod yazmadan önce istemler gereksinimlere, bir tasarıma ve görev listelerine dönüşür. Masaüstü IDE, CLI ve tarayıcı sürümü olarak sunulur; geliştiriciler onu AI'ın ürettiği kodu belgelenmiş amaca bağlı tutmak için kullanır."
-metaTitle: "Kiro fiyatları 2026: ücretsiz plan ve öğrenci teklifi"
-metaDescription: "Kiro fiyatları 2026: 50 kredilik ücretsiz plan, aylık $20 ile başlayan Pro, Pro Max ve Power planları, tanesi $0.04 olan ek krediler ve ücretsiz öğrenci kredileri."
+metaTitle: "Kiro fiyatı 2026: 50 ücretsiz kredi, Pro $20, öğrenci planı"
+metaDescription: "Kiro Free ayda 50 kredi verir; Pro aylık $20 ile 1.000 kredi sunar, Power ise $200'a kadar çıkar. Uygun üniversite öğrencileri bir yıl boyunca ayda 1.000 kredi alır."
 bestFor:
   - "Koddan önce plan yapan geliştiriciler"
   - "AWS odaklı mühendislik ekipleri"

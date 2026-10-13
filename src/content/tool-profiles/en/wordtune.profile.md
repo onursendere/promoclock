@@ -32,11 +32,11 @@ pricing:
   startingPrice: 13.99
   currency: USD
   billing: month
-  summary: "Basic is free with 10 rewrites a day. Advanced is $13.99/month or $6.99/month billed annually, and Unlimited is $19.99/month or $9.99/month billed annually. Both paid plans start with a 3-day free trial."
-  asOf: 2026-09-17
+  summary: "Basic is free with 10 rewrites a day. Advanced is $13.99/month, and Unlimited is $19.99/month. Billed annually, the plans page now shows Advanced at $4.89/month and Unlimited at $6.99/month, down from $6.99 and $9.99. Both paid plans start with a 3-day free trial."
+  asOf: 2026-10-12
 platforms: [web, ios, browser-extension]
 savingTips:
-  - "Annual billing roughly halves the price: Unlimited drops from $19.99 to $9.99 a month."
+  - "Annual billing cuts the price by more than half: Unlimited drops from $19.99 to $6.99 a month at the current annual rate."
   - "Students and educators with a valid .edu address, and nonprofit staff, can contact support for a 30% discount on monthly or annual plans."
   - "The 3-day trial requires payment details and Wordtune does not give refunds, so cancel before it ends if you are unsure."
 faq:
@@ -57,7 +57,7 @@ sources:
   - https://support.wordtune.com/en/articles/5775553-what-websites-and-platforms-is-wordtune-available-on
   - https://support.wordtune.com/en/articles/5856755-translate-with-rewrite-which-languages-does-wordtune-support
   - https://www.ai21.com/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Wordtune?
 Wordtune started as a sentence rewriter and now covers rewriting, summaries, grammar checks and short AI expansions. You highlight text in its editor or in a supported browser and it proposes alternatives; it does not silently rewrite a whole document for you.

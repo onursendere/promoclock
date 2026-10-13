@@ -114,12 +114,12 @@ ChatGPT Go为$8/月，根据[OpenAI帮助中心](https://help.openai.com/en/arti
 
 ### 10. 赶上正在进行的活动再注册
 
-短期活动能大幅降低某个月的花费。截至2026年10月4日：
+短期活动能大幅降低某个月的花费。截至2026年10月12日：
 
-- **Claude Code**：如果套餐在9月23日处于有效状态，个人Pro订阅者可在2026年10月7日前领取$100、Max订阅者可领取$250的免费云会话积分。详见[Claude Code积分优惠](/deals/claude-code-cloud-credit-2026/)。
-- **Claude Artifact**：2026年10月15日前，在Pro、Max和Team上创建或编辑Artifact之后的工作，计入会话额度的用量减少50%。
-- **ElevenLabs**：10月18日前，新订阅者的Starter首月只需$1，而不是$6；Creator首月$11，而不是$22。
+- **Claude Artifact**：2026年10月15日前，在Free、Pro、Max和Team上创建或编辑Artifact之后的工作，计入会话额度的用量减少50%。详见[Artifact活动](/deals/claude-artifact-usage-promo-oct-2026/)。
+- **ElevenLabs**：10月18日前，新订阅者的[Starter首月只需$1](/deals/elevenlabs-starter-1-first-month-2026/)，而不是$6；Creator首月$11，而不是$22。
 - **Adobe Firefly**：2026年10月21日前，美国和英国的新订阅者首年订阅Pro Plus或Premium可少付30%，需承诺订阅12个月。
+- **Gemini API**：2026年12月31日前，开发者使用[Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/)只需付常规费率的一半。
 
 我们的[优惠页面](/deals/)列出了所有正在进行的优惠，[活动日历](/calendar/)会显示每项优惠何时结束。
 
@@ -139,7 +139,7 @@ ChatGPT Plus、Claude Pro和Google AI Pro都能处理聊天、研究和文件分
 
 ### 12. 团队席位按年付费，并确认哪些已被覆盖
 
-团队套餐也遵循同样的年付逻辑。Claude Team Standard席位为$25/月，按年计费为$20/月；ChatGPT Business每用户每月$25，按年计费为$20；Perplexity Enterprise Pro每席位每年$400，按月付费则为每月$40。Microsoft 365 Family只需$12.99/月，最多6人共享应用，每人各有1 TB存储空间，但Copilot功能只对订阅所有者开放。
+团队套餐也遵循同样的年付逻辑。Claude Team Standard席位为$25/月，按年计费为$20/月；ChatGPT Business每用户每月$25，按年计费为$20；Perplexity Enterprise Pro每席位每年$400，按月付费则为每月$40。Microsoft 365 Family只需$12.99/月，最多6人共享应用和2 TB的存储空间池，但Copilot功能只对订阅所有者开放。
 
 ## 按月还是按年：哪些AI套餐按年付费更便宜？
 
@@ -150,6 +150,7 @@ ChatGPT Plus、Claude Pro和Google AI Pro都能处理聊天、研究和文件分
 | Claude Pro | $20/月 | $200/年（约合$17/月） |
 | Claude Max 5x | $100/月 | 不提供 |
 | ChatGPT Plus | $20/月 | 不提供 |
+| Perplexity Pro | $20/月 | $17/月，按年计费 |
 | Notion Plus | $12/成员/月 | $10/成员/月 |
 | Grammarly Pro | $30/月 | $144/年（平均$12/月） |
 | QuillBot Premium | $19.95/月 | $99.95/年（约合$8.33/月） |

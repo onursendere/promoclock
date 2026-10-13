@@ -5,7 +5,7 @@ metaDescription: "Claude Pro vs Max in 2026: Pro is $20/month or $200/year, Max 
 excerpt: "Claude Pro costs $20/month, or $200/year (about $17/month), and suits most daily users. Claude Max costs $100/month for 5x Pro's usage per session or $200/month for 20x, billed monthly only, and adds Fable within plan limits and higher output limits. Upgrade only if Pro's limits stop your work most weeks."
 category: comparisons
 publishedAt: 2026-10-04
-updatedAt: 2026-10-04
+updatedAt: 2026-10-12
 image:
   src: "../images/claude-pro-vs-max.jpg"
   alt: "MacBook Pro on a wooden desk next to a white mug, a phone and colorful posters"
@@ -79,7 +79,7 @@ Claude Max adds more usage per session, Fable inside your plan limits, higher ou
 - **Usage.** Max 5x gets 5x and Max 20x gets 20x Pro's allowance per 5-hour session. Both still have a weekly limit across all models that resets at a fixed time assigned to your account.
 - **Fable.** On Pro, Fable 5 and 5.1 run only on usage credits billed at API rates. Max can spend up to half of its weekly limit on Fable at no extra cost.
 - **Priority and early access.** The pricing page lists priority access at high traffic, higher output limits and early access to advanced features for both Max tiers.
-- **Bigger promo credits.** In Anthropic's current [Claude Code cloud credit promotion](/deals/claude-code-cloud-credit-2026/), individual Max subscribers get $250 versus $100 for Pro, if the subscription was active on September 23, 2026 and the credit is claimed by October 7.
+- **Bigger promo credits.** In Anthropic's [Claude Code cloud credit promotion](/deals/claude-code-cloud-credit-2026/), individual Max subscribers got $250 versus $100 for Pro. Claims closed on October 7, 2026, and claimed credit can be used until November 4.
 
 Pro already includes Claude Code, Research, Opus, Claude Design, Slides and Docs, Claude in Chrome, the Microsoft 365 add-ins and projects without Free's five-project cap. Upgrading to Max buys headroom, not new apps. Our [Claude tool page](/tools/claude/) lists the full feature set by plan.
 
@@ -157,7 +157,7 @@ Peak hours affect Pro and Max the same way: on weekdays from 13:00 to 19:00 UTC,
 - **Plans affected:** Free, Pro, Max and Team. Enterprise is not affected, and weekly limits don't change. See the [peak-hours entry](/deals/claude-peak-hours-introduced/) and the live clock on [Claude Watch](/).
 - **Max priority access** helps you get through at busy times, but Max session limits still drain faster during the peak window.
 - **Claude Code limits went up.** On May 6, 2026 Anthropic [doubled Claude Code's 5-hour limits](/deals/claude-code-5h-limits-doubled/) on paid plans, and since September 14, 2026 [Claude Code weekly limits are permanently 25% higher](/deals/claude-code-weekly-plus25-permanent/) than the old baseline.
-- **Current promotion:** from October 1 to 15, 2026, work after creating or editing an artifact counts 50% less toward the 5-hour limit on Pro, Max and Team ([details](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Current promotion:** from October 1 to 15, 2026, work after creating or editing an artifact counts 50% less toward the 5-hour limit on Pro, Max and Team, and on Free since October 7 ([details](/deals/claude-artifact-usage-promo-oct-2026/)).
 
 For timing tips, read our guide to [Claude peak hours](/blog/claude-peak-hours/). For how sessions and weekly caps interact, see [Claude usage limits explained](/blog/claude-usage-limits/).
 

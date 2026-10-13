@@ -42,7 +42,7 @@ howTo:
 
 ## 2026年哪些AI工具有学生优惠？
 
-截至2026年10月4日，我们的[优惠页面](/deals/)收录了7项AI学生优惠：6项仍接受新用户申请，Cursor那一项已经结束。
+截至2026年10月12日，我们的[优惠页面](/deals/)收录了8项AI学生优惠：7项仍接受新用户申请，Cursor那一项已经结束。
 
 | 工具 | 优惠 | 适用人群 | 时长或价格 | 状态 | 详情 |
 |---|---|---|---|---|---|
@@ -52,6 +52,7 @@ howTo:
 | Perplexity | Education Pro | 通过验证的学生和教育工作者 | $10/月（Pro为$20/月） | 长期有效 | [Perplexity Education Pro](/deals/perplexity-education-pro/) |
 | Notion | 免费用Plus套餐 | 拥有符合条件的学校邮箱的学生和教育工作者 | 免费，每年重新验证一次 | 长期有效 | [Notion教育版Plus](/deals/notion-education-plus-free/) |
 | Lovable | 免费用Lovable Pro | 瑞典大学、大学学院和民众高等学校的学生 | 2026年12月31日前免费，之后享50%折扣 | 进行中 | [Lovable瑞典学生优惠](/deals/lovable-sweden-students-2026/) |
+| Kiro | 每月免费1,000积分 | 年满18岁、就读于符合条件大学的学生 | 1年，之后转为Free套餐 | 长期有效 | [Kiro学生优惠](/deals/kiro-student-free-year-2026/) |
 | Cursor | 免费用Cursor Pro | 通过验证的大学生 | 1年 | 已于2026年6月25日结束 | [Cursor学生计划](/deals/cursor-student-pro-year/) |
 
 ## 现在最值得领的AI学生优惠有哪些？
@@ -118,12 +119,11 @@ Anthropic的定价页面上没有Claude个人学生优惠。Claude for Education
 
 ## 还有哪些AI工具提供教育优惠？
 
-我们还追踪了13款提供学生或教育价格的AI工具，优惠从20%折扣到免费用1年不等。
+我们还追踪了12款提供学生或教育价格的AI工具，优惠从20%折扣到免费用1年不等。
 
 | 工具 | 学生或教育优惠 |
 |---|---|
-| Mistral | 通过验证的学生可用$5.99/月购买Pro，原价$14.99 |
-| Kiro | 符合条件的大学每月免费1,000积分，为期一年（2026年9月列出132所） |
+| Mistral | 通过验证、首次使用Vibe的学生，最长12个月可用$5.99/月购买Pro，原价$14.99 |
 | Beautiful.ai | 使用有效的.edu邮箱可免费用12个月Pro，仅限新学生订阅者 |
 | Granola | 美国、英国和加拿大认证大学的学生可申请免费用12个月Business |
 | Base44 | Starter或Builder最长12个月享50%折扣 |

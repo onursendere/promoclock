@@ -39,7 +39,7 @@ faq:
   - q: "Que se passe-t-il quand on atteint la limite de tâches de Zapier ?"
     a: "Zapier vous envoie un e-mail à l’approche de la limite puis à nouveau une fois atteinte. Avec la facturation à la tâche activée, les Zaps continuent de tourner à un tarif plus élevé jusqu’à un maximum ; sinon ils sont mis en pause jusqu’à la période d’usage suivante."
   - q: "Les Zapier Agents sont-ils inclus dans un plan payant ?"
-    a: "Non, les Agents sont facturés séparément. Agents Free couvre 400 activités par mois, Agents Pro est à $400 en facturation annuelle ($33,33/mois) pour 1 500 activités, et Agents Enterprise est sur mesure."
+    a: "Non, les Agents sont facturés séparément. Agents Free couvre 400 activités par mois, Agents Pro est à $400 en facturation annuelle ($33.33/mois) pour 1 500 activités, et Agents Enterprise est sur mesure."
   - q: "Combien coûte Zapier MCP ?"
     a: "Zapier MCP n’a pas de frais distincts et est accessible à tous les comptes, mais chaque appel d’outil utilise 2 tâches du quota de votre plan. Le SDK Zapier est gratuit tant qu’il reste en bêta."
 ---

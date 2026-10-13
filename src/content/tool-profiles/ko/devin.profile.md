@@ -1,7 +1,7 @@
 ---
 summary: "Devin은 Cognition의 AI 소프트웨어 엔지니어로, 티켓을 받아 자체 머신에서 작업하고 풀 리퀘스트를 여는 클라우드 에이전트입니다. 2026년 6월 2일부터 Cognition의 Windsurf 에디터가 Devin Desktop이 되면서, 이제 하나의 Devin 플랜이 클라우드 에이전트, 데스크톱 IDE, Devin CLI를 모두 포괄합니다. 엔지니어링 팀이 마이그레이션, 버그 수정, 리뷰에 사용합니다."
-metaTitle: "Devin 요금과 무료 플랜: 클라우드, 데스크톱, CLI(2026)"
-metaDescription: "Devin 2026년 요금: 무료 플랜, 월 $20 Pro, 월 $200 Max, 월 $80부터인 Teams와 Windsurf가 Devin Desktop이 된 변화를 정리했습니다."
+metaTitle: "Devin 요금 2026: 무료 플랜, Pro $20, Max $200, Desktop"
+metaDescription: "Devin은 가벼운 에이전트 할당량의 무료 플랜을 제공합니다. Pro는 Devin Cloud 포함 월 $20, Max는 월 $200, Teams는 월 $80부터이며 Windsurf는 이제 Devin Desktop입니다."
 bestFor:
   - "백로그가 많은 엔지니어링 팀"
   - "티켓 전체를 위임하려는 개발자"

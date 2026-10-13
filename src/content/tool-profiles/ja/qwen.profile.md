@@ -1,15 +1,15 @@
 ---
-summary: "Qwen Chatは名称をQwen Studioに変更した、chat.qwen.aiとアプリで使えるAlibabaの無料AIアシスタントです。デフォルトのQwen3.7-Plusを含むQwenモデルを搭載し、チャット、推論、画像生成、文書分析、Web検索、アーティファクトに対応します。有料の個人向けプランはなく無料で利用できます。"
-metaTitle: "Qwen Studioは無料?機能とモデル(2026)"
-metaDescription: "Qwen Chatは今Qwen Studioという名称のAlibaba製無料AIアシスタントです。Qwen3.7モデルや主な機能、対応アプリを解説します。"
+summary: "Qwen Chatは名称をQwen Studioに変更した、chat.qwen.aiとアプリで使えるAlibabaの無料AIアシスタントです。2026年8月公開のQwen3.8ファミリーを含むQwenモデルを搭載し、チャット、推論、画像生成、文書分析、Web検索、アーティファクトに対応します。有料の個人向けプランはなく無料で利用できます。"
+metaTitle: "Qwen Studioは無料？料金と機能(2026)"
+metaDescription: "はい、無料です。旧Qwen ChatのQwen Studioは、WebとアプリのAlibaba製AIアシスタント。開発者向けQwenモデルはAlibaba Cloudで有料です。"
 bestFor:
   - "無料のAIアシスタントを求める人"
   - "Qwenモデルを試す開発者"
   - "画像・音声・動画を分析したい人"
   - "多言語で使う人"
 keyFeatures:
-  - name: "デフォルトのQwen3.7-Plus"
-    description: "新しいチャットは2026年6月にリリースされたマルチモーダルエージェントモデルQwen3.7-Plusで始まり、選択肢からモデルを切り替えられます。"
+  - name: "最新のQwenモデル"
+    description: "AlibabaはQwen Studioを、2026年8月にリリースされたQwen3.8などの新モデルを試せる場として案内しており、選択肢からモデルを切り替えられます。"
   - name: "マルチモーダルな理解"
     description: "画像、音声、動画をアップロードし、他のモデルに切り替えることなく同じチャット内で質問できます。"
   - name: "画像生成と編集"
@@ -26,14 +26,14 @@ useCases:
   - "コードを自分のプロジェクトに移す前に、アーティファクトとして簡単なランディングページを試作する。"
 pricingSummary: "Qwen StudioはWebとアプリで無料で、App Storeの掲載にはアプリ内課金の記載がありません。開発者はAlibaba Cloud Model Studio API経由でQwenモデルの利用料を別途支払います。"
 savingTips:
-  - "Qwen Studioには有料の個人向けプランがないため、Qwen3.7-Plusをサブスクリプションなしで利用できます。"
+  - "Qwen Studioには有料の個人向けプランがないため、Alibabaの最新Qwenモデルをサブスクリプションなしで利用できます。"
 faq:
   - q: "Qwen ChatはQwen Studioと同じですか"
     a: "はい。Alibabaは2026年にQwen ChatをQwen Studioに改名しました。アドレスは今もchat.qwen.aiのままで、iOSとAndroidアプリも現在はQwen Studioという名称です。"
   - q: "Qwen Studioは無料ですか"
     a: "はい。Qwen Studioは個人向けの有料プランを記載しておらず、App Storeの掲載も無料でアプリ内課金はありません。Qwenモデルへの有料アクセスは、Alibaba Cloud Model Studio APIを使う開発者向けです。"
   - q: "Qwen Studioはどのモデルを使っていますか"
-    a: "新しいチャットはデフォルトでQwen3.7-Plusを使います。これはAlibabaが2026年6月3日にリリースした、100万トークンのコンテキストウィンドウを持つマルチモーダルエージェントモデルです。2026年5月に発表されたフラッグシップのQwen3.7-Maxは、Model Studio経由で開発者向けに提供されます。"
+    a: "Qwen StudioはAlibaba独自のQwenモデルを搭載しており、切り替え用の選択肢があります。Alibabaは2026年8月上旬に、Qwen3.8-Maxを筆頭とするQwen3.8ファミリーを公開し、公式のQwen3.8リポジトリはQwen Studioを試せる場所として挙げています。"
   - q: "Qwen Studioは米国でダウンロードできますか"
     a: "2026年9月時点ではApp Storeからはできません。iOSアプリは英国などのストアには掲載されていましたが、米国やドイツにはなかったため、米国のユーザーはブラウザでchat.qwen.aiを利用することになります。"
   - q: "Qwen StudioはQwen APIとどう違いますか"
@@ -43,7 +43,7 @@ faq:
 
 Qwen StudioはQwen Chatの新しい名称で、AlibabaのQwenモデルファミリー向けの一般消費者向けアシスタントです。chat.qwen.aiと、iPhone、iPad、Android向けアプリで利用できます。
 
-このアプリは、開発者がAlibaba Cloud Model Studio経由でアクセスするモデルのショーケースも兼ねています。Alibabaは、Qwen3.6-35B-A3Bのようにローカル利用向けにオープンウェイトで公開しているQwenモデルもあります。
+このアプリは、開発者がAlibaba Cloud Model Studio経由でアクセスするモデルのショーケースも兼ねています。Alibabaは、Qwen3.8-27Bのようにローカル利用向けにオープンウェイトで公開しているQwenモデルもあります。
 
 ## 注目ポイント
 
@@ -53,4 +53,4 @@ Qwen StudioはQwen Chatの新しい名称で、AlibabaのQwenモデルファミ�
 
 ## 制限事項
 
-Qwen Studioは無料アカウントの利用上限を公開していません。2026年9月に確認した時点で、iOSアプリは米国やドイツのApp Storeでは利用できませんでした。フラッグシップのQwen3.7-Maxはチャットのデフォルトではなく、Model Studio向けとして発表されました。無料のクラウドチャットボットに機密ファイルをアップロードする前に、自社のデータ規定を確認してください。
+Qwen Studioは無料アカウントの利用上限を公開していません。2026年9月に確認した時点で、iOSアプリは米国やドイツのApp Storeでは利用できませんでした。Alibabaは公式ページでデフォルトのチャットモデルを明示していないため、モデルの選択肢で確認してください。無料のクラウドチャットボットに機密ファイルをアップロードする前に、自社のデータ規定を確認してください。

@@ -24,7 +24,7 @@ useCases:
   - "Bir sahne için en güçlü çekimi seçmek üzere aynı istemi Gen-4.5 ve Seedance 2.0'da çalıştır."
   - "Max planında üretilen ProRes veya HDR çekimleri doğrudan ajansın renk düzeltme ve son işlem akışına teslim et."
   - "Kısa bir sunum filmine AI ile üretilmiş ses efektleri ve klonlanmış bir sesle okunan bir replik ekle."
-pricingSummary: "Free bir kerelik 125 kredi verir. Standard aylık $15 (625 kredi), Pro aylık $35 (2.250 kredi), Max aylık $95 (9.500 kredi); yıllık ödeme her birini %20 ucuzlatır."
+pricingSummary: "Free bir kerelik 125 kredi verir. Standard aylık $15 (625 kredi), Pro aylık $35 (2.250 kredi), Max aylık $95 (9.500 kredi); yıllık ödeme her birini %20 ucuzlatır. 2 ila 9 kişilik Team, koltuk başına $69 (yıllık $55) ve koltuk başına 6.900 ortak kredi içerir."
 savingTips:
   - "Yıllık ödeme %20 daha ucuz: aylık fiyat Standard'da $12, Pro'da $28, Max'te $76 olur."
   - "Ücretsiz planın 125 kredisinin süresi dolmaz; modelleri kendi hızında deneyebilirsin, ama krediler yenilenmez."
@@ -39,6 +39,8 @@ faq:
     a: "Gen-4.5 her 5 saniye için 60 kredi harcar. Runway'in tahminine göre bu, ayda Standard'da yaklaşık 52 saniye, Pro'da 187 saniye ve Max'te 791 saniye ediyor."
   - q: "Runway'in mobil uygulaması var mı?"
     a: "Evet. Runway Creative tarayıcıda çalışır, iOS ve Android uygulamaları da var. Geliştiriciler modelleri kendi ürünlerine yerleştirmek için ayrı Runway Dev API platformunu kullanır."
+  - q: "Runway'in küçük ekipler için bir planı var mı?"
+    a: "Evet. Eylül 2026'dan bu yana self servis Team planı 2 ila 9 kişiyi kapsıyor: koltuk başına aylık $69 ya da yıllık faturalandırmada $55. Her koltuk ortak bir havuza 6.900 kredi ekliyor; en fazla 100 paylaşılan proje ve 1 TB çalışma alanı depolaması var."
 ---
 ## Runway nedir?
 Runway, üretken modeller ve bunları kullanmak için araçlar geliştiriyor. Runway Creative video, görsel ve ses işleri için uygulama; Runway Dev API platformu; Runway Robotics ise fotogerçekçi simülasyon için GWM-1 dünya modelini kullanıyor. Ana site artık runway.com adresinde.

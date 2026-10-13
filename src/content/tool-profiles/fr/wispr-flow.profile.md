@@ -26,7 +26,7 @@ useCases:
   - "Dire des prompts détaillés dans Cursor ou ChatGPT au lieu de taper plusieurs paragraphes."
   - "Capturer une conversation client en personne avec le Notetaker et en extraire ensuite les actions à mener."
   - "Rédiger des documents dans une seconde langue, Flow détectant automatiquement la langue que vous parlez."
-pricingSummary: "Le plan Free couvre 2 000 mots par semaine sur ordinateur et 1 000 sur mobile. Pro coûte $15/utilisateur/mois ou $12 en facturation annuelle avec dictée illimitée ; Growth est à $33/utilisateur/mois ou $26 en annuel, et Enterprise est sur devis."
+pricingSummary: "Le plan Free couvre 2 000 mots par semaine sur ordinateur et 1 000 sur mobile. Pro coûte $15/utilisateur/mois ou $12 en facturation annuelle avec dictée illimitée ; Growth est à $23/utilisateur/mois ($18 en annuel) pour la dictée seule, ou $33 ($26 en annuel) avec Notetaker, et Enterprise est sur devis."
 savingTips:
   - "La facturation annuelle réduit Pro de $15 à $12 par utilisateur et par mois, soit 20 % d’économie."
   - "Les étudiants et enseignants disposant d’une adresse e-mail éducative bénéficient de 50 % sur Flow Pro, et les associations peuvent obtenir Pro à tarif réduit."

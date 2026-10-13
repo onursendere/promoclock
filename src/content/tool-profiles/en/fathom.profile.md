@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free costs $0 with unlimited recordings. Premium for individuals is $20/month or $16/month billed annually; Team is $19/user/month ($15 annually) and Business $34/user/month ($25 annually), both with a 2-user minimum. Enterprise pricing comes from sales."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, macos, windows, api]
 savingTips:
   - "Annual billing lowers Premium from $20 to $16 per month and Business from $34 to $25 per user."
@@ -56,7 +56,7 @@ sources:
   - https://help.fathom.video/en/articles/5290881
   - https://help.fathom.video/en/articles/296576
   - https://blog.superhuman.com/superhuman-acquires-fathom/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Fathom?
 Fathom is an AI meeting recorder that captures calls, transcribes them and writes a summary you can read the moment the meeting ends. It works with Zoom, Google Meet and Microsoft Teams and adds team features such as deal views, scorecards and shared playlists for sales, customer success and product groups.

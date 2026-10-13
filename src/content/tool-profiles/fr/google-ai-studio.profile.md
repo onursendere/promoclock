@@ -1,7 +1,7 @@
 ---
 summary: "Google AI Studio est l’espace de travail gratuit de Google, dans le navigateur, pour tester les modèles Gemini, créer des clés API Gemini et développer des applications en vibe coding avec le mode Build. Les développeurs s’en servent pour prototyper des prompts et exporter du code, tandis que les non-codeurs décrivent une application et laissent l’agent Antigravity la construire avec connexion Firebase et base de données Firestore."
-metaTitle: "Google AI Studio : gratuit, prix et mode Build (2026)"
-metaDescription: "Google AI Studio est gratuit. Ce que crée le mode Build, comment l’API Gemini est facturée et ce qu’ajoutent Google AI Pro et Ultra en 2026."
+metaTitle: "Google AI Studio gratuit ? Oui : limites, tarifs API (2026)"
+metaDescription: "Google AI Studio est gratuit, avec un accès à Gemini limité en débit. Google AI Pro et Ultra relèvent les quotas ; l’API Gemini hors gratuit est prépayée dès $5."
 bestFor:
   - "Développeurs qui prototypent avec Gemini"
   - "Non-codeurs créant des applis web"

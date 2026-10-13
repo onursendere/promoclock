@@ -68,7 +68,7 @@ Nimm Runway oder Luma für gezielt inszenierte Shots in Produktionsqualität, Kl
 
 ### Runway
 
-Laut [Runways Preisseite](https://runway.com/pricing) kostet Runway Standard $15/Monat für 625 Credits, Pro $35 für 2.250 und Max $95 für 9.500, mit 20 % Rabatt bei jährlicher Abrechnung. Max, am 1. Juni 2026 als Ersatz für Unlimited eingeführt, ergänzt ProRes, HDR und die Übertragung von Credits für einen Monat.
+Laut [Runways Preisseite](https://runway.com/pricing) kostet Runway Standard $15/Monat für 625 Credits, Pro $35 für 2.250 und Max $95 für 9.500, mit 20 % Rabatt bei jährlicher Abrechnung. Max, am 1. Juni 2026 als Ersatz für Unlimited eingeführt, ergänzt ProRes, HDR und die Übertragung von Credits für einen Monat. Ein Team-Plan für 2 bis 9 Personen, der im September 2026 hinzukam, kostet $69 pro Platz ($55 bei jährlicher Abrechnung) mit 6.900 gemeinsam genutzten Credits pro Platz.
 
 ### Kling
 
@@ -136,7 +136,7 @@ Mit dem kostenlosen Plan von HeyGen erstellst du 3 Videos pro Monat, je bis zu 1
 
 ### Synthesia
 
-Der kostenlose Basic-Plan von Synthesia enthält 500 Credits pro Monat, etwa 10 Minuten Video oder Dubbing, doch Basic-Nutzer können keine Videos herunterladen. Starter kostet $29/Monat ($18 bei jährlicher Abrechnung) für 1.250 Credits, und Pro, früher Creator, kostet $89/Monat ($64 jährlich) für 6.000 Credits plus API-Zugang. Dubbing kostet 120 Credits pro Minute, mit Lippensynchronisation 240.
+Der kostenlose Basic-Plan von Synthesia enthält 500 Credits pro Monat, etwa 10 Minuten Video oder Dubbing, doch Basic-Nutzer können keine Videos herunterladen. Starter kostet $29/Monat ($18 bei jährlicher Abrechnung) für 1.250 Credits, und Pro, früher Creator, kostet $89/Monat ($64 jährlich) für 6.000 Credits plus API-Zugang. In den Self-Service-Plänen kostet Dubbing etwa 76 Credits pro Minute, mit Lippensynchronisation das Doppelte, und der Agent Syren, seit dem 9. Oktober 2026 in der Beta, erstellt ganze Videos aus einem Prompt.
 
 ## Welche KI-Videoeditoren und Clip-Tools lohnen sich?
 
@@ -164,7 +164,7 @@ Der kostenlose Plan von [VEED](/tools/veed/) exportiert Videos in 720p mit bis z
 
 ### InVideo AI
 
-Die kostenlosen Credits von [InVideo AI](/tools/invideo/) setzen sich jeden Montag zurück. Starter kostet $20 pro Platz und Monat für 400 Credits, Plus $60 ($36 bei jährlicher Abrechnung) und Max $150 ($75 bei jährlicher Abrechnung). Sein Agent Two plant Shots und wählt Modelle, und das Bearbeiten in der Timeline verbraucht keine Credits.
+Die kostenlosen Credits von [InVideo AI](/tools/invideo/) setzen sich jeden Montag zurück. Starter kostet $20 pro Platz und Monat ($10 bei jährlicher Abrechnung) für 400 Credits, Plus $60 ($30 bei jährlicher Abrechnung) und Max $150 ($75 bei jährlicher Abrechnung). Sein Agent Two plant Shots und wählt Modelle, und das Bearbeiten in der Timeline verbraucht keine Credits.
 
 ### Pictory
 
@@ -177,6 +177,8 @@ Ja: Mit Stand Oktober 2026 rabattiert Adobe die videostarken Firefly-Pläne, und
 - [30 % Rabatt auf Firefly Pro Plus und Premium](/deals/adobe-firefly-30-off-first-year-2026/): US$34.97/Monat statt US$49.99 oder US$139.91 statt US$199.99 im ersten Jahr, bis 21. Oktober 2026. Adobe nennt bis zu 100 fünfsekündige Videos in Pro Plus und unbegrenzte Generierungen mit Veo 3.1 Fast und Kling 3.0 in Premium.
 - [Google AI Pro gratis für Studierende](/deals/google-ai-pro-students-2026/): 12 Monate für berechtigte Studierende an US-Hochschulen, die bis 31. Dezember 2026 einlösen.
 - [12 Monate Google AI Pro mit einem Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/): kaufen und einlösen bis 31. Oktober 2026.
+- [Gratis-Credits für Syren bei Synthesia](/deals/synthesia-syren-launch-credits-2026/): Alle Nutzer bekommen Start-Credits für den neuen Video-Agenten, einen Monat lang gültig.
+- [Runway Enterprise mit 2 Monaten Nutzung gratis](/deals/runway-enterprise-two-months-free-2026/): für Unternehmen, die bis 31. Oktober 2026 unterschreiben.
 
 Weitere Angebote findest du auf unserer Seite [KI-Deals](/deals/), und unser Ratgeber, wie du [bei KI-Abos sparst](/blog/save-money-on-ai-subscriptions/), erklärt die jährliche Abrechnung.
 

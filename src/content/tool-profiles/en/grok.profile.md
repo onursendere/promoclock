@@ -1,7 +1,7 @@
 ---
 summary: "Grok is the AI assistant from xAI, which SpaceX acquired in February 2026 and which now operates as SpaceXAI. It combines chat with real-time X and web search, Grok Imagine image and video generation, voice and a coding agent. It suits heavy X users, video creators and anyone who wants one usage pool across products."
-metaTitle: "Grok Pricing 2026: SuperGrok Plans & Free Tier"
-metaDescription: "Grok pricing in 2026: a free tier, SuperGrok at $30/month and SuperGrok Plus at $100/month. Weekly usage pools, features, limits and alternatives."
+metaTitle: "Grok Pricing 2026: Free Tier, SuperGrok $30 & Plus $100"
+metaDescription: "Grok is free to use. SuperGrok costs $30/month and SuperGrok Plus $100/month on xAI's pricing page; SuperGrok Lite and Heavy prices aren't public."
 bestFor:
   - "Heavy X users"
   - "Creators making short AI videos"
@@ -28,7 +28,7 @@ useCases:
 pricing:
   freePlan: true
   summary: "Free costs $0. SuperGrok is $30/month and SuperGrok Plus $100/month on xAI's pricing page; SuperGrok Lite and SuperGrok Heavy are also offered, but their prices aren't listed publicly."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, cli, api]
 savingTips:
   - "SuperGrok Heavy includes X Premium+ at no extra cost once you connect your X account, so you don't need to pay for both."
@@ -54,7 +54,7 @@ sources:
   - https://docs.x.ai/grok/overview
   - https://docs.x.ai/grok-bot/overview
   - https://x.ai/news/xai-joins-spacex
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Grok?
 Grok is SpaceXAI's assistant at grok.com, in the iOS and Android apps and inside X. Beyond chat, one account covers Grok Imagine for images and video, voice conversations, the Grok Build coding agent and, from SuperGrok up, Grok Bot agents. The current plans advertise the Grok 4.6 model.

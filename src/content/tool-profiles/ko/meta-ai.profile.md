@@ -1,7 +1,7 @@
 ---
 summary: "Meta AI는 Meta의 AI 어시스턴트로, Meta AI 앱과 meta.ai, 그리고 WhatsApp, Instagram, Facebook, Messenger 안에서 이용할 수 있습니다. 2026년 4월부터 Meta Superintelligence Labs의 Muse 모델로 구동되며, 일상적인 사용은 계속 무료이고 2026년 9월 출시된 Meta One 구독은 더 많은 이미지·영상 생성 기능을 추가합니다."
-metaTitle: "Meta AI는 무료인가? Meta One 요금제와 기능 정리 (2026)"
-metaDescription: "Meta AI는 일상적인 사용에 무료입니다. Muse Spark의 기능과 Meta One Core($7.99), Premium($19.99)이 추가하는 것, 알아둘 개인정보 사항을 정리했습니다."
+metaTitle: "Meta AI는 무료인가? 네, Meta One 월 $7.99부터 (2026)"
+metaDescription: "Meta AI는 일상적인 사용에 무료입니다. Meta One Core는 월 $7.99, Premium은 월 $19.99이며 이미지·영상 생성을 더 많이 쓸 수 있고 가격은 지역마다 다릅니다."
 bestFor:
   - "WhatsApp과 Instagram 사용자"
   - "무료 어시스턴트를 원하는 사람"

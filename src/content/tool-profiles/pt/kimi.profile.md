@@ -1,7 +1,7 @@
 ---
 summary: "Kimi é um assistente de IA e espaço de trabalho de agentes da Moonshot AI. Ele roda no Kimi K3, um modelo de pesos abertos de 2,8 trilhões de parâmetros com janela de contexto de 1 milhão de tokens lançado em julho de 2026. Além do chat, o Kimi lida com documentos, slides, pesquisa profunda e sites, e se estende à programação com o Kimi Code e ao trabalho no desktop com o Kimi Work."
-metaTitle: "Preços do Kimi, plano grátis e recursos do K3 (2026)"
-metaDescription: "O Kimi da Moonshot AI tem um plano gratuito Adagio e planos pagos a partir de $19/mês. Veja o que o Kimi K3, o Agent Swarm, o Kimi Code e o Kimi Work fazem por você."
+metaTitle: "Preços do Kimi K3 2026: plano grátis, Plus $19 e Pro $39"
+metaDescription: "O Kimi K3 é grátis no plano Adagio, uma tarefa de agente por vez. Plus custa $19/mês, Pro $39, Max $99 e Ultra $199; Max e Ultra têm chats de até 1M de tokens."
 bestFor:
   - "Pesquisa e documentos longos"
   - "Delegar tarefas de agente complexas"
@@ -27,7 +27,7 @@ useCases:
 pricingSummary: "O Adagio é gratuito, com uma tarefa de agente por vez. O Plus custa $19/mês, o Pro $39, o Max $99 e o Ultra $199; a cobrança anual leva o Plus a $180/ano, e o Max e o Ultra adicionam conversas de até 1M de tokens."
 savingTips:
   - "A cobrança anual reduz o Plus de $228 para $180 ao ano e o Pro de $468 para $372, cerca de 20% de desconto."
-  - "Desenvolvedores podem chamar o K3 pela API do Kimi em vez de assinar, a $3,00 por milhão de tokens de entrada ($0,30 em acertos de cache) e $15,00 por milhão de tokens de saída."
+  - "Desenvolvedores podem chamar o K3 pela API do Kimi em vez de assinar, a $3.00 por milhão de tokens de entrada ($0.30 em acertos de cache) e $15.00 por milhão de tokens de saída."
 faq:
   - q: "O Kimi é gratuito?"
     a: "Sim. O plano Adagio do Kimi custa $0 e inclui chat mais uma tarefa de agente por vez, 2 tarefas agendadas e 2 projetos. Os planos pagos adicionam mais créditos de agente, tarefas paralelas, Agent Swarm e Kimi Code."
@@ -36,7 +36,7 @@ faq:
   - q: "O Kimi K3 é open source?"
     a: "Os pesos completos do Kimi K3 podem ser baixados no Hugging Face sob a própria Kimi K3 License da Moonshot. O modelo foi anunciado em 17 de julho de 2026 e roda no kimi.com, nos apps móveis, no Kimi Work, no Kimi Code e na API do Kimi."
   - q: "Por que a central de ajuda do Kimi mostra preços em yuans?"
-    a: "A central de ajuda lista planos separados chamados Andante, Moderato, Allegretto e Allegro, com preços de ¥49 a ¥699 por mês. A página de preços em inglês no kimi.com mostra os planos Plus, Pro, Max e Ultra em dólares americanos."
+    a: "A central de ajuda lista planos em yuans chamados Go, Plus, Pro e Max, com preços de ¥49 a ¥699 por mês. A página de preços em inglês no kimi.com mostra Plus, Pro, Max e Ultra em dólares americanos, então o mesmo nome de plano pode significar um nível diferente em cada moeda."
 ---
 ## O que é o Kimi?
 Kimi é a linha de produtos de consumo da Moonshot AI, abrangendo chat, agentes e programação. O Kimi K3 foi lançado em 17 de julho de 2026 e roda no kimi.com e nos apps para iOS, Android e HarmonyOS.
@@ -44,11 +44,10 @@ Kimi é a linha de produtos de consumo da Moonshot AI, abrangendo chat, agentes 
 Versões anteriores eram conhecidas por ler documentos longos; o produto de 2026 aposta em agentes, com tarefas agendadas que entregam resultados sozinhas.
 
 ## Para quem é
-
 O Kimi serve pessoas que delegam pesquisa em várias etapas, arquivos de escritório ou programação. Desenvolvedores podem experimentar o K3 no Kimi Code, e depois usar a API ou hospedar os pesos abertos por conta própria.
 
 ## Limitações
 - Kimi Code, Kimi Work, Deep Research e slides compartilham um único pool mensal de créditos, e créditos não usados expiram.
 - As contagens de uso de agente por plano são estimativas baseadas no consumo típico de tokens, não cotas fixas.
 - O modo Goal começa no Pro, e conversas de 1M de tokens exigem Max ou Ultra.
-- Os nomes e preços dos planos diferem entre a central de ajuda em yuans e a página de preços em dólares, o que pode confundir compradores.
+- A central de ajuda em yuans e a página de preços em dólares reutilizam nomes de planos como Plus, Pro e Max para níveis e preços diferentes, o que pode confundir compradores.

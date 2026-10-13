@@ -1,7 +1,7 @@
 ---
 summary: "DeepL是DeepL SE推出的AI翻译与语言平台，涵盖DeepL Translator、DeepL Write写作助手、DeepL Voice和开发者API。它以自然流畅的翻译和保留原始排版的文档翻译著称。自由职业者、学生和跨国团队用它处理文本、文件和实时语音。"
-metaTitle: "DeepL定价、免费套餐与Pro功能"
-metaDescription: "2026年DeepL定价：免费翻译的额度、DeepL Pro Individual每月$10.49、Write Pro、Voice分钟数、应用及替代工具。"
+metaTitle: "DeepL定价：免费套餐、Pro $10.49/月、30天试用"
+metaDescription: "DeepL可免费使用，每月50,000字符和1个文件。Pro Individual为$10.49/月，按年付费为$8.74/月，并提供30天免费试用。"
 bestFor:
   - "多语言从业者"
   - "翻译文档的团队"

@@ -5,7 +5,7 @@ metaDescription: "Save money on AI subscriptions in 2026: Claude Pro drops to $2
 excerpt: "To save money on AI subscriptions, keep one main assistant, pay yearly where the vendor offers it (Claude Pro is $200/year, about $17/month instead of $20), use free tiers for light tasks, and claim student, device and trial offers before they renew. As of October 2026, ChatGPT has no yearly plan, but ChatGPT Go costs $8/month."
 category: guides
 publishedAt: 2026-10-04
-updatedAt: 2026-10-04
+updatedAt: 2026-10-12
 image:
   src: "../images/save-money-on-ai-subscriptions.jpg"
   alt: "Coins falling into a white piggy bank on a green background"
@@ -135,12 +135,12 @@ Free trials save money only if you decide before the renewal date. Grammarly Pro
 
 ### 10. Time sign-ups to live promotions
 
-Short promotions can cut a month's cost sharply. As of October 4, 2026:
+Short promotions can cut a month's cost sharply. As of October 12, 2026:
 
-- **Claude Code**: individual Pro subscribers can claim $100 and Max subscribers $250 in free cloud-session credit by October 7, 2026, if their plan was active on September 23. See [the Claude Code credit offer](/deals/claude-code-cloud-credit-2026/).
-- **Claude artifacts**: through October 15, 2026, work after creating or editing an artifact counts 50% less toward Pro, Max and Team session limits.
-- **ElevenLabs**: for new subscribers, the first month of Starter costs $1 instead of $6 until October 18, and Creator $11 instead of $22.
+- **Claude artifacts**: through October 15, 2026, work after creating or editing an artifact counts 50% less toward session limits on Free, Pro, Max and Team. See [the artifact promotion](/deals/claude-artifact-usage-promo-oct-2026/).
+- **ElevenLabs**: for new subscribers, [the first month of Starter costs $1](/deals/elevenlabs-starter-1-first-month-2026/) instead of $6 until October 18, and Creator $11 instead of $22.
 - **Adobe Firefly**: new subscribers in the US and UK pay 30% less for the first year of Pro Plus or Premium until October 21, 2026, with a 12-month commitment.
+- **Gemini API**: developers pay half the regular rate for [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/) until December 31, 2026.
 
 Our [deals page](/deals/) lists every live offer, and the [promotions calendar](/calendar/) shows when each one ends.
 
@@ -160,7 +160,7 @@ Our [ChatGPT vs Claude vs Gemini comparison](/blog/chatgpt-vs-claude-vs-gemini/)
 
 ### 12. Bill team seats yearly and check what's already covered
 
-Team plans follow the same yearly logic. Claude Team Standard seats cost $25/month or $20/month billed annually, ChatGPT Business is $25 per user monthly or $20 billed annually, and Perplexity Enterprise Pro is $400 a year per seat versus $40 a month. Microsoft 365 Family shares apps and 1 TB of storage each with up to six people for $12.99/month, but Copilot features work only for the subscription owner.
+Team plans follow the same yearly logic. Claude Team Standard seats cost $25/month or $20/month billed annually, ChatGPT Business is $25 per user monthly or $20 billed annually, and Perplexity Enterprise Pro is $400 a year per seat versus $40 a month. Microsoft 365 Family shares apps and a 2 TB storage pool with up to six people for $12.99/month, but Copilot features work only for the subscription owner.
 
 ## Monthly vs yearly price: which AI plans are cheaper annually?
 
@@ -171,6 +171,7 @@ Yearly billing is cheaper on every AI plan below that offers it, from about $17 
 | Claude Pro | $20/month | $200/year (about $17/month) |
 | Claude Max 5x | $100/month | Not offered |
 | ChatGPT Plus | $20/month | Not offered |
+| Perplexity Pro | $20/month | $17/month, billed annually |
 | Notion Plus | $12/member/month | $10/member/month |
 | Grammarly Pro | $30/month | $144/year ($12/month on average) |
 | QuillBot Premium | $19.95/month | $99.95/year (about $8.33/month) |

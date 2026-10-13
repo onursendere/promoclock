@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free gives 5 build credits a day, capped at 30 a month. Pro starts at $25/month for 100 credits and Business at $50/month for 100 credits, both scaling to 10,000 credits; Enterprise is volume-based."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, api]
 savingTips:
   - "Students and teachers get 50% off Pro with 100 monthly credits for up to 12 months after verifying an academic email; the offer is only for Free workspaces."
@@ -53,7 +53,7 @@ sources:
   - https://lovable.dev/students
   - https://docs.lovable.dev/features/publish
   - https://docs.lovable.dev/changelog
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Lovable?
 Lovable is a browser-based builder where you describe an app in plain language and an AI agent writes, tests and publishes it. Projects live in workspaces with unlimited members, and every member draws from the same credit balance.

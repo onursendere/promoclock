@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Copilot Free costs $0 with 2,000 completions a month. Pro is $10/month with $15 in monthly AI Credits, Pro+ is $39/month with $70, and Max is $100/month with $200. Copilot Student is free for verified students."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, linux, vscode, jetbrains, cli]
 savingTips:
   - "Verified students get the free Copilot Student plan through GitHub Education; verified teachers and maintainers of popular open source projects may qualify for free Copilot Pro."
@@ -51,7 +51,7 @@ sources:
   - https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/
   - https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening/
   - https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is GitHub Copilot?
 GitHub Copilot offers completions, chat and agents in VS Code, Visual Studio, JetBrains IDEs, Xcode, Eclipse, Neovim and Zed, on github.com and GitHub Mobile, and in the terminal. The desktop Copilot app became available on every plan on July 7, 2026.

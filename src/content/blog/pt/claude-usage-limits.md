@@ -79,7 +79,7 @@ O Claude Code usa os mesmos limites de 5 horas e semanais do chat, mas a Anthrop
 - **Limites de 5 horas:** em 6 de maio de 2026, a Anthropic [dobrou os limites de 5 horas do Claude Code](/deals/claude-code-5h-limits-doubled/) nos planos pagos, segundo o [anúncio oficial](https://www.anthropic.com/news/higher-limits-spacex).
 - **Horário de pico:** a mesma atualização removeu a redução do horário de pico para o Claude Code no Pro e no Max.
 - **Limites semanais:** um [aumento semanal de +50%](/deals/claude-code-weekly-plus50-2026/) valeu de 13 de maio a 14 de setembro de 2026. Ele foi substituído por um [aumento permanente de +25%](/deals/claude-code-weekly-plus25-permanent/). Numa base de 100, isso dá 100 antes, 150 durante a promoção e 125 agora.
-- **Sessões na nuvem:** assinantes individuais do Pro ganham $100, e os do Max $250, em [crédito de nuvem do Claude Code](/deals/claude-code-cloud-credit-2026/), que as sessões na nuvem usam antes dos limites do plano. Resgate até 7 de outubro de 2026; o crédito não usado expira em 4 de novembro de 2026.
+- **Sessões na nuvem:** assinantes individuais do Pro ganham $100, e os do Max $250, em [crédito de nuvem do Claude Code](/deals/claude-code-cloud-credit-2026/), que as sessões na nuvem usam antes dos limites do plano. O prazo de resgate fechou em 7 de outubro de 2026, e o crédito resgatado pode ser usado até 4 de novembro de 2026.
 
 O Claude Code não faz parte do plano Free.
 
@@ -93,7 +93,7 @@ Os planos Enterprise não são afetados, e o Claude Code no Pro e no Max está i
 
 ## O que mudou nos limites de uso do Claude em 2026?
 
-Contamos 9 mudanças de limite e promoções em 2026, 4 delas só para o Claude Code. Duas promoções estão ativas em 4 de outubro de 2026.
+Contamos 9 mudanças de limite e promoções em 2026, 4 delas só para o Claude Code. Em 12 de outubro de 2026, uma promoção ainda está ativa.
 
 | Data | Mudança | Planos | Status |
 |---|---|---|---|
@@ -104,10 +104,10 @@ Contamos 9 mudanças de limite e promoções em 2026, 4 delas só para o Claude 
 | 5 de junho a 5 de julho de 2026 | [Limite de 5 horas do Cowork em dobro](/deals/claude-cowork-june-2026-2x/) | Pro, Max, Team, Enterprise legado | Encerrada |
 | Julho de 2026 | Fable 5 passou para créditos de uso nos assentos padrão do Pro e do Team | Pro, assentos padrão do Team | Em vigor |
 | 14 de setembro de 2026 | Limites semanais do Claude Code permanentemente +25% sobre a base anterior à promoção | Pro, Max, Team, Enterprise por assento | Permanente |
-| 23 de setembro a 7 de outubro de 2026 | Crédito de nuvem do Claude Code: $100 (Pro) ou $250 (Max) | Pro e Max individuais | Ativa |
-| 1º a 15 de outubro de 2026 | [50% menos uso da sessão depois de criar ou editar artefatos](/deals/claude-artifact-usage-promo-oct-2026/) | Pro, Max, Team | Ativa |
+| 23 de setembro a 7 de outubro de 2026 | [Crédito de nuvem do Claude Code](/deals/claude-code-cloud-credit-2026/): $100 (Pro) ou $250 (Max) | Pro e Max individuais | Resgate encerrado; crédito utilizável até 4 de novembro |
+| 1º a 15 de outubro de 2026 | [50% menos uso da sessão depois de criar ou editar artefatos](/deals/claude-artifact-usage-promo-oct-2026/) | Free (a partir de 7 de outubro), Pro, Max, Team | Termina em 15 de outubro |
 
-A promoção de artefatos vale para as próximas 10 mensagens de chat depois de você criar ou editar um artefato e termina às 23:59 PT de 15 de outubro. Ela exclui o Claude Code, a API e os planos Free e Enterprise, segundo a [página da promoção da Anthropic](https://support.claude.com/en/articles/17274727-artifact-usage-promotion).
+A promoção de artefatos vale para as próximas 10 mensagens de chat depois de você criar ou editar um artefato e termina às 23:59 PT de 15 de outubro. Os planos Free entraram em 7 de outubro, enquanto o Claude Code, a API e os planos Enterprise são excluídos, segundo a [página da promoção da Anthropic](https://support.claude.com/en/articles/17274727-artifact-usage-promotion).
 
 ## O modelo escolhido muda a velocidade com que você atinge o limite?
 
@@ -151,7 +151,7 @@ Os maiores ganhos vêm do horário, de conversas mais curtas e do modelo certo. 
 - **Use Projetos para arquivos de referência.** A Anthropic diz que o conteúdo em cache nos projetos conta menos para os seus limites.
 - **Escolha o modelo mais leve.** Use o Sonnet como padrão e reduza o nível de esforço em tarefas simples.
 - **Use as ferramentas com propósito.** Research e busca na web aumentam o uso, então ative-as quando a resposta precisar delas.
-- **Aproveite as promoções ativas.** Até 15 de outubro de 2026, criar com artefatos no Pro, Max ou Team gasta 50% menos uso da sessão.
+- **Aproveite as promoções ativas.** Até 15 de outubro de 2026, criar com artefatos no Free, Pro, Max ou Team gasta 50% menos uso da sessão.
 
 ## Conclusão
 
@@ -160,7 +160,7 @@ Os limites do Claude são uma sessão de 5 horas mais um teto semanal, e o horá
 - **Usuários do Free:** mantenha os chats curtos e trabalhe fora do horário de pico; o Pro é o próximo passo se você atinge o limite todo dia.
 - **Usuários do Pro:** use o Sonnet como padrão e adicione créditos de uso para os raros dias de excesso. Quem usa o Claude Code tem a isenção do horário de pico.
 - **Usuários intensos do Pro que atingem o limite semanal:** o Max 5x ($100/mês) dá 5 vezes o uso por sessão do Pro.
-- **Usuários do Max:** fique de olho no teto de 50% do Fable e resgate o crédito de nuvem de $250 até 7 de outubro de 2026.
+- **Usuários do Max:** fique de olho no teto de 50% do Fable e gaste o crédito de nuvem resgatado antes de ele expirar em 4 de novembro de 2026.
 - **Equipes:** a Anthropic não anunciou uma isenção do horário de pico para o Claude Code no Team, então programe as execuções grandes fora do pico.
 
 Acompanhamos cada mudança nos limites do Claude assim que ela acontece, no [Claude Watch](/).

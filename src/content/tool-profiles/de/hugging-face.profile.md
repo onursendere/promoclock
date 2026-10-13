@@ -11,7 +11,7 @@ keyFeatures:
   - name: "Modell- und Dataset-Hub"
     description: "Durchsuche, lade herunter und versioniere Open-Weight-Modelle und Datensätze in Git-basierten Repositories mit öffentlicher oder privater Sichtbarkeit."
   - name: "Spaces"
-    description: "Hoste Gradio-, Docker- oder statische Demo-Apps; CPU-Basic-Hardware ist kostenlos, und eine Nvidia T4 Small kostet $0.40 pro Stunde."
+    description: "Hoste Gradio-, Docker- oder statische Demo-Apps; statische Spaces sind kostenlos, neue Compute-Spaces brauchen einen Bezahlplan, und eine Nvidia T4 Small kostet $0.40 pro Stunde."
   - name: "ZeroGPU"
     description: "Gradio-Spaces leihen sich pro Funktionsaufruf NVIDIA-RTX-Pro-6000-Blackwell-GPUs, innerhalb eines Tageskontingents nach Konto-Typ."
   - name: "Inference Providers"
@@ -29,12 +29,12 @@ useCases:
   - "Einem Firmen-Team im Team-Plan SSO, Audit-Logs und Speicher-Regionen für private Modelle geben."
 pricingSummary: "Der Hub ist kostenlos. PRO kostet $9/Monat mit $2 an monatlichen Compute-Credits und 8x ZeroGPU-Kontingent; Team kostet $20 und Enterprise $50 pro Nutzer pro Monat. Spaces-GPUs, Inference Endpoints und Extra-Speicher werden nach Nutzung abgerechnet."
 savingTips:
-  - "Gratis-Konten bekommen $0.10 an Inference-Providers-Credits pro Monat; PRO hebt das auf $2.00, nutzbar über Hugging-Face-Compute."
+  - "Gratis-Konten bekommen keine monatlichen Inference-Providers-Credits mehr und müssen Credits kaufen, während PRO $2.00 pro Monat enthält, nutzbar über Hugging-Face-Compute."
   - "ZeroGPU-Spaces zu nutzen ist kostenlos: 5 Minuten GPU-Zeit pro Tag in einem Gratis-Konto gegenüber 40 Minuten in PRO."
   - "Gratis-Konten, die älter als 30 Tage sind und eine verifizierte E-Mail haben, können bis zu 2 ZeroGPU-Spaces kostenlos hosten."
 faq:
   - q: "Ist Hugging Face kostenlos nutzbar?"
-    a: "Ja. Ein Konto, öffentliche Modell- und Datensatz-Downloads, CPU-Basic-Spaces und ZeroGPU-Spaces kosten nichts. Du zahlst für PRO-, Team- oder Enterprise-Pläne, aufgerüstete Spaces-Hardware, Inference Endpoints und Inferenz über die enthaltenen monatlichen Credits hinaus."
+    a: "Ja. Ein Konto, öffentliche Modell- und Datensatz-Downloads, statische Spaces und bis zu 2 ZeroGPU-Spaces kosten nichts. Du zahlst für PRO-, Team- oder Enterprise-Pläne, neue Gradio- oder Docker-Spaces auf Compute, aufgerüstete Spaces-Hardware, Inference Endpoints und Inferenz-Credits."
   - q: "Was enthält Hugging Face PRO?"
     a: "PRO kostet $9/Monat und ergänzt $2.00 an monatlichen Compute-Credits, 40 Minuten tägliche ZeroGPU-Zeit mit höchster Warteschlangen-Priorität, Hosting für bis zu 10 ZeroGPU-Spaces, Spaces Dev Mode und den Dataset-Viewer für private Datensätze."
   - q: "Kauft NVIDIA Hugging Face?"
@@ -48,8 +48,8 @@ faq:
 Hugging Face betreibt den Hub, ein geteiltes Zuhause für offene KI-Modelle, Datensätze und Spaces-Apps. Der meiste Betrieb ist öffentlich und kostenlos; Bezahlpläne ergänzen Speicher, Compute-Credits und Organisations-Kontrollen.
 
 ## Pläne auf einen Blick
-- **Free:** öffentliche Repos, CPU-Basic-Spaces, 5 Minuten ZeroGPU pro Tag und $0.10 an monatlichen Inferenz-Credits.
-- **PRO ($9/Monat):** 10x privater Speicher, 20x Inferenz-Credits, 8x ZeroGPU-Kontingent und Dev Mode.
+- **Free:** öffentliche Repos, statische Spaces und 5 Minuten ZeroGPU pro Tag; Inferenz braucht gekaufte Credits.
+- **PRO ($9/Monat):** 10x privater Speicher, $2.00 an monatlichen Inferenz-Credits, 8x ZeroGPU-Kontingent, Compute-Spaces und Dev Mode.
 - **Team ($20/Nutzer/Monat):** SSO, Speicher-Regionen, Audit-Logs und Resource Groups.
 - **Enterprise ($50/Nutzer/Monat):** SCIM-Provisionierung, höchste Limits und dedizierter Support.
 
@@ -59,4 +59,4 @@ Speicher über enthaltene Limits hinaus wird pro TB berechnet, von $12 bis $18 p
 Am 3. September 2026 gab NVIDIA eine Vereinbarung zur Übernahme von Hugging Face bekannt. NVIDIA sagt, die Plattform werde weiter Open-Source- und Open-Weight-Modelle aus dem gesamten Ökosystem unterstützen.
 
 ## Grenzen
-ZeroGPU funktioniert nur mit dem Gradio-SDK und unterstützt kein torch.compile, und Gratis-Konten bekommen niedrigere Warteschlangen-Priorität als Bezahl-Konten. Die kostenlose $0.10-Monats-Inferenz-Ausrede ist schnell aufgebraucht. Modell-Lizenzen unterscheiden sich von Repo zu Repo, prüfe also jedes vor kommerzieller Nutzung.
+ZeroGPU funktioniert nur mit dem Gradio-SDK und unterstützt kein torch.compile, und Gratis-Konten bekommen niedrigere Warteschlangen-Priorität als Bezahl-Konten. Gratis-Konten haben kein inkludiertes Inferenz-Kontingent, sodass schon leichte API-Nutzung den Kauf von Credits bedeutet. Modell-Lizenzen unterscheiden sich von Repo zu Repo, prüfe also jedes vor kommerzieller Nutzung.

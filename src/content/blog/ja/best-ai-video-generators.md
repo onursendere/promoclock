@@ -68,7 +68,7 @@ faq:
 
 ### Runway
 
-[Runwayの料金ページ](https://runway.com/pricing)によると、Runway Standardは月額$15で625クレジット、Proは$35で2,250クレジット、Maxは$95で9,500クレジットで、年払いなら20%オフです。Unlimitedにかわって2026年6月1日に導入されたMaxでは、ProRes、HDR、1か月分のクレジット繰り越しが加わります。
+[Runwayの料金ページ](https://runway.com/pricing)によると、Runway Standardは月額$15で625クレジット、Proは$35で2,250クレジット、Maxは$95で9,500クレジットで、年払いなら20%オフです。Unlimitedにかわって2026年6月1日に導入されたMaxでは、ProRes、HDR、1か月分のクレジット繰り越しが加わります。2026年9月に追加された2〜9人向けのTeamプランは、1シートあたり$69（年払いなら$55）で、1シートあたり6,900クレジットを共有できます。
 
 ### Kling
 
@@ -136,7 +136,7 @@ HeyGenの無料プランでは、1本最長1分の動画を月3本作れます�
 
 ### Synthesia
 
-Synthesiaの無料のBasicプランには月500クレジット（動画または吹き替え約10分）が含まれますが、Basicのユーザーは動画をダウンロードできません。Starterは月額$29（年払いなら$18）で1,250クレジット、旧CreatorのProは月額$89（年払いなら$64）で6,000クレジットとAPIアクセスが付きます。吹き替えは1分あたり120クレジット、リップシンク付きなら240クレジットです。
+Synthesiaの無料のBasicプランには月500クレジット（動画または吹き替え約10分）が含まれますが、Basicのユーザーは動画をダウンロードできません。Starterは月額$29（年払いなら$18）で1,250クレジット、旧CreatorのProは月額$89（年払いなら$64）で6,000クレジットとAPIアクセスが付きます。セルフサーブのプランでは、吹き替えは1分あたり約76クレジットで、リップシンク付きならその2倍です。2026年10月9日からベータ版として提供されているSyrenエージェントは、プロンプトから動画をまるごと作成します。
 
 ## 課金する価値のあるAI動画編集・切り抜きツールは？
 
@@ -164,7 +164,7 @@ Mirageが開発する[Captions](/tools/captions/)には、基本的な編集が�
 
 ### InVideo AI
 
-[InVideo AI](/tools/invideo/)の無料クレジットは毎週月曜日にリセットされます。Starterは1シートあたり月額$20で400クレジット、Plusは$60（年払いなら$36）、Maxは$150（年払いなら$75）です。Agent Twoがショットを計画してモデルを選び、タイムライン編集ではクレジットを消費しません。
+[InVideo AI](/tools/invideo/)の無料クレジットは毎週月曜日にリセットされます。Starterは1シートあたり月額$20（年払いなら$10）で400クレジット、Plusは$60（年払いなら$30）、Maxは$150（年払いなら$75）です。Agent Twoがショットを計画してモデルを選び、タイムライン編集ではクレジットを消費しません。
 
 ### Pictory
 
@@ -177,6 +177,8 @@ Mirageが開発する[Captions](/tools/captions/)には、基本的な編集が�
 - [Firefly Pro PlusとPremiumが30%オフ](/deals/adobe-firefly-30-off-first-year-2026/)：2026年10月21日までの契約で、初年度は月額US$49.99がUS$34.97に、US$199.99がUS$139.91になります。Adobeによると、Pro Plusでは5秒の動画を最大100本、PremiumではVeo 3.1 FastとKling 3.0を無制限に生成できます。
 - [学生はGoogle AI Proが無料](/deals/google-ai-pro-students-2026/)：対象となる米国の大学生は12か月無料。2026年12月31日までに利用開始。
 - [Pixel 10 Proの購入でGoogle AI Proが12か月付く特典](/deals/pixel-10-pro-google-ai-pro-2026/)：2026年10月31日までに購入・利用開始。
+- [SynthesiaでSyrenのクレジットが無料](/deals/synthesia-syren-launch-credits-2026/)：新しい動画エージェント向けのローンチクレジットを全ユーザーに付与。有効期間は1か月。
+- [Runway Enterpriseが利用料2か月分無料](/deals/runway-enterprise-two-months-free-2026/)：2026年10月31日までに契約する企業が対象。
 
 ほかの特典は[特典ページ](/deals/)に掲載しています。年払いについては[AIサブスクリプションを節約する方法](/blog/save-money-on-ai-subscriptions/)で解説しています。
 

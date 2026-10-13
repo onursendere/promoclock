@@ -24,7 +24,7 @@ useCases:
   - "Pasar el mismo prompt por Gen-4.5 y Seedance 2.0 para elegir la toma más fuerte para una escena."
   - "Entregar planos generados en ProRes o HDR directamente al flujo de color y acabado de una agencia con Max."
   - "Añadir efectos de sonido generados con IA y una línea de voz clonada a un cortometraje de pitch."
-pricingSummary: "Free da 125 créditos únicos. Standard son $15/mes (625 créditos), Pro $35/mes (2.250 créditos) y Max $95/mes (9.500 créditos); la facturación anual recorta cada uno un 20 %."
+pricingSummary: "Free da 125 créditos únicos. Standard son $15/mes (625 créditos), Pro $35/mes (2.250 créditos) y Max $95/mes (9.500 créditos); la facturación anual recorta cada uno un 20 %. Team, para 2 a 9 personas, es $69 por asiento ($55 anual) con 6.900 créditos agrupados por asiento."
 savingTips:
   - "La facturación anual es un 20 % más barata: Standard baja a $12/mes, Pro a $28 y Max a $76."
   - "Los 125 créditos del plan gratis no caducan, así que puedes probar los modelos a tu ritmo, pero no se recargan."
@@ -39,6 +39,8 @@ faq:
     a: "Gen-4.5 cuesta 60 créditos por cada 5 segundos. Runway estima que eso equivale a unos 52 segundos en Standard, 187 segundos en Pro y 791 segundos en Max cada mes."
   - q: "¿Runway tiene app móvil?"
     a: "Sí. Runway Creative funciona en el navegador y tiene apps de iOS y Android. Los desarrolladores usan la plataforma aparte Runway Dev API para integrar los modelos en sus propios productos."
+  - q: "¿Runway tiene un plan para equipos pequeños?"
+    a: "Sí. Desde septiembre de 2026, el plan Team de autoservicio cubre de 2 a 9 personas por $69 por asiento al mes, o $55 con facturación anual. Cada asiento suma 6.900 créditos a un fondo compartido, con hasta 100 proyectos compartidos y 1 TB de almacenamiento del espacio de trabajo."
 ---
 ## ¿Qué es Runway?
 Runway construye modelos generativos y las herramientas para usarlos. Runway Creative es la app para trabajar con vídeo, imagen y audio; Runway Dev es la plataforma de API; Runway Robotics usa el modelo de mundo GWM-1 para simulación fotorrealista. El sitio principal está ahora en runway.com.

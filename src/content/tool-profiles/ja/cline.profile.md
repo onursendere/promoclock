@@ -48,7 +48,7 @@ Clineは、独立したホスト型サービスではなくエディタやター
 - **VS Code拡張機能**：CursorやWindsurfにもインストール可能。
 - **JetBrainsプラグイン**：アーリーアクセス中。
 - **CLI**：Kanbanボード、プラグイン、スケジュール、ヘッドレスCI利用に対応。
-- **Cline for Desktop**：macOSとWindows向けのベータ版スタンドアロンアプリ。
+- **Cline for Desktop**：macOS、Windows、Linux向けのベータ版スタンドアロンアプリ。
 - **SDK**：他のツールにエージェントを組み込むために利用。
 
 ## 制限事項

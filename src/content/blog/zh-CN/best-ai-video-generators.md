@@ -68,7 +68,7 @@ Kling性价比最高，$10/月；Runway的专业制作工具最强；Google Flow
 
 ### Runway
 
-根据[Runway的定价页面](https://runway.com/pricing)，Runway Standard为$15/月，含625积分；Pro为$35，含2,250积分；Max为$95，含9,500积分，按年付费享20%折扣。Max于2026年6月1日推出，取代Unlimited，增加了ProRes、HDR和一个月的积分结转。
+根据[Runway的定价页面](https://runway.com/pricing)，Runway Standard为$15/月，含625积分；Pro为$35，含2,250积分；Max为$95，含9,500积分，按年付费享20%折扣。Max于2026年6月1日推出，取代Unlimited，增加了ProRes、HDR和一个月的积分结转。2026年9月新增的Team套餐面向2至9人，每席位$69（按年付费$55），每席位含6,900个共享积分。
 
 ### Kling
 
@@ -136,7 +136,7 @@ HeyGen的免费套餐每月可制作3个视频，每个最长1分钟，带水印
 
 ### Synthesia
 
-Synthesia的免费Basic套餐每月包含500积分，约10分钟视频或配音，但Basic用户不能下载视频。Starter为$29/月（按年付费$18），含1,250积分；Pro（原Creator）为$89/月（按年付费$64），含6,000积分和API访问。配音每分钟120积分，带口型同步为240积分。
+Synthesia的免费Basic套餐每月包含500积分，约10分钟视频或配音，但Basic用户不能下载视频。Starter为$29/月（按年付费$18），含1,250积分；Pro（原Creator）为$89/月（按年付费$64），含6,000积分和API访问。在自助套餐上，配音每分钟约76积分，带口型同步则翻倍；自2026年10月9日起进入测试版的Syren智能体，可根据一条提示词生成完整视频。
 
 ## 哪些AI视频剪辑和切片工具值得付费？
 
@@ -164,7 +164,7 @@ OpusClip按源视频每分钟1积分计费。Free每月包含60积分，片段�
 
 ### InVideo AI
 
-[InVideo AI](/tools/invideo/)的免费积分每周一重置。Starter为每席位每月$20，含400积分；Plus为$60（按年$36），Max为$150（按年$75）。它的Agent Two会规划镜头并挑选模型，时间线编辑不消耗积分。
+[InVideo AI](/tools/invideo/)的免费积分每周一重置。Starter为每席位每月$20（按年$10），含400积分；Plus为$60（按年$30），Max为$150（按年$75）。它的Agent Two会规划镜头并挑选模型，时间线编辑不消耗积分。
 
 ### Pictory
 
@@ -177,6 +177,8 @@ OpusClip按源视频每分钟1积分计费。Free每月包含60积分，片段�
 - [Firefly Pro Plus和Premium享30%折扣](/deals/adobe-firefly-30-off-first-year-2026/)：首年US$34.97/月（原价US$49.99），或US$139.91（原价US$199.99），2026年10月21日截止。Adobe列出Pro Plus最多可生成100个5秒视频，Premium可无限次生成Veo 3.1 Fast和Kling 3.0视频。
 - [学生免费用Google AI Pro](/deals/google-ai-pro-students-2026/)：符合条件的美国大学生在2026年12月31日前兑换，可免费用12个月。
 - [购买Pixel 10 Pro送12个月Google AI Pro](/deals/pixel-10-pro-google-ai-pro-2026/)：需在2026年10月31日前购买并兑换。
+- [在Synthesia上免费领取Syren积分](/deals/synthesia-syren-launch-credits-2026/)：每位用户都可获得新视频智能体的启动积分，有效期一个月。
+- [Runway Enterprise免费使用2个月](/deals/runway-enterprise-two-months-free-2026/)：面向在2026年10月31日前签约的企业。
 
 更多优惠见我们的[优惠页面](/deals/)，[AI订阅省钱指南](/blog/save-money-on-ai-subscriptions/)介绍了按年付费的好处。
 

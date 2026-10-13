@@ -1,7 +1,7 @@
 ---
 summary: "Freepik是Freepik Company旗下的素材库与AI创意平台，2026年更名为Magnific，freepik.com现已重定向到magnific.com。它把2.5亿以上的图片、矢量图、视频和模板，与覆盖30多个模型的AI图像、视频、音频和放大工具整合在一起。设计师、营销人员和代理机构用它在同一个订阅里获取素材并生成内容。"
-metaTitle: "Freepik（现为Magnific）价格2026"
-metaDescription: "Freepik已更名为Magnific。查看2026年Premium、Premium+和Pro的价格、免费套餐限制、AI额度、无限生成及用户变化。"
+metaTitle: "Freepik已更名Magnific：价格、免费套餐与变化"
+metaDescription: "Freepik已更名为Magnific。免费套餐仍每天可下载10个素材，Premium在英国起价£14/月。了解2026年套餐、AI额度与限制。"
 bestFor:
   - "既需要素材又需要AI的设计师"
   - "社媒和营销团队"

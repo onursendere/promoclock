@@ -1,7 +1,7 @@
 ---
 summary: "KimiはMoonshot AIのAIアシスタント・エージェントワークスペースです。2026年7月登場の2.8兆パラメータのオープンウェイトモデルKimi K3で動作し、コンテキスト長は100万トークンです。ドキュメント・スライド・ディープリサーチを扱い、Kimi Codeでコーディングにも拡張します。"
-metaTitle: "Kimi料金・無料プラン・K3機能"
-metaDescription: "Moonshot AIのKimiは無料のAdagioプランと月額$19からの有料プラン。Kimi K3、Agent Swarm、Kimi Code、Kimi Workの機能を紹介。"
+metaTitle: "Kimi K3料金2026｜Plus $19・Pro $39"
+metaDescription: "Kimi K3はAdagioプランで無料。Plusは月$19、Proは$39、Maxは$99、Ultraは$199で、MaxとUltraは100万トークンのチャットに対応します。"
 bestFor:
   - "リサーチと長文ドキュメント作業"
   - "複数手順のエージェントタスクの委任"
@@ -36,7 +36,7 @@ faq:
   - q: "Kimi K3はオープンソースですか？"
     a: "Kimi K3のフルウェイトはHugging Face上でMoonshot独自のKimi K3ライセンスの下でダウンロードできます。モデルは2026年7月17日に発表され、kimi.com、モバイルアプリ、Kimi Work、Kimi Code、Kimi APIで動作します。"
   - q: "なぜKimiのヘルプセンターは価格を元で表示しているのですか？"
-    a: "ヘルプセンターにはAndante・Moderato・Allegretto・Allegroという別のプラン名があり、月額¥49〜¥699で提供されています。kimi.comの英語版料金ページではPlus・Pro・Max・Ultraのプランが米ドルで表示されています。"
+    a: "ヘルプセンターにはGo・Plus・Pro・Maxという元建てのプランがあり、月額¥49〜¥699で提供されています。kimi.comの英語版料金ページではPlus・Pro・Max・Ultraが米ドルで表示されているため、同じプラン名でも通貨によって別のティアを指すことがあります。"
 ---
 ## Kimiとは？
 KimiはMoonshot AIのコンシューマー向け製品ラインで、チャット・エージェント・コーディングにまたがります。Kimi K3は2026年7月17日にローンチされ、kimi.comとiOS・Android・HarmonyOSアプリで動作します。
@@ -50,4 +50,4 @@ Kimiは、複数手順のリサーチ、オフィス文書、コーディング�
 - Kimi Code、Kimi Work、Deep Research、スライド機能は月間の共有クレジットプールを使い、未使用分は失効します。
 - エージェント利用回数はプランごとの目安であり、一般的なトークン消費に基づく推定値で、固定の割り当てではありません。
 - ゴールモードはPro以上から利用可能で、100万トークンのチャットにはMaxまたはUltraが必要です。
-- プラン名と価格が元建てのヘルプセンターと米ドル建ての料金ページで異なるため、購入者が混乱する可能性があります。
+- 元建てのヘルプセンターと米ドル建ての料金ページでは、Plus、Pro、Maxなどのプラン名が異なるティアや価格に使われているため、購入者が混乱する可能性があります。

@@ -1,7 +1,7 @@
 ---
 summary: "Genspark, MainFunc'ın hepsi bir arada AI çalışma alanı. Super Agent araştırma yapıyor; sunum, tablo, belge, web sitesi ve medya hazırlıyor, hatta senin yerine telefon görüşmesi yapabiliyor. Temmuz 2026'da çıkan Workspace 6.0; SecondBrain belleği, GenMail ve ekip ajanlarını ekledi. Birkaç AI aboneliğini tek bir abonelikte toplamak isteyen freelancer'lara ve ekiplere hitap ediyor."
-metaTitle: "Genspark fiyatları 2026: Ücretsiz, Plus ve Pro planları"
-metaDescription: "2026 Genspark fiyatları: günlük kredili ücretsiz plan, aylık $24.99'dan başlayan Plus ve $249.99'dan başlayan Pro; özellikler, limitler ve alternatifler."
+metaTitle: "Genspark fiyatları 2026: ücretsiz, Plus $24.99, Pro $249.99"
+metaDescription: "Genspark günde 100 krediyle ücretsiz, ömür boyu üst sınırla. Plus aylık $24.99 ve 10.000 kredi, Pro $249.99 ve 125.000 kredi; yıllık ödemede yaklaşık %20 tasarruf."
 bestFor:
   - "AI araçlarını birleştiren freelancer'lar"
   - "Sunum hazırlayan danışmanlar"
@@ -25,7 +25,7 @@ useCases:
   - "GenMail dolup taşan gelen kutunu ayıklasın, senin üslubunla yanıt taslakları yazsın ve sana sabah özeti göndersin."
   - "Geliştirici tutmak yerine AgentBase ile kendi verilerinden basit bir CRM ya da gösterge paneli kur."
   - "Ayrı sohbet ve görsel aboneliklerinin yerine Plus'ı kullan; temel sohbet ve görsel modelleri belirli bir kullanım sınırına kadar kredi harcamaz."
-pricingSummary: "Free plan her gün 100 kredi ekliyor. Plus, 10.000 kredi için aylık $24.99'dan, Pro ise 125.000 kredi için aylık $249.99'dan başlıyor; ikisi de üst kademelerle büyüyor ve yıllık ödemede yaklaşık %20 indirim var. Team planı kullanıcı başına $30."
+pricingSummary: "Free plan, ücretsiz kredilerden oluşan ömür boyu hak bitene kadar her gün 100 kredi ekliyor. Plus, 10.000 kredi için aylık $24.99'dan, Pro ise 125.000 kredi için aylık $249.99'dan başlıyor; ikisi de üst kademelerle büyüyor ve yıllık ödemede yaklaşık %20 indirim var. Team planı kullanıcı başına aylık $35 ve kullanıcı başına 10.000 kredi içeriyor."
 savingTips:
   - "Yıllık ödeme her Plus ve Pro kademesinde yaklaşık %20 tasarruf sağlıyor; örneğin giriş seviyesi Plus aylık $24.99 yerine $19.99'a geliyor."
   - "18 Eylül 2026'dan önce başlayan Plus ve Pro abonelikleri, 31 Aralık 2026'ya kadar 5 saatlik limitler içinde kredisiz AI sohbet ve görsel kullanmaya devam ediyor; daha yeni abonelikler temel modelleri bir kullanım sınırına kadar ücretsiz kullanıyor."
@@ -33,11 +33,11 @@ savingTips:
   - "Free plan kredi kartı istemiyor; ödeme yapmadan önce Super Agent'ı deneyebilirsin."
 faq:
   - q: "Genspark aylık ücreti ne kadar?"
-    a: "Plus, 10.000 kredi için aylık $24.99'dan (yıllık ödemede $19.99) başlıyor ve 95.000 kredi için $199.99'a kadar çıkıyor. Pro aylık $249.99 ile $3,999.99 arasında değişiyor; Team planı ise kullanıcı başına $30."
+    a: "Plus, 10.000 kredi için aylık $24.99'dan (yıllık ödemede $19.99) başlıyor ve 95.000 kredi için $199.99'a kadar çıkıyor. Pro aylık $249.99 ile $3,999.99 arasında değişiyor; Team planı ise kullanıcı başına $35 ve her kullanıcıya 10.000 kredi veriyor."
   - q: "Genspark'ın sınırsız AI sohbeti gerçekten sınırsız mı?"
     a: "Tam olarak değil. 18 Eylül 2026'dan önce başlayıp aktif tutulan Plus ve Pro abonelikleri, 31 Aralık 2026'ya kadar AI sohbet ve görsel üretimini kredi harcamadan kullanabiliyor; kullanım 5 saatlik pencere başına sınırlı. Daha yeni abonelikler temel modelleri bir kullanım sınırına kadar ücretsiz kullanıyor, sonra aylık kredilere geçiyor; en üst seviye modeller ise her zaman kredi harcıyor."
   - q: "Genspark'ın ücretsiz planında neler var?"
-    a: "Free plan günde 100 kredi veriyor ve kredi kartı istemiyor; sohbet, sunum, belge ve araştırma özelliklerini kapsıyor. Bazı özellikler kısıtlı; örneğin Free planda sunumları dışa aktaramıyorsun."
+    a: "Free plan, ücretsiz kredilerden oluşan ömür boyu hakka ulaşana kadar günde 100 kredi veriyor, kredi kartı istemiyor ve sohbet, sunum, belge ve araştırma özelliklerini kapsıyor. Bazı özellikler kısıtlı; örneğin Free planda sunumları dışa aktaramıyorsun."
   - q: "Genspark'ta kullanılmayan krediler sonraki aya devreder mi?"
     a: "Hayır. Aylık plan kredileri her dönem sıfırlanıyor; abonelik sona erdiğinde kalanlar da orantılı iade yapılmadan geçersiz oluyor. Ayrı olarak satın aldığın kredi paketleri ise alım tarihinden itibaren 3 ay geçerli kalıyor."
   - q: "Genspark hangi şirketin?"

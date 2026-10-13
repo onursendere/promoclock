@@ -11,7 +11,7 @@ keyFeatures:
   - name: "模型与数据集Hub"
     description: "在基于Git的仓库中浏览、下载并管理开放权重模型和数据集的版本，可设为公开或私有。"
   - name: "Spaces"
-    description: "托管Gradio、Docker或静态演示应用；CPU Basic硬件免费，Nvidia T4 small每小时收费$0.40。"
+    description: "托管Gradio、Docker或静态演示应用；静态Spaces免费，新的计算型Spaces需要付费套餐，Nvidia T4 small每小时收费$0.40。"
   - name: "ZeroGPU"
     description: "Gradio Spaces按函数调用借用英伟达RTX Pro 6000 Blackwell GPU，每日配额取决于账户类型。"
   - name: "Inference Providers"
@@ -29,12 +29,12 @@ useCases:
   - "在Team套餐上为公司团队提供SSO、审计日志和私有模型的存储区域选择。"
 pricingSummary: "Hub免费使用。PRO为$9/月，含每月$2的计算额度和8倍ZeroGPU配额；Team为每位用户每月$20，Enterprise为每位用户每月$50。Spaces GPU、Inference Endpoints和额外存储按用量计费。"
 savingTips:
-  - "免费账户每月获得$0.10的Inference Providers额度；PRO把这一额度提升到$2.00，可用于Hugging Face的各类计算。"
+  - "免费账户不再每月获得Inference Providers额度，需要自行购买额度；PRO每月包含$2.00，可用于Hugging Face的各类计算。"
   - "使用ZeroGPU Spaces免费：免费账户每天有5分钟GPU时间，PRO则为40分钟。"
   - "注册超过30天且已验证邮箱的免费账户，可免费托管最多2个ZeroGPU Spaces。"
 faq:
   - q: "Hugging Face可以免费使用吗？"
-    a: "可以。账户、公开模型和数据集下载、CPU Basic Spaces以及ZeroGPU Spaces都不收费。你需要付费的是PRO、Team或Enterprise套餐、升级的Spaces硬件、Inference Endpoints，以及超出每月免费额度的推理用量。"
+    a: "可以。账户、公开模型和数据集下载、静态Spaces以及最多2个ZeroGPU Spaces都不收费。你需要付费的是PRO、Team或Enterprise套餐、使用算力的新Gradio或Docker Spaces、升级的Spaces硬件、Inference Endpoints，以及推理额度。"
   - q: "Hugging Face PRO包含什么？"
     a: "PRO为$9/月，新增每月$2.00的计算额度、每天40分钟且享有最高排队优先级的ZeroGPU时间、最多10个ZeroGPU Spaces的托管、Spaces Dev Mode，以及私有数据集的查看器。"
   - q: "英伟达要收购Hugging Face了吗？"
@@ -48,8 +48,8 @@ faq:
 Hugging Face运营着Hub，一个供开放AI模型、数据集和Spaces应用共享的平台。大多数活动都是公开且免费的；付费套餐新增存储空间、计算额度和组织管理功能。
 
 ## 套餐一览
-- **Free：** 公开仓库、CPU Basic Spaces、每天5分钟ZeroGPU时间和每月$0.10推理额度。
-- **PRO（$9/月）：** 10倍私有存储、20倍推理额度、8倍ZeroGPU配额和Dev Mode。
+- **Free：** 公开仓库、静态Spaces和每天5分钟ZeroGPU时间；推理需购买额度。
+- **PRO（$9/月）：** 10倍私有存储、每月$2.00推理额度、8倍ZeroGPU配额、计算型Spaces和Dev Mode。
 - **Team（每用户每月$20）：** SSO、存储区域选择、审计日志和资源组。
 - **Enterprise（每用户每月$50）：** SCIM账户配置、最高的用量上限和专属支持。
 
@@ -59,4 +59,4 @@ Hugging Face运营着Hub，一个供开放AI模型、数据集和Spaces应用共
 2026年9月3日，英伟达宣布已达成协议收购Hugging Face。英伟达表示该平台将继续支持来自整个生态系统的开源和开放权重模型。
 
 ## 局限性
-ZeroGPU只支持Gradio SDK，不支持torch.compile，免费账户的排队优先级低于付费账户。每月$0.10的免费推理额度很快就会用完。不同仓库的模型许可协议各不相同，商用前需逐一检查。
+ZeroGPU只支持Gradio SDK，不支持torch.compile，免费账户的排队优先级低于付费账户。免费账户不含推理额度，即使轻度使用API也需要购买额度。不同仓库的模型许可协议各不相同，商用前需逐一检查。

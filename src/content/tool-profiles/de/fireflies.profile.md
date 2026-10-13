@@ -54,6 +54,6 @@ Fireflies passt zu Teams, die viele externe Anrufe führen und die Ergebnisse in
 ## Grenzen
 - Der Free-Speicher stoppt bei 400 Minuten, und KI-Zusammenfassungen in Free sind begrenzt.
 - Pro-Speicher ist bei 8.000 Minuten pro Sitz gedeckelt; unbegrenzter Speicher startet in Business.
-- Uploads, API-Übertragungen und Dialer-Anrufe teilen sich eine Monatsobergrenze von 3.000 Minuten pro Quelle für Einzelnutzer, mit Overage von $0,01 pro Minute.
+- Uploads, API-Übertragungen und Dialer-Anrufe teilen sich eine Monatsobergrenze von 3.000 Minuten pro Quelle für Einzelnutzer, mit Overage von $0.01 pro Minute.
 - Jedes Workspace-Mitglied zählt in Bezahlplänen als bezahlter Sitz.
 - Manche Gäste mögen keinen Bot im Anruf; die Desktop-App vermeidet das, speichert aber keine Aufnahme-Datei.

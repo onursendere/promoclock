@@ -70,7 +70,7 @@ Claude Code est l’outil de code agentique d’Anthropic pour le terminal, VS C
 
 Claude Code partage un même quota avec le chat Claude, mesuré par session glissante de 5 heures, avec un plafond hebdomadaire en plus. Le 6 mai 2026, Anthropic [a doublé les limites de 5 heures de Claude Code](/deals/claude-code-5h-limits-doubled/) et l’a exempté du ralentissement aux heures de pointe en semaine sur Pro et Max. Depuis le 14 septembre, ses limites hebdomadaires sont [définitivement supérieures de 25 %](/deals/claude-code-weekly-plus25-permanent/). Le chat Claude s’épuise toujours plus vite en semaine, de 13 h à 19 h UTC, comme le montre notre [horloge des heures de pointe en direct](/) ; le [guide des limites d’utilisation de Claude](/blog/claude-usage-limits/) donne les détails.
 
-Les abonnés Pro et Max individuels actifs le 23 septembre peuvent obtenir [$100 ou $250 de crédit cloud Claude Code](/deals/claude-code-cloud-credit-2026/) jusqu’au 7 octobre 2026. Idéal pour : le travail d’agent sur tout un dépôt.
+Les abonnés Pro et Max individuels qui ont activé [$100 ou $250 de crédit cloud Claude Code](/deals/claude-code-cloud-credit-2026/) au plus tard le 7 octobre 2026 peuvent l’utiliser pour des sessions cloud jusqu’au 4 novembre. Idéal pour : le travail d’agent sur tout un dépôt.
 
 ### OpenAI Codex
 
@@ -80,7 +80,7 @@ Les limites de Codex sont des estimations. OpenAI estime de 10 à 100 messages l
 
 ### Warp
 
-Warp est un terminal doté d’un agent de code intégré, et son client est open source sous licence AGPL depuis le 28 avril 2026. Warp Free inclut le terminal et l’Agent CLI, mais aucune utilisation d’IA incluse : vous apportez votre propre clé API. Build coûte $20/mois avec 1 500 crédits, et Max $200/mois avec 18 000. Idéal pour : les ingénieurs DevOps et les gros utilisateurs du terminal.
+Warp est un terminal doté d’un agent de code intégré, et son client est open source sous licence AGPL depuis le 28 avril 2026. Warp Free inclut le terminal et l’Agent CLI, mais aucune utilisation d’IA incluse : vous apportez votre propre clé API. Build coûte $20/mois avec $20 d’utilisation d’agent aux tarifs de l’API, et Max $200/mois avec $200 d’utilisation. Idéal pour : les ingénieurs DevOps et les gros utilisateurs du terminal.
 
 ## Quel éditeur de code IA adopter ?
 

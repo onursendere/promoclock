@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free costs $0 with unlimited recordings but capped AI features. Pro is $29/seat/month billed monthly or $18 billed annually, and Business is $39 monthly or $29 annually. Enterprise has custom pricing. Some regions see local currency, such as GBP in the UK."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, api]
 savingTips:
   - "Annual billing cuts Pro from $29 to $18 per seat per month, and the pricing page advertises up to 40% off."
@@ -54,7 +54,7 @@ sources:
   - https://tldv.io/
   - https://tldv.io/blog/tldv-honest-review/
   - https://intercom.help/tldv/en/articles/6082483-what-is-tl-dv-s-pricing
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is tl;dv?
 tl;dv is a meeting recorder built around team knowledge. A bot joins Google Meet, Zoom or Teams calls from your calendar, or the desktop app records locally, and each call becomes a video, a translatable transcript and AI notes.

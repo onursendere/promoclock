@@ -28,7 +28,7 @@ pricing:
   currency: USD
   billing: month
   summary: "The Standard tier is free with a Google Account. Higher limits come with Google AI Plus at $4.99/month, Pro at $19.99/month and Ultra from $99.99/month (US prices), or with qualifying Workspace and Google Cloud plans."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android]
 savingTips:
   - "The free Standard tier allows up to 100 notebooks with 50 sources each, so test your workload there before subscribing."
@@ -52,7 +52,7 @@ sources:
   - https://gemini.google/us/subscriptions/
   - https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/
   - https://notebook.google/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is NotebookLM?
 NotebookLM is Google's source-grounded research notebook, now called Gemini Notebook. You create a notebook, add material you trust, and answers point back to quotes from those sources. The old notebooklm.google address now redirects to notebook.google.

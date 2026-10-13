@@ -174,13 +174,13 @@
       "title": "Claude artifact kullanım promosyonu: artifact oluşturduktan sonra %50 daha az oturum kullanımı (1–15 Ekim 2026)",
       "headline": "Claude artifact'leri: %50 daha az oturum kullanımı",
       "value": "%50 daha az kullanım",
-      "audience": "Pro, Max, Team",
-      "summary": "1–15 Ekim 2026 arasında, Claude'da bir artifact oluşturduktan ya da düzenledikten sonra yaptığın işler beş saatlik oturum limitine %50 daha az sayılıyor. Otomatik uygulanıyor; haftalık limitler değişmiyor.",
+      "audience": "Free, Pro, Max, Team",
+      "summary": "15 Ekim 2026'ya kadar, Claude'da bir artifact oluşturduktan ya da düzenledikten sonra yaptığın işler beş saatlik oturum limitine %50 daha az sayılıyor. Promosyon Pro, Max ve Team'de 1 Ekim'de başladı, Free planlar 7 Ekim'de dahil oldu; haftalık limitler değişmiyor.",
       "scope": "Claude web, masaüstü, mobil ve bulut Cowork görevleri",
       "terms": [
         "Sohbetlerde, artifact oluşturulduktan ya da düzenlendikten sonraki 10 mesaj indirimli sayılıyor; yanıt başına en fazla 15 adım.",
         "Belge, Sunum ya da Tasarım ile başlatılan Cowork görevlerinde yaklaşık 45 dakikalık iş indirimli sayılıyor.",
-        "Claude Code, API, Claude in Slack, yerel Cowork görevleri ile Free ve Enterprise planları hariç."
+        "Claude Code, API, Claude in Slack, yerel ve zamanlanmış Cowork görevleri, bağımsız Claude Design uygulaması ile Enterprise planları hariç."
       ]
     },
     "elevenlabs-v4-launch-3x-credits": {
@@ -210,10 +210,12 @@
       "title": "SWE-2, Devin Desktop'ta (eski adıyla Windsurf) ve Devin CLI'da 16 Ekim 2026'ya kadar ücretsiz",
       "headline": "Devin Desktop'ta SWE-2 16 Ekim'e kadar ücretsiz",
       "value": "Ücretsiz SWE-2",
-      "audience": "Pro ve Max planları",
-      "summary": "Cognition'ın SWE-2 kodlama modeli, Devin Desktop'ta (yeniden adlandırılan Windsurf editörü) ve Devin CLI'da Pro ($20/ay) ve Max ($200/ay) planlarında 16 Ekim 2026'ya kadar ücretsiz kullanılabiliyor.",
+      "audience": "Self servis Pro, Max ve Teams planları",
+      "summary": "Cognition'ın SWE-2 kodlama modeli, Devin Desktop'ta (yeniden adlandırılan Windsurf editörü) ve Devin CLI'da, Pro ($20/ay) ve Max ($200/ay) dahil self servis planlarda 16 Ekim 2026'ya kadar ücretsiz kullanılabiliyor.",
       "terms": [
-        "SWE-2, 10 Eylül 2026'da Cognition'ın en yeni modeli olarak piyasaya çıktı."
+        "SWE-2, 10 Eylül 2026'da Cognition'ın en yeni modeli olarak piyasaya çıktı.",
+        "Devin'in model dokümanları son ücretsiz gün olarak 15 Ekim'i veriyor; yoğun kullanımı ondan önce planla.",
+        "Ücretsiz dönemden sonra SWE-2, standart model fiyatlarıyla faturalandırılır."
       ]
     },
     "adobe-firefly-30-off-first-year-2026": {
@@ -224,6 +226,7 @@
       "summary": "Yeni Firefly aboneleri ilk yıl %30 daha az ödüyor: Pro Plus $49.99 yerine $34.97/ay, Premium $199.99 yerine $139.91/ay. Teklif 21 Ekim 2026'ya kadar devam ediyor.",
       "terms": [
         "12 aylık taahhüt gerekiyor; ikinci yıldan itibaren normal fiyat uygulanıyor.",
+        "Adobe'nin planlar sayfası, ilk yıl için seçili Firefly modellerinde sınırsız üretim de ekliyor.",
         "Eğitim, OEM ve toplu lisans müşterileri için geçerli değil.",
         "Birleşik Krallık'ta ilk yıl Pro Plus aylık £33.58, Premium aylık £140.20."
       ]
@@ -291,6 +294,125 @@
       ],
       "terms": [
         "Öğrenci başına bir çalışma alanı; diğer Lovable teklifleriyle birleştirilemez."
+      ]
+    },
+    "claude-for-startups-team-year-2026": {
+      "title": "Claude for Startups: bir yıl ücretsiz Claude Team ve $1,000 API kredisi (Ekim 2026'dan beri kapasite aşıldı)",
+      "headline": "Claude for Startups: ücretsiz Team yılı (duraklatıldı)",
+      "value": "1 yıl Team + $1,000",
+      "audience": "Claude for Startups programına kabul edilen girişimler",
+      "summary": "6 Ekim 2026'da Anthropic, Claude for Startups programına beş koltuğa kadar bir yıl ücretsiz Claude Team ve $1,000 API kredisi ekledi. Birkaç gün içinde iki teklifte de kapasitenin aşıldığını ve tüm başvuruları yeniden inceleyeceğini duyurdu; teklifleri daha önce talep eden girişimler onları koruyor.",
+      "terms": [
+        "API kredileri yalnızca Anthropic'in kendi Claude API'sinde geçerli; Amazon Bedrock ya da Google Vertex AI'da kullanılamaz.",
+        "Programın geri kalanı, $45,000'a varan iş ortağı indirimleri ve ofis saatleri dahil, başvurulara açık kalmaya devam ediyor."
+      ]
+    },
+    "magnific-one-unlimited-oct-2026": {
+      "title": "Magnific (Freepik): 15 Ekim 2026'ya kadar Premium+, Pro ve Business'ta sınırsız Magnific One görsel üretimi",
+      "headline": "Magnific One: 15 Ekim'e kadar sınırsız",
+      "value": "Sınırsız Magnific One",
+      "audience": "Premium+, Pro ve Business aboneleri",
+      "summary": "Freepik'in AI paketinin yeni adı olan Magnific, yeni Magnific One görsel modelini Premium+, Pro ve Business planlarında 15 Ekim 2026'ya kadar masaüstünde sınırsız yapıyor. Max kalite yine kredi harcıyor.",
+      "terms": [
+        "Sınırsız kapsam, High kalitede Draft ve Final modlarını 2K ve 4K çözünürlükte içeriyor.",
+        "10 Ekim'de sona eren sınırsız Seedream 5.0 Pro teklifinin yerini alıyor."
+      ]
+    },
+    "elevenlabs-starter-1-first-month-2026": {
+      "title": "ElevenLabs Starter ilk ay $1: yeni abonelere %83 indirim (18 Ekim 2026'ya kadar)",
+      "headline": "ElevenLabs Starter: ilk ay $1",
+      "value": "İlk ay $1",
+      "audience": "Yeni Starter aboneleri",
+      "summary": "Yeni ElevenLabs aboneleri 18 Ekim 2026'ya kadar Starter planının ilk ayını $6 yerine $1'a alabiliyor. Creator planının ilk ayı da $22 yerine $11 olarak gösteriliyor.",
+      "terms": [
+        "Yalnızca ilk ay için geçerli; sonrasında Starter aylık $6, Creator aylık $22 üzerinden yenilenir.",
+        "Creator indiriminin fiyat sayfasında bitiş tarihi yok."
+      ]
+    },
+    "runway-enterprise-two-months-free-2026": {
+      "title": "Runway Enterprise: 31 Ekim 2026'ya kadar anlaşma imzalayan şirketlere 2 ay kullanım ücretsiz",
+      "headline": "Runway Enterprise: 2 ay kullanım ücretsiz",
+      "value": "2 ay ücretsiz",
+      "audience": "Runway Enterprise anlaşması imzalayan şirketler",
+      "summary": "Runway, 31 Ekim 2026'ya kadar Enterprise anlaşması imzalayan şirketlere 2 ay kullanımı ücretsiz veriyor. Satış ekibi üzerinden yürüyen bir teklif; self servis planlarda yok.",
+      "steps": [
+        "runway.com'daki banner üzerinden Runway'in satış ekibiyle iletişime geç.",
+        "Enterprise anlaşmasını 31 Ekim'e kadar imzala."
+      ],
+      "terms": [
+        "Yalnızca Enterprise anlaşmaları için geçerli; Free, Standard, Pro, Max ve Team planları hariç.",
+        "Runway'in ayrı teklif koşulları geçerlidir."
+      ]
+    },
+    "kiro-startups-pro-plus-credits-2026": {
+      "title": "Kiro for Startups: erken aşamadaki girişimlere ücretsiz Kiro Pro+ ve bir yıllık kredi (31 Aralık 2026'ya kadar başvur)",
+      "headline": "Girişimlere ücretsiz Kiro Pro+",
+      "value": "Ücretsiz Pro+ ve kredi",
+      "audience": "AWS hesabı olan, erken aşamadan Series A'ya girişimler",
+      "summary": "AWS, uygun girişimlere ücretsiz Kiro Pro+ erişimi ve bir yıllık Kiro promosyon kredisi veriyor. Başvurular 7 Nisan – 31 Aralık 2026 arasında açık.",
+      "steps": [
+        "Kiro'nun girişim programına şirketinin AWS hesap kimliğiyle (AWS account ID) başvur.",
+        "Ekibine uyan Pro+ katmanını seç; kredi miktarı katmana göre değişiyor."
+      ],
+      "terms": [
+        "Yalnızca AWS hesabı olan, erken aşamadan Series A'ya kadar şirketlerle sınırlı.",
+        "Krediler AWS hesabına verildikten bir yıl sonra sona eriyor."
+      ]
+    },
+    "gemini-3-8-flash-intro-pricing-2026": {
+      "title": "Gemini 3.8 Flash API tanıtım fiyatı: 31 Aralık 2026'ya kadar 1M token başına $0.75 girdi, $3.75 çıktı",
+      "headline": "Gemini 3.8 Flash API 2027'ye kadar yarı fiyat",
+      "value": "API fiyatlarında %50 indirim",
+      "audience": "Ücretli Gemini API katmanındaki geliştiriciler",
+      "summary": "31 Aralık 2026'ya kadar Gemini 3.8 Flash, Gemini API'nin ücretli Standard katmanında 1M girdi tokenı için $0.75, 1M çıktı tokenı için $3.75. 1 Ocak 2027'den itibaren fiyatlar iki katına çıkıp $1.50 ve $7.50 oluyor.",
+      "terms": [
+        "Bağlam önbellekleme (context caching) de 2026 sonuna kadar yarı fiyat.",
+        "Gemini API'nin ücretsiz katmanı ücretsiz kalmaya devam ediyor."
+      ]
+    },
+    "synthesia-syren-launch-credits-2026": {
+      "title": "Synthesia Syren lansmanı: her kullanıcıya bir ay geçerli ücretsiz Syren kredisi (Ekim 2026)",
+      "headline": "Synthesia Syren: ücretsiz lansman kredisi",
+      "value": "Ücretsiz Syren kredisi",
+      "audience": "Ücretsiz plan dahil tüm Synthesia kullanıcıları",
+      "summary": "Synthesia, AI video ajanı Syren'i 9 Ekim 2026'da beta olarak başlattı ve her kullanıcıya ilk videosunu yapması için yalnızca Syren'de geçerli ücretsiz kredi veriyor. Krediler bir ay geçerli; sonrasında Syren normal plan kredilerini kullanıyor.",
+      "steps": [
+        "Synthesia'ya giriş yap ve soldaki menüden Syren'i aç.",
+        "İstediğin videoyu anlat ya da dosyalar ekle, sonra sohbet ederek şekillendir."
+      ],
+      "terms": [
+        "Syren beta aşamasında ve videoları en fazla üç dakika sürüyor.",
+        "Lansman kredileri yalnızca Syren'de geçerli."
+      ]
+    },
+    "kiro-student-free-year-2026": {
+      "title": "Üniversite öğrencilerine ücretsiz Kiro: bir yıl boyunca ayda 1.000 kredi",
+      "headline": "Öğrencilere bir yıl ücretsiz Kiro",
+      "value": "1 yıl ücretsiz",
+      "audience": "Uygun üniversitelerdeki öğrenciler",
+      "summary": "Uygun üniversitelerdeki öğrenciler bir yıl boyunca ayda 1.000 Kiro kredisini ücretsiz alıyor; bu, Kiro Pro'nun aylık hakkıyla aynı. Yılın sonunda hesap Free katmanına geçiyor ve çalışmaların yerinde kalıyor.",
+      "steps": [
+        "Kiro'ya üniversite e-postana bağlı bir hesapla giriş yap.",
+        "Hesap kullanım sayfanda Kiro Students banner'ındaki doğrula düğmesine tıkla.",
+        "Öğrenci doğrulamasını SheerID ile tamamla."
+      ],
+      "terms": [
+        "18 yaşında ya da daha büyük olmalı ve listelenen bir üniversitede okuyor olmalısın.",
+        "Krediler sonraki aya devretmiyor ve ek kredi alınamıyor."
+      ]
+    },
+    "codex-for-open-source-chatgpt-pro-2026": {
+      "title": "Codex for Open Source: açık kaynak bakımcılarına Codex'li ChatGPT Pro'da altı ay",
+      "headline": "Codex for Open Source: 6 ay Pro",
+      "value": "6 ay Pro",
+      "audience": "Yaygın kullanılan açık kaynak projelerin bakımcıları",
+      "summary": "OpenAI'ın Codex for Open Source programı, onaylanan bakımcılara Codex'li altı ay ChatGPT Pro veriyor. Projeler ayrıca $1 milyonluk bir fondan API kredisi, çekirdek bakımcılar ise Codex Security erişimi için başvurabiliyor.",
+      "steps": [
+        "OpenAI'ın Codex for Open Source sayfasındaki formla başvur."
+      ],
+      "terms": [
+        "Onay vaka bazında veriliyor; ana hedef kitle çekirdek bakımcılar ve yaygın kullanılan herkese açık projelerin liderleri.",
+        "Listelenmiş bir başvuru son tarihi yok."
       ]
     }
   },
@@ -637,6 +759,24 @@
     },
     "pixel-10-pro-ai-pro-deadline-2026": {
       "title": "Pixel 10 Pro'yu 12 aylık Google AI Pro ile satın almanın son günü"
+    },
+    "magnific-one-unlimited-end-2026": {
+      "title": "Sınırsız Magnific One üretimi sona eriyor"
+    },
+    "elevenlabs-starter-1-end-2026": {
+      "title": "ElevenLabs Starter'ın ilk ayını $1'a almanın son günü"
+    },
+    "runway-enterprise-offer-end-2026": {
+      "title": "2 ay kullanım ücretsiz Runway Enterprise anlaşması imzalamanın son günü"
+    },
+    "kiro-startups-deadline-2026": {
+      "title": "Girişimler için ücretsiz Kiro Pro+ başvurusunun son günü"
+    },
+    "gemini-3-8-flash-intro-pricing-end-2026": {
+      "title": "Gemini 3.8 Flash API tanıtım fiyatı sona eriyor; fiyatlar 1 Ocak'ta iki katına çıkıyor"
+    },
+    "claude-for-startups-launch-2026": {
+      "title": "Claude for Startups'a bir yıl ücretsiz Claude Team ve $1,000 API kredisi eklendi"
     }
   }
 }

@@ -26,7 +26,7 @@ useCases:
 pricing:
   freePlan: true
   summary: "Preview-size cutouts are free on the website; full resolution costs 1 credit per image through monthly subscriptions starting at 40 credits or pay-as-you-go packs. Subscriptions end automatically on 1 December 2026, when unused pay-as-you-go credits also expire."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, windows, macos, linux, api]
 savingTips:
   - "Annual subscribers get an automatic pro-rata refund for any paid time beyond 1 December 2026."
@@ -48,7 +48,7 @@ sources:
   - https://www.remove.bg/pricing
   - https://www.remove.bg/faq
   - https://www.canva.com/pricing/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is remove.bg?
 remove.bg is an automatic background remover that became part of Canva in 2021. It works on the website, in desktop apps for Windows, Mac and Linux, through an API and via plugins such as Photoshop and Figma.

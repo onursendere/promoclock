@@ -33,7 +33,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Hobby & Student is $19/month or $10/month billed yearly, with 225,000 credits. Professional is $29/month or $22 yearly, and Max is $59/month or $44 yearly with 2,000,000 credits that roll over for 12 months."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android]
 savingTips:
   - "Yearly billing is up to 50% cheaper; Hobby & Student falls from $19 to $10 a month."
@@ -56,7 +56,7 @@ sources:
   - https://sudowrite.com/faq
   - https://sudowrite.com/muse
   - https://feedback.sudowrite.com/changelog/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Sudowrite?
 Sudowrite is an editor built for long-form fiction rather than emails or marketing copy. Each project holds your manuscript, a Story Bible and a history of generated cards, so you can compare AI suggestions side by side before inserting any of them.

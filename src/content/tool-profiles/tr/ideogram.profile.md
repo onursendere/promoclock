@@ -30,7 +30,7 @@ useCases:
 pricingSummary: "Ücretsiz hesaplar haftalık 30 kredi alıyor. Plus aylık $20 ve 2.400 kredi, Pro aylık $60 ve 7.500 kredi, Team kullanıcı başına aylık $30 ve 3.600 kredi (en az 2 kullanıcı); yıllık ödeme Plus'ı $15'e, Pro'yu $42'ye ve Team'i $20'ye indiriyor."
 savingTips:
   - "Yıllık ödeme Plus'ı aylık $15'e (yılda $180) ve Pro'yu aylık $42'ye (yılda $504) getiriyor."
-  - "Ek öncelikli krediler $4 ve abonelik kredilerinin aksine, kullanmazsan devrediyor."
+  - "Ek krediler tanesi bir sent; her seferinde $1 ile $300 arasında alınabilir ve aylık plan kredilerinin aksine satın alımdan sonra 365 gün geçerli kalır."
   - "Ücretli planlar sınırsız yavaş kredi içeriyor, böylece acil olmayan görseller yavaş kuyrukta bekleyebilir."
   - "Ücretsiz hesaplar Google, Apple ya da Microsoft ile giriş yaptığında haftalık 30 kredi alıyor."
 faq:

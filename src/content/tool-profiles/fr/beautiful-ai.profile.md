@@ -11,8 +11,8 @@ keyFeatures:
     description: "Plus de 300 mises en page qui gèrent pour vous l’espacement, l’alignement et la hiérarchie, et ajustent le design automatiquement dès que le contenu change."
   - name: "Workflow Create with AI"
     description: "Partez d’un prompt, d’un plan ou d’un document, modifiez le plan textuel, puis générez des diapositives soignées et affinez-les une à une."
-  - name: "Thèmes et contrôles de marque"
-    description: "Créez un thème sur mesure avec vos couleurs, polices, logos et pieds de page, puis basculez toute une présentation vers un autre thème en un clic."
+  - name: "Brand Kits et contrôles de marque"
+    description: "Les Brand Kits, appelés thèmes jusqu’en septembre 2026, regroupent vos couleurs, polices, logos et préférences d’IA, et vous pouvez basculer toute une présentation vers un autre kit en un clic."
   - name: "Visualisation de données"
     description: "Des graphiques et tableaux dynamiques qui se redessinent quand les chiffres changent, avec liaison de données en direct aux graphiques dans la formule Team."
   - name: "Statistiques de consultation"
@@ -46,7 +46,7 @@ faq:
 ## Qu’est-ce que Beautiful.ai ?
 Beautiful.ai est un outil de présentation dans le navigateur qui prend les décisions de design à votre place. Vous choisissez une mise en page Smart Slide, ajoutez du contenu, et la diapositive se réorganise d’elle-même : espacement, alignement et proportions des graphiques restent cohérents à mesure que la présentation s’étoffe.
 
-La partie IA a été repensée en mars 2026 avec Create with AI, que l’entreprise présente comme Beautiful.ai 3.0. Vous choisissez d’abord un thème, fournissez un prompt, un plan ou un document, relisez un plan purement textuel, puis générez des diapositives mises en forme, en régénérant une seule diapositive plutôt que toute la présentation.
+La partie IA a été repensée en mars 2026 avec Create with AI, que l’entreprise présente comme Beautiful.ai 3.0. Vous choisissez d’abord un Brand Kit, fournissez un prompt, un plan ou un document, relisez un plan purement textuel, puis générez des diapositives mises en forme, en régénérant une seule diapositive plutôt que toute la présentation.
 
 ## Pour qui ?
 Il convient à ceux qui présentent souvent sans vouloir se battre avec la mise en page, et aux équipes dont chaque présentation doit respecter une charte de marque. Les licences Team ajoutent la collaboration en direct, une bibliothèque de diapositives partagée, le verrouillage de diapositives, des statistiques d’engagement et la traduction dans plus de 100 langues.

@@ -9,14 +9,14 @@ keyTakeaways:
   - "Adobe Firefly Standard는 2,000크레딧과 무제한 표준 이미지 생성을 포함해 월 US$9.99이며, Adobe는 Firefly 모델 결과물을 상업적으로 이용할 수 있다고 밝힙니다."
   - "이미지 속 텍스트를 읽기 쉽게 넣으려면 Ideogram이 가장 좋습니다. 무료 계정은 주 30크레딧을 받고, Plus는 월 $20 또는 연간 결제 시 월 $15입니다."
   - "Recraft는 모든 플랜에서 편집 가능한 SVG 벡터를 생성하지만, 무료 플랜 이미지는 Recraft 소유라 상업적으로 쓸 수 없습니다. Basic은 월 $12입니다."
-  - "2026년 10월 진행 중인 이미지 특가는 두 가지입니다. 10월 21일까지 Firefly Pro Plus·Premium 30% 할인, 10월 10일까지 Magnific의 Seedream 5.0 Pro 무제한입니다."
+  - "2026년 10월 중순 진행 중인 이미지 특가는 두 가지입니다. 10월 21일까지 Firefly Pro Plus·Premium 30% 할인, 10월 15일까지 Magnific의 Magnific One 생성 무제한입니다."
 faq:
   - q: "가장 좋은 무료 AI 이미지 생성기는 무엇인가요?"
     a: "Gemini와 ChatGPT는 둘 다 무료 계정에서 이미지를 생성하고 편집합니다. 전용 도구 중에서는 Leonardo.ai가 매일 Fast 토큰 150개를 충전해 주고, Krea는 하루 100 컴퓨트 유닛, Ideogram은 주 30크레딧, Adobe Firefly는 매일 무료 생성을 제공합니다. 무료 이미지는 공개되는 경우가 많고, Recraft, Krea, Freepik의 무료 플랜은 상업적 이용이 불가능합니다."
   - q: "Midjourney와 Adobe Firefly 중 무엇이 더 나은가요?"
     a: "개성 있고 완성도 높은 아트워크에는 Midjourney가 낫고, 무료 플랜 없이 월 $10부터 시작합니다. 상업용 작업과 Creative Cloud 작업에는 Adobe Firefly가 낫습니다. Standard는 무제한 표준 이미지 생성을 포함해 월 US$9.99이며, Adobe는 라이선스 콘텐츠와 퍼블릭 도메인 콘텐츠로 자체 모델을 학습시킵니다. 월 US$19.99의 Firefly Pro에는 웹·모바일용 Photoshop도 포함됩니다."
   - q: "Ideogram 요금은 얼마인가요?"
-    a: "Ideogram은 주 30크레딧으로 무료로 쓸 수 있습니다. Plus는 2,400크레딧에 월 $20, Pro는 7,500크레딧에 월 $60, Team은 최소 2명부터 사용자당 월 $30입니다. 연간 결제 시 Plus는 월 $15, Pro는 $42, Team은 $20로 내려가며, $4짜리 추가 충전 크레딧은 다음 달로 이월됩니다."
+    a: "Ideogram은 주 30크레딧으로 무료로 쓸 수 있습니다. Plus는 2,400크레딧에 월 $20, Pro는 7,500크레딧에 월 $60, Team은 최소 2명부터 사용자당 월 $30입니다. 연간 결제 시 Plus는 월 $15, Pro는 $42, Team은 $20로 내려가며, 추가 크레딧은 1크레딧당 1센트이며 365일간 유효합니다."
   - q: "Leonardo AI 요금은 얼마인가요?"
     a: "Leonardo.ai 무료 플랜은 하루 Fast 토큰 150개를 주며, 무료 이미지는 모두 공개됩니다. Essential은 월 $12, Premium은 $30, Ultimate는 $60이고, 연간 결제 시 각각 월 $10, $24, $48입니다(세금 별도). 쓰지 않은 유료 토큰은 최대 3개월분까지 적립되며, Essential이라면 25,500토큰입니다."
   - q: "AI 이미지 생성기로 만든 이미지는 비공개인가요?"
@@ -89,7 +89,7 @@ Leonardo.ai 무료 플랜은 매일 Fast 토큰 150개를 충전해 주지만, �
 
 ### Recraft
 
-Recraft Basic은 1,000크레딧에 월 $12(연간 결제 시 $10), Pro는 2,000크레딧에 월 $20부터, Teams는 최소 2석부터 좌석당 $22부터입니다. 벡터 생성은 Free를 포함한 모든 플랜에 들어 있으며 편집 가능한 SVG 파일을 만들어 줍니다. 2026년 5월 출시된 Recraft V4.1은 Vector와 Utility를 포함해 8가지 버전으로 제공됩니다.
+Recraft Basic은 1,000크레딧에 월 $12(연간 결제 시 $10), Pro는 2,000크레딧에 월 $20부터, Teams는 최소 2석부터 좌석당 $22부터입니다. 벡터 생성은 Free를 포함한 모든 플랜에 들어 있으며 편집 가능한 SVG 파일을 만들어 줍니다. 2026년 5월 출시된 Recraft V4.1은 이제 Vector, Utility, 저가형 Flash 모델을 포함해 9가지 버전으로 제공됩니다.
 
 ### Krea
 
@@ -140,7 +140,7 @@ ChatGPT, Gemini, Canva는 클라이언트 작업에 AI 이미지를 쓰기 전�
 있습니다. 2026년 10월 기준 Adobe Firefly와 Magnific이 기간 한정 프로모션을 진행 중이며, 미국 대학생은 Google AI Pro나 ChatGPT Plus를 무료로 받을 수 있습니다.
 
 - [Firefly Pro Plus·Premium 30% 할인](/deals/adobe-firefly-30-off-first-year-2026/): 첫 구독자는 첫해 동안 Pro Plus를 US$49.99 대신 월 US$34.97, Premium을 US$199.99 대신 월 US$139.91에 이용합니다. 2026년 10월 21일 종료.
-- [Magnific의 Seedream 5.0 Pro 무제한](/deals/magnific-unlimited-seedream-oct-2026/): 2026년 10월 10일까지 구독자에게 1.5K 해상도 생성 무제한.
+- [Magnific의 Magnific One 무제한](/deals/magnific-one-unlimited-oct-2026/): 2026년 10월 15일까지 Premium+, Pro, Business 플랜에서 2K·4K 해상도 High 품질 생성 무제한. 무제한 Seedream 5.0 Pro 혜택은 10월 10일에 종료됐습니다.
 - [Google AI Pro 1년 무료](/deals/google-ai-pro-students-2026/): 2026년 12월 31일까지 등록하는, 자격 요건을 갖춘 미국 대학생 대상.
 - [ChatGPT Plus 4개월 무료](/deals/chatgpt-plus-students-back-to-school-2026/): 2026년 10월 31일까지 신청하는, 자격 요건을 갖춘 미국 대학생 대상.
 

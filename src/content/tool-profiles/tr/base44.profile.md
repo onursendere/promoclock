@@ -1,7 +1,7 @@
 ---
 summary: "Base44, Wix'in Haziran 2025'te satın aldığı, kod gerektirmeyen bir AI uygulama oluşturucusu. Bir uygulamayı, web sitesini ya da AI ajanını sade bir dille anlatırsın; Base44 da onu veritabanı, kullanıcı girişi ve barındırma dahil olarak üretir. Kurucular, küçük işletmeler ve öğrenciler onu ayrı bir backend kurmadan iç araçlar ve müşteri uygulamaları yayınlamak için kullanır."
-metaTitle: "Base44 fiyatları, ücretsiz plan ve krediler (2026)"
-metaDescription: "Base44 fiyatları 2026: 25 mesaj kredili ücretsiz plan, Starter için aylık $20, %50 öğrenci indirimi ve mesaj ile entegrasyon kredilerinin nasıl işlediği."
+metaTitle: "Base44 fiyatları 2026: ücretsiz, Starter $20, öğrenciye %50"
+metaDescription: "Base44, ayda 25 mesaj kredisiyle ücretsiz. Starter aylık $20 ($16 yıllık faturalandırmada), Builder $50, Pro $100; öğrenciler 12 aya kadar %50 indirim alır."
 bestFor:
   - "Teknik bilgisi olmayan kurucular"
   - "Kendi aracını yapan küçük işletmeler"

@@ -1,7 +1,7 @@
 ---
 summary: "Semrush is an SEO and AI search visibility platform from Semrush Holdings, which Adobe acquired in April 2026. It pairs keyword research, rank tracking and site audits with monitoring of how ChatGPT, Gemini, Perplexity and Google AI answers mention a brand. Agencies, in-house SEO teams and content marketers use it to plan and measure search work."
-metaTitle: "Semrush Pricing 2026: Free Plan, Trial & Plan Limits"
-metaDescription: "Semrush pricing in 2026: the free plan's 10 daily reports, SEO at $139 a month, Starter, Pro+ and Advanced, the 7-day trial and alternatives."
+metaTitle: "Semrush Pricing 2026: Plans From $139/mo, Free Plan & Trial"
+metaDescription: "Semrush costs $139/month for SEO, $199 for Starter, $299 for Pro+ and $549 for Advanced. The free plan gives 10 reports a day; most toolkits have a 7-day trial."
 bestFor:
   - "SEO specialists and consultants"
   - "Agencies reporting to clients"
@@ -32,7 +32,7 @@ pricing:
   currency: USD
   billing: month
   summary: "The Free plan gives 1 demo project and 10 reports a day. SEO costs $139/month, Starter $199, Pro+ $299 and Advanced $549; annual billing cuts SEO to $117.33/month. Enterprise is quoted on request."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api, browser-extension]
 savingTips:
   - "Annual billing saves up to 17%, but the whole year is charged upfront rather than spread monthly."
@@ -56,7 +56,7 @@ sources:
   - https://www.semrush.com/kb/1608-semrush-one
   - https://www.semrush.com/kb/1536-content-toolkit-pricing-and-limits
   - https://news.adobe.com/news/2026/04/adobe-completes-semrush-acquisition
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Semrush?
 Semrush is a browser-based marketing platform organized into toolkits. Every paid plan bundles the SEO Toolkit with AI visibility features, and specialist toolkits for Local, Content, Social, Advertising, AI PR and Traffic & Market are bought separately and added on top.

@@ -1,5 +1,5 @@
 ---
-summary: "ChatGPT is OpenAI's AI assistant for writing, research, coding, image creation and voice conversations. In September 2026 its paid tiers run from Go to two Pro levels, and GPT-6 Astra reasoning starts on Plus. Students, knowledge workers and developers use it, often alongside the bundled Codex agent and ChatGPT Work."
+summary: "ChatGPT is OpenAI's AI assistant for writing, research, coding, image creation and voice conversations. As of October 2026 its paid tiers run from Go to three Pro usage tiers, and GPT-6 reasoning models start on Plus. Students, knowledge workers and developers use it, often alongside the bundled Codex agent and ChatGPT Work."
 metaTitle: "ChatGPT Pricing 2026: Free, Go, Plus & Pro Plans"
 metaDescription: "ChatGPT pricing in 2026: Free, Go at $8/month, Plus at $20/month and Pro from $100/month. Compare models, limits, ads and alternatives."
 bestFor:
@@ -8,8 +8,8 @@ bestFor:
   - "Developers who also use Codex"
   - "Power users who need high limits"
 keyFeatures:
-  - name: "GPT-6 Astra and GPT-5.6 models"
-    description: "Free chats run on GPT-5.6 Luna, Plus adds advanced reasoning with GPT-6 Astra, and Pro adds pro reasoning powered by the same model."
+  - name: "GPT-6 models"
+    description: "Free chats run on GPT-6, Plus adds GPT-6 advanced reasoning models, and Pro adds pro reasoning powered by GPT-6 Astra."
   - name: "ChatGPT Work agent"
     description: "An agent launched in July 2026 that works across your apps and files for hours and turns a goal into docs, sheets, slides or web apps."
   - name: "Codex built in"
@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free costs $0. In the US, Go is $8/month and Plus $20/month. Pro has three tiers: $100 (5x Plus usage), $200 (reopened to new sign-ups on September 29, 2026, reportedly with 10x instead of 20x) and a new $500 tier with the most usage."
-  asOf: 2026-10-03
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, browser-extension]
 savingTips:
   - "Go at $8/month raises Free's limits on uploads, image creation and memory for less than half the price of Plus, but it may show ads."
@@ -40,13 +40,13 @@ savingTips:
   - "Verified US K–12 teachers can use ChatGPT for Teachers free through June 2027."
 faq:
   - q: "Is ChatGPT free?"
-    a: "Yes. The Free plan includes unlimited text chats with GPT-5.6 Luna, subject to abuse guardrails, plus limited uploads, image generation, voice chats, deep research and Codex access. Ads may appear below responses."
+    a: "Yes. The Free plan includes unlimited text chats with GPT-6, subject to abuse guardrails, plus limited uploads, image generation, voice chats, deep research and Codex access. Ads may appear below responses."
   - q: "Does ChatGPT show ads?"
     a: "Yes, on Free and Go. OpenAI started testing ads in the US on February 9, 2026, shown below responses and labeled as sponsored. Plus, Pro, Business, Enterprise and Edu accounts have no ads, and neither do accounts of users under 18."
   - q: "Can I subscribe to ChatGPT Pro $200 again?"
     a: "Yes. OpenAI paused Pro $200 sign-ups on September 10, 2026 and reopened them on September 29. According to reports, the tier now includes 10x Plus usage instead of 20x, and existing subscribers keep the old allowance until October 29. A new Pro $500 tier offers the most usage."
   - q: "What's the difference between ChatGPT Go and Plus?"
-    a: "Go ($8/month) mainly raises Free's limits, and its Think option uses GPT-5.6 Luna without GPT-5.6 Sol or legacy models. Plus ($20/month) adds GPT-6 Astra reasoning, expanded deep research and Codex usage, and no ads."
+    a: "Go ($8/month) mainly raises Free's limits on tools, uploads, image creation and memory, and it may show ads. Plus ($20/month) adds GPT-6 advanced reasoning models, expanded deep research and Codex usage, and no ads."
   - q: "Can I stop ChatGPT from using my chats for training?"
     a: "Yes. OpenAI says it may use conversations to improve its models, but you can opt out at any time in Data Controls. The pricing page lists the opt-out for individual plans."
 alternatives: [claude, gemini, microsoft-copilot, perplexity, grok]
@@ -57,7 +57,7 @@ sources:
   - https://help.openai.com/en/articles/20001047-ads-in-chatgpt
   - https://openai.com/index/chatgpt-for-your-most-ambitious-work/
   - https://chatgpt.com/download
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is ChatGPT?
 ChatGPT is OpenAI's general-purpose assistant, available on the web, iOS, Android, a Chrome extension and desktop apps for Mac and Windows. One account covers chat, voice, images, deep research, ChatGPT Work and Codex, and each plan raises the allowances.
@@ -66,7 +66,7 @@ ChatGPT is OpenAI's general-purpose assistant, available on the web, iOS, Androi
 - **Go went worldwide.** The low-cost plan reached every supported country in January 2026 at $8/month in the US, with local pricing in some markets.
 - **Ads arrived.** Free and Go users in the US began seeing sponsored units under answers from February 9, 2026.
 - **ChatGPT Work launched.** Since July 9, 2026 the agent has been on paid web and mobile plans, and the desktop app offers Chat, Work and Codex on every plan, including Free.
-- **Pro split in two.** Pro now costs $100 or $200 a month, and the $200 tier stopped accepting new subscribers on September 10, 2026.
+- **Pro in three tiers.** Pro now lets you choose among $100, $200 and $500 usage tiers, and adds Dot, an always-on agent.
 
 ## Limitations
 "Unlimited" chats are subject to abuse guardrails, and some models have separate allowances that pause until a reset. OpenAI Support can't reset your limits. Individual plans bill monthly only, and Go doesn't include legacy models such as GPT-4o.

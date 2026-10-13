@@ -32,7 +32,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free gives 300 credits a day and 1 concurrent task. Paid Pro plans start at $20/month for 4,000 credits, with $40 (8,000 credits) and $200 (40,000 credits) tiers, 20 concurrent tasks each and 17% off with annual billing."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, macos, windows, ios, android, browser-extension, api]
 savingTips:
   - "Annual billing is 17% cheaper than paying monthly on every paid Manus plan."
@@ -57,7 +57,7 @@ sources:
   - https://manus.im/blog/manus-resumes-independent-operations
   - https://manus.im/blog/a-note-to-our-users
   - https://help.manus.im/en/articles/16147831-service-change-overview-what-s-happening-and-am-i-affected
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Manus?
 Manus is an autonomous agent: you describe an outcome, and it plans the steps, runs them in a cloud sandbox and returns a report, website, deck or file. It runs on the web, in desktop and mobile apps, and inside your own browser through Browser Operator.

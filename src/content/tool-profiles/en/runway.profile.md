@@ -29,8 +29,8 @@ pricing:
   startingPrice: 15
   currency: USD
   billing: month
-  summary: "Free gives 125 one-time credits. Standard is $15/month (625 credits), Pro $35/month (2,250 credits) and Max $95/month (9,500 credits); annual billing cuts each by 20%."
-  asOf: 2026-09-17
+  summary: "Free gives 125 one-time credits. Standard is $15/month (625 credits), Pro $35/month (2,250 credits) and Max $95/month (9,500 credits); annual billing cuts each by 20%. Team, for 2 to 9 people, is $69 per seat ($55 yearly) with 6,900 pooled credits per seat."
+  asOf: 2026-10-12
 platforms: [web, ios, android, api]
 savingTips:
   - "Annual billing is 20% cheaper: Standard drops to $12/month, Pro to $28 and Max to $76."
@@ -46,13 +46,15 @@ faq:
     a: "Gen-4.5 costs 60 credits per 5 seconds. Runway estimates that equals about 52 seconds on Standard, 187 seconds on Pro and 791 seconds on Max each month."
   - q: "Does Runway have a mobile app?"
     a: "Yes. Runway Creative runs in the browser and has iOS and Android apps. Developers use the separate Runway Dev API platform to build the models into their own products."
+  - q: "Does Runway have a plan for small teams?"
+    a: "Yes. Since September 2026, the self-serve Team plan covers 2 to 9 people for $69 per seat a month, or $55 billed yearly. Each seat adds 6,900 credits to one shared pool, with up to 100 shared projects and 1 TB of workspace storage."
 alternatives: [kling, luma, google-flow, pika, hailuo]
 sources:
   - https://runway.com/pricing
   - https://runway.com/
   - https://help.runwayml.com/hc/en-us/articles/52068047744019-Unlimited-plan-is-switching-to-Max
   - https://help.runwayml.com/hc/en-us/articles/50404627334547-Free-plan-details
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Runway?
 Runway builds generative models and the tools to use them. Runway Creative is the app for video, image and audio work; Runway Dev is the API platform; Runway Robotics uses the GWM-1 world model for photorealistic simulation. The main site now lives at runway.com.

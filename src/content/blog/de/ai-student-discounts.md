@@ -42,7 +42,7 @@ Wir verfolgen geprüfte Aktionen für 100 KI-Tools. Unten liest du, wer berechti
 
 ## Welche KI-Tools haben 2026 Studentenrabatte?
 
-Mit Stand 4. Oktober 2026 stehen sieben KI-Studentenangebote auf unserer Seite [KI-Deals](/deals/): Sechs sind für Neuanmeldungen offen, eins, das von Cursor, ist beendet.
+Mit Stand 12. Oktober 2026 stehen acht KI-Studentenangebote auf unserer Seite [KI-Deals](/deals/): Sieben sind für Neuanmeldungen offen, eins, das von Cursor, ist beendet.
 
 | Tool | Angebot | Wer berechtigt ist | Dauer oder Preis | Status | Details |
 |---|---|---|---|---|---|
@@ -52,6 +52,7 @@ Mit Stand 4. Oktober 2026 stehen sieben KI-Studentenangebote auf unserer Seite [
 | Perplexity | Education Pro | Verifizierte Studierende und Lehrkräfte | $10/Monat (Pro kostet $20/Monat) | Unbefristet | [Perplexity Education Pro](/deals/perplexity-education-pro/) |
 | Notion | Plus-Plan gratis | Studierende und Lehrkräfte mit berechtigter Hochschul-E-Mail | Kostenlos, jährlich neu verifizieren | Unbefristet | [Notion Education Plus](/deals/notion-education-plus-free/) |
 | Lovable | Lovable Pro gratis | Studierende an schwedischen Universitäten, Hochschulen und Volkshochschulen | Gratis bis 31. Dezember 2026, danach 50 % Rabatt | Läuft | [Lovable-Angebot für Schweden](/deals/lovable-sweden-students-2026/) |
+| Kiro | 1.000 Credits pro Monat gratis | Studierende an berechtigten Hochschulen ab 18 Jahren | 1 Jahr, danach der Free-Plan | Unbefristet | [Studentenangebot von Kiro](/deals/kiro-student-free-year-2026/) |
 | Cursor | Cursor Pro gratis | Verifizierte Studierende an Universitäten | 1 Jahr | Beendet am 25. Juni 2026 | [Studentenprogramm von Cursor](/deals/cursor-student-pro-year/) |
 
 ## Welche KI-Studentenangebote sind gerade die besten?
@@ -118,12 +119,11 @@ Auf Anthropics Preisseite gibt es für Claude keinen individuellen Studentenraba
 
 ## Welche anderen KI-Tools haben Bildungspreise?
 
-Wir verfolgen 13 weitere KI-Tools mit Studenten- oder Bildungspreisen, von 20 % Rabatt bis zum Gratisjahr.
+Wir verfolgen 12 weitere KI-Tools mit Studenten- oder Bildungspreisen, von 20 % Rabatt bis zum Gratisjahr.
 
 | Tool | Angebot für Studierende oder Bildung |
 |---|---|
-| Mistral | Pro für $5.99/Monat statt $14.99 für verifizierte Studierende |
-| Kiro | 1.000 Credits pro Monat ein Jahr lang gratis an berechtigten Hochschulen (132 gelistet im September 2026) |
+| Mistral | Pro für $5.99/Monat statt $14.99 bis zu 12 Monate lang, für verifizierte Studierende, die neu bei Vibe sind |
 | Beautiful.ai | Pro 12 Monate gratis mit gültiger .edu-Adresse, nur für neue studentische Abonnenten |
 | Granola | 12 Monate Business gratis für Studierende an akkreditierten Hochschulen in den USA, Großbritannien und Kanada, auf Antrag |
 | Base44 | 50 % Rabatt auf Starter oder Builder für bis zu 12 Monate |

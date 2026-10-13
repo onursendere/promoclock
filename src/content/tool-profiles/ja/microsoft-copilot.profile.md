@@ -29,7 +29,7 @@ pricingSummary: "Copilotチャットは無料ですが、容量と制限があ�
 savingTips:
   - "年払いならMicrosoft 365 Personal、Family、Premiumが最大17%割引になり、Proは月払いのみです。"
   - "MicrosoftはPersonal、Family、Premiumに1か月の無料トライアルを用意していますが、条件や支払い要件は地域によって異なります。"
-  - "Familyはアプリと1人あたり1TBのストレージを最大6人で共有できるため、Personalを複数契約するより月$12.99の世帯契約がお得です。"
+  - "Familyはアプリと2TBのストレージプールを最大6人で共有できるため、Personalを複数契約するより月$12.99の世帯契約がお得です。"
   - "対象の学生はMicrosoftの教育向け特典を利用でき、学校によってはMicrosoft 365を追加費用なしで提供しています。"
 faq:
   - q: "Microsoft Copilotは無料ですか？"

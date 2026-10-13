@@ -29,7 +29,7 @@ pricingSummary: "Der Copilot-Chat ist kostenlos, abhängig von Kapazität und Gr
 savingTips:
   - "Jährliche Zahlung spart bis zu 17 % bei Microsoft 365 Personal, Family und Premium; Microsoft 365 Pro gibt es nur monatlich."
   - "Microsoft bietet eine einmonatige kostenlose Testphase von Personal, Family und Premium, wobei Bedingungen und Zahlungsvorgaben je nach Region variieren."
-  - "Family teilt Apps und je 1 TB Speicher mit bis zu sechs Personen, ein Haushalt zahlt also $12.99 statt mehrerer Personal-Pläne."
+  - "Family teilt Apps und einen gemeinsamen 2-TB-Speicherpool mit bis zu sechs Personen, ein Haushalt zahlt also $12.99 statt mehrerer Personal-Pläne."
   - "Berechtigte Studierende können Microsoft-Bildungsangebote nutzen, und manche Schulen stellen Microsoft 365 ohne Aufpreis bereit."
 faq:
   - q: "Ist Microsoft Copilot kostenlos?"

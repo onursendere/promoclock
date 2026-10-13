@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free costs $0. Pro is $20/month, or $17/month when billed yearly ($200 up front). Max 5x costs $100/month and Max 20x $200/month, billed monthly only. Team Standard seats are $25/month, or $20/month billed annually."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, linux, cli, vscode, jetbrains, api, browser-extension]
 savingTips:
   - "Paying for Pro yearly costs $200 up front, about $17/month instead of $20."
@@ -58,7 +58,7 @@ sources:
   - https://www.anthropic.com/news/higher-limits-spacex
   - https://claude.com/download
   - https://code.claude.com/docs/en/setup
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is Claude?
 Claude is Anthropic's assistant for writing, analysis, research and coding. It runs in the browser, in desktop apps for macOS and Windows (Linux is in beta for Ubuntu and Debian), and on iOS and Android. Developers reach the same models through the Claude API.

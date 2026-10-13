@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Chat costs $29 per month, or $24 per month billed $288 yearly, for 5 seats. Growth, Expansion and Scale cost $1,000–$3,000 per month billed annually with workflow credits. Enterprise has custom pricing."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api]
 savingTips:
   - "Annual billing lowers the Chat plan from $29 to $24 a month, a 20% saving."
@@ -54,7 +54,7 @@ sources:
   - https://www.fullcast.com/content/fullcast-announces-the-acquisition-of-copy-ai/
   - https://support.fullcast.com/copy-ai/docs/what-is-your-refund-policy
   - https://support.fullcast.com/copy-ai/docs/additional-pricing-questions
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Copy.ai?
 Copy.ai is an AI platform for go-to-market teams. It pairs a chat that uses several AI models with workflows that combine research, writing and data steps into processes the whole team can reuse.

@@ -31,7 +31,7 @@ pricing:
   currency: GBP
   billing: month
   summary: "Picsart prices are localized; the UK page shows Pro at £14/month or £7/month billed yearly, and Ultra from £35/month per seat for 1,500 credits (£28/month yearly), with 2,500, 5,000 and 10,000 credit tiers above it."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, cli]
 savingTips:
   - "Yearly billing halves Pro in the UK: £84 for the year instead of £14 a month."
@@ -55,7 +55,7 @@ sources:
   - https://support.picsart.com/hc/en-us/articles/360002232017-What-types-of-subscriptions-does-Picsart-offer
   - https://support.picsart.com/hc/en-us/articles/35097241583005-What-are-credits-and-how-do-they-work
   - https://support.picsart.com/hc/en-us/articles/35102132133149-Picsart-Subscription-Plans-Explained-Monthly-vs-Yearly-Options
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Picsart?
 Picsart began as a mobile photo editor and now runs as a credit-based creative platform. One account covers the iOS and Android apps and picsart.com, mixing manual editing tools with generative models from Picsart and its partners.

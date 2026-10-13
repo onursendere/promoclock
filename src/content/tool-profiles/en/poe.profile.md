@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free users get points that reset daily. Basic costs $4.99/month for 10,000 points a day; Plus ($19.99), Pro ($49.99), Advanced ($99.99) and Max ($249.99) give 660,000 to 8.25 million points a month."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, api]
 savingTips:
   - "Yearly billing saves 17%, for example $199.99 a year instead of $19.99 a month for 660,000 monthly points."
@@ -50,7 +50,7 @@ sources:
   - https://poe.com/subscription_plans
   - https://poe.com/pages/get-poe
   - https://creator.poe.com/docs/external-applications/external-application-guide
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Poe?
 Poe, made by Quora, is one front end for thousands of AI models and creator-made bots. Instead of paying each AI company separately, you spend points from a single balance on whichever model fits the task.

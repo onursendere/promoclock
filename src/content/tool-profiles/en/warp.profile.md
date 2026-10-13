@@ -1,7 +1,7 @@
 ---
 summary: "Warp is a modern terminal with a built-in coding agent, made by the New York company Warp, whose client became open source under the AGPL in April 2026. Developers use it to run commands and hand multi-step coding work to the Warp Agent, while teams add cloud agents and Warp Factories for automated pipelines."
 metaTitle: "Warp Pricing, Free Plan & AI Agent Features (2026)"
-metaDescription: "Warp pricing in 2026: the terminal is free, Build is $20/month with 1,500 AI credits, Max $200/month. See features, BYOK options and limits."
+metaDescription: "Warp pricing in 2026: the terminal is free, Build is $20/month with $20 of agent usage, Max $200/month with $200. See features, BYOK options and limits."
 bestFor:
   - "Terminal-heavy developers"
   - "DevOps and platform engineers"
@@ -29,20 +29,20 @@ pricing:
   startingPrice: 20
   currency: USD
   billing: month
-  summary: "Free covers the terminal and Agent CLI but no bundled AI usage. Build is $20/month with 1,500 credits, Max is $200/month with 18,000 credits, and Business is $50 per user per month for up to 25 seats."
-  asOf: 2026-09-17
+  summary: "Free covers the terminal and Agent CLI but no bundled AI usage. Build is $20/month ($18 billed annually) with $20 of agent usage at API rates, Max is $200/month ($180 annually) with $200 of usage, and Business is $50 per user per month ($45 annually) with $20 of usage per seat, for up to 25 seats."
+  asOf: 2026-10-12
 platforms: [macos, windows, linux, cli, api]
 savingTips:
   - "Annual billing takes 10% off, which brings Build to $18/month and Max to $180/month."
-  - "On the Free plan you can use the Warp Agent with your own API key or a custom inference endpoint instead of paying for credits."
+  - "On the Free plan you can use the Warp Agent with your own API key or a custom inference endpoint instead of paying for bundled usage."
   - "SuperGrok and X Premium subscribers can connect that subscription as the Warp Agent's inference source."
 faq:
   - q: "Is Warp free?"
-    a: "Yes. The Free plan includes the full terminal, Warp Agent CLI access and limited cloud agents, but no bundled AI usage. To use the agent you bring your own API key or inference endpoint, buy add-on credits, or upgrade."
+    a: "Yes. The Free plan includes the full terminal, Warp Agent CLI access and limited cloud agents, but no bundled AI usage. To use the agent you bring your own API key or inference endpoint, pay as you go, or upgrade."
   - q: "Is Warp open source?"
     a: "Yes. Since April 28, 2026, the Warp client source code has been public at github.com/warpdotdev/warp under the AGPL-3.0 license. OpenAI is the founding sponsor of the open-source repository, and Warp's paid AI services remain commercial."
-  - q: "What does a Warp credit cover?"
-    a: "Credits pay for agent usage at API rates. Build's 1,500 credits equal $20 of included usage, and Max's 18,000 credits are 12 times that. Paid plans can reload credits with volume discounts, auto-reload and a spend cap."
+  - q: "How does Warp's included agent usage work?"
+    a: "Paid plans include a dollar amount of agent usage each month, billed at API rates: $20 on Build, $200 on Max (10 times Build) and $20 per seat on Business. Warp switched from credits to dollar amounts, and its docs say existing credit packs may be converted to dollar usage."
   - q: "Which operating systems does Warp support?"
     a: "Warp runs on macOS 10.14 or later, on Windows 10 and 11 in x64 and ARM64 builds, and on Linux through .deb, .rpm, Arch and AppImage packages. The Agent CLI works inside other terminals too."
   - q: "Does Warp train on your code?"
@@ -52,7 +52,7 @@ sources:
   - https://www.warp.dev/pricing
   - https://docs.warp.dev/support-and-community/plans-and-billing/plans-pricing-refunds
   - https://www.warp.dev/blog/warp-is-now-open-source
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Warp?
 Warp began as a faster terminal and now positions itself as an agentic development environment. The same app handles everyday shell work and agent sessions that write, run and fix code.
@@ -64,6 +64,6 @@ Free suits people who only want the terminal or already pay for model access els
 
 ## Limitations
 - No AI usage is bundled with the Free plan.
-- Credits are consumed at API rates, so heavy agent use can outgrow Build's $20 allowance quickly.
+- Included usage is consumed at API rates, so heavy agent use can outgrow Build's $20 allowance quickly.
 - Business caps self-serve teams at 25 seats; larger groups need Enterprise.
 - Warp Factories is in early access and not generally available.

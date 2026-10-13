@@ -1,7 +1,7 @@
 ---
 summary: "Genspark est un espace de travail IA tout-en-un conçu par MainFunc, dont le Super Agent fait des recherches, crée des présentations, des tableurs, des documents, des sites web et des médias, et peut même passer des appels téléphoniques pour vous. Workspace 6.0, sorti en juillet 2026, a ajouté la mémoire SecondBrain, GenMail et des agents d’équipe. Il séduit les freelances et les équipes qui veulent remplacer plusieurs abonnements IA par un seul."
-metaTitle: "Prix Genspark 2026 : formules Free, Plus et Pro expliquées"
-metaDescription: "Prix de Genspark en 2026 : formule gratuite avec crédits quotidiens, Plus dès $24.99/mois, Pro dès $249.99/mois, fonctionnalités, limites et alternatives."
+metaTitle: "Genspark 2026 : formule gratuite, Plus $24.99, Pro $249.99"
+metaDescription: "Genspark est gratuit : 100 crédits par jour, jusqu’à un plafond. Plus coûte $24.99/mois (10 000 crédits), Pro $249.99 (125 000) ; l’annuel économise environ 20 %."
 bestFor:
   - "Freelances voulant un seul outil IA"
   - "Consultants qui créent des présentations"
@@ -25,7 +25,7 @@ useCases:
   - "Laisser GenMail trier une boîte de réception surchargée, rédiger des réponses dans votre style et vous envoyer un récapitulatif chaque matin."
   - "Créer un CRM léger ou un tableau de bord à partir de vos propres données avec AgentBase, sans embaucher de développeur."
   - "Remplacer des abonnements distincts de chat et d'images par Plus, où les modèles de chat et d'images essentiels ne consomment aucun crédit jusqu'à un plafond d'usage."
-pricingSummary: "Free ajoute 100 crédits par jour. Plus démarre à $24.99/mois pour 10 000 crédits et Pro à $249.99/mois pour 125 000 crédits ; les deux proposent des paliers supérieurs, et la facturation annuelle réduit le prix d’environ 20 %. Team coûte $30 par utilisateur."
+pricingSummary: "Free ajoute 100 crédits par jour jusqu’à épuisement d’une réserve de crédits gratuits à vie. Plus démarre à $24.99/mois pour 10 000 crédits et Pro à $249.99/mois pour 125 000 crédits ; les deux proposent des paliers supérieurs, et la facturation annuelle réduit le prix d’environ 20 %. Team coûte $35 par utilisateur et par mois, avec 10 000 crédits par utilisateur."
 savingTips:
   - "La facturation annuelle retire environ 20 % sur chaque palier Plus et Pro, par exemple $19.99 au lieu de $24.99 par mois pour le premier palier Plus."
   - "Les abonnements Plus et Pro commencés avant le 18 septembre 2026 conservent le chat IA et les images sans crédit jusqu'au 31 décembre 2026, dans les limites de plafonds de 5 heures ; les plus récents obtiennent les modèles essentiels gratuits jusqu'à un plafond d'usage."
@@ -33,11 +33,11 @@ savingTips:
   - "La formule Free ne demande pas de carte bancaire : vous pouvez tester le Super Agent avant de payer."
 faq:
   - q: "Combien coûte Genspark par mois ?"
-    a: "Plus démarre à $24.99/mois ($19.99 en facturation annuelle) pour 10 000 crédits et monte jusqu’à $199.99 pour 95 000. Pro va de $249.99 à $3,999.99 par mois, et la formule Team coûte $30 par utilisateur."
+    a: "Plus démarre à $24.99/mois ($19.99 en facturation annuelle) pour 10 000 crédits et monte jusqu’à $199.99 pour 95 000. Pro va de $249.99 à $3,999.99 par mois, et la formule Team coûte $35 par utilisateur, avec 10 000 crédits chacun."
   - q: "Le chat IA illimité de Genspark est-il vraiment illimité ?"
     a: "Pas complètement. Les abonnements Plus et Pro commencés avant le 18 septembre 2026 et maintenus actifs peuvent utiliser le chat IA et la génération d'images sans crédits jusqu'au 31 décembre 2026, plafonnés par fenêtre de 5 heures. Les abonnements plus récents obtiennent les modèles essentiels gratuitement jusqu'à un plafond d'usage, puis utilisent des crédits mensuels, et les modèles phares consomment toujours des crédits."
   - q: "Que comprend la formule gratuite de Genspark ?"
-    a: "La formule Free offre 100 crédits par jour, sans carte bancaire, et couvre le chat, les présentations, les documents et la recherche. Certaines fonctionnalités sont limitées : par exemple, impossible d’exporter des présentations avec Free."
+    a: "La formule Free offre 100 crédits par jour jusqu’à épuisement d’une réserve de crédits gratuits à vie, sans carte bancaire, et couvre le chat, les présentations, les documents et la recherche. Certaines fonctionnalités sont limitées : par exemple, impossible d’exporter des présentations avec Free."
   - q: "Les crédits Genspark non utilisés sont-ils reportés ?"
     a: "Non. Les crédits mensuels de la formule sont remis à zéro à chaque cycle, et le solde expire à la fin de l’abonnement, sans remboursement au prorata. Les packs de crédits achetés séparément restent valables 3 mois après l’achat."
   - q: "À qui appartient Genspark ?"

@@ -1,7 +1,7 @@
 ---
 summary: "DeepL, DeepL SE'nin sunduğu bir AI çeviri ve dil platformu; DeepL Translator'ı, DeepL Write yazım asistanını, DeepL Voice'u ve bir geliştirici API'sini kapsıyor. En çok doğal okunan çevirileri ve orijinal düzeni koruyan belge çevirisiyle tanınıyor. Serbest çalışanlar, öğrenciler ve küresel ekipler onu metinler, dosyalar ve canlı konuşmalar için kullanıyor."
-metaTitle: "DeepL fiyatları, ücretsiz plan ve Pro özellikleri (2026)"
-metaDescription: "2026 DeepL fiyatları: ücretsiz çevirmenin sınırları, aylık $10.49 olan DeepL Pro Individual, Write Pro, Voice dakikaları, uygulamalar ve alternatifler."
+metaTitle: "DeepL fiyatları 2026: ücretsiz, Pro $10.49/ay, 30 gün deneme"
+metaDescription: "DeepL ayda 50.000 karaktere ve 1 dosyaya kadar ücretsiz. Pro Individual aylık $10.49 ya da yıllık faturalandırmada $8.74; 30 günlük ücretsiz deneme sunuyor."
 bestFor:
   - "Çok dilli çalışan profesyoneller"
   - "Belge çeviren ekipler"

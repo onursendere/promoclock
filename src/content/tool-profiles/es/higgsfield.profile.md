@@ -1,7 +1,7 @@
 ---
 summary: "Higgsfield es una plataforma de generación de imagen y video con IA de Higgsfield AI, con sede en San Francisco. Combina modelos in-house como Soul 2.0 con modelos de terceros como Seedance, Kling, Veo y Nano Banana, más Cinema Studio para escenas con dirección de cámara. Creadores sociales, marketers y cineastas de IA la usan para anuncios, videos cortos y clips cinematográficos."
-metaTitle: "Higgsfield AI: precios, créditos y plan gratis (2026)"
-metaDescription: "Precios de Higgsfield en 2026: tier gratis, Starter $19, Plus $59 y Ultra $129/mes, créditos, Cinema Studio y alternativas."
+metaTitle: "Higgsfield 2026: créditos, plan gratis y planes desde $19"
+metaDescription: "El tier gratis de Higgsfield cubre unos pocos modelos sin créditos. Starter cuesta $19/mes por 270 créditos, Plus $59 por 1.200 y Ultra desde $129 por 3.000."
 bestFor:
   - "Creadores de UGC y anuncios de producto"
   - "Cineastas de IA y videos musicales"

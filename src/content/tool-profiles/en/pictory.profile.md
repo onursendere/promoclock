@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "A 14-day trial covers 3 video projects and 15 video minutes. Starter is $29/month, Professional $59/month and Team $199/month, dropping to $25, $35 and $119 a month on annual billing."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api]
 savingTips:
   - "Annual billing saves up to 40%: Starter falls to $25 a month, Professional to $35 and Team to $119."
@@ -54,7 +54,7 @@ sources:
   - https://pictory.ai/pricing
   - https://pictory.ai/
   - https://pictory.ai/pictory-api
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Pictory?
 Pictory is a browser-based video generator aimed at people who have content but not footage. It takes text, a URL, a PowerPoint file, images or an existing recording, writes or follows a script, then assembles scenes from licensed stock media with captions and an AI voiceover. Everything happens in the app; there is nothing to install.

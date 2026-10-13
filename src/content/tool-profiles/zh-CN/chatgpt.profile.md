@@ -1,5 +1,5 @@
 ---
-summary: "ChatGPT是OpenAI推出的AI助手，用于写作、研究、编程、图片创作和语音对话。截至2026年9月，其付费档位从Go到两档Pro不等，GPT-6 Astra推理从Plus开始提供。学生、知识工作者和开发者都在使用它，常常还会搭配内置的Codex智能体和ChatGPT Work一起用。"
+summary: "ChatGPT是OpenAI推出的AI助手，用于写作、研究、编程、图片创作和语音对话。截至2026年10月，其付费档位从Go到三个Pro用量档位不等，GPT-6推理模型从Plus开始提供。学生、知识工作者和开发者都在使用它，常常还会搭配内置的Codex智能体和ChatGPT Work一起用。"
 metaTitle: "ChatGPT价格：Free、Go、Plus与Pro"
 metaDescription: "2026年ChatGPT价格：Free、Go每月$8、Plus每月$20、Pro起价$100。对比模型、额度、广告与替代工具。"
 bestFor:
@@ -8,8 +8,8 @@ bestFor:
   - "同时使用Codex的开发者"
   - "需要高额度的重度用户"
 keyFeatures:
-  - name: "GPT-6 Astra与5.6模型"
-    description: "免费聊天运行在GPT-5.6 Luna上，Plus增加GPT-6 Astra高级推理，Pro则加入由同一模型驱动的专业推理。"
+  - name: "GPT-6模型"
+    description: "免费聊天运行在GPT-6上，Plus增加GPT-6高级推理模型，Pro则加入由GPT-6 Astra驱动的专业推理。"
   - name: "ChatGPT Work智能体"
     description: "2026年7月上线的智能体，能跨你的应用和文件工作数小时，把一个目标变成文档、表格、幻灯片或Web应用。"
   - name: "内置Codex"
@@ -33,13 +33,13 @@ savingTips:
   - "通过认证的美国K-12教师可免费使用ChatGPT for Teachers，有效期到2027年6月。"
 faq:
   - q: "ChatGPT是免费的吗？"
-    a: "是的。Free套餐包含在防滥用限制下不限次数的GPT-5.6 Luna文字聊天，以及有限的上传、图片生成、语音聊天、深度研究和Codex访问权限。回复下方可能会出现广告。"
+    a: "是的。Free套餐包含在防滥用限制下不限次数的GPT-6文字聊天，以及有限的上传、图片生成、语音聊天、深度研究和Codex访问权限。回复下方可能会出现广告。"
   - q: "ChatGPT会显示广告吗？"
     a: "会，Free和Go套餐上会。OpenAI从2026年2月9日起在美国开始测试广告，展示在回复下方并标注为赞助内容。Plus、Pro、Business、Enterprise和Edu账户没有广告，未满18岁用户的账户也没有。"
   - q: "我还能订阅ChatGPT Pro $200吗？"
     a: "可以。OpenAI于2026年9月10日暂停了Pro $200的新注册，并于9月29日重新开放。据报道，该套餐现在的用量为Plus的10倍而非20倍，现有订阅者可保留旧的用量额度直至10月29日。新的Pro $500套餐提供最高用量。"
   - q: "ChatGPT Go和Plus有什么区别？"
-    a: "Go（$8/月）主要提高Free的限制，其Think选项只使用GPT-5.6 Luna，不含GPT-5.6 Sol或旧版模型。Plus（$20/月）加入GPT-6 Astra推理、扩展的深度研究和Codex用量，且没有广告。"
+    a: "Go（$8/月）主要提高Free在工具、上传、图片创作和记忆方面的限制，并且可能显示广告。Plus（$20/月）加入GPT-6高级推理模型、扩展的深度研究和Codex用量，且没有广告。"
   - q: "可以阻止ChatGPT用我的对话训练模型吗？"
     a: "可以。OpenAI表示可能会用对话来改进模型，但你可以随时在数据控制中选择退出。定价页面列出了个人套餐的退出选项。"
 ---
@@ -50,7 +50,7 @@ ChatGPT是OpenAI的通用助手，可在网页、iOS、Android、Chrome扩展程
 - **Go面向全球开放。** 这个低价套餐于2026年1月覆盖所有支持的国家，美国价格为$8/月，部分市场有本地定价。
 - **广告出现了。** 从2026年2月9日起，美国的Free和Go用户开始在回答下方看到赞助内容。
 - **ChatGPT Work上线。** 自2026年7月9日起，该智能体登陆付费的网页和移动套餐，桌面应用在每个套餐（包括Free）上都提供Chat、Work和Codex。
-- **Pro一分为二。** Pro现在分为$100和$200两档，$200档已于2026年9月10日起停止接受新订阅者。
+- **Pro有三档。** Pro现在可在$100、$200和$500三个用量档位中选择，并新增常驻智能体Dot。
 
 ## 局限性
 "无限"聊天仍受防滥用限制约束，部分模型有各自独立的额度，用完后需等待重置。OpenAI客服无法为你重置额度。个人套餐仅支持按月计费，Go不包含GPT-4o等旧版模型。

@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "El plan Free no cuesta nada pero no incluye créditos mensuales, solo packs de créditos que compras. Starter cuesta $10/mes con 900 créditos, Creator $35/mes con 3.150 créditos y Fancy desde $95/mes; la facturación anual ahorra un 20 %."
 savingTips:
   - "La facturación anual ahorra un 20 %: Starter baja a $8 al mes y Creator a $28."
-  - "Los créditos de recarga se quedan en tu saldo hasta que los gastas, a diferencia de los del plan, y cuestan 60 créditos por $1 en todos los planes."
+  - "Los créditos de recarga duran 365 días desde la compra, a diferencia de los del plan, y cuestan 60 créditos por $1 en todos los planes; solo funcionan en Pika Create en pika.art."
   - "Los modelos más baratos estiran el saldo: un clip Wan 3.0 de 5 segundos en 720p usa 33 créditos frente a 122 de Seedance 2.5."
 faq:
   - q: "¿Pika es gratis?"
@@ -34,11 +34,11 @@ faq:
   - q: "¿Qué plan de Pika incluye una licencia comercial?"
     a: "Creator, a $35/mes o $28/mes con facturación anual, es el plan más barato con licencia comercial. Free y Starter excluyen el uso comercial, mientras que Fancy y Enterprise lo incluyen más una cola prioritaria."
   - q: "¿Los créditos no usados de Pika se acumulan?"
-    a: "Los créditos del plan no. Se renuevan en cada periodo de facturación y lo no usado se pierde, mientras que los créditos comprados como recargas puntuales se quedan en tu saldo hasta que los gastas."
+    a: "Los créditos del plan no. Se renuevan en cada periodo de facturación y lo no usado se pierde, mientras que los créditos comprados como recargas puntuales se acumulan y caducan 365 días después de la compra."
   - q: "¿Pika sigue creando sus propios modelos?"
     a: "Sí. Pika 2.5 es su modelo de video actual, y en agosto de 2026 lanzó Pika Speech, Pika Music, Pika SFX y Pika Soundtrack. La plataforma aloja modelos de socios de otros laboratorios junto a ellos."
   - q: "¿Qué pasa si cancelo mi plan de Pika?"
-    a: "Tu plan sigue activo hasta el final del periodo de facturación actual, y luego la cuenta pasa al plan Free. Los créditos que compraste como recargas permanecen en el saldo y aún se pueden gastar."
+    a: "Tu plan sigue activo hasta el final del periodo de facturación actual, y luego la cuenta pasa al plan Free. Los créditos que compraste como recargas permanecen en el saldo y aún se pueden gastar hasta que caduquen, 365 días después de la compra."
 ---
 ## ¿Qué es Pika hoy?
 Pika empezó como una app divertida de texto a video conocida por efectos como Pikaffects y Pikaswaps. Para 2026 se ha convertido en una plataforma creativa más amplia con apps separadas para video, imágenes y audio, y un selector de modelos que mezcla los propios modelos de Pika con modelos de socios.

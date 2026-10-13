@@ -25,9 +25,9 @@ useCases:
   - "Work moduna bir tablo yükle; anomalileri ve grafikleri doğrudan sohbetin içinde gör."
   - "Bir depoda Vibe CLI'ı çalıştırarak testler yazdır ve incelenebilir bir pull request hazırlat."
   - "Haftalık bir araştırma prompt'u zamanla ve her çalıştırma bittiğinde bildirim al."
-pricingSummary: "Free, sınırlı mesaj ve web aramasıyla günlük kullanımı karşılar. Pro aylık $14.99, Team ise kullanıcı başına aylık $24.99 (vergiler hariç); Enterprise teklife göre fiyatlandırılır, doğrulanmış öğrenciler Pro için aylık $5.99 öder."
+pricingSummary: "Free, sınırlı mesaj ve web aramasıyla günlük kullanımı karşılar. Pro aylık $14.99, Team ise kullanıcı başına aylık $24.99 (vergiler hariç); Enterprise teklife göre fiyatlandırılır, doğrulanmış öğrenciler Pro için 12 aya kadar aylık $5.99 öder."
 savingTips:
-  - "Doğrulanmış öğrenciler Mistral Pro'yu $14.99 yerine aylık $5.99'a alır."
+  - "Akredite üniversitelerdeki doğrulanmış öğrenciler, daha önce Vibe ya da Le Chat kullanmadıysa, Mistral Pro'yu $14.99 yerine aylık $5.99'a 12 aya kadar alır."
   - "Free planı, Mistral modellerini Studio'da denemek için ayda $10 API kredisi içerir."
   - "API'de toplu işleme (batch) fiyatı yarıya indirir, önbelleğe alınmış girdi token'ları ise girdi maliyetini %90'a kadar düşürür."
 faq:

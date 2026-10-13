@@ -26,7 +26,7 @@ useCases:
   - "Birkaç paragraf yazmak yerine Cursor ya da ChatGPT'ye ayrıntılı komutlar söyle."
   - "Notetaker ile yüz yüze bir müşteri görüşmesini yakala ve sonrasında yapılacakları çıkar."
   - "İkinci bir dilde belgeler yaz; Flow konuştuğun dili otomatik olarak algılar."
-pricingSummary: "Free, masaüstünde haftada 2.000, mobilde 1.000 kelimeyi kapsar. Pro, sınırsız dikte ile kullanıcı başına aylık $15 ya da yıllık $12; Growth kullanıcı başına aylık $33 ya da yıllık $26 ve Enterprise kişiye özeldir."
+pricingSummary: "Free, masaüstünde haftada 2.000, mobilde 1.000 kelimeyi kapsar. Pro, sınırsız dikte ile kullanıcı başına aylık $15 ya da yıllık $12; Growth yalnızca dikte için kullanıcı başına aylık $23 (yıllık $18), Notetaker ile birlikte ise aylık $33 (yıllık $26); Enterprise kişiye özeldir."
 savingTips:
   - "Yıllık faturalandırma Pro'yu kullanıcı başına aylık $15'ten $12'ye, %20'lik bir tasarrufla indirir."
   - "Eğitim e-postası olan öğrenciler ve eğitimciler Flow Pro'da %50 indirim alır ve kâr amacı gütmeyen kuruluşlar indirimli Pro edinebilir."

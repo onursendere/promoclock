@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free covers 1 agent and 1,000 runs a month. Individual costs $20/month ($16 billed yearly) for unlimited agents and runs, and Business is custom. AI model usage is billed on top at provider prices."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, browser-extension, api]
 savingTips:
   - "Yearly billing saves 20%, bringing Individual from $20 to $16 per month."
@@ -52,7 +52,7 @@ alternatives: [gumloop, n8n, lindy, zapier]
 sources:
   - https://www.mindstudio.ai/pricing
   - https://www.mindstudio.ai/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is MindStudio?
 MindStudio sits between simple chatbot builders and developer frameworks. You design an agent's steps visually, choose a model for each step and connect data sources such as websites, SQL databases, vector stores, Google Sheets and CRMs like Salesforce or HubSpot. Agents can generate documents, images, audio and video, and they can ask a human for approval mid-run.

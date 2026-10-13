@@ -1,7 +1,7 @@
 ---
 summary: "Higgsfield, San Francisco merkezli Higgsfield AI'ın görsel ve video üretim platformu. Soul 2.0 gibi kendi modellerini Seedance, Kling, Veo ve Nano Banana gibi üçüncü taraf modellerle ve kamera yönetimli sahneler için Cinema Studio ile bir araya getiriyor. Sosyal medya içerik üreticileri, pazarlamacılar ve AI film yapımcıları onu reklamlar, kısa videolar ve sinematik klipler için kullanıyor."
-metaTitle: "Higgsfield AI fiyatları 2026: Krediler ve ücretsiz plan"
-metaDescription: "2026 Higgsfield fiyatları: ücretsiz sürüm, aylık $19 Starter, $59 Plus ve $129 Ultra; krediler ve Unlimited modeller nasıl işliyor, Cinema Studio ve alternatifler."
+metaTitle: "Higgsfield fiyatları 2026: krediler, ücretsiz plan, $19'dan"
+metaDescription: "Higgsfield'ın ücretsiz sürümü birkaç modeli kredisiz sunar. Starter aylık $19 ile 270 kredi, Plus $59 ile 1.200, Ultra $129'dan başlayarak 3.000 kredi verir."
 bestFor:
   - "UGC ve ürün reklamı üreticileri"
   - "AI film ve müzik videosu yapımcıları"

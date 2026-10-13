@@ -35,7 +35,7 @@ faq:
   - q: "Peut-on télécharger les vidéos sur le plan gratuit de Synthesia ?"
     a: "Non. Le centre d’aide de Synthesia précise que les utilisateurs Basic et en essai ne peuvent pas télécharger de vidéos ; les téléchargements MP4 commencent avec Starter. Les vidéos gratuites peuvent tout de même être prévisualisées et partagées depuis un lien Synthesia."
   - q: "Comment fonctionnent les crédits Synthesia ?"
-    a: "Les crédits sont la monnaie partagée pour la vidéo, le doublage, la personnalisation en masse et l’usage de l’API. Le doublage sans synchronisation labiale coûte 120 crédits la minute et 240 avec synchronisation labiale, et les crédits inutilisés ne se reportent pas."
+    a: "Les crédits sont la monnaie partagée pour la vidéo, le doublage, la personnalisation en masse et l’usage de l’API. Sur les formules en libre-service, la vidéo coûte environ 100 crédits la minute et le doublage environ 76, la synchronisation labiale doublant le coût du doublage, et les crédits inutilisés ne se reportent pas."
   - q: "Quelle formule Synthesia inclut l’accès API ?"
     a: "Pro (anciennement Creator) et Enterprise. Pro inclut jusqu'à 360 minutes de vidéo par an via l'API Synthesia, décomptées de la limite d'usage du plan, tandis que Starter et Basic n'ont pas d'accès API."
   - q: "Dans combien de langues Synthesia peut-il doubler ?"
@@ -48,6 +48,7 @@ Synthesia est un studio dans le navigateur pour réaliser des vidéos avec des p
 - **Une posture entreprise.** Synthesia affiche la conformité SOC 2 Type II, ISO 42001 et RGPD, plus SAML/SSO sur Enterprise.
 - **Un doublage intégré.** Le doublage IA prend un import ou un lien YouTube et conserve la voix et l’accent de l’intervenant.
 - **De l’entraînement, pas seulement de la lecture.** Les séances de jeu de rôle ajoutent des conversations interactives notées par-dessus la vidéo classique.
+- **Agent vidéo Syren.** Lancé en bêta le 9 octobre 2026, Syren crée des vidéos de trois minutes maximum à partir d’un prompt ou de fichiers, avec motion design, avatars, voix off et musique, sur toutes les formules.
 
 ## Limites
 Les sièges sont limités : Starter inclut un éditeur et trois invités, et Pro un éditeur et cinq invités, si bien que de vraies équipes ont généralement besoin d'Enterprise. Les vidéos gratuites portent le logo Synthesia et ne peuvent pas être téléchargées. Les crédits se réinitialisent à chaque cycle sans report, les avatars personnels sont plafonnés à trois sur Starter et cinq sur Pro, et les minutes illimitées n'existent que sur Enterprise.

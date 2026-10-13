@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "Der Free-Plan kostet nichts, enthält aber keine monatlichen Credits, nur zugekaufte Credit-Packs. Starter kostet $10/Monat mit 900 Credits, Creator $35/Monat mit 3.150 Credits und Fancy ab $95/Monat; jährliche Abrechnung spart 20 %, Starter fällt auf $8 und Creator auf $28."
 savingTips:
   - "Jährliche Abrechnung spart 20 %: Starter sinkt auf $8 pro Monat, Creator auf $28."
-  - "Top-up-Credits bleiben im Guthaben, bis sie verbraucht sind, anders als Plan-Credits, und kosten in jedem Plan 60 Credits pro $1."
+  - "Top-up-Credits gelten 365 Tage ab Kauf, anders als Plan-Credits, und kosten in jedem Plan 60 Credits pro $1; sie funktionieren nur in Pika Create auf pika.art."
   - "Günstigere Modelle strecken das Guthaben: ein 5-Sekunden-720p-Clip in Wan 3.0 kostet 33 Credits statt 122 in Seedance 2.5."
 faq:
   - q: "Ist Pika kostenlos?"
@@ -34,11 +34,11 @@ faq:
   - q: "Welcher Pika-Plan enthält eine kommerzielle Lizenz?"
     a: "Creator für $35/Monat bzw. $28/Monat bei jährlicher Abrechnung ist der günstigste Plan mit kommerzieller Lizenz. Free und Starter schließen kommerzielle Nutzung aus, Fancy und Enterprise enthalten sie plus Priority-Queue."
   - q: "Verfallen ungenutzte Pika-Credits?"
-    a: "Plan-Credits ja. Sie erneuern sich jede Abrechnungsperiode, alles Unverbrauchte ist verloren, während Credits aus einmaligen Top-ups im Guthaben bleiben, bis du sie einsetzt."
+    a: "Plan-Credits ja. Sie erneuern sich jede Abrechnungsperiode, alles Unverbrauchte ist verloren, während Credits aus einmaligen Top-ups übertragen werden und 365 Tage nach Kauf verfallen."
   - q: "Baut Pika weiterhin eigene Modelle?"
     a: "Ja. Pika 2.5 ist das aktuelle Videomodell, und im August 2026 kamen Pika Speech, Pika Music, Pika SFX und Pika Soundtrack. Die Plattform hostet daneben Partnermodelle anderer Labore."
   - q: "Was passiert, wenn ich meinen Pika-Plan kündige?"
-    a: "Dein Plan läuft bis zum Ende der laufenden Abrechnungsperiode, danach wechselt das Konto in den Free-Plan. Als Top-up gekaufte Credits bleiben im Guthaben und können weiter ausgegeben werden."
+    a: "Dein Plan läuft bis zum Ende der laufenden Abrechnungsperiode, danach wechselt das Konto in den Free-Plan. Als Top-up gekaufte Credits bleiben im Guthaben und können weiter ausgegeben werden, bis sie 365 Tage nach Kauf verfallen."
 ---
 ## Was ist Pika heute?
 Pika startete als verspielte Text-zu-Video-App, bekannt für Effekte wie Pikaffects und Pikaswaps. 2026 ist daraus eine breitere Kreativplattform mit getrennten Apps für Video, Bilder und Audio geworden, samt einem Modell-Picker, der Pikas eigene Modelle mit Partnermodellen mischt.

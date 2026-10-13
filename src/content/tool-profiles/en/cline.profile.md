@@ -30,8 +30,8 @@ pricing:
   currency: USD
   billing: month
   summary: "The Cline agent is free for individuals, with no seat fees; you pay model providers through your own keys or buy inference from Cline at cost. ClinePass, an optional open-weight model subscription, is $9.99/month, and Enterprise pricing is custom."
-  asOf: 2026-09-17
-platforms: [vscode, jetbrains, cli, macos, windows]
+  asOf: 2026-10-12
+platforms: [vscode, jetbrains, cli, macos, windows, linux]
 savingTips:
   - "Bring your own API keys to pay provider rates directly, with no subscription or markup from Cline."
   - "ClinePass bundles open-weight models such as GLM 5.3, Kimi K3 and DeepSeek V4 for $9.99/month instead of separate provider accounts."
@@ -55,7 +55,7 @@ sources:
   - https://cline.bot/desktop
   - https://cline.bot/cli
   - https://github.com/cline/cline
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Cline?
 Cline is an autonomous coding agent that works inside your editor or terminal rather than as a separate hosted service. It reads files you point it at, edits code, runs commands and drives a browser, pausing for your approval at each step unless you allow more autonomy.
@@ -64,7 +64,7 @@ Cline is an autonomous coding agent that works inside your editor or terminal ra
 - **VS Code extension**, also installable in Cursor and Windsurf.
 - **JetBrains plugin** in early access.
 - **CLI** with a Kanban board, plugins, schedules and headless CI use.
-- **Cline for Desktop**, a beta standalone app for macOS and Windows.
+- **Cline for Desktop**, a beta standalone app for macOS, Windows and Linux.
 - **SDK** for embedding the agent in other tools.
 
 ## Limitations

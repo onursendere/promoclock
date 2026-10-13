@@ -6,7 +6,7 @@ excerpt: "Claude's peak hours are weekdays from 13:00 to 19:00 UTC (09:00–15:0
 category: guides
 featured: true
 publishedAt: 2026-10-04
-updatedAt: 2026-10-04
+updatedAt: 2026-10-12
 image:
   src: "../images/claude-peak-hours.jpg"
   alt: "Close-up of a white wall clock with a red second hand against a light blue wall"
@@ -84,7 +84,7 @@ Claude peak hours took effect on March 27, 2026, the last day of a two-week off-
 - **March 13–27, 2026:** [the off-peak 2x promotion](/deals/claude-march-2026-offpeak-2x/) doubled session limits outside 8 AM–2 PM ET on weekdays and all weekend, for Free, Pro, Max and Team. It has ended.
 - **March 27, 2026:** [peak hours took effect](/deals/claude-peak-hours-introduced/). Session limits now drain faster on weekdays from 13:00 to 19:00 UTC.
 - **May 6, 2026:** Anthropic [doubled Claude Code's 5-hour limits and removed the peak-hour reduction for Claude Code on Pro and Max](/deals/claude-code-5h-limits-doubled/), per its [official announcement](https://www.anthropic.com/news/higher-limits-spacex).
-- **October 1–15, 2026:** [the artifact usage promotion](/deals/claude-artifact-usage-promo-oct-2026/) makes the next 10 chat messages after you create or edit an artifact count 50% less toward the 5-hour limit on Pro, Max and Team. It is live as of October 4, 2026 and runs until 11:59 PM PT on October 15.
+- **October 1–15, 2026:** [the artifact usage promotion](/deals/claude-artifact-usage-promo-oct-2026/) makes the next 10 chat messages after you create or edit an artifact count 50% less toward the 5-hour limit on Pro, Max and Team, and on Free since October 7. It runs until 11:59 PM PT on October 15.
 
 For every other session and weekly limit change this year, see our guide to [Claude usage limits](/blog/claude-usage-limits/).
 

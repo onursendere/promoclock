@@ -39,7 +39,7 @@ faq:
   - q: "Was passiert, wenn die n8n-Cloud-Testphase endet?"
     a: "Die Testphase läuft nach 14 Tagen automatisch aus, und n8n löscht den Workspace, sofern du nicht upgradest. Du hast 90 Tage, um deine Workflows herunterzuladen, und es entstehen keine Kosten, wenn du nichts tust."
   - q: "Kann n8n Workflows per KI für dich bauen?"
-    a: "Ja. Der n8n Assistant, früher AI Assistant, kann Workflows aus Anfragen in Alltagssprache erstellen, bearbeiten, testen und beheben. Cloud Starter enthält dafür 2.300 KI-Credits pro Monat und Pro bis zu 13.700."
+    a: "Ja. Der n8n Assistant, früher AI Assistant, kann Workflows aus Anfragen in Alltagssprache erstellen, bearbeiten, testen und beheben. Cloud Starter enthält dafür 1.600 Assistant-Credits pro Monat und Pro je nach Größe 4.000 oder 9.600; seit dem 30. September 2026 können Inhaber auch Credits aufladen."
   - q: "Rechnet n8n pro Nutzer ab?"
     a: "Nein. Jeder n8n-Plan enthält unbegrenzte Nutzer und Workflows. Die Pläne unterscheiden sich in monatlichen Ausführungen, gleichzeitigen Ausführungen, geteilten Projekten, Insights-Historie und Admin-Funktionen wie SSO."
 ---

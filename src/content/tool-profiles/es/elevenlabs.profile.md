@@ -29,7 +29,7 @@ useCases:
   - "Transcribir entrevistas con Scribe y añadir efectos de sonido a un cortometraje a partir de prompts."
 pricingSummary: "Free incluye 10.000 créditos al mes. Starter cuesta $6/mes (30.000 créditos), Creator $22/mes (121.000), Pro $99/mes (600.000), Scale $299/mes y Business $990/mes con asientos extra; Enterprise es a medida."
 savingTips:
-  - "La facturación anual cobra 10 meses por un año completo, así que Starter sale a $5/mes y Creator a $18,33/mes."
+  - "La facturación anual cobra 10 meses por un año completo, así que Starter sale a $5/mes y Creator a $18.33/mes."
   - "En los planes de pago, los créditos no usados se acumulan hasta dos meses, con un tope del doble de tu cupo mensual."
   - "Los 10.000 créditos mensuales del plan gratis cubren unos 10 minutos de texto a voz para probar voces."
 faq:

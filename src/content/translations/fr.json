@@ -174,13 +174,13 @@
       "title": "Claude artifacts : consommation de session réduite de 50 % après création d'artifacts (1er–15 octobre 2026)",
       "headline": "Claude artifacts : usage réduit de 50 %",
       "value": "Usage réduit de 50 %",
-      "audience": "Pro, Max, Team",
-      "summary": "Du 1er au 15 octobre 2026, les travaux qui suivent la création ou l'édition d'un artifact dans Claude sont décomptés à 50 % de votre limite de session de 5 heures. S'applique automatiquement ; les limites hebdomadaires ne changent pas.",
+      "audience": "Free, Pro, Max, Team",
+      "summary": "Jusqu'au 15 octobre 2026, les travaux qui suivent la création ou l'édition d'un artifact dans Claude sont décomptés à 50 % de votre limite de session de 5 heures. L'offre a démarré sur Pro, Max et Team le 1er octobre, les formules Free l'ont rejointe le 7 octobre, et les limites hebdomadaires ne changent pas.",
       "scope": "Claude web, desktop, mobile et tâches cloud Cowork",
       "terms": [
         "Dans les chats, les 10 messages suivant la création ou l'édition d'un artifact bénéficient de la remise, jusqu'à 15 étapes par réponse.",
         "Les tâches Cowork lancées depuis Document, Presentation ou Design bénéficient d'environ 45 minutes de travail à tarif réduit.",
-        "Claude Code, l'API, Claude dans Slack, les tâches Cowork locales et les formules Free et Enterprise sont exclus."
+        "Claude Code, l'API, Claude dans Slack, les tâches Cowork locales et planifiées, l'application Claude Design autonome et les formules Enterprise sont exclus."
       ]
     },
     "elevenlabs-v4-launch-3x-credits": {
@@ -210,10 +210,12 @@
       "title": "SWE-2 gratuit dans Devin Desktop (anciennement Windsurf) et Devin CLI jusqu'au 16 octobre 2026",
       "headline": "SWE-2 gratuit dans Devin Desktop jusqu'au 16 octobre",
       "value": "SWE-2 gratuit",
-      "audience": "Formules Pro et Max",
-      "summary": "Le modèle SWE-2 de Cognition est gratuit dans Devin Desktop, l'éditeur Windsurf renommé, et dans Devin CLI jusqu'au 16 octobre 2026 sur Pro ($20/mois) et Max ($200/mois).",
+      "audience": "Formules Pro, Max et Teams en libre-service",
+      "summary": "Le modèle SWE-2 de Cognition est gratuit dans Devin Desktop, l'éditeur Windsurf renommé, et dans Devin CLI jusqu'au 16 octobre 2026 sur les formules en libre-service, dont Pro ($20/mois) et Max ($200/mois).",
       "terms": [
-        "SWE-2 a été lancé le 10 septembre 2026 en tant que dernier modèle de Cognition."
+        "SWE-2 a été lancé le 10 septembre 2026 en tant que dernier modèle de Cognition.",
+        "La documentation des modèles de Devin donne le 15 octobre comme dernier jour gratuit : prévoyez donc les usages intensifs avant cette date.",
+        "Après la période gratuite, SWE-2 est facturé aux tarifs standard du modèle."
       ]
     },
     "adobe-firefly-30-off-first-year-2026": {
@@ -224,6 +226,7 @@
       "summary": "Les nouveaux abonnés Firefly paient 30 % moins cher la première année : Pro Plus est $34.97/mois au lieu de $49.99, et Premium $139.91/mois au lieu de $199.99. L'offre dure jusqu'au 21 octobre 2026.",
       "terms": [
         "Demande un engagement de 12 mois ; le tarif régulier s'applique à partir de la deuxième année.",
+        "La page des formules d'Adobe ajoute des générations illimitées sur certains modèles Firefly la première année.",
         "Non disponible pour les clients éducatifs, OEM ou de licences en volume.",
         "Au Royaume-Uni, la première année coûte £33.58/mois pour Pro Plus et £140.20/mois pour Premium."
       ]
@@ -291,6 +294,125 @@
       ],
       "terms": [
         "Un espace de travail par étudiant ; ne peut pas être cumulé avec d'autres offres Lovable."
+      ]
+    },
+    "claude-for-startups-team-year-2026": {
+      "title": "Claude for Startups : un an de Claude Team offert et $1,000 de crédits API (capacité dépassée depuis octobre 2026)",
+      "headline": "Claude for Startups : année Team offerte (en pause)",
+      "value": "1 an de Team + $1,000",
+      "audience": "Startups acceptées dans Claude for Startups",
+      "summary": "Le 6 octobre 2026, Anthropic a ajouté à Claude for Startups un an de Claude Team offert, pour jusqu’à cinq sièges, et $1,000 de crédits API. En quelques jours, elle a indiqué que sa capacité était dépassée sur les deux offres et qu’elle réexaminerait toutes les candidatures ; les startups qui les avaient déjà obtenues les conservent.",
+      "terms": [
+        "Les crédits API ne fonctionnent que sur l’API Claude d’Anthropic, pas sur Amazon Bedrock ni sur Google Vertex AI.",
+        "Le reste du programme, dont jusqu’à $45,000 de réductions chez des partenaires et des office hours, reste ouvert aux candidatures."
+      ]
+    },
+    "magnific-one-unlimited-oct-2026": {
+      "title": "Magnific (Freepik) : générations d’images Magnific One illimitées sur Premium+, Pro et Business jusqu’au 15 octobre 2026",
+      "headline": "Magnific One illimité jusqu’au 15 octobre",
+      "value": "Magnific One illimité",
+      "audience": "Abonnés Premium+, Pro et Business",
+      "summary": "Magnific, le nouveau nom de la suite IA de Freepik, rend son nouveau modèle d’image Magnific One illimité sur ordinateur jusqu’au 15 octobre 2026 pour les formules Premium+, Pro et Business. La qualité Max consomme toujours des crédits.",
+      "terms": [
+        "L’illimité couvre Draft et Final en qualité High, en 2K et 4K.",
+        "Cette offre remplace l’offre Seedream 5.0 Pro illimité qui s’est terminée le 10 octobre."
+      ]
+    },
+    "elevenlabs-starter-1-first-month-2026": {
+      "title": "ElevenLabs Starter à $1 : premier mois à 83 % de réduction pour les nouveaux abonnés (jusqu’au 18 octobre 2026)",
+      "headline": "ElevenLabs Starter : premier mois à $1",
+      "value": "Premier mois à $1",
+      "audience": "Nouveaux abonnés Starter",
+      "summary": "Les nouveaux abonnés d’ElevenLabs peuvent obtenir le premier mois de la formule Starter à $1 au lieu de $6 jusqu’au 18 octobre 2026. Le premier mois de la formule Creator est aussi affiché à $11 au lieu de $22.",
+      "terms": [
+        "Premier mois uniquement ; Starter se renouvelle ensuite à $6/mois et Creator à $22/mois.",
+        "La réduction sur Creator n’a pas de date de fin sur la page des tarifs."
+      ]
+    },
+    "runway-enterprise-two-months-free-2026": {
+      "title": "Runway Enterprise : 2 mois d’utilisation offerts aux entreprises qui signent au plus tard le 31 octobre 2026",
+      "headline": "Runway Enterprise : 2 mois d’utilisation offerts",
+      "value": "2 mois offerts",
+      "audience": "Entreprises qui signent un contrat Runway Enterprise",
+      "summary": "Runway offre 2 mois d’utilisation aux entreprises qui signent un contrat Enterprise au plus tard le 31 octobre 2026. C’est une offre commerciale, négociée avec l’équipe de vente, non disponible sur les formules en libre-service.",
+      "steps": [
+        "Contactez l’équipe commerciale de Runway depuis la bannière de runway.com.",
+        "Signez le contrat Enterprise au plus tard le 31 octobre."
+      ],
+      "terms": [
+        "Contrats Enterprise uniquement ; les formules Free, Standard, Pro, Max et Team sont exclues.",
+        "Les conditions distinctes de l’offre de Runway s’appliquent."
+      ]
+    },
+    "kiro-startups-pro-plus-credits-2026": {
+      "title": "Kiro for Startups : Kiro Pro+ gratuit et un an de crédits pour les startups en phase initiale (candidatures jusqu’au 31 décembre 2026)",
+      "headline": "Kiro Pro+ gratuit pour les startups",
+      "value": "Pro+ et crédits offerts",
+      "audience": "Startups de la phase initiale à la série A avec un compte AWS",
+      "summary": "AWS offre aux startups éligibles un accès gratuit à Kiro Pro+ et un an de crédits promotionnels Kiro. Les candidatures sont ouvertes du 7 avril au 31 décembre 2026.",
+      "steps": [
+        "Candidatez via le programme startup de Kiro avec l’identifiant du compte AWS de votre entreprise.",
+        "Choisissez le niveau Pro+ adapté à votre équipe ; le montant des crédits dépend du niveau."
+      ],
+      "terms": [
+        "Réservé aux entreprises de la phase initiale à la série A qui possèdent un compte AWS.",
+        "Les crédits expirent un an après leur émission sur votre compte AWS."
+      ]
+    },
+    "gemini-3-8-flash-intro-pricing-2026": {
+      "title": "Tarifs de lancement de l’API Gemini 3.8 Flash : $0.75 en entrée et $3.75 en sortie par million de tokens jusqu’au 31 décembre 2026",
+      "headline": "API Gemini 3.8 Flash à moitié prix jusqu’en 2027",
+      "value": "50 % de réduction sur l’API",
+      "audience": "Développeurs sur le niveau payant de l’API Gemini",
+      "summary": "Jusqu’au 31 décembre 2026, Gemini 3.8 Flash coûte $0.75 par million de tokens en entrée et $3.75 par million de tokens en sortie sur le niveau payant Standard de l’API Gemini. À partir du 1er janvier 2027, les tarifs doublent et passent à $1.50 et $7.50.",
+      "terms": [
+        "La mise en cache du contexte est aussi à moitié prix jusqu’à la fin de 2026.",
+        "Le niveau gratuit de l’API Gemini reste gratuit."
+      ]
+    },
+    "synthesia-syren-launch-credits-2026": {
+      "title": "Lancement de Syren par Synthesia : crédits Syren gratuits pour tous les utilisateurs, valables un mois (octobre 2026)",
+      "headline": "Synthesia Syren : crédits de lancement offerts",
+      "value": "Crédits Syren offerts",
+      "audience": "Tous les utilisateurs de Synthesia, y compris la formule gratuite",
+      "summary": "Synthesia a lancé Syren, son agent vidéo IA, en bêta le 9 octobre 2026 et offre à chaque utilisateur des crédits réservés à Syren pour créer une première vidéo. Les crédits sont valables un mois, après quoi Syren utilise les crédits de votre formule habituelle.",
+      "steps": [
+        "Connectez-vous à Synthesia et ouvrez Syren depuis la navigation de gauche.",
+        "Décrivez la vidéo souhaitée ou joignez des fichiers, puis affinez-la par chat."
+      ],
+      "terms": [
+        "Syren est en bêta, et ses vidéos durent jusqu’à trois minutes.",
+        "Les crédits de lancement ne fonctionnent que dans Syren."
+      ]
+    },
+    "kiro-student-free-year-2026": {
+      "title": "Kiro gratuit pour les étudiants d’université : 1 000 crédits par mois pendant un an",
+      "headline": "Kiro gratuit un an pour les étudiants",
+      "value": "1 an gratuit",
+      "audience": "Étudiants d’universités éligibles",
+      "summary": "Les étudiants d’universités éligibles reçoivent gratuitement 1 000 crédits Kiro par mois pendant un an, soit la même dotation mensuelle que Kiro Pro. Au bout de l’année, le compte passe à la formule Free et votre travail est conservé.",
+      "steps": [
+        "Connectez-vous à Kiro avec un compte lié à votre adresse e-mail universitaire.",
+        "Sur la page d’utilisation de votre compte, cliquez sur « vérifier » dans la bannière Kiro Students.",
+        "Terminez la vérification étudiante avec SheerID."
+      ],
+      "terms": [
+        "Vous devez avoir 18 ans ou plus et étudier dans une université de la liste.",
+        "Les crédits ne sont pas reportés et les crédits complémentaires ne sont pas disponibles."
+      ]
+    },
+    "codex-for-open-source-chatgpt-pro-2026": {
+      "title": "Codex for Open Source : six mois de ChatGPT Pro avec Codex pour les mainteneurs de projets open source",
+      "headline": "Codex for Open Source : 6 mois de Pro",
+      "value": "6 mois de Pro",
+      "audience": "Mainteneurs de projets open source très utilisés",
+      "summary": "Le programme Codex for Open Source d’OpenAI offre aux mainteneurs approuvés six mois de ChatGPT Pro avec Codex. Les projets peuvent aussi demander des crédits API sur un fonds de $1 million et, pour les mainteneurs principaux, un accès à Codex Security.",
+      "steps": [
+        "Candidatez via le formulaire de la page Codex for Open Source d’OpenAI."
+      ],
+      "terms": [
+        "L’approbation se fait au cas par cas ; les mainteneurs principaux et les responsables de projets publics très utilisés sont le public visé en priorité.",
+        "Aucune date limite de candidature n’est indiquée."
       ]
     }
   },
@@ -637,6 +759,24 @@
     },
     "pixel-10-pro-ai-pro-deadline-2026": {
       "title": "Dernier jour pour acheter un Pixel 10 Pro avec 12 mois de Google AI Pro"
+    },
+    "magnific-one-unlimited-end-2026": {
+      "title": "Fin des générations Magnific One illimitées"
+    },
+    "elevenlabs-starter-1-end-2026": {
+      "title": "Dernier jour pour obtenir le premier mois d’ElevenLabs Starter à $1"
+    },
+    "runway-enterprise-offer-end-2026": {
+      "title": "Dernier jour pour signer Runway Enterprise avec 2 mois d’utilisation offerts"
+    },
+    "kiro-startups-deadline-2026": {
+      "title": "Dernier jour pour candidater à Kiro Pro+ gratuit pour les startups"
+    },
+    "gemini-3-8-flash-intro-pricing-end-2026": {
+      "title": "Fin des tarifs de lancement de l’API Gemini 3.8 Flash ; les tarifs doublent le 1er janvier"
+    },
+    "claude-for-startups-launch-2026": {
+      "title": "Claude for Startups ajoute un an de Claude Team offert et $1,000 de crédits API"
     }
   }
 }

@@ -1,5 +1,5 @@
 ---
-summary: "ChatGPT es el asistente de IA de OpenAI para escribir, investigar, programar, crear imágenes y conversaciones por voz. En septiembre de 2026 sus niveles de pago van de Go a dos niveles Pro, y el razonamiento de GPT-6 Astra empieza en Plus. Lo usan estudiantes, profesionales del conocimiento y desarrolladores, a menudo junto al agente Codex incluido y ChatGPT Work."
+summary: "ChatGPT es el asistente de IA de OpenAI para escribir, investigar, programar, crear imágenes y conversaciones por voz. A octubre de 2026 sus niveles de pago van de Go a tres niveles de uso Pro, y los modelos de razonamiento GPT-6 empiezan en Plus. Lo usan estudiantes, profesionales del conocimiento y desarrolladores, a menudo junto al agente Codex incluido y ChatGPT Work."
 metaTitle: "ChatGPT: precios 2026, planes Free, Go, Plus y Pro"
 metaDescription: "Precios de ChatGPT en 2026: Free, Go a $8/mes, Plus a $20/mes y Pro desde $100/mes. Compara modelos, límites, anuncios y alternativas."
 bestFor:
@@ -8,8 +8,8 @@ bestFor:
   - "Desarrolladores que usan Codex"
   - "Usuarios avanzados con límites altos"
 keyFeatures:
-  - name: "Modelos GPT-6 Astra y GPT-5.6"
-    description: "Los chats gratis funcionan con GPT-5.6 Luna, Plus añade razonamiento avanzado con GPT-6 Astra, y Pro añade razonamiento pro con el mismo modelo."
+  - name: "Modelos GPT-6"
+    description: "Los chats gratis funcionan con GPT-6, Plus añade modelos de razonamiento avanzado GPT-6, y Pro añade razonamiento pro con GPT-6 Astra."
   - name: "Agente ChatGPT Work"
     description: "Un agente lanzado en julio de 2026 que trabaja entre tus apps y archivos durante horas y convierte un objetivo en documentos, hojas, diapositivas o apps web."
   - name: "Codex integrado"
@@ -33,13 +33,13 @@ savingTips:
   - "Los docentes verificados de escuela en EE. UU. pueden usar ChatGPT for Teachers gratis hasta junio de 2027."
 faq:
   - q: "¿ChatGPT es gratis?"
-    a: "Sí. El plan Free incluye chats de texto ilimitados con GPT-5.6 Luna, sujetos a límites de abuso, más subidas, generación de imágenes, chats de voz, investigación a fondo y acceso a Codex limitados. Pueden aparecer anuncios debajo de las respuestas."
+    a: "Sí. El plan Free incluye chats de texto ilimitados con GPT-6, sujetos a límites de abuso, más subidas, generación de imágenes, chats de voz, investigación a fondo y acceso a Codex limitados. Pueden aparecer anuncios debajo de las respuestas."
   - q: "¿ChatGPT muestra anuncios?"
     a: "Sí, en Free y Go. OpenAI empezó a probar anuncios en EE. UU. el 9 de febrero de 2026, mostrados debajo de las respuestas y marcados como patrocinados. Las cuentas Plus, Pro, Business, Enterprise y Edu no tienen anuncios, ni tampoco las de los menores de 18 años."
   - q: "¿Puedo suscribirme a ChatGPT Pro $200 de nuevo?"
     a: "Sí. OpenAI pausó los nuevos registros a Pro $200 el 10 de septiembre de 2026 y los reabrió el 29 de septiembre. Según reportes, el nivel ahora incluye 10 veces el uso de Plus en lugar de 20, y los suscriptores actuales mantienen la asignación anterior hasta el 29 de octubre. Un nuevo nivel Pro de $500 ofrece el mayor uso."
   - q: "¿Cuál es la diferencia entre ChatGPT Go y Plus?"
-    a: "Go ($8/mes) sobre todo sube los límites de Free, y su opción Think usa GPT-5.6 Luna sin GPT-5.6 Sol ni modelos heredados. Plus ($20/mes) añade el razonamiento de GPT-6 Astra, investigación a fondo y uso de Codex ampliados, y sin anuncios."
+    a: "Go ($8/mes) sobre todo sube los límites de Free en herramientas, subidas, creación de imágenes y memoria, y puede mostrar anuncios. Plus ($20/mes) añade modelos de razonamiento avanzado GPT-6, investigación a fondo y uso de Codex ampliados, y sin anuncios."
   - q: "¿Puedo impedir que ChatGPT use mis chats para entrenar?"
     a: "Sí. OpenAI dice que puede usar las conversaciones para mejorar sus modelos, pero puedes optar por no participar en cualquier momento en Data Controls. La página de precios indica la exclusión para los planes individuales."
 ---
@@ -50,7 +50,7 @@ ChatGPT es el asistente de propósito general de OpenAI, disponible en la web, i
 - **Go llegó a todo el mundo.** El plan de bajo coste alcanzó todos los países compatibles en enero de 2026 a $8/mes en EE. UU., con precios locales en algunos mercados.
 - **Llegaron los anuncios.** Los usuarios de Free y Go en EE. UU. empezaron a ver unidades patrocinadas bajo las respuestas desde el 9 de febrero de 2026.
 - **Se lanzó ChatGPT Work.** Desde el 9 de julio de 2026 el agente está en los planes de pago de web y móvil, y la app de escritorio ofrece Chat, Work y Codex en cada plan, incluido Free.
-- **Pro se dividió en dos.** Pro ahora cuesta $100 o $200 al mes, y el nivel de $200 dejó de aceptar nuevos suscriptores el 10 de septiembre de 2026.
+- **Pro en tres niveles.** Pro ahora te deja elegir entre niveles de uso de $100, $200 y $500, y añade Dot, un agente siempre activo.
 
 ## Limitaciones
 Los chats "ilimitados" están sujetos a límites de abuso, y algunos modelos tienen cupos aparte que se pausan hasta un reinicio. El soporte de OpenAI no puede reiniciar tus límites. Los planes individuales se facturan solo mensualmente, y Go no incluye modelos heredados como GPT-4o.

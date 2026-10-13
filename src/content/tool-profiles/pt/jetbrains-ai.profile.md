@@ -1,7 +1,7 @@
 ---
 summary: "JetBrains AI é a assinatura de IA da JetBrains para suas IDEs, cobrindo os recursos do AI Assistant, o agente de programação Junie e agentes de terceiros como Claude Agent, Codex e Gemini CLI. Desenvolvedores que já usam IntelliJ IDEA, PyCharm ou outras IDEs da JetBrains a utilizam para completar código, chat e mudanças conduzidas por agentes, pagas com AI Credits mensais."
-metaTitle: "Preços do JetBrains AI: Free, Pro e Ultimate (2026)"
-metaDescription: "Preços do JetBrains AI em 2026: AI Free com 3 créditos, AI Pro a $10/mês e AI Ultimate a $30/mês. Veja Junie, créditos, teste grátis e quem ganha o AI Pro de graça."
+metaTitle: "Preços do JetBrains AI 2026: Free, AI Pro $10, Ultimate $30"
+metaDescription: "O JetBrains AI Free inclui 3 AI Credits a cada 30 dias. O AI Pro custa $10/mês com 10 créditos, o AI Ultimate $30/mês com 35; o All Products Pack inclui o AI Pro."
 bestFor:
   - "Quem já usa IDEs JetBrains"
   - "Desenvolvedores Java e Kotlin"
@@ -27,7 +27,7 @@ useCases:
 pricingSummary: "O AI Free inclui 3 AI Credits a cada 30 dias. Para pessoas físicas, o AI Pro custa $10/mês com 10 créditos e o AI Ultimate $30/mês com 35 créditos; o AI Enterprise é para organizações. Créditos extras avulsos custam $1 cada."
 savingTips:
   - "Assinantes do All Products Pack e do dotUltimate ganham o AI Pro sem custo adicional."
-  - "A cobrança anual reduz o AI Pro para $8,33/mês e o AI Ultimate para $25/mês."
+  - "A cobrança anual reduz o AI Pro para $8.33/mês e o AI Ultimate para $25/mês."
   - "Um teste grátis de 30 dias do AI Pro está disponível na primeira vez que você ativa o JetBrains AI."
   - "Completação, sugestões de próxima edição e modelos locais não usam AI Credits, então continuam ilimitados no AI Free."
 faq:
@@ -38,7 +38,7 @@ faq:
   - q: "Quem ganha o JetBrains AI Pro de graça?"
     a: "Assinantes do All Products Pack e do dotUltimate, membros do Developer Recognition Program, JetBrains Content Creators e usuários do DataSpell recebem o AI Pro incluído. Ele não está incluso nas licenças gratuitas do All Products Pack para estudantes, professores, salas de aula ou projetos open source."
   - q: "O Junie está incluído no JetBrains AI?"
-    a: "Sim. O Junie usa os mesmos AI Credits, e a JetBrains recomenda o AI Ultimate para uso regular do Junie. O Junie CLI também começa gratuito, e com sua própria chave de API você paga as tarifas do provedor sem taxa adicional."
+    a: "Sim. O Junie usa os mesmos AI Credits, e a JetBrains recomenda o AI Ultimate para uso regular do Junie. O Junie agora também oferece o Junie Lite, um modelo gratuito sempre ativo em toda conta JetBrains, sem teste nem cartão, e com sua própria chave de API você paga as tarifas do provedor sem taxa adicional."
   - q: "A JetBrains usa seu código para treinar modelos de IA?"
     a: "Só se você permitir. O compartilhamento detalhado de dados é opcional em licenças pagas, mas vem ativado por padrão em licenças não comerciais, onde é possível desativar. Os dados compartilhados treinam modelos da JetBrains como o Mellum e não são repassados a terceiros."
 ---

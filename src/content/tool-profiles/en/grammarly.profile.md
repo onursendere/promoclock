@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free costs $0 and includes 100 AI prompts a month. Pro is $30 per member per month, $60 per quarter or $144 per year, with 2,000 prompts. Enterprise is sold through Superhuman Go."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, browser-extension]
 savingTips:
   - "Annual billing brings Grammarly Pro to $144 a year, an average of $12 a month instead of $30 on monthly billing."
@@ -52,7 +52,7 @@ sources:
   - https://www.grammarly.com/where-grammarly-works
   - https://www.grammarly.com/blog/company/announcing-company-rebrand-to-superhuman/
   - https://www.grammarly.com/blog/company/grammarly-launches-ai-agents/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Grammarly?
 Grammarly is a writing assistant that sits on top of the apps you already use and suggests fixes for correctness, clarity and tone. It began as a grammar checker and now includes generative AI, sentence rewrites and a set of task-specific writing agents.

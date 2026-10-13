@@ -1,7 +1,7 @@
 ---
 summary: "Semrush, Nisan 2026'da Adobe'nin satın aldığı Semrush Holdings'in SEO ve AI arama görünürlüğü platformu. Anahtar kelime araştırması, sıralama takibi ve site denetimini; ChatGPT, Gemini, Perplexity ve Google'ın AI yanıtlarının bir markadan nasıl bahsettiğini izleme özelliğiyle birleştirir. Ajanslar, şirket içi SEO ekipleri ve içerik pazarlamacıları onu arama çalışmalarını planlamak ve ölçmek için kullanır."
-metaTitle: "Semrush fiyatları 2026: ücretsiz plan, deneme ve limitler"
-metaDescription: "Semrush fiyatları 2026: ücretsiz planda günde 10 rapor, aylık $139 ile SEO planı, Starter, Pro+ ve Advanced, 7 günlük ücretsiz deneme ve alternatifler."
+metaTitle: "Semrush fiyatları 2026: aylık $139'dan planlar ve deneme"
+metaDescription: "Semrush, SEO için aylık $139, Starter için $199, Pro+ için $299 ve Advanced için $549. Ücretsiz plan günde 10 rapor veriyor; çoğu araç setinde 7 günlük deneme var."
 bestFor:
   - "SEO uzmanları ve danışmanları"
   - "Müşterilerine rapor sunan ajanslar"

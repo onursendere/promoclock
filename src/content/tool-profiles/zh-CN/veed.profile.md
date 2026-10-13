@@ -1,7 +1,7 @@
 ---
 summary: "VEED是VEED推出的在线视频编辑器，把浏览器时间轴与AI字幕、翻译、配音、数字人和AI视频生成结合在一起。它以快速的自动字幕和品牌套件著称，适合发布短视频、不用桌面剪辑软件的营销人员、社媒团队和创作者。"
-metaTitle: "VEED价格与AI功能(2026)"
-metaDescription: "2026年VEED定价，免费套餐的水印和720p限制说明，AI积分的计算方式，以及值得考虑的VEED视频编辑替代工具有哪些。"
+metaTitle: "VEED免费试用与价格：免费套餐、Creator £20/月"
+metaDescription: "VEED的免费试用仅面向3人以上的Enterprise团队；个人用户从免费套餐起步（720p、带水印）。英国地区Creator为£20/月，Pro为£35。"
 bestFor:
   - "社交媒体营销人员"
   - "需要快速字幕的创作者"

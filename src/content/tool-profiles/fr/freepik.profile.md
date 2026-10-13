@@ -1,7 +1,7 @@
 ---
 summary: "Freepik est la plateforme de contenu de stock et de création par IA de Freepik Company, renommée Magnific en 2026, freepik.com redirigeant désormais vers magnific.com. Elle réunit plus de 250 M de photos, vecteurs, vidéos et modèles à des outils d’IA d’image, de vidéo, d’audio et d’upscaling répartis sur 30+ modèles. Designers, marketeurs et agences s’en servent pour trouver et générer des visuels dans un seul abonnement."
-metaTitle: "Freepik (désormais Magnific) : tarifs et gratuit 2026"
-metaDescription: "Freepik est désormais Magnific. Tarifs 2026 de Premium, Premium+ et Pro, limites de la formule gratuite, crédits d’IA, générations illimitées et ce qui change."
+metaTitle: "Freepik devient Magnific : tarifs, gratuit et nouveautés"
+metaDescription: "Freepik est désormais Magnific. En gratuit, toujours 10 téléchargements par jour ; Premium dès £14/mois au Royaume-Uni. Formules 2026, crédits d’IA et limites."
 bestFor:
   - "Designers voulant stock et IA"
   - "Équipes social et marketing"

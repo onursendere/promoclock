@@ -28,7 +28,7 @@ useCases:
 pricingSummary: "O plano grátis inclui 60 minutos de mídia por mês e 100 créditos de IA únicos. O Hobbyist custa $24/mês, o Creator $35/mês e o Business $65/mês; a cobrança anual reduz esses valores para $16, $24 e $50."
 savingTips:
   - "A cobrança anual economiza até 35%: o Hobbyist cai de $24 para $16 por mês, o Creator de $35 para $24 e o Business de $65 para $50."
-  - "O Descript oferece tarifas especiais para estudantes, educadores e ONGs por um formulário de solicitação na página de preços."
+  - "Escolas e ONGs podem se candidatar a um plano Education/Non-profit por $12 por editor por mês, ou $8 na cobrança anual, com todos os recursos do Hobbyist."
   - "O Studio Sound e o Remove Filler Words custam no máximo 30 créditos de IA por aplicação, não importa a duração do arquivo."
   - "Não é preciso cartão de crédito para gravar, editar e mixar no plano grátis."
 faq:

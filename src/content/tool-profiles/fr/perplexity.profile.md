@@ -25,9 +25,10 @@ useCases:
   - "Constituer une note de dimensionnement de marché qui tire ses chiffres de Statista et PitchBook au sein d’une recherche Pro."
   - "Confier une analyse concurrentielle à Perplexity Computer et retrouver un rapport et un tableur finalisés."
   - "Demander à Comet, sur votre téléphone, de résumer et comparer plusieurs fiches produit pendant que vous naviguez."
-pricingSummary: "La formule Free coûte $0 pour un usage quotidien limité. Pro revient à $20/mois et Max à $200/mois, et les étudiants comme les enseignants vérifiés peuvent obtenir Education Pro pour $10/mois."
+pricingSummary: "La formule Free coûte $0 pour un usage quotidien limité. Pro revient à $20/mois, ou $17/mois en facturation annuelle, et Max à $200/mois, ou $167/mois en facturation annuelle. Les étudiants comme les enseignants vérifiés peuvent obtenir Education Pro pour $10/mois."
 savingTips:
   - "Les étudiants et enseignants vérifiés via SheerID paient $10/mois pour Education Pro, moitié moins que Pro, avec tout le contenu de Pro."
+  - "La facturation annuelle ramène Pro à $17/mois et Max à $167/mois."
   - "La formule Free place malgré tout des citations dans chaque réponse : une vérification ponctuelle des faits ne nécessite aucun abonnement."
   - "Les sièges Enterprise Pro coûtent $400 par an et par siège, contre $40 par mois en facturation mensuelle."
 faq:

@@ -32,7 +32,7 @@ pricing:
   currency: EUR
   billing: month
   summary: "The self-hosted Community Edition is free. On n8n Cloud, Starter costs €24/month for 2,500 executions and Pro €60/month for 10,000, with 17% off on annual billing; Business and Enterprise cost more."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api, cli]
 savingTips:
   - "Annual billing saves 17%, dropping Cloud Starter from €24 to €20 and Pro from €60 to €50 per month."
@@ -47,7 +47,7 @@ faq:
   - q: "What happens when the n8n Cloud trial ends?"
     a: "The trial expires automatically after 14 days, and n8n deletes the workspace unless you upgrade. You have 90 days to download your workflows, and no charges occur if you do nothing."
   - q: "Can n8n build workflows for you with AI?"
-    a: "Yes. The n8n Assistant, previously named AI Assistant, can create, edit, test and troubleshoot workflows from plain-language requests. Cloud Starter includes 2,300 AI credits a month for it, and Pro up to 13,700."
+    a: "Yes. The n8n Assistant, previously named AI Assistant, can create, edit, test and troubleshoot workflows from plain-language requests. Cloud Starter includes 1,600 Assistant credits a month for it, and Pro 4,000 or 9,600 depending on size; since September 30, 2026, owners can also top up credits."
   - q: "Does n8n charge per user?"
     a: "No. Every n8n plan includes unlimited users and workflows. Plans differ in monthly executions, concurrent executions, shared projects, insights history and admin features such as SSO."
 alternatives: [make, zapier, gumloop, mindstudio]
@@ -57,7 +57,7 @@ sources:
   - https://docs.n8n.io/choose-how-to-use-n8n
   - https://docs.n8n.io/changelog/release-notes
   - https://n8n.io/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is n8n?
 n8n is a workflow automation tool aimed at technical users. Workflows mix prebuilt nodes for 500+ apps, custom HTTP requests and code, and they can call AI models or run complete agents with human approval steps. The same product runs as a hosted service or on your own servers, and new versions ship weekly; 2.40 arrived on September 15, 2026.

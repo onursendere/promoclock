@@ -48,7 +48,7 @@ Cline es un agente de programación autónomo que funciona dentro de tu editor o
 - **Extensión de VS Code**, instalable también en Cursor y Windsurf.
 - **Plugin de JetBrains** en acceso anticipado.
 - **CLI** con un tablero Kanban, plugins, programaciones y uso headless en CI.
-- **Cline for Desktop**, una app independiente en beta para macOS y Windows.
+- **Cline for Desktop**, una app independiente en beta para macOS, Windows y Linux.
 - **SDK** para integrar el agente en otras herramientas.
 
 ## Limitaciones

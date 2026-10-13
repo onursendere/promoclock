@@ -11,8 +11,8 @@ keyFeatures:
     description: "Más de 300 plantillas que gestionan por ti el espaciado, la alineación y la jerarquía, y ajustan el diseño de forma automática cuando cambia el contenido."
   - name: "Flujo Create with AI"
     description: "Parte de un prompt, un guion o un documento, edita el guion en modo texto y luego genera diapositivas cuidadas que refinas una a una."
-  - name: "Temas y controles de marca"
-    description: "Crea un tema propio con tus colores, tipografías, logos y pies de página, y cambia todo un deck a otro tema con un clic."
+  - name: "Brand Kits y controles"
+    description: "Los Brand Kits, llamados temas hasta septiembre de 2026, guardan tus colores, tipografías, logos y preferencias de IA, y puedes cambiar todo un deck a otro kit con un clic."
   - name: "Visualización de datos"
     description: "Gráficos y tablas dinámicos que se redibujan al cambiar los números, con vinculación de datos en vivo a los gráficos en el plan Team."
   - name: "Analítica de audiencia"
@@ -46,7 +46,7 @@ faq:
 ## ¿Qué es Beautiful.ai?
 Beautiful.ai es una herramienta de presentaciones en el navegador que te quita de encima las decisiones de diseño. Eliges una plantilla Smart Slide, añades contenido y la diapositiva se reorganiza sola: el espaciado, la alineación y las proporciones de los gráficos se mantienen coherentes a medida que crece el deck.
 
-La parte de IA se reconstruyó en marzo de 2026 con Create with AI, que la empresa describe como Beautiful.ai 3.0. Eliges primero un tema, das un prompt, guion o documento, revisas un guion solo de texto y luego generas diapositivas diseñadas y regeneras diapositivas sueltas en vez de todo el deck.
+La parte de IA se reconstruyó en marzo de 2026 con Create with AI, que la empresa describe como Beautiful.ai 3.0. Eliges primero un Brand Kit, das un prompt, guion o documento, revisas un guion solo de texto y luego generas diapositivas diseñadas y regeneras diapositivas sueltas en vez de todo el deck.
 
 ## Para quién es
 Encaja con quienes presentan a menudo pero no quieren pelearse con el diseño de diapositivas, y con equipos que necesitan que cada deck respete una marca. Los asientos de Team añaden colaboración en vivo, una biblioteca de diapositivas compartida, diapositivas bloqueadas, analítica de interacción y traducción a más de 100 idiomas.

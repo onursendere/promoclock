@@ -1,7 +1,7 @@
 ---
 summary: "Devin ist Cognitions KI-Software-Ingenieur, ein Cloud-Agent, der Tickets übernimmt, auf seiner eigenen Maschine arbeitet und Pull-Requests öffnet. Seit dem 2. Juni 2026 ist Cognitions Windsurf-Editor Devin Desktop, ein Devin-Plan deckt also nun den Cloud-Agenten, die Desktop-IDE und die Devin-CLI ab. Engineering-Teams nutzen ihn für Migrationen, Bugfixes und Reviews."
-metaTitle: "Devin Preise & Gratis-Plan: Cloud, Desktop & CLI (2026)"
-metaDescription: "Devin Preise 2026: kostenloser Plan, Pro für $20/Monat, Max für $200/Monat und Teams ab $80/Monat, plus was sich änderte, als Windsurf zu Devin Desktop wurde."
+metaTitle: "Devin Preise 2026: Gratis-Plan, Pro $20, Max $200 & Desktop"
+metaDescription: "Devin hat einen Gratis-Plan mit kleinem Agenten-Kontingent. Pro kostet $20/Monat mit Devin Cloud, Max $200, Teams ab $80. Windsurf heißt jetzt Devin Desktop."
 bestFor:
   - "Engineering-Teams mit großem Backlog"
   - "Entwickler, die Tickets delegieren"

@@ -70,7 +70,7 @@ Claude Code는 터미널, VS Code, JetBrains IDE, Claude 데스크톱 앱에서 
 
 Claude Code는 Claude 채팅과 하나의 풀을 공유하며, 사용량은 5시간 단위로 갱신되는 세션과 주간 상한으로 측정됩니다. 2026년 5월 6일 Anthropic은 [Claude Code의 5시간 한도를 두 배로 늘리고](/deals/claude-code-5h-limits-doubled/) Pro와 Max에서 평일 피크 시간대 한도 감소 대상에서 제외했습니다. 9월 14일부터는 주간 한도가 [영구적으로 25% 높아졌습니다](/deals/claude-code-weekly-plus25-permanent/). [실시간 피크 시간대 시계](/)에서 보듯 Claude 채팅은 여전히 평일 13:00–19:00 UTC에 한도가 더 빨리 소진됩니다. 자세한 내용은 [Claude 사용 한도 가이드](/blog/claude-usage-limits/)에 있습니다.
 
-9월 23일에 활성 상태였던 개인 Pro·Max 구독자는 2026년 10월 7일까지 [$100 또는 $250의 Claude Code 클라우드 크레딧](/deals/claude-code-cloud-credit-2026/)을 받을 수 있습니다. 추천 대상: 저장소 전체를 다루는 에이전트 작업.
+2026년 10월 7일까지 [$100 또는 $250의 Claude Code 클라우드 크레딧](/deals/claude-code-cloud-credit-2026/)을 신청한 개인 Pro·Max 구독자는 11월 4일까지 클라우드 세션에서 사용할 수 있습니다. 추천 대상: 저장소 전체를 다루는 에이전트 작업.
 
 ### OpenAI Codex
 
@@ -80,7 +80,7 @@ Codex 한도는 추정치입니다. OpenAI는 Plus 기준 5시간마다 가장 �
 
 ### Warp
 
-Warp는 코딩 에이전트가 내장된 터미널이며, 클라이언트는 2026년 4월 28일부터 AGPL 라이선스의 오픈 소스입니다. Warp Free에는 터미널과 Agent CLI가 포함되지만 AI 사용량은 없으므로 본인의 API 키를 연결해야 합니다. Build는 1,500크레딧에 월 $20, Max는 18,000크레딧에 월 $200입니다. 추천 대상: DevOps와 터미널 작업이 많은 엔지니어.
+Warp는 코딩 에이전트가 내장된 터미널이며, 클라이언트는 2026년 4월 28일부터 AGPL 라이선스의 오픈 소스입니다. Warp Free에는 터미널과 Agent CLI가 포함되지만 AI 사용량은 없으므로 본인의 API 키를 연결해야 합니다. Build는 API 요금 기준 $20 상당의 에이전트 사용량이 포함되어 월 $20, Max는 $200 상당의 사용량이 포함되어 월 $200입니다. 추천 대상: DevOps와 터미널 작업이 많은 엔지니어.
 
 ## 어떤 AI 코드 에디터로 갈아탈까?
 

@@ -70,7 +70,7 @@ Claude Code是Anthropic的智能体编程工具，可在终端、VS Code、JetBr
 
 Claude Code与Claude聊天共用一个用量池，按滚动5小时会话加每周上限计量。2026年5月6日，Anthropic[把Claude Code的5小时额度翻倍](/deals/claude-code-5h-limits-doubled/)，并让Pro和Max上的Claude Code不再受工作日高峰时段的影响。自9月14日起，它的每周额度[永久提高25%](/deals/claude-code-weekly-plus25-permanent/)。正如我们的[高峰时段实时时钟](/)所示，Claude聊天在工作日13:00–19:00 UTC仍会消耗得更快；详情见[Claude用量额度指南](/blog/claude-usage-limits/)。
 
-9月23日订阅有效的个人Pro和Max订阅者，可在2026年10月7日前领取[$100或$250的Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)。适合：覆盖整个代码仓库的智能体工作。
+在2026年10月7日前领取了[$100或$250的Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)的个人Pro和Max订阅者，可在11月4日前将其用于云会话。适合：覆盖整个代码仓库的智能体工作。
 
 ### OpenAI Codex
 
@@ -80,7 +80,7 @@ Codex的额度只是估算。OpenAI估计，在Plus上每个5小时窗口内，�
 
 ### Warp
 
-Warp是一款内置编程智能体的终端，自2026年4月28日起，其客户端以AGPL协议开源。Warp Free包含终端和Agent CLI，但不含AI用量，需要你自带API密钥。Build为$20/月，含1,500积分；Max为$200/月，含18,000积分。适合：DevOps和重度使用终端的工程师。
+Warp是一款内置编程智能体的终端，自2026年4月28日起，其客户端以AGPL协议开源。Warp Free包含终端和Agent CLI，但不含AI用量，需要你自带API密钥。Build为$20/月，含按API费率计算的$20智能体用量；Max为$200/月，含$200用量。适合：DevOps和重度使用终端的工程师。
 
 ## 该换用哪款AI代码编辑器？
 

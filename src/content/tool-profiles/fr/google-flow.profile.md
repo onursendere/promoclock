@@ -1,7 +1,7 @@
 ---
 summary: "Google Flow est le studio de création IA de Google pour générer et modifier des vidéos et des images avec les modèles Veo 3.1, Gemini Omni et Nano Banana. Passé de Google Labs à flow.google.com, il ajoute un agent propulsé par Gemini et des outils personnalisés, et s’adresse aux cinéastes et aux créateurs disposant d’un compte Google."
-metaTitle: "Google Flow : prix, crédits gratuits et Veo 3.1 (2026)"
-metaDescription: "Prix de Google Flow en 2026 : 50 crédits gratuits par jour, quotas Google AI Plus, Pro et Ultra, coût de Veo 3.1, limites régionales et alternatives."
+metaTitle: "Google Flow 2026 : 50 crédits gratuits par jour, puis $4.99"
+metaDescription: "Google Flow est gratuit avec 50 crédits/jour. Google AI Plus ($4.99/mois) ajoute 200 crédits mensuels, AI Pro ($19.99) 1 000, AI Ultra jusqu’à 25 000 pour Veo 3.1."
 bestFor:
   - "Cinéastes et conteurs"
   - "Abonnés Google AI"

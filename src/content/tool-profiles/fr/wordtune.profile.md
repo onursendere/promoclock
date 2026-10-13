@@ -1,7 +1,7 @@
 ---
 summary: "Wordtune est un assistant IA de reformulation, de résumé et de grammaire développé par AI21 Labs. Il propose des formulations alternatives et des changements de ton pour du texte en anglais, au sein d’un éditeur web, d’extensions de navigateur et d’une application iPhone. Il convient aux personnes non anglophones, aux étudiants et aux professionnels qui veulent une aide au niveau de la phrase plutôt qu’un outil qui rédige des documents entiers à leur place."
 metaTitle: "Wordtune est-il gratuit ? Prix, plans et limites 2026"
-metaDescription: "Prix de Wordtune en 2026 : les 10 reformulations quotidiennes du plan Basic gratuit, Advanced à $13,99/mois, Unlimited, la remise étudiante et les alternatives."
+metaDescription: "Prix de Wordtune en 2026 : les 10 reformulations quotidiennes du plan Basic gratuit, Advanced à $13.99/mois, Unlimited, la remise étudiante et les alternatives."
 bestFor:
   - "Rédacteurs anglais non natifs"
   - "Étudiants qui peaufinent leurs essais"
@@ -26,9 +26,9 @@ useCases:
   - "Rédiger un message dans votre langue maternelle et obtenir des suggestions en anglais à envoyer à des collègues."
   - "Résumer un long article pour décider s’il vaut la peine d’être lu en entier."
   - "Adoucir le ton d’une réponse de support avant qu’elle n’atteigne un client mécontent."
-pricingSummary: "Basic est gratuit avec 10 reformulations par jour. Advanced coûte $13.99/mois ou $6.99/mois en facturation annuelle, et Unlimited $19.99/mois ou $9.99/mois en annuel. Les deux plans payants démarrent par un essai gratuit de 3 jours."
+pricingSummary: "Basic est gratuit avec 10 reformulations par jour. Advanced coûte $13.99/mois et Unlimited $19.99/mois. En facturation annuelle, la page des formules affiche désormais Advanced à $4.89/mois et Unlimited à $6.99/mois, contre $6.99 et $9.99 auparavant. Les deux plans payants démarrent par un essai gratuit de 3 jours."
 savingTips:
-  - "La facturation annuelle réduit le prix de près de moitié : Unlimited passe de $19.99 à $9.99 par mois."
+  - "La facturation annuelle réduit le prix de plus de moitié : Unlimited passe de $19.99 à $6.99 par mois au tarif annuel actuel."
   - "Les étudiants et enseignants avec une adresse .edu valide, ainsi que le personnel associatif, peuvent contacter le support pour 30 % de remise sur les plans mensuels ou annuels."
   - "L’essai de 3 jours exige des informations de paiement et Wordtune ne rembourse pas, alors résiliez avant la fin en cas de doute."
 faq:

@@ -28,7 +28,7 @@ useCases:
 pricingSummary: "Free, ayda 60 medya dakikası ve bir kerelik 100 AI kredisi içeriyor. Hobbyist aylık $24, Creator aylık $35, Business aylık $65; yıllık ödemede fiyatlar sırasıyla $16, $24 ve $50."
 savingTips:
   - "Yıllık ödeme %35'e kadar tasarruf sağlıyor: Hobbyist aylık $24 yerine $16, Creator $35 yerine $24, Business $65 yerine $50 oluyor."
-  - "Descript, fiyatlandırma sayfasındaki bir başvuru formu üzerinden öğrencilere, eğitimcilere ve kâr amacı gütmeyen kuruluşlara özel fiyatlar sunuyor."
+  - "Okullar ve kâr amacı gütmeyen kuruluşlar, tüm Hobbyist özelliklerini içeren Education/Non-profit planına editör başına aylık $12 (yıllık faturalandırmada $8) fiyatla başvurabilir."
   - "Studio Sound ve Remove Filler Words, dosya ne kadar uzun olursa olsun uygulama başına en fazla 30 AI kredisi harcıyor."
   - "Ücretsiz planda kayıt, düzenleme ve miksaj için kredi kartı gerekmiyor."
 faq:

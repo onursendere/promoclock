@@ -48,7 +48,7 @@ Cline, ayrı bir barındırılan servis olarak değil, editörünün ya da termi
 - **VS Code eklentisi**; Cursor ve Windsurf'e de kurulabilir.
 - Erken erişimdeki **JetBrains eklentisi**.
 - Kanban panosu, eklentiler, zamanlamalar ve arayüzsüz CI kullanımı sunan **CLI**.
-- macOS ve Windows için beta aşamasındaki bağımsız uygulama **Cline for Desktop**.
+- macOS, Windows ve Linux için beta aşamasındaki bağımsız uygulama **Cline for Desktop**.
 - Ajanı başka araçlara gömmek için **SDK**.
 
 ## Sınırlamalar

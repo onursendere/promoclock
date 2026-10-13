@@ -1,7 +1,7 @@
 ---
 summary: "VEED is an online video editor made by VEED that combines a browser timeline with AI subtitles, translation, dubbing, avatars and AI video generation. It is known for quick auto subtitles and brand kits, and it suits marketers, social teams and creators who publish short videos without desktop editing software."
-metaTitle: "VEED Pricing, Free Plan & AI Features (2026)"
-metaDescription: "VEED pricing in 2026, what the free plan's watermark and 720p limit mean, how AI credits work, and the best VEED alternatives for video editing."
+metaTitle: "VEED Free Trial & Pricing 2026: Free Plan, Creator £20/mo"
+metaDescription: "VEED's free trial is only for Enterprise teams of 3+; individuals start on the free plan (720p, watermark). In the UK, Creator costs £20/month and Pro £35."
 bestFor:
   - "Social media marketers"
   - "Creators who need fast subtitles"

@@ -5,7 +5,7 @@ metaDescription: "Best AI video generator 2026: we compare 17 tools, from Runway
 excerpt: "As of October 2026, Runway ($15/month), Kling ($10/month) and Google Flow, which gives 50 free credits a day for Veo 3.1, lead generative video. HeyGen and Synthesia make avatar videos from $29/month, and CapCut, Descript and OpusClip edit and repurpose footage. OpenAI discontinued the Sora app on April 26, 2026."
 category: comparisons
 publishedAt: 2026-10-04
-updatedAt: 2026-10-04
+updatedAt: 2026-10-12
 image:
   src: "../images/best-ai-video-generators.jpg"
   alt: "Filmmaker holding a cinema camera rig on a hilltop at sunset"
@@ -90,7 +90,7 @@ Pick Runway or Luma for directed, production-grade shots, Kling or Hailuo AI for
 
 ### Runway
 
-Runway Standard costs $15/month for 625 credits, Pro $35 for 2,250 and Max $95 for 9,500, with 20% off on annual billing, according to [Runway's pricing page](https://runway.com/pricing). Max, rolled out on June 1, 2026 to replace Unlimited, adds ProRes, HDR and one month of credit rollover.
+Runway Standard costs $15/month for 625 credits, Pro $35 for 2,250 and Max $95 for 9,500, with 20% off on annual billing, according to [Runway's pricing page](https://runway.com/pricing). Max, rolled out on June 1, 2026 to replace Unlimited, adds ProRes, HDR and one month of credit rollover. A Team plan for 2 to 9 people, added in September 2026, costs $69 per seat ($55 yearly) with 6,900 pooled credits per seat.
 
 ### Kling
 
@@ -158,7 +158,7 @@ HeyGen's free plan makes 3 videos a month, each up to 1 minute, with a watermark
 
 ### Synthesia
 
-Synthesia's free Basic plan includes 500 credits a month, about 10 minutes of video or dubbing, but Basic users can't download videos. Starter costs $29/month ($18 yearly) for 1,250 credits, and Pro, formerly Creator, costs $89/month ($64 yearly) for 6,000 credits plus API access. Dubbing costs 120 credits a minute, or 240 with lip sync.
+Synthesia's free Basic plan includes 500 credits a month, about 10 minutes of video or dubbing, but Basic users can't download videos. Starter costs $29/month ($18 yearly) for 1,250 credits, and Pro, formerly Creator, costs $89/month ($64 yearly) for 6,000 credits plus API access. On self-serve plans, dubbing costs about 76 credits a minute, doubled with lip sync, and the Syren agent, in beta since October 9, 2026, builds whole videos from a prompt.
 
 ## Which AI video editors and clip tools are worth paying for?
 
@@ -186,7 +186,7 @@ OpusClip charges 1 credit per minute of source video. Free includes 60 credits a
 
 ### InVideo AI
 
-[InVideo AI](/tools/invideo/)'s free credits reset every Monday. Starter costs $20 per seat a month for 400 credits, Plus $60 ($36 annually) and Max $150 ($75 annually). Its Agent Two plans shots and picks models, and timeline editing uses no credits.
+[InVideo AI](/tools/invideo/)'s free credits reset every Monday. Starter costs $20 per seat a month ($10 annually) for 400 credits, Plus $60 ($30 annually) and Max $150 ($75 annually). Its Agent Two plans shots and picks models, and timeline editing uses no credits.
 
 ### Pictory
 
@@ -199,6 +199,8 @@ Yes: as of October 2026, Adobe discounts Firefly's video-heavy plans, and Google
 - [30% off Firefly Pro Plus and Premium](/deals/adobe-firefly-30-off-first-year-2026/): US$34.97/month instead of US$49.99, or US$139.91 instead of US$199.99, for the first year, until October 21, 2026. Adobe lists up to 100 five-second videos on Pro Plus and unlimited Veo 3.1 Fast and Kling 3.0 generations on Premium.
 - [Google AI Pro free for students](/deals/google-ai-pro-students-2026/): 12 months for eligible US college students who redeem by December 31, 2026.
 - [12 months of Google AI Pro with a Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/): buy and redeem by October 31, 2026.
+- [Free Syren credits on Synthesia](/deals/synthesia-syren-launch-credits-2026/): every user gets launch credits for the new video agent, valid for one month.
+- [Runway Enterprise with 2 months of usage free](/deals/runway-enterprise-two-months-free-2026/): for companies that sign by October 31, 2026.
 
 More offers are on our [deals page](/deals/), and our guide to [saving money on AI subscriptions](/blog/save-money-on-ai-subscriptions/) explains annual billing.
 

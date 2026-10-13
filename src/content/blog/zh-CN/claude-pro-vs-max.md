@@ -63,7 +63,7 @@ Claude Max多了每次会话更多的用量、套餐额度内的Fable、更高�
 - **用量**。Max 5x每个5小时会话的额度是Pro的5倍，Max 20x是20倍。两者仍有一个适用于所有模型的每周额度，在分配给你账户的固定时间重置。
 - **Fable**。在Pro上，Fable 5和5.1只能使用按API费率计费的用量积分。Max最多可以把每周额度的一半用在Fable上，不额外收费。
 - **优先访问和抢先体验**。定价页面为两档Max都列出了高流量时段优先访问、更高的输出上限和高级功能抢先体验。
-- **更多活动积分**。在Anthropic当前的[Claude Code云会话积分活动](/deals/claude-code-cloud-credit-2026/)中，个人Max订阅者可获得$250，Pro为$100，前提是订阅在2026年9月23日处于有效状态，并在10月7日前领取。
+- **更多活动积分**。在Anthropic的[Claude Code云会话积分活动](/deals/claude-code-cloud-credit-2026/)中，个人Max订阅者获得了$250，Pro为$100。领取已于2026年10月7日截止，已领取的积分可用到11月4日。
 
 Pro已经包含Claude Code、Research、Opus、Claude Design、Slides和Docs、Claude in Chrome、Microsoft 365插件，以及不受Free套餐5个项目上限限制的项目功能。升级到Max买的是余量，而不是新应用。我们的[Claude工具页面](/tools/claude/)按套餐列出了完整功能。
 
@@ -141,7 +141,7 @@ Pro适合这些使用方式：
 - **受影响的套餐**：Free、Pro、Max和Team。Enterprise不受影响，每周额度也不变。详见[高峰时段条目](/deals/claude-peak-hours-introduced/)和[Claude Watch](/)上的实时时钟。
 - **Max的优先访问**能帮你在繁忙时段顺利使用，但高峰时段内Max的会话额度依然消耗得更快。
 - **Claude Code额度提高了**。2026年5月6日，Anthropic[把付费套餐上Claude Code的5小时额度翻倍](/deals/claude-code-5h-limits-doubled/)；自2026年9月14日起，[Claude Code每周额度永久比旧基准高出25%](/deals/claude-code-weekly-plus25-permanent/)。
-- **当前活动**：2026年10月1日至15日，在Pro、Max和Team上创建或编辑Artifact之后的工作，计入5小时额度的用量减少50%（[详情](/deals/claude-artifact-usage-promo-oct-2026/)）。
+- **当前活动**：2026年10月1日至15日，在Pro、Max和Team上创建或编辑Artifact之后的工作，计入5小时额度的用量减少50%，Free自10月7日起也适用（[详情](/deals/claude-artifact-usage-promo-oct-2026/)）。
 
 想了解怎么安排时间，请看我们的[Claude高峰时段指南](/blog/claude-peak-hours/)。会话额度和每周上限如何相互作用，请看[Claude用量额度详解](/blog/claude-usage-limits/)。
 

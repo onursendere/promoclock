@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free includes 1M tokens a month with a 300K daily cap. Pro starts at $25/month with 10M tokens, Teams costs $30 per member per month, and Enterprise is custom. The Forge-only Lite plan costs $9/month, with sign-ups open until October 14, 2026."
-  asOf: 2026-10-03
+  asOf: 2026-10-12
 platforms: [web]
 savingTips:
   - "Yearly billing saves up to 28% compared with monthly payments."
@@ -52,7 +52,7 @@ sources:
   - https://support.bolt.new/cloud/hosting/plans
   - https://support.bolt.new/integrations/expo
   - https://support.bolt.new/release-notes
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is Bolt.new?
 Bolt.new works entirely in a browser tab, with a live preview of the app next to the chat. You describe what you want, then refine it by prompting, editing code directly or changing text and colors in the preview.

@@ -66,7 +66,7 @@ Las horas pico de Claude entraron en vigor el 27 de marzo de 2026, el último d�
 - **Del 13 al 27 de marzo de 2026:** [la promoción 2x fuera de pico](/deals/claude-march-2026-offpeak-2x/) duplicó los límites de sesión fuera de la franja de 8:00 a 14:00 ET entre semana y durante todo el fin de semana, para Free, Pro, Max y Team. Ya terminó.
 - **27 de marzo de 2026:** [entraron en vigor las horas pico](/deals/claude-peak-hours-introduced/). Desde entonces, los límites de sesión se agotan más rápido de lunes a viernes, de 13:00 a 19:00 UTC.
 - **6 de mayo de 2026:** Anthropic [duplicó los límites de 5 horas de Claude Code y quitó la reducción en horas pico para Claude Code en Pro y Max](/deals/claude-code-5h-limits-doubled/), según su [anuncio oficial](https://www.anthropic.com/news/higher-limits-spacex).
-- **Del 1 al 15 de octubre de 2026:** [la promoción de uso de artefactos](/deals/claude-artifact-usage-promo-oct-2026/) hace que los siguientes 10 mensajes de chat después de crear o editar un artefacto cuenten 50 % menos para el límite de 5 horas en Pro, Max y Team. Está activa a 4 de octubre de 2026 y dura hasta las 23:59 PT del 15 de octubre.
+- **Del 1 al 15 de octubre de 2026:** [la promoción de uso de artefactos](/deals/claude-artifact-usage-promo-oct-2026/) hace que los siguientes 10 mensajes de chat después de crear o editar un artefacto cuenten 50 % menos para el límite de 5 horas en Pro, Max y Team, y en Free desde el 7 de octubre. Dura hasta las 23:59 PT del 15 de octubre.
 
 Para el resto de los cambios de límites de sesión y semanales de este año, consulta nuestra guía de [límites de uso de Claude](/blog/claude-usage-limits/).
 

@@ -1,7 +1,7 @@
 ---
 summary: "Google Flow, Veo 3.1, Gemini Omni ve Nano Banana modelleriyle video ve görsel üretip düzenlemeye yarayan, Google'ın AI yaratıcı stüdyosu. Google Labs bünyesinden çıkıp flow.google.com adresine taşındı; Gemini destekli bir ajan ve özel araçlar da sunuyor. Google hesabı olan film yapımcıları ve içerik üreticileri için uygun."
-metaTitle: "Google Flow fiyatları 2026: Ücretsiz krediler ve Veo 3.1"
-metaDescription: "2026 Google Flow fiyatları: günde 50 ücretsiz kredi, Google AI Plus, Pro ve Ultra kotaları, Veo 3.1 kredi maliyetleri, bölgesel kısıtlamalar ve alternatifler."
+metaTitle: "Google Flow 2026: günde 50 ücretsiz kredi, sonra $4.99"
+metaDescription: "Google Flow günde 50 krediyle ücretsiz. Google AI Plus (aylık $4.99) ayda 200 kredi, AI Pro ($19.99) 1.000, AI Ultra ise Veo 3.1 için 25.000'e kadar kredi ekler."
 bestFor:
   - "Film yapımcıları ve hikâye anlatıcıları"
   - "Google AI aboneleri"

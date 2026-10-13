@@ -35,7 +35,7 @@ faq:
   - q: "Synthesia ücretsiz planında video indirilebilir mi?"
     a: "Hayır. Synthesia'nın yardım merkezine göre Basic ve deneme kullanıcıları video indiremez; MP4 indirme Starter ile başlar. Ücretsiz videolar yine de önizlenebilir ve bir Synthesia bağlantısıyla paylaşılabilir."
   - q: "Synthesia kredileri nasıl çalışır?"
-    a: "Krediler video, dublaj, toplu kişiselleştirme ve API kullanımı için ortak para birimidir. Dudak senkronu olmadan dublaj dakikada 120 kredi, dudak senkronuyla 240 kredi harcar; kullanılmayan krediler devretmez."
+    a: "Krediler video, dublaj, toplu kişiselleştirme ve API kullanımı için ortak para birimidir. Self servis planlarda video dakikada yaklaşık 100 kredi, dublaj yaklaşık 76 kredi harcar; dudak senkronu dublaj maliyetini ikiye katlar ve kullanılmayan krediler devretmez."
   - q: "Hangi Synthesia planında API erişimi var?"
     a: "Pro (eski adıyla Creator) ve Enterprise. Pro, Synthesia API aracılığıyla yılda 360 dakikaya kadar video içeriyor ve bu planın kullanım limitinden düşülüyor; Starter ve Basic'te API erişimi yok."
   - q: "Synthesia kaç dile dublaj yapabiliyor?"
@@ -48,6 +48,7 @@ Synthesia, AI sunucularla video hazırlamak için tarayıcı tabanlı bir stüdy
 - **Kurumsal duruş.** Synthesia; SOC 2 Type II, ISO 42001 ve GDPR uyumluluğunu, Enterprise'da ise SAML/SSO desteğini listeliyor.
 - **Yerleşik dublaj.** AI Dubbing bir yükleme ya da YouTube bağlantısı alıyor, konuşmacının sesini ve aksanını koruyor.
 - **Sadece izletmiyor, pratik de yaptırıyor.** Roleplay Sessions, standart videonun üstüne puanlanan, etkileşimli konuşmalar ekliyor.
+- **Syren video ajanı.** 9 Ekim 2026'da beta olarak çıkan Syren, bir komuttan ya da dosyalardan hareketli grafikler, avatarlar, seslendirme ve müzikle üç dakikaya kadar videolar üretiyor; her planda var.
 
 ## Sınırlamalar
 Koltuk hakları dar: Starter bir editör ve üç misafiri, Pro bir editör ve beş misafiri içeriyor; bu yüzden gerçek takımlar genellikle Enterprise'a ihtiyaç duyuyor. Ücretsiz videolarda Synthesia logosu kalıyor ve indirilemiyor. Krediler her dönem sıfırlanıyor ve devretmiyor; kişisel avatarlar Starter'da üç, Pro'da beş ile sınırlı ve sınırsız dakika yalnızca Enterprise'da var.

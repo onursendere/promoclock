@@ -8,7 +8,7 @@ bestFor:
   - "B2B brands losing AI recommendations"
 keyFeatures:
   - name: "AI visibility tracking"
-    description: "Tracks prompts and answers daily in ChatGPT, Gemini and Google AI Overviews, and Enterprise expands coverage to 10 AI platforms."
+    description: "Tracks prompts and answers daily in ChatGPT, Gemini and Google AI Overviews, and Enterprise expands coverage to 8 AI platforms."
   - name: "AI Article Writer"
     description: "Writes SEO articles each month, from 15 on Starter to 50 on Growth, using your uploaded data and saved writing styles."
   - name: "Site audits"
@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "On monthly billing, Starter is $99, Basic $249 and Growth $499 per month. Annual billing lowers them to $79, $199 and $399 per month. Enterprise is custom, and the 7-day free trial needs no card."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api]
 savingTips:
   - "Annual billing saves 20%, cutting Starter from $99 to $79 a month, or $240 a year."
@@ -41,7 +41,7 @@ faq:
   - q: "Is Writesonic still an AI writing tool?"
     a: "Partly. Every plan still includes the AI Article Writer, but Writesonic now markets itself as an AI search growth engine. Its focus is GEO, AEO and tracking how your brand appears in AI answers."
   - q: "Which AI platforms does Writesonic track?"
-    a: "Starter, Basic and Growth track ChatGPT, Gemini and Google AI Overviews. Enterprise tracks 10 platforms, adding Perplexity, Claude, Microsoft Copilot, Grok, DeepSeek, Meta AI and Google AI Mode."
+    a: "Starter, Basic and Growth track ChatGPT, Gemini and Google AI Overviews. Enterprise tracks 8 platforms, adding Perplexity, Claude, Microsoft Copilot, Grok and Google AI Mode."
   - q: "Can I cancel Writesonic at any time?"
     a: "Yes. Upgrades take effect immediately, while downgrades and cancellations take effect at the next billing cycle. Writesonic also advertises a 7-day no-questions-asked refund."
   - q: "How many users does each Writesonic plan include?"
@@ -52,7 +52,7 @@ sources:
   - https://writesonic.com/
   - https://writesonic.com/startups
   - https://writesonic.com/about-us
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Writesonic?
 Writesonic is a web platform for generative engine optimization (GEO) and SEO. It checks real AI answers for the prompts you care about and shows where competitors are recommended instead of you. It then gives you content, audit and agent tools to fix those gaps.

@@ -1,7 +1,7 @@
 ---
 summary: "Semrushは、2026年4月にAdobeが買収したSemrush Holdingsが提供するSEO・AI検索可視性プラットフォームです。キーワード調査、順位トラッキング、サイト監査に加え、ChatGPTやGeminiなどの回答でのブランド言及も監視できます。"
-metaTitle: "Semrushの料金(2026)"
-metaDescription: "Semrushの料金を解説。無料プランは1日10レポート、SEOは月額$139、Starter、Pro+、Advancedと7日間トライアルも紹介。"
+metaTitle: "Semrush料金2026｜月$139から・無料プラン・トライアル"
+metaDescription: "Semrushの料金はSEOが月$139、Starterが$199、Pro+が$299、Advancedが$549。無料プランは1日10レポート、多くのツールキットに7日間トライアルあり。"
 bestFor:
   - "SEO専門家とコンサルタント"
   - "クライアントに報告する代理店"

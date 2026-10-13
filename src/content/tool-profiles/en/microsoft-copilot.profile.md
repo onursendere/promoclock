@@ -32,12 +32,12 @@ pricing:
   currency: USD
   billing: month
   summary: "Copilot chat is free, subject to capacity and limits. Microsoft 365 Personal costs $9.99/month, Family $12.99, Premium $19.99 and Pro $99.99, and Cowork needs Premium or Pro."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows]
 savingTips:
   - "Yearly billing saves up to 17% on Microsoft 365 Personal, Family and Premium; Microsoft 365 Pro is monthly only."
   - "Microsoft offers a one-month free trial of Personal, Family and Premium, though terms and payment requirements vary by region."
-  - "Family shares apps and 1 TB of storage each with up to six people, so a household pays $12.99 rather than several Personal plans."
+  - "Family shares apps and a 2 TB storage pool with up to six people, so a household pays $12.99 rather than several Personal plans."
   - "Eligible students may qualify for Microsoft education offers, and some schools provide Microsoft 365 at no extra cost."
 faq:
   - q: "Is Microsoft Copilot free?"
@@ -55,7 +55,7 @@ sources:
   - https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals
   - https://support.microsoft.com/en-us/microsoft-365-copilot/what-is-microsoft-copilot-app
   - https://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Microsoft Copilot?
 Microsoft Copilot is Microsoft's assistant for chat, images, files and work tasks. It runs at copilot.com, in desktop apps for Windows and Mac, and in iOS and Android apps. Sign in with a work account and it switches to your organization's Copilot; personal and work data stay apart.

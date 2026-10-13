@@ -15,8 +15,8 @@ keyFeatures:
     description: "設定可能な依存関係と制御されたインターネットアクセスを持つ隔離クラウド環境にタスクを委任します。"
   - name: "コードレビューとSlack"
     description: "GitHubの変更を自動でレビューし、ChatGPTプランのSlackチャンネルやスレッドからの依頼にも対応します。"
-  - name: "GPT-5.6モデルファミリー"
-    description: "Solは最も難しい推論を担当し、Terraは日常的な本番作業をカバーし、Lunaは軽い作業向けに最も高い利用上限を提供します。"
+  - name: "GPT-6モデルファミリー"
+    description: "GPT-6 Astraは最も難しい作業を担当し、GPT-6.1 Solは低コストでそれに迫る性能を発揮し、GPT-6 Lunaは軽い作業向けに最も高い利用上限を提供します。"
   - name: "カスタマイズ"
     description: "AGENTS.mdによるプロジェクト指示に加え、スキル、プラグイン、MCPサーバー、カスタムサブエージェントに対応します。"
 useCases:
@@ -26,17 +26,17 @@ useCases:
 pricingSummary: "CodexはChatGPT Free（$0）、Go（月$8）、Plus（月$20）、Pro（月$100、$200、$500のいずれか；新しい$500ティアはAstra Ultrafastを追加）に含まれます。Businessは1ユーザー月$25または年払いで$20、APIキー利用はAPI料金で課金されます。"
 savingTips:
   - "PlusやProのユーザーは上限に達したら、プラン全体をアップグレードする代わりにChatGPTクレジットを購入できます。"
-  - "GPT-5.6 Lunaに切り替えると、5時間あたりのローカルメッセージ数がSolより大幅に増え、どのプランでも利用枠を伸ばせます。"
+  - "GPT-6 Lunaに切り替えると、5時間あたりのローカルメッセージ数がSolより大幅に増え、どのプランでも利用枠を伸ばせます。"
   - "オープンソースのメンテナーはCodex for Open Sourceプログラムに応募すると、APIクレジットとChatGPT Pro（Codex付き）6か月分が得られます。"
 faq:
   - q: "OpenAI Codexは無料ですか？"
     a: "上限付きで無料です。ChatGPT Freeには軽いコーディング作業向けにCodexが含まれ、月$8のGoは軽量な作業をカバーします。月$20のPlusには自動コードレビューやSlack連携などのクラウド機能が含まれます。"
   - q: "ChatGPT PlusのCodexメッセージ数はどれくらいですか？"
-    a: "OpenAIの見積もりでは、Plusでは5時間あたりGPT-5.6 Solのローカルメッセージが10〜100件、またはGPT-5.6 Lunaが250〜2,000件です。週単位の上限も適用される場合があり、クラウドチャットはより多く消費します。"
+    a: "OpenAIの見積もりでは、Plusでは5時間あたりGPT-6.1 Solのローカルメッセージが15〜160件、GPT-6 Lunaが350〜3,000件、GPT-6 Astraでは5〜45件です。週単位の上限も適用される場合があり、クラウドチャットはより多く消費します。"
   - q: "CodexはChatGPTではなくAPIキーで動かせますか？"
     a: "はい。APIキーを使うと、CodexはCLI、SDK、IDE拡張機能で動作しAPI料金で課金されますが、GitHubのコードレビューやSlackなどのクラウド機能は利用できません。"
   - q: "2026年のCodexはどのモデルを使っていますか？"
-    a: "ChatGPTプランではGPT-5.6ファミリー（Sol、Terra、Luna）とGPT-6 Astraが使えます。Proはリサーチプレビューの GPT-5.3-Codex-Sparkを追加し、GPT-5.5は2026年10月14日にCodexから引退します。"
+    a: "OpenAIはGPT-6 Astra、GPT-6.1 Sol、GPT-6 Lunaを推奨しています。GPT-6.1 SolはPlus、Pro、Business、Enterprise、Eduに順次展開中で、FreeとGoはGPT-6 Lunaを使います。GPT-5.3-Codex-Sparkは2026年9月14日に提供を終了し、GPT-5.5は2026年10月14日にCodexから引退します。"
 ---
 ## OpenAI Codexとは？
 Codexは単体販売ではなくChatGPTアカウントに紐づく、OpenAIのソフトウェア開発向けエージェントです。OpenAIのCodexドキュメントは現在ChatGPTのドキュメントに統合されており、Codexの利用量はChatGPT Workと共有されるため、両者は同じ利用枠とクレジットを消費します。
@@ -46,6 +46,6 @@ Codexは単体販売ではなくChatGPTアカウントに紐づく、OpenAIの�
 
 ## 制限事項
 - 利用上限は固定値ではなく見積もりで、長いセッション、大規模なコードベース、高速モード、画像生成は利用枠をより早く消費します。
-- クラウドチャットはGPT-5.6 Sol上で動作し、ローカルメッセージより多く消費する場合があります。
-- GPT-5.3-Codex-SparkはPro限定で、独自の別枠上限があります。
+- クラウドチャットは、ローカルメッセージより多くの利用上限を消費する場合があります。
+- 新しいモデルは段階的に展開されるため、FreeやGoのユーザーは最新のSolモデルを利用できるまで長く待つことになります。
 - APIキー利用者はコードレビューやSlackを含むクラウド機能を利用できません。

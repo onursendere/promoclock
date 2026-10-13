@@ -1,7 +1,7 @@
 ---
 summary: "Google Flow es el estudio creativo de IA de Google para hacer y editar video e imágenes con los modelos Veo 3.1, Gemini Omni y Nano Banana. Pasó de Google Labs a flow.google.com, añade un agente potenciado por Gemini y herramientas personalizadas, y encaja con cineastas y creadores con cuenta de Google."
-metaTitle: "Google Flow: precios, créditos gratis y Veo 3.1 (2026)"
-metaDescription: "Precios de Google Flow en 2026: 50 créditos diarios gratis, asignaciones de Google AI Plus, Pro y Ultra, costes de Veo 3.1 y alternativas."
+metaTitle: "Google Flow 2026: 50 créditos gratis al día, luego $4.99"
+metaDescription: "Google Flow es gratis con 50 créditos al día. Google AI Plus ($4.99/mes) añade 200 créditos mensuales, AI Pro ($19.99) 1.000 y AI Ultra hasta 25.000 para Veo 3.1."
 bestFor:
   - "Cineastas y narradores"
   - "Suscriptores de Google AI"
@@ -23,7 +23,7 @@ useCases:
   - "Storyboard de un cortometraje con Storyboard Studio, y luego generar cada toma con Veo 3.1 y ensamblarla en Scenebuilder."
   - "Editar un clip existente describiendo el cambio en lenguaje simple con Gemini Omni."
   - "Construir una herramienta reutilizable para una tarea repetida, como redimensionar cada video a las proporciones sociales."
-pricingSummary: "Flow es gratis con 50 créditos diarios en una cuenta de Google. Google AI Plus a $4,99/mes añade 200 créditos mensuales, AI Pro a $19,99 añade 1.000 y los dos niveles AI Ultra a $99,99 y $199,99 añaden 10.000 o 25.000."
+pricingSummary: "Flow es gratis con 50 créditos diarios en una cuenta de Google. Google AI Plus a $4.99/mes añade 200 créditos mensuales, AI Pro a $19.99 añade 1.000 y los dos niveles AI Ultra a $99.99 y $199.99 añaden 10.000 o 25.000."
 savingTips:
   - "Cada cuenta, suscrita o no, obtiene 50 créditos de Google Flow al día, aunque los créditos diarios no usados no se acumulan."
   - "Veo 3.1 Lite cuesta 10 créditos por video, o 5 para suscriptores de Google AI Ultra, la forma más barata de hacer borradores."

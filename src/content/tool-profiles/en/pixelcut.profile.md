@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free costs $0 with limited background removal and upscaling. Pro is $10/month, or $8/month billed yearly, with 600 AI credits, and Business is $30/month, or $24 yearly, starting at 3,600 credits and scaling to 180,000."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, api]
 savingTips:
   - "A yearly plan saves 20%, taking Pro from $10 to $8 a month."
@@ -54,7 +54,7 @@ sources:
   - https://www.pixelcut.ai/claude
   - https://www.pixelcut.ai/whats-new
   - https://www.pixelcut.ai/about-us
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Pixelcut?
 Pixelcut started as a set of single-purpose AI tools for background removal, upscaling and retouching. Those tools now sit in one workspace for editing and generating both images and video, available as mobile apps, a browser app and an API.

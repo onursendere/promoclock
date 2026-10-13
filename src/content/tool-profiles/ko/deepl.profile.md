@@ -1,7 +1,7 @@
 ---
 summary: "DeepL은 DeepL SE의 AI 번역·언어 플랫폼으로 DeepL Translator, DeepL Write 어시스턴트, DeepL Voice, 개발자용 API를 아우릅니다. 자연스러운 번역 품질과 원본 레이아웃을 유지하는 문서 번역으로 잘 알려져 있습니다. 프리랜서, 학생, 글로벌 팀이 텍스트, 파일, 실시간 음성에 사용합니다."
-metaTitle: "DeepL 요금제와 무료 플랜, Pro 기능 정리 (2026)"
-metaDescription: "DeepL 2026년 요금 정리: 무료 번역기가 제공하는 범위, 월 $10.49인 DeepL Pro Individual, Write Pro, Voice 사용 시간, 앱과 대안 도구까지 확인하세요."
+metaTitle: "DeepL 요금 2026: 무료 플랜, Pro 월 $10.49, 30일 체험"
+metaDescription: "DeepL은 월 50,000자와 파일 1개까지 무료입니다. Pro Individual은 월 $10.49, 연간 결제 시 $8.74이며 30일 무료 체험을 제공합니다."
 bestFor:
   - "여러 언어를 쓰는 전문가"
   - "문서를 번역하는 팀"

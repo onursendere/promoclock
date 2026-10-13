@@ -32,11 +32,11 @@ pricing:
   currency: USD
   billing: month
   summary: "Free is limited and non-commercial. Pro costs $12.99/month or $89.99/year with 8,000 AI credits, Max $34.99/month or $250/year with 25,000, Ultra $99/month or $990/year with 75,000 credits, and Enterprise is quoted."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, api]
 savingTips:
   - "Yearly billing saves up to 33%: Pro is $89.99 for the year instead of $12.99 a month."
-  - "The first Space you upgrade gets a 7-day free trial, and it is one trial per customer."
+  - "The first Space you upgrade to a yearly Pro or Max plan gets a 7-day free trial, and it is one trial per customer."
   - "Core tools like Background Remover, Retouch and AI Expand cost no credits on paid plans, so keep credits for scenes, models and video."
 faq:
   - q: "Is Photoroom free?"
@@ -48,7 +48,7 @@ faq:
   - q: "Can I use Photoroom with Claude?"
     a: "Yes. Photoroom offers an MCP connector that works as a custom connector in Claude. API and MCP usage run on a separate allowance, so they do not eat into the export limit of your app plan."
   - q: "Does Photoroom have a free trial?"
-    a: "Yes, a 7-day trial applied automatically the first time you upgrade a Space. It is available once per customer, later Spaces are billed immediately, and billing starts on day 8 unless you cancel first."
+    a: "Yes, a 7-day trial on yearly Pro and Max plans, applied automatically the first time you upgrade a Space. It is available once per customer, Ultra and API plans have no standard trial, later Spaces are billed immediately, and billing starts on day 8 unless you cancel first."
 alternatives: [pixelcut, remove-bg, picsart, canva]
 sources:
   - https://www.photoroom.com/pricing
@@ -56,7 +56,7 @@ sources:
   - https://help.photoroom.com/en/articles/15284788-export-limit
   - https://help.photoroom.com/en/articles/12523455-free-accounts-and-commercial-use
   - https://help.photoroom.com/en/articles/13366906-free-trials-of-photoroom
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Photoroom?
 Photoroom is an AI editor aimed at product and listing photos rather than general design. It runs on iPhone, iPad, Android and the web, and work happens inside Spaces, where each Space carries its own subscription and credit pool.

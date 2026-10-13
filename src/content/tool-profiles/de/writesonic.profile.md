@@ -8,7 +8,7 @@ bestFor:
   - "B2B-Marken ohne KI-Empfehlung"
 keyFeatures:
   - name: "KI-Sichtbarkeits-Tracking"
-    description: "Verfolgt täglich Prompts und Antworten in ChatGPT, Gemini und Google AI Overviews, Enterprise erweitert die Abdeckung auf 10 KI-Plattformen."
+    description: "Verfolgt täglich Prompts und Antworten in ChatGPT, Gemini und Google AI Overviews, Enterprise erweitert die Abdeckung auf 8 KI-Plattformen."
   - name: "AI Article Writer"
     description: "Schreibt jeden Monat SEO-Artikel, von 15 auf Starter bis 50 auf Growth, mit deinen hochgeladenen Daten und gespeicherten Schreibstilen."
   - name: "Site-Audits"
@@ -33,7 +33,7 @@ faq:
   - q: "Ist Writesonic noch ein KI-Schreibtool?"
     a: "Teilweise. Jeder Plan enthält weiterhin den AI Article Writer, aber Writesonic vermarktet sich inzwischen als KI-Such-Wachstumsmotor. Der Fokus liegt auf GEO, AEO und dem Tracking, wie deine Marke in KI-Antworten erscheint."
   - q: "Welche KI-Plattformen verfolgt Writesonic?"
-    a: "Starter, Basic und Growth verfolgen ChatGPT, Gemini und Google AI Overviews. Enterprise verfolgt 10 Plattformen und ergänzt Perplexity, Claude, Microsoft Copilot, Grok, DeepSeek, Meta AI und Google AI Mode."
+    a: "Starter, Basic und Growth verfolgen ChatGPT, Gemini und Google AI Overviews. Enterprise verfolgt 8 Plattformen und ergänzt Perplexity, Claude, Microsoft Copilot, Grok und Google AI Mode."
   - q: "Kann ich Writesonic jederzeit kündigen?"
     a: "Ja. Upgrades greifen sofort, während Downgrades und Kündigungen erst zum nächsten Abrechnungszyklus wirksam werden. Writesonic wirbt außerdem mit einer 7-tägigen Geld-zurück-Garantie ohne Rückfragen."
   - q: "Wie viele Nutzer enthält jeder Writesonic-Plan?"

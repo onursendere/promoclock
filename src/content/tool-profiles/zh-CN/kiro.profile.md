@@ -1,7 +1,7 @@
 ---
 summary: "Kiro是Amazon Web Services推出的智能体编程环境，围绕规格驱动开发：在智能体写代码之前，先把提示词变成需求、设计和任务清单。它提供桌面IDE、CLI和浏览器版本，开发者用它让AI生成的代码始终对应有据可查的意图。"
-metaTitle: "Kiro价格：免费版、Pro与学生优惠"
-metaDescription: "2026年Kiro价格：免费版含50积分，Pro起价$20/月，另有Pro Max和Power套餐，附加积分每个$0.04，学生可领免费积分。"
+metaTitle: "Kiro价格2026：免费50积分、Pro $20与学生套餐"
+metaDescription: "Kiro Free每月含50积分；Pro为$20/月含1,000积分，最高到$200的Power。符合条件的大学生一年内每月可获1,000积分。"
 bestFor:
   - "先规划再写代码的开发者"
   - "以AWS为核心的工程团队"

@@ -1,7 +1,7 @@
 ---
 summary: "HeyGen es una plataforma de video con IA que convierte guiones, fotos y prompts en videos presentados por avatares realistas. Es conocida por el modelo Avatar V, la traducción con clonación de voz y lip sync en más de 175 idiomas, y un Video Agent guiado por prompts. Marketers, educadores y equipos de ventas la usan; los nuevos suscriptores reciben planes basados en créditos."
-metaTitle: "HeyGen: precios, créditos y plan gratis (2026)"
-metaDescription: "Precios de HeyGen en 2026: 3 videos al mes en el plan gratis, Creator a $29/mes, cómo los créditos reemplazaron a los planes ilimitados, avatares y traducción."
+metaTitle: "Precios de HeyGen 2026: plan gratis, Creator $29 y Pro $49"
+metaDescription: "El plan gratis de HeyGen crea 3 videos de un minuto al mes. Creator cuesta $29/mes con 600 créditos, Pro $49 con 1.000 créditos y 4K, y Business $149 al mes."
 bestFor:
   - "Marketers con videos de portavoz"
   - "Equipos que localizan video"

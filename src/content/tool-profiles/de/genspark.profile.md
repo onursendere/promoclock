@@ -1,7 +1,7 @@
 ---
 summary: "Genspark ist ein All-in-One-KI-Workspace von MainFunc, dessen Super Agent recherchiert, Slides, Sheets, Docs, Websites und Medien baut und Telefonate für dich führen kann. Workspace 6.0, veröffentlicht im Juli 2026, ergänzte SecondBrain-Memory, GenMail und Team-Agenten. Er spricht Freelancer und Teams an, die mehrere KI-Abos durch eines ersetzen."
-metaTitle: "Genspark Preise 2026: Free, Plus & Pro erklärt"
-metaDescription: "Genspark Preise 2026: kostenloser Plan mit täglichen Credits, Plus ab $24.99/Monat und Pro ab $249.99/Monat, plus zentrale Funktionen, Grenzen und Alternativen."
+metaTitle: "Genspark Preise 2026: Gratis-Plan, Plus $24.99 & Pro $249.99"
+metaDescription: "Genspark ist mit 100 Credits pro Tag bis zu einem Gesamtlimit gratis. Plus: $24.99/Monat für 10.000 Credits, Pro: $249.99 für 125.000; jährlich ca. 20 % weniger."
 bestFor:
   - "Freelancer, die KI-Tools bündeln"
   - "Berater, die Slide-Decks liefern"
@@ -25,7 +25,7 @@ useCases:
   - "GenMail einen überfüllten Posteingang sortieren, Antworten in deinem Stil entwerfen und ein Morgen-Briefing schicken lassen."
   - "Ein leichtgewichtiges CRM oder Dashboard aus deinen Daten mit AgentBase bauen, statt einen Entwickler einzustellen."
   - "Ersetze separate Chat- und Bild-Abos durch Plus, wo Core-Chat- und Bildmodelle bis zu einer Nutzungsobergrenze kostenlos sind."
-pricingSummary: "Free ergänzt 100 Credits täglich. Plus startet bei $24.99/Monat für 10.000 Credits und Pro bei $249.99/Monat für 125.000 Credits; beide skalieren durch höhere Stufen, und jährliche Abrechnung nimmt rund 20 % ab. Team kostet $30 pro Sitz."
+pricingSummary: "Free ergänzt 100 Credits täglich, bis ein Gesamtkontingent an kostenlosen Credits aufgebraucht ist. Plus startet bei $24.99/Monat für 10.000 Credits und Pro bei $249.99/Monat für 125.000 Credits; beide skalieren durch höhere Stufen, und jährliche Abrechnung nimmt rund 20 % ab. Team kostet $35 pro Sitz und Monat mit 10.000 Credits pro Sitz."
 savingTips:
   - "Jährliche Abrechnung schneidet rund 20 % von jeder Plus- und Pro-Stufe, zum Beispiel $19.99 statt $24.99 im Monat in Einstiegs-Plus."
   - "Plus- und Pro-Abos, gestartet vor dem 18. September 2026, behalten kostenlose KI-Chat und Bilder bis 31. Dezember 2026, innerhalb von 5-Stunden-Limits; neuere bekommen Core-Modelle kostenlos bis zu einer Nutzungsobergrenze."
@@ -33,11 +33,11 @@ savingTips:
   - "Der Free-Plan braucht keine Kreditkarte, du kannst den Super Agent also vor dem Bezahlen testen."
 faq:
   - q: "Wie viel kostet Genspark pro Monat?"
-    a: "Plus startet bei $24.99/Monat ($19.99 jährlich abgerechnet) für 10.000 Credits und skaliert auf $199.99 für 95.000. Pro läuft von $249.99 bis $3,999.99 im Monat, und der Team-Plan kostet $30 pro Sitz."
+    a: "Plus startet bei $24.99/Monat ($19.99 jährlich abgerechnet) für 10.000 Credits und skaliert auf $199.99 für 95.000. Pro läuft von $249.99 bis $3,999.99 im Monat, und der Team-Plan kostet $35 pro Sitz mit je 10.000 Credits."
   - q: "Ist Gensparks unbegrenzter KI-Chat wirklich unbegrenzt?"
     a: "Nicht ganz. Plus- und Pro-Abos, gestartet vor dem 18. September 2026 und aktiv gehalten, können KI-Chat und Bildgenerierung bis 31. Dezember 2026 kostenlos nutzen, begrenzt pro 5-Stunden-Fenster. Neuere Abos bekommen Core-Modelle kostenlos bis zu einer Nutzungsobergrenze, dann nutzen monatliche Credits, und Flagship-Modelle kosten immer Credits."
   - q: "Was enthält der Free-Genspark-Plan?"
-    a: "Der Free-Plan gibt 100 Credits pro Tag, braucht keine Kreditkarte und deckt Chat, Slides, Docs und Recherche ab. Manche Funktionen sind eingeschränkt; du kannst zum Beispiel in Free keine Slides exportieren."
+    a: "Der Free-Plan gibt 100 Credits pro Tag, bis du ein Gesamtkontingent an kostenlosen Credits erreichst, braucht keine Kreditkarte und deckt Chat, Slides, Docs und Recherche ab. Manche Funktionen sind eingeschränkt; du kannst zum Beispiel in Free keine Slides exportieren."
   - q: "Rollen ungenutzte Genspark-Credits weiter?"
     a: "Nein. Monatliche Plan-Credits setzen sich in jedem Zyklus zurück, und Reste verfallen bei Abo-Ende, ohne anteilige Rückerstattung. Separat gekaufte Credit-Packs bleiben 3 Monate ab Kauf gültig."
   - q: "Wem gehört Genspark?"

@@ -1,7 +1,7 @@
 ---
 summary: "Grok es el asistente de IA de xAI, que SpaceX adquirió en febrero de 2026 y que ahora opera como SpaceXAI. Combina chat con búsqueda en tiempo real en X y en la web, generación de imagen y video con Grok Imagine, voz y un agente de código. Encaja con usuarios intensivos de X, creadores de video y quien quiera un único pozo de uso entre productos."
-metaTitle: "Grok: precios 2026 con SuperGrok y tier gratis"
-metaDescription: "Precios de Grok en 2026: un tier gratis, SuperGrok a $30/mes y SuperGrok Plus a $100/mes. Cupos semanales de uso, funciones, límites y alternativas."
+metaTitle: "Precios de Grok 2026: tier gratis, SuperGrok $30 y Plus $100"
+metaDescription: "Grok es gratis. SuperGrok cuesta $30/mes y SuperGrok Plus $100/mes en la página de precios de xAI; los precios de SuperGrok Lite y Heavy no son públicos."
 bestFor:
   - "Usuarios intensivos de X"
   - "Creadores de videos cortos con IA"

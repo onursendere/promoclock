@@ -29,7 +29,7 @@ useCases:
   - "Interviews mit Scribe transkribieren und aus Text-Prompts Soundeffekte für einen Kurzfilm ergänzen."
 pricingSummary: "Free enthält 10.000 Credits im Monat. Starter kostet $6/Monat (30.000 Credits), Creator $22/Monat (121.000), Pro $99/Monat (600.000), Scale $299/Monat und Business $990/Monat mit zusätzlichen Sitzen; Enterprise ist individuell."
 savingTips:
-  - "Jährliche Abrechnung berechnet 10 Monate für ein volles Jahr, Starter läuft also auf $5/Monat und Creator auf $18,33/Monat hinaus."
+  - "Jährliche Abrechnung berechnet 10 Monate für ein volles Jahr, Starter läuft also auf $5/Monat und Creator auf $18.33/Monat hinaus."
   - "In Bezahlplänen rollen ungenutzte Credits bis zu zwei Monate weiter, maximal 2x dein Monatskontingent."
   - "Die 10.000 Monats-Credits des Gratis-Plans reichen für rund 10 Minuten Text-to-Speech zum Testen von Stimmen."
 faq:

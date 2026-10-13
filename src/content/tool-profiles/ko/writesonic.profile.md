@@ -8,7 +8,7 @@ bestFor:
   - "AI 추천에서 밀려나는 B2B 브랜드"
 keyFeatures:
   - name: "AI 가시성 추적"
-    description: "ChatGPT, Gemini, Google AI Overviews에서 프롬프트와 답변을 매일 추적하며, Enterprise는 커버리지를 10개 AI 플랫폼으로 확장합니다."
+    description: "ChatGPT, Gemini, Google AI Overviews에서 프롬프트와 답변을 매일 추적하며, Enterprise는 커버리지를 8개 AI 플랫폼으로 확장합니다."
   - name: "AI Article Writer"
     description: "업로드한 데이터와 저장된 작성 스타일을 활용해 매달 SEO 아티클을 작성하며, Starter는 15개, Growth는 50개입니다."
   - name: "사이트 감사"
@@ -33,7 +33,7 @@ faq:
   - q: "Writesonic은 여전히 AI 글쓰기 도구인가요?"
     a: "부분적으로 그렇습니다. 모든 플랜에 여전히 AI Article Writer가 포함되지만, Writesonic은 이제 스스로를 AI 검색 성장 엔진으로 소개합니다. 초점은 GEO, AEO, 그리고 브랜드가 AI 답변에 어떻게 나타나는지 추적하는 데 있습니다."
   - q: "Writesonic은 어떤 AI 플랫폼을 추적하나요?"
-    a: "Starter, Basic, Growth는 ChatGPT, Gemini, Google AI Overviews를 추적합니다. Enterprise는 10개 플랫폼을 추적하며 Perplexity, Claude, Microsoft Copilot, Grok, DeepSeek, Meta AI, Google AI Mode가 추가됩니다."
+    a: "Starter, Basic, Growth는 ChatGPT, Gemini, Google AI Overviews를 추적합니다. Enterprise는 8개 플랫폼을 추적하며 Perplexity, Claude, Microsoft Copilot, Grok, Google AI Mode가 추가됩니다."
   - q: "Writesonic은 언제든 해지할 수 있나요?"
     a: "네. 업그레이드는 즉시 적용되고, 다운그레이드와 해지는 다음 결제 주기에 적용됩니다. Writesonic은 또한 7일 무조건 환불도 제공합니다."
   - q: "Writesonic 각 플랜에는 몇 명의 사용자가 포함되나요?"

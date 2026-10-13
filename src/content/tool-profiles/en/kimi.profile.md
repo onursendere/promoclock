@@ -1,7 +1,7 @@
 ---
 summary: "Kimi is an AI assistant and agent workspace from Moonshot AI. It runs on Kimi K3, a 2.8-trillion-parameter open-weight model with a 1-million-token context window launched in July 2026. Beyond chat, Kimi handles documents, slides, deep research and websites, and it extends to coding through Kimi Code and to desktop work through Kimi Work."
-metaTitle: "Kimi Pricing, Free Plan & K3 Features (2026)"
-metaDescription: "Kimi by Moonshot AI has a free Adagio plan and paid plans from $19/month. See what Kimi K3, Agent Swarm, Kimi Code and Kimi Work can do for you."
+metaTitle: "Kimi K3 Pricing 2026: Free Plan, Plus $19 & Pro $39"
+metaDescription: "Kimi K3 is free on the Adagio plan, one agent task at a time. Plus costs $19/month, Pro $39, Max $99 and Ultra $199; Max and Ultra add chats of up to 1M tokens."
 bestFor:
   - "Research and long-document work"
   - "Handing off multi-step agent tasks"
@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Adagio is free with one agent task at a time. Plus costs $19/month, Pro $39, Max $99 and Ultra $199; yearly billing brings Plus to $180/year, and Max and Ultra add chats of up to 1M tokens."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, cli, api, browser-extension]
 savingTips:
   - "Yearly billing cuts Plus from $228 to $180 a year and Pro from $468 to $372, roughly 20% off."
@@ -43,14 +43,14 @@ faq:
   - q: "Is Kimi K3 open source?"
     a: "Kimi K3's full weights are downloadable on Hugging Face under Moonshot's own Kimi K3 License. The model was announced on July 17, 2026 and runs on kimi.com, the mobile apps, Kimi Work, Kimi Code and the Kimi API."
   - q: "Why does the Kimi help center show prices in yuan?"
-    a: "The help center lists separate plans named Andante, Moderato, Allegretto and Allegro, priced from ¥49 to ¥699 per month. The English pricing page on kimi.com shows the Plus, Pro, Max and Ultra plans in US dollars."
+    a: "The help center lists yuan plans named Go, Plus, Pro and Max, priced from ¥49 to ¥699 per month. The English pricing page on kimi.com shows Plus, Pro, Max and Ultra in US dollars, so the same plan name can mean a different tier in each currency."
 alternatives: [deepseek, qwen, chatgpt, claude, perplexity]
 sources:
   - https://www.kimi.com/membership/pricing
   - https://www.kimi.com/en/blog/kimi-k3
   - https://www.kimi.com/en/help/membership/membership-pricing
   - https://huggingface.co/moonshotai/Kimi-K3
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Kimi?
 Kimi is Moonshot AI's consumer product line, spanning chat, agents and coding. Kimi K3 launched on July 17, 2026 and runs on kimi.com and the iOS, Android and HarmonyOS apps.
@@ -64,4 +64,4 @@ Kimi suits people who hand off multi-step research, office files or coding. Deve
 - Kimi Code, Kimi Work, Deep Research and slides share one monthly credit pool, and unused credits expire.
 - Agent use counts per plan are estimates based on typical token consumption, not fixed quotas.
 - Goal mode starts at Pro, and 1M-token chats need Max or Ultra.
-- Plan names and prices differ between the yuan-priced help center and the US-dollar pricing page, which can confuse buyers.
+- The yuan-priced help center and the US-dollar pricing page reuse plan names such as Plus, Pro and Max for different tiers and prices, which can confuse buyers.

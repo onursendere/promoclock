@@ -1,7 +1,7 @@
 ---
 summary: "Meta AI, Meta'nın AI asistanı; Meta AI uygulamasında, meta.ai'de ve WhatsApp, Instagram, Facebook ile Messenger'ın içinde kullanılabilir. Nisan 2026'dan beri Meta Superintelligence Labs'in Muse modelleriyle çalışıyor. Günlük kullanım ücretsiz kalırken Eylül 2026'da sunulan Meta One abonelikleri daha fazla görsel ve video üretimi ekliyor."
-metaTitle: "Meta AI ücretsiz mi? Meta One fiyatları ve özellikler 2026"
-metaDescription: "Meta AI günlük kullanımda ücretsiz. Muse Spark'ın yeteneklerini, Meta One Core ($7.99) ve Premium'un ($19.99) neler eklediğini ve gizlilik notlarını gör."
+metaTitle: "Meta AI ücretsiz mi? Evet: Meta One aylık $7.99'dan (2026)"
+metaDescription: "Meta AI günlük kullanımda ücretsiz. Daha fazla görsel ve video üretimi için Meta One Core aylık $7.99, Premium aylık $19.99; fiyatlar bölgeye göre değişir."
 bestFor:
   - "WhatsApp ve Instagram kullanıcıları"
   - "Ücretsiz asistan isteyenler"

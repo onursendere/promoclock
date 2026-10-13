@@ -31,11 +31,11 @@ pricing:
   currency: USD
   billing: month
   summary: "Free includes 60 media minutes a month and 100 one-time AI credits. Hobbyist is $24/month, Creator $35/month and Business $65/month; annual billing cuts those to $16, $24 and $50."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, macos, windows, api]
 savingTips:
   - "Annual billing saves up to 35%: Hobbyist falls from $24 to $16 a month, Creator from $35 to $24 and Business from $65 to $50."
-  - "Descript offers special rates for students, educators and non-profits through a request form on the pricing page."
+  - "Schools and non-profits can apply for an Education/Non-profit plan at $12 per editor a month, or $8 billed annually, with all Hobbyist features."
   - "Studio Sound and Remove Filler Words cost at most 30 AI credits per application, however long the file is."
   - "No credit card is needed to record, edit and mix on the free plan."
 faq:
@@ -55,7 +55,7 @@ sources:
   - https://www.descript.com/
   - https://help.descript.com/billing-payments-plans/track-and-understand-your-media-minutes-and-ai-credits
   - https://www.descript.com/download
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Descript?
 Descript turns a recording into a transcript you can edit like a Word document. Deleting a sentence removes it from the video and audio, and moving a paragraph reorders the footage. On top of that sits Underlord, an AI co-editor that can make a first cut, pull clips, write captions and apply effects from a prompt.

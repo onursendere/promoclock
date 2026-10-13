@@ -68,7 +68,7 @@ faq:
 
 ### Runway
 
-[Runway 요금 페이지](https://runway.com/pricing)에 따르면 Runway Standard는 625크레딧에 월 $15, Pro는 2,250크레딧에 $35, Max는 9,500크레딧에 $95이며, 연간 결제 시 20% 할인됩니다. 2026년 6월 1일 Unlimited를 대체해 출시된 Max는 ProRes, HDR, 1개월 크레딧 이월을 추가합니다.
+[Runway 요금 페이지](https://runway.com/pricing)에 따르면 Runway Standard는 625크레딧에 월 $15, Pro는 2,250크레딧에 $35, Max는 9,500크레딧에 $95이며, 연간 결제 시 20% 할인됩니다. 2026년 6월 1일 Unlimited를 대체해 출시된 Max는 ProRes, HDR, 1개월 크레딧 이월을 추가합니다. 2026년 9월에 추가된 2–9명용 Team 플랜은 좌석당 $69(연간 결제 시 $55)이며 좌석당 6,900크레딧을 공동 풀로 사용합니다.
 
 ### Kling
 
@@ -136,7 +136,7 @@ HeyGen 무료 플랜은 최대 1분짜리 영상을 월 3개 만들 수 있고 �
 
 ### Synthesia
 
-Synthesia의 무료 Basic 플랜은 월 500크레딧, 약 10분 분량의 영상이나 더빙을 포함하지만 Basic 사용자는 영상을 다운로드할 수 없습니다. Starter는 1,250크레딧에 월 $29(연간 결제 시 $18), 이전 이름이 Creator인 Pro는 6,000크레딧과 API 이용에 월 $89(연간 결제 시 $64)입니다. 더빙은 분당 120크레딧, 립싱크를 넣으면 240크레딧입니다.
+Synthesia의 무료 Basic 플랜은 월 500크레딧, 약 10분 분량의 영상이나 더빙을 포함하지만 Basic 사용자는 영상을 다운로드할 수 없습니다. Starter는 1,250크레딧에 월 $29(연간 결제 시 $18), 이전 이름이 Creator인 Pro는 6,000크레딧과 API 이용에 월 $89(연간 결제 시 $64)입니다. 셀프서비스 플랜에서 더빙은 분당 약 76크레딧이고 립싱크를 넣으면 두 배이며, 2026년 10월 9일부터 베타인 Syren 에이전트는 프롬프트 하나로 영상 전체를 만듭니다.
 
 ## 돈을 낼 만한 AI 영상 편집·클립 도구는?
 
@@ -164,7 +164,7 @@ Mirage가 만든 [Captions](/tools/captions/)는 기본 편집용 무료 버전�
 
 ### InVideo AI
 
-[InVideo AI](/tools/invideo/)의 무료 크레딧은 매주 월요일 초기화됩니다. Starter는 400크레딧에 좌석당 월 $20, Plus는 $60(연간 결제 시 $36), Max는 $150(연간 결제 시 $75)입니다. Agent Two가 샷을 계획하고 모델을 고르며, 타임라인 편집에는 크레딧이 들지 않습니다.
+[InVideo AI](/tools/invideo/)의 무료 크레딧은 매주 월요일 초기화됩니다. Starter는 400크레딧에 좌석당 월 $20(연간 결제 시 $10), Plus는 $60(연간 결제 시 $30), Max는 $150(연간 결제 시 $75)입니다. Agent Two가 샷을 계획하고 모델을 고르며, 타임라인 편집에는 크레딧이 들지 않습니다.
 
 ### Pictory
 
@@ -177,6 +177,8 @@ Mirage가 만든 [Captions](/tools/captions/)는 기본 편집용 무료 버전�
 - [Firefly Pro Plus·Premium 30% 할인](/deals/adobe-firefly-30-off-first-year-2026/): 2026년 10월 21일까지 신청하면 첫해 동안 US$49.99 대신 월 US$34.97, 또는 US$199.99 대신 월 US$139.91입니다. Adobe는 Pro Plus에서 5초 영상 최대 100개, Premium에서 Veo 3.1 Fast와 Kling 3.0 무제한 생성을 안내합니다.
 - [학생용 Google AI Pro 무료](/deals/google-ai-pro-students-2026/): 2026년 12월 31일까지 등록하는, 자격 요건을 갖춘 미국 대학생에게 12개월 무료.
 - [Pixel 10 Pro 구매 시 Google AI Pro 12개월](/deals/pixel-10-pro-google-ai-pro-2026/): 2026년 10월 31일까지 구매하고 등록해야 합니다.
+- [Synthesia의 Syren 무료 크레딧](/deals/synthesia-syren-launch-credits-2026/): 모든 사용자가 새 영상 에이전트용 출시 크레딧을 받으며, 유효 기간은 1개월입니다.
+- [Runway Enterprise 2개월 사용량 무료](/deals/runway-enterprise-two-months-free-2026/): 2026년 10월 31일까지 계약하는 기업 대상.
 
 더 많은 혜택은 [AI 특가 페이지](/deals/)에, 연간 결제 설명은 [AI 구독료 절약 가이드](/blog/save-money-on-ai-subscriptions/)에 있습니다.
 

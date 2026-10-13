@@ -70,7 +70,7 @@ O Claude Code é a ferramenta de programação com agentes da Anthropic para o t
 
 O Claude Code divide uma única cota com o chat do Claude, medida por sessão contínua de 5 horas mais um teto semanal. Em 6 de maio de 2026, a Anthropic [dobrou os limites de 5 horas do Claude Code](/deals/claude-code-5h-limits-doubled/) e o isentou da redução do horário de pico dos dias úteis no Pro e no Max. Desde 14 de setembro, os limites semanais dele estão [permanentemente 25% mais altos](/deals/claude-code-weekly-plus25-permanent/). O chat do Claude ainda acaba mais rápido nos dias úteis, das 13:00 às 19:00 UTC, como mostra nosso [relógio do horário de pico ao vivo](/); o [guia de limites de uso do Claude](/blog/claude-usage-limits/) traz os detalhes.
 
-Assinantes individuais do Pro e do Max ativos em 23 de setembro podem resgatar [$100 ou $250 em crédito de nuvem do Claude Code](/deals/claude-code-cloud-credit-2026/) até 7 de outubro de 2026. Ideal para: trabalho com agentes em um repositório inteiro.
+Assinantes individuais do Pro e do Max que resgataram [$100 ou $250 em crédito de nuvem do Claude Code](/deals/claude-code-cloud-credit-2026/) até 7 de outubro de 2026 podem usá-lo em sessões na nuvem até 4 de novembro. Ideal para: trabalho com agentes em um repositório inteiro.
 
 ### OpenAI Codex
 
@@ -80,7 +80,7 @@ Os limites do Codex são estimativas. A OpenAI estima de 10 a 100 mensagens loca
 
 ### Warp
 
-O Warp é um terminal com agente de programação embutido, e o cliente dele é de código aberto sob a licença AGPL desde 28 de abril de 2026. O Warp Free inclui o terminal e o Agent CLI, mas nenhum uso de IA incluído, então você usa sua própria chave de API. O Build custa $20/mês com 1.500 créditos, e o Max $200/mês com 18.000. Ideal para: engenheiros de DevOps e quem vive no terminal.
+O Warp é um terminal com agente de programação embutido, e o cliente dele é de código aberto sob a licença AGPL desde 28 de abril de 2026. O Warp Free inclui o terminal e o Agent CLI, mas nenhum uso de IA incluído, então você usa sua própria chave de API. O Build custa $20/mês com $20 de uso do agente nas tarifas da API, e o Max $200/mês com $200 de uso. Ideal para: engenheiros de DevOps e quem vive no terminal.
 
 ## Para qual editor de código com IA vale a pena mudar?
 

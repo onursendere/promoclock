@@ -39,7 +39,7 @@ faq:
   - q: "¿Qué pasa cuando termina la prueba de n8n Cloud?"
     a: "La prueba caduca automáticamente a los 14 días, y n8n elimina el espacio de trabajo salvo que mejores de plan. Tienes 90 días para descargar tus flujos, y no hay cargos si no haces nada."
   - q: "¿Puede n8n crear flujos por ti con IA?"
-    a: "Sí. El n8n Assistant, antes llamado AI Assistant, puede crear, editar, probar y solucionar problemas de flujos a partir de peticiones en lenguaje natural. Cloud Starter incluye 2.300 créditos de IA al mes para ello, y Pro hasta 13.700."
+    a: "Sí. El n8n Assistant, antes llamado AI Assistant, puede crear, editar, probar y solucionar problemas de flujos a partir de peticiones en lenguaje natural. Cloud Starter incluye 1.600 créditos de Assistant al mes para ello, y Pro 4.000 o 9.600 según el tamaño; desde el 30 de septiembre de 2026, los propietarios también pueden recargar créditos."
   - q: "¿n8n cobra por usuario?"
     a: "No. Todos los planes de n8n incluyen usuarios y flujos ilimitados. Los planes se diferencian en las ejecuciones mensuales, las ejecuciones simultáneas, los proyectos compartidos, el historial de insights y funciones de administración como SSO."
 ---

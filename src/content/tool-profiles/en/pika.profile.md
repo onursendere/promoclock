@@ -29,11 +29,11 @@ pricing:
   currency: USD
   billing: month
   summary: "The Free plan costs nothing but includes no monthly credits, only credit packs you buy. Starter is $10/month with 900 credits, Creator $35/month with 3,150 credits and Fancy from $95/month; yearly billing saves 20%."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api]
 savingTips:
   - "Yearly billing saves 20%: Starter drops to $8 a month and Creator to $28."
-  - "Top-up credits stay in your balance until spent, unlike plan credits, and cost 60 credits per $1 on every plan."
+  - "Top-up credits last 365 days after purchase, unlike plan credits, and cost 60 credits per $1 on every plan; they work only in Pika Create on pika.art."
   - "Cheaper models stretch a balance: a 5-second 720p Wan 3.0 clip uses 33 credits versus 122 for Seedance 2.5."
 faq:
   - q: "Is Pika free?"
@@ -41,17 +41,17 @@ faq:
   - q: "Which Pika plan includes a commercial license?"
     a: "Creator, at $35/month or $28/month billed yearly, is the cheapest plan with a commercial license. Free and Starter exclude commercial use, while Fancy and Enterprise include it plus a priority queue."
   - q: "Do unused Pika credits roll over?"
-    a: "Plan credits do not. They refresh each billing period and anything unused is lost, while credits bought as one-off top-ups stay in your balance until you spend them."
+    a: "Plan credits do not. They refresh each billing period and anything unused is lost, while credits bought as one-off top-ups carry over and expire 365 days after purchase."
   - q: "Does Pika still build its own models?"
     a: "Yes. Pika 2.5 is its current video model, and in August 2026 it released Pika Speech, Pika Music, Pika SFX and Pika Soundtrack. The platform hosts partner models from other labs alongside them."
   - q: "What happens if I cancel my Pika plan?"
-    a: "Your plan stays active until the end of the current billing period, then the account moves to the Free plan. Credits you bought as top-ups remain in the balance and can still be spent."
+    a: "Your plan stays active until the end of the current billing period, then the account moves to the Free plan. Credits you bought as top-ups remain in the balance and can still be spent until they expire, 365 days after purchase."
 alternatives: [pixverse, kling, runway, luma, hailuo]
 sources:
   - https://pika.art/pricing
   - https://pika.art/
   - https://experiment.pika.art/blog/pika-api-club
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Pika today?
 Pika started as a playful text-to-video app known for effects such as Pikaffects and Pikaswaps. By 2026 it has become a broader creative platform with separate apps for video, images and audio, and a model picker that mixes Pika's own models with partner models.

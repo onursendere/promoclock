@@ -1,7 +1,7 @@
 ---
 summary: "VEED, VEED tarafından yapılan, bir tarayıcı zaman çizelgesini AI altyazıları, çeviri, dublaj, avatarlar ve AI video üretimiyle birleştiren çevrim içi bir video editörü. Hızlı otomatik altyazıları ve marka kitleriyle bilinir ve masaüstü düzenleme yazılımı olmadan kısa videolar yayımlayan pazarlamacılara, sosyal ekiplere ve içerik üreticilerine uygundur."
-metaTitle: "VEED fiyatları, ücretsiz plan ve AI özellikleri (2026)"
-metaDescription: "VEED fiyatları 2026: ücretsiz planın filigranı ve 720p limiti ne anlama gelir, AI kredileri nasıl işler ve video düzenleme için en iyi VEED alternatifleri."
+metaTitle: "VEED ücretsiz deneme ve fiyatlar 2026: Creator £20/ay"
+metaDescription: "VEED'in ücretsiz denemesi yalnızca 3+ kişilik Enterprise ekipleri için; bireyler ücretsiz planla başlar (720p, filigran). İngiltere'de Creator aylık £20, Pro £35."
 bestFor:
   - "Sosyal medya pazarlamacıları"
   - "Hızlı altyazı isteyen içerik üreticileri"

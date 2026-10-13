@@ -11,8 +11,8 @@ keyFeatures:
     description: "Über 300 Layouts, die Abstand, Ausrichtung und Hierarchie für dich übernehmen und das Design automatisch anpassen, sobald sich der Inhalt ändert."
   - name: "Create-with-AI-Workflow"
     description: "Starte aus einem Prompt, einer Gliederung oder einem Dokument, bearbeite die Text-zuerst-Gliederung und generiere dann fertige Folien einzeln zum Verfeinern."
-  - name: "Marken-Themes und Kontrollen"
-    description: "Baue ein eigenes Theme mit deinen Farben, Schriften, Logos und Fußzeilen und wechsle dann ein ganzes Deck per Klick auf ein anderes Theme."
+  - name: "Brand Kits und Kontrollen"
+    description: "Brand Kits, bis September 2026 als Themes bezeichnet, halten deine Farben, Schriften, Logos und KI-Präferenzen, und du kannst ein ganzes Deck per Klick auf ein anderes Kit umstellen."
   - name: "Datenvisualisierung"
     description: "Dynamische Diagramme und Tabellen, die sich bei geänderten Zahlen neu zeichnen, mit Live-Datenverknüpfung für Diagramme im Team-Plan."
   - name: "Betrachter-Analytics"
@@ -46,7 +46,7 @@ faq:
 ## Was ist Beautiful.ai?
 Beautiful.ai ist ein browserbasiertes Präsentations-Tool, das dir Design-Entscheidungen abnimmt. Du wählst ein Smart-Slide-Layout, fügst Inhalte hinzu, und die Folie ordnet sich selbst neu an: Abstand, Ausrichtung und Diagramm-Proportionen bleiben konsistent, während das Deck wächst.
 
-Die KI-Seite wurde im März 2026 mit Create with AI neu gebaut, vom Unternehmen als Beautiful.ai 3.0 beschrieben. Du wählst zuerst ein Theme, gibst einen Prompt, eine Gliederung oder ein Dokument ein, prüfst eine reine Text-Gliederung, generierst dann gestaltete Folien und generierst einzelne Folien neu statt des ganzen Decks.
+Die KI-Seite wurde im März 2026 mit Create with AI neu gebaut, vom Unternehmen als Beautiful.ai 3.0 beschrieben. Du wählst zuerst ein Brand Kit, gibst einen Prompt, eine Gliederung oder ein Dokument ein, prüfst eine reine Text-Gliederung, generierst dann gestaltete Folien und generierst einzelne Folien neu statt des ganzen Decks.
 
 ## Für wen es ist
 Es passt zu Menschen, die oft präsentieren, aber sich nicht mit Folien-Design herumschlagen wollen, und zu Teams, die brauchen, dass jedes Deck zur Marke passt. Team-Plätze ergänzen Live-Zusammenarbeit, eine geteilte Folien-Bibliothek, gesperrte Folien, Engagement-Analytics und Übersetzung in mehr als 100 Sprachen.

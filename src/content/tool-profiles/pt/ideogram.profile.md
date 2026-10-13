@@ -30,7 +30,7 @@ useCases:
 pricingSummary: "Contas grátis ganham 30 créditos por semana. Plus é $20/mês com 2.400 créditos, Pro $60/mês com 7.500 e Team $30 por usuário/mês com 3.600 por usuário (mínimo de 2 usuários); cobrança anual reduz Plus para $15, Pro para $42 e Team para $20."
 savingTips:
   - "A cobrança anual traz o Plus para $15/mês ($180 por ano) e o Pro para $42/mês ($504 por ano)."
-  - "Créditos prioritários avulsos custam $4 e, diferente dos créditos da assinatura, acumulam se você não os usar."
+  - "Créditos extras custam um centavo cada, de $1 a $300 por compra, e, diferente dos créditos mensais do plano, valem por 365 dias após a compra."
   - "Os planos pagos incluem créditos lentos ilimitados, então imagens sem urgência podem esperar na fila lenta."
   - "Contas grátis ganham 30 créditos por semana ao fazer login com Google, Apple ou Microsoft."
 faq:

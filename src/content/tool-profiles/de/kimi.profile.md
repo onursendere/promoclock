@@ -1,7 +1,7 @@
 ---
 summary: "Kimi ist ein KI-Assistent und Agent-Workspace von Moonshot AI. Er läuft auf Kimi K3, einem Open-Weight-Modell mit 2,8 Billionen Parametern und einem 1-Millionen-Token-Kontextfenster, im Juli 2026 gestartet. Über Chat hinaus verarbeitet Kimi Dokumente, Slides, Deep Research und Websites, und reicht über Kimi Code ins Coden und über Kimi Work in die Desktop-Arbeit."
-metaTitle: "Kimi Preise, Gratis-Plan & K3-Funktionen (2026)"
-metaDescription: "Kimi von Moonshot AI hat einen kostenlosen Adagio-Plan und Bezahlpläne ab $19/Monat. Sieh, was Kimi K3, Agent Swarm, Kimi Code und Kimi Work für dich tun."
+metaTitle: "Kimi K3 Preise 2026: Gratis-Plan, Plus $19 & Pro $39"
+metaDescription: "Kimi K3 ist im Adagio-Plan kostenlos, mit einer Agent-Aufgabe zur Zeit. Plus kostet $19/Monat, Pro $39, Max $99, Ultra $199; Max und Ultra bieten Chats bis 1M Token."
 bestFor:
   - "Recherche und Langdokumente"
   - "Mehrstufige Agent-Aufgaben"
@@ -36,7 +36,7 @@ faq:
   - q: "Ist Kimi K3 Open Source?"
     a: "Kimi K3s volle Gewichte sind auf Hugging Face unter Moonshots eigener Kimi-K3-Lizenz herunterladbar. Das Modell wurde am 17. Juli 2026 angekündigt und läuft auf kimi.com, den Mobile-Apps, Kimi Work, Kimi Code und der Kimi API."
   - q: "Warum zeigt das Kimi-Help-Center Preise in Yuan?"
-    a: "Das Help-Center listet separate Pläne namens Andante, Moderato, Allegretto und Allegro, bepreist von ¥49 bis ¥699 pro Monat. Die englische Preisseite auf kimi.com zeigt die Plus-, Pro-, Max- und Ultra-Pläne in US-Dollar."
+    a: "Das Help-Center listet Yuan-Pläne namens Go, Plus, Pro und Max, bepreist von ¥49 bis ¥699 pro Monat. Die englische Preisseite auf kimi.com zeigt Plus, Pro, Max und Ultra in US-Dollar, derselbe Plan-Name kann in jeder Währung also eine andere Stufe bedeuten."
 ---
 ## Was ist Kimi?
 Kimi ist Moonshot AIs Consumer-Produktlinie, die Chat, Agenten und Coden umspannt. Kimi K3 startete am 17. Juli 2026 und läuft auf kimi.com und den iOS-, Android- und HarmonyOS-Apps.
@@ -50,4 +50,4 @@ Kimi passt zu Menschen, die mehrstufige Recherche, Office-Dateien oder Coden abg
 - Kimi Code, Kimi Work, Deep Research und Slides teilen sich einen monatlichen Credit-Pool, und ungenutzte Credits verfallen.
 - Agent-Nutzungs-Zählungen pro Plan sind Schätzungen basierend auf typischem Token-Verbrauch, keine festen Kontingente.
 - Goal-Modus startet in Pro, und 1M-Token-Chats brauchen Max oder Ultra.
-- Plan-Namen und Preise unterscheiden sich zwischen dem yuan-bepreisten Help-Center und der US-Dollar-Preisseite, was Käufer verwirren kann.
+- Das in Yuan bepreiste Help-Center und die US-Dollar-Preisseite verwenden Plan-Namen wie Plus, Pro und Max für unterschiedliche Stufen und Preise, was Käufer verwirren kann.

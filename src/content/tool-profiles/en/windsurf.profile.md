@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free includes a light quota with unlimited Tab completions. Pro is $20/month, Max is $200/month with much higher quotas, and Teams starts at $80/month with full seats at $40 each. Enterprise is custom."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [macos, windows, linux, jetbrains]
 savingTips:
   - "Free models don't count against your quota, and Cognition's SWE models stretch paid allowances further; SWE-2 is free in Devin Desktop and the CLI on Pro and Max through October 16, 2026."
@@ -51,7 +51,7 @@ sources:
   - https://docs.devin.ai/desktop/accounts/quota
   - https://docs.devin.ai/admin/billing/self-serve
   - https://cognition.com/blog/windsurf
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What happened to Windsurf?
 Windsurf began as Codeium's editor and passed to Cognition in 2025. In June 2026 Cognition unified its products under one brand: Devin Desktop for the IDE, Devin Cloud for autonomous cloud agents, Devin CLI for the terminal and Devin Review for code review. Existing Windsurf rules, including `.windsurfrules`, still work.

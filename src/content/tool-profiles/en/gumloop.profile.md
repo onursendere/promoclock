@@ -32,7 +32,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Gumloop lists no free plan. Pro costs $37/month with 20,000 credits, unlimited seats and a 14-day trial that requires a card; Enterprise is custom. Overage is billed at $0.005 per credit and capped by default."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api, cli]
 savingTips:
   - "Bringing your own model API key drops chat and reasoning to 0 credits, though the orchestration fee rises from 8% to 16%."
@@ -57,7 +57,7 @@ sources:
   - https://docs.gumloop.com/core-concepts/gumball
   - https://docs.gumloop.com/core-concepts/subscription_management
   - https://docs.gumloop.com/index
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Gumloop?
 Gumloop lets you build AI agents without code, connect them to apps through MCP-based connectors, and run them where work already happens: in Gumloop chat, Slack, Microsoft Teams, an agent's own email inbox or a hosted page. It supports 35+ models, and you can bring your own provider keys.

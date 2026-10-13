@@ -1,7 +1,7 @@
 ---
 summary: "Google Flow是谷歌推出的AI创意工作室，使用Veo 3.1、Gemini Omni和Nano Banana模型制作和编辑视频与图像。它已从Google Labs迁移到flow.google.com，新增了Gemini驱动的智能体和自定义工具，适合拥有谷歌账号的电影制作者和创作者。"
-metaTitle: "Google Flow价格与免费额度"
-metaDescription: "2026年Google Flow价格：每日50点免费额度，Google AI Plus、Pro和Ultra各档配额，Veo 3.1额度消耗、地区限制与替代工具。"
+metaTitle: "Google Flow价格：每天50点免费，$4.99起"
+metaDescription: "Google Flow每天免费50点额度。AI Plus（$4.99/月）每月200点，AI Pro（$19.99）1,000点，AI Ultra最高25,000点，用于Veo 3.1。"
 bestFor:
   - "电影制作者和讲故事的人"
   - "Google AI订阅用户"

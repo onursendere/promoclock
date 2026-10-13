@@ -33,7 +33,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Basic is $10/month, Standard $30, Pro $60 and Mega $120, or $8, $24, $48 and $96 a month on annual billing. Plans differ in Fast GPU hours, Relax mode, concurrency and Stealth Mode."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web]
 savingTips:
   - "Annual billing saves 20%, paid upfront: Basic works out to $8/month and Standard to $24/month."
@@ -58,7 +58,7 @@ sources:
   - https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version
   - https://updates.midjourney.com/version-8-2/
   - https://updates.midjourney.com/edit-model-for-v8/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Midjourney?
 Midjourney is a subscription-only generator for images and short videos. You write prompts on midjourney.com or send them to the Midjourney Bot in Discord, and control results with parameters such as --v for version or --hd for 2K output.

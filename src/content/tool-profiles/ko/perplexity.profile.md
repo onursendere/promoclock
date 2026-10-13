@@ -25,9 +25,10 @@ useCases:
   - "Pro 검색 안에서 Statista와 PitchBook의 수치를 끌어와 시장 규모 브리프를 작성합니다."
   - "경쟁사 분석을 Perplexity Computer에 맡기고 완성된 리포트와 스프레드시트를 받습니다."
   - "휴대폰의 Comet에 브라우징 중인 여러 제품 페이지를 요약하고 비교해 달라고 요청합니다."
-pricingSummary: "Free는 제한된 일일 사용량으로 $0입니다. Pro는 월 $20, Max는 월 $200이며, 인증된 학생과 교육자는 Education Pro를 월 $10에 이용할 수 있습니다."
+pricingSummary: "Free는 제한된 일일 사용량으로 $0입니다. Pro는 월 $20(연간 결제 시 월 $17), Max는 월 $200(연간 결제 시 월 $167)입니다. 인증된 학생과 교육자는 Education Pro를 월 $10에 이용할 수 있습니다."
 savingTips:
   - "SheerID로 인증된 학생과 교육자는 Pro의 절반 가격인 월 $10에 Education Pro를 이용하며 Pro의 모든 기능이 포함됩니다."
+  - "연간 결제하면 Pro는 월 $17, Max는 월 $167로 낮아집니다."
   - "Free 플랜도 모든 답변에 인용을 제공하므로 가끔 하는 팩트 체크에는 구독이 필요 없습니다."
   - "Enterprise Pro 좌석은 월 결제 시 월 $40인 것과 비교해 연간 결제 시 좌석당 연 $400입니다."
 faq:

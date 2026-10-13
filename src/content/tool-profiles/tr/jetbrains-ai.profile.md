@@ -1,7 +1,7 @@
 ---
 summary: "JetBrains AI, JetBrains'in IDE'leri için sunduğu AI aboneliği; AI Assistant özelliklerini, Junie kodlama ajanını ve Claude Agent, Codex ile Gemini CLI gibi üçüncü taraf ajanları kapsıyor. IntelliJ IDEA, PyCharm ya da diğer JetBrains IDE'lerinde çalışan geliştiriciler kod tamamlama, sohbet ve ajan odaklı değişiklikler için kullanıyor; aylık AI Credits ile ödeniyor."
-metaTitle: "JetBrains AI fiyatları: Free, Pro ve Ultimate (2026)"
-metaDescription: "2026 JetBrains AI fiyatları: 3 kredili AI Free, aylık $10 AI Pro ve aylık $30 AI Ultimate. Junie'yi, kredileri, denemeyi ve AI Pro'yu kimin bedava aldığını gör."
+metaTitle: "JetBrains AI fiyatları 2026: Free, AI Pro $10, Ultimate $30"
+metaDescription: "JetBrains AI Free, 30 günde 3 AI Credits içerir. AI Pro aylık $10 ile 10 kredi, AI Ultimate aylık $30 ile 35 kredi sunar; All Products Pack, AI Pro'yu kapsar."
 bestFor:
   - "Mevcut JetBrains IDE kullanıcıları"
   - "Java ve Kotlin geliştiricileri"
@@ -38,7 +38,7 @@ faq:
   - q: "JetBrains AI Pro'yu kim ücretsiz alıyor?"
     a: "All Products Pack ve dotUltimate aboneleri, Developer Recognition Program üyeleri, JetBrains Content Creators ve DataSpell kullanıcıları AI Pro'yu dahil alıyor. Öğrenciler, öğretmenler, sınıflar ya da açık kaynak projeleri için ücretsiz All Products Pack lisanslarında dahil değil."
   - q: "Junie JetBrains AI'a dahil mi?"
-    a: "Evet. Junie aynı AI Credits'i kullanıyor ve JetBrains düzenli Junie kullanımı için AI Ultimate'ı öneriyor. Junie CLI başlamak için de ücretsiz ve kendi API anahtarınla sağlayıcı ücretlerini sıfır kâr payıyla ödüyorsun."
+    a: "Evet. Junie aynı AI Credits'i kullanıyor ve JetBrains düzenli Junie kullanımı için AI Ultimate'ı öneriyor. Junie artık Junie Lite adlı ücretsiz modeli de sunuyor: her JetBrains hesabında deneme ya da kart olmadan her zaman açık. Kendi API anahtarınla sağlayıcı ücretlerini sıfır kâr payıyla ödüyorsun."
   - q: "JetBrains kodunu AI modelleri eğitmek için kullanıyor mu?"
     a: "Yalnızca izin verirsen. Ayrıntılı veri paylaşımı ücretli lisanslarda isteğe bağlı ama ticari olmayan lisanslarda varsayılan olarak açık; oradan vazgeçebilirsin. Paylaşılan veriler Mellum gibi JetBrains modellerini eğitiyor ve üçüncü taraflara aktarılmıyor."
 ---

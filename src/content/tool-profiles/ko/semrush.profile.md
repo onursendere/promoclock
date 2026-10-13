@@ -1,7 +1,7 @@
 ---
 summary: "Semrush는 2026년 4월 Adobe가 인수한 Semrush Holdings의 SEO 및 AI 검색 가시성 플랫폼입니다. 키워드 리서치, 순위 추적, 사이트 감사에 더해 ChatGPT, Gemini, Perplexity, Google AI 답변이 브랜드를 어떻게 언급하는지 모니터링합니다. 에이전시, 사내 SEO 팀, 콘텐츠 마케터가 검색 업무를 계획하고 측정하는 데 씁니다."
-metaTitle: "Semrush 요금 2026: 무료 플랜, 체험, 플랜별 한도"
-metaDescription: "Semrush 2026년 요금: 무료 플랜의 일일 리포트 10건, SEO 월 $139, Starter, Pro+, Advanced, 7일 체험과 대안 도구를 정리했습니다."
+metaTitle: "Semrush 요금 2026: 월 $139부터, 무료 플랜, 체험"
+metaDescription: "Semrush는 SEO 월 $139, Starter $199, Pro+ $299, Advanced $549입니다. 무료 플랜은 하루 리포트 10건을 제공하며 대부분의 툴킷에 7일 체험이 있습니다."
 bestFor:
   - "SEO 전문가·컨설턴트"
   - "고객에게 보고하는 에이전시"

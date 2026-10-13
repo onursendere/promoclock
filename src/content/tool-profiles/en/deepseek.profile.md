@@ -27,7 +27,7 @@ useCases:
 pricing:
   freePlan: true
   summary: "The web chat and iOS and Android apps are free. The API is pay-as-you-go: deepseek-flash costs $0.30 per 1M input tokens (cache miss) and $1.20 per 1M output tokens at peak, half that off-peak."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, api]
 savingTips:
   - "Run flexible API workloads outside peak hours (01:00–04:00 and 06:00–10:00 UTC, Monday to Friday) to pay 50% less."
@@ -52,7 +52,7 @@ sources:
   - https://api-docs.deepseek.com/news/news260424/
   - https://api-docs.deepseek.com/news/news260813/
   - https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is DeepSeek?
 DeepSeek is both a Hangzhou-based AI lab and the free assistant it runs in the browser and in mobile apps. Developers reach the same models through a low-cost API or download the open weights to run themselves.

@@ -35,7 +35,7 @@ faq:
   - q: "Hat Frase einen Gratis-Plan?"
     a: "Nein. Frase bietet keinen dauerhaften Gratis-Plan, nur eine 7-tägige kostenlose Testphase ohne Kreditkarte. Die kostenlosen Extras sind öffentliche Tools wie der GEO Score Checker, AI Visibility Checker und Agent Readiness Checker."
   - q: "Was passiert, wenn du ein Frase-Plan-Limit erreichst?"
-    a: "Starter pausiert bis zum nächsten Zyklus. In Professional kannst du Overages einschalten, für $5 pro Zusatzartikel, $0,50 pro Audit-Seite und $0,25 pro KI-Prompt; Scale zahlt $4, $0,40 und $0,20. Overages werden am Zyklus-Ende abgerechnet."
+    a: "Starter pausiert bis zum nächsten Zyklus. In Professional kannst du Overages einschalten, für $5 pro Zusatzartikel, $0.50 pro Audit-Seite und $0.25 pro KI-Prompt; Scale zahlt $4, $0.40 und $0.20. Overages werden am Zyklus-Ende abgerechnet."
   - q: "Müssen Legacy-Frase-Nutzer in die neue App wechseln?"
     a: "Nein. Frase sagt, die Migration sei optional ohne Frist, Legacy-Konten blieben unter app.frase.io erreichbar, und berechtigte Abos behielten ihren Preis. Content-Governance-Einstellungen werden nicht automatisch übertragen und müssen in Brand Hub neu aufgebaut werden."
   - q: "Kann Frase in anderen Sprachen als Englisch schreiben?"

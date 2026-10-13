@@ -1,7 +1,7 @@
 ---
 summary: "Higgsfield是总部位于旧金山的Higgsfield AI推出的AI图像与视频生成平台。它把Soul 2.0等自研模型与Seedance、Kling、Veo和Nano Banana等第三方模型结合，还提供用于镜头调度的Cinema Studio。社媒创作者、营销人员和AI电影人用它来制作广告、短视频和电影感片段。"
-metaTitle: "Higgsfield AI价格、额度与免费套餐"
-metaDescription: "2026年Higgsfield价格：免费层级，Starter $19、Plus $59、Ultra $129一个月，额度和Unlimited模型如何运作，以及Cinema Studio功能。"
+metaTitle: "Higgsfield价格：免费层级、额度与$19起套餐"
+metaDescription: "Higgsfield免费层级可不耗额度使用部分模型。Starter为$19/月含270点额度，Plus为$59含1,200点，Ultra起价$129含3,000点。"
 bestFor:
   - "UGC和产品广告创作者"
   - "AI电影人与音乐视频制作者"

@@ -63,7 +63,7 @@ Claude Max; oturum başına daha fazla kullanım, plan limitleri içinde Fable, 
 - **Kullanım.** Max 5x, 5 saatlik oturum başına Pro'nun 5 katı, Max 20x ise 20 katı kullanım hakkı alır. İkisinde de hesabına atanmış sabit bir zamanda sıfırlanan, tüm modellerde geçerli bir haftalık limit var.
 - **Fable.** Pro'da Fable 5 ve 5.1 yalnızca API ücretleriyle faturalanan kullanım kredileriyle çalışır. Max, haftalık limitinin yarısına kadarını ek ücret ödemeden Fable'a harcayabilir.
 - **Öncelik ve erken erişim.** Fiyat sayfası her iki Max seviyesi için yoğun trafikte öncelikli erişim, daha yüksek çıktı limitleri ve gelişmiş özelliklere erken erişim listeliyor.
-- **Daha büyük promosyon kredileri.** Anthropic'in güncel [Claude Code bulut kredisi promosyonunda](/deals/claude-code-cloud-credit-2026/) bireysel Max aboneleri, aboneliği 23 Eylül 2026'da aktifse ve krediyi 7 Ekim'e kadar talep ederse, Pro'daki $100'e karşılık $250 alıyor.
+- **Daha büyük promosyon kredileri.** Anthropic'in [Claude Code bulut kredisi promosyonunda](/deals/claude-code-cloud-credit-2026/) bireysel Max aboneleri, Pro'daki $100'e karşılık $250 aldı. Talepler 7 Ekim 2026'da kapandı; talep edilen kredi 4 Kasım'a kadar kullanılabiliyor.
 
 Pro zaten Claude Code, Research, Opus, Claude Design, Slides ve Docs, Claude in Chrome, Microsoft 365 eklentileri ve Free'deki beş proje sınırı olmadan projeler içeriyor. Max'e geçmek sana yeni uygulamalar değil, daha fazla hareket alanı kazandırır. Plana göre tüm özellikleri [Claude araç sayfamızda](/tools/claude/) listeliyoruz.
 
@@ -141,7 +141,7 @@ Yoğun saatler Pro ve Max'i aynı şekilde etkiler: hafta içi 13:00–19:00 UTC
 - **Etkilenen planlar:** Free, Pro, Max ve Team. Enterprise etkilenmez, haftalık limitler de değişmez. [Yoğun saatler kaydına](/deals/claude-peak-hours-introduced/) ve [Claude Watch](/) üzerindeki canlı saate bak.
 - **Max'in öncelikli erişimi** yoğun zamanlarda sorunsuz erişmene yardım eder, ama Max'te oturum limitleri yoğun saat aralığında yine daha hızlı tükenir.
 - **Claude Code limitleri arttı.** Anthropic 6 Mayıs 2026'da ücretli planlarda [Claude Code'un 5 saatlik limitlerini iki katına çıkardı](/deals/claude-code-5h-limits-doubled/); 14 Eylül 2026'dan beri de [Claude Code haftalık limitleri eski tabana göre kalıcı olarak %25 daha yüksek](/deals/claude-code-weekly-plus25-permanent/).
-- **Güncel promosyon:** 1–15 Ekim 2026 arasında Pro, Max ve Team'de bir artifact oluşturduktan ya da düzenledikten sonraki işler 5 saatlik limite %50 daha az sayılıyor ([ayrıntılar](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Güncel promosyon:** 1–15 Ekim 2026 arasında Pro, Max ve Team'de, 7 Ekim'den beri de Free'de, bir artifact oluşturduktan ya da düzenledikten sonraki işler 5 saatlik limite %50 daha az sayılıyor ([ayrıntılar](/deals/claude-artifact-usage-promo-oct-2026/)).
 
 Zamanlama ipuçları için [Claude yoğun saatleri](/blog/claude-peak-hours/) rehberimizi oku. Oturumların ve haftalık sınırların birbirini nasıl etkilediğini [Claude kullanım limitleri rehberimizde](/blog/claude-usage-limits/) anlatıyoruz.
 

@@ -1,7 +1,7 @@
 ---
 summary: "Genspark is an all-in-one AI workspace from MainFunc whose Super Agent researches, builds slides, sheets, docs, websites and media, and can make phone calls for you. Workspace 6.0, released in July 2026, added SecondBrain memory, GenMail and team agents. It appeals to freelancers and teams replacing several AI subscriptions with one."
-metaTitle: "Genspark Pricing 2026: Free, Plus & Pro Plans Explained"
-metaDescription: "Genspark pricing in 2026: a free plan with daily credits, Plus from $24.99/month and Pro from $249.99/month, plus key features, limits and alternatives."
+metaTitle: "Genspark Pricing 2026: Free Plan, Plus $24.99 & Pro $249.99"
+metaDescription: "Genspark is free with 100 credits a day up to a lifetime cap. Plus is $24.99/month for 10,000 credits, Pro $249.99 for 125,000; yearly billing saves about 20%."
 bestFor:
   - "Freelancers consolidating AI tools"
   - "Consultants producing slide decks"
@@ -30,8 +30,8 @@ pricing:
   startingPrice: 24.99
   currency: USD
   billing: month
-  summary: "Free adds 100 credits daily. Plus starts at $24.99/month for 10,000 credits and Pro at $249.99/month for 125,000 credits; both scale through higher tiers, and annual billing takes about 20% off. Team is $30 per seat."
-  asOf: 2026-09-17
+  summary: "Free adds 100 credits daily until a lifetime allowance of free credits runs out. Plus starts at $24.99/month for 10,000 credits and Pro at $249.99/month for 125,000 credits; both scale through higher tiers, and annual billing takes about 20% off. Team is $35 per seat per month with 10,000 credits per seat."
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, linux]
 savingTips:
   - "Annual billing cuts about 20% from every Plus and Pro tier, for example $19.99 instead of $24.99 a month on entry Plus."
@@ -40,11 +40,11 @@ savingTips:
   - "The Free plan needs no credit card, so you can test the Super Agent before paying."
 faq:
   - q: "How much does Genspark cost per month?"
-    a: "Plus starts at $24.99/month ($19.99 billed annually) for 10,000 credits and scales to $199.99 for 95,000. Pro runs from $249.99 to $3,999.99 a month, and the Team plan is $30 per seat."
+    a: "Plus starts at $24.99/month ($19.99 billed annually) for 10,000 credits and scales to $199.99 for 95,000. Pro runs from $249.99 to $3,999.99 a month, and the Team plan is $35 per seat with 10,000 credits each."
   - q: "Is Genspark's unlimited AI chat really unlimited?"
     a: "Not completely. Plus and Pro subscriptions started before September 18, 2026 and kept active can use AI chat and image generation without credits until December 31, 2026, capped per 5-hour window. Newer subscriptions get core models free up to a usage cap, then use monthly credits, and flagship models always cost credits."
   - q: "What does the free Genspark plan include?"
-    a: "The Free plan gives 100 credits per day, requires no credit card and covers chat, slides, docs and research. Some features are restricted; for example, you cannot export slides on Free."
+    a: "The Free plan gives 100 credits per day until you reach a lifetime allowance of free credits, requires no credit card and covers chat, slides, docs and research. Some features are restricted; for example, you cannot export slides on Free."
   - q: "Do unused Genspark credits roll over?"
     a: "No. Monthly plan credits reset each cycle, and anything left expires when a subscription ends, with no prorated refund. Separately bought credit packs stay valid for 3 months from purchase."
   - q: "Who owns Genspark?"
@@ -57,7 +57,7 @@ sources:
   - https://www.genspark.ai/blog/genspark-ai-workspace-4
   - https://www.genspark.ai/download
   - https://www.genspark.ai/terms
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is Genspark?
 Genspark began as an AI search product and is now built as a complete AI workspace. Its Super Agent sits on a memory layer called SecondBrain and hands work to three suites: Build (Design, Code, AgentBase), Office (Slides, Sheets, Docs, GenMail) and Content (Chat, Image, Video, Music).

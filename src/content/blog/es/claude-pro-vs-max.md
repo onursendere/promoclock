@@ -63,7 +63,7 @@ Claude Max añade más uso por sesión, Fable dentro de los límites de tu plan,
 - **Uso.** Max 5x recibe 5 veces y Max 20x, 20 veces el cupo de Pro por sesión de 5 horas. Ambos siguen teniendo un límite semanal para todos los modelos, que se reinicia a una hora fija asignada a tu cuenta.
 - **Fable.** En Pro, Fable 5 y 5.1 solo funcionan con créditos de uso cobrados a tarifas de la API. Max puede gastar hasta la mitad de su límite semanal en Fable sin costo extra.
 - **Prioridad y acceso anticipado.** La página de precios indica acceso prioritario con mucho tráfico, límites de salida más altos y acceso anticipado a funciones avanzadas para los dos niveles de Max.
-- **Créditos promocionales más grandes.** En la [promoción de crédito de nube de Claude Code](/deals/claude-code-cloud-credit-2026/) que Anthropic tiene en curso, los suscriptores individuales de Max reciben $250 frente a $100 en Pro, si la suscripción estaba activa el 23 de septiembre de 2026 y el crédito se solicita a más tardar el 7 de octubre.
+- **Créditos promocionales más grandes.** En la [promoción de crédito de nube de Claude Code](/deals/claude-code-cloud-credit-2026/) de Anthropic, los suscriptores individuales de Max recibieron $250 frente a $100 en Pro. Las solicitudes cerraron el 7 de octubre de 2026 y el crédito solicitado se puede usar hasta el 4 de noviembre.
 
 Pro ya incluye Claude Code, Research, Opus, Claude Design, Slides y Docs, Claude en Chrome, los complementos de Microsoft 365 y proyectos sin el tope de cinco proyectos de Free. Pasar a Max te da margen, no apps nuevas. Nuestra [ficha de Claude](/tools/claude/) detalla todas las funciones por plan.
 
@@ -141,7 +141,7 @@ Las horas pico afectan igual a Pro y a Max: de lunes a viernes, de 13:00 a 19:00
 - **Planes afectados:** Free, Pro, Max y Team. Enterprise no se ve afectado y los límites semanales no cambian. Consulta la [ficha de las horas pico](/deals/claude-peak-hours-introduced/) y el reloj en vivo de [Claude Watch](/).
 - **El acceso prioritario de Max** te ayuda a pasar en los momentos de más tráfico, pero los límites de sesión de Max siguen agotándose más rápido durante la franja pico.
 - **Los límites de Claude Code subieron.** El 6 de mayo de 2026, Anthropic [duplicó los límites de 5 horas de Claude Code](/deals/claude-code-5h-limits-doubled/) en los planes de pago y, desde el 14 de septiembre de 2026, [los límites semanales de Claude Code son un 25 % más altos de forma permanente](/deals/claude-code-weekly-plus25-permanent/) que la base anterior.
-- **Promoción actual:** del 1 al 15 de octubre de 2026, el trabajo que sigue a crear o editar un artefacto cuenta 50 % menos para el límite de 5 horas en Pro, Max y Team ([detalles](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Promoción actual:** del 1 al 15 de octubre de 2026, el trabajo que sigue a crear o editar un artefacto cuenta 50 % menos para el límite de 5 horas en Pro, Max y Team, y en Free desde el 7 de octubre ([detalles](/deals/claude-artifact-usage-promo-oct-2026/)).
 
 Para consejos de horarios, lee nuestra guía de las [horas pico de Claude](/blog/claude-peak-hours/). Para entender cómo se combinan las sesiones y los topes semanales, consulta [los límites de uso de Claude, explicados](/blog/claude-usage-limits/).
 

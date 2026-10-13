@@ -8,7 +8,7 @@ bestFor:
   - "Marcas B2B sin recomendaciones IA"
 keyFeatures:
   - name: "Seguimiento de visibilidad en IA"
-    description: "Rastrea prompts y respuestas a diario en ChatGPT, Gemini y Google AI Overviews; Enterprise amplía la cobertura a 10 plataformas de IA."
+    description: "Rastrea prompts y respuestas a diario en ChatGPT, Gemini y Google AI Overviews; Enterprise amplía la cobertura a 8 plataformas de IA."
   - name: "AI Article Writer"
     description: "Escribe artículos de SEO cada mes, desde 15 en Starter hasta 50 en Growth, usando tus datos y estilos de escritura guardados."
   - name: "Auditorías de sitio"
@@ -33,7 +33,7 @@ faq:
   - q: "¿Writesonic sigue siendo una herramienta de escritura con IA?"
     a: "En parte. Todos los planes incluyen el AI Article Writer, pero Writesonic ahora se presenta como un motor de crecimiento para búsqueda con IA. Su foco es GEO, AEO y el seguimiento de cómo aparece tu marca en respuestas de IA."
   - q: "¿Qué plataformas de IA rastrea Writesonic?"
-    a: "Starter, Basic y Growth rastrean ChatGPT, Gemini y Google AI Overviews. Enterprise rastrea 10 plataformas, sumando Perplexity, Claude, Microsoft Copilot, Grok, DeepSeek, Meta AI y Google AI Mode."
+    a: "Starter, Basic y Growth rastrean ChatGPT, Gemini y Google AI Overviews. Enterprise rastrea 8 plataformas, sumando Perplexity, Claude, Microsoft Copilot, Grok y Google AI Mode."
   - q: "¿Puedo cancelar Writesonic en cualquier momento?"
     a: "Sí. Las mejoras de plan se aplican de inmediato, mientras que las bajadas de plan y cancelaciones se aplican en el siguiente ciclo de facturación. Writesonic también ofrece un reembolso de 7 días sin preguntas."
   - q: "¿Cuántos usuarios incluye cada plan de Writesonic?"

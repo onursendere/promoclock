@@ -68,7 +68,7 @@ Yönetmen kontrolünde, prodüksiyon kalitesinde çekimler için Runway'i ya da 
 
 ### Runway
 
-[Runway'in fiyat sayfasına](https://runway.com/pricing) göre Runway Standard aylık $15 ile 625 kredi, Pro $35 ile 2.250, Max ise $95 ile 9.500 kredi sunuyor; yıllık faturalandırmada %20 indirim var. Unlimited'in yerini almak üzere 1 Haziran 2026'da kullanıma sunulan Max; ProRes, HDR ve bir aylık kredi devri ekliyor.
+[Runway'in fiyat sayfasına](https://runway.com/pricing) göre Runway Standard aylık $15 ile 625 kredi, Pro $35 ile 2.250, Max ise $95 ile 9.500 kredi sunuyor; yıllık faturalandırmada %20 indirim var. Unlimited'in yerini almak üzere 1 Haziran 2026'da kullanıma sunulan Max; ProRes, HDR ve bir aylık kredi devri ekliyor. Eylül 2026'da eklenen, 2 ila 9 kişilik Team planı koltuk başına $69 (yıllık faturalandırmada $55) ile koltuk başına 6.900 ortak kredi sunuyor.
 
 ### Kling
 
@@ -136,7 +136,7 @@ HeyGen'in ücretsiz planı ayda her biri en fazla 1 dakikalık 3 filigranlı vid
 
 ### Synthesia
 
-Synthesia'nın ücretsiz Basic planı ayda 500 kredi, yani yaklaşık 10 dakikalık video ya da dublaj içeriyor, ama Basic kullanıcıları video indiremiyor. Starter aylık $29 (yıllık faturalandırmada $18) ile 1.250 kredi; eski adı Creator olan Pro ise aylık $89 (yıllık faturalandırmada $64) ile 6.000 kredi ve API erişimi sunuyor. Dublaj dakikada 120 kredi, dudak senkronuyla 240 kredi tutuyor.
+Synthesia'nın ücretsiz Basic planı ayda 500 kredi, yani yaklaşık 10 dakikalık video ya da dublaj içeriyor, ama Basic kullanıcıları video indiremiyor. Starter aylık $29 (yıllık faturalandırmada $18) ile 1.250 kredi; eski adı Creator olan Pro ise aylık $89 (yıllık faturalandırmada $64) ile 6.000 kredi ve API erişimi sunuyor. Self servis planlarda dublaj dakikada yaklaşık 76 kredi tutuyor, dudak senkronuyla bu iki katına çıkıyor; 9 Ekim 2026'dan beri beta olan Syren ajanı ise bir istemden komple video hazırlıyor.
 
 ## Hangi AI video editörleri ve klip araçları parasını hak ediyor?
 
@@ -164,7 +164,7 @@ Mirage'ın geliştirdiği [Captions](/tools/captions/), temel düzenleme için �
 
 ### InVideo AI
 
-[InVideo AI](/tools/invideo/) ücretsiz kredileri her pazartesi sıfırlıyor. Starter koltuk başına aylık $20 ile 400 kredi sunuyor; Plus $60 (yıllık faturalandırmada $36), Max ise $150 (yıllık faturalandırmada $75). Agent Two çekimleri planlıyor ve modelleri seçiyor; zaman çizelgesinde düzenleme ise kredi harcamıyor.
+[InVideo AI](/tools/invideo/) ücretsiz kredileri her pazartesi sıfırlıyor. Starter koltuk başına aylık $20 (yıllık faturalandırmada $10) ile 400 kredi sunuyor; Plus $60 (yıllık faturalandırmada $30), Max ise $150 (yıllık faturalandırmada $75). Agent Two çekimleri planlıyor ve modelleri seçiyor; zaman çizelgesinde düzenleme ise kredi harcamıyor.
 
 ### Pictory
 
@@ -177,6 +177,8 @@ Evet: Ekim 2026 itibarıyla Adobe, Firefly'ın video ağırlıklı planlarında 
 - [Firefly Pro Plus ve Premium'da %30 indirim](/deals/adobe-firefly-30-off-first-year-2026/): 21 Ekim 2026'ya kadar, ilk yıl için US$49.99 yerine aylık US$34.97 ya da US$199.99 yerine aylık US$139.91. Adobe, Pro Plus'ta 100'e kadar beş saniyelik video, Premium'da ise sınırsız Veo 3.1 Fast ve Kling 3.0 üretimi listeliyor.
 - [Öğrencilere ücretsiz Google AI Pro](/deals/google-ai-pro-students-2026/): teklifi 31 Aralık 2026'ya kadar kullanan uygun ABD'li üniversite öğrencilerine 12 ay.
 - [Pixel 10 Pro ile 12 ay Google AI Pro](/deals/pixel-10-pro-google-ai-pro-2026/): telefonu 31 Ekim 2026'ya kadar satın alıp teklifi etkinleştirmen gerekiyor.
+- [Synthesia'da ücretsiz Syren kredisi](/deals/synthesia-syren-launch-credits-2026/): her kullanıcı yeni video ajanı için bir ay geçerli lansman kredisi alıyor.
+- [2 ay kullanım ücretsiz Runway Enterprise](/deals/runway-enterprise-two-months-free-2026/): 31 Ekim 2026'ya kadar anlaşma imzalayan şirketler için.
 
 Diğer teklifler [fırsatlar sayfamızda](/deals/); [AI aboneliklerinde tasarruf](/blog/save-money-on-ai-subscriptions/) rehberimiz de yıllık faturalandırmayı anlatıyor.
 

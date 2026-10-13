@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Plus is $30/month with 10,000 credits, Pro $90/month with 40,000 and Ultra $300/month with 150,000; Team and Enterprise are sales-led. Yearly billing saves up to 20%, and new accounts get free trial credits."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, api]
 savingTips:
   - "Yearly billing saves up to 20%: Plus costs $300 per year instead of $360."
@@ -53,7 +53,7 @@ sources:
   - https://lumalabs.ai/llm-info
   - https://lumalabs.ai/news/introducing-ray-3-2
   - https://lumalabs.ai/news/introducing-luma-scenes
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Luma now?
 Luma AI launched Dream Machine as a text- and image-to-video generator, but the brand has since moved on. The current Luma app is an agent-driven creative workspace, and Luma's own guidance says not to use the Dream Machine name for today's product.

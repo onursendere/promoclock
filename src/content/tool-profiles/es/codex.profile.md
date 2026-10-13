@@ -15,8 +15,8 @@ keyFeatures:
     description: "Delega tareas a entornos de nube aislados con dependencias configurables y acceso a internet controlado."
   - name: "Revisión de código y Slack"
     description: "Revisa los cambios de GitHub automáticamente y acepta solicitudes desde canales e hilos de Slack en los planes de ChatGPT."
-  - name: "Familia de modelos GPT-5.6"
-    description: "Sol resuelve el razonamiento más difícil, Terra cubre el trabajo diario de producción y Luna da los límites más altos para tareas más ligeras."
+  - name: "Familia de modelos GPT-6"
+    description: "GPT-6 Astra resuelve el trabajo más difícil, GPT-6.1 Sol se le acerca a menor coste y GPT-6 Luna da los límites más altos para tareas más ligeras."
   - name: "Personalización"
     description: "Guía de proyecto mediante AGENTS.md, más skills, plugins, servidores MCP y subagentes personalizados."
 useCases:
@@ -26,17 +26,17 @@ useCases:
 pricingSummary: "Codex está incluido en ChatGPT Free ($0), Go ($8/mes), Plus ($20/mes) y Pro ($100, $200 o $500 al mes; el nuevo nivel de $500 agrega Astra Ultrafast). Business cuesta $25 por usuario al mes o $20 con facturación anual; el uso con clave de API se factura a tarifas de API."
 savingTips:
   - "Los usuarios de Plus y Pro que alcanzan un límite pueden comprar créditos de ChatGPT en vez de mejorar todo el plan."
-  - "Cambiar a GPT-5.6 Luna da muchos más mensajes locales por cada cinco horas que Sol, alargando cualquier plan."
+  - "Cambiar a GPT-6 Luna da muchos más mensajes locales por cada cinco horas que Sol, alargando cualquier plan."
   - "Los mantenedores de código abierto pueden solicitar el programa Codex for Open Source para obtener créditos de API y seis meses de ChatGPT Pro con Codex."
 faq:
   - q: "¿OpenAI Codex es gratis?"
     a: "Sí, con límites. ChatGPT Free incluye Codex para tareas de programación rápidas, y Go a $8 al mes cubre trabajo ligero. Plus, a $20 al mes, incluye integraciones de nube como la revisión de código automática y Slack."
   - q: "¿Cuántos mensajes de Codex incluye ChatGPT Plus?"
-    a: "OpenAI estima de 10 a 100 mensajes locales de GPT-5.6 Sol o de 250 a 2.000 de GPT-5.6 Luna por ventana de cinco horas en Plus. También pueden aplicarse límites semanales, y los chats en la nube usan más."
+    a: "OpenAI estima de 15 a 160 mensajes locales de GPT-6.1 Sol o de 350 a 3.000 de GPT-6 Luna por ventana de cinco horas en Plus, y de 5 a 45 con GPT-6 Astra. También pueden aplicarse límites semanales, y los chats en la nube usan más."
   - q: "¿Codex puede funcionar con una clave de API en vez de con ChatGPT?"
     a: "Sí. Con una clave de API, Codex funciona en la CLI, el SDK y la extensión de IDE y se factura a precios de API, pero las funciones de nube como la revisión de código de GitHub y Slack no están disponibles."
   - q: "¿Qué modelos usa Codex en 2026?"
-    a: "Los planes de ChatGPT tienen la familia GPT-5.6 (Sol, Terra y Luna) y GPT-6 Astra. Pro añade GPT-5.3-Codex-Spark en vista previa de investigación, y GPT-5.5 se retira de Codex el 14 de octubre de 2026."
+    a: "OpenAI recomienda GPT-6 Astra, GPT-6.1 Sol y GPT-6 Luna. GPT-6.1 Sol se está desplegando para Plus, Pro, Business, Enterprise y Edu, mientras que Free y Go usan GPT-6 Luna. GPT-5.3-Codex-Spark se retiró el 14 de septiembre de 2026, y GPT-5.5 se retira de Codex el 14 de octubre de 2026."
 ---
 ## ¿Qué es OpenAI Codex?
 Codex es el agente de OpenAI para el trabajo de software, ligado a una cuenta de ChatGPT en lugar de venderse por su cuenta. La documentación de Codex de OpenAI ahora vive en los docs de ChatGPT, y el uso de Codex se comparte con ChatGPT Work, así que ambos recurren a los mismos límites y créditos.
@@ -46,6 +46,6 @@ Encaja con desarrolladores que ya pagan por ChatGPT y quieren una sola suscripci
 
 ## Limitaciones
 - Los límites son estimaciones, no recuentos fijos; las sesiones largas, las bases de código grandes, el modo rápido y la generación de imágenes consumen el cupo más rápido.
-- Los chats en la nube funcionan con GPT-5.6 Sol y pueden consumir más que los mensajes locales.
-- GPT-5.3-Codex-Spark es solo de Pro, con su propio límite aparte.
+- Los chats en la nube pueden consumir más de tu límite que los mensajes locales.
+- Los modelos nuevos se despliegan por fases, así que los usuarios de Free y Go esperan más para el modelo Sol más reciente.
 - Los usuarios con clave de API pierden las funciones de nube, incluidas la revisión de código y Slack.

@@ -11,7 +11,7 @@ keyFeatures:
   - name: "モデル・データセットHub"
     description: "Gitベースのリポジトリで、公開・非公開を選びながらオープンウェイトモデルとデータセットを閲覧・ダウンロード・バージョン管理できます。"
   - name: "Spaces"
-    description: "Gradio、Docker、静的なデモアプリをホストでき、CPU Basicハードウェアは無料、Nvidia T4 smallは1時間$0.40です。"
+    description: "Gradio、Docker、静的なデモアプリをホストでき、静的Spacesは無料、新規の計算Spacesは有料プランが必要で、Nvidia T4 smallは1時間$0.40です。"
   - name: "ZeroGPU"
     description: "GradioのSpacesは関数呼び出しごとにNVIDIA RTX Pro 6000 Blackwell GPUを借用し、アカウント種別で決まる日次枠内で利用できます。"
   - name: "Inference Providers"
@@ -29,12 +29,12 @@ useCases:
   - "Teamプランで、非公開モデル向けにSSO、監査ログ、ストレージリージョンを企業チームに提供します。"
 pricingSummary: "Hubは無料です。PROは月額$9で月間$2の計算クレジットと8倍のZeroGPU枠を含み、Teamは1ユーザーあたり月額$20、Enterpriseは$50です。Spaces用GPU、Inference Endpoints、追加ストレージは従量課金です。"
 savingTips:
-  - "無料アカウントは月$0.10分のInference Providersクレジットを受け取れ、PROではHugging Face全体の計算に使える$2.00に増えます。"
+  - "無料アカウントには月間のInference Providersクレジットがなくなり、クレジットの購入が必要です。一方PROにはHugging Face全体の計算に使える月$2.00が含まれます。"
   - "ZeroGPU Spacesの利用自体は無料で、無料アカウントは1日5分、PROは1日40分のGPU時間を使えます。"
   - "登録から30日以上経過しメール確認済みの無料アカウントは、無料でZeroGPU Spacesを最大2つホストできます。"
 faq:
   - q: "Hugging Faceは無料で使えますか？"
-    a: "はい。アカウント作成、公開モデル・データセットのダウンロード、CPU BasicのSpaces、ZeroGPUのSpacesはすべて無料です。有料になるのはPRO・Team・Enterpriseプラン、Spacesのハードウェア強化、Inference Endpoints、月間クレジットを超えた推論分です。"
+    a: "はい。アカウント作成、公開モデル・データセットのダウンロード、静的Spaces、最大2つのZeroGPU Spacesはすべて無料です。有料になるのはPRO・Team・Enterpriseプラン、計算リソースを使う新規のGradioまたはDocker Spaces、Spacesのハードウェア強化、Inference Endpoints、推論クレジットです。"
   - q: "Hugging Face PROには何が含まれますか？"
     a: "PROは月額$9で、月間$2.00の計算クレジット、優先度最高のZeroGPU利用時間1日40分、最大10個のZeroGPU Spacesのホスティング、Spaces Dev Mode、非公開データセット用のデータセットビューアが追加されます。"
   - q: "NVIDIAはHugging Faceを買収するのですか？"
@@ -48,8 +48,8 @@ faq:
 Hugging FaceはHubを運営しており、オープンなAIモデル、データセット、Spacesアプリの共有拠点です。ほとんどの活動は公開・無料で、有料プランはストレージ、計算クレジット、組織向け管理機能を追加します。
 
 ## プラン概要
-- **Free：** 公開リポジトリ、CPU BasicのSpaces、1日5分のZeroGPU、月$0.10分の推論クレジット。
-- **PRO（月額$9）：** 10倍の非公開ストレージ、20倍の推論クレジット、8倍のZeroGPU枠、Dev Mode。
+- **Free：** 公開リポジトリ、静的Spaces、1日5分のZeroGPU。推論にはクレジットの購入が必要です。
+- **PRO（月額$9）：** 10倍の非公開ストレージ、月$2.00の推論クレジット、8倍のZeroGPU枠、計算Spaces、Dev Mode。
 - **Team（1ユーザーあたり月額$20）：** SSO、ストレージリージョン、監査ログ、リソースグループ。
 - **Enterprise（1ユーザーあたり月額$50）：** SCIMプロビジョニング、最大の上限、専任サポート。
 
@@ -59,4 +59,4 @@ Hugging FaceはHubを運営しており、オープンなAIモデル、データ
 2026年9月3日、NVIDIAはHugging Faceの買収契約に合意したと発表しました。NVIDIAは、プラットフォームがエコシステム全体のオープンソース・オープンウェイトモデルを引き続き支援すると述べています。
 
 ## 制限事項
-ZeroGPUはGradio SDKでのみ機能し、torch.compileには対応していません。また無料アカウントは有料アカウントより待ち行列の優先度が低くなります。無料の月$0.10の推論枠はすぐに使い切れます。モデルのライセンスはリポジトリごとに異なるため、商用利用の前に各モデルを確認してください。
+ZeroGPUはGradio SDKでのみ機能し、torch.compileには対応していません。また無料アカウントは有料アカウントより待ち行列の優先度が低くなります。無料アカウントには推論の無料枠が含まれないため、軽いAPI利用でもクレジットの購入が必要です。モデルのライセンスはリポジトリごとに異なるため、商用利用の前に各モデルを確認してください。

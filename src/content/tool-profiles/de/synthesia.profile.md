@@ -35,7 +35,7 @@ faq:
   - q: "Kann ich im Synthesia-Free-Plan Videos herunterladen?"
     a: "Nein. Synthesias Hilfe-Center sagt, Basic- und Trial-Nutzer können keine Videos herunterladen; MP4-Downloads starten in Starter. Free-Videos lassen sich weiterhin über einen Synthesia-Link vorschauen und teilen."
   - q: "Wie funktionieren Synthesia-Credits?"
-    a: "Credits sind die gemeinsame Währung für Video, Dubbing, Bulk-Personalisierung und API-Nutzung. Dubbing ohne Lip-Sync kostet 120 Credits pro Minute und 240 mit Lip-Sync, und ungenutzte Credits übertragen sich nicht."
+    a: "Credits sind die gemeinsame Währung für Video, Dubbing, Bulk-Personalisierung und API-Nutzung. In Self-Serve-Plänen kostet Video etwa 100 Credits pro Minute und Dubbing etwa 76, wobei Lip-Sync die Dubbing-Kosten verdoppelt, und ungenutzte Credits übertragen sich nicht."
   - q: "Welcher Synthesia-Plan enthält API-Zugang?"
     a: "Pro (ehemals Creator) und Enterprise. Pro enthält bis zu 360 Minuten Video pro Jahr über die Synthesia API, abgezogen vom Limit des Plans, während Starter und Basic keinen API-Zugang haben."
   - q: "In wie viele Sprachen kann Synthesia synchronisieren?"
@@ -48,6 +48,7 @@ Synthesia ist ein browser-basiertes Studio, um Videos mit KI-Präsentierenden zu
 - **Enterprise-Haltung.** Synthesia listet SOC 2 Type II, ISO 42001 und DSGVO-Konformität, plus SAML/SSO in Enterprise.
 - **Dubbing eingebaut.** AI Dubbing nimmt einen Upload oder YouTube-Link und bewahrt Stimme und Akzent der sprechenden Person.
 - **Übung statt reines Abspielen.** Roleplay Sessions ergänzen bewertete, interaktive Gespräche über Standard-Video hinaus.
+- **Syren-Videoagent.** Am 9. Oktober 2026 in der Beta gestartet, erstellt Syren aus einem Prompt oder aus Dateien Videos von bis zu drei Minuten mit Motion Graphics, Avataren, Voiceover und Musik, in jedem Plan.
 
 ## Grenzen
 Sitzplätze sind eng: Starter enthält einen Editor und drei Gäste und Pro einen Editor und fünf Gäste, echte Teams brauchen daher meist Enterprise. Free-Videos tragen das Synthesia-Logo und können nicht heruntergeladen werden. Credits setzen sich pro Zyklus ohne Rollover zurück, persönliche Avatare sind auf drei in Starter und fünf in Pro begrenzt, und unbegrenzte Minuten gibt es nur in Enterprise.

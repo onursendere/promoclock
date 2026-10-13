@@ -139,3 +139,20 @@ describe.each(others)("%s", (lang) => {
     expect(out).toEqual([]);
   });
 });
+
+describe("localized prices", () => {
+  it("keep USD amounts verbatim with a dot for decimals ($34.97, never $34,97)", () => {
+    const dirs = ["src/content/tool-profiles", "src/content/blog"].flatMap((root) =>
+      others.map((lang) => path.join(root, lang)).filter((dir) => existsSync(dir)),
+    );
+    const files = [
+      ...dirs.flatMap((dir) => readdirSync(dir).filter((f) => f.endsWith(".md")).map((f) => path.join(dir, f))),
+      ...others.map((lang) => path.join("src/content/translations", `${lang}.json`)).filter((f) => existsSync(f)),
+    ];
+    const out: string[] = [];
+    for (const file of files) {
+      for (const m of readFileSync(file, "utf8").matchAll(/\$\d+,\d{1,2}(?!\d)|\$0,\d+/g)) out.push(`${file}: ${m[0]}`);
+    }
+    expect(out).toEqual([]);
+  });
+});

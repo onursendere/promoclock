@@ -79,7 +79,7 @@ Claude Code sohbetle aynı 5 saatlik ve haftalık limitleri kullanır, ama Anthr
 - **5 saatlik limitler:** Anthropic 6 Mayıs 2026'da, [resmî duyurusuna](https://www.anthropic.com/news/higher-limits-spacex) göre, ücretli planlarda [Claude Code'un 5 saatlik limitlerini iki katına çıkardı](/deals/claude-code-5h-limits-doubled/).
 - **Yoğun saatler:** aynı güncelleme Pro ve Max'te Claude Code için yoğun saat kısıtlamasını kaldırdı.
 - **Haftalık limitler:** 13 Mayıs – 14 Eylül 2026 arasında [haftalık +%50 artış](/deals/claude-code-weekly-plus50-2026/) uygulandı ve yerini [kalıcı +%25 artışa](/deals/claude-code-weekly-plus25-permanent/) bıraktı. 100'lük bir taban üzerinden bu; önce 100, promosyon sırasında 150, şimdi 125 demek.
-- **Bulut oturumları:** bireysel Pro aboneleri $100, Max aboneleri $250 [Claude Code bulut kredisi](/deals/claude-code-cloud-credit-2026/) alıyor; bulut oturumları plan limitlerinden önce bu krediyi kullanıyor. Krediyi 7 Ekim 2026'ya kadar talep etmen gerekiyor; kullanılmayan kredi 4 Kasım 2026'da sona eriyor.
+- **Bulut oturumları:** bireysel Pro aboneleri $100, Max aboneleri $250 [Claude Code bulut kredisi](/deals/claude-code-cloud-credit-2026/) alıyor; bulut oturumları plan limitlerinden önce bu krediyi kullanıyor. Talep süresi 7 Ekim 2026'da kapandı; talep edilen kredi 4 Kasım 2026'ya kadar kullanılabiliyor.
 
 Claude Code, Free planına dahil değil.
 
@@ -93,7 +93,7 @@ Enterprise planları etkilenmez; Pro ve Max'te Claude Code ise muaf. [Claude yo�
 
 ## 2026'da Claude kullanım limitlerinde neler değişti?
 
-2026'da 9 limit değişikliği ve promosyon sayıyoruz; bunların 4'ü yalnızca Claude Code ile ilgili. 4 Ekim 2026 itibarıyla iki promosyon canlı.
+2026'da 9 limit değişikliği ve promosyon sayıyoruz; bunların 4'ü yalnızca Claude Code ile ilgili. 12 Ekim 2026 itibarıyla bir promosyon hâlâ canlı.
 
 | Tarih | Değişiklik | Planlar | Durum |
 |---|---|---|---|
@@ -104,10 +104,10 @@ Enterprise planları etkilenmez; Pro ve Max'te Claude Code ise muaf. [Claude yo�
 | 5 Haziran – 5 Temmuz 2026 | [Cowork 5 saatlik limiti iki katına çıktı](/deals/claude-cowork-june-2026-2x/) | Pro, Max, Team, eski Enterprise planları | Sona erdi |
 | Temmuz 2026 | Pro ve Team standart koltuklarında Fable 5 kullanım kredilerine taşındı | Pro, Team standart koltukları | Yürürlükte |
 | 14 Eylül 2026 | Claude Code haftalık limitleri promosyon öncesi seviyenin kalıcı olarak %25 üstünde | Pro, Max, Team, koltuk tabanlı Enterprise | Kalıcı |
-| 23 Eylül – 7 Ekim 2026 | Claude Code bulut kredisi: $100 (Pro) ya da $250 (Max) | Bireysel Pro ve Max | Canlı |
-| 1–15 Ekim 2026 | [Artifact oluşturduktan ya da düzenledikten sonra %50 daha az oturum kullanımı](/deals/claude-artifact-usage-promo-oct-2026/) | Pro, Max, Team | Canlı |
+| 23 Eylül – 7 Ekim 2026 | [Claude Code bulut kredisi](/deals/claude-code-cloud-credit-2026/): $100 (Pro) ya da $250 (Max) | Bireysel Pro ve Max | Talep kapandı; kredi 4 Kasım'a kadar kullanılabilir |
+| 1–15 Ekim 2026 | [Artifact oluşturduktan ya da düzenledikten sonra %50 daha az oturum kullanımı](/deals/claude-artifact-usage-promo-oct-2026/) | Free (7 Ekim'den itibaren), Pro, Max, Team | 15 Ekim'de bitiyor |
 
-Artifact promosyonu, bir artifact oluşturduktan ya da düzenledikten sonraki 10 sohbet mesajına uygulanır ve 15 Ekim'de saat 23:59'da (PT) sona erer. [Anthropic'in promosyon sayfasına](https://support.claude.com/en/articles/17274727-artifact-usage-promotion) göre Claude Code, API, Free ve Enterprise planları kapsam dışı.
+Artifact promosyonu, bir artifact oluşturduktan ya da düzenledikten sonraki 10 sohbet mesajına uygulanır ve 15 Ekim'de saat 23:59'da (PT) sona erer. [Anthropic'in promosyon sayfasına](https://support.claude.com/en/articles/17274727-artifact-usage-promotion) göre Free planlar 7 Ekim'de dahil oldu; Claude Code, API ve Enterprise planları kapsam dışı.
 
 ## Seçtiğin model limite ne kadar hızlı takılacağını değiştirir mi?
 
@@ -151,7 +151,7 @@ En büyük kazanç zamanlamadan, daha kısa sohbetlerden ve doğru modelden geli
 - **Referans dosyaları için projeleri kullan.** Anthropic'e göre projelerde önbelleğe alınan içerik limitlerinden daha az düşer.
 - **Daha hafif modeli seç.** Varsayılan olarak Sonnet kullan, basit işlerde efor seviyesini düşür.
 - **Araçları bilinçli kullan.** Research ve web araması kullanımı artırır; onları yalnızca cevap gerçekten gerektirdiğinde aç.
-- **Canlı promosyonlardan yararlan.** 15 Ekim 2026'ya kadar Pro, Max ya da Team'de artifact'lerle çalışmak %50 daha az oturum kullanımı harcıyor.
+- **Canlı promosyonlardan yararlan.** 15 Ekim 2026'ya kadar Free, Pro, Max ya da Team'de artifact'lerle çalışmak %50 daha az oturum kullanımı harcıyor.
 
 ## Sonuç
 
@@ -160,7 +160,7 @@ Claude'un limitleri 5 saatlik bir oturumdan ve bir haftalık üst sınırdan olu
 - **Free kullanıcıları:** sohbetleri kısa tut ve yoğun saatler dışında çalış; her gün sınıra takılıyorsan bir sonraki adım Pro.
 - **Pro kullanıcıları:** varsayılan olarak Sonnet kullan, nadir taşma günleri için kullanım kredisi ekle. Claude Code kullananlar yoğun saat muafiyetinden yararlanır.
 - **Haftalık limite takılan yoğun Pro kullanıcıları:** Max 5x (aylık $100) Pro'nun 5 katı oturum kullanımı sunar.
-- **Max kullanıcıları:** Fable'daki %50 sınırına dikkat et ve $250'lık bulut kredisini 7 Ekim 2026'ya kadar talep et.
+- **Max kullanıcıları:** Fable'daki %50 sınırına dikkat et ve talep ettiğin bulut kredisini 4 Kasım 2026'da sona ermeden harca.
 - **Ekipler:** Anthropic, Team'deki Claude Code için yoğun saat muafiyeti duyurmadı; büyük işleri yoğun olmayan saatlere planla.
 
 Her Claude limit değişikliğini gerçekleştiği anda [Claude Watch](/) üzerinde takip ediyoruz.

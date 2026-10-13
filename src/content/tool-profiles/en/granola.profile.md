@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Basic is free with notes visible for the last 30 days. Business costs $14 per user per month with unlimited history, advanced models and integrations. Enterprise starts at $35 per user per month and adds SSO and org-wide controls."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, macos, windows, ios, android, api]
 savingTips:
   - "Students at accredited universities in the US, UK and Canada can apply for 12 months of Granola Business free."
@@ -55,7 +55,7 @@ sources:
   - https://docs.granola.ai/help-center/managing-your-account/subscriptions-and-billing
   - https://docs.granola.ai/help-center/taking-notes/transcription
   - https://www.granola.ai/students
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Granola?
 Granola works like a notepad that listens. You open it when a meeting starts, jot down whatever matters to you, and after the call it merges those notes with the transcript into a tidy document. Nothing appears in the participant list, and an optional feature can send participants an automated consent message when a meeting starts.

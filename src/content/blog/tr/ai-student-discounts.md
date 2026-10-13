@@ -42,7 +42,7 @@ Ekim 2026 itibarıyla en iyi AI öğrenci indirimleri; ABD'deki üniversite öğ
 
 ## 2026'da hangi AI araçlarında öğrenci indirimi var?
 
-4 Ekim 2026 itibarıyla [fırsatlar sayfamızda](/deals/) yedi AI öğrenci teklifi listeleniyor: altısı yeni kayıtlara açık, biri (Cursor'ınki) sona erdi.
+12 Ekim 2026 itibarıyla [fırsatlar sayfamızda](/deals/) sekiz AI öğrenci teklifi listeleniyor: yedisi yeni kayıtlara açık, biri (Cursor'ınki) sona erdi.
 
 | Araç | Teklif | Kimler yararlanabilir | Süre ya da fiyat | Durum | Ayrıntılar |
 |---|---|---|---|---|---|
@@ -52,6 +52,7 @@ Ekim 2026 itibarıyla en iyi AI öğrenci indirimleri; ABD'deki üniversite öğ
 | Perplexity | Education Pro | Doğrulanmış öğrenciler ve eğitimciler | Aylık $10 (Pro aylık $20) | Devam ediyor | [Perplexity Education Pro](/deals/perplexity-education-pro/) |
 | Notion | Ücretsiz Plus planı | Uygun okul e-postası olan öğrenciler ve eğitimciler | Ücretsiz, yılda bir yeniden doğrulama | Devam ediyor | [Notion Education Plus](/deals/notion-education-plus-free/) |
 | Lovable | Ücretsiz Lovable Pro | İsveç'teki üniversitelerin, yüksekokulların ve halk yüksekokullarının öğrencileri | 31 Aralık 2026'ya kadar ücretsiz, sonra %50 indirimli | Canlı | [Lovable İsveç teklifi](/deals/lovable-sweden-students-2026/) |
+| Kiro | Ayda 1.000 kredi ücretsiz | Uygun üniversitelerdeki 18 yaş ve üzeri öğrenciler | 1 yıl, sonra Free katmanı | Devam ediyor | [Kiro öğrenci teklifi](/deals/kiro-student-free-year-2026/) |
 | Cursor | Ücretsiz Cursor Pro | Doğrulanmış üniversite öğrencileri | 1 yıl | 25 Haziran 2026'da sona erdi | [Cursor öğrenci programı](/deals/cursor-student-pro-year/) |
 
 ## Şu an en iyi AI öğrenci teklifleri hangileri?
@@ -118,12 +119,11 @@ Anthropic'in fiyat sayfasında Claude için bireysel bir öğrenci indirimi yok.
 
 ## Eğitim fiyatı sunan diğer AI araçları hangileri?
 
-Öğrenci ya da eğitim fiyatı listeleyen 13 AI aracını daha takip ediyoruz; teklifler %20 indirimden bir yıl ücretsiz kullanıma kadar uzanıyor.
+Öğrenci ya da eğitim fiyatı listeleyen 12 AI aracını daha takip ediyoruz; teklifler %20 indirimden bir yıl ücretsiz kullanıma kadar uzanıyor.
 
 | Araç | Öğrenci ya da eğitim teklifi |
 |---|---|
-| Mistral | Doğrulanmış öğrencilere Pro, $14.99 yerine aylık $5.99 |
-| Kiro | Uygun üniversitelerde bir yıl boyunca ayda 1.000 kredi ücretsiz (Eylül 2026'da 132 üniversite listelenmişti) |
+| Mistral | Vibe'a yeni başlayan doğrulanmış öğrencilere 12 aya kadar Pro, $14.99 yerine aylık $5.99 |
 | Beautiful.ai | Geçerli bir .edu e-postasıyla 12 ay ücretsiz Pro; yalnızca yeni öğrenci aboneler için |
 | Granola | ABD, Birleşik Krallık ve Kanada'daki akredite üniversitelerin öğrencilerine başvuruyla 12 ay ücretsiz Business |
 | Base44 | Starter ya da Builder'da 12 aya kadar %50 indirim |

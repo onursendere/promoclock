@@ -1,7 +1,7 @@
 ---
 summary: "JetBrains AI ist JetBrains' KI-Abo für seine IDEs, das AI-Assistant-Funktionen, den Coding-Agenten Junie und Drittanbieter-Agenten wie Claude Agent, Codex und Gemini CLI abdeckt. Entwickler, die bereits in IntelliJ IDEA, PyCharm oder anderen JetBrains-IDEs arbeiten, nutzen es für Code-Vervollständigung, Chat und agent-getriebene Änderungen, bezahlt mit monatlichen AI Credits."
-metaTitle: "JetBrains AI Preise: AI Free, Pro & Ultimate (2026)"
-metaDescription: "JetBrains AI Preise 2026: AI Free mit 3 Credits, AI Pro für $10/Monat und AI Ultimate für $30/Monat. Junie, Credits, Testphase und wer AI Pro gratis bekommt."
+metaTitle: "JetBrains AI Preise 2026: Free, AI Pro $10, Ultimate $30"
+metaDescription: "JetBrains AI Free enthält 3 AI Credits pro 30 Tage. AI Pro kostet $10/Monat mit 10 Credits, AI Ultimate $30/Monat mit 35; das All Products Pack enthält AI Pro."
 bestFor:
   - "Bestehende JetBrains-IDE-Nutzer"
   - "Java- und Kotlin-Entwickler"
@@ -38,7 +38,7 @@ faq:
   - q: "Wer bekommt JetBrains AI Pro kostenlos?"
     a: "All-Products-Pack- und dotUltimate-Abonnenten, Mitglieder des Developer Recognition Program, JetBrains Content Creators und DataSpell-Nutzer bekommen AI Pro inklusive. Es ist nicht in kostenlosen All-Products-Pack-Lizenzen für Studierende, Lehrkräfte, Klassenräume oder Open-Source-Projekte enthalten."
   - q: "Ist Junie in JetBrains AI enthalten?"
-    a: "Ja. Junie nutzt dieselben AI Credits, und JetBrains empfiehlt AI Ultimate für regelmäßige Junie-Nutzung. Junie CLI ist zudem gratis zum Start, und mit deinem eigenen API-Key zahlst du Provider-Sätze ohne Aufschlag."
+    a: "Ja. Junie nutzt dieselben AI Credits, und JetBrains empfiehlt AI Ultimate für regelmäßige Junie-Nutzung. Junie bietet jetzt außerdem Junie Lite, ein kostenloses, stets aktives Modell in jedem JetBrains-Konto ohne Testphase oder Karte, und mit deinem eigenen API-Key zahlst du Provider-Sätze ohne Aufschlag."
   - q: "Nutzt JetBrains deinen Code, um KI-Modelle zu trainieren?"
     a: "Nur, wenn du es erlaubst. Detailliertes Datenteilen ist in Bezahllizenzen Opt-in, aber in nicht-kommerziellen Lizenzen standardmäßig aktiviert, wo du dich abmelden kannst. Geteilte Daten trainieren JetBrains-Modelle wie Mellum und werden nicht an Dritte weitergegeben."
 ---

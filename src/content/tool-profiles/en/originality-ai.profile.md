@@ -33,7 +33,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Basic is free for 3 AI scans a day of up to 2,000 words each. Pro is $14.95/month, or $12.95/month billed yearly, with 2,000 credits; Enterprise is $179/month, or $136.58/month yearly, with 15,000 credits."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, browser-extension, api]
 savingTips:
   - "Yearly billing cuts Pro from $14.95 to $12.95 a month, a $24 saving over the year."
@@ -55,7 +55,7 @@ sources:
   - https://originality.ai/pricing
   - https://originality.ai/
   - https://originality.ai/extensions
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Originality.ai?
 Originality.ai is a web app for checking content before it is published or graded. You paste text, upload Word or PDF files, or enter a URL, and it returns AI and plagiarism results that you can download or share as read-only reports.

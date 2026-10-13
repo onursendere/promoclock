@@ -32,7 +32,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Lite is free forever. Starter costs $12/seat/month or $10 billed yearly, Business $18 or $15 yearly, and Enterprise $22/seat/month on annual billing. New users get a 14-day free trial of Business."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web]
 savingTips:
   - "Students, educators and faculty can get 50% off Starter or Business for up to 12 months with the education discount."
@@ -56,7 +56,7 @@ sources:
   - https://reclaim.ai/pricing/education-discount
   - https://help.reclaim.ai/en/articles/6916961-how-to-use-reclaim-on-your-mobile-device
   - https://reclaim.ai/integrations/outlook-calendar
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Reclaim.ai?
 Reclaim.ai is a scheduling layer that sits on top of Google Calendar or Outlook Calendar rather than replacing it. You set priorities, goals and working hours, and its AI agents keep moving flexible events so they fit around fixed meetings.

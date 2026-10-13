@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "O plano Free não custa nada mas não inclui créditos mensais, só pacotes de créditos que você compra. Starter custa $10/mês com 900 créditos, Creator $35/mês com 3.150 créditos e Fancy a partir de $95/mês; a cobrança anual economiza 20%."
 savingTips:
   - "A cobrança anual economiza 20%: Starter cai para $8 por mês e Creator para $28."
-  - "Créditos avulsos ficam no saldo até serem usados, diferente dos créditos do plano, e custam 60 créditos por $1 em qualquer plano."
+  - "Créditos avulsos valem por 365 dias após a compra, diferente dos créditos do plano, e custam 60 créditos por $1 em qualquer plano; funcionam só no Pika Create em pika.art."
   - "Modelos mais baratos rendem mais o saldo: um clipe de 5 segundos em 720p no Wan 3.0 usa 33 créditos contra 122 do Seedance 2.5."
 faq:
   - q: "O Pika é gratuito?"
@@ -34,11 +34,11 @@ faq:
   - q: "Qual plano do Pika inclui licença comercial?"
     a: "Creator, por $35/mês ou $28/mês na cobrança anual, é o plano mais barato com licença comercial. Free e Starter não incluem uso comercial, enquanto Fancy e Enterprise incluem isso mais fila prioritária."
   - q: "Os créditos não usados do Pika acumulam?"
-    a: "Os créditos do plano não. Eles são renovados a cada período de cobrança e o que não é usado se perde, enquanto créditos comprados como pacotes avulsos ficam no saldo até serem gastos."
+    a: "Os créditos do plano não. Eles são renovados a cada período de cobrança e o que não é usado se perde, enquanto créditos comprados como pacotes avulsos acumulam e expiram 365 dias após a compra."
   - q: "O Pika ainda constrói seus próprios modelos?"
     a: "Sim. O Pika 2.5 é seu modelo de vídeo atual, e em agosto de 2026 lançou Pika Speech, Pika Music, Pika SFX e Pika Soundtrack. A plataforma também hospeda modelos parceiros de outros laboratórios."
   - q: "O que acontece se eu cancelar meu plano do Pika?"
-    a: "Seu plano continua ativo até o fim do período de cobrança atual, depois a conta passa para o plano Free. Créditos comprados como pacotes avulsos continuam no saldo e ainda podem ser gastos."
+    a: "Seu plano continua ativo até o fim do período de cobrança atual, depois a conta passa para o plano Free. Créditos comprados como pacotes avulsos continuam no saldo e ainda podem ser gastos até expirarem, 365 dias após a compra."
 ---
 ## O que é o Pika hoje?
 O Pika começou como um app divertido de texto para vídeo, conhecido por efeitos como Pikaffects e Pikaswaps. Em 2026 se tornou uma plataforma de criação mais ampla, com apps separados para vídeo, imagem e áudio, e um seletor de modelos que mistura modelos próprios com modelos parceiros.

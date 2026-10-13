@@ -58,7 +58,7 @@ Estos 20 planes gratuitos son los más útiles de sus categorías, elegidos entr
 | [Notion](/tools/notion/) | Productividad | Páginas y bloques ilimitados, 10 invitados | Notion AI es una prueba limitada | $12/miembro/mes (Plus) |
 | [Gamma](/tools/gamma/) | Productividad | 400 créditos, exportación a PDF y PPTX | Créditos de una sola vez, marca de Gamma | $12/puesto/mes (Plus) |
 | [Manus](/tools/manus/) | Agentes | 300 créditos al día | 1 tarea a la vez | $20/mes |
-| [Genspark](/tools/genspark/) | Agentes | 100 créditos al día para chat, diapositivas, documentos e investigación | No exporta diapositivas | $24.99/mes (Plus) |
+| [Genspark](/tools/genspark/) | Agentes | 100 créditos al día, hasta un tope de por vida, para chat, diapositivas, documentos e investigación | No exporta diapositivas | $24.99/mes (Plus) |
 
 ## ¿Cuál es el mejor chatbot de IA gratis?
 
@@ -176,7 +176,7 @@ Manus Free renueva 300 créditos cada día y ejecuta 1 tarea a la vez. Los plane
 
 ### Genspark
 
-Genspark Free suma 100 créditos al día sin tarjeta de crédito y cubre chat, diapositivas, documentos e investigación, pero no puedes exportar las diapositivas. Genspark Plus empieza en $24.99/mes.
+Genspark Free suma 100 créditos al día, hasta que se agota una cuota de créditos gratis de por vida, sin tarjeta de crédito, y cubre chat, diapositivas, documentos e investigación, pero no puedes exportar las diapositivas. Genspark Plus empieza en $24.99/mes.
 
 ## ¿Cómo crear tu kit de herramientas de IA gratis?
 
@@ -193,13 +193,15 @@ En los días de mucho trabajo, apóyate en herramientas cuyos topes se renuevan 
 
 ## ¿Qué pruebas gratis y promociones están activas en octubre de 2026?
 
-A 4 de octubre de 2026, estas ofertas de nuestra [página de ofertas](/deals/) añaden acceso gratis o más barato a los planes gratuitos de arriba.
+A 12 de octubre de 2026, estas ofertas de nuestra [página de ofertas](/deals/) añaden acceso gratis o más barato a los planes gratuitos de arriba.
 
 - [4 meses gratis de ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/) para universitarios de EE. UU. que cumplan los requisitos; solicítalos hasta el 31 de octubre de 2026.
 - [Un año gratis de Google AI Pro](/deals/google-ai-pro-students-2026/) para universitarios de EE. UU. que cumplan los requisitos, o de Google AI Plus en más de 140 mercados; canjéalo hasta el 31 de diciembre de 2026.
 - [12 meses de Google AI Pro con un Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/), Pro XL o Pro Fold comprado y canjeado hasta el 31 de octubre de 2026.
 - [Chat gratis en Lovable](/deals/lovable-free-daily-chat-2026/) hasta un cupo diario en Free, Pro y Business, hasta el 31 de octubre de 2026.
-- [ElevenLabs Starter por $1](/deals/elevenlabs-v4-launch-3x-credits/) el primer mes, hasta el 18 de octubre de 2026.
+- [ElevenLabs Starter por $1](/deals/elevenlabs-starter-1-first-month-2026/) el primer mes, hasta el 18 de octubre de 2026.
+- [50 % menos de uso de sesión de Claude tras crear artefactos](/deals/claude-artifact-usage-promo-oct-2026/), también en el plan Free desde el 7 de octubre, hasta el 15 de octubre de 2026.
+- [Un año gratis de Kiro para universitarios](/deals/kiro-student-free-year-2026/), con 1000 créditos al mes, vigente y sin fecha de fin.
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/) y [Notion Plus para estudiantes](/deals/notion-education-plus-free/), ambos vigentes y sin fecha de fin.
 - [50 % de descuento en el primer mes de Manus](/deals/manus-welcome-back-bonus-2026/) para usuarios gratuitos afectados por su cambio de servicio de 2026, hasta el 22 de noviembre de 2026.
 

@@ -11,7 +11,7 @@ keyFeatures:
   - name: "Vector generation"
     description: "Creates editable SVG icons, logos and illustrations from a prompt, and vector generation is included on every plan, even Free."
   - name: "Recraft V4.1 models"
-    description: "Released in May 2026 in eight versions, including Pro for higher resolution, Utility for mockups and listings, and Vector for SVG output."
+    description: "Released in May 2026 and now in nine versions, including Pro for higher resolution, Utility for mockups and listings, Vector for SVG output and a low-cost Flash model."
   - name: "Custom styles"
     description: "Create and reuse custom styles to keep a series of images consistent, with shared styles available on the Teams plan."
   - name: "Editing and vectorization"
@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free gives limited daily credits and public images. Basic is $12/month ($10 billed annually) for 1,000 credits, Pro starts at $20/month for 2,000 credits and scales to 16,000, and Teams starts at $22/month per seat, two seats minimum."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, api, browser-extension]
 savingTips:
   - "Annual billing saves up to 20%; Basic falls from $12 to $10 a month, or $120 a year."
@@ -56,7 +56,7 @@ sources:
   - https://www.recraft.ai/docs/plans-and-billing/credits
   - https://www.recraft.ai/docs/recraft-models/recraft-v4-1
   - https://www.recraft.ai/docs/mcp-reference/getting-started
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Recraft?
 Recraft is a web-based design studio with iOS and Android apps that share credits and projects with the browser version. It is built around its own models, which output both raster images and editable vectors, and it also offers external image and video models on the same canvas.

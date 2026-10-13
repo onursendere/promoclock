@@ -23,11 +23,11 @@ useCases:
   - "Producir un spot de producto de 15 segundos con diálogos y efectos de sonido en una sola generación en vez de añadir el audio después."
   - "Cambiar un fondo o quitar un objeto de material existente usando el modo de edición de video de H3."
   - "Mantener un personaje consistente en variantes de anuncio pasando las mismas imágenes de referencia a cada generación."
-pricingSummary: "Las cuentas gratis obtienen créditos de prueba únicos para modelos Hailuo. Standard lista $14,99/mes con 1.000 créditos, Pro $54,99, Master $119,99 y Max $216; la página suele mostrar tarifas rebajadas y la facturación anual ahorra hasta un 47 %."
+pricingSummary: "Las cuentas gratis obtienen créditos de prueba únicos para modelos Hailuo. Standard lista $14.99/mes con 1.000 créditos, Pro $54.99, Master $119.99 y Max $216; la página suele mostrar tarifas rebajadas y la facturación anual ahorra hasta un 47 %."
 savingTips:
-  - "La facturación anual es el mayor ahorro: Standard sale a $8,40 al mes, facturados $100,80 al año."
+  - "La facturación anual es el mayor ahorro: Standard sale a $8.40 al mes, facturados $100.80 al año."
   - "Pro, Master y Max incluyen generaciones ilimitadas con varios modelos de imagen, así que el trabajo con muchas imágenes no cuesta créditos extra."
-  - "Los planes altos bajan el precio por segundo: en facturación anual, el video H3 a 2K cuesta $0,081 por segundo en Pro frente a $0,101 en Standard."
+  - "Los planes altos bajan el precio por segundo: en facturación anual, el video H3 a 2K cuesta $0.081 por segundo en Pro frente a $0.101 en Standard."
 faq:
   - q: "¿Hailuo AI es gratis?"
     a: "Solo como prueba. El plan Free incluye créditos de prueba únicos limitados a modelos Hailuo y sin asignación mensual, así que el uso regular requiere un plan de pago, empezando por Standard y sus 1.000 créditos mensuales."

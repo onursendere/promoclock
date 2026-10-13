@@ -24,7 +24,7 @@ useCases:
   - "Soumettez le même prompt à Gen-4.5 et à Seedance 2.0 pour retenir la meilleure prise d’une scène."
   - "Sur Max, livrez des plans générés en ProRes ou en HDR directement dans la chaîne d’étalonnage et de finition d’une agence."
   - "Ajoutez des effets sonores générés par IA et une réplique en voix clonée à un court film de présentation."
-pricingSummary: "Free offre 125 crédits non renouvelables. Standard coûte $15/mois (625 crédits), Pro $35/mois (2 250 crédits) et Max $95/mois (9 500 crédits) ; la facturation annuelle réduit chaque prix de 20 %."
+pricingSummary: "Free offre 125 crédits non renouvelables. Standard coûte $15/mois (625 crédits), Pro $35/mois (2 250 crédits) et Max $95/mois (9 500 crédits) ; la facturation annuelle réduit chaque prix de 20 %. Team, pour 2 à 9 personnes, coûte $69 par siège ($55 en annuel) avec 6 900 crédits mutualisés par siège."
 savingTips:
   - "La facturation annuelle coûte 20 % de moins : Standard passe à $12/mois, Pro à $28 et Max à $76."
   - "Les 125 crédits de la formule gratuite n’expirent jamais : vous pouvez tester les modèles à votre rythme, mais ils ne se rechargent pas."
@@ -39,6 +39,8 @@ faq:
     a: "Gen-4.5 coûte 60 crédits par tranche de 5 secondes. Runway estime que cela représente environ 52 secondes par mois sur Standard, 187 secondes sur Pro et 791 secondes sur Max."
   - q: "Runway a-t-il une application mobile ?"
     a: "Oui. Runway Creative fonctionne dans le navigateur et propose des applications iOS et Android. Les développeurs passent par la plateforme API distincte Runway Dev pour intégrer les modèles à leurs propres produits."
+  - q: "Runway propose-t-il une formule pour les petites équipes ?"
+    a: "Oui. Depuis septembre 2026, la formule Team en libre-service couvre 2 à 9 personnes pour $69 par siège et par mois, ou $55 en facturation annuelle. Chaque siège ajoute 6 900 crédits à une réserve partagée, avec jusqu’à 100 projets partagés et 1 To de stockage d’espace de travail."
 ---
 ## Qu’est-ce que Runway ?
 Runway conçoit des modèles génératifs et les outils pour les utiliser. Runway Creative est l’application dédiée à la vidéo, à l’image et à l’audio ; Runway Dev est la plateforme API ; Runway Robotics s’appuie sur le modèle de monde GWM-1 pour des simulations photoréalistes. Le site principal se trouve désormais sur runway.com.

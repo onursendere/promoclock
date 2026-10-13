@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Hobby is free with limited Agent requests. Pro is $20/month, Pro+ $60/month with 3x Pro Agent limits, and Ultra $200/month with 20x. India also has Start at ₹649/month."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, macos, windows, linux, cli, jetbrains, api]
 savingTips:
   - "Yearly billing saves 20% compared with paying monthly."
@@ -51,7 +51,7 @@ sources:
   - https://cursor.com/help/account-and-billing/student-discount
   - https://cursor.com/changelog
   - https://cursor.com/download
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is Cursor?
 Cursor is an editor built around AI agents that can run on your computer, in Cursor's cloud or on self-hosted machines inside your own network. The desktop app is available for macOS, Windows and Linux, and the same agents can be managed from cursor.com/agents or Cursor for iOS.

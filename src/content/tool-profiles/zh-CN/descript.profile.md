@@ -28,7 +28,7 @@ useCases:
 pricingSummary: "免费套餐每月含60分钟媒体时长和100个一次性AI积分。Hobbyist每月$24，Creator每月$35，Business每月$65；按年付费可分别降至$16、$24和$50。"
 savingTips:
   - "按年付费最高省35%：Hobbyist从$24降到$16，Creator从$35降到$24，Business从$65降到$50。"
-  - "Descript通过定价页上的申请表，为学生、教育工作者和非营利组织提供特别价格。"
+  - "学校和非营利组织可以申请Education/Non-profit套餐，每位编辑者每月$12，按年付费为$8，包含Hobbyist的全部功能。"
   - "无论文件多长，Studio Sound和填充词去除每次应用最多只消耗30个AI积分。"
   - "免费套餐无需信用卡即可录制、编辑和混音。"
 faq:

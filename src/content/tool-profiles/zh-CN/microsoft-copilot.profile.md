@@ -29,7 +29,7 @@ pricingSummary: "Copilot聊天免费，受容量和用量限制约束。Microsof
 savingTips:
   - "按年付费在Microsoft 365 Personal、Family和Premium上最多省17%；Pro只支持按月付费。"
   - "微软为Personal、Family和Premium提供一个月的免费试用，但具体条款和支付要求因地区而异。"
-  - "Family最多可与6人共享应用和每人1TB存储，一个家庭付$12.99比多份Personal套餐更划算。"
+  - "Family最多可与6人共享应用和2TB存储池，一个家庭付$12.99比多份Personal套餐更划算。"
   - "符合条件的学生可能享受微软教育优惠，部分学校还免费提供Microsoft 365。"
 faq:
   - q: "Microsoft Copilot是免费的吗？"

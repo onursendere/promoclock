@@ -35,7 +35,7 @@ faq:
   - q: "O Frase tem plano grátis?"
     a: "Não. O Frase não oferece plano gratuito permanente, apenas um teste grátis de 7 dias sem cartão de crédito. Seus extras gratuitos são ferramentas públicas como o GEO Score Checker, o AI Visibility Checker e o Agent Readiness Checker."
   - q: "O que acontece ao atingir um limite de plano do Frase?"
-    a: "O Starter pausa até o ciclo renovar. No Professional você pode ativar excedentes a $5 por artigo extra, $0,50 por página de auditoria e $0,25 por prompt de IA; o Scale cobra $4, $0,40 e $0,20. Os excedentes são cobrados no fim do ciclo."
+    a: "O Starter pausa até o ciclo renovar. No Professional você pode ativar excedentes a $5 por artigo extra, $0.50 por página de auditoria e $0.25 por prompt de IA; o Scale cobra $4, $0.40 e $0.20. Os excedentes são cobrados no fim do ciclo."
   - q: "Usuários do Frase Legacy precisam migrar para o novo app?"
     a: "Não. O Frase diz que a migração é opcional e sem prazo, contas legadas continuam disponíveis em app.frase.io, e assinaturas elegíveis mantêm o preço. As configurações de governança de conteúdo não são transferidas automaticamente e precisam ser refeitas no Brand Hub."
   - q: "O Frase escreve em outros idiomas além do inglês?"

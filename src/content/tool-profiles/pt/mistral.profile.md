@@ -25,9 +25,9 @@ useCases:
   - "Enviar uma planilha ao modo Work e receber as anomalias e gráficos renderizados dentro da conversa."
   - "Rodar a Vibe CLI em um repositório para escrever testes e enviar um pull request pronto para revisão."
   - "Agendar um prompt de pesquisa semanal e receber uma notificação quando cada execução terminar."
-pricingSummary: "O Free cobre o uso do dia a dia com mensagens e buscas web limitadas. O Pro custa $14.99/mês e o Team $24.99 por usuário por mês, sem impostos; o Enterprise é sob consulta, e estudantes verificados pagam $5.99/mês pelo Pro."
+pricingSummary: "O Free cobre o uso do dia a dia com mensagens e buscas web limitadas. O Pro custa $14.99/mês e o Team $24.99 por usuário por mês, sem impostos; o Enterprise é sob consulta, e estudantes verificados pagam $5.99/mês pelo Pro por até 12 meses."
 savingTips:
-  - "Estudantes verificados conseguem o Mistral Pro por $5.99/mês em vez de $14.99."
+  - "Estudantes verificados de universidades credenciadas conseguem o Mistral Pro por $5.99/mês em vez de $14.99, por até 12 meses, se nunca tiverem usado o Vibe ou o Le Chat."
   - "O plano Free inclui $10/mês em créditos de API para testar modelos da Mistral no Studio."
   - "Na API, o processamento em lote reduz o preço pela metade, e tokens de entrada em cache cortam o custo de entrada em até 90%."
 faq:

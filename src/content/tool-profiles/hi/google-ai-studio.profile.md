@@ -1,7 +1,7 @@
 ---
 summary: "Google AI Studio, Google का फ़्री ब्राउज़र वर्कस्पेस है जहां आप Gemini मॉडल टेस्ट करते हैं, Gemini API कीज़ बनाते हैं और Build मोड में ऐप वाइब-कोड करते हैं। डेवलपर इसका इस्तेमाल प्रॉम्प्ट प्रोटोटाइप करने और कोड एक्सपोर्ट करने के लिए करते हैं, जबकि नॉन-कोडर ऐप बताते हैं और Antigravity एजेंट उसे Firebase साइन-इन और Firestore डेटाबेस के साथ बना देता है।"
-metaTitle: "Google AI Studio: फ़्री प्लान, प्राइसिंग और Build मोड (2026)"
-metaDescription: "Google AI Studio इस्तेमाल के लिए फ़्री है। देखें कि Build मोड क्या बना सकता है, Gemini API बिलिंग कैसे चलती है, और 2026 में Google AI Pro व Ultra क्या जोड़ते हैं।"
+metaTitle: "Google AI Studio फ़्री है? हाँ: लिमिट और API कीमत (2026)"
+metaDescription: "Google AI Studio रेट-लिमिटेड Gemini एक्सेस के साथ फ़्री है। Google AI Pro और Ultra कोटा बढ़ाते हैं, और फ़्री टियर से ज़्यादा Gemini API इस्तेमाल $5 से प्रीपेड है।"
 bestFor:
   - "Gemini से प्रोटोटाइप बनाते डेवलपर"
   - "वेब ऐप बनाने वाले नॉन-कोडर"

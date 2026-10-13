@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Starter is free with daily Agent credits and one published app. Core costs $20/month ($18/month billed annually) with $20 in credits, and Pro costs $100/month ($90 annually) with $100 in credits. Enterprise is custom."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, linux]
 savingTips:
   - "Yearly billing takes Core from $20 to $18 a month and Pro from $100 to $90."
@@ -51,7 +51,7 @@ sources:
   - https://replit.com/blog/replit-introduces-free-mode
   - https://docs.replit.com/billing/aug-cloud-billing-updates
   - https://replit.com/mobile
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Replit?
 Replit runs everything in the browser: the editor, the AI agent, the database and the hosting. Beyond apps, Core and Pro can also produce slide decks, data visualizations and animated videos. Desktop apps exist for Mac, Windows and Linux, and the iOS and Android apps focus on building websites and web apps from a phone.

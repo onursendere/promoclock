@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "The Meeting AI pricing page starts with a 7-day free trial. Core costs $16/user/month or $8 billed annually, Advanced $30/user/month or $15 billed annually, and Enterprise has custom pricing."
-  asOf: 2026-09-18
+  asOf: 2026-10-12
 platforms: [macos, windows, ios, android, browser-extension]
 savingTips:
   - "Annual billing halves the price: Core drops from $16 to $8 per user per month and Advanced from $30 to $15."
@@ -53,7 +53,7 @@ sources:
   - https://krisp.ai/
   - https://krisp.ai/blog/krisp-mobile-app/
   - https://help.krisp.ai/hc/en-us/articles/360011979299-System-requirements-for-using-Krisp
-reviewedAt: 2026-09-18
+reviewedAt: 2026-10-12
 ---
 ## What is Krisp?
 Krisp is best known for noise cancellation and has grown into a full meeting assistant. On your computer it acts as the microphone for apps like Zoom, Microsoft Teams or Google Meet, cleaning up call audio while it records and transcribes the conversation.

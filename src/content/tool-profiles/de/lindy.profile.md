@@ -1,7 +1,7 @@
 ---
 summary: "Lindy ist ein KI-Teammitglied von Lindy, das in Slack deines Teams lebt, mit über 1.000 Tools verbunden ist und E-Mail, Meetings, Terminplanung, Recherche und Reports übernimmt. Sie wird als Sitzplätze pro Nutzer verkauft, die sich einen Credit-Pool teilen, und es gibt keinen Gratis-Plan. Teams, die bereits mit Slack und Gmail arbeiten, profitieren am meisten."
 metaTitle: "Lindy AI: Preise 2026, Pläne, Credits & Testphase"
-metaDescription: "Lindy Preise 2026: Plus für $29,99, Pro für $99,99 und Max für $199,99 pro Nutzer/Monat, wie geteilte Credits funktionieren, plus die Slack-Testphase."
+metaDescription: "Lindy Preise 2026: $50 Gratis-Credits für 7 Tage, dann Team-Sitze ab $49.99 pro Nutzer und Monat für 5.000 Credits, plus wie geteilte Credits funktionieren."
 bestFor:
   - "Teams, die auf Slack laufen"
   - "Gründer im E-Mail-Stau"
@@ -25,22 +25,22 @@ useCases:
   - "Jeden Morgen ein tägliches Briefing über deine Meetings, dringende E-Mails und alles andere bekommen, was du verfolgst."
   - "Lindy vor einem Sales-Call Teilnehmer recherchieren lassen und danach das Follow-up verschicken lassen."
   - "CRM- und Analytics-Daten in ein Live-Dashboard verwandeln, das Lindy auf einem eigenen Link hostet."
-pricingSummary: "Lindy verkauft Sitzplätze: Plus kostet $29.99 pro Nutzer pro Monat mit 3.000 Credits, Pro $99.99 mit 15.000 und Max $199.99 mit 35.000, plus individuelles Enterprise. Neue Nutzer können es mit $50 Credits für 7 Tage ohne Karte testen. Zusätzliche Workspace-Credits kosten $10 pro 1.000."
+pricingSummary: "Lindy rechnet jeden aktiven Nutzer mit einem Team-Sitz ab, ab $49.99 im Monat für 5.000 Credits, mit größeren Stufen wie $99.99 für 15.000 und $199.99 für 35.000, plus individuelles Enterprise. Neue Nutzer können es mit $50 Credits für 7 Tage ohne Karte testen. Zusätzliche Workspace-Credits kosten $10 pro 1.000."
 savingTips:
   - "Neue Nutzer bekommen $50 Credits für 7 Tage ohne Kreditkarte, und Teamkollegen, die über Slack beitreten, bekommen eine einmalige 7-Tage-Testphase vor ihrer Sitzgebühr."
   - "Gekaufte Zusatz-Credits werden übertragen und verfallen nie, anders als Plan-Credits, die sich jeden Abrechnungszyklus zurücksetzen."
   - "Admins können begrenzen, wie viele Credits eine Person verbraucht, damit ein einzelner Vielnutzer den geteilten Pool nicht leert."
 faq:
   - q: "Hat Lindy einen Gratis-Plan?"
-    a: "Keine dauerhafte. Lindys bezahlte Stufen sind Plus, Pro, Max und Enterprise, aber neue Nutzer bekommen $50 Credits für 7 Tage ohne Kreditkarte, und wer einem Workspace beitritt, indem er Lindy in Slack erwähnt, bekommt 7 Tage Testphase."
+    a: "Keine dauerhafte. Lindys Preisseite listet Team-Sitze ab $49.99 pro Nutzer und Monat sowie individuelles Enterprise, aber neue Nutzer bekommen $50 Credits für 7 Tage ohne Kreditkarte, und wer einem Workspace beitritt, indem er Lindy in Slack erwähnt, bekommt 7 Tage Testphase."
   - q: "Wie funktionieren Lindy-Credits?"
     a: "Credits messen die Arbeit, die Lindy erledigt, und sind etwa einen Cent wert. Alltägliche Anfragen brauchen 2–250 Credits, tiefere Arbeit 250–1.000 und große Builds 1.000–2.500. Jeder Sitzplatz zahlt in einen geteilten Workspace-Pool ein."
   - q: "Was passiert, wenn Lindy die Credits ausgehen?"
     a: "Lindy pausiert credit-verbrauchende Aktionen und sagt dir Bescheid, statt eine Überschreitung zu berechnen. Die Arbeit läuft weiter, sobald sich die Credits im nächsten Zyklus zurücksetzen, oder früher, wenn ein Admin für $10 pro 1.000 Credits auflädt oder auf einen größeren Plan wechselt."
   - q: "Schickt Lindy E-Mails ohne Freigabe?"
     a: "Nein. Alles mit Außenwirkung, etwa eine E-Mail zu senden, ein Ticket zu aktualisieren, in einem anderen Channel zu posten oder ein Dokument zu veröffentlichen, wartet auf deine Freigabe. Nur-Lese-Abfragen aus freigegebenen Quellen laufen ohne Nachfrage."
-  - q: "Welcher Lindy-Plan enthält Computer Use?"
-    a: "Lindys Dokumentation listet Computer Use ab Pro für $99,99 pro Nutzer und Monat. Pro erhöht außerdem verbundene Postfächer von 2 auf 3 und ergänzt Live-Onboarding, während Max 5 Postfächer erlaubt und Enterprise SSO, SCIM und HIPAA hinzufügt."
+  - q: "Wie viel kostet Lindy pro Nutzer?"
+    a: "Jeder aktive Nutzer wird mit einem Team-Sitz abgerechnet. Der kleinste Sitz kostet $49.99 im Monat für 5.000 Credits, größere Stufen sind etwa $99.99 für 15.000, $199.99 für 35.000 und $399.98 für 70.000. Enterprise ergänzt SSO, SCIM und HIPAA zu einem individuellen Preis."
 ---
 ## Was ist Lindy?
 Lindy nennt sich selbst eine KI-Mitarbeiterin. Statt einer App, die du öffnest, sitzt sie im Slack deines Teams, verbindet sich mit E-Mail, Kalender und Telefonnummer jeder Person und liefert fertige Arbeit: Antworten mit Quellen, entworfene Antworten, Meeting-Notizen, geplante Reports und gehostete Dashboards, die sie als Artefakte baut.

@@ -114,12 +114,12 @@ PromoClock이 추적하는 AI 할인 중 가장 큰 축에 드는 것이 학생 
 
 ### 10. 진행 중인 프로모션에 맞춰 가입하기
 
-짧은 프로모션으로 한 달 비용을 크게 줄일 수 있습니다. 2026년 10월 4일 기준 진행 중인 프로모션은 다음과 같습니다.
+짧은 프로모션으로 한 달 비용을 크게 줄일 수 있습니다. 2026년 10월 12일 기준 진행 중인 프로모션은 다음과 같습니다.
 
-- **Claude Code**: 9월 23일에 플랜이 활성 상태였다면 개인 Pro 구독자는 $100, Max 구독자는 $250의 무료 클라우드 세션 크레딧을 2026년 10월 7일까지 신청할 수 있습니다. [Claude Code 크레딧 혜택](/deals/claude-code-cloud-credit-2026/)을 참고하세요.
-- **Claude 아티팩트**: 2026년 10월 15일까지 아티팩트를 만들거나 편집한 뒤의 작업은 Pro, Max, Team의 세션 한도에 50% 적게 반영됩니다.
-- **ElevenLabs**: 10월 18일까지 신규 구독자는 Starter 첫 달을 $6 대신 $1에, Creator 첫 달을 $22 대신 $11에 이용합니다.
+- **Claude 아티팩트**: 2026년 10월 15일까지 아티팩트를 만들거나 편집한 뒤의 작업은 Free, Pro, Max, Team의 세션 한도에 50% 적게 반영됩니다. [아티팩트 프로모션](/deals/claude-artifact-usage-promo-oct-2026/)을 참고하세요.
+- **ElevenLabs**: 10월 18일까지 신규 구독자는 [Starter 첫 달을 $6 대신 $1에](/deals/elevenlabs-starter-1-first-month-2026/), Creator 첫 달을 $22 대신 $11에 이용합니다.
 - **Adobe Firefly**: 2026년 10월 21일까지 미국과 영국의 신규 구독자는 12개월 약정 조건으로 Pro Plus나 Premium 첫해 요금을 30% 덜 냅니다.
+- **Gemini API**: 개발자는 2026년 12월 31일까지 [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/)를 정가의 절반 요금으로 이용합니다.
 
 진행 중인 모든 혜택은 [특가 페이지](/deals/)에, 각 혜택의 종료일은 [프로모션 캘린더](/calendar/)에 있습니다.
 
@@ -139,7 +139,7 @@ ChatGPT Plus, Claude Pro, Google AI Pro는 모두 채팅, 리서치, 파일 분�
 
 ### 12. 팀 좌석은 연간 결제하고 이미 포함된 혜택 확인하기
 
-팀 플랜에도 같은 연간 결제 논리가 적용됩니다. Claude Team Standard 좌석은 월 $25, 연간 결제 시 월 $20이고, ChatGPT Business는 사용자당 월간 결제 시 $25, 연간 결제 시 $20이며, Perplexity Enterprise Pro는 좌석당 월 $40 대신 연 $400입니다. Microsoft 365 Family는 월 $12.99로 최대 6명이 앱과 1인당 1TB 저장 공간을 함께 쓰지만, Copilot 기능은 구독 소유자만 쓸 수 있습니다.
+팀 플랜에도 같은 연간 결제 논리가 적용됩니다. Claude Team Standard 좌석은 월 $25, 연간 결제 시 월 $20이고, ChatGPT Business는 사용자당 월간 결제 시 $25, 연간 결제 시 $20이며, Perplexity Enterprise Pro는 좌석당 월 $40 대신 연 $400입니다. Microsoft 365 Family는 월 $12.99로 최대 6명이 앱과 2TB 공용 저장 공간을 함께 쓰지만, Copilot 기능은 구독 소유자만 쓸 수 있습니다.
 
 ## 월간 vs 연간 결제: 연간 결제가 더 저렴한 AI 플랜은?
 
@@ -150,6 +150,7 @@ ChatGPT Plus, Claude Pro, Google AI Pro는 모두 채팅, 리서치, 파일 분�
 | Claude Pro | 월 $20 | 연 $200(월 약 $17) |
 | Claude Max 5x | 월 $100 | 미제공 |
 | ChatGPT Plus | 월 $20 | 미제공 |
+| Perplexity Pro | 월 $20 | 월 $17(연간 결제) |
 | Notion Plus | 멤버당 월 $12 | 멤버당 월 $10 |
 | Grammarly Pro | 월 $30 | 연 $144(월평균 $12) |
 | QuillBot Premium | 월 $19.95 | 연 $99.95(월 약 $8.33) |

@@ -1,7 +1,7 @@
 ---
 summary: "Meta AI es el asistente de IA de Meta, disponible en la app Meta AI, en meta.ai y dentro de WhatsApp, Instagram, Facebook y Messenger. Desde abril de 2026 funciona con los modelos Muse de Meta Superintelligence Labs. El uso cotidiano sigue siendo gratis, mientras que las suscripciones Meta One, lanzadas en septiembre de 2026, añaden más generación de imagen y video."
-metaTitle: "¿Meta AI es gratis? Precios de Meta One 2026"
-metaDescription: "Meta AI es gratis para el uso cotidiano. Descubre qué hace Muse Spark, qué añaden Meta One Core ($7.99) y Premium ($19.99) y los puntos de privacidad clave."
+metaTitle: "¿Meta AI es gratis? Sí: Meta One desde $7.99/mes (2026)"
+metaDescription: "Meta AI es gratis para el uso cotidiano. Meta One Core cuesta $7.99/mes y Premium $19.99/mes, con más generación de imágenes y video; precios según la región."
 bestFor:
   - "Usuarios de WhatsApp e Instagram"
   - "Quien quiere un asistente gratis"

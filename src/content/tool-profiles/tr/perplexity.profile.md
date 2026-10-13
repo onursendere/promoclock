@@ -25,9 +25,10 @@ useCases:
   - "Bir Pro araması içinde Statista ve PitchBook'tan rakamlar çeken bir pazar boyutlandırma brief'i oluştur."
   - "Perplexity Computer'a bir rakip analizi ver ve bitmiş bir rapor ile elektronik tabloya geri dön."
   - "Comet'e telefonunda, sen göz atarken birkaç ürün sayfasını özetlemesini ve karşılaştırmasını söyle."
-pricingSummary: "Free, sınırlı günlük kullanım için $0. Pro aylık $20 ve Max aylık $200; doğrulanmış öğrenciler ile eğitimciler Education Pro'yu aylık $10 alabiliyor."
+pricingSummary: "Free, sınırlı günlük kullanım için $0. Pro aylık $20 (yıllık faturalandırmada aylık $17), Max aylık $200 (yıllık faturalandırmada aylık $167). Doğrulanmış öğrenciler ile eğitimciler Education Pro'yu aylık $10 alabiliyor."
 savingTips:
   - "SheerID üzerinden doğrulanan öğrenciler ve eğitimciler, Pro'daki her şey dahil olmak üzere Pro fiyatının yarısı olan Education Pro için aylık $10 ödüyor."
+  - "Yıllık faturalandırma Pro'yu aylık $17'ye, Max'i aylık $167'ye düşürür."
   - "Free plan yine de her yanıta atıf koyuyor, bu yüzden ara sıra yapılan doğruluk kontrolleri abonelik gerektirmiyor."
   - "Enterprise Pro koltukları, aylık faturalandığında ayda $40 iken, koltuk başına yılda $400 tutuyor."
 faq:

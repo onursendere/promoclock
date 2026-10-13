@@ -34,7 +34,7 @@ pricing:
   currency: USD
   billing: year
   summary: "Canva Free costs nothing; Pro is US$144/year for one person and Business is US$250/year per person on yearly billing. Enterprise is priced by sales, and the AI Pass add-on costs US$100 per person per month."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows]
 savingTips:
   - "Yearly billing is the default on Canva's pricing page and saves from 16% compared with paying monthly."
@@ -60,7 +60,7 @@ sources:
   - https://www.canva.com/download/
   - https://www.canva.com/newsroom/news/canva-create-2026-ai/
   - https://www.canva.com/education/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Canva?
 Canva is a browser-based design editor with desktop apps for Windows and Mac and mobile apps for iOS and Android. One workspace covers social graphics, presentations, docs, sheets, whiteboards, video, websites and print orders.

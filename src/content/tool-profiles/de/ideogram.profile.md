@@ -30,7 +30,7 @@ useCases:
 pricingSummary: "Free-Konten bekommen 30 Credits pro Woche. Plus kostet $20/Monat mit 2.400 Credits, Pro $60/Monat mit 7.500 und Team $30 pro Nutzer/Monat mit 3.600 pro Nutzer (2-Nutzer-Minimum); Jahresabrechnung senkt Plus auf $15, Pro auf $42 und Team auf $20."
 savingTips:
   - "Jährliche Abrechnung bringt Plus auf $15/Monat ($180 im Jahr) und Pro auf $42/Monat ($504 im Jahr)."
-  - "Top-up-Prioritäts-Credits kosten $4 und rollen, anders als Abo-Credits, weiter, wenn du sie nicht nutzt."
+  - "Zusätzliche Credits kosten je einen Cent, von $1 bis $300 auf einmal, und halten anders als monatliche Plan-Credits 365 Tage ab Kauf."
   - "Bezahlpläne enthalten unbegrenzte Slow-Credits, nicht-dringende Bilder können also in der Slow-Warteschlange warten."
   - "Free-Konten bekommen 30 Credits pro Woche, wenn sie sich mit Google, Apple oder Microsoft anmelden."
 faq:

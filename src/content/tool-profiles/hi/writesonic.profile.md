@@ -8,7 +8,7 @@ bestFor:
   - "AI सिफ़ारिश गँवा रहे B2B ब्रांड"
 keyFeatures:
   - name: "AI विज़िबिलिटी ट्रैकिंग"
-    description: "ChatGPT, Gemini और Google AI Overviews में रोज़ प्रॉम्प्ट और जवाब ट्रैक करता है, और Enterprise कवरेज को 10 AI प्लेटफ़ॉर्म तक बढ़ा देता है।"
+    description: "ChatGPT, Gemini और Google AI Overviews में रोज़ प्रॉम्प्ट और जवाब ट्रैक करता है, और Enterprise कवरेज को 8 AI प्लेटफ़ॉर्म तक बढ़ा देता है।"
   - name: "AI Article Writer"
     description: "आपके अपलोड किए डेटा और सेव की गई राइटिंग स्टाइल का इस्तेमाल करके, Starter पर 15 से Growth पर 50 तक SEO आर्टिकल हर महीने लिखता है।"
   - name: "साइट ऑडिट"
@@ -33,7 +33,7 @@ faq:
   - q: "क्या Writesonic अब भी एक AI राइटिंग टूल है?"
     a: "आंशिक रूप से। हर प्लान में अब भी AI Article Writer शामिल है, लेकिन Writesonic अब खुद को एक AI सर्च ग्रोथ इंजन के तौर पर मार्केट करता है। इसका फ़ोकस GEO, AEO और यह ट्रैक करना है कि आपका ब्रांड AI जवाबों में कैसे दिखता है।"
   - q: "Writesonic कौन-से AI प्लेटफ़ॉर्म ट्रैक करता है?"
-    a: "Starter, Basic और Growth ChatGPT, Gemini और Google AI Overviews ट्रैक करते हैं। Enterprise 10 प्लेटफ़ॉर्म ट्रैक करता है, जिसमें Perplexity, Claude, Microsoft Copilot, Grok, DeepSeek, Meta AI और Google AI Mode जुड़ते हैं।"
+    a: "Starter, Basic और Growth ChatGPT, Gemini और Google AI Overviews ट्रैक करते हैं। Enterprise 8 प्लेटफ़ॉर्म ट्रैक करता है, जिसमें Perplexity, Claude, Microsoft Copilot, Grok और Google AI Mode जुड़ते हैं।"
   - q: "क्या मैं Writesonic को कभी भी कैंसिल कर सकता हूँ?"
     a: "हाँ। अपग्रेड तुरंत लागू होते हैं, जबकि डाउनग्रेड और कैंसिलेशन अगले बिलिंग साइकल में लागू होते हैं। Writesonic 7-दिन की बिना-सवाल रिफ़ंड पॉलिसी का भी प्रचार करता है।"
   - q: "हर Writesonic प्लान में कितने यूज़र शामिल हैं?"

@@ -1,7 +1,7 @@
 ---
 summary: "Base44 é um criador de apps de IA sem código pertencente à Wix, que comprou a startup em junho de 2025. Você descreve um app, site ou agente de IA em linguagem simples e o Base44 gera tudo com banco de dados, login de usuários e hospedagem incluídos. Fundadores, pequenas empresas e estudantes usam para lançar ferramentas internas e apps para clientes sem um backend separado."
-metaTitle: "Preços do Base44, Plano Grátis e Créditos (2026)"
-metaDescription: "Preços do Base44 em 2026: plano grátis com 25 créditos de mensagem, Starter a partir de $20/mês, desconto de 50% para estudantes e como funcionam os créditos."
+metaTitle: "Preços do Base44 2026: plano grátis, Starter $20, estudante"
+metaDescription: "O Base44 é grátis com 25 créditos de mensagem por mês. Starter: $20/mês ($16 no anual), Builder $50 e Pro $100; estudantes têm 50% de desconto por até 12 meses."
 bestFor:
   - "Fundadores sem conhecimento técnico"
   - "Pequenas empresas criando ferramentas"

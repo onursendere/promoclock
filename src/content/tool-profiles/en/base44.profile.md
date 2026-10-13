@@ -1,7 +1,7 @@
 ---
 summary: "Base44 is a no-code AI app builder owned by Wix, which bought the startup in June 2025. You describe an app, website or AI agent in plain language and Base44 generates it with a database, user logins and hosting included. Founders, small businesses and students use it to ship internal tools and customer apps without a separate backend."
-metaTitle: "Base44 Pricing, Free Plan & Credits Explained (2026)"
-metaDescription: "Base44 pricing for 2026: a free plan with 25 message credits, Starter from $20/month, a 50% student discount, and how message and integration credits work."
+metaTitle: "Base44 Pricing 2026: Free Plan, $20 Starter, Student 50% Off"
+metaDescription: "Base44 is free with 25 message credits a month. Starter costs $20/month ($16 billed yearly), Builder $50 and Pro $100; students get 50% off for up to 12 months."
 bestFor:
   - "Non-technical founders"
   - "Small businesses building tools"
@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free includes 25 message and 100 integration credits a month for up to 5 apps. Monthly billing is $20 for Starter, $50 for Builder, $100 for Pro and from $200 for Elite; yearly billing cuts each by 20%, so Starter becomes $16/month."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, cli]
 savingTips:
   - "Yearly billing saves 20% on every paid plan, for example Starter at $16/month instead of $20."
@@ -57,7 +57,7 @@ sources:
   - https://docs.base44.com/Building-your-app/Mobile-experience
   - https://base44.com/students
   - https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Base44?
 Base44 is an AI builder for apps, websites and agents that runs entirely in the browser or its mobile apps. It handles the frontend, backend, data and hosting in one place, and Wix has owned it since June 2025.

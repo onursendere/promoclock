@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Basic is free with 500 credits a month, about 10 minutes of video or dubbing. Starter costs $29/month ($18 billed yearly) with 1,250 credits, and Pro, formerly Creator, $89/month ($64 billed yearly) with 6,000; Enterprise pricing is custom."
-  asOf: 2026-10-03
+  asOf: 2026-10-12
 platforms: [web, api]
 savingTips:
   - "Yearly billing cuts Starter from $29 to $18 a month and Pro from $89 to $64, and Synthesia advertises savings of up to 38%."
@@ -42,7 +42,7 @@ faq:
   - q: "Can I download videos on the Synthesia free plan?"
     a: "No. Synthesia's help center states that Basic and trial users cannot download videos; MP4 downloads start on Starter. Free videos can still be previewed and shared from a Synthesia link."
   - q: "How do Synthesia credits work?"
-    a: "Credits are the shared currency for video, dubbing, bulk personalization and API usage. Dubbing without lip sync costs 120 credits a minute and 240 with lip sync, and unused credits do not roll over."
+    a: "Credits are the shared currency for video, dubbing, bulk personalization and API usage. On self-serve plans, video costs about 100 credits a minute and dubbing about 76, with lip sync doubling the dubbing cost, and unused credits do not roll over."
   - q: "Which Synthesia plan includes API access?"
     a: "Pro (formerly Creator) and Enterprise. Pro includes up to 360 minutes of video a year through the Synthesia API, deducted from the plan's usage limit, while Starter and Basic have no API access."
   - q: "How many languages can Synthesia dub into?"
@@ -53,7 +53,7 @@ sources:
   - https://www.synthesia.io/
   - https://help.synthesia.io/en/articles/9317524-how-do-i-download-my-synthesia-video
   - https://help.synthesia.io/en/articles/11825466-what-are-credits-and-how-do-they-work-for-enterprise-customers-in-synthesia
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is Synthesia?
 Synthesia is a browser-based studio for making videos with AI presenters. There is no camera, microphone or timeline to learn: you paste a script or a slide deck, choose an avatar and language, and the platform renders and hosts the result. Video pages, analytics and SCORM export are aimed at training and internal comms rather than social clips.
@@ -62,6 +62,7 @@ Synthesia is a browser-based studio for making videos with AI presenters. There 
 - **Enterprise posture.** Synthesia lists SOC 2 Type II, ISO 42001 and GDPR compliance, plus SAML/SSO on Enterprise.
 - **Dubbing built in.** AI Dubbing takes an upload or a YouTube link and keeps the speaker’s voice and accent.
 - **Practice, not just playback.** Roleplay Sessions add scored, interactive conversations on top of standard video.
+- **Syren video agent.** Launched in beta on October 9, 2026, Syren builds videos of up to three minutes from a prompt or files, with motion graphics, avatars, voiceover and music, on every plan.
 
 ## Limitations
 Seats are tight: Starter includes one editor and three guests, and Pro one editor and five guests, so real teams usually need Enterprise. Free videos carry the Synthesia logo and cannot be downloaded. Credits reset each cycle with no rollover, personal avatars are capped at three on Starter and five on Pro, and unlimited minutes only exist on Enterprise.

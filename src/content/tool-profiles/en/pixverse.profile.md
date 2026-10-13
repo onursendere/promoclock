@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Basic is free with 30 daily credits and 540p output. Standard is $10/month, Pro $30/month and Premium $60/month on monthly billing, Ultra adds 25,000 credits per cycle, and yearly billing is 20% cheaper."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, cli, api]
 savingTips:
   - "Yearly billing takes 20% off: Standard falls from $10 to $8 a month, billed $96 per year."
@@ -51,7 +51,7 @@ sources:
   - https://app.pixverse.ai/subscribe
   - https://pixverse.ai/en
   - https://pixverse.ai/en/model/pixverse-v6
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is PixVerse?
 PixVerse is a generative video platform built around proprietary models, currently led by PixVerse V6, with C1 for cinematic production and R1 for real-time interactive worlds. The same account also reaches outside video and image models, from Seedance to Nano Banana, billed in one credit currency.

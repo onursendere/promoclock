@@ -32,8 +32,8 @@ pricing:
   startingPrice: 15
   currency: USD
   billing: month
-  summary: "Free covers 2,000 words a week on desktop and 1,000 on mobile. Pro is $15/user/month or $12 billed annually with unlimited dictation; Growth is $33/user/month or $26 annually, and Enterprise is custom."
-  asOf: 2026-09-17
+  summary: "Free covers 2,000 words a week on desktop and 1,000 on mobile. Pro is $15/user/month or $12 billed annually with unlimited dictation; Growth is $23/user/month ($18 annually) for dictation only, or $33 ($26 annually) with Notetaker, and Enterprise is custom."
+  asOf: 2026-10-12
 platforms: [macos, windows, ios, android]
 savingTips:
   - "Annual billing cuts Pro from $15 to $12 per user per month, a 20% saving."
@@ -56,7 +56,7 @@ sources:
   - https://wisprflow.ai/
   - https://docs.wisprflow.ai/articles/9559327591-flow-plans-and-what-s-included
   - https://wisprflow.ai/data-controls
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Wispr Flow?
 Wispr Flow replaces the keyboard with your voice. You speak naturally, and Flow inserts edited text wherever your cursor is, whether that is Slack, Gmail, a code editor or a notes app. It detects 100+ languages automatically.

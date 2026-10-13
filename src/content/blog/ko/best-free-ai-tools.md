@@ -58,7 +58,7 @@ faq:
 | [Notion](/tools/notion/) | 생산성 | 무제한 페이지·블록, 게스트 10명 | Notion AI는 제한된 체험만 | 멤버당 월 $12(Plus) |
 | [Gamma](/tools/gamma/) | 생산성 | 400크레딧, PDF·PPTX 내보내기 | 1회성 크레딧, Gamma 브랜딩 표시 | 좌석당 월 $12(Plus) |
 | [Manus](/tools/manus/) | 에이전트 | 하루 300크레딧 | 한 번에 작업 1개 | 월 $20 |
-| [Genspark](/tools/genspark/) | 에이전트 | 채팅·슬라이드·문서·리서치용 하루 100크레딧 | 슬라이드 내보내기 불가 | 월 $24.99(Plus) |
+| [Genspark](/tools/genspark/) | 에이전트 | 채팅·슬라이드·문서·리서치용 하루 100크레딧, 평생 한도까지 | 슬라이드 내보내기 불가 | 월 $24.99(Plus) |
 
 ## 가장 좋은 무료 AI 챗봇은?
 
@@ -176,7 +176,7 @@ Manus Free는 매일 300크레딧을 충전하고 한 번에 작업 1개를 실�
 
 ### Genspark
 
-Genspark Free는 신용카드 없이 하루 100크레딧을 주며 채팅, 슬라이드, 문서, 리서치를 지원하지만, 슬라이드는 내보낼 수 없습니다. Genspark Plus는 월 $24.99부터입니다.
+Genspark Free는 신용카드 없이 평생 무료 크레딧 한도가 소진될 때까지 하루 100크레딧을 주며 채팅, 슬라이드, 문서, 리서치를 지원하지만, 슬라이드는 내보낼 수 없습니다. Genspark Plus는 월 $24.99부터입니다.
 
 ## 무료 AI 도구 조합, 어떻게 짤까?
 
@@ -193,13 +193,15 @@ Genspark Free는 신용카드 없이 하루 100크레딧을 주며 채팅, 슬�
 
 ## 2026년 10월 진행 중인 무료 체험과 프로모션은?
 
-2026년 10월 4일 기준 [AI 특가 페이지](/deals/)에 있는 다음 혜택을 이용하면 위의 무료 플랜에 더해 무료로 또는 더 저렴하게 쓸 수 있습니다.
+2026년 10월 12일 기준 [AI 특가 페이지](/deals/)에 있는 다음 혜택을 이용하면 위의 무료 플랜에 더해 무료로 또는 더 저렴하게 쓸 수 있습니다.
 
 - 자격을 갖춘 미국 대학생 대상 [ChatGPT Plus 4개월 무료](/deals/chatgpt-plus-students-back-to-school-2026/). 2026년 10월 31일까지 신청.
 - 자격을 갖춘 미국 대학생 대상 [Google AI Pro 1년 무료](/deals/google-ai-pro-students-2026/), 140개 이상 국가·지역에서는 Google AI Plus. 2026년 12월 31일까지 등록.
 - [Pixel 10 Pro 구매 시 Google AI Pro 12개월](/deals/pixel-10-pro-google-ai-pro-2026/). Pro XL, Pro Fold도 해당되며 2026년 10월 31일까지 구매하고 등록해야 합니다.
 - 2026년 10월 31일까지 Free, Pro, Business에서 일일 한도 안의 [Lovable 채팅 무료](/deals/lovable-free-daily-chat-2026/).
-- 2026년 10월 18일까지 첫 달 [ElevenLabs Starter $1](/deals/elevenlabs-v4-launch-3x-credits/).
+- 2026년 10월 18일까지 첫 달 [ElevenLabs Starter $1](/deals/elevenlabs-starter-1-first-month-2026/).
+- [아티팩트를 만든 뒤 Claude 세션 사용량 50% 감소](/deals/claude-artifact-usage-promo-oct-2026/). 10월 7일부터 Free 플랜에도 적용되며 2026년 10월 15일까지.
+- 대학생 대상 [Kiro 1년 무료](/deals/kiro-student-free-year-2026/). 매달 1,000크레딧이며 상시 진행.
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/)와 [학생용 Notion Plus](/deals/notion-education-plus-free/). 둘 다 상시 진행.
 - 2026년 서비스 변경의 영향을 받은 무료 사용자 대상 [Manus 첫 달 50% 할인](/deals/manus-welcome-back-bonus-2026/). 2026년 11월 22일까지.
 

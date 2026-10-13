@@ -63,7 +63,7 @@ Claude Maxでは、セッションあたりの利用量が増え、プランの�
 - **利用量**：5時間のセッションあたり、Max 5xはProの5倍、Max 20xは20倍の利用枠があります。どちらにも、すべてのモデルに共通の週間上限があり、アカウントごとに割り当てられた決まった時刻にリセットされます。
 - **Fable**：ProではFable 5と5.1を、API料金で課金される利用クレジットでしか使えません。Maxは週間上限の半分まで、追加料金なしでFableに使えます。
 - **優先アクセスと先行アクセス**：料金ページでは、Maxの両プランに混雑時の優先アクセス、高い出力上限、高度な機能への先行アクセスが挙げられています。
-- **キャンペーンのクレジットが多い**：現在実施中のAnthropicの[Claude Codeクラウドクレジットのキャンペーン](/deals/claude-code-cloud-credit-2026/)では、2026年9月23日時点で契約が有効で、10月7日までに受け取れば、個人のMax契約者は$250、Proは$100を受け取れます。
+- **キャンペーンのクレジットが多い**：Anthropicの[Claude Codeクラウドクレジットのキャンペーン](/deals/claude-code-cloud-credit-2026/)では、個人のMax契約者は$250、Proは$100を受け取れました。受け取り期間は2026年10月7日に終了しており、受け取り済みのクレジットは11月4日まで使えます。
 
 ProにはすでにClaude Code、Research、Opus、Claude Design、SlidesとDocs、Claude in Chrome、Microsoft 365のアドイン、Freeの5件制限がないプロジェクト機能が含まれています。Maxへのアップグレードで得られるのは余裕であって、新しいアプリではありません。プラン別の全機能は、[Claudeのツールページ](/tools/claude/)で確認できます。
 
@@ -141,7 +141,7 @@ Anthropicの[利用クレジットのヘルプ記事](https://support.claude.com
 - **対象プラン**：Free、Pro、Max、Team。Enterpriseは対象外で、週間上限は変わりません。[ピーク時間帯の記録](/deals/claude-peak-hours-introduced/)と、[Claude Watch](/)のライブ時計をご覧ください。
 - **Maxの優先アクセス**は混雑時につながりやすくしてくれますが、ピーク時間帯にはMaxのセッション上限も早く消費されます。
 - **Claude Codeの上限は引き上げられました**。2026年5月6日、Anthropicは有料プランの[Claude Codeの5時間上限を2倍にし](/deals/claude-code-5h-limits-doubled/)、2026年9月14日からは[Claude Codeの週間上限が以前の基準より恒久的に25%高く](/deals/claude-code-weekly-plus25-permanent/)なっています。
-- **実施中のキャンペーン**：2026年10月1日〜15日、Pro、Max、Teamでは、アーティファクトを作成・編集した後の作業が、5時間上限に対して50%少なくカウントされます（[詳細](/deals/claude-artifact-usage-promo-oct-2026/)）。
+- **実施中のキャンペーン**：2026年10月1日〜15日、Pro、Max、Teamでは、アーティファクトを作成・編集した後の作業が、5時間上限に対して50%少なくカウントされ、Freeでも10月7日から対象です（[詳細](/deals/claude-artifact-usage-promo-oct-2026/)）。
 
 時間帯の工夫については[Claudeのピーク時間帯](/blog/claude-peak-hours/)のガイドを、セッション上限と週間上限の関係については[Claudeの利用上限の解説](/blog/claude-usage-limits/)をご覧ください。
 

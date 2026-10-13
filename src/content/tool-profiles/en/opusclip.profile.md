@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free includes 60 credits a month with watermarked clips. Starter is $15/month and is monthly only, Pro is $29/month or $14.50/month billed annually at $174, and Business is custom-quoted."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, api]
 savingTips:
   - "Pro on yearly billing costs $174 a year, half the $29 monthly rate, and releases all 3,600 credits immediately."
@@ -53,7 +53,7 @@ sources:
   - https://www.opus.pro/
   - https://www.opus.pro/mobile-app
   - https://help.opus.pro/docs/article/how-are-credits-consumed
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is OpusClip?
 OpusClip is built for one job: repurposing long-form video into short clips. You upload a file or paste a link, and its models pick the moments, trim them, add captions and reframe them vertically in a single pass.

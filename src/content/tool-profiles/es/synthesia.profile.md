@@ -35,7 +35,7 @@ faq:
   - q: "¿Puedo descargar vídeos en el plan gratis de Synthesia?"
     a: "No. El centro de ayuda de Synthesia indica que los usuarios Basic y de prueba no pueden descargar vídeos; las descargas en MP4 empiezan en Starter. Los vídeos gratis se pueden previsualizar y compartir desde un enlace de Synthesia."
   - q: "¿Cómo funcionan los créditos de Synthesia?"
-    a: "Los créditos son la moneda compartida para vídeo, doblaje, personalización masiva y uso de API. El doblaje sin lip sync cuesta 120 créditos por minuto y 240 con lip sync, y los créditos no usados no se acumulan."
+    a: "Los créditos son la moneda compartida para vídeo, doblaje, personalización masiva y uso de API. En los planes de autoservicio, el vídeo cuesta unos 100 créditos por minuto y el doblaje unos 76, con el lip sync duplicando el coste del doblaje, y los créditos no usados no se acumulan."
   - q: "¿Qué plan de Synthesia incluye acceso por API?"
     a: "Pro (anteriormente Creator) y Enterprise. Pro incluye hasta 360 minutos de vídeo al año a través de la API de Synthesia, descontados del límite de uso del plan, mientras que Starter y Basic no tienen acceso por API."
   - q: "¿A cuántos idiomas puede doblar Synthesia?"
@@ -48,6 +48,7 @@ Synthesia es un estudio en el navegador para hacer vídeos con presentadores de 
 - **Enfoque empresarial.** Synthesia lista cumplimiento de SOC 2 Type II, ISO 42001 y GDPR, más SAML/SSO en Enterprise.
 - **Doblaje integrado.** AI Dubbing toma un archivo subido o un enlace de YouTube y mantiene la voz y el acento del hablante.
 - **Práctica, no solo reproducción.** Roleplay Sessions añaden conversaciones puntuadas e interactivas sobre el vídeo estándar.
+- **Agente de vídeo Syren.** Lanzado en beta el 9 de octubre de 2026, Syren crea vídeos de hasta tres minutos a partir de un prompt o archivos, con motion graphics, avatares, voz en off y música, en todos los planes.
 
 ## Limitaciones
 Los asientos son ajustados: Starter incluye un editor y tres invitados, y Pro uno y cinco invitados, así que los equipos reales suelen necesitar Enterprise. Los vídeos gratis llevan el logotipo de Synthesia y no se pueden descargar. Los créditos se reinician cada ciclo sin acumulación, los avatares personales están topeados en tres en Starter y cinco en Pro, y los minutos ilimitados solo existen en Enterprise.

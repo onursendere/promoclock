@@ -8,7 +8,7 @@ bestFor:
   - "在AI推荐中失利的B2B品牌"
 keyFeatures:
   - name: "AI可见度追踪"
-    description: "每天在ChatGPT、Gemini和Google AI Overviews中追踪提示词和回答，Enterprise把覆盖范围扩大到10个AI平台。"
+    description: "每天在ChatGPT、Gemini和Google AI Overviews中追踪提示词和回答，Enterprise把覆盖范围扩大到8个AI平台。"
   - name: "AI文章写作"
     description: "每月撰写SEO文章，从Starter的15篇到Growth的50篇，写作时会用到你上传的数据和保存的写作风格。"
   - name: "网站审计"
@@ -33,7 +33,7 @@ faq:
   - q: "Writesonic还是一款AI写作工具吗？"
     a: "算是一部分。所有套餐仍包含AI文章写作功能，但Writesonic现在把自己定位为AI搜索增长引擎，重心在GEO、AEO以及追踪你的品牌在AI回答中的呈现方式。"
   - q: "Writesonic追踪哪些AI平台？"
-    a: "Starter、Basic和Growth追踪ChatGPT、Gemini和Google AI Overviews。Enterprise追踪10个平台，还新增Perplexity、Claude、Microsoft Copilot、Grok、DeepSeek、Meta AI和Google AI Mode。"
+    a: "Starter、Basic和Growth追踪ChatGPT、Gemini和Google AI Overviews。Enterprise追踪8个平台，还新增Perplexity、Claude、Microsoft Copilot、Grok和Google AI Mode。"
   - q: "可以随时取消Writesonic吗？"
     a: "可以。升级会立即生效，降级和取消则在下一个计费周期生效。Writesonic还提供7天无理由退款服务。"
   - q: "每个Writesonic套餐包含多少用户？"

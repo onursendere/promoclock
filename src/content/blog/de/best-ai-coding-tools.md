@@ -70,7 +70,7 @@ Claude Code ist Anthropics agentisches Coding-Tool für das Terminal, VS Code, J
 
 Claude Code teilt sich einen Pool mit dem Claude-Chat, gemessen pro rollierender 5-Stunden-Sitzung plus Wochenlimit. Am 6. Mai 2026 hat Anthropic [die 5-Stunden-Limits von Claude Code verdoppelt](/deals/claude-code-5h-limits-doubled/) und es in Pro und Max von der werktäglichen Stoßzeit-Drosselung ausgenommen. Seit dem 14. September liegen seine Wochenlimits [dauerhaft 25 % höher](/deals/claude-code-weekly-plus25-permanent/). Der Claude-Chat wird werktags von 13:00 bis 19:00 UTC weiterhin schneller verbraucht, wie unsere [Live-Uhr für die Stoßzeiten](/) zeigt; Details stehen im Ratgeber zu [Claudes Nutzungslimits](/blog/claude-usage-limits/).
 
-Einzelne Pro- und Max-Abonnenten, die am 23. September aktiv waren, können bis 7. Oktober 2026 [$100 oder $250 Cloud-Guthaben für Claude Code](/deals/claude-code-cloud-credit-2026/) einlösen. Ideal für: Agentenarbeit in einem ganzen Repository.
+Einzelne Pro- und Max-Abonnenten, die bis 7. Oktober 2026 [$100 oder $250 Cloud-Guthaben für Claude Code](/deals/claude-code-cloud-credit-2026/) eingelöst haben, können es bis 4. November für Cloud-Sessions nutzen. Ideal für: Agentenarbeit in einem ganzen Repository.
 
 ### OpenAI Codex
 
@@ -80,7 +80,7 @@ Die Limits von Codex sind Schätzungen. OpenAI rechnet in Plus pro 5-Stunden-Fen
 
 ### Warp
 
-Warp ist ein Terminal mit eingebautem Coding-Agenten, und sein Client ist seit dem 28. April 2026 Open Source unter der AGPL. Warp Free enthält das Terminal und die Agent CLI, aber keine KI-Nutzung, du bringst also deinen eigenen API-Key mit. Build kostet $20/Monat mit 1.500 Credits und Max $200/Monat mit 18.000. Ideal für: DevOps und Entwickler, die viel im Terminal arbeiten.
+Warp ist ein Terminal mit eingebautem Coding-Agenten, und sein Client ist seit dem 28. April 2026 Open Source unter der AGPL. Warp Free enthält das Terminal und die Agent CLI, aber keine KI-Nutzung, du bringst also deinen eigenen API-Key mit. Build kostet $20/Monat mit $20 Agent-Nutzung zu API-Preisen und Max $200/Monat mit $200 Nutzung. Ideal für: DevOps und Entwickler, die viel im Terminal arbeiten.
 
 ## Zu welchem KI-Code-Editor solltest du wechseln?
 

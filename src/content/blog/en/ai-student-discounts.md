@@ -5,7 +5,7 @@ metaDescription: "AI student discounts in October 2026: 4 free months of ChatGPT
 excerpt: "As of October 2026, the best AI student discounts are 4 free months of ChatGPT Plus for US college students (claim by October 31), a free year of Google AI Pro (redeem by December 31), free GitHub Copilot through GitHub Education, Perplexity Education Pro at $10/month and free Notion Plus. Cursor's student offer ended on June 25, 2026."
 category: deals
 publishedAt: 2026-10-04
-updatedAt: 2026-10-04
+updatedAt: 2026-10-12
 image:
   src: "../images/ai-student-discounts.jpg"
   alt: "Three students laughing together at a table with laptops and notebooks"
@@ -62,7 +62,7 @@ We track verified promotions for 100 AI tools. Below: who qualifies, how verific
 
 ## Which AI tools have student discounts in 2026?
 
-Seven AI student offers are listed on our [deals page](/deals/) as of October 4, 2026: six are open to new sign-ups and one, Cursor's, has ended.
+Eight AI student offers are listed on our [deals page](/deals/) as of October 12, 2026: seven are open to new sign-ups and one, Cursor's, has ended.
 
 | Tool | Offer | Who qualifies | Length or price | Status | Details |
 |---|---|---|---|---|---|
@@ -72,6 +72,7 @@ Seven AI student offers are listed on our [deals page](/deals/) as of October 4,
 | Perplexity | Education Pro | Verified students and educators | $10/month (Pro is $20/month) | Ongoing | [Perplexity Education Pro](/deals/perplexity-education-pro/) |
 | Notion | Plus plan free | Students and educators with an eligible school email | Free, re-verify once a year | Ongoing | [Notion Education Plus](/deals/notion-education-plus-free/) |
 | Lovable | Lovable Pro free | Students at Swedish universities, university colleges and folk high schools | Free until December 31, 2026, then 50% off | Live | [Lovable Sweden offer](/deals/lovable-sweden-students-2026/) |
+| Kiro | 1,000 credits a month free | Students at eligible universities, 18 or older | 1 year, then the Free tier | Ongoing | [Kiro student offer](/deals/kiro-student-free-year-2026/) |
 | Cursor | Cursor Pro free | Verified university students | 1 year | Ended June 25, 2026 | [Cursor student program](/deals/cursor-student-pro-year/) |
 
 ## What are the best AI student offers right now?
@@ -138,12 +139,11 @@ Claude has no individual student discount on Anthropic's pricing page. Claude fo
 
 ## Which other AI tools offer education pricing?
 
-We track 13 more AI tools that list student or education pricing, from 20% off to a free year.
+We track 12 more AI tools that list student or education pricing, from 20% off to a free year.
 
 | Tool | Student or education offer |
 |---|---|
-| Mistral | Pro for $5.99/month instead of $14.99 for verified students |
-| Kiro | 1,000 credits a month free for one year at eligible universities (132 listed in September 2026) |
+| Mistral | Pro for $5.99/month instead of $14.99 for up to 12 months, for verified students new to Vibe |
 | Beautiful.ai | Free Pro for 12 months with a valid .edu email, new student subscribers only |
 | Granola | 12 months of Business free for students at accredited universities in the US, UK and Canada, by application |
 | Base44 | 50% off Starter or Builder for up to 12 months |

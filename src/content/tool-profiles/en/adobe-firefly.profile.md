@@ -31,7 +31,7 @@ pricing:
   currency: GBP
   billing: month
   summary: "Adobe prices by region; the UK plans page lists Firefly Standard at £9.98/month with 2,000 credits, Pro £19.99 with 4,000, Pro Plus £47.99 with 10,000 and Premium £200.40 with 50,000, all including VAT."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android]
 savingTips:
   - "For light use, skip the subscription: free daily generations across image, video and audio refresh every day."
@@ -56,7 +56,7 @@ sources:
   - https://firefly.adobe.com/
   - https://blog.adobe.com/en/publish/2025/10/28/explore-new-adobe-firefly-your-all-in-one-home-ai-powered-creativity
   - https://blog.adobe.com/en/publish/2026/03/10/image-editing-just-got-smarter-with-ai-photoshop-firefly
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Adobe Firefly?
 Adobe Firefly is Adobe's standalone AI studio at firefly.adobe.com and in mobile apps. It brings image, video and audio generation into one place and links to Creative Cloud, so assets can move into Photoshop, Premiere or Adobe Express for finishing.

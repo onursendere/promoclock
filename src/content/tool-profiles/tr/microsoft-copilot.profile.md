@@ -29,7 +29,7 @@ pricingSummary: "Copilot sohbeti ücretsiz, ancak kapasite ve limitlere bağlı.
 savingTips:
   - "Yıllık faturalandırma Microsoft 365 Personal, Family ve Premium'da %17'ye kadar tasarruf sağlar; Microsoft 365 Pro yalnızca aylık ödenir."
   - "Microsoft; Personal, Family ve Premium için bir aylık ücretsiz deneme sunar, ancak koşullar ve ödeme gereklilikleri bölgeye göre değişir."
-  - "Family, uygulamaları ve kişi başı 1 TB depolamayı altı kişiye kadar paylaştırır; böylece bir hane birkaç Personal planı yerine $12.99 öder."
+  - "Family, uygulamaları ve 2 TB'lık ortak depolama havuzunu altı kişiye kadar paylaştırır; böylece bir hane birkaç Personal planı yerine $12.99 öder."
   - "Uygun öğrenciler Microsoft'un eğitim tekliflerinden yararlanabilir; bazı okullar Microsoft 365'i ek ücret almadan sunar."
 faq:
   - q: "Microsoft Copilot ücretsiz mi?"

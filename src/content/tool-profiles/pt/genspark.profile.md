@@ -1,7 +1,7 @@
 ---
 summary: "Genspark é um workspace de IA tudo-em-um da MainFunc cujo Super Agent pesquisa, cria apresentações, planilhas, documentos, sites e mídia, e pode até fazer ligações por você. O Workspace 6.0, lançado em julho de 2026, adicionou a memória SecondBrain, o GenMail e agentes de equipe. Atrai freelancers e times que querem substituir várias assinaturas de IA por uma só."
-metaTitle: "Preços do Genspark 2026: planos Free, Plus e Pro"
-metaDescription: "Preços do Genspark em 2026: plano gratuito com créditos diários, Plus a partir de $24.99/mês e Pro a partir de $249.99/mês, além de recursos, limites e alternativas."
+metaTitle: "Genspark 2026: plano grátis, Plus $24.99 e Pro $249.99"
+metaDescription: "O Genspark é grátis: 100 créditos por dia até um limite vitalício. Plus: $24.99/mês e 10.000 créditos; Pro: $249.99 e 125.000. O plano anual economiza cerca de 20%."
 bestFor:
   - "Freelancers unificando ferramentas de IA"
   - "Consultores criando apresentações"
@@ -25,7 +25,7 @@ useCases:
   - "Deixe o GenMail organizar uma caixa de entrada lotada, redigir respostas no seu tom e enviar um resumo matinal."
   - "Crie um CRM ou painel simples com seus próprios dados usando o AgentBase em vez de contratar um desenvolvedor."
   - "Substitua assinaturas separadas de chat e imagem pelo Plus, onde modelos principais de chat e imagem não custam créditos até um limite de uso."
-pricingSummary: "Free adiciona 100 créditos por dia. Plus começa em $24.99/mês por 10.000 créditos e Pro em $249.99/mês por 125.000 créditos; ambos escalam em níveis mais altos, e a cobrança anual tira cerca de 20%. Team custa $30 por usuário."
+pricingSummary: "Free adiciona 100 créditos por dia até acabar um limite vitalício de créditos grátis. Plus começa em $24.99/mês por 10.000 créditos e Pro em $249.99/mês por 125.000 créditos; ambos escalam em níveis mais altos, e a cobrança anual tira cerca de 20%. Team custa $35 por usuário por mês, com 10.000 créditos por usuário."
 savingTips:
   - "A cobrança anual reduz cerca de 20% em todo nível Plus e Pro, por exemplo $19.99 em vez de $24.99 por mês no Plus básico."
   - "Assinaturas Plus e Pro iniciadas antes de 18 de setembro de 2026 mantêm chat e imagens de IA sem crédito até 31 de dezembro de 2026, dentro de limites de 5 horas; as mais novas ganham modelos principais grátis até um limite de uso."
@@ -33,11 +33,11 @@ savingTips:
   - "O plano Free não pede cartão de crédito, então dá para testar o Super Agent antes de pagar."
 faq:
   - q: "Quanto custa o Genspark por mês?"
-    a: "O Plus começa em $24.99/mês ($19.99 na cobrança anual) por 10.000 créditos e escala até $199.99 por 95.000. O Pro vai de $249.99 a $3,999.99 por mês, e o plano Team custa $30 por usuário."
+    a: "O Plus começa em $24.99/mês ($19.99 na cobrança anual) por 10.000 créditos e escala até $199.99 por 95.000. O Pro vai de $249.99 a $3,999.99 por mês, e o plano Team custa $35 por usuário, com 10.000 créditos cada."
   - q: "O chat de IA ilimitado do Genspark é realmente ilimitado?"
     a: "Não totalmente. Assinaturas Plus e Pro iniciadas antes de 18 de setembro de 2026 e mantidas ativas podem usar chat de IA e geração de imagem sem créditos até 31 de dezembro de 2026, limitadas por janela de 5 horas. Assinaturas mais novas ganham modelos principais grátis até um limite de uso, depois usam créditos mensais, e modelos principais sempre custam créditos."
   - q: "O que o plano gratuito do Genspark inclui?"
-    a: "O plano Free dá 100 créditos por dia, não pede cartão de crédito e cobre chat, apresentações, documentos e pesquisa. Alguns recursos são restritos; por exemplo, não é possível exportar apresentações no Free."
+    a: "O plano Free dá 100 créditos por dia até você atingir um limite vitalício de créditos grátis, não pede cartão de crédito e cobre chat, apresentações, documentos e pesquisa. Alguns recursos são restritos; por exemplo, não é possível exportar apresentações no Free."
   - q: "Os créditos não usados do Genspark acumulam?"
     a: "Não. Os créditos mensais do plano são renovados a cada ciclo, e o que sobra expira quando a assinatura termina, sem reembolso proporcional. Pacotes de créditos comprados à parte ficam válidos por 3 meses a partir da compra."
   - q: "Quem é dono do Genspark?"

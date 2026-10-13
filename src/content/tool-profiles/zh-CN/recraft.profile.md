@@ -11,7 +11,7 @@ keyFeatures:
   - name: "矢量生成"
     description: "根据提示词生成可编辑的SVG图标、logo和插画，矢量生成在所有套餐（含Free）中都提供。"
   - name: "Recraft V4.1模型"
-    description: "2026年5月发布，共8个版本，包括高分辨率的Pro、面向样机和商品页的Utility，以及输出SVG的Vector。"
+    description: "2026年5月发布，现有9个版本，包括高分辨率的Pro、面向样机和商品页的Utility、输出SVG的Vector，以及低成本的Flash模型。"
   - name: "自定义风格"
     description: "创建并复用自定义风格，让一系列图片保持一致，Teams套餐还支持共享风格。"
   - name: "编辑与矢量化"

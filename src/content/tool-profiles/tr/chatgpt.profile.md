@@ -1,5 +1,5 @@
 ---
-summary: "ChatGPT, OpenAI'ın yazma, araştırma, kodlama, görsel üretme ve sesli sohbet için geliştirdiği AI asistanı. Eylül 2026 itibarıyla ücretli katmanları Go'dan iki Pro seviyesine uzanıyor; GPT-6 Astra akıl yürütmesi Plus ile başlıyor. Öğrenciler, bilgi çalışanları ve geliştiriciler onu çoğu zaman pakete dahil Codex ajanı ve ChatGPT Work ile birlikte kullanıyor."
+summary: "ChatGPT, OpenAI'ın yazma, araştırma, kodlama, görsel üretme ve sesli sohbet için geliştirdiği AI asistanı. Ekim 2026 itibarıyla ücretli katmanları Go'dan üç Pro kullanım seviyesine uzanıyor; GPT-6 akıl yürütme modelleri Plus ile başlıyor. Öğrenciler, bilgi çalışanları ve geliştiriciler onu çoğu zaman pakete dahil Codex ajanı ve ChatGPT Work ile birlikte kullanıyor."
 metaTitle: "ChatGPT fiyatları 2026: Free, Go, Plus ve Pro planları"
 metaDescription: "ChatGPT fiyatları 2026: Free, aylık $8 Go, aylık $20 Plus ve aylık $100 ile başlayan Pro. Modelleri, limitleri, reklamları ve alternatifleri karşılaştır."
 bestFor:
@@ -8,8 +8,8 @@ bestFor:
   - "Codex de kullanan geliştiriciler"
   - "Yüksek limit isteyen yoğun kullanıcılar"
 keyFeatures:
-  - name: "GPT-6 Astra ve GPT-5.6 modelleri"
-    description: "Ücretsiz sohbetler GPT-5.6 Luna ile çalışır; Plus, GPT-6 Astra ile gelişmiş akıl yürütme, Pro ise aynı modelle çalışan pro akıl yürütme ekler."
+  - name: "GPT-6 modelleri"
+    description: "Ücretsiz sohbetler GPT-6 ile çalışır; Plus, GPT-6 gelişmiş akıl yürütme modelleri, Pro ise GPT-6 Astra tabanlı pro akıl yürütme ekler."
   - name: "ChatGPT Work ajanı"
     description: "Temmuz 2026'da çıkan, uygulamaların ve dosyaların genelinde saatlerce çalışıp bir hedefi belgelere, tablolara, slaytlara ya da web uygulamalarına dönüştüren ajan."
   - name: "Yerleşik Codex"
@@ -33,13 +33,13 @@ savingTips:
   - "Doğrulanmış ABD'li K–12 öğretmenleri ChatGPT for Teachers'ı Haziran 2027'ye kadar ücretsiz kullanabilir."
 faq:
   - q: "ChatGPT ücretsiz mi?"
-    a: "Evet. Free plan, kötüye kullanım korumalarına tabi olarak GPT-5.6 Luna ile sınırsız metin sohbeti ve sınırlı dosya yükleme, görsel üretimi, sesli sohbet, derin araştırma ve Codex erişimi içerir. Yanıtların altında reklam çıkabilir."
+    a: "Evet. Free plan, kötüye kullanım korumalarına tabi olarak GPT-6 ile sınırsız metin sohbeti ve sınırlı dosya yükleme, görsel üretimi, sesli sohbet, derin araştırma ve Codex erişimi içerir. Yanıtların altında reklam çıkabilir."
   - q: "ChatGPT reklam gösteriyor mu?"
     a: "Evet, Free ve Go'da. OpenAI, 9 Şubat 2026'da ABD'de yanıtların altında gösterilen ve sponsorlu olarak etiketlenen reklamları test etmeye başladı. Plus, Pro, Business, Enterprise ve Edu hesaplarında ve 18 yaş altı kullanıcıların hesaplarında reklam yok."
   - q: "ChatGPT Pro $200'a yeniden abone olabilir miyim?"
     a: "Evet. OpenAI, Pro $200 kayıtlarını 10 Eylül 2026'da durdurdu ve 29 Eylül'de yeniden açtı. Haberlere göre bu kademe artık 20 kat yerine Plus'ın 10 katı kullanım içeriyor; mevcut aboneler eski kullanım hakkını 29 Ekim'e kadar koruyor. En yüksek kullanımı yeni Pro $500 kademesi sunuyor."
   - q: "ChatGPT Go ile Plus arasındaki fark ne?"
-    a: "Go (aylık $8) esas olarak Free'nin limitlerini yükseltir; Think seçeneği GPT-5.6 Luna'yı kullanır, GPT-5.6 Sol ve eski modeller yoktur. Plus (aylık $20) GPT-6 Astra akıl yürütmesi, genişletilmiş derin araştırma ve Codex kullanımı ekler, reklam da göstermez."
+    a: "Go (aylık $8) esas olarak Free'nin araç, dosya yükleme, görsel üretimi ve bellek limitlerini yükseltir; reklam gösterebilir. Plus (aylık $20) GPT-6 gelişmiş akıl yürütme modelleri, genişletilmiş derin araştırma ve Codex kullanımı ekler, reklam da göstermez."
   - q: "ChatGPT'nin sohbetlerimi eğitim için kullanmasını engelleyebilir miyim?"
     a: "Evet. OpenAI, modellerini geliştirmek için sohbetleri kullanabileceğini söylüyor, ancak Data Controls bölümünden bunu istediğin zaman kapatabilirsin. Fiyat sayfası bu devre dışı bırakma seçeneğini bireysel planlar için listeliyor."
 ---
@@ -50,7 +50,7 @@ ChatGPT, OpenAI'ın genel amaçlı asistanı; web'de, iOS ve Android'de, bir Chr
 - **Go tüm dünyaya açıldı.** Düşük maliyetli plan Ocak 2026'da desteklenen tüm ülkelere ulaştı; ABD'de aylık $8, bazı pazarlarda ise yerel fiyatlarla.
 - **Reklamlar geldi.** ABD'deki Free ve Go kullanıcıları 9 Şubat 2026'dan itibaren yanıtların altında sponsorlu içerikler görmeye başladı.
 - **ChatGPT Work çıktı.** Ajan 9 Temmuz 2026'dan beri ücretli web ve mobil planlarda; masaüstü uygulaması ise Free dahil her planda Chat, Work ve Codex sunuyor.
-- **Pro ikiye ayrıldı.** Pro artık aylık $100 ya da $200; $200 katmanı 10 Eylül 2026'da yeni abone almayı bıraktı.
+- **Pro üç kademeli oldu.** Pro artık $100, $200 ve $500 kullanım kademeleri arasından seçim yapmana izin veriyor ve her zaman açık bir ajan olan Dot'u ekliyor.
 
 ## Sınırlamalar
 “Sınırsız” sohbetler kötüye kullanım korumalarına tabidir ve bazı modellerin ayrı kullanım hakları vardır; bu haklar dolduğunda sıfırlanana kadar kullanım durur. OpenAI Destek ekibi limitlerini sıfırlayamaz. Bireysel planlar yalnızca aylık faturalandırılır ve Go, GPT-4o gibi eski modelleri içermez.

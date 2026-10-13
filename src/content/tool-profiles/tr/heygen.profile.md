@@ -1,7 +1,7 @@
 ---
 summary: "HeyGen; senaryoları, fotoğrafları ve istemleri gerçekçi avatarların sunduğu videolara dönüştüren bir AI video platformu. Avatar V modeli, 175'ten fazla dilde ses klonlamalı ve dudak senkronlu çevirisi ve istemle çalışan Video Agent ile tanınıyor. Pazarlamacılar, eğitimciler ve satış ekipleri tarafından kullanılıyor; yeni abonelere kredi tabanlı planlar sunuluyor."
-metaTitle: "HeyGen fiyatları 2026: Krediler ve ücretsiz plan"
-metaDescription: "2026 HeyGen fiyatları: ücretsiz planda ayda 3 video, aylık $29 Creator, kredilerin sınırsız planların yerini nasıl aldığı, avatar ve çeviri özellikleri."
+metaTitle: "HeyGen fiyatları 2026: ücretsiz plan, Creator $29, Pro $49"
+metaDescription: "HeyGen'in ücretsiz planı ayda 3 adet bir dakikalık video üretir. Creator aylık $29 ile 600 kredi, Pro $49 ile 1.000 kredi ve 4K, Business ise aylık $149."
 bestFor:
   - "Sunuculu video hazırlayan pazarlamacılar"
   - "Video içeriği yerelleştiren ekipler"

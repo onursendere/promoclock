@@ -25,9 +25,10 @@ useCases:
   - "Ein Market-Sizing-Briefing bauen, das Zahlen aus Statista und PitchBook in einer Pro-Suche zusammenzieht."
   - "Perplexity Computer eine Konkurrenzanalyse übergeben und mit einem fertigen Bericht plus Tabelle zurückkommen."
   - "Comet auf dem Handy bitten, mehrere Produktseiten während des Surfens zusammenzufassen und zu vergleichen."
-pricingSummary: "Free kostet $0 für begrenzte tägliche Nutzung. Pro liegt bei $20/Monat und Max bei $200/Monat, und geprüfte Studierende und Lehrende bekommen Education Pro für $10/Monat."
+pricingSummary: "Free kostet $0 für begrenzte tägliche Nutzung. Pro liegt bei $20/Monat bzw. $17/Monat bei jährlicher Abrechnung und Max bei $200/Monat bzw. $167/Monat bei jährlicher Abrechnung. Geprüfte Studierende und Lehrende bekommen Education Pro für $10/Monat."
 savingTips:
   - "Über SheerID geprüfte Studierende und Lehrende zahlen $10/Monat für Education Pro, die Hälfte des Pro-Preises, inklusive aller Pro-Funktionen."
+  - "Jährliche Abrechnung senkt Pro auf $17/Monat und Max auf $167/Monat."
   - "Der Free-Plan setzt weiterhin Quellen in jede Antwort, sodass gelegentliches Faktenprüfen ohne Abo auskommt."
   - "Enterprise-Pro-Sitze kosten $400 pro Jahr und Sitz, verglichen mit $40 pro Monat bei monatlicher Abrechnung."
 faq:

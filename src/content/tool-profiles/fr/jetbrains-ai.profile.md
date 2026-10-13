@@ -1,7 +1,7 @@
 ---
 summary: "JetBrains AI est l’abonnement d’IA de JetBrains pour ses IDE, couvrant les fonctions AI Assistant, l’agent de code Junie et des agents tiers comme Claude Agent, Codex et Gemini CLI. Les développeurs déjà installés dans IntelliJ IDEA, PyCharm ou d’autres IDE JetBrains s’en servent pour la complétion de code, le chat et les changements pilotés par agents, payés avec des AI Credits mensuels."
-metaTitle: "JetBrains AI : tarifs, AI Free, Pro et Ultimate (2026)"
-metaDescription: "Tarifs de JetBrains AI en 2026 : AI Free avec 3 crédits, AI Pro à $10/mois et AI Ultimate à $30/mois. Junie, crédits, essai et qui obtient AI Pro gratuitement."
+metaTitle: "JetBrains AI 2026 : Free, AI Pro $10, Ultimate $30"
+metaDescription: "JetBrains AI Free inclut 3 AI Credits par 30 jours. AI Pro coûte $10/mois avec 10 crédits, AI Ultimate $30/mois avec 35 ; All Products Pack inclut AI Pro."
 bestFor:
   - "Utilisateurs actuels d’IDE JetBrains"
   - "Développeurs Java et Kotlin"
@@ -38,7 +38,7 @@ faq:
   - q: "Qui obtient JetBrains AI Pro gratuitement ?"
     a: "Les abonnés All Products Pack et dotUltimate, les membres du Developer Recognition Program, les JetBrains Content Creators et les utilisateurs de DataSpell obtiennent AI Pro inclus. Il n’est pas inclus dans les licences All Products Pack offertes aux étudiants, enseignants, classes ou projets open source."
   - q: "Junie est-il inclus dans JetBrains AI ?"
-    a: "Oui. Junie utilise les mêmes AI Credits, et JetBrains recommande AI Ultimate pour un usage régulier de Junie. Junie CLI est aussi gratuit au départ, et avec votre propre clé d’API vous payez les tarifs du fournisseur sans majoration."
+    a: "Oui. Junie utilise les mêmes AI Credits, et JetBrains recommande AI Ultimate pour un usage régulier de Junie. Junie propose désormais aussi Junie Lite, un modèle gratuit et toujours actif dans chaque compte JetBrains, sans essai ni carte, et avec votre propre clé d’API vous payez les tarifs du fournisseur sans majoration."
   - q: "JetBrains utilise-t-il votre code pour entraîner ses modèles d’IA ?"
     a: "Seulement si vous l’autorisez. Le partage détaillé des données est optionnel sur les licences payantes mais activé par défaut sur les licences non commerciales, où vous pouvez le désactiver. Les données partagées entraînent des modèles JetBrains comme Mellum et ne sont pas transmises à des tiers."
 ---

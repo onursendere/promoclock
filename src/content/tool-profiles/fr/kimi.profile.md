@@ -1,7 +1,7 @@
 ---
 summary: "Kimi est un assistant d’IA et un espace de travail d’agents de Moonshot AI. Il repose sur Kimi K3, un modèle à poids ouverts de 2 800 milliards de paramètres doté d’une fenêtre de contexte d’un million de tokens, lancé en juillet 2026. Au-delà du chat, Kimi gère documents, diapositives, recherche approfondie et sites web, et s’étend au code via Kimi Code et au travail bureautique via Kimi Work."
-metaTitle: "Kimi : tarifs, formule gratuite et K3 (2026)"
-metaDescription: "Kimi de Moonshot AI a une formule Adagio gratuite et des formules payantes dès $19/mois. Voyez ce que Kimi K3, Agent Swarm, Kimi Code et Kimi Work font pour vous."
+metaTitle: "Kimi K3 en 2026 : formule gratuite, Plus $19, Pro $39"
+metaDescription: "Kimi K3 est gratuit (formule Adagio, une tâche d’agent à la fois). Plus coûte $19/mois, Pro $39, Max $99, Ultra $199 ; Max et Ultra : chats d’un million de tokens."
 bestFor:
   - "Recherche et travail sur longs documents"
   - "Déléguer des tâches d’agent complexes"
@@ -36,7 +36,7 @@ faq:
   - q: "Kimi K3 est-il open source ?"
     a: "Les poids complets de Kimi K3 sont téléchargeables sur Hugging Face sous la propre licence Kimi K3 de Moonshot. Le modèle a été annoncé le 17 juillet 2026 et tourne sur kimi.com, les applications mobiles, Kimi Work, Kimi Code et l’API Kimi."
   - q: "Pourquoi le centre d’aide de Kimi affiche-t-il des prix en yuans ?"
-    a: "Le centre d’aide liste des formules distinctes nommées Andante, Moderato, Allegretto et Allegro, de ¥49 à ¥699 par mois. La page des tarifs en anglais sur kimi.com affiche les formules Plus, Pro, Max et Ultra en dollars américains."
+    a: "Le centre d’aide liste des formules en yuans nommées Go, Plus, Pro et Max, de ¥49 à ¥699 par mois. La page des tarifs en anglais sur kimi.com affiche Plus, Pro, Max et Ultra en dollars américains : un même nom de formule peut donc désigner un niveau différent selon la devise."
 ---
 ## Qu’est-ce que Kimi ?
 Kimi est la gamme de produits grand public de Moonshot AI, couvrant chat, agents et code. Kimi K3 est sorti le 17 juillet 2026 et tourne sur kimi.com ainsi que sur les applications iOS, Android et HarmonyOS.
@@ -50,4 +50,4 @@ Kimi convient à qui délègue de la recherche multi-étapes, des fichiers burea
 - Kimi Code, Kimi Work, la recherche approfondie et les diapositives partagent une seule réserve de crédits mensuels, et les crédits inutilisés expirent.
 - Les nombres d’usages d’agent par formule sont des estimations fondées sur une consommation de tokens typique, pas des quotas fixes.
 - Le mode Objectif démarre sur Pro, et les chats d’un million de tokens exigent Max ou Ultra.
-- Les noms de formules et les prix diffèrent entre le centre d’aide en yuans et la page des tarifs en dollars, ce qui peut dérouter les acheteurs.
+- Le centre d’aide en yuans et la page des tarifs en dollars réutilisent des noms de formules comme Plus, Pro et Max pour des niveaux et des prix différents, ce qui peut dérouter les acheteurs.

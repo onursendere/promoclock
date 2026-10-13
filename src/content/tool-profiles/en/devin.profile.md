@@ -1,7 +1,7 @@
 ---
 summary: "Devin is Cognition's AI software engineer, a cloud agent that takes tickets, works on its own machine and opens pull requests. Since June 2, 2026, Cognition's Windsurf editor has been Devin Desktop, so one Devin plan now covers the cloud agent, the desktop IDE and the Devin CLI. Engineering teams use it for migrations, bug fixes and reviews."
-metaTitle: "Devin Pricing & Free Plan: Cloud, Desktop and CLI (2026)"
-metaDescription: "Devin pricing in 2026: a free plan, Pro at $20/month, Max at $200/month and Teams from $80/month, plus what changed when Windsurf became Devin Desktop."
+metaTitle: "Devin Pricing 2026: Free Plan, Pro $20, Max $200 & Desktop"
+metaDescription: "Devin has a free plan with a light agent quota. Pro costs $20/month with Devin Cloud, Max $200/month and Teams from $80/month. Windsurf is now Devin Desktop."
 bestFor:
   - "Engineering teams with big backlogs"
   - "Developers delegating whole tickets"
@@ -31,7 +31,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free has a light agent quota plus unlimited Tab completions. Pro is $20/month with Devin Cloud access, Max is $200/month with much higher quotas, and Teams costs $80/month minimum plus $40 per full seat."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, macos, windows, linux, cli, api]
 savingTips:
   - "On Teams, give occasional users free flex seats that draw only from shared on-demand credits instead of $40 full seats."
@@ -55,7 +55,7 @@ sources:
   - https://devin.ai/blog/windsurf-is-now-devin-desktop
   - https://devin.ai/desktop
   - https://devin.ai/cli
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Devin?
 Devin is Cognition's autonomous coding agent, aimed at engineering teams with complex, multi-repo projects. It learns codebase conventions, works through tasks on its own machine and returns pull requests for review.

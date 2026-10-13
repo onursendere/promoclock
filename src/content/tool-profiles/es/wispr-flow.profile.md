@@ -26,7 +26,7 @@ useCases:
   - "Hablar prompts detallados a Cursor o ChatGPT en vez de teclear varios párrafos."
   - "Capturar una conversación presencial con un cliente con el Notetaker y sacar tareas después."
   - "Escribir documentos en un segundo idioma, con Flow detectando automáticamente el idioma que hablas."
-pricingSummary: "Free cubre 2.000 palabras a la semana en escritorio y 1.000 en móvil. Pro son $15/usuario/mes o $12 con facturación anual con dictado ilimitado; Growth son $33/usuario/mes o $26 al año, y Enterprise es a medida."
+pricingSummary: "Free cubre 2.000 palabras a la semana en escritorio y 1.000 en móvil. Pro son $15/usuario/mes o $12 con facturación anual con dictado ilimitado; Growth son $23/usuario/mes ($18 al año) solo para dictado, o $33 ($26 al año) con Notetaker, y Enterprise es a medida."
 savingTips:
   - "La facturación anual baja Pro de $15 a $12 por usuario y mes, un ahorro del 20 %."
   - "Estudiantes y docentes con un correo educativo obtienen un 50 % de descuento en Flow Pro, y las ONG pueden conseguir Pro con descuento."

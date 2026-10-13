@@ -1,7 +1,7 @@
 ---
 summary: "JetBrains AIは、JetBrainsのIDE向けAIサブスクリプションです。AI Assistant機能、Junieコーディングエージェント、Claude Agent・Codex・Gemini CLIなどをカバーし、IntelliJ IDEAやPyCharmの利用者が月次のAI Creditsで利用します。"
-metaTitle: "JetBrains AI料金2026"
-metaDescription: "JetBrains AIの2026年料金:AI Freeは3クレジット、AI Proは月額$10、AI Ultimateは月額$30。Junieやクレジット、トライアル、無料対象者も解説。"
+metaTitle: "JetBrains AI料金2026｜Pro $10から"
+metaDescription: "JetBrains AI Freeは30日で3 AI Credits。AI Proは月$10で10、Ultimateは$30で35。All Products PackにはAI Pro付き。"
 bestFor:
   - "既存のJetBrains IDEユーザー"
   - "JavaとKotlinの開発者"
@@ -38,7 +38,7 @@ faq:
   - q: "JetBrains AI Proを無料で使えるのは誰ですか？"
     a: "All Products PackとdotUltimateの購読者、Developer Recognition Programのメンバー、JetBrains Content Creators、DataSpellのユーザーにはAI Proが含まれます。学生・教員・教室・オープンソースプロジェクト向けの無料All Products Packライセンスには含まれません。"
   - q: "JunieはJetBrains AIに含まれていますか？"
-    a: "はい。Junieは同じAI Creditsを使い、JetBrainsは日常的なJunie利用にはAI Ultimateを推奨しています。Junie CLIも無料で始められ、自分のAPIキーを使う場合はマークアップなしでプロバイダーの料金が適用されます。"
+    a: "はい。Junieは同じAI Creditsを使い、JetBrainsは日常的なJunie利用にはAI Ultimateを推奨しています。Junieには現在、すべてのJetBrainsアカウントでトライアルやカード登録なしに使える無料の常時利用モデルJunie Liteも加わり、自分のAPIキーを使う場合はマークアップなしでプロバイダーの料金が適用されます。"
   - q: "JetBrainsはコードをAIモデルの学習に使いますか？"
     a: "許可した場合のみです。詳細なデータ共有は有料ライセンスではオプトインですが、非商用ライセンスではデフォルトで有効になっており、オプトアウトできます。共有データはMellumなどのJetBrainsモデルの学習に使われ、第三者には渡されません。"
 ---

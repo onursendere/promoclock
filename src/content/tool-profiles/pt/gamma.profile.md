@@ -1,7 +1,7 @@
 ---
 summary: "Gamma é uma ferramenta de design com IA da Gamma Tech, Inc. que transforma um prompt, um esboço ou um arquivo importado em apresentações, documentos, sites, posts de redes sociais e gráficos. Funciona por créditos, exporta para PowerPoint, PDF e Google Slides, e serve fundadores, consultores e professores que precisam de uma apresentação polida em minutos."
-metaTitle: "Preços, créditos e plano grátis do Gamma AI (2026)"
-metaDescription: "Preços do Gamma em 2026: plano gratuito com 400 créditos, depois Plus a $12/mês, Pro a $25 e Ultra a $100. Compare créditos, exportações e alternativas."
+metaTitle: "Gamma AI 2026: 400 créditos grátis, Plus $12 e Pro $25"
+metaDescription: "O Gamma é grátis com 400 créditos únicos. O Plus custa $12 por assento/mês ($9 no anual) com 1.000 créditos mensais, o Pro $25 com 4.000 e o Ultra $100 com 20.000."
 bestFor:
   - "Fundadores criando pitch decks"
   - "Consultores e times de vendas"

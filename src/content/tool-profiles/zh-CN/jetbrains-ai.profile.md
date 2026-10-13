@@ -1,7 +1,7 @@
 ---
 summary: "JetBrains AI是JetBrains面向旗下IDE推出的AI订阅服务，涵盖AI Assistant、Junie编程智能体，以及Claude Agent、Codex、Gemini CLI等第三方智能体。使用IntelliJ IDEA、PyCharm等JetBrains IDE的开发者可用它完成补全、对话和智能体改动，按AI额度计费。"
-metaTitle: "JetBrains AI价格：Free、Pro与Ultimate"
-metaDescription: "2026年JetBrains AI价格：AI Free含3点额度，AI Pro为$10/月，AI Ultimate为$30/月。了解Junie、额度、试用及谁能免费获得AI Pro。"
+metaTitle: "JetBrains AI价格：免费、Pro $10起"
+metaDescription: "JetBrains AI Free每30天含3点AI额度。AI Pro为$10/月含10点，AI Ultimate为$30/月含35点；All Products Pack含AI Pro。"
 bestFor:
   - "已在使用JetBrains IDE的开发者"
   - "Java和Kotlin开发者"
@@ -38,7 +38,7 @@ faq:
   - q: "谁能免费获得JetBrains AI Pro？"
     a: "All Products Pack和dotUltimate订阅用户、Developer Recognition Program成员、JetBrains内容创作者和DataSpell用户都包含AI Pro。面向学生、教师、课堂或开源项目的免费All Products Pack许可证不包含此项。"
   - q: "JetBrains AI包含Junie吗？"
-    a: "包含。Junie使用同一份AI额度，JetBrains建议经常使用Junie的用户选择AI Ultimate。Junie CLI也可以免费开始使用，如果使用自己的API密钥，则按服务商费率付费，不加价。"
+    a: "包含。Junie使用同一份AI额度，JetBrains建议经常使用Junie的用户选择AI Ultimate。Junie现在还提供Junie Lite，这是每个JetBrains账户都有的免费常驻模型，无需试用或绑卡；如果使用自己的API密钥，则按服务商费率付费，不加价。"
   - q: "JetBrains会用你的代码训练AI模型吗？"
     a: "只有在你允许的情况下才会。详细的数据共享在付费许可证上默认关闭、需手动开启，而在非商业许可证上默认开启，可以选择关闭。共享的数据用于训练Mellum等JetBrains自研模型，不会传给第三方。"
 ---

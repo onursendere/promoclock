@@ -1,7 +1,7 @@
 ---
 summary: "Google Flow, Google का AI क्रिएटिव स्टूडियो है जो Veo 3.1, Gemini Omni और Nano Banana मॉडल से वीडियो और इमेज बनाने और एडिट करने के लिए है। यह Google Labs से flow.google.com पर आ गया है, एक Gemini-संचालित एजेंट और कस्टम टूल जोड़ता है, और Google अकाउंट वाले फ़िल्ममेकर व क्रिएटर्स के लिए है।"
-metaTitle: "Google Flow प्राइसिंग, फ़्री क्रेडिट और Veo 3.1 (2026)"
-metaDescription: "Google Flow की 2026 प्राइसिंग: रोज़ 50 फ़्री क्रेडिट, Google AI Plus, Pro और Ultra अलाउंस, Veo 3.1 क्रेडिट लागत, क्षेत्रीय सीमाएं और Flow के विकल्प।"
+metaTitle: "Google Flow प्राइसिंग 2026: रोज़ 50 फ़्री क्रेडिट, फिर $4.99"
+metaDescription: "Google Flow रोज़ 50 क्रेडिट के साथ फ़्री है। Google AI Plus ($4.99/महीना) में 200 मासिक क्रेडिट, AI Pro ($19.99) में 1,000, AI Ultra में Veo 3.1 के लिए 25,000 तक।"
 bestFor:
   - "फ़िल्ममेकर और स्टोरीटेलर"
   - "Google AI सब्सक्राइबर्स"

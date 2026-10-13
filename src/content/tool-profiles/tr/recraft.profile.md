@@ -11,7 +11,7 @@ keyFeatures:
   - name: "Vektör üretimi"
     description: "Bir istemden düzenlenebilir SVG ikonlar, logolar ve illüstrasyonlar oluşturur; vektör üretimi Free dahil her planda var."
   - name: "Recraft V4.1 modelleri"
-    description: "Mayıs 2026'da sekiz sürümle yayımlandı; aralarında daha yüksek çözünürlük için Pro, mockup ve ürün ilanları için Utility, SVG çıktısı için Vector var."
+    description: "Mayıs 2026'da yayımlandı ve artık dokuz sürümde; aralarında daha yüksek çözünürlük için Pro, mockup ve ürün ilanları için Utility, SVG çıktısı için Vector ve düşük maliyetli bir Flash modeli var."
   - name: "Özel stiller"
     description: "Bir görsel serisini tutarlı tutmak için özel stiller oluşturup yeniden kullanabilirsin; paylaşılan stiller Teams planında var."
   - name: "Düzenleme ve vektörleştirme"

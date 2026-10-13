@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "The Free Plan gives 50 credits a day. Pro costs $10/month or $96/year with 2,500 monthly credits and 20 downloads; Premier costs $30/month or $288/year with 10,000 credits, 60 downloads and Suno Studio."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android]
 savingTips:
   - "Annual billing cuts Pro to $8/month and Premier to $24/month, a 20% saving over monthly billing."
@@ -55,7 +55,7 @@ sources:
   - https://help.suno.com/en/articles/13924481
   - https://about.suno.com/blog/introducing-v6
   - https://help.suno.com/en/articles/3134337
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Suno?
 Suno turns a written idea into a finished song with singing, lyrics and backing music. It runs in the browser and in mobile apps for iOS and Android, where you can also record your own voice or a melody as a starting point.

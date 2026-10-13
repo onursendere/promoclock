@@ -1,7 +1,7 @@
 ---
 summary: "Kiro é um ambiente de programação agentivo da Amazon Web Services construído em torno do desenvolvimento orientado por especificações: os prompts viram requisitos, um design e listas de tarefas antes que os agentes escrevam código. Ele é oferecido como IDE de desktop, CLI e versão no navegador, e desenvolvedores o usam para manter o código gerado por IA ligado a uma intenção documentada."
-metaTitle: "Preços do Kiro, plano grátis e oferta estudante (2026)"
-metaDescription: "Preços do Kiro em 2026: plano gratuito com 50 créditos, Pro a partir de $20/mês, planos Pro Max e Power, créditos avulsos e créditos grátis para estudantes."
+metaTitle: "Preços do Kiro 2026: 50 créditos grátis, Pro $20, estudantes"
+metaDescription: "O Kiro Free dá 50 créditos por mês; o Pro custa $20/mês por 1.000, até o Power a $200. Estudantes universitários elegíveis ganham 1.000 créditos por mês por um ano."
 bestFor:
   - "Devs que planejam antes de programar"
   - "Times de engenharia focados em AWS"

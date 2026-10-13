@@ -1,7 +1,7 @@
 ---
 summary: "Devin是Cognition推出的AI软件工程师，一个能领取工单、在自己机器上工作并开出拉取请求的云端智能体。自2026年6月2日起，Cognition的Windsurf编辑器已变为Devin Desktop，因此现在一份Devin套餐就能覆盖云端智能体、桌面IDE和Devin CLI。工程团队用它处理迁移、修复缺陷和代码审查。"
-metaTitle: "Devin定价与免费套餐：云端、桌面与CLI"
-metaDescription: "2026年Devin定价：免费套餐、每月$20的Pro、每月$200的Max，以及起价每月$80的Teams，还有Windsurf变为Devin Desktop带来的变化。"
+metaTitle: "Devin价格2026：免费套餐、Pro $20、Max $200"
+metaDescription: "Devin提供免费套餐，含少量智能体额度。Pro为$20/月，含Devin Cloud；Max为$200/月，Teams起价$80/月。Windsurf现为Devin Desktop。"
 bestFor:
   - "积压任务繁重的工程团队"
   - "想把整张工单委托出去的开发者"

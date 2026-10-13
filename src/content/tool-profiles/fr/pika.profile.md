@@ -26,7 +26,7 @@ useCases:
 pricingSummary: "La formule Free ne coûte rien mais n’inclut aucun crédit mensuel, seulement des packs de crédits à acheter. Starter coûte $10/mois avec 900 crédits, Creator $35/mois avec 3 150 crédits et Fancy dès $95/mois ; la facturation annuelle fait économiser 20 %."
 savingTips:
   - "La facturation annuelle fait économiser 20 % : Starter tombe à $8 par mois et Creator à $28."
-  - "Les crédits de recharge restent dans votre solde jusqu’à leur utilisation, contrairement aux crédits de formule, et coûtent 60 crédits pour $1 sur toutes les formules."
+  - "Les crédits de recharge sont valables 365 jours après l’achat, contrairement aux crédits de formule, et coûtent 60 crédits pour $1 sur toutes les formules ; ils ne fonctionnent que dans Pika Create sur pika.art."
   - "Les modèles moins chers font durer un solde : un clip Wan 3.0 de 5 secondes en 720p consomme 33 crédits contre 122 pour Seedance 2.5."
 faq:
   - q: "Pika est-il gratuit ?"
@@ -34,11 +34,11 @@ faq:
   - q: "Quelle formule Pika inclut une licence commerciale ?"
     a: "Creator, à $35/mois ou $28/mois en facturation annuelle, est la formule la moins chère avec licence commerciale. Free et Starter excluent l’usage commercial, tandis que Fancy et Enterprise l’incluent, avec une file d’attente prioritaire."
   - q: "Les crédits Pika inutilisés se reportent-ils ?"
-    a: "Pas les crédits de formule. Ils se renouvellent à chaque période de facturation et tout solde inutilisé est perdu, tandis que les crédits achetés en recharge ponctuelle restent dans votre solde jusqu’à leur utilisation."
+    a: "Pas les crédits de formule. Ils se renouvellent à chaque période de facturation et tout solde inutilisé est perdu, tandis que les crédits achetés en recharge ponctuelle se reportent et expirent 365 jours après l’achat."
   - q: "Pika développe-t-il encore ses propres modèles ?"
     a: "Oui. Pika 2.5 est son modèle vidéo actuel, et en août 2026 elle a lancé Pika Speech, Pika Music, Pika SFX et Pika Soundtrack. La plateforme héberge à leurs côtés des modèles partenaires d’autres laboratoires."
   - q: "Que se passe-t-il si je résilie ma formule Pika ?"
-    a: "Votre formule reste active jusqu’à la fin de la période de facturation en cours, puis le compte bascule vers la formule Free. Les crédits achetés en recharge demeurent dans le solde et peuvent encore être dépensés."
+    a: "Votre formule reste active jusqu’à la fin de la période de facturation en cours, puis le compte bascule vers la formule Free. Les crédits achetés en recharge demeurent dans le solde et peuvent encore être dépensés jusqu’à leur expiration, 365 jours après l’achat."
 ---
 ## Qu’est-ce que Pika aujourd’hui ?
 Pika a débuté comme une application texte-vers-vidéo ludique, connue pour des effets comme Pikaffects et Pikaswaps. En 2026, elle est devenue une plateforme créative plus large, avec des applications distinctes pour la vidéo, les images et l’audio, et un sélecteur de modèles qui mêle les modèles maison de Pika à des modèles partenaires.

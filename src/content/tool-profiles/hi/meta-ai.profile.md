@@ -1,7 +1,7 @@
 ---
 summary: "Meta AI, Meta का AI असिस्टेंट है, जो Meta AI ऐप, meta.ai और WhatsApp, Instagram, Facebook व Messenger के अंदर उपलब्ध है। अप्रैल 2026 से यह Meta Superintelligence Labs के Muse मॉडल पर चलता है। रोज़मर्रा का इस्तेमाल फ़्री रहता है, जबकि सितंबर 2026 में लॉन्च हुए Meta One सब्सक्रिप्शन में ज़्यादा इमेज और वीडियो जनरेशन जुड़ता है।"
-metaTitle: "क्या Meta AI फ़्री है? Meta One प्राइसिंग और फ़ीचर (2026)"
-metaDescription: "Meta AI रोज़मर्रा के इस्तेमाल के लिए फ़्री है। देखें Muse Spark क्या कर सकता है, Meta One Core ($7.99) और Premium ($19.99) में क्या जुड़ता है, और प्राइवेसी की बातें।"
+metaTitle: "क्या Meta AI फ़्री है? हाँ: Meta One $7.99/महीना से (2026)"
+metaDescription: "Meta AI रोज़मर्रा के लिए फ़्री है। ज़्यादा इमेज व वीडियो जनरेशन के लिए Meta One Core $7.99/महीना और Premium $19.99/महीना है; कीमतें क्षेत्र के अनुसार अलग-अलग हैं।"
 bestFor:
   - "WhatsApp और Instagram यूज़र्स"
   - "फ़्री असिस्टेंट चाहने वाले लोग"

@@ -1,7 +1,7 @@
 ---
 summary: "Make é uma plataforma visual de automação, parte da empresa de process mining Celonis, para criar fluxos chamados cenários e agentes de IA em mais de 3.000 apps. O uso é cobrado em créditos, e a maioria das ações de módulo consome um crédito. O Maia, seu construtor conversacional, transforma pedidos em linguagem natural em cenários que você pode inspecionar e editar."
 metaTitle: "Preços do Make 2026: plano grátis, créditos e agentes"
-metaDescription: "Preços do Make em 2026: plano grátis com 1.000 créditos, Core a partir de $10,59/mês, como funcionam os créditos, Maia, agentes de IA e limites."
+metaDescription: "Preços do Make em 2026: plano grátis com 1.000 créditos, Core a partir de $10.59/mês, como funcionam os créditos, Maia, agentes de IA e limites."
 bestFor:
   - "Times de operações com lógica complexa"
   - "Agências de automação para clientes"
@@ -27,7 +27,7 @@ useCases:
   - "Encadear subcenários para que um processo longo e multidepartamental continue legível e fácil de manter."
 pricingSummary: "O Free inclui 1.000 créditos por mês. Para 10.000 créditos por mês, o Core custa $10.59, o Pro $18.82 e o Teams $34.12, ou $9, $16 e $29 respectivamente no plano anual. O preço do Enterprise é sob consulta."
 savingTips:
-  - "O pagamento anual economiza 15% ou mais, baixando o Core de $10,59 para $9 por mês em 10.000 créditos."
+  - "O pagamento anual economiza 15% ou mais, baixando o Core de $10.59 para $9 por mês em 10.000 créditos."
   - "Os módulos de roteador e tratamento de erros não consomem créditos, então ramificações e tratamento de erros saem de graça."
   - "Usuários do plano grátis recebem um teste do Maia de 30 dias com 45 mensagens grátis."
   - "Se os créditos acabarem no meio do mês, compre pacotes extras de 1.000 ou 10.000 em vez de subir de plano."

@@ -39,7 +39,7 @@ faq:
   - q: "Que se passe-t-il à la fin de l’essai n8n Cloud ?"
     a: "L’essai expire automatiquement au bout de 14 jours, et n8n supprime l’espace de travail si vous ne passez pas à une formule payante. Vous avez 90 jours pour télécharger vos workflows, et rien n’est facturé si vous ne faites rien."
   - q: "n8n peut-il créer des workflows à votre place grâce à l’IA ?"
-    a: "Oui. n8n Assistant, anciennement AI Assistant, peut créer, modifier, tester et dépanner des workflows à partir de demandes en langage courant. Cloud Starter inclut 2 300 crédits IA par mois pour cela, et Pro jusqu’à 13 700."
+    a: "Oui. n8n Assistant, anciennement AI Assistant, peut créer, modifier, tester et dépanner des workflows à partir de demandes en langage courant. Cloud Starter inclut 1 600 crédits Assistant par mois pour cela, et Pro 4 000 ou 9 600 selon la taille ; depuis le 30 septembre 2026, les propriétaires peuvent aussi recharger des crédits."
   - q: "n8n facture-t-il par utilisateur ?"
     a: "Non. Toutes les formules n8n incluent des utilisateurs et des workflows illimités. Elles diffèrent par le nombre d’exécutions mensuelles et simultanées, les projets partagés, l’historique des insights et des fonctions d’administration comme le SSO."
 ---

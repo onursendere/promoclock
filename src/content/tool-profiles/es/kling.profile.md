@@ -26,8 +26,8 @@ useCases:
   - "Generar una serie de imágenes consistentes para una campaña y luego extender los mejores frames en clips de video cortos."
 pricingSummary: "Basic es gratis con créditos mensuales reclamados al iniciar sesión. Standard lista $10/mes (660 créditos), Pro $37 (3.000), Premier $92 (8.000) y Ultra $180 (26.000). La facturación anual tiene 34 % de descuento."
 savingTips:
-  - "La facturación anual está al 34 % de descuento: Standard cuesta $79,20 al año en vez de $120, y Pro $293,04 en vez de $444."
-  - "Los créditos se abaratan en planes mayores, de $1,06 por 100 créditos en Standard mensual a $0,49 en Ultra."
+  - "La facturación anual está al 34 % de descuento: Standard cuesta $79.20 al año en vez de $120, y Pro $293.04 en vez de $444."
+  - "Los créditos se abaratan en planes mayores, de $1.06 por 100 créditos en Standard mensual a $0.49 en Ultra."
   - "Los no suscriptores pueden reclamar créditos mensuales gratis al iniciar sesión; siguen válidos 31 días."
   - "Los packs de créditos comprados siguen válidos 2 años, así que los usuarios ocasionales pueden hacer top-up en vez de suscribirse."
 faq:

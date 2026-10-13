@@ -29,7 +29,7 @@ pricingSummary: "Copilot 채팅은 용량과 한도에 따라 무료로 제공�
 savingTips:
   - "연간 결제 시 Microsoft 365 Personal, Family, Premium은 최대 17% 절약되며, Microsoft 365 Pro는 월간 결제만 가능합니다."
   - "Microsoft는 Personal, Family, Premium에 한 달 무료 체험을 제공하지만 약관과 결제 요건은 지역마다 다릅니다."
-  - "Family는 앱과 1TB 저장 공간을 최대 6명이 각자 나눠 쓸 수 있어, Personal을 여러 개 쓰는 것보다 가구당 $12.99로 저렴합니다."
+  - "Family는 앱과 2TB 저장 공간 풀을 최대 6명이 함께 쓸 수 있어, Personal을 여러 개 쓰는 것보다 가구당 $12.99로 저렴합니다."
   - "자격을 갖춘 학생은 Microsoft 교육 혜택을 받을 수 있고, 일부 학교는 Microsoft 365를 추가 비용 없이 제공합니다."
 faq:
   - q: "Microsoft Copilot은 무료인가요?"

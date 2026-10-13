@@ -26,9 +26,9 @@ useCases:
   - "Bir mesajı ana dilinde yaz ve iş arkadaşlarına göndermek için İngilizce öneriler al."
   - "Uzun bir makaleyi baştan sona okumaya değip değmeyeceğine karar vermek için özetle."
   - "Mutsuz bir müşteriye ulaşmadan önce bir destek yanıtının tonunu yumuşat."
-pricingSummary: "Basic ücretsiz ve günde 10 yeniden yazma içeriyor. Advanced aylık $13.99 ya da yıllık ödemede aylık $6.99; Unlimited aylık $19.99 ya da yıllık ödemede aylık $9.99. Her iki ücretli plan da 3 günlük ücretsiz denemeyle başlıyor."
+pricingSummary: "Basic ücretsiz ve günde 10 yeniden yazma içeriyor. Advanced aylık $13.99, Unlimited aylık $19.99. Yıllık ödemede plan sayfası artık Advanced'i aylık $4.89, Unlimited'ı aylık $6.99 gösteriyor; önceki fiyatlar $6.99 ve $9.99'du. Her iki ücretli plan da 3 günlük ücretsiz denemeyle başlıyor."
 savingTips:
-  - "Yıllık ödeme fiyatı yaklaşık yarıya indiriyor: Unlimited aylık $19.99 yerine $9.99'a geliyor."
+  - "Yıllık ödeme fiyatı yarıdan fazla düşürüyor: Unlimited, güncel yıllık fiyatla aylık $19.99 yerine $6.99'a geliyor."
   - "Geçerli bir .edu adresi olan öğrenciler ve eğitimciler ile kâr amacı gütmeyen kuruluş çalışanları, aylık ya da yıllık planlarda %30 indirim için destekle iletişime geçebiliyor."
   - "3 günlük deneme kart bilgisi gerektiriyor ve Wordtune iade yapmıyor; emin değilsen bitmeden önce iptal et."
 faq:

@@ -26,9 +26,9 @@ useCases:
   - "Eine Nachricht in der eigenen Sprache entwerfen und englische Vorschläge für Kollegen bekommen."
   - "Einen langen Artikel zusammenfassen, um zu entscheiden, ob er die vollständige Lektüre wert ist."
   - "Den Ton einer Support-Antwort abmildern, bevor sie einen unzufriedenen Kunden erreicht."
-pricingSummary: "Basic ist kostenlos mit 10 Umformulierungen am Tag. Advanced kostet $13.99/Monat oder $6.99/Monat bei jährlicher Abrechnung, Unlimited $19.99/Monat oder $9.99/Monat jährlich. Beide bezahlten Pläne starten mit einer 3-tägigen Testphase."
+pricingSummary: "Basic ist kostenlos mit 10 Umformulierungen am Tag. Advanced kostet $13.99/Monat, Unlimited $19.99/Monat. Bei jährlicher Abrechnung zeigt die Preisseite jetzt Advanced mit $4.89/Monat und Unlimited mit $6.99/Monat, zuvor $6.99 und $9.99. Beide bezahlten Pläne starten mit einer 3-tägigen Testphase."
 savingTips:
-  - "Jährliche Abrechnung halbiert den Preis ungefähr: Unlimited sinkt von $19.99 auf $9.99 im Monat."
+  - "Jährliche Abrechnung senkt den Preis um mehr als die Hälfte: Unlimited sinkt von $19.99 auf $6.99 im Monat zum aktuellen Jahrespreis."
   - "Studierende und Lehrkräfte mit gültiger .edu-Adresse sowie Non-Profit-Mitarbeitende können den Support für 30 % Rabatt auf Monats- oder Jahrespläne kontaktieren."
   - "Die 3-tägige Testphase verlangt Zahlungsdaten, und Wordtune erstattet nicht, also vor Ablauf kündigen, wenn du unsicher bist."
 faq:

@@ -11,8 +11,8 @@ keyFeatures:
     description: "Mais de 300 layouts que cuidam do espaçamento, alinhamento e hierarquia por você, ajustando o design automaticamente quando o conteúdo muda."
   - name: "Fluxo Create with AI"
     description: "Comece por um prompt, um esboço ou um documento, edite o esboço em formato de texto, depois gere slides prontos e refine um por vez."
-  - name: "Temas e controles de marca"
-    description: "Monte um tema personalizado com suas cores, fontes, logos e rodapés, depois troque uma apresentação inteira de tema com um clique."
+  - name: "Brand Kits e controles"
+    description: "Os Brand Kits, chamados de temas até setembro de 2026, guardam suas cores, fontes, logos e preferências de IA, e você troca uma apresentação inteira para outro kit com um clique."
   - name: "Visualização de dados"
     description: "Gráficos e tabelas dinâmicos que se redesenham quando os números mudam, com vínculo de dados ao vivo disponível no plano Team."
   - name: "Análise de visualizações"
@@ -46,7 +46,7 @@ faq:
 ## O que é o Beautiful.ai?
 O Beautiful.ai é uma ferramenta de apresentações baseada em navegador que tira as decisões de design das suas mãos. Você escolhe um layout Smart Slide, adiciona conteúdo, e o slide se reorganiza sozinho: espaçamento, alinhamento e proporções de gráficos permanecem consistentes conforme a apresentação cresce.
 
-O lado de IA foi reconstruído em março de 2026 com o Create with AI, descrito pela empresa como Beautiful.ai 3.0. Você escolhe um tema primeiro, alimenta um prompt, esboço ou documento, revisa um esboço só de texto, depois gera slides desenhados e pode regenerar um slide de cada vez em vez da apresentação inteira.
+O lado de IA foi reconstruído em março de 2026 com o Create with AI, descrito pela empresa como Beautiful.ai 3.0. Você escolhe um Brand Kit primeiro, alimenta um prompt, esboço ou documento, revisa um esboço só de texto, depois gera slides desenhados e pode regenerar um slide de cada vez em vez da apresentação inteira.
 
 ## Para quem serve
 Serve bem quem apresenta com frequência mas não quer brigar com o design de slides, e times que precisam que toda apresentação siga o padrão da marca. As vagas do Team adicionam colaboração ao vivo, uma biblioteca de slides compartilhada, slides travados, análises de engajamento e tradução para mais de 100 idiomas.

@@ -1,7 +1,7 @@
 ---
 summary: "Google Flow는 Veo 3.1, Gemini Omni, Nano Banana 모델로 영상과 이미지를 만들고 편집하는 Google의 AI 크리에이티브 스튜디오입니다. Google Labs에서 flow.google.com으로 옮겨왔으며 Gemini 기반 에이전트와 맞춤 도구를 추가했으며, Google 계정을 가진 영화 제작자와 크리에이터가 브라우저에서 바로 쓰기에 적합합니다."
-metaTitle: "Google Flow 가격·무료 크레딧·Veo 3.1 (2026)"
-metaDescription: "Google Flow 2026년 가격: 매일 무료 크레딧 50개, Google AI Plus·Pro·Ultra 제공량, Veo 3.1 크레딧 비용, 지역 제한, 대안 도구."
+metaTitle: "Google Flow 요금 2026: 하루 무료 크레딧 50개, 이후 $4.99"
+metaDescription: "Google Flow는 하루 50크레딧이 무료입니다. Google AI Plus(월 $4.99)는 월 200크레딧, AI Pro($19.99)는 1,000, AI Ultra는 Veo 3.1용 최대 25,000입니다."
 bestFor:
   - "영화 제작자와 스토리텔러"
   - "Google AI 구독자"

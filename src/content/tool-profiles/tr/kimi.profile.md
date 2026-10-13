@@ -1,7 +1,7 @@
 ---
 summary: "Kimi, Moonshot AI'nin bir AI asistanı ve ajan çalışma alanı. Temmuz 2026'da çıkan, 1 milyon token bağlam penceresi olan, 2,8 trilyon parametreli açık ağırlıklı bir model olan Kimi K3 üzerinde çalışıyor. Sohbetin ötesinde Kimi belgeleri, slaytları, derin araştırmayı ve web sitelerini üstleniyor; Kimi Code ile kodlamaya ve Kimi Work ile masaüstü işine uzanıyor."
-metaTitle: "Kimi fiyatları, ücretsiz plan ve K3 özellikleri (2026)"
-metaDescription: "Moonshot AI'nin Kimi'si ücretsiz Adagio planına ve aylık $19'dan başlayan planlara sahip. Kimi K3, Agent Swarm, Kimi Code ve Kimi Work neler yapabilir gör."
+metaTitle: "Kimi K3 fiyatları 2026: ücretsiz plan, Plus $19, Pro $39"
+metaDescription: "Kimi K3, Adagio planında ücretsiz ve aynı anda bir ajan görevi çalıştırır. Plus aylık $19, Pro $39, Max $99, Ultra $199; Max ve Ultra 1M token'a kadar sohbet ekler."
 bestFor:
   - "Araştırma ve uzun belge işi"
   - "Çok adımlı ajan görevlerini devretme"
@@ -36,7 +36,7 @@ faq:
   - q: "Kimi K3 açık kaynak mı?"
     a: "Kimi K3'ün tam ağırlıkları Moonshot'ın kendi Kimi K3 Lisansı altında Hugging Face'te indirilebiliyor. Model 17 Temmuz 2026'da duyuruldu ve kimi.com'da, mobil uygulamalarda, Kimi Work, Kimi Code ve Kimi API'de çalışıyor."
   - q: "Kimi yardım merkezi neden fiyatları yuan olarak gösteriyor?"
-    a: "Yardım merkezi, aylık ¥49 ile ¥699 arasında fiyatlandırılan Andante, Moderato, Allegretto ve Allegro adlı ayrı planları listeliyor. kimi.com'daki İngilizce fiyat sayfası ise Plus, Pro, Max ve Ultra planlarını ABD doları olarak gösteriyor."
+    a: "Yardım merkezi, aylık ¥49 ile ¥699 arasında fiyatlandırılan Go, Plus, Pro ve Max adlı yuan planlarını listeliyor. kimi.com'daki İngilizce fiyat sayfası ise Plus, Pro, Max ve Ultra planlarını ABD doları olarak gösteriyor; bu yüzden aynı plan adı her para biriminde farklı bir kademe anlamına gelebilir."
 ---
 ## Kimi nedir?
 Kimi, Moonshot AI'nin sohbeti, ajanları ve kodlamayı kapsayan tüketici ürün serisi. Kimi K3, 17 Temmuz 2026'da çıktı ve kimi.com'da ve iOS, Android ile HarmonyOS uygulamalarında çalışıyor.
@@ -50,4 +50,4 @@ Kimi, çok adımlı araştırmayı, ofis dosyalarını ya da kodlamayı devreden
 - Kimi Code, Kimi Work, Deep Research ve slaytlar tek bir aylık kredi havuzunu paylaşıyor ve kullanılmayan krediler sona eriyor.
 - Ajan kullanım sayıları sabit kotalar değil, tipik token tüketimine dayalı tahminler.
 - Goal modu Pro'da başlıyor ve 1 milyon tokenli sohbetler Max ya da Ultra gerektiriyor.
-- Plan adları ve fiyatları, yuan fiyatlı yardım merkezi ile ABD doları fiyat sayfası arasında farklılaşıyor, bu da alıcıları şaşırtabiliyor.
+- Yuan fiyatlı yardım merkezi ile ABD doları fiyat sayfası, Plus, Pro ve Max gibi plan adlarını farklı kademeler ve fiyatlar için yeniden kullanıyor; bu da alıcıları şaşırtabiliyor.

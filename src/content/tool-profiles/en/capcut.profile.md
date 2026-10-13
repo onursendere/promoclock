@@ -27,7 +27,7 @@ useCases:
 pricing:
   freePlan: true
   summary: "CapCut is free to use, with paid Standard and Pro plans billed monthly or yearly. CapCut does not publish one global price: its own guide cites Pro at $19.99/month or $179.99/year, but prices vary by region, platform and taxes."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows]
 savingTips:
   - "In CapCut's own US-dollar example, yearly Pro ($179.99) costs about 25% less than 12 monthly payments of $19.99."
@@ -52,7 +52,7 @@ sources:
   - https://www.capcut.com/help/join-capcut-pro-for-exporting
   - https://www.capcut.com/tools/desktop-video-editor
   - https://www.capcut.com/clause/terms-of-service
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is CapCut?
 CapCut is ByteDance's all-in-one video editor, available as CapCut Online, a desktop app, a mobile app and CapCut Pad for tablets. It sits alongside ByteDance's other creative apps, including Dreamina for AI images and video, Pippit and the Hypic photo editor.

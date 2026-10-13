@@ -8,7 +8,7 @@ bestFor:
   - "AI önerilerini kaybeden B2B markalar"
 keyFeatures:
   - name: "AI görünürlük takibi"
-    description: "ChatGPT, Gemini ve Google AI Overviews'da istemleri ve yanıtları her gün izliyor; Enterprise kapsamı 10 AI platformuna genişletiyor."
+    description: "ChatGPT, Gemini ve Google AI Overviews'da istemleri ve yanıtları her gün izliyor; Enterprise kapsamı 8 AI platformuna genişletiyor."
   - name: "AI Article Writer"
     description: "Yüklediğin verileri ve kayıtlı yazım stillerini kullanarak her ay SEO makaleleri yazıyor: Starter'da 15, Growth'ta 50 makaleye kadar."
   - name: "Site denetimleri"
@@ -33,7 +33,7 @@ faq:
   - q: "Writesonic hâlâ bir AI yazma aracı mı?"
     a: "Kısmen. Her plan hâlâ AI Article Writer'ı içeriyor; ancak Writesonic artık kendini bir AI arama büyüme motoru olarak pazarlıyor. Odağı GEO, AEO ve markanın AI yanıtlarında nasıl göründüğünü izlemek."
   - q: "Writesonic hangi AI platformlarını izliyor?"
-    a: "Starter, Basic ve Growth; ChatGPT, Gemini ve Google AI Overviews'u izliyor. Enterprise 10 platformu izliyor ve Perplexity, Claude, Microsoft Copilot, Grok, DeepSeek, Meta AI ile Google AI Mode'u ekliyor."
+    a: "Starter, Basic ve Growth; ChatGPT, Gemini ve Google AI Overviews'u izliyor. Enterprise 8 platformu izliyor ve Perplexity, Claude, Microsoft Copilot, Grok ile Google AI Mode'u ekliyor."
   - q: "Writesonic'i istediğim zaman iptal edebilir miyim?"
     a: "Evet. Yükseltmeler hemen geçerli oluyor; düşürmeler ve iptaller ise sonraki fatura döneminde etkin oluyor. Writesonic ayrıca 7 günlük, koşulsuz bir iade duyuruyor."
   - q: "Her Writesonic planı kaç kullanıcı içeriyor?"

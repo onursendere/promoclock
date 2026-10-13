@@ -1,7 +1,7 @@
 ---
 summary: "Warp est un terminal moderne doté d’un agent de codage intégré, conçu par l’entreprise new-yorkaise Warp, dont le client est passé en open source sous licence AGPL en avril 2026. Les développeurs s’en servent pour exécuter des commandes et confier des tâches de codage en plusieurs étapes au Warp Agent, tandis que les équipes ajoutent des agents cloud et des Warp Factories pour des pipelines automatisés."
 metaTitle: "Warp : prix, plan gratuit et agent IA 2026"
-metaDescription: "Prix de Warp en 2026 : le terminal est gratuit, Build à $20/mois avec 1 500 crédits IA, Max à $200/mois. Fonctions, options BYOK et limites."
+metaDescription: "Prix de Warp en 2026 : le terminal est gratuit, Build à $20/mois avec $20 d’usage d’agent, Max à $200/mois avec $200. Fonctions, options BYOK et limites."
 bestFor:
   - "Développeurs orientés terminal"
   - "Ingénieurs DevOps et plateforme"
@@ -24,18 +24,18 @@ useCases:
   - "Laisser un agent cloud faire la première relecture de chaque pull request avant qu’un collègue ne l’examine."
   - "Router les alertes Slack entrantes vers un agent qui reproduit le problème et résume les étapes suivantes."
   - "Utiliser le terminal gratuitement avec votre propre clé API Anthropic ou OpenAI plutôt qu’un abonnement."
-pricingSummary: "Le plan Free couvre le terminal et l’Agent CLI mais aucun usage IA inclus. Build coûte $20/mois avec 1 500 crédits, Max $200/mois avec 18 000 crédits, et Business $50 par utilisateur et par mois jusqu’à 25 sièges."
+pricingSummary: "Le plan Free couvre le terminal et l’Agent CLI mais aucun usage IA inclus. Build coûte $20/mois ($18 en facturation annuelle) avec $20 d’usage d’agent aux tarifs API, Max $200/mois ($180 en annuel) avec $200 d’usage, et Business $50 par utilisateur et par mois ($45 en annuel) avec $20 d’usage par siège, jusqu’à 25 sièges."
 savingTips:
   - "La facturation annuelle retire 10 %, ce qui ramène Build à $18/mois et Max à $180/mois."
-  - "Sur le plan Free, vous pouvez utiliser le Warp Agent avec votre propre clé API ou un point de terminaison d’inférence personnalisé plutôt que de payer des crédits."
+  - "Sur le plan Free, vous pouvez utiliser le Warp Agent avec votre propre clé API ou un point de terminaison d’inférence personnalisé plutôt que de payer l’usage inclus."
   - "Les abonnés SuperGrok et X Premium peuvent connecter cet abonnement comme source d’inférence du Warp Agent."
 faq:
   - q: "Warp est-il gratuit ?"
-    a: "Oui. Le plan Free inclut le terminal complet, l’accès au Warp Agent CLI et des agents cloud limités, mais aucun usage IA inclus. Pour utiliser l’agent, apportez votre propre clé API ou point de terminaison d’inférence, achetez des crédits complémentaires, ou passez à un plan payant."
+    a: "Oui. Le plan Free inclut le terminal complet, l’accès au Warp Agent CLI et des agents cloud limités, mais aucun usage IA inclus. Pour utiliser l’agent, apportez votre propre clé API ou point de terminaison d’inférence, payez à l’usage, ou passez à un plan payant."
   - q: "Warp est-il open source ?"
     a: "Oui. Depuis le 28 avril 2026, le code source du client Warp est public sur github.com/warpdotdev/warp sous licence AGPL-3.0. OpenAI est le sponsor fondateur du dépôt open source, et les services IA payants de Warp restent commerciaux."
-  - q: "Que couvre un crédit Warp ?"
-    a: "Les crédits paient l’usage de l’agent aux tarifs API. Les 1 500 crédits de Build équivalent à $20 d’usage inclus, et les 18 000 crédits de Max en représentent douze fois plus. Les plans payants peuvent recharger des crédits avec remises sur volume, rechargement automatique et plafond de dépenses."
+  - q: "Comment fonctionne l’usage d’agent inclus dans Warp ?"
+    a: "Les plans payants incluent chaque mois un montant en dollars d’usage d’agent, facturé aux tarifs API : $20 sur Build, $200 sur Max (10 fois Build) et $20 par siège sur Business. Warp est passé des crédits à des montants en dollars, et sa documentation indique que les packs de crédits existants peuvent être convertis en usage en dollars."
   - q: "Quels systèmes d’exploitation Warp prend-il en charge ?"
     a: "Warp fonctionne sur macOS 10.14 ou ultérieur, sur Windows 10 et 11 en versions x64 et ARM64, et sur Linux via des paquets .deb, .rpm, Arch et AppImage. L’Agent CLI fonctionne aussi dans d’autres terminaux."
   - q: "Warp s’entraîne-t-il sur votre code ?"
@@ -51,6 +51,6 @@ Free convient à qui veut seulement le terminal ou paie déjà l’accès aux mo
 
 ## Limites
 - Aucun usage IA n’est inclus dans le plan Free.
-- Les crédits sont consommés aux tarifs API, si bien qu’un usage intensif de l’agent peut vite dépasser l’enveloppe de $20 de Build.
+- L’usage inclus est consommé aux tarifs API, si bien qu’un usage intensif de l’agent peut vite dépasser l’enveloppe de $20 de Build.
 - Business plafonne les équipes en libre-service à 25 sièges ; les groupes plus grands ont besoin d’Enterprise.
 - Warp Factories est en accès anticipé et n’est pas disponible pour tous.

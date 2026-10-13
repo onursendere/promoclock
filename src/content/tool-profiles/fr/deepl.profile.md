@@ -1,7 +1,7 @@
 ---
 summary: "DeepL est une plateforme d’IA de traduction et de langues de DeepL SE, qui réunit le traducteur DeepL, l’assistant DeepL Write, DeepL Voice et une API pour développeurs. Elle est réputée pour ses traductions au rendu naturel et pour la traduction de documents qui préserve la mise en page d’origine. Indépendants, étudiants et équipes internationales s’en servent pour du texte, des fichiers et la parole en direct."
-metaTitle: "DeepL : tarifs, formule gratuite et Pro (2026)"
-metaDescription: "Tarifs de DeepL en 2026 : ce que permet le traducteur gratuit, DeepL Pro Individual à $10.49 par mois, Write Pro, minutes Voice, applications et alternatives."
+metaTitle: "DeepL 2026 : gratuit, Pro $10.49/mois, essai 30 jours"
+metaDescription: "DeepL est gratuit jusqu’à 50 000 caractères et 1 fichier par mois. Pro Individual coûte $10.49/mois ou $8.74 en facturation annuelle, avec 30 jours d’essai gratuit."
 bestFor:
   - "Professionnels multilingues"
   - "Équipes traduisant des documents"

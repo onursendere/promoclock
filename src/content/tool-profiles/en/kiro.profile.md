@@ -1,7 +1,7 @@
 ---
 summary: "Kiro is an agentic coding environment from Amazon Web Services built around spec-driven development: prompts become requirements, a design and task lists before agents write code. It ships as a desktop IDE, a CLI and a browser version, and developers use it to keep AI-generated code tied to documented intent."
-metaTitle: "Kiro Pricing, Free Tier & Student Offer (2026)"
-metaDescription: "Kiro pricing in 2026: a free tier with 50 credits, Pro from $20/month, Pro Max and Power plans, add-on credits at $0.04 and free student credits."
+metaTitle: "Kiro Pricing 2026: Free 50 Credits, Pro $20 & Student Plan"
+metaDescription: "Kiro Free gives 50 credits a month; Pro is $20/month for 1,000, up to Power at $200. Eligible university students get 1,000 credits a month for a year."
 bestFor:
   - "Developers who plan before coding"
   - "AWS-centric engineering teams"
@@ -30,7 +30,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Kiro Free includes 50 credits a month. Pro is $20/month for 1,000 credits, Pro+ $40 for 2,000, Pro Max $100 for 5,000 and Power $200 for 10,000, with add-on credits at $0.04 each on paid plans. A first upgrade via social login or AWS Builder ID gets $20 credited toward the subscription."
-  asOf: 2026-10-03
+  asOf: 2026-10-12
 platforms: [web, macos, windows, linux, cli]
 savingTips:
   - "Students at eligible universities get 1,000 credits per month free for one year."
@@ -54,7 +54,7 @@ sources:
   - https://kiro.dev/web/
   - https://kiro.dev/downloads/
   - https://kiro.dev/changelog/
-reviewedAt: 2026-10-03
+reviewedAt: 2026-10-12
 ---
 ## What is Kiro?
 Kiro is AWS's development environment for working with AI agents in a structured way. Instead of jumping straight from a prompt to code, spec mode produces requirements, a design and tasks that you approve, and agents implement them in parallel.

@@ -1,7 +1,7 @@
 ---
 summary: "Google AI Studioは無料のブラウザワークスペースで、Geminiモデルのテスト、Gemini APIキーの作成、Buildモードでのバイブコーディングができます。開発者はプロンプト試作とコード書き出しに使い、コードを書かない人はアプリの説明だけでAntigravityエージェントにFirebase付きアプリを作らせられます。"
-metaTitle: "Google AI Studio料金・Buildモード"
-metaDescription: "Google AI Studioは無料です。Buildモードで作れるもの、Gemini APIの課金方法、Google AI ProとUltraが2026年に追加する内容を解説します。"
+metaTitle: "Google AI Studioは無料？上限とAPI料金(2026)"
+metaDescription: "Google AI Studioはレート制限付きでGeminiを無料利用可能。Google AI Pro/Ultraで枠が増え、無料枠を超えるGemini APIは$5からのプリペイドです。"
 bestFor:
   - "Geminiで試作する開発者"
   - "ウェブアプリを作るノンコーダー"

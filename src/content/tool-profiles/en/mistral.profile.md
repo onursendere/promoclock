@@ -30,11 +30,11 @@ pricing:
   startingPrice: 14.99
   currency: USD
   billing: month
-  summary: "Free covers everyday use with limited messages and web searches. Pro costs $14.99/month and Team $24.99 per user per month, excluding taxes; Enterprise is custom, and verified students pay $5.99/month for Pro."
-  asOf: 2026-09-17
+  summary: "Free covers everyday use with limited messages and web searches. Pro costs $14.99/month and Team $24.99 per user per month, excluding taxes; Enterprise is custom, and verified students pay $5.99/month for Pro for up to 12 months."
+  asOf: 2026-10-12
 platforms: [web, ios, android, vscode, cli, api]
 savingTips:
-  - "Verified students get Mistral Pro for $5.99/month instead of $14.99."
+  - "Verified students at accredited universities get Mistral Pro for $5.99/month instead of $14.99, for up to 12 months, if they haven't used Vibe or Le Chat before."
   - "The Free plan includes $10/month in API credits for trying Mistral models in Studio."
   - "On the API, batch processing halves the price and cached input tokens cut input cost by up to 90%."
 faq:
@@ -54,7 +54,7 @@ sources:
   - https://mistral.ai/news/vibe-agent/
   - https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe
   - https://docs.mistral.ai/vibe/overview
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Le Chat (now Vibe)?
 Le Chat was Mistral AI's assistant; since May 28, 2026 it has been called Vibe. The same URL and login open a single agent for professional productivity and coding, available on the web, in iOS and Android apps, in VS Code and in the terminal.

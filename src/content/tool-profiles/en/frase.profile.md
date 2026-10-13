@@ -33,7 +33,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Starter is $49/month ($39/month billed yearly), Professional $129/month ($103 yearly), Scale $299/month ($239 yearly), and Enterprise is custom. Every plan starts with a 7-day free trial that needs no credit card."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, api, cli]
 savingTips:
   - "Yearly billing takes 20% off every plan, so Starter drops from $49 to $39 a month."
@@ -56,7 +56,7 @@ sources:
   - https://docs.frase.io/
   - https://docs.frase.io/legacy-migration-guide
   - https://docs.frase.io/automations/automate-with-frase-mcp
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Frase?
 Frase describes itself as a content operating system for AI search. Its workflow runs as a loop: listen to Search Console data and visitor questions, create content, publish it, monitor Google rankings and AI citations, then fix pages that slip.

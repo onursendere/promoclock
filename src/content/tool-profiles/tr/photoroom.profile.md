@@ -28,7 +28,7 @@ useCases:
 pricingSummary: "Free kısıtlı ve ticari kullanıma kapalı. Pro aylık $12.99 ya da yıllık $89.99 ile 8.000 AI kredisi, Max aylık $34.99 ya da yıllık $250 ile 25.000, Ultra aylık $99 ya da yıllık $990 ile 75.000 kredi sunar; Enterprise fiyatı teklife bağlıdır."
 savingTips:
   - "Yıllık faturalandırma %33'e varan tasarruf sağlar: Pro, ayda $12.99 yerine yıl için $89.99."
-  - "Yükselttiğin ilk Space 7 günlük ücretsiz deneme alır ve bu, müşteri başına tek denemedir."
+  - "Yıllık Pro ya da Max planına yükselttiğin ilk Space 7 günlük ücretsiz deneme alır ve bu, müşteri başına tek denemedir."
   - "Background Remover, Retouch ve AI Expand gibi temel araçlar ücretli planlarda kredi harcamaz; kredileri sahneler, modeller ve video için sakla."
 faq:
   - q: "Photoroom ücretsiz mi?"
@@ -40,7 +40,7 @@ faq:
   - q: "Photoroom'u Claude ile kullanabilir miyim?"
     a: "Evet. Photoroom, Claude'da özel bağlayıcı olarak çalışan bir MCP bağlayıcısı sunar. API ve MCP kullanımı ayrı bir haktan işler, bu yüzden uygulama planının dışa aktarım limitini tüketmez."
   - q: "Photoroom'un ücretsiz denemesi var mı?"
-    a: "Evet, bir Space'i ilk kez yükselttiğinde otomatik olarak uygulanan 7 günlük bir deneme. Müşteri başına bir kez sunulur, sonraki Space'ler hemen faturalandırılır ve iptal etmezsen faturalandırma 8. günde başlar."
+    a: "Evet, yıllık Pro ve Max planlarında, bir Space'i ilk kez yükselttiğinde otomatik olarak uygulanan 7 günlük bir deneme. Müşteri başına bir kez sunulur, Ultra ve API planlarında standart deneme yoktur, sonraki Space'ler hemen faturalandırılır ve iptal etmezsen faturalandırma 8. günde başlar."
 ---
 ## Photoroom nedir?
 Photoroom, genel tasarımdan çok ürün ve ilan fotoğraflarına odaklanan bir AI editörü. iPhone, iPad, Android ve web'de çalışır; işler, her biri kendi aboneliğini ve kredi havuzunu taşıyan Space'ler içinde yapılır.

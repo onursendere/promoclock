@@ -1,7 +1,7 @@
 ---
 summary: "Gamma는 Gamma Tech, Inc.가 만든 AI 디자인 도구로, 프롬프트나 개요, 가져온 파일을 프레젠테이션, 문서, 웹사이트, 소셜 게시물, 그래픽으로 바꿔줍니다. 크레딧 기반으로 작동하며 PowerPoint, PDF, Google Slides로 내보낼 수 있어, 몇 분 만에 완성도 높은 덱이 필요한 창업자, 컨설턴트, 교사에게 잘 맞습니다."
-metaTitle: "Gamma AI 요금 정리와 크레딧, 무료 플랜(2026)"
-metaDescription: "Gamma 2026년 요금: 크레딧 400개 무료 플랜, 월 $12 Plus, $25 Pro, $100 Ultra입니다. 크레딧, 내보내기, 대안 도구를 비교하세요."
+metaTitle: "Gamma AI 요금 2026: 무료 400크레딧, Plus $12, Pro $25"
+metaDescription: "Gamma는 일회성 크레딧 400개로 무료입니다. Plus는 좌석당 월 $12(연간 결제 시 $9)에 월 크레딧 1,000개, Pro는 $25에 4,000개, Ultra는 $100에 20,000개입니다."
 bestFor:
   - "피치덱을 만드는 창업자"
   - "컨설턴트와 세일즈 팀"

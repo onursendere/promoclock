@@ -1,7 +1,7 @@
 ---
 summary: "Wordtune es un asistente de reescritura, resumen y gramática de AI21 Labs. Sugiere frases alternativas y cambios de tono para texto en inglés desde un editor web, extensiones de navegador y una app de iPhone. Es ideal para hablantes no nativos, estudiantes y profesionales que quieren ayuda a nivel de frase, no un redactor de documentos completos."
 metaTitle: "¿Wordtune es gratis? Precios, planes y límites 2026"
-metaDescription: "Precios de Wordtune en 2026: el plan Basic gratis con 10 reescrituras al día, Advanced a $13,99/mes, Unlimited, el descuento estudiantil y alternativas."
+metaDescription: "Precios de Wordtune en 2026: el plan Basic gratis con 10 reescrituras al día, Advanced a $13.99/mes, Unlimited, el descuento estudiantil y alternativas."
 bestFor:
   - "Hablantes no nativos de inglés"
   - "Estudiantes puliendo ensayos"
@@ -26,9 +26,9 @@ useCases:
   - "Redacta un mensaje en tu idioma y obtén sugerencias en inglés para enviarlo a colegas."
   - "Resume un artículo largo para decidir si vale la pena leerlo completo."
   - "Suaviza el tono de una respuesta de soporte antes de que llegue a un cliente molesto."
-pricingSummary: "Basic es gratis con 10 reescrituras al día. Advanced cuesta $13,99/mes o $6,99/mes con facturación anual, y Unlimited $19,99/mes o $9,99/mes anual. Ambos planes pagos incluyen 3 días de prueba gratis."
+pricingSummary: "Basic es gratis con 10 reescrituras al día. Advanced cuesta $13.99/mes y Unlimited $19.99/mes. Con facturación anual, la página de planes ahora muestra Advanced a $4.89/mes y Unlimited a $6.99/mes, frente a $6.99 y $9.99. Ambos planes pagos incluyen 3 días de prueba gratis."
 savingTips:
-  - "La facturación anual reduce el precio casi a la mitad: Unlimited baja de $19,99 a $9,99 al mes."
+  - "La facturación anual reduce el precio a menos de la mitad: Unlimited baja de $19.99 a $6.99 al mes con la tarifa anual actual."
   - "Estudiantes, docentes con correo .edu válido y personal de organizaciones sin fines de lucro pueden pedir a soporte un 30 % de descuento."
   - "La prueba de 3 días requiere datos de pago y Wordtune no da reembolsos, así que cancela antes de que termine si tienes dudas."
 faq:

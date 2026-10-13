@@ -1,7 +1,7 @@
 ---
 summary: "Meta AI is Meta's AI assistant, available in the Meta AI app, on meta.ai and inside WhatsApp, Instagram, Facebook and Messenger. Since April 2026 it runs on Muse models from Meta Superintelligence Labs. Everyday use stays free, while Meta One subscriptions launched in September 2026 add more image and video generation."
-metaTitle: "Is Meta AI Free? Meta One Pricing & Features (2026)"
-metaDescription: "Meta AI is free for everyday use. See what Muse Spark can do, what Meta One Core ($7.99) and Premium ($19.99) add, and the privacy points to know."
+metaTitle: "Is Meta AI Free? Yes: Meta One From $7.99/mo (2026)"
+metaDescription: "Meta AI is free for everyday use. Meta One Core costs $7.99/month and Premium $19.99/month for more image and video generation; prices vary by region."
 bestFor:
   - "WhatsApp and Instagram users"
   - "People who want a free assistant"
@@ -28,7 +28,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Meta AI is free for everyday use. Meta One Core costs $7.99/month and Premium $19.99/month, adding more Muse-powered image and video generation plus Instagram, Facebook and WhatsApp perks; pricing varies by region."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android]
 savingTips:
   - "Meta One AI usage resets each billing cycle and unused allowance doesn't carry over, so pick the lower tier unless you use it every month."
@@ -50,7 +50,7 @@ sources:
   - https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/
   - https://www.meta.com/help/artificial-intelligence/1831790234178989/
   - https://about.fb.com/news/2025/10/improving-your-recommendations-apps-ai-meta/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Meta AI?
 Meta AI is the assistant Meta builds into its social apps and also offers as a standalone app and at meta.ai. Meta Superintelligence Labs rebuilt the stack around the Muse model family, starting with Muse Spark in April 2026 and Muse Image in July.

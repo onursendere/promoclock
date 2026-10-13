@@ -29,7 +29,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Basic is free with 300 transcription minutes a month. Pro costs $16.99/user/month or $8.33 billed annually with 1,200 minutes, Business is $30/user/month or $19.99 annually with unlimited meetings, and Enterprise is quote-based."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, browser-extension]
 savingTips:
   - "Annual billing cuts Pro from $16.99 to $8.33 per user per month, which Otter advertises as a 51% saving."
@@ -51,7 +51,7 @@ sources:
   - https://otter.ai/desktop
   - https://otter.ai/integrations/browser-extensions
   - https://otter.ai/blog/otter-ai-evolves-from-ai-notetaker-to-create-100b-enterprise-conversational-knowledge-engine-market
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Otter.ai?
 Otter.ai records, transcribes and summarizes conversations, and since April 2026 has presented itself as a conversational knowledge engine that connects meetings across a team. It works in the browser, on iOS and Android, as a Chrome extension and as a desktop app for Mac and Windows.

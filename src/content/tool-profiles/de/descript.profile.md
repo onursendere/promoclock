@@ -28,7 +28,7 @@ useCases:
 pricingSummary: "Free enthält 60 Medienminuten im Monat und 100 einmalige KI-Credits. Hobbyist kostet $24/Monat, Creator $35/Monat und Business $65/Monat; jährliche Abrechnung senkt diese auf $16, $24 und $50."
 savingTips:
   - "Jährliche Abrechnung spart bis zu 35 %: Hobbyist fällt von $24 auf $16 im Monat, Creator von $35 auf $24 und Business von $65 auf $50."
-  - "Descript bietet Sondersätze für Studierende, Lehrkräfte und Non-Profits über ein Anfrageformular auf der Preisseite."
+  - "Schulen und Non-Profits können sich für einen Education/Non-profit-Plan für $12 pro Editor und Monat bewerben, oder $8 bei jährlicher Abrechnung, mit allen Hobbyist-Funktionen."
   - "Studio Sound und Füllwort-Entfernung kosten höchstens 30 KI-Credits pro Anwendung, egal wie lang die Datei ist."
   - "Zum Aufnehmen, Bearbeiten und Mischen im Free-Plan ist keine Kreditkarte nötig."
 faq:

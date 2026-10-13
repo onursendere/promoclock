@@ -32,7 +32,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free includes 100 tasks a month and two-step Zaps. Professional starts at $29.99/month ($19.99 billed yearly) for 750 tasks, Team at $103.50/month ($69 yearly) with 25 users, and Enterprise is quote-only."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, browser-extension, api, cli]
 savingTips:
   - "Paying yearly saves up to 33%, cutting Professional from $29.99 to $19.99 a month."
@@ -55,7 +55,7 @@ sources:
   - https://zapier.com/pricing
   - https://zapier.com/pricing/rates
   - https://zapier.com/
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Zapier?
 Zapier links apps with trigger-and-action workflows called Zaps and now describes itself as an AI orchestration platform. One subscription also covers Tables for structured data, Forms for intake, Canvas for mapping processes, an MCP endpoint for AI assistants and a developer SDK.

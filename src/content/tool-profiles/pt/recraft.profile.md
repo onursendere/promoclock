@@ -11,7 +11,7 @@ keyFeatures:
   - name: "Geração de vetor"
     description: "Cria ícones, logos e ilustrações SVG editáveis a partir de um prompt, e a geração de vetor está incluída em todo plano, até no Free."
   - name: "Modelos Recraft V4.1"
-    description: "Lançados em maio de 2026 em oito versões, incluindo Pro para resolução maior, Utility para mockups e listagens, e Vector para saída SVG."
+    description: "Lançados em maio de 2026 e agora em nove versões, incluindo Pro para resolução maior, Utility para mockups e listagens, Vector para saída SVG e um modelo Flash de baixo custo."
   - name: "Estilos personalizados"
     description: "Crie e reutilize estilos personalizados para manter uma série de imagens consistente, com estilos compartilhados disponíveis no plano Teams."
   - name: "Edição e vetorização"

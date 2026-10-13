@@ -34,7 +34,7 @@ pricing:
   currency: USD
   billing: month
   summary: "Free gives 150 fast tokens a day with public creations. Essential is $12/month, Premium $30/month and Ultimate $60/month, or $10, $24 and $48 a month billed yearly; prices exclude tax."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, ios, android, api]
 savingTips:
   - "Yearly billing takes up to 20% off: Essential drops from $12 to $10 a month and Ultimate from $60 to $48."
@@ -60,7 +60,7 @@ sources:
   - https://intercom.help/leonardo-ai/en/articles/7051613-frequently-asked-questions
   - https://leonardo.ai/ai-image-generator
   - https://www.remove.bg/faq
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Leonardo.ai?
 Leonardo.ai is a web platform and mobile app for generating, editing and upscaling images and video. Usage runs on tokens: paid plans get a monthly allowance, from 8,500 fast tokens on Essential to 60,000 on Ultimate.

@@ -33,7 +33,7 @@ pricing:
   currency: USD
   billing: month
   summary: "There is no free plan. Pro costs $69 per seat per month, or $59 per seat per month billed annually, with a 7-day free trial. Business has custom pricing for teams."
-  asOf: 2026-09-17
+  asOf: 2026-10-12
 platforms: [web, browser-extension, api]
 savingTips:
   - "Annual billing cuts Pro from $69 to $59 per seat per month, a saving of about 20%."
@@ -55,7 +55,7 @@ sources:
   - https://help.jasper.ai/hc/en-us/articles/46644376016923-Credits-Based-Pricing
   - https://www.jasper.ai/free-trial
   - https://www.jasper.ai/chrome-extension
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Jasper?
 Jasper is an AI platform built for marketing work. Instead of a blank chatbot, it surrounds the AI models with brand context such as voices, style guides, audience profiles and product knowledge, and applies it to every draft.

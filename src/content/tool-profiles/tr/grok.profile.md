@@ -1,7 +1,7 @@
 ---
 summary: "Grok, Şubat 2026'da SpaceX tarafından satın alınan ve artık SpaceXAI adıyla faaliyet gösteren xAI'ın AI asistanı. Sohbeti gerçek zamanlı X ve web aramasıyla, Grok Imagine ile görsel ve video üretimiyle, sesli kullanımla ve bir kodlama ajanıyla birleştiriyor. X'i yoğun kullananlar, video üreticileri ve tüm ürünlerde tek bir kullanım havuzu isteyenler için uygun."
-metaTitle: "Grok fiyatları 2026: SuperGrok planları ve ücretsiz sürüm"
-metaDescription: "2026 Grok fiyatları: ücretsiz sürüm, aylık $30 SuperGrok ve aylık $100 SuperGrok Plus. Haftalık kullanım havuzu, özellikler, limitler ve alternatifler."
+metaTitle: "Grok fiyatları 2026: ücretsiz, SuperGrok $30 ve Plus $100"
+metaDescription: "Grok ücretsiz kullanılabiliyor. xAI'ın fiyat sayfasında SuperGrok aylık $30, SuperGrok Plus aylık $100; SuperGrok Lite ve Heavy fiyatları ise herkese açık değil."
 bestFor:
   - "X'i yoğun kullananlar"
   - "Kısa AI videoları üretenler"

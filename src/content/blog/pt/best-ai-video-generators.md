@@ -68,7 +68,7 @@ Escolha o Runway ou o Luma para tomadas dirigidas, com qualidade de produção, 
 
 ### Runway
 
-O Runway Standard custa $15/mês por 625 créditos, o Pro $35 por 2.250 e o Max $95 por 9.500, com 20% de desconto na cobrança anual, segundo a [página de preços do Runway](https://runway.com/pricing). O Max, lançado em 1º de junho de 2026 para substituir o Unlimited, adiciona ProRes, HDR e acúmulo de créditos por um mês.
+O Runway Standard custa $15/mês por 625 créditos, o Pro $35 por 2.250 e o Max $95 por 9.500, com 20% de desconto na cobrança anual, segundo a [página de preços do Runway](https://runway.com/pricing). O Max, lançado em 1º de junho de 2026 para substituir o Unlimited, adiciona ProRes, HDR e acúmulo de créditos por um mês. Um plano Team para 2 a 9 pessoas, adicionado em setembro de 2026, custa $69 por assento ($55 no anual), com 6.900 créditos compartilhados por assento.
 
 ### Kling
 
@@ -136,7 +136,7 @@ O plano gratuito do HeyGen faz 3 vídeos por mês, de até 1 minuto cada, com ma
 
 ### Synthesia
 
-O plano Basic gratuito do Synthesia inclui 500 créditos por mês, cerca de 10 minutos de vídeo ou dublagem, mas quem está no Basic não pode baixar os vídeos. O Starter custa $29/mês ($18 no anual) por 1.250 créditos, e o Pro, antigo Creator, custa $89/mês ($64 no anual) por 6.000 créditos, mais acesso à API. A dublagem custa 120 créditos por minuto, ou 240 com sincronia labial.
+O plano Basic gratuito do Synthesia inclui 500 créditos por mês, cerca de 10 minutos de vídeo ou dublagem, mas quem está no Basic não pode baixar os vídeos. O Starter custa $29/mês ($18 no anual) por 1.250 créditos, e o Pro, antigo Creator, custa $89/mês ($64 no anual) por 6.000 créditos, mais acesso à API. Nos planos self-service, a dublagem custa cerca de 76 créditos por minuto, o dobro com sincronia labial, e o agente Syren, em beta desde 9 de outubro de 2026, cria vídeos inteiros a partir de um prompt.
 
 ## Quais editores de vídeo e ferramentas de cortes com IA valem a pena?
 
@@ -164,7 +164,7 @@ O plano gratuito do [VEED](/tools/veed/) exporta vídeos em 720p de até 10 minu
 
 ### InVideo AI
 
-Os créditos grátis do [InVideo AI](/tools/invideo/) se renovam toda segunda-feira. O Starter custa $20 por assento por mês por 400 créditos, o Plus $60 ($36 no anual) e o Max $150 ($75 no anual). O Agent Two planeja as tomadas e escolhe os modelos, e a edição na linha do tempo não gasta créditos.
+Os créditos grátis do [InVideo AI](/tools/invideo/) se renovam toda segunda-feira. O Starter custa $20 por assento por mês ($10 no anual) por 400 créditos, o Plus $60 ($30 no anual) e o Max $150 ($75 no anual). O Agent Two planeja as tomadas e escolhe os modelos, e a edição na linha do tempo não gasta créditos.
 
 ### Pictory
 
@@ -177,6 +177,8 @@ Sim: em outubro de 2026, a Adobe dá desconto nos planos do Firefly com mais ví
 - [30% de desconto no Firefly Pro Plus e Premium](/deals/adobe-firefly-30-off-first-year-2026/): US$34.97/mês em vez de US$49.99, ou US$139.91 em vez de US$199.99, no primeiro ano, até 21 de outubro de 2026. A Adobe lista até 100 vídeos de cinco segundos no Pro Plus e gerações ilimitadas de Veo 3.1 Fast e Kling 3.0 no Premium.
 - [Google AI Pro grátis para estudantes](/deals/google-ai-pro-students-2026/): 12 meses para universitários elegíveis dos EUA que resgatarem até 31 de dezembro de 2026.
 - [12 meses de Google AI Pro com um Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/): compre e resgate até 31 de outubro de 2026.
+- [Créditos grátis do Syren no Synthesia](/deals/synthesia-syren-launch-credits-2026/): todos os usuários ganham créditos de lançamento para o novo agente de vídeo, válidos por um mês.
+- [Runway Enterprise com 2 meses de uso grátis](/deals/runway-enterprise-two-months-free-2026/): para empresas que assinarem até 31 de outubro de 2026.
 
 Mais ofertas estão na nossa [página de ofertas](/deals/), e nosso guia sobre [como economizar em assinaturas de IA](/blog/save-money-on-ai-subscriptions/) explica a cobrança anual.
 

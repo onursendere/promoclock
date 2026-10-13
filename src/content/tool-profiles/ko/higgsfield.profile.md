@@ -1,7 +1,7 @@
 ---
 summary: "Higgsfield는 샌프란시스코에 기반을 둔 Higgsfield AI의 이미지·영상 생성 플랫폼입니다. Soul 2.0 같은 자체 모델에 Seedance, Kling, Veo, Nano Banana 같은 서드파티 모델과 카메라 연출 장면용 Cinema Studio를 결합했으며, 소셜 크리에이터, 마케터, AI 영화 제작자가 광고, 숏폼 영상, 시네마틱 클립에 활용합니다."
-metaTitle: "Higgsfield AI 가격·크레딧·무료 플랜 (2026)"
-metaDescription: "Higgsfield 2026년 가격: 무료 플랜, 월 Starter $19, Plus $59, Ultra $129, 크레딧과 Unlimited 모델 방식, Cinema Studio, 대안 도구."
+metaTitle: "Higgsfield 요금 2026: 크레딧, 무료 플랜, $19부터 시작"
+metaDescription: "Higgsfield 무료 플랜은 크레딧 없이 일부 모델을 쓸 수 있습니다. Starter는 월 $19에 크레딧 270개, Plus는 $59에 1,200개, Ultra는 $129부터 3,000개입니다."
 bestFor:
   - "UGC·제품 광고 크리에이터"
   - "AI 영화·뮤직비디오 제작자"

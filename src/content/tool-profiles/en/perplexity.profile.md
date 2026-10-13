@@ -30,11 +30,12 @@ pricing:
   startingPrice: 20
   currency: USD
   billing: month
-  summary: "Free costs $0 for limited daily use. Pro is $20/month and Max $200/month, and verified students and educators can get Education Pro for $10/month."
-  asOf: 2026-09-17
+  summary: "Free costs $0 for limited daily use. Pro is $20/month, or $17/month billed annually, and Max $200/month, or $167/month billed annually. Verified students and educators can get Education Pro for $10/month."
+  asOf: 2026-10-12
 platforms: [web, ios, android, macos, windows, api]
 savingTips:
   - "Students and educators verified through SheerID pay $10/month for Education Pro, half the Pro price, with everything in Pro included."
+  - "Annual billing brings Pro down to $17/month and Max to $167/month."
   - "The Free plan still puts citations in every answer, so occasional fact-checking needs no subscription."
   - "Enterprise Pro seats cost $400 a year per seat, compared with $40 a month when billed monthly."
 faq:
@@ -55,7 +56,7 @@ sources:
   - https://www.perplexity.ai/help-center/en/articles/10352901-what-is-perplexity-pro
   - https://www.perplexity.ai/comet
   - https://www.perplexity.ai/personal-computer
-reviewedAt: 2026-09-17
+reviewedAt: 2026-10-12
 ---
 ## What is Perplexity?
 Perplexity is a search-first assistant: you ask a question, it reads the web and answers with numbered sources. It runs on the web, in iOS and Android apps, in a Mac app and inside Comet, the company's own browser. Developers buy API access separately on a pay-as-you-go basis.
