@@ -90,7 +90,7 @@ If your project follows the terms, open a pull request to add it here.
 - `main` and the daily 03:00 UTC schedule → production
 - manual runs pick either target
 
-Repository secrets: `CPANEL_FTP_SERVER`, `CPANEL_FTP_USERNAME`, `CPANEL_FTP_PASSWORD`, `CPANEL_DIR_PRODUCTION`, `CPANEL_DIR_STAGING`. Without them the workflow builds and tests only.
+Repository secrets: `CPANEL_FTP_SERVER`, `CPANEL_FTP_USERNAME`, `CPANEL_FTP_PASSWORD`, `CPANEL_DIR_PRODUCTION`, `CPANEL_DIR_STAGING`. Without them the workflow builds and tests only. Production deploys also need `CLOUDFLARE_PURGE_TOKEN`, because pages are cached at Cloudflare's edge and every deploy purges that cache. See [docs/edge-cache.md](docs/edge-cache.md).
 
 ## License
 

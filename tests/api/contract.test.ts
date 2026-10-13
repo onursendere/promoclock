@@ -82,8 +82,15 @@ describe("GET /api/status", () => {
   it("returns values consistent with each other and with the site's peak logic", async () => {
     const before = Date.now();
     const body = await (await get("/api/status")).json();
-    const expected = getPeakStatus(before);
+    // Behind Cloudflare the answer may come from the edge cache, generated up to s-maxage (≤ 60 s) ago
+    // but never across a change, so judge it by the moment it was generated (its timestamp).
+    expect(body.timestamp).toMatch(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/);
+    const generated = Date.parse(body.timestamp);
+    expect(generated).toBeGreaterThan(before - (BEHIND_CDN ? 75_000 : 5_000));
+    expect(generated).toBeLessThan(Date.now() + 5_000);
+    const expected = getPeakStatus(generated);
 
+    expect(Date.parse(body.nextChange)).toBeGreaterThan(before - 1_000);
     expect(body.isPeak).toBe(expected.isPeak);
     expect(body.isOffPeak).toBe(!body.isPeak);
     expect(body.isWeekend).toBe(expected.isWeekend);
@@ -92,10 +99,9 @@ describe("GET /api/status", () => {
     expect(body.emoji).toBe(body.isPeak ? "🔴" : "🟢");
     expect(body.nextChange).toMatch(/^\d{4}-\d{2}-\d{2}T\d{2}:00:00\.000Z$/);
     expect(Date.parse(body.nextChange)).toBe(expected.nextChange);
-    expect(body.timestamp).toMatch(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/);
-    expect(body.minutesUntilChange).toBe(Math.floor((expected.nextChange - Date.parse(body.timestamp)) / 60_000));
-    expect(body.utcHour).toBe(new Date(before).getUTCHours());
-    expect(body.utcDay).toBe(new Date(before).getUTCDay());
+    expect(body.minutesUntilChange).toBe(Math.floor((expected.nextChange - generated) / 60_000));
+    expect(body.utcHour).toBe(new Date(generated).getUTCHours());
+    expect(body.utcDay).toBe(new Date(generated).getUTCDay());
     expect(body.peakHours).toMatch(/^Weekdays 1pm–7pm UTC \/ \d{1,2}:00 [AP]M–\d{1,2}:00 [AP]M P[SD]T$/);
   });
 });
