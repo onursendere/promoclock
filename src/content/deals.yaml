@@ -80,10 +80,10 @@
     en: "On October 6, 2026, Anthropic added a free year of Claude Team for up to five seats and $1,000 in API credits to Claude for Startups. Within days it said it was over capacity on both offers and would re-review all applications; startups that already claimed them keep them."
   terms:
     - en: "API credits work only on the first-party Claude API, not Amazon Bedrock or Google Vertex AI."
-    - en: "The rest of the program, including up to $45,000 in partner discounts and office hours, stays open to applications."
+    - en: "Anthropic now says its current cohort is full and it isn't accepting new applications; it will announce the next cohort in its newsletter."
   startsAt: 2026-10-06T00:00:00Z
   endsAt: 2026-10-09T00:00:00Z
-  verifiedAt: 2026-10-12T00:00:00Z
+  verifiedAt: 2026-10-14T00:00:00Z
   sourceUrl: https://claude.com/programs/startups
   sourceLabel: "Claude for Startups"
 
