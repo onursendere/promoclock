@@ -73,12 +73,11 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
       "astro:build:done": async ({ dir, logger }) => {
         const outDir = fileURLToPath(dir);
         const redirectsFile = path.join(outDir, "go/redirects.json");
-        /** @type {{ slug: string; outbound: string }[]} */
+        /** @type {{ slug: string; target: string }[]} */
         const tools = JSON.parse(await readFile(redirectsFile, "utf8"));
         await rm(redirectsFile);
 
         const csp = await contentSecurityPolicy(outDir);
-        const escapeTarget = (/** @type {string} */ url) => url.replace(/\s/g, "%20");
         const nonDefault = locales.filter((l) => l !== defaultLocale && !l.includes("-"));
         const regional = locales.filter((l) => l.includes("-"));
         const localeAlternation = locales.map((l) => l.replace(/[-]/g, "\\-")).join("|");
@@ -111,9 +110,10 @@ export default function cpanelHtaccess({ locales, defaultLocale, staging = false
           "  # Retired endpoints.",
           "  RewriteRule ^api/(deals(\\.php|\\.json)?|tools\\.json)/?$ - [G,L]",
           "",
-          "  # Retired /go/<slug>/ outbound links: pages link straight to the tool's site now, and old URLs",
-          "  # move there permanently (no noindex, so Search Console lists them as redirects, not exclusions).",
-          ...tools.map((t) => `  RewriteRule ^go/${t.slug}/?$ ${escapeTarget(t.outbound)} [R=301,L,NE]`),
+          "  # Retired /go/<slug>/ outbound links: pages link straight to the tool's site now. Old URLs move",
+          "  # permanently to the tool's English profile, never off-site: Google reports a redirect by its",
+          "  # destination, and a vendor's noindex or 403 page would keep them in Search Console's exclusions.",
+          ...tools.map((t) => `  RewriteRule ^go/${t.slug}/?$ ${t.target} [R=301,L]`),
           "",
           "  # Legacy URLs from the Next.js site.",
           "  RewriteRule ^sitemap\\.xml$ /sitemap-index.xml [R=301,L]",

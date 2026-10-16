@@ -106,6 +106,18 @@ await pool(
 );
 const lookup = (url) => pages.get(url) ?? targets.get(url);
 
+// 3b. Retired /go/<slug>/ links. Google still recrawls them and reports each by its destination, so
+// they must 301 to the tool's own indexable profile: a vendor page that is noindex or 403 for
+// Googlebot (chat.mistral.ai, 2026-10-13) puts the old URL back under "Excluded by 'noindex' tag".
+const legacyGo = new Map();
+await pool(
+  [...sitemapUrls].filter((url) => /^https:\/\/promoclock\.co\/en\/tools\/[^/]+\/$/.test(url)),
+  async (profile) => {
+    const go = profile.replace("/en/tools/", "/go/");
+    legacyGo.set(go, { profile, ...(await get(go)), body: undefined });
+  },
+);
+
 // 4. Problems: each one is a URL Search Console would list under "Why pages aren't indexed".
 const problems = [];
 const problem = (kind, url, detail) => problems.push({ kind, url, detail });
@@ -126,9 +138,16 @@ for (const [url, t] of targets) {
   else if (t.status !== 200) problem("link to an error", url, `${t.status} ${t.error ?? ""}; ${where}`);
   else if (isNoindex(t)) problem("link to a noindex page", url, where);
 }
+for (const [url, g] of legacyGo) {
+  const to = g.location ? new URL(g.location, toBase(url)) : undefined;
+  const onSite = to && (to.host === "promoclock.co" || to.host === new URL(BASE).host);
+  if (g.status !== 301 || !onSite || to.pathname !== new URL(g.profile).pathname) {
+    problem("legacy /go/ URL doesn't 301 to its profile", url, `${g.status} → ${g.location ?? g.error ?? ""}`);
+  } else if (isNoindex(g)) problem("legacy /go/ redirect is noindex", url, g.xRobots);
+}
 
 const orphans = [...targets].filter(([, t]) => t.status === 200 && t.type.includes("html") && !isNoindex(t)).map(([url]) => url);
-console.log(`${BASE}: ${pages.size} sitemap URLs, ${targets.size} other link targets checked.`);
+console.log(`${BASE}: ${pages.size} sitemap URLs, ${targets.size} other link targets and ${legacyGo.size} legacy /go/ URLs checked.`);
 if (orphans.length) console.log(`Note: ${orphans.length} linked HTML page(s) missing from the sitemap:\n  ${orphans.join("\n  ")}`);
 if (problems.length === 0) {
   console.log("No indexing problems found.");
