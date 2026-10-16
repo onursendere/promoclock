@@ -109,14 +109,15 @@ const jsonLd = [
   ogDescription={dict.meta.ogDescription}
   jsonLd={jsonLd}
 >
-  <section class="relative isolate overflow-hidden border-b">
+  {/* The hero fills the first screen below the sticky header (h-14 + 1px border); the intro sits centred and the sponsor banner closes the fold. */}
+  <section class="relative isolate flex min-h-[calc(100svh-3.5rem-1px)] flex-col overflow-hidden border-b">
     <div
       aria-hidden="true"
       class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(var(--color-border)_1px,transparent_1px)] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_0%,#000_40%,transparent_100%)] bg-size-[22px_22px]"
     >
     </div>
     <div
-      class="mx-auto grid w-full max-w-6xl gap-6 px-4 pt-8 pb-10 [grid-template-areas:'heading'_'watch'_'actions'] sm:px-6 sm:pt-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,440px)] lg:gap-x-14 lg:gap-y-8 lg:pt-20 lg:pb-16 lg:[grid-template-areas:'heading_watch'_'actions_watch']"
+      class="mx-auto my-auto grid w-full max-w-6xl gap-6 px-4 pt-8 pb-10 [grid-template-areas:'heading'_'watch'_'actions'] sm:px-6 sm:pt-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,440px)] lg:gap-x-14 lg:gap-y-8 lg:py-12 lg:[grid-template-areas:'heading_watch'_'actions_watch']"
     >
       <div class="[grid-area:heading] lg:self-end">
         <HeroHeading hub={hub} />

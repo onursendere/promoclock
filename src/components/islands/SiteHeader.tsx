@@ -36,11 +36,14 @@ export default function SiteHeader({ lang, homeHref, items, locales, labels, not
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-14 w-full max-w-6xl items-center gap-4 px-4 sm:px-6">
-        <a href={homeHref} className="flex items-center rounded-md" aria-label="PromoClock">
-          <Logo />
-        </a>
+        {/* Equal-width sides keep the nav centred in the header, not pushed against the logo. */}
+        <div className="flex flex-1 items-center">
+          <a href={homeHref} className="flex items-center rounded-md" aria-label="PromoClock">
+            <Logo />
+          </a>
+        </div>
 
-        <NavigationMenu viewport={false} className="hidden lg:flex">
+        <NavigationMenu viewport={false} className="hidden flex-none lg:flex">
           <NavigationMenuList>
             {items.map((item) => (
               <NavigationMenuItem key={item.href}>
@@ -60,7 +63,7 @@ export default function SiteHeader({ lang, homeHref, items, locales, labels, not
           </NavigationMenuList>
         </NavigationMenu>
 
-        <div className="ml-auto flex items-center gap-1">
+        <div className="flex flex-1 items-center justify-end gap-1">
           <LanguageSwitcher lang={lang} locales={locales} label={labels.language} />
           <Separator orientation="vertical" className="mx-1 hidden h-4 sm:block" />
           <NotificationBell titles={notifications.titles} bodies={notifications.bodies} />
