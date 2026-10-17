@@ -193,14 +193,14 @@ Setz an intensiven Tagen auf Tools, deren Limits sich täglich zurücksetzen, et
 
 ## Welche kostenlosen Testphasen und Aktionen laufen im Oktober 2026?
 
-Mit Stand 12. Oktober 2026 bieten diese Angebote auf unserer Seite [KI-Deals](/deals/) zusätzlich zu den kostenlosen Plänen oben Gratis- oder günstigeren Zugang.
+Mit Stand 17. Oktober 2026 bieten diese Angebote auf unserer Seite [KI-Deals](/deals/) zusätzlich zu den kostenlosen Plänen oben Gratis- oder günstigeren Zugang.
 
 - [4 kostenlose Monate ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/) für berechtigte Studierende an US-Hochschulen; bis 31. Oktober 2026 sichern.
 - [Ein Gratisjahr Google AI Pro](/deals/google-ai-pro-students-2026/) für berechtigte Studierende an US-Hochschulen oder Google AI Plus in über 140 Märkten; bis 31. Dezember 2026 einlösen.
 - [12 Monate Google AI Pro mit einem Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/), Pro XL oder Pro Fold, gekauft und eingelöst bis 31. Oktober 2026.
 - [Kostenloser Lovable-Chat](/deals/lovable-free-daily-chat-2026/) bis zu einem täglichen Kontingent in Free, Pro und Business bis 31. Oktober 2026.
 - [ElevenLabs Starter für $1](/deals/elevenlabs-starter-1-first-month-2026/) im ersten Monat bis 18. Oktober 2026.
-- [50 % weniger Claude-Sitzungsnutzung nach dem Erstellen von Artifacts](/deals/claude-artifact-usage-promo-oct-2026/), seit dem 7. Oktober auch im Free-Plan, bis 15. Oktober 2026.
+- [6 Monate Claude Max 20x für Open-Source-Maintainer](/deals/claude-for-open-source-max-2026/) über Anthropics Programm Claude for Open Source, unbefristet.
 - [Ein Gratisjahr Kiro für Studierende an Universitäten](/deals/kiro-student-free-year-2026/) mit 1.000 Credits pro Monat, unbefristet.
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/) und [Notion Plus für Studierende](/deals/notion-education-plus-free/), beide unbefristet.
 - [50 % Rabatt auf einen ersten Manus-Monat](/deals/manus-welcome-back-bonus-2026/) für kostenlose Nutzer, die von der Serviceänderung 2026 betroffen sind, bis 22. November 2026.

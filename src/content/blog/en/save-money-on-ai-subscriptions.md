@@ -5,7 +5,7 @@ metaDescription: "Save money on AI subscriptions in 2026: Claude Pro drops to $2
 excerpt: "To save money on AI subscriptions, keep one main assistant, pay yearly where the vendor offers it (Claude Pro is $200/year, about $17/month instead of $20), use free tiers for light tasks, and claim student, device and trial offers before they renew. As of October 2026, ChatGPT has no yearly plan, but ChatGPT Go costs $8/month."
 category: guides
 publishedAt: 2026-10-04
-updatedAt: 2026-10-12
+updatedAt: 2026-10-17
 image:
   src: "../images/save-money-on-ai-subscriptions.jpg"
   alt: "Coins falling into a white piggy bank on a green background"
@@ -135,9 +135,9 @@ Free trials save money only if you decide before the renewal date. Grammarly Pro
 
 ### 10. Time sign-ups to live promotions
 
-Short promotions can cut a month's cost sharply. As of October 12, 2026:
+Short promotions can cut a month's cost sharply. As of October 17, 2026:
 
-- **Claude artifacts**: through October 15, 2026, work after creating or editing an artifact counts 50% less toward session limits on Free, Pro, Max and Team. See [the artifact promotion](/deals/claude-artifact-usage-promo-oct-2026/).
+- **Claude Max and Team**: since October 7, 2026, the plans include $100–$500 a month in API credits that expire every billing cycle, so claim them once in Settings > Billing. See [Max and Team API credits](/deals/claude-max-team-api-credits-2026/).
 - **ElevenLabs**: for new subscribers, [the first month of Starter costs $1](/deals/elevenlabs-starter-1-first-month-2026/) instead of $6 until October 18, and Creator $11 instead of $22.
 - **Adobe Firefly**: new subscribers in the US and UK pay 30% less for the first year of Pro Plus or Premium until October 21, 2026, with a 12-month commitment.
 - **Gemini API**: developers pay half the regular rate for [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/) until December 31, 2026.

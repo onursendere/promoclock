@@ -114,9 +114,9 @@ Takip ettiğimiz en büyük AI indirimlerinin bazıları öğrencilere. Uygun AB
 
 ### 10. Kaydını canlı promosyonlara göre zamanla
 
-Kısa süreli promosyonlar bir ayın maliyetini ciddi ölçüde düşürebilir. 12 Ekim 2026 itibarıyla:
+Kısa süreli promosyonlar bir ayın maliyetini ciddi ölçüde düşürebilir. 17 Ekim 2026 itibarıyla:
 
-- **Claude artifact promosyonu**: 15 Ekim 2026'ya kadar bir artifact oluşturduktan ya da düzenledikten sonraki işler, Free, Pro, Max ve Team'deki oturum limitlerine %50 daha az sayılıyor. [Artifact promosyonuna](/deals/claude-artifact-usage-promo-oct-2026/) bak.
+- **Claude Max ve Team**: 7 Ekim 2026'dan beri planlar, her faturalandırma döneminde sona eren ayda $100–$500 API kredisi içeriyor; bu yüzden Settings > Billing altından bir kez talep et. [Max ve Team API kredilerine](/deals/claude-max-team-api-credits-2026/) bak.
 - **ElevenLabs**: 18 Ekim'e kadar yeni aboneler [Starter'ın ilk ayı için $6 yerine $1](/deals/elevenlabs-starter-1-first-month-2026/), Creator'ın ilk ayı için $22 yerine $11 ödüyor.
 - **Adobe Firefly**: 21 Ekim 2026'ya kadar ABD ve Birleşik Krallık'taki yeni aboneler, 12 aylık taahhütle Pro Plus ya da Premium'un ilk yılı için %30 daha az ödüyor.
 - **Gemini API**: geliştiriciler 31 Aralık 2026'ya kadar [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/) için normal fiyatın yarısını ödüyor.

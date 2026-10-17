@@ -1,20 +1,20 @@
 ---
 title: "2026년 10월 AI 할인 총정리: 진행 중인 혜택, 마감일, 가격 변동"
 metaTitle: "2026년 10월 AI 할인·프로모션: 마감일 총정리"
-metaDescription: "2026년 10월 AI 할인 정리: Claude 아티팩트 사용량 50% 절감, 학생 ChatGPT Plus 무료, Adobe Firefly 30% 할인, ElevenLabs $1 등 마감 11건입니다."
-excerpt: "2026년 10월 14일 기준 가장 좋은 AI 할인은 Claude의 아티팩트 사용량 50% 절감(10월 15일까지), Devin Desktop의 SWE-2 무료(10월 16일), ElevenLabs Starter $1(10월 18일), Adobe Firefly 30% 할인(10월 21일), 미국 대학생 대상 ChatGPT Plus 4개월 무료(10월 31일)입니다. Gemini 4 Argon의 API 출시 기념 요금은 11월 30일까지 적용됩니다."
+metaDescription: "2026년 10월 AI 할인 정리: 학생 ChatGPT Plus 무료, Adobe Firefly 30% 할인, ElevenLabs $1, 새 Claude API 크레딧과 모든 마감일을 확인하세요."
+excerpt: "2026년 10월 17일 기준 가장 좋은 AI 할인은 ElevenLabs Starter $1(10월 18일까지), Adobe Firefly 30% 할인(10월 21일), 미국 대학생 대상 ChatGPT Plus 4개월 무료(10월 31일)입니다. Claude Max와 Team에는 이제 월 $100–$500의 API 크레딧이 포함되며, Gemini 4 Argon의 API 출시 기념 요금은 11월 30일까지 적용됩니다."
 imageAlt: "가을 햇살이 드는 주황색 테이블 위에 놓인 키보드 달린 태블릿, 스마트폰, 호박"
 keyTakeaways:
-  - "2026년 10월 15일까지 Claude에서 아티팩트를 만들거나 수정한 뒤 이어지는 작업은 Free, Pro, Max, Team 플랜의 5시간 세션 한도에 50% 적게 반영됩니다."
-  - "PromoClock이 추적하는 AI 혜택 11개가 2026년 10월 14일부터 10월 31일 사이에 끝나며, 여기에는 Devin Desktop의 SWE-2 무료, ElevenLabs Starter $1, Adobe Firefly 30% 할인이 포함됩니다."
+  - "2026년 10월 7일부터 Claude Max 5x는 월 $100, Max 20x는 월 $200의 API 크레딧을 포함하고 Team 플랜은 최대 $500까지 합산해 받으며, 같은 날 Claude Haiku 5.5가 출시됐습니다."
+  - "PromoClock이 추적하는 AI 혜택 11개가 2026년 10월에 끝나며, 10월 17일 기준 7개는 아직 진행 중입니다. ElevenLabs Starter $1과 Adobe Firefly 30% 할인이 여기에 포함됩니다."
   - "미국 대학생은 2026년 10월 31일까지 $80 상당의 ChatGPT Plus 4개월 무료를, 2026년 12월 31일까지 Google AI Pro 1년 무료를 신청할 수 있습니다."
   - "Google은 2026년 10월 13일 Gemini 4 Argon을 Gemini API에 정식 출시했으며, 11월 30일까지 입력 토큰 100만 개당 $2, 출력 토큰 100만 개당 $10의 출시 기념 요금을 적용합니다."
-  - "GPT-5.5는 2026년 10월 14일 모든 플랜의 ChatGPT, ChatGPT Work, Codex에서 퇴역하고, ChatGPT Pro는 월 $100, $200, $500의 세 단계로 나뉩니다."
+  - "GPT-5.5는 2026년 10월 14일 모든 플랜의 ChatGPT, ChatGPT Work, Codex에서 퇴역했고, ChatGPT Pro는 이제 월 $100, $200, $500의 세 단계로 나뉩니다."
 faq:
   - q: "2026년 10월에 가장 좋은 AI 할인은 무엇인가요?"
-    a: "2026년 10월 14일 기준 가장 좋은 AI 할인은 10월 15일까지의 Claude 아티팩트 사용량 50% 절감, 10월 16일까지 Devin Desktop의 SWE-2 무료, 10월 18일까지 ElevenLabs Starter 첫 달 $1, 10월 21일까지 Adobe Firefly 첫 해 30% 할인, 10월 31일까지 미국 대학생 대상 ChatGPT Plus 4개월 무료입니다."
+    a: "2026년 10월 17일 기준 가장 좋은 AI 할인은 10월 18일까지 ElevenLabs Starter 첫 달 $1, 10월 21일까지 Adobe Firefly 첫 해 30% 할인, 10월 31일까지 미국 대학생 대상 ChatGPT Plus 4개월 무료입니다. Claude Max와 Team 구독자는 월 $100에서 $500 상당의 새 월간 API 크레딧도 신청하세요."
   - q: "2026년 10월에 Claude 프로모션이 있나요?"
-    a: "네. 2026년 10월 1일부터 10월 15일까지 아티팩트를 만들거나 수정한 뒤 이어지는 작업은 Claude의 5시간 세션 한도에 50% 적게 반영됩니다. Pro, Max, Team 플랜은 10월 1일부터, Free 플랜은 10월 7일부터 적용됐습니다. 주간 한도는 달라지지 않으며, Claude Code, API, Enterprise 플랜은 제외됩니다."
+    a: "있었습니다. 2026년 10월 1일부터 10월 15일까지 아티팩트를 만들거나 수정한 뒤 이어지는 작업은 Claude의 5시간 세션 한도에 50% 적게 반영됐으며, 이 프로모션은 끝났습니다. 10월 7일부터 Max 5x는 월 $100, Max 20x는 월 $200의 Claude API 크레딧을 포함하고, Team 플랜은 최대 $500까지 합산해 받습니다. 크레딧은 API와 Agent SDK에 쓸 수 있으며 Claude Code에는 쓸 수 없습니다."
   - q: "2026년 10월에 ChatGPT Plus를 무료로 쓸 수 있나요?"
     a: "자격을 갖춘 미국 대학생과 대학원생만 가능합니다. OpenAI의 Back to School 프로모션은 SheerID 인증을 마친 학생에게 $80 상당의 ChatGPT Plus 4개월을 무료로 제공하며, 2026년 10월 31일까지 신청해야 합니다. 해지하지 않으면 월 $20로 갱신되고, App Store나 Google Play 결제에는 적용되지 않습니다. 그 밖의 사용자는 Plus 월 $20, Go 월 $8를 냅니다."
   - q: "Gemini 4 Argon은 무료로 쓸 수 있나요?"
@@ -24,20 +24,20 @@ faq:
   - q: "10월에 시계가 바뀌면 Claude 피크 시간대도 달라지나요?"
     a: "UTC 기준 시간대는 그대로여서 Claude 피크 시간대는 평일 13:00–19:00 UTC로 유지됩니다. 서머타임이 끝나면서 현지 시간만 달라집니다. 런던에서는 2026년 10월 25일에 14:00–20:00 BST에서 13:00–19:00 GMT로, 뉴욕에서는 11월 1일에 09:00–15:00 EDT에서 08:00–14:00 EST로 바뀝니다."
 ---
-2026년 10월 14일 기준 지금 챙길 만한 AI 할인은 Claude 아티팩트 사용량 50% 절감, Devin Desktop의 SWE-2 무료, ElevenLabs Starter $1, Adobe Firefly 첫 해 30% 할인, 미국 대학생 대상 ChatGPT Plus 4개월 무료입니다. 대부분 11월 전에 끝납니다. 10월에는 Gemini 4 Argon이 Gemini API에 출시되고 GPT-5.5가 ChatGPT와 Codex에서 퇴역했으며, Gemini 3.8 Flash API 요금은 12월 31일까지 반값으로 유지됩니다.
+2026년 10월 17일 기준 지금 챙길 만한 AI 할인은 ElevenLabs Starter $1, Adobe Firefly 첫 해 30% 할인, 미국 대학생 대상 ChatGPT Plus 4개월 무료이며, Claude Max와 Team 구독자는 이제 월 $100–$500의 API 크레딧을 받습니다. 대부분의 혜택은 11월 전에 끝납니다. 10월에는 Claude Haiku 5.5와 Gemini 4 Argon이 각자의 API에 출시되고 GPT-5.5가 ChatGPT와 Codex에서 퇴역했으며, Gemini 3.8 Flash API 요금은 12월 31일까지 반값으로 유지됩니다.
 
 PromoClock은 AI 도구 100개의 프로모션을 추적하며, 각 혜택을 제공사의 공식 요금 페이지나 고객센터와 대조해 확인합니다. 아래에 마감일순으로 정리한 10월 진행 중 특가 전체, Claude·ChatGPT·Gemini의 변경 사항, 11월과 12월에 챙길 날짜를 담았습니다.
 
 ## 2026년 10월에 끝나는 AI 할인은?
 
-[AI 특가 페이지](/deals/)에 올라 있는 AI 혜택 11개가 2026년 10월 14일부터 10월 31일 사이에 끝나며, 그중 6개는 앞으로 일주일 안에 마감됩니다.
+[AI 특가 페이지](/deals/)에 올라 있는 AI 혜택 11개가 2026년 10월 14일부터 10월 31일 사이에 끝납니다. 10월 17일 기준 4개는 이미 끝났고 7개는 아직 진행 중입니다.
 
 | 종료일 | 도구 | 혜택 | 대상 | 자세히 |
 |---|---|---|---|---|
-| 10월 14일 | Bolt | Forge 프리뷰 사용량 최대 50배, 월 $9 Bolt Lite 가입 | 개인 Pro·Lite 플랜 | [Bolt Forge 프리뷰](/deals/bolt-forge-preview-2026/) |
-| 10월 15일 | Claude | 아티팩트 생성·수정 후 세션 사용량 50% 적게 반영 | Free, Pro, Max, Team | [Claude 아티팩트 프로모션](/deals/claude-artifact-usage-promo-oct-2026/) |
-| 10월 15일 | Magnific (Freepik) | Magnific One 이미지 생성 무제한 | Premium+, Pro, Business | [Magnific One 무제한](/deals/magnific-one-unlimited-oct-2026/) |
-| 10월 16일 | Devin Desktop (Windsurf) | SWE-2 코딩 모델 무료 | 셀프서비스 Pro, Max, Teams | [SWE-2 무료](/deals/windsurf-swe-2-free-oct-2026/) |
+| 10월 14일 (종료) | Bolt | Forge 프리뷰 사용량 최대 50배, 월 $9 Bolt Lite 가입 | 개인 Pro·Lite 플랜 | [Bolt Forge 프리뷰](/deals/bolt-forge-preview-2026/) |
+| 10월 15일 (종료) | Claude | 아티팩트 생성·수정 후 세션 사용량 50% 적게 반영 | Free, Pro, Max, Team | [Claude 아티팩트 프로모션](/deals/claude-artifact-usage-promo-oct-2026/) |
+| 10월 15일 (종료) | Magnific (Freepik) | Magnific One 이미지 생성 무제한 | Premium+, Pro, Business | [Magnific One 무제한](/deals/magnific-one-unlimited-oct-2026/) |
+| 10월 16일 (종료) | Devin Desktop (Windsurf) | SWE-2 코딩 모델 무료 | 셀프서비스 Pro, Max, Teams | [SWE-2 무료](/deals/windsurf-swe-2-free-oct-2026/) |
 | 10월 18일 | ElevenLabs | Starter 첫 달 $6 대신 $1 | 신규 구독자 | [ElevenLabs Starter $1](/deals/elevenlabs-starter-1-first-month-2026/) |
 | 10월 21일 | Adobe Firefly | Pro Plus·Premium 첫 해 30% 할인 | Firefly를 처음 구독하는 사용자 | [Firefly 30% 할인](/deals/adobe-firefly-30-off-first-year-2026/) |
 | 10월 31일 | ChatGPT | ChatGPT Plus 4개월 무료 | 미국 대학생·대학원생 | [ChatGPT 학생 혜택](/deals/chatgpt-plus-students-back-to-school-2026/) |
@@ -46,20 +46,21 @@ PromoClock은 AI 도구 100개의 프로모션을 추적하며, 각 혜택을 �
 | 10월 31일 | Wispr Flow | 팀 전체에 Notetaker 무료 | Dictation 플랜을 쓰는 팀 | [Wispr Flow Notetaker](/deals/wispr-flow-notetaker-free-teams-2026/) |
 | 10월 31일 | Runway | 2개월 사용량 무료 | Enterprise 계약을 체결하는 기업 | [Runway Enterprise 혜택](/deals/runway-enterprise-two-months-free-2026/) |
 
-종료일은 각 제공사가 밝힌 날짜입니다. Devin의 모델 문서는 SWE-2 무료 마지막 날을 10월 15일로 적고 있으므로, 많이 쓸 계획이라면 하루 일찍 시작하세요.
+종료일은 각 제공사가 밝힌 날짜이며, 마감일이 지나면 해당 혜택을 종료로 표시합니다.
 
 ## 2026년 10월에 Claude는 무엇이 달라졌나요?
 
-Claude에는 아티팩트 작업에 대한 한시적 사용량 할인, Claude Code 클라우드 크레딧, 며칠 만에 정원이 찬 스타트업 혜택이 생겼습니다. 피크 시간대와 주간 한도는 그대로입니다.
+Claude에는 Max와 Team의 월간 API 크레딧, 새 Haiku 모델, 아티팩트 작업에 대한 한시적 사용량 할인, Claude Code 클라우드 크레딧, 며칠 만에 정원이 찬 스타트업 혜택이 생겼습니다. 피크 시간대와 주간 한도는 그대로입니다.
 
-### 아티팩트 사용량 프로모션: 10월 15일까지 세션 사용량 50% 절감
+### Max와 Team: 월 $100–$500의 API 크레딧
 
-2026년 10월 1일부터 10월 15일 오후 11시 59분(PT)까지, 아티팩트를 만들거나 수정한 뒤 이어지는 작업은 Claude의 5시간 세션 한도에 50% 적게 반영됩니다. [Anthropic 고객센터](https://support.claude.com/en/articles/17274727-artifact-usage-promotion)에 따르면 Pro, Max, Team 플랜은 10월 1일부터, Free 플랜은 10월 7일부터 할인이 적용됩니다.
+2026년 10월 7일부터 [Claude Max와 Team에는 월간 API 크레딧이 포함됩니다](/deals/claude-max-team-api-credits-2026/). [Anthropic 고객센터](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans)에 따르면 Max 5x는 $100, Max 20x는 $200이고, Team은 Standard 좌석당 $20, Premium 좌석당 $100이며 합산 최대 $500입니다. Free, Pro, Enterprise 플랜은 받지 못합니다. 신청 과정은 [API 크레딧 가이드](/blog/claude-max-team-api-credits/)에서 안내합니다.
 
-- 채팅에서는 아티팩트를 만들거나 수정한 뒤 보내는 다음 메시지 10개가 할인되며, 답변 하나당 최대 15단계까지 적용됩니다.
-- Document, Presentation, Design에서 시작한 Cowork 작업은 약 45분 분량이 할인됩니다.
-- Claude Code, API, Slack용 Claude, 로컬 및 예약 Cowork 작업, 독립형 Claude Design 앱, Enterprise 플랜은 제외됩니다.
-- 주간 한도는 달라지지 않으므로 이 할인은 한 주가 아니라 한 세션을 늘려 줍니다. Anthropic은 프로모션을 변경하거나 일찍 끝낼 수 있다고 밝혔습니다.
+- 플랜에 가입한 지 7일이 지난 뒤 claude.ai의 Settings > Billing에서 Claude Console 조직을 연결해 한 번 신청합니다.
+- Claude API, Message Batches, Console Playground, Claude Managed Agents, Agent SDK에 쓸 수 있으며, 대화형 Claude Code와 추가 사용량에는 쓸 수 없습니다.
+- 크레딧은 결제 주기마다 새로 지급되고 주기가 끝나면 이월 없이 소멸합니다.
+- 같은 날 Anthropic은 프롬프트 100,000토큰 이하 기준 입력 100만 토큰당 $0.10인 Claude Haiku 5.5를 출시했고, Sonnet 5.5의 캐시 읽기 요금을 100만 토큰당 $0.10으로 절반 인하했습니다.
+- 오픈소스 메인테이너는 [Claude Max 20x 6개월](/deals/claude-for-open-source-max-2026/)을 신청할 수 있고, Anthropic의 OSS Scanner는 10월 8일부터 자리 잡은 프로젝트에 무료 보안 스캔을 제공합니다.
 
 ### Claude Code 클라우드 크레딧: 11월 4일 전에 쓰세요
 
@@ -75,9 +76,9 @@ Claude 피크 시간대는 여전히 평일 13:00–19:00 UTC이며, 이 시간�
 
 ## 2026년 10월 ChatGPT와 Codex에는 어떤 소식이 있나요?
 
-GPT-5.5는 2026년 10월 14일 ChatGPT와 Codex에서 퇴역하고, ChatGPT Pro는 월 $100, $200, $500의 세 가지 사용량 단계로 나뉩니다.
+GPT-5.5는 2026년 10월 14일 ChatGPT와 Codex에서 퇴역했고, ChatGPT Pro는 이제 월 $100, $200, $500의 세 가지 사용량 단계로 나뉩니다.
 
-- **GPT-5.5 퇴역:** [OpenAI 모델 문서](https://learn.chatgpt.com/docs/models)에 따르면 2026년 10월 14일 GPT-5.5가 모든 플랜의 ChatGPT, ChatGPT Work, Codex에서 빠집니다. API는 영향을 받지 않습니다. OpenAI는 Plus, Pro, Business, Enterprise, Edu 사용자에게는 GPT-6 Sol을, 데스크톱 앱의 Free와 Go 사용자에게는 GPT-6 Luna를 안내합니다.
+- **GPT-5.5 퇴역:** [OpenAI 모델 문서](https://learn.chatgpt.com/docs/models)에 따르면 2026년 10월 14일 GPT-5.5가 모든 플랜의 ChatGPT, ChatGPT Work, Codex에서 빠졌습니다. API는 영향을 받지 않습니다. OpenAI는 Plus, Pro, Business, Enterprise, Edu 사용자에게는 GPT-6 Sol을, 데스크톱 앱의 Free와 Go 사용자에게는 GPT-6 Luna를 안내합니다.
 - **플랜:** Free는 $0, Go는 미국 기준 월 $8, Plus는 월 $20입니다. Plus에는 GPT-6 고급 추론 모델, 확장된 심층 리서치, 더 많은 Codex 사용량, 광고 없음이 더해집니다.
 - **Pro 단계:** $100 단계는 Plus의 5배 사용량을 제공하고, $200 단계는 2026년 9월 29일 신규 가입을 다시 열었으며, 새 $500 단계는 사용량이 가장 많습니다. Pro에는 상시 실행 에이전트인 Dot도 추가됩니다.
 - **Pro $200 변경:** 언론 보도에 따르면 $200 단계의 사용량이 Plus의 20배에서 10배로 바뀌었습니다. 기존 구독자는 2026년 10월 29일까지 이전 사용량을 유지합니다.
@@ -100,15 +101,15 @@ Gemini 자체는 Google 계정만 있으면 무료입니다. 미국 기준 Googl
 
 ## 2026년 10월 AI 코딩 도구 특가는?
 
-이번 달 무료 사용량이 가장 많은 쪽은 코딩 도구입니다. Devin Desktop의 SWE-2 무료, Bolt의 Forge 프리뷰, Lovable 무료 채팅, Kiro의 학생·스타트업 무료 혜택이 있습니다.
+코딩 도구에 이번 달 무료 사용량이 가장 많았습니다. Devin Desktop의 SWE-2 무료와 Bolt의 Forge 프리뷰는 끝났고, Lovable 무료 채팅과 Kiro의 학생·스타트업 무료 혜택은 아직 열려 있습니다.
 
-### Devin Desktop(구 Windsurf): SWE-2 10월 16일까지 무료
+### Devin Desktop(구 Windsurf): SWE-2 무료 혜택이 10월 16일에 종료됐습니다
 
-[Devin 요금 페이지](https://devin.ai/pricing)에 따르면 Cognition의 SWE-2 코딩 모델은 2026년 10월 16일까지 셀프서비스 플랜의 Devin Desktop(이름이 바뀐 Windsurf 에디터)과 Devin CLI에서 무료입니다. 월 $20의 Pro와 월 $200의 Max가 포함됩니다. 무료 기간이 끝나면 Devin 문서상 SWE-2는 입력 토큰 100만 개당 $3, 출력 토큰 100만 개당 $15입니다. 플랜과 할당량은 [Windsurf 페이지](/tools/windsurf/)에 있습니다.
+[Devin 요금 페이지](https://devin.ai/pricing)에 따르면 Cognition의 SWE-2 코딩 모델은 2026년 10월 16일까지 셀프서비스 플랜의 Devin Desktop(이름이 바뀐 Windsurf 에디터)과 Devin CLI에서 무료였습니다. 월 $20의 Pro와 월 $200의 Max가 포함됐습니다. 무료 기간이 끝난 뒤 Devin 문서상 SWE-2는 입력 토큰 100만 개당 $3, 출력 토큰 100만 개당 $15입니다. 플랜과 할당량은 [Windsurf 페이지](/tools/windsurf/)에 있습니다.
 
-### Bolt: Forge 프리뷰는 10월 14일 종료
+### Bolt: Forge 프리뷰가 10월 14일에 종료됐습니다
 
-Bolt Forge 리서치 프리뷰 기간에는 개인 Bolt Pro 플랜이 2026년 10월 14일까지 추가 비용 없이 최대 50배 많은 Forge 사용량을 받습니다. Forge 전용 Bolt Lite 플랜은 월 $9이며 가입은 같은 날 마감되고, 가입자는 이후에도 이 가격을 유지합니다. Bolt는 프리뷰 이후의 Forge 요금을 발표하지 않았습니다.
+Bolt Forge 리서치 프리뷰 기간에는 개인 Bolt Pro 플랜이 2026년 10월 14일까지 추가 비용 없이 최대 50배 많은 Forge 사용량을 받았습니다. Forge 전용 Bolt Lite 플랜은 월 $9였고 가입은 같은 날 마감됐으며, 가입자는 이후에도 이 가격을 유지합니다. Bolt는 10월 14일 현재 프리뷰 이후의 Forge 요금을 발표하지 않았습니다.
 
 ### Lovable: 10월 31일까지 매일 채팅 무료
 
@@ -122,11 +123,11 @@ Bolt Forge 리서치 프리뷰 기간에는 개인 Bolt Pro 플랜이 2026년 10
 
 ## 2026년 10월 이미지·영상·음성 AI 특가는?
 
-이번 달 할인 폭이 가장 큰 쪽은 크리에이티브 도구입니다. Adobe Firefly 첫 해 30% 할인, ElevenLabs Starter $1, Magnific One 이미지 무제한이 있습니다.
+이번 달 할인 폭이 가장 큰 쪽은 크리에이티브 도구입니다. Adobe Firefly 첫 해 30% 할인과 ElevenLabs Starter $1이 있습니다. Magnific One 이미지 무제한은 10월 15일에 끝났습니다.
 
 - **Adobe Firefly:** 신규 구독자는 2026년 10월 21일까지 첫 해 요금이 30% 낮아집니다. Pro Plus는 월 $49.99 대신 월 $34.97, Premium은 월 $199.99 대신 월 $139.91입니다. 12개월 약정이 필요하며 교육, OEM, 볼륨 라이선스 고객은 제외됩니다.
 - **ElevenLabs:** Starter 플랜의 첫 달은 2026년 10월 18일까지 $6 대신 $1이고, Creator의 첫 달은 $22 대신 $11입니다. Eleven v4 출시 기념 크레딧 3배 보너스는 10월 12일에 끝났습니다.
-- **Magnific(구 Freepik의 AI 제품군):** Premium+, Pro, Business는 2026년 10월 15일까지 데스크톱에서 Magnific One 이미지 생성을 무제한으로 쓸 수 있으며, 고품질(High) 2K·4K의 Draft와 Final이 대상입니다. Max 품질은 여전히 크레딧을 씁니다.
+- **Magnific(구 Freepik의 AI 제품군):** Premium+, Pro, Business는 2026년 10월 15일까지 데스크톱에서 Magnific One 이미지 생성을 무제한으로 쓸 수 있었으며, 고품질(High) 2K·4K의 Draft와 Final이 대상이었습니다. 이 혜택은 끝났습니다.
 - **Synthesia:** AI 영상 에이전트 Syren이 2026년 10월 9일 베타로 출시됐습니다. Syren은 크레딧 방식이며, 출시 크레딧 덕분에 무료 사용자를 포함한 모든 고객이 최대 3분 길이의 첫 영상을 만들 수 있습니다.
 - **Runway:** 2026년 10월 31일까지 Enterprise 계약을 체결하는 기업은 2개월 사용량을 무료로 받습니다. Free, Standard, Pro, Max, Team 플랜은 제외됩니다.
 
@@ -134,14 +135,18 @@ Bolt Forge 리서치 프리뷰 기간에는 개인 Bolt Pro 플랜이 2026년 10
 
 ## 2026년 10월에 이미 끝난 AI 할인은?
 
-10월 혜택 4개가 중순 전에 끝났고, 4개가 이번 주에 더 끝납니다.
+2026년 10월 17일 기준 10월 혜택 8개가 끝났습니다.
 
 - **Claude Code 클라우드 크레딧:** 신청 기간이 2026년 10월 7일에 끝났으며, 신청한 크레딧은 11월 4일까지 쓸 수 있습니다.
 - **Claude for Startups Team 1년 무료:** 10월 6일 출시 후 며칠 만에 정원이 찼고, 프로그램은 현재 신규 신청을 받지 않습니다.
 - **Magnific Seedream 5.0 Pro 무제한:** 10월 10일에 끝났고 Magnific One 무제한으로 대체됐습니다.
 - **ElevenLabs Eleven v4 크레딧 3배:** Creator 이상 플랜 대상으로 10월 12일에 끝났습니다.
+- **Bolt Forge 프리뷰:** 10월 14일에 끝났으며, 월 $9 Bolt Lite 가입도 같은 날 마감됐습니다.
+- **Claude 아티팩트 프로모션:** 아티팩트를 만들거나 편집한 뒤 세션 사용량 50% 절감 혜택이 10월 15일에 끝났습니다([최종 조건](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Magnific One 무제한:** 10월 15일에 끝났습니다.
+- **Devin Desktop의 SWE-2 무료:** 10월 16일에 끝났습니다.
 
-Bolt의 Forge 프리뷰는 10월 14일에, Claude의 아티팩트 프로모션과 Magnific One 무제한 혜택은 10월 15일에, Devin Desktop의 SWE-2 무료 제공은 10월 16일에 끝납니다. 종료된 혜택도 PromoClock에 페이지가 남아 있어 최종 조건을 확인할 수 있습니다.
+다음 마감은 10월 18일의 ElevenLabs Starter $1과 10월 21일의 Adobe Firefly 30% 할인입니다. 종료된 혜택도 PromoClock에 페이지가 남아 있어 최종 조건을 확인할 수 있습니다.
 
 ## 그 밖에 알아둘 AI 가격 변동은?
 
@@ -176,8 +181,8 @@ Claude의 피크 시간대는 두 번의 시간 변경 동안에도 13:00–19:0
 
 이번 주에 끝나는 혜택부터 챙기고, 지금 당장 필요한 도구가 아니라면 연간 플랜은 블랙 프라이데이까지 기다리세요.
 
-- **Claude 사용자:** 아티팩트를 많이 쓰는 글쓰기, 문서, 슬라이드 작업은 10월 15일 전에 하고, 긴 세션은 13:00–19:00 UTC를 피해 실행하세요.
+- **Claude 사용자:** Max나 Team이라면 Settings > Billing에서 월간 API 크레딧을 신청하고, 긴 세션은 13:00–19:00 UTC를 피해 실행하세요.
 - **학생:** Google AI Pro 1년 무료를 먼저 받고, ChatGPT를 매일 쓸 때만 10월 31일까지 ChatGPT Plus를 신청하세요. 나머지 혜택은 [AI 학생 할인 가이드](/blog/ai-student-discounts/)에서 볼 수 있습니다.
-- **개발자:** 10월 16일 전에 Devin Desktop에서 SWE-2를 써 보고, 11월 30일에 출시 기념 요금이 끝나기 전에 Gemini 4 Argon을 벤치마크하고, 반값인 동안 Gemini 3.8 Flash를 테스트하고, 아직 GPT-5.5에 고정된 Codex 설정이 있다면 바꾸세요.
+- **개발자:** 대량 작업에는 Claude Haiku 5.5를 써 보고, 11월 30일에 출시 기념 요금이 끝나기 전에 Gemini 4 Argon을 벤치마크하고, 반값인 동안 Gemini 3.8 Flash를 테스트하고, 아직 GPT-5.5에 고정된 Codex 설정이 있다면 바꾸세요.
 - **크리에이터:** ElevenLabs Starter는 10월 18일까지 $1로 시작하세요. Adobe Firefly 30% 할인은 12개월 약정을 끝까지 유지할 생각일 때만 10월 21일 전에 구매하세요.
 - **그 밖의 모든 분:** 11월 일정을 캘린더에 적어 두고, 블랙 프라이데이 전에 [AI 구독료 절약법](/blog/save-money-on-ai-subscriptions/)을 읽어 보세요.

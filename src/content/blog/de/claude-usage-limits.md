@@ -80,6 +80,8 @@ Claude Code nutzt dieselben 5-Stunden- und Wochenlimits wie der Chat, doch Anthr
 - **Stoßzeiten:** Dasselbe Update hob die Stoßzeit-Drosselung für Claude Code in Pro und Max auf.
 - **Wochenlimits:** Eine [Erhöhung der Wochenlimits um 50 %](/deals/claude-code-weekly-plus50-2026/) lief vom 13. Mai bis 14. September 2026. Sie wurde durch [dauerhafte +25 %](/deals/claude-code-weekly-plus25-permanent/) ersetzt. Ausgehend von 100 heißt das: 100 vorher, 150 während der Aktion und 125 jetzt.
 - **Cloud-Sessions:** Einzelne Pro-Abonnenten bekommen $100 und Max-Abonnenten $250 [Cloud-Guthaben für Claude Code](/deals/claude-code-cloud-credit-2026/), das Cloud-Sessions vor den Plan-Limits verbrauchen. Die Einlösefrist endete am 7. Oktober 2026, eingelöstes Guthaben bleibt bis 4. November 2026 nutzbar.
+- **Kompaktierung im Leerlauf:** Seit Claude Code 2.1.299 (14. Oktober 2026) wird eine Terminal-Unterhaltung mit mehr als 200K Tokens, die etwa 54 Minuten im Leerlauf bleibt, kompaktiert, bevor ihr einstündiger Prompt-Cache abläuft, sodass deine nächste Nachricht nicht die ganze Unterhaltung neu verarbeiten muss.
+- **API-Guthaben:** Das monatliche API-Guthaben bei Max und Team erhöht die Nutzung von Claude Code nicht; es deckt die Claude API und das Agent SDK ab, wie unser [Ratgeber zum API-Guthaben](/blog/claude-max-team-api-credits/) erklärt.
 
 Claude Code ist nicht Teil des Free-Plans.
 
@@ -93,7 +95,7 @@ Enterprise-Pläne sind nicht betroffen, und Claude Code ist in Pro und Max ausge
 
 ## Was hat sich 2026 an Claudes Nutzungslimits geändert?
 
-Wir zählen 2026 insgesamt 9 Limit-Änderungen und Aktionen, 4 davon allein für Claude Code. Mit Stand 12. Oktober 2026 läuft noch eine Aktion.
+Wir zählen 2026 insgesamt 9 Limit-Änderungen und Aktionen, 4 davon allein für Claude Code. Mit Stand 17. Oktober 2026 läuft keine mehr: Die Artifact-Aktion endete am 15. Oktober.
 
 | Datum | Änderung | Pläne | Status |
 |---|---|---|---|
@@ -105,9 +107,9 @@ Wir zählen 2026 insgesamt 9 Limit-Änderungen und Aktionen, 4 davon allein für
 | Juli 2026 | Fable 5 in Pro und Team-Standard-Plätzen auf Nutzungs-Credits umgestellt | Pro, Team-Standard-Plätze | In Kraft |
 | 14. September 2026 | Wochenlimits von Claude Code dauerhaft +25 % über dem Niveau vor der Aktion | Pro, Max, Team, Seat-basiertes Enterprise | Dauerhaft |
 | 23. September – 7. Oktober 2026 | [Cloud-Guthaben für Claude Code](/deals/claude-code-cloud-credit-2026/): $100 (Pro) oder $250 (Max) | Einzelne Pro- und Max-Abos | Einlösefrist beendet; Guthaben bis 4. November nutzbar |
-| 1.–15. Oktober 2026 | [50 % weniger Sitzungsnutzung nach dem Erstellen oder Bearbeiten von Artifacts](/deals/claude-artifact-usage-promo-oct-2026/) | Free (ab 7. Oktober), Pro, Max, Team | Endet am 15. Oktober |
+| 1.–15. Oktober 2026 | [50 % weniger Sitzungsnutzung nach dem Erstellen oder Bearbeiten von Artifacts](/deals/claude-artifact-usage-promo-oct-2026/) | Free (ab 7. Oktober), Pro, Max, Team | Beendet |
 
-Die Artifact-Aktion gilt für die nächsten 10 Chat-Nachrichten, nachdem du ein Artifact erstellt oder bearbeitet hast, und endet am 15. Oktober um 23:59 Uhr PT. Free-Pläne kamen am 7. Oktober dazu; Claude Code, die API und Enterprise-Pläne sind laut [Anthropics Aktionsseite](https://support.claude.com/en/articles/17274727-artifact-usage-promotion) ausgeschlossen.
+Die Artifact-Aktion galt für die nächsten 10 Chat-Nachrichten, nachdem du ein Artifact erstellt oder bearbeitet hattest, und endete am 15. Oktober um 23:59 Uhr PT. Free-Pläne kamen am 7. Oktober dazu; Claude Code, die API und Enterprise-Pläne waren laut [Anthropics Aktionsseite](https://support.claude.com/en/articles/17274727-artifact-usage-promotion) ausgeschlossen.
 
 ## Ändert das gewählte Modell, wie schnell du das Limit erreichst?
 
@@ -151,7 +153,7 @@ Am meisten bringen Timing, kürzere Unterhaltungen und das richtige Modell. Dies
 - **Nutze Projekte für Referenzdateien.** Laut Anthropic zählen zwischengespeicherte Inhalte in Projekten weniger auf deine Limits.
 - **Wähle das leichtere Modell.** Nimm standardmäßig Sonnet und senke die Effort-Stufe für einfache Arbeit.
 - **Setze Tools gezielt ein.** Recherche und Websuche erhöhen die Nutzung, also schalte sie nur ein, wenn die Antwort sie braucht.
-- **Nutze laufende Aktionen.** Bis 15. Oktober 2026 kostet die Arbeit mit Artifacts in Free, Pro, Max oder Team 50 % weniger Sitzungsnutzung.
+- **Gib Subagenten eine leichtere Konfiguration.** Bitte in Claude Code für Suchen und Nachschlagen um Subagenten mit niedrigem Effort oder Haiku 5.5 und spare dir hohen Effort für den einen Schritt, der Urteilsvermögen braucht.
 
 ## Fazit
 

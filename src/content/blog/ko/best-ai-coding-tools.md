@@ -70,7 +70,7 @@ Claude Code는 터미널, VS Code, JetBrains IDE, Claude 데스크톱 앱에서 
 
 Claude Code는 Claude 채팅과 하나의 풀을 공유하며, 사용량은 5시간 단위로 갱신되는 세션과 주간 상한으로 측정됩니다. 2026년 5월 6일 Anthropic은 [Claude Code의 5시간 한도를 두 배로 늘리고](/deals/claude-code-5h-limits-doubled/) Pro와 Max에서 평일 피크 시간대 한도 감소 대상에서 제외했습니다. 9월 14일부터는 주간 한도가 [영구적으로 25% 높아졌습니다](/deals/claude-code-weekly-plus25-permanent/). [실시간 피크 시간대 시계](/)에서 보듯 Claude 채팅은 여전히 평일 13:00–19:00 UTC에 한도가 더 빨리 소진됩니다. 자세한 내용은 [Claude 사용 한도 가이드](/blog/claude-usage-limits/)에 있습니다.
 
-2026년 10월 7일까지 [$100 또는 $250의 Claude Code 클라우드 크레딧](/deals/claude-code-cloud-credit-2026/)을 신청한 개인 Pro·Max 구독자는 11월 4일까지 클라우드 세션에서 사용할 수 있습니다. 추천 대상: 저장소 전체를 다루는 에이전트 작업.
+2026년 10월 7일까지 [$100 또는 $250의 Claude Code 클라우드 크레딧](/deals/claude-code-cloud-credit-2026/)을 신청한 개인 Pro·Max 구독자는 11월 4일까지 클라우드 세션에서 사용할 수 있습니다. Max와 Team 플랜에는 Agent SDK와 직접 만든 도구에 쓸 수 있는 월 $100–$500의 [Claude API 크레딧](/deals/claude-max-team-api-credits-2026/)도 포함되지만, 대화형 Claude Code에는 쓸 수 없습니다. 추천 대상: 저장소 전체를 다루는 에이전트 작업.
 
 ### OpenAI Codex
 
@@ -94,7 +94,7 @@ Cursor 자체 모델인 Grok과 Composer는 더 큰 포함 사용량 풀을 쓰�
 
 ### Devin Desktop(구 Windsurf)
 
-Windsurf는 2026년 6월 2일 업데이트로 Devin Desktop이 됐으며 에디터, 확장 프로그램, 설정, 가격은 그대로입니다. Devin Desktop Free는 가벼운 할당량과 무제한 Tab 완성을 포함합니다. Pro는 월 $20, Max는 월 $200, Teams는 월 $80에 정규 좌석당 $40부터입니다. 2026년 10월 16일까지 [Pro와 Max에서 SWE-2가 무료](/deals/windsurf-swe-2-free-oct-2026/)입니다. 추천 대상: 로컬·클라우드 에이전트를 한 보드에서 관리하는 개발자.
+Windsurf는 2026년 6월 2일 업데이트로 Devin Desktop이 됐으며 에디터, 확장 프로그램, 설정, 가격은 그대로입니다. Devin Desktop Free는 가벼운 할당량과 무제한 Tab 완성을 포함합니다. Pro는 월 $20, Max는 월 $200, Teams는 월 $80에 정규 좌석당 $40부터입니다. [Pro와 Max의 SWE-2 무료 혜택](/deals/windsurf-swe-2-free-oct-2026/)은 2026년 10월 16일에 끝났습니다. 추천 대상: 로컬·클라우드 에이전트를 한 보드에서 관리하는 개발자.
 
 ### Kiro
 
@@ -142,7 +142,7 @@ Lovable Free는 하루 5빌드 크레딧을 주며 월 30크레딧이 상한입�
 
 ### Bolt.new
 
-Bolt.new Free는 월 100만 토큰(하루 상한 30만 토큰)을 포함하고, Pro는 1,000만 토큰에 월 $25부터입니다. 2026년 10월 14일까지 [Bolt Forge 프리뷰](/deals/bolt-forge-preview-2026/)로 Pro 사용자는 최대 50배 많은 Forge 사용량을 무료로 쓸 수 있고, 월 $9의 Forge 전용 Lite 플랜 가입도 계속 열려 있습니다. 추천 대상: 웹과 Expo 모바일 앱.
+Bolt.new Free는 월 100만 토큰(하루 상한 30만 토큰)을 포함하고, Pro는 1,000만 토큰에 월 $25부터입니다. Pro 사용자에게 최대 50배 많은 Forge 사용량을 무료로 제공하던 [Bolt Forge 프리뷰](/deals/bolt-forge-preview-2026/)는 2026년 10월 14일에 끝났습니다. 추천 대상: 웹과 Expo 모바일 앱.
 
 ### v0
 

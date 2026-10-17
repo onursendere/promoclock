@@ -114,9 +114,9 @@ ChatGPT Go为$8/月，根据[OpenAI帮助中心](https://help.openai.com/en/arti
 
 ### 10. 赶上正在进行的活动再注册
 
-短期活动能大幅降低某个月的花费。截至2026年10月12日：
+短期活动能大幅降低某个月的花费。截至2026年10月17日：
 
-- **Claude Artifact**：2026年10月15日前，在Free、Pro、Max和Team上创建或编辑Artifact之后的工作，计入会话额度的用量减少50%。详见[Artifact活动](/deals/claude-artifact-usage-promo-oct-2026/)。
+- **Claude Max和Team**：自2026年10月7日起，这两种套餐每月含$100–$500的API额度（每个计费周期结束即作废），只需在Settings > Billing中领取一次。详见[Max和Team的API额度](/deals/claude-max-team-api-credits-2026/)。
 - **ElevenLabs**：10月18日前，新订阅者的[Starter首月只需$1](/deals/elevenlabs-starter-1-first-month-2026/)，而不是$6；Creator首月$11，而不是$22。
 - **Adobe Firefly**：2026年10月21日前，美国和英国的新订阅者首年订阅Pro Plus或Premium可少付30%，需承诺订阅12个月。
 - **Gemini API**：2026年12月31日前，开发者使用[Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/)只需付常规费率的一半。

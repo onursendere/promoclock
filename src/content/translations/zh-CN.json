@@ -414,6 +414,41 @@
         "逐案审批；核心维护者和广泛使用的公开项目的负责人是主要对象。",
         "未列出申请截止日期。"
       ]
+    },
+    "claude-max-team-api-credits-2026": {
+      "title": "Claude Max和Team每月API额度：Max 5x $100、Max 20x $200，Team最高共享$500",
+      "headline": "Claude Max和Team：每月$100–$500 API额度",
+      "value": "每月$100–$500",
+      "audience": "Max 5x、Max 20x和Team订阅者",
+      "summary": "自2026年10月起，Claude Max 5x每月含$100、Max 20x每月含$200的Claude Platform额度，Team套餐每个Standard席位$20、每个Premium席位$100，汇总共享，上限$500。这些额度用于在Claude API上开发你自己的应用和智能体，需要领取一次。",
+      "scope": "Claude API、Message Batches、Console Playground、Managed Agents和Agent SDK",
+      "steps": [
+        "订阅Max或Team满七天后，在浏览器中打开claude.ai，进入Settings > Billing（Max）或Organization settings > Billing（Team）。",
+        "在API credits部分选择Link organization，然后选择或新建要接收额度的Claude Console组织。",
+        "接受Supplemental Credit Terms；额度会显示在Console账单页面的Promotional credits下。"
+      ],
+      "terms": [
+        "Free、Pro和Enterprise套餐不适用；优惠版的Nonprofit和Scientists Team套餐适用。",
+        "交互式Claude Code、Claude应用中的额外用量，以及Bedrock、Vertex AI或Foundry上的Claude不在覆盖范围内。",
+        "额度每个计费周期刷新一次（年付套餐按月刷新），周期结束即作废，不结转。",
+        "每个套餐只能关联一个Console组织，你无法自行更改关联。"
+      ]
+    },
+    "claude-for-open-source-max-2026": {
+      "title": "Claude for Open Source：开源维护者可免费获得6个月Claude Max 20x",
+      "headline": "Claude for Open Source：6个月Max 20x",
+      "value": "6个月Max 20x",
+      "audience": "广泛使用的开源项目的维护者和核心贡献者",
+      "summary": "Anthropic的Claude for Open Source项目为获批的维护者和贡献者免费提供六个月的Claude Max 20x。名额上限为10,000人，申请滚动审核，直到项目关闭。",
+      "steps": [
+        "确认你满足其中一项条件，例如有500个以上依赖它的仓库、每月下载量达200,000次以上，或过去12个月内向他人仓库合并了100个以上拉取请求。",
+        "用GitHub账号在Anthropic的Claude for Open Source页面提交申请，并用不超过500词说明你为什么符合条件。"
+      ],
+      "terms": [
+        "GitHub账号注册至少满两年，并且最近90天内有公开的开源活动。",
+        "Anthropic只联系获批的申请者；被拒绝不会收到通知。",
+        "6个月后，曾有付费套餐的成员会按原价恢复该套餐，除非自行取消；其他人会回到Free套餐。"
+      ]
     }
   },
   "tools": {
@@ -777,6 +812,13 @@
     },
     "claude-for-startups-launch-2026": {
       "title": "Claude for Startups新增免费1年Claude Team和$1,000 API积分"
+    },
+    "claude-api-credits-launch-2026": {
+      "title": "Claude Max和Team开始包含每月API额度（$100–$500）",
+      "description": "与Claude Haiku 5.5同日宣布，同一天Sonnet 5.5的缓存读取价格从每1M token $0.20降到了$0.10。"
+    },
+    "claude-cloud-credit-expiry-2026": {
+      "title": "未使用的Claude Code云会话积分到期"
     }
   }
 }

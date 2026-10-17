@@ -66,7 +66,7 @@ Claudes Stoßzeiten gelten seit dem 27. März 2026, dem letzten Tag einer zweiw�
 - **13.–27. März 2026:** [Die 2x-Aktion für die Nebenzeit](/deals/claude-march-2026-offpeak-2x/) verdoppelte die Sitzungslimits außerhalb von 8–14 Uhr ET an Werktagen und am ganzen Wochenende, für Free, Pro, Max und Team. Sie ist beendet.
 - **27. März 2026:** [Die Stoßzeiten traten in Kraft](/deals/claude-peak-hours-introduced/). Seitdem werden die Sitzungslimits werktags von 13:00 bis 19:00 UTC schneller verbraucht.
 - **6. Mai 2026:** Anthropic [verdoppelte die 5-Stunden-Limits von Claude Code und hob die Stoßzeit-Drosselung für Claude Code in Pro und Max auf](/deals/claude-code-5h-limits-doubled/), so die [offizielle Ankündigung](https://www.anthropic.com/news/higher-limits-spacex).
-- **1.–15. Oktober 2026:** Mit [der Artifact-Nutzungsaktion](/deals/claude-artifact-usage-promo-oct-2026/) zählen die nächsten 10 Chat-Nachrichten, nachdem du ein Artifact erstellt oder bearbeitet hast, in Pro, Max und Team sowie seit dem 7. Oktober in Free 50 % weniger auf das 5-Stunden-Limit. Sie läuft bis 15. Oktober um 23:59 Uhr PT.
+- **1.–15. Oktober 2026:** Mit [der Artifact-Nutzungsaktion](/deals/claude-artifact-usage-promo-oct-2026/) zählten die nächsten 10 Chat-Nachrichten, nachdem du ein Artifact erstellt oder bearbeitet hattest, in Pro, Max und Team sowie ab dem 7. Oktober in Free 50 % weniger auf das 5-Stunden-Limit. Sie endete am 15. Oktober um 23:59 Uhr PT.
 
 Alle anderen Änderungen an Sitzungs- und Wochenlimits in diesem Jahr findest du in unserem Ratgeber zu [Claudes Nutzungslimits](/blog/claude-usage-limits/).
 

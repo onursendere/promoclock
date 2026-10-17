@@ -80,6 +80,8 @@ Claude Code usa los mismos límites de 5 horas y semanales que el chat, pero Ant
 - **Horas pico:** la misma actualización quitó la reducción en horas pico para Claude Code en Pro y Max.
 - **Límites semanales:** un [aumento semanal del +50 %](/deals/claude-code-weekly-plus50-2026/) estuvo vigente del 13 de mayo al 14 de septiembre de 2026. Lo reemplazó un [+25 % permanente](/deals/claude-code-weekly-plus25-permanent/). Con una base de 100, eso es 100 antes, 150 durante la promoción y 125 ahora.
 - **Sesiones en la nube:** los suscriptores individuales de Pro reciben $100 y los de Max $250 en [crédito de nube de Claude Code](/deals/claude-code-cloud-credit-2026/), que las sesiones en la nube usan antes que los límites del plan. El plazo para solicitarlo cerró el 7 de octubre de 2026, y el crédito solicitado se puede usar hasta el 4 de noviembre de 2026.
+- **Compactación por inactividad:** desde Claude Code 2.1.299 (14 de octubre de 2026), una conversación de terminal de más de 200K tokens que lleva unos 54 minutos inactiva se compacta antes de que venza su caché de prompt de una hora, así que tu siguiente mensaje no reprocesa toda la conversación.
+- **Créditos de API:** los créditos de API mensuales de Max y Team no suman uso de Claude Code; cubren la API de Claude y el Agent SDK, como explica nuestra [guía de créditos de API](/blog/claude-max-team-api-credits/).
 
 Claude Code no forma parte del plan Free.
 
@@ -93,7 +95,7 @@ Los planes Enterprise no se ven afectados, y Claude Code en Pro y Max está exen
 
 ## ¿Qué cambió en los límites de uso de Claude en 2026?
 
-Contamos 9 cambios de límites y promociones en 2026, 4 de ellos solo para Claude Code. A 12 de octubre de 2026, sigue activa una promoción.
+Contamos 9 cambios de límites y promociones en 2026, 4 de ellos solo para Claude Code. A 17 de octubre de 2026, no hay ninguna activa: la promoción de artefactos terminó el 15 de octubre.
 
 | Fecha | Cambio | Planes | Estado |
 |---|---|---|---|
@@ -105,9 +107,9 @@ Contamos 9 cambios de límites y promociones en 2026, 4 de ellos solo para Claud
 | Julio de 2026 | Fable 5 pasó a créditos de uso en Pro y en los puestos estándar de Team | Pro, puestos estándar de Team | Vigente |
 | 14 de septiembre de 2026 | Límites semanales de Claude Code +25 % permanente sobre la base previa a la promoción | Pro, Max, Team, Enterprise por puesto | Permanente |
 | Del 23 de septiembre al 7 de octubre de 2026 | [Crédito de nube de Claude Code](/deals/claude-code-cloud-credit-2026/): $100 (Pro) o $250 (Max) | Pro y Max individuales | Solicitudes cerradas; crédito utilizable hasta el 4 de noviembre |
-| Del 1 al 15 de octubre de 2026 | [50 % menos uso de sesión después de crear o editar artefactos](/deals/claude-artifact-usage-promo-oct-2026/) | Free (desde el 7 de octubre), Pro, Max, Team | Termina el 15 de octubre |
+| Del 1 al 15 de octubre de 2026 | [50 % menos uso de sesión después de crear o editar artefactos](/deals/claude-artifact-usage-promo-oct-2026/) | Free (desde el 7 de octubre), Pro, Max, Team | Terminado |
 
-La promoción de artefactos se aplica a los siguientes 10 mensajes de chat después de crear o editar un artefacto y termina a las 23:59 PT del 15 de octubre. Los planes Free se sumaron el 7 de octubre, mientras que Claude Code, la API y los planes Enterprise quedan excluidos, según la [página de la promoción de Anthropic](https://support.claude.com/en/articles/17274727-artifact-usage-promotion).
+La promoción de artefactos se aplicó a los 10 mensajes de chat siguientes a crear o editar un artefacto y terminó a las 23:59 PT del 15 de octubre. Los planes Free se sumaron el 7 de octubre, mientras que Claude Code, la API y los planes Enterprise quedaron excluidos, según la [página de la promoción de Anthropic](https://support.claude.com/en/articles/17274727-artifact-usage-promotion).
 
 ## ¿El modelo que eliges cambia lo rápido que llegas al límite?
 
@@ -151,7 +153,7 @@ Lo que más ayuda es elegir bien el momento, acortar las conversaciones y usar e
 - **Usa proyectos para los archivos de referencia.** Anthropic dice que el contenido en caché de los proyectos cuenta menos para tus límites.
 - **Elige el modelo más ligero.** Usa Sonnet por defecto y baja el nivel de esfuerzo para el trabajo sencillo.
 - **Usa las herramientas con intención.** Research y la búsqueda web suman uso, así que actívalas cuando la respuesta las necesite.
-- **Aprovecha las promociones activas.** Hasta el 15 de octubre de 2026, trabajar con artefactos en Free, Pro, Max o Team consume 50 % menos uso de sesión.
+- **Da a los subagentes una configuración más ligera.** En Claude Code, pide subagentes de esfuerzo bajo o con Haiku 5.5 para búsquedas y consultas, y reserva el esfuerzo alto para el único paso que requiere criterio.
 
 ## Conclusión
 

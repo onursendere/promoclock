@@ -5,7 +5,7 @@ metaDescription: "The best AI coding tools in 2026: Claude Code, Cursor, GitHub 
 excerpt: "As of October 2026, the best AI coding tool depends on how you work: Claude Code for terminal agents (in Claude Pro, $20/month), Cursor for an all-in-one AI editor ($20/month), GitHub Copilot for value ($10/month, free for students), and Lovable or Replit for building apps without code."
 category: comparisons
 publishedAt: 2026-10-04
-updatedAt: 2026-10-12
+updatedAt: 2026-10-17
 image:
   src: "../images/best-ai-coding-tools.jpg"
   alt: "Laptop showing code in a dark editor theme on a desk beside a small plant"
@@ -92,7 +92,7 @@ Claude Code is Anthropic's agentic coding tool for the terminal, VS Code, JetBra
 
 Claude Code shares one pool with Claude chat, measured per rolling 5-hour session plus a weekly cap. On May 6, 2026, Anthropic [doubled Claude Code's 5-hour limits](/deals/claude-code-5h-limits-doubled/) and exempted it from the weekday peak-hours slowdown on Pro and Max. Since September 14, its weekly limits are [permanently 25% higher](/deals/claude-code-weekly-plus25-permanent/). Claude chat still drains faster on weekdays, 13:00–19:00 UTC, as our [live peak-hours clock](/) shows; the [Claude usage limits guide](/blog/claude-usage-limits/) has the details.
 
-Individual Pro and Max subscribers who claimed [$100 or $250 in Claude Code cloud credit](/deals/claude-code-cloud-credit-2026/) by October 7, 2026 can spend it on cloud sessions until November 4. Best for: agent work across a whole repository.
+Individual Pro and Max subscribers who claimed [$100 or $250 in Claude Code cloud credit](/deals/claude-code-cloud-credit-2026/) by October 7, 2026 can spend it on cloud sessions until November 4. Max and Team plans also include $100–$500 a month in [Claude API credits](/deals/claude-max-team-api-credits-2026/) for the Agent SDK and your own tools, though not for interactive Claude Code. Best for: agent work across a whole repository.
 
 ### OpenAI Codex
 
@@ -116,7 +116,7 @@ Cursor's own Grok and Composer models draw from a larger included pool, while Cl
 
 ### Devin Desktop (formerly Windsurf)
 
-Windsurf became Devin Desktop through an update on June 2, 2026, keeping its editor, extensions, settings and prices. Devin Desktop Free includes a light quota and unlimited Tab completions; Pro is $20/month, Max $200/month, and Teams starts at $80/month plus $40 per full seat. Through October 16, 2026, [SWE-2 is free on Pro and Max](/deals/windsurf-swe-2-free-oct-2026/). Best for: developers supervising local and cloud agents from one board.
+Windsurf became Devin Desktop through an update on June 2, 2026, keeping its editor, extensions, settings and prices. Devin Desktop Free includes a light quota and unlimited Tab completions; Pro is $20/month, Max $200/month, and Teams starts at $80/month plus $40 per full seat. A [free SWE-2 offer on Pro and Max](/deals/windsurf-swe-2-free-oct-2026/) ended on October 16, 2026. Best for: developers supervising local and cloud agents from one board.
 
 ### Kiro
 
@@ -164,7 +164,7 @@ Lovable Free gives 5 build credits a day, capped at 30 a month; Pro starts at $2
 
 ### Bolt.new
 
-Bolt.new Free includes 1M tokens a month with a 300K daily cap, and Pro starts at $25/month with 10M tokens. Through October 14, 2026, the [Bolt Forge preview](/deals/bolt-forge-preview-2026/) gives Pro up to 50x more Forge usage free, and sign-ups for the $9/month Forge-only Lite plan stay open. Best for: web and Expo mobile apps.
+Bolt.new Free includes 1M tokens a month with a 300K daily cap, and Pro starts at $25/month with 10M tokens. The [Bolt Forge preview](/deals/bolt-forge-preview-2026/), which gave Pro up to 50x more Forge usage free, ended on October 14, 2026. Best for: web and Expo mobile apps.
 
 ### v0
 

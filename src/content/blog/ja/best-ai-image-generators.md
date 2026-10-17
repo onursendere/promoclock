@@ -9,7 +9,7 @@ keyTakeaways:
   - "Adobe Firefly Standardは月額US$9.99で、2,000クレジットと標準の画像生成の無制限利用が付きます。AdobeはFireflyモデルの出力を商用利用できるとしています。"
   - "画像内に読みやすい文字を入れるならIdeogramです。無料アカウントは週30クレジットを使え、Plusは月額$20、年払いなら月額$15です。"
   - "Recraftはすべてのプランで編集可能なSVGベクターを生成できますが、無料プランの画像はRecraftに帰属し、商用利用できません。Basicは月額$12です。"
-  - "2026年10月中旬は画像関連の特典が2つ実施中です。Firefly Pro PlusとPremiumの30%オフは10月21日まで、MagnificでのMagnific Oneの無制限生成は10月15日までです。"
+  - "2026年10月17日時点で、Adobe Fireflyは新規契約者にPro PlusとPremiumを10月21日まで30%オフで提供しています。MagnificでのMagnific Oneの無制限生成は10月15日に終了しました。"
 faq:
   - q: "無料で使えるおすすめのAI画像生成ツールは何ですか？"
     a: "GeminiとChatGPTは、どちらも無料アカウントで画像の生成と編集ができます。専用ツールでは、Leonardo.aiが1日150の高速トークン、Kreaが1日100コンピュートユニット、Ideogramが週30クレジット、Adobe Fireflyが毎日の無料生成を提供しています。無料で作った画像は公開されることが多く、Recraft、Krea、Freepikの無料プランでは商用利用ができません。"
@@ -137,10 +137,9 @@ ChatGPT、Gemini、Canvaについては、AI画像をクライアントワーク
 
 ## 今使えるAI画像生成ツールの特典は？
 
-あります。2026年10月時点で、Adobe FireflyとMagnificが期間限定の特典を実施しており、米国の大学生はGoogle AI ProかChatGPT Plusを無料で使えます。
+あります。2026年10月17日時点で、Adobe Fireflyが期間限定の特典を実施しており、米国の大学生はGoogle AI ProかChatGPT Plusを無料で使えます。MagnificのMagnific One無制限の特典は10月15日に終了しました。
 
 - [Firefly Pro PlusとPremiumが30%オフ](/deals/adobe-firefly-30-off-first-year-2026/)：初めての契約者は初年度、Pro Plusが月額US$49.99ではなくUS$34.97、PremiumがUS$199.99ではなくUS$139.91になります。2026年10月21日まで。
-- [MagnificでMagnific Oneが無制限](/deals/magnific-one-unlimited-oct-2026/)：2026年10月15日まで、Premium+、Pro、Businessで2Kと4KのHigh品質の生成が無制限です。Seedream 5.0 Proの無制限特典は10月10日に終了しました。
 - [Google AI Proが1年間無料](/deals/google-ai-pro-students-2026/)：対象となる米国の大学生向け。2026年12月31日までに利用開始。
 - [ChatGPT Plusが4か月無料](/deals/chatgpt-plus-students-back-to-school-2026/)：対象となる米国の大学生向け。2026年10月31日までに申し込み。
 

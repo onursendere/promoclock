@@ -414,6 +414,41 @@
         "승인은 건별로 결정되며, 널리 쓰이는 공개 프로젝트의 핵심 메인테이너와 리더가 주요 대상입니다.",
         "신청 마감일은 공지되어 있지 않습니다."
       ]
+    },
+    "claude-max-team-api-credits-2026": {
+      "title": "Claude Max·Team 월간 API 크레딧: Max 5x $100, Max 20x $200, Team 합산 최대 $500",
+      "headline": "Claude Max·Team: 월 $100–$500 API 크레딧",
+      "value": "월 $100–$500",
+      "audience": "Max 5x, Max 20x, Team 구독자",
+      "summary": "2026년 10월부터 Claude Max 5x는 월 $100, Max 20x는 월 $200의 Claude Platform 크레딧을 포함하고, Team 플랜은 Standard 좌석당 $20, Premium 좌석당 $100을 받아 합산 최대 $500입니다. 이 크레딧은 Claude API로 직접 만드는 앱과 에이전트에 쓰는 것이며, 한 번 신청해야 합니다.",
+      "scope": "Claude API, Message Batches, Console Playground, Managed Agents, Agent SDK",
+      "steps": [
+        "Max 또는 Team에 가입한 지 7일이 지나면 웹 브라우저에서 claude.ai의 Settings > Billing(Max) 또는 Organization settings > Billing(Team)을 엽니다.",
+        "API credits 섹션에서 Link organization을 선택하고, 크레딧을 받을 Claude Console 조직을 고르거나 새로 만듭니다.",
+        "Supplemental Credit Terms에 동의합니다. 크레딧은 Console 결제 페이지의 Promotional credits에 표시됩니다."
+      ],
+      "terms": [
+        "Free, Pro, Enterprise 플랜은 대상이 아니며, 할인된 Nonprofit·Scientists Team 플랜은 대상입니다.",
+        "대화형 Claude Code, Claude 앱의 추가 사용량, Bedrock·Vertex AI·Foundry의 Claude에는 적용되지 않습니다.",
+        "크레딧은 결제 주기마다(연간 플랜은 매달) 새로 지급되고 주기가 끝나면 이월 없이 소멸합니다.",
+        "플랜마다 Console 조직 하나에만 연결할 수 있으며, 연결은 직접 바꿀 수 없습니다."
+      ]
+    },
+    "claude-for-open-source-max-2026": {
+      "title": "Claude for Open Source: 오픈 소스 메인테이너에게 Claude Max 20x 6개월 무료 제공",
+      "headline": "Claude for Open Source: Max 20x 6개월",
+      "value": "Max 20x 6개월",
+      "audience": "널리 쓰이는 오픈 소스 프로젝트의 메인테이너와 핵심 기여자",
+      "summary": "Anthropic의 Claude for Open Source 프로그램은 승인된 메인테이너와 기여자에게 Claude Max 20x를 6개월간 무료로 제공합니다. 수혜자는 최대 10,000명이며, 프로그램이 마감될 때까지 신청서를 수시로 검토합니다.",
+      "steps": [
+        "다음 기준 중 하나를 충족하는지 확인합니다. 의존 저장소 500개 이상, 월 다운로드 20만 회 이상, 최근 12개월 동안 다른 사람의 저장소에 병합된 풀 리퀘스트 100개 이상.",
+        "GitHub 계정으로 Anthropic의 Claude for Open Source 페이지에서 신청하고, 자격이 되는 이유를 500단어 이내로 설명합니다."
+      ],
+      "terms": [
+        "GitHub 계정은 가입한 지 2년 이상이어야 하고 최근 90일 안에 공개 오픈 소스 활동이 있어야 합니다.",
+        "Anthropic은 승인된 신청자에게만 연락하며, 탈락 시에는 별도 통지가 없습니다.",
+        "6개월이 지나면 유료 플랜을 쓰던 회원은 해지하지 않는 한 예전 요금으로 그 플랜에 돌아가고, 나머지 회원은 Free 플랜으로 돌아갑니다."
+      ]
     }
   },
   "tools": {
@@ -777,6 +812,13 @@
     },
     "claude-for-startups-launch-2026": {
       "title": "Claude for Startups, Claude Team 1년 무료와 API 크레딧 $1,000 추가"
+    },
+    "claude-api-credits-launch-2026": {
+      "title": "Claude Max·Team에 월간 API 크레딧($100–$500) 포함 시작",
+      "description": "Claude Haiku 5.5 발표와 함께 공개됐으며, 같은 날 Sonnet 5.5의 캐시 읽기 요금이 100만 토큰당 $0.20에서 $0.10으로 내려갔습니다."
+    },
+    "claude-cloud-credit-expiry-2026": {
+      "title": "사용하지 않은 Claude Code 클라우드 크레딧 만료"
     }
   }
 }

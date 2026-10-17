@@ -5,7 +5,7 @@ metaDescription: "Claude usage limits reset every 5 hours, plus a weekly cap on 
 excerpt: "Claude's usage limits reset on a rolling 5-hour session, and paid plans add a weekly cap. Chat and Claude Code share one pool. Pro gives at least 5x Free's per-session usage; Max 5x and Max 20x give 5 and 20 times Pro. Sessions drain faster on weekdays 13:00–19:00 UTC, and usage credits let paid plans keep working at API rates."
 category: guides
 publishedAt: 2026-10-04
-updatedAt: 2026-10-12
+updatedAt: 2026-10-17
 image:
   src: "../images/claude-usage-limits.jpg"
   alt: "Hourglass with dark sand running through it on a desk against a grey textured wall"
@@ -101,6 +101,8 @@ Claude Code uses the same 5-hour and weekly limits as chat, but Anthropic has ch
 - **Peak hours:** the same update removed the peak-hour reduction for Claude Code on Pro and Max.
 - **Weekly limits:** a [+50% weekly boost](/deals/claude-code-weekly-plus50-2026/) ran from May 13 to September 14, 2026. It was replaced by a [permanent +25%](/deals/claude-code-weekly-plus25-permanent/). On a baseline of 100, that is 100 before, 150 during the promotion and 125 now.
 - **Cloud sessions:** individual Pro subscribers get $100 and Max subscribers $250 in [Claude Code cloud credit](/deals/claude-code-cloud-credit-2026/), which cloud sessions use before plan limits. The claim window closed on October 7, 2026, and claimed credit stays usable until November 4, 2026.
+- **Idle compaction:** since Claude Code 2.1.299 (October 14, 2026), a terminal conversation over 200K tokens that sits idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess the whole conversation.
+- **API credits:** the monthly API credits on Max and Team don't add Claude Code usage; they cover the Claude API and Agent SDK, as our [API credits guide](/blog/claude-max-team-api-credits/) explains.
 
 Claude Code is not part of the Free plan.
 
@@ -114,7 +116,7 @@ Enterprise plans are not affected, and Claude Code on Pro and Max is exempt. Our
 
 ## What changed in Claude's usage limits in 2026?
 
-We count 9 limit changes and promotions in 2026, 4 of them for Claude Code alone. As of October 12, 2026, one promotion is still live.
+We count 9 limit changes and promotions in 2026, 4 of them for Claude Code alone. As of October 17, 2026, none is live: the artifact promotion ended on October 15.
 
 | Date | Change | Plans | Status |
 |---|---|---|---|
@@ -126,9 +128,9 @@ We count 9 limit changes and promotions in 2026, 4 of them for Claude Code alone
 | July 2026 | Fable 5 moved to usage credits on Pro and Team standard seats | Pro, Team standard seats | In effect |
 | September 14, 2026 | Claude Code weekly limits permanently +25% over the pre-promotion baseline | Pro, Max, Team, seat-based Enterprise | Permanent |
 | September 23 – October 7, 2026 | [Claude Code cloud credit](/deals/claude-code-cloud-credit-2026/): $100 (Pro) or $250 (Max) | Individual Pro and Max | Claim closed; credit usable until November 4 |
-| October 1–15, 2026 | [50% less session usage after creating or editing artifacts](/deals/claude-artifact-usage-promo-oct-2026/) | Free (from October 7), Pro, Max, Team | Ends October 15 |
+| October 1–15, 2026 | [50% less session usage after creating or editing artifacts](/deals/claude-artifact-usage-promo-oct-2026/) | Free (from October 7), Pro, Max, Team | Ended |
 
-The artifact promotion applies to the next 10 chat messages after you create or edit an artifact and ends at 11:59 PM PT on October 15. Free plans joined on October 7, while Claude Code, the API and Enterprise plans are excluded, according to [Anthropic's promotion page](https://support.claude.com/en/articles/17274727-artifact-usage-promotion).
+The artifact promotion applied to the next 10 chat messages after you created or edited an artifact and ended at 11:59 PM PT on October 15. Free plans joined on October 7, while Claude Code, the API and Enterprise plans were excluded, according to [Anthropic's promotion page](https://support.claude.com/en/articles/17274727-artifact-usage-promotion).
 
 ## Does the model you pick change how fast you hit the limit?
 
@@ -172,7 +174,7 @@ The biggest wins are timing, shorter conversations and the right model. These ti
 - **Use Projects for reference files.** Anthropic says cached content in projects counts less against your limits.
 - **Pick the lighter model.** Default to Sonnet and lower the effort level for simple work.
 - **Use tools on purpose.** Research and web search add usage, so turn them on when the answer needs them.
-- **Use live promotions.** Through October 15, 2026, building with artifacts on Free, Pro, Max or Team costs 50% less session usage.
+- **Give subagents a lighter setup.** In Claude Code, ask for low-effort or Haiku 5.5 subagents for searches and lookups, and save high effort for the one step that needs judgment.
 
 ## Bottom line
 

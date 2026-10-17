@@ -19,6 +19,8 @@ keyFeatures:
     description: "Paid plans add a Chrome extension plus Claude for Excel, PowerPoint and Word, with an Outlook add-in in beta."
   - name: "Usage credits"
     description: "When a paid plan reaches its limit, usage credits keep Claude working at standard API rates instead of waiting for the reset."
+  - name: "Monthly API credits"
+    description: "Max 5x includes $100 and Max 20x $200 a month for the Claude API, and Team up to $500 pooled, to build your own apps and agents."
 useCases:
   - "Upload a long contract or annual report and ask Claude to pull out obligations, risks and deadlines into a table."
   - "Let Claude Code refactor a repository from the terminal, run the test suite and explain each change before you commit."
@@ -29,8 +31,8 @@ pricing:
   startingPrice: 20
   currency: USD
   billing: month
-  summary: "Free costs $0. Pro is $20/month, or $17/month when billed yearly ($200 up front). Max 5x costs $100/month and Max 20x $200/month, billed monthly only. Team Standard seats are $25/month, or $20/month billed annually."
-  asOf: 2026-10-12
+  summary: "Free costs $0. Pro is $20/month, or $17/month when billed yearly ($200 up front). Max 5x costs $100/month and Max 20x $200/month, billed monthly only. Team Standard seats are $25/month, or $20/month billed annually. Max and Team also include monthly API credits: $100 on Max 5x, $200 on Max 20x and up to $500 pooled on Team."
+  asOf: 2026-10-17
 platforms: [web, ios, android, macos, windows, linux, cli, vscode, jetbrains, api, browser-extension]
 savingTips:
   - "Paying for Pro yearly costs $200 up front, about $17/month instead of $20."
@@ -46,8 +48,8 @@ faq:
     a: "Both include everything in Pro. Max 5x costs $100/month for five times Pro's usage per 5-hour session, and Max 20x costs $200/month for twenty times. Both are billed monthly and get priority access at high-traffic times."
   - q: "Is Claude Code included in the Pro plan?"
     a: "Yes. Claude Code is included in Pro, Max, Team and Enterprise, but not in Free. It shares one usage pool with chat, and on May 6, 2026 Anthropic doubled its five-hour limits on Pro, Max, Team and seat-based Enterprise."
-  - q: "What happened to Claude Cowork?"
-    a: "On September 16, 2026 Anthropic announced that Cowork is now simply part of Claude, so its agent features work from any conversation. Pro and Max get the change first over several weeks, followed by Team and Free."
+  - q: "Do Claude Max and Team plans include API credits?"
+    a: "Yes. Since October 2026, Max 5x includes $100 and Max 20x $200 a month in Claude Platform credits, and Team plans get $20 per Standard seat and $100 per Premium seat, pooled up to $500. You claim them once in Settings > Billing. They cover the API and Agent SDK, not interactive Claude Code, and expire each billing cycle."
   - q: "How do Claude's usage limits work?"
     a: "Every plan has a limit that resets on a rolling five-hour window, and paid plans add weekly limits. Web, desktop, mobile and Claude Code draw from the same pool, and Pro gives at least five times Free's usage per session."
 alternatives: [chatgpt, gemini, perplexity, mistral]
@@ -56,9 +58,9 @@ sources:
   - https://support.claude.com/en/articles/11049741-what-is-the-max-plan
   - https://claude.com/blog/cowork-is-now-claude
   - https://www.anthropic.com/news/higher-limits-spacex
-  - https://claude.com/download
+  - https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans
   - https://code.claude.com/docs/en/setup
-reviewedAt: 2026-10-12
+reviewedAt: 2026-10-17
 ---
 ## What is Claude?
 Claude is Anthropic's assistant for writing, analysis, research and coding. It runs in the browser, in desktop apps for macOS and Windows (Linux is in beta for Ubuntu and Debian), and on iOS and Android. Developers reach the same models through the Claude API.

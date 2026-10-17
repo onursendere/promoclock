@@ -414,6 +414,41 @@
         "A aprovação é caso a caso; mantenedores principais e líderes de projetos públicos muito usados são o público principal.",
         "Nenhum prazo de inscrição é informado."
       ]
+    },
+    "claude-max-team-api-credits-2026": {
+      "title": "Créditos de API mensais do Claude Max e Team: $100 (Max 5x), $200 (Max 20x) ou até $500 compartilhados (Team)",
+      "headline": "Claude Max e Team: $100–$500 de crédito de API/mês",
+      "value": "$100–$500 por mês",
+      "audience": "Assinantes do Max 5x, Max 20x e Team",
+      "summary": "Desde outubro de 2026, o Claude Max 5x inclui $100 e o Max 20x $200 por mês em créditos da Claude Platform, e os planos Team recebem $20 por assento Standard e $100 por assento Premium, somados até $500. Os créditos servem para criar seus próprios apps e agentes na API do Claude e precisam ser resgatados uma vez.",
+      "scope": "API do Claude, Message Batches, Playground do Console, Managed Agents e Agent SDK",
+      "steps": [
+        "Depois de sete dias no Max ou no Team, abra Settings > Billing (Max) ou Organization settings > Billing (Team) no claude.ai, em um navegador.",
+        "Na seção de créditos de API, selecione “Link organization” e escolha ou crie a organização do Claude Console que deve receber os créditos.",
+        "Aceite os Supplemental Credit Terms; o crédito aparece em Promotional credits na página de cobrança do Console."
+      ],
+      "terms": [
+        "Os planos Free, Pro e Enterprise não são elegíveis; os planos Team com desconto para Nonprofit e Scientists são.",
+        "O Claude Code interativo, o uso extra nos apps do Claude e o Claude no Bedrock, no Vertex AI ou no Foundry não são cobertos.",
+        "Os créditos se renovam a cada ciclo de cobrança (todo mês nos planos anuais) e expiram no fim dele, sem acumular.",
+        "Cada plano se vincula a uma organização do Console, e você não consegue alterar o vínculo por conta própria."
+      ]
+    },
+    "claude-for-open-source-max-2026": {
+      "title": "Claude for Open Source: seis meses de Claude Max 20x grátis para mantenedores de código aberto",
+      "headline": "Claude for Open Source: 6 meses de Max 20x",
+      "value": "6 meses de Max 20x",
+      "audience": "Mantenedores e contribuidores principais de projetos de código aberto muito usados",
+      "summary": "O programa Claude for Open Source da Anthropic dá a mantenedores e contribuidores aprovados seis meses de Claude Max 20x sem custo. Ele é limitado a 10.000 beneficiários e analisa as inscrições de forma contínua até encerrar.",
+      "steps": [
+        "Confira se você atende a um dos critérios, como 500+ repositórios dependentes, 200.000+ downloads mensais ou 100+ pull requests aceitos em repositórios de outras pessoas nos últimos 12 meses.",
+        "Inscreva-se com sua conta do GitHub na página Claude for Open Source da Anthropic e explique em até 500 palavras por que você se qualifica."
+      ],
+      "terms": [
+        "Sua conta do GitHub precisa ter pelo menos dois anos, com atividade pública em código aberto nos últimos 90 dias.",
+        "A Anthropic entra em contato só com os aprovados; não há aviso para quem for rejeitado.",
+        "Depois de seis meses, quem tinha um plano pago volta a ele pelo valor antigo, a menos que cancele; todos os outros voltam para o plano Free."
+      ]
     }
   },
   "tools": {
@@ -777,6 +812,13 @@
     },
     "claude-for-startups-launch-2026": {
       "title": "O Claude for Startups inclui um ano grátis de Claude Team e $1,000 em créditos de API"
+    },
+    "claude-api-credits-launch-2026": {
+      "title": "O Claude Max e o Team passam a incluir créditos de API mensais ($100–$500)",
+      "description": "Anunciado com o Claude Haiku 5.5, no mesmo dia em que a leitura de cache do Sonnet 5.5 caiu de $0.20 para $0.10 por 1M de tokens."
+    },
+    "claude-cloud-credit-expiry-2026": {
+      "title": "O crédito de nuvem do Claude Code não usado expira"
     }
   }
 }

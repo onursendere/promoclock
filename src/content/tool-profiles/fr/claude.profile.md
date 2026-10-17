@@ -19,12 +19,14 @@ keyFeatures:
     description: "Les formules payantes ajoutent une extension Chrome ainsi que Claude pour Excel, PowerPoint et Word, avec un complément Outlook en bêta."
   - name: "Crédits d’utilisation"
     description: "Quand une formule payante atteint sa limite, les crédits d’utilisation vous permettent de continuer avec Claude aux tarifs standard de l’API au lieu d’attendre la réinitialisation."
+  - name: "Crédits API mensuels"
+    description: "Max 5x inclut $100 et Max 20x $200 par mois pour l’API Claude, et Team jusqu’à $500 mutualisés, pour développer vos propres applications et agents."
 useCases:
   - "Importer un long contrat ou un rapport annuel et demander à Claude d’en extraire les obligations, les risques et les échéances dans un tableau."
   - "Laisser Claude Code refactoriser un dépôt depuis le terminal, lancer la suite de tests et expliquer chaque modification avant votre commit."
   - "Transformer une page de notes de réunion en présentation avec Claude Slides, puis la télécharger au format PowerPoint."
   - "Connecter vos applications de travail pour que Claude s’appuie sur vos propres fichiers quand il rédige un point d’avancement hebdomadaire."
-pricingSummary: "Free coûte $0. Pro coûte $20/mois, ou $17/mois en facturation annuelle ($200 payés d’avance). Max 5x coûte $100/mois et Max 20x $200/mois, uniquement en facturation mensuelle. Les sièges Team Standard coûtent $25/mois, ou $20/mois en facturation annuelle."
+pricingSummary: "Free coûte $0. Pro coûte $20/mois, ou $17/mois en facturation annuelle ($200 payés d’avance). Max 5x coûte $100/mois et Max 20x $200/mois, uniquement en facturation mensuelle. Les sièges Team Standard coûtent $25/mois, ou $20/mois en facturation annuelle. Max et Team incluent aussi des crédits API mensuels : $100 sur Max 5x, $200 sur Max 20x et jusqu’à $500 mutualisés sur Team."
 savingTips:
   - "Payer Pro à l’année coûte $200 d’avance, soit environ $17/mois au lieu de $20."
   - "La formule Free inclut déjà la recherche web, la mémoire, les connecteurs et la création de fichiers : pour un usage léger, Pro n’est pas forcément nécessaire."
@@ -39,8 +41,8 @@ faq:
     a: "Les deux incluent tout ce que propose Pro. Max 5x coûte $100/mois pour cinq fois l’utilisation de Pro par session de 5 heures, et Max 20x coûte $200/mois pour vingt fois plus. Les deux sont facturés au mois et bénéficient d’un accès prioritaire aux heures de forte affluence."
   - q: "Claude Code est-il inclus dans la formule Pro ?"
     a: "Oui. Claude Code est inclus dans Pro, Max, Team et Enterprise, mais pas dans Free. Il partage le même quota d’utilisation que le chat, et le 6 mai 2026, Anthropic a doublé ses limites sur cinq heures pour Pro, Max, Team et Enterprise facturé au siège."
-  - q: "Qu’est devenu Claude Cowork ?"
-    a: "Le 16 septembre 2026, Anthropic a annoncé que Cowork fait désormais simplement partie de Claude : ses fonctions d’agent s’utilisent depuis n’importe quelle conversation. Pro et Max reçoivent le changement en premier, sur plusieurs semaines, puis viendront Team et Free."
+  - q: "Les formules Claude Max et Team incluent-elles des crédits API ?"
+    a: "Oui. Depuis octobre 2026, Max 5x inclut $100 et Max 20x $200 par mois de crédits Claude Platform, et les formules Team reçoivent $20 par siège Standard et $100 par siège Premium, mutualisés jusqu’à $500. Vous les récupérez une seule fois dans Paramètres > Facturation. Ils couvrent l’API et l’Agent SDK, pas Claude Code en mode interactif, et expirent à chaque cycle de facturation."
   - q: "Comment fonctionnent les limites d’utilisation de Claude ?"
     a: "Chaque formule a une limite qui se réinitialise sur une fenêtre glissante de cinq heures, et les formules payantes ajoutent des limites hebdomadaires. Le web, l’ordinateur, le mobile et Claude Code puisent dans le même quota, et Pro offre au moins cinq fois l’utilisation de Free par session."
 ---

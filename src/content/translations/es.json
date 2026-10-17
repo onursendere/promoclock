@@ -414,6 +414,41 @@
         "La aprobación se decide caso por caso; los mantenedores principales y los líderes de proyectos públicos muy usados son el público principal.",
         "No se indica fecha límite de solicitud."
       ]
+    },
+    "claude-max-team-api-credits-2026": {
+      "title": "Créditos de API mensuales en Claude Max y Team: $100 (Max 5x), $200 (Max 20x) o hasta $500 agrupados (Team)",
+      "headline": "Claude Max y Team: $100–$500 al mes en créditos de API",
+      "value": "$100–$500 al mes",
+      "audience": "Suscriptores de Max 5x, Max 20x y Team",
+      "summary": "Desde octubre de 2026, Claude Max 5x incluye $100 y Max 20x $200 al mes en créditos de Claude Platform, y los planes Team reciben $20 por puesto Standard y $100 por puesto Premium, agrupados hasta $500. Los créditos sirven para crear tus propias apps y agentes con la API de Claude y hay que reclamarlos una sola vez.",
+      "scope": "API de Claude, Message Batches, Playground de la Console, Managed Agents y el Agent SDK",
+      "steps": [
+        "Tras siete días en Max o Team, abre Settings > Billing (Max) u Organization settings > Billing (Team) en claude.ai desde un navegador web.",
+        "En la sección de créditos de API (API credits), selecciona Link organization y elige o crea la organización de Claude Console que recibirá los créditos.",
+        "Acepta los Supplemental Credit Terms; el crédito aparece en Promotional credits en la página de facturación de la Console."
+      ],
+      "terms": [
+        "Los planes Free, Pro y Enterprise no son elegibles; los planes Team con descuento para organizaciones sin fines de lucro y científicos sí lo son.",
+        "No cubren Claude Code interactivo, el uso extra en las apps de Claude ni Claude en Bedrock, Vertex AI o Foundry.",
+        "Los créditos se renuevan en cada ciclo de facturación (mensualmente en los planes anuales) y vencen al final de este, sin acumulación.",
+        "Cada plan se vincula a una sola organización de Console y no puedes cambiar el vínculo tú mismo."
+      ]
+    },
+    "claude-for-open-source-max-2026": {
+      "title": "Claude for Open Source: seis meses de Claude Max 20x gratis para mantenedores de código abierto",
+      "headline": "Claude for Open Source: 6 meses de Max 20x",
+      "value": "6 meses de Max 20x",
+      "audience": "Mantenedores y colaboradores principales de proyectos de código abierto muy usados",
+      "summary": "El programa Claude for Open Source de Anthropic da a los mantenedores y colaboradores aprobados seis meses de Claude Max 20x sin costo. Tiene un tope de 10,000 beneficiarios y revisa las solicitudes de forma continua hasta que cierra.",
+      "steps": [
+        "Comprueba que cumples uno de los criterios, como más de 500 repositorios dependientes, más de 200,000 descargas mensuales o más de 100 pull requests fusionados en repositorios de otras personas en los últimos 12 meses.",
+        "Solicítalo con tu cuenta de GitHub en la página de Claude for Open Source de Anthropic y explica en un máximo de 500 palabras por qué cumples los requisitos."
+      ],
+      "terms": [
+        "Tu cuenta de GitHub debe tener al menos dos años, con actividad pública de código abierto en los últimos 90 días.",
+        "Anthropic solo contacta a los solicitantes aprobados; no se avisa de los rechazos.",
+        "Pasados los seis meses, quienes tenían un plan de pago vuelven a él con su tarifa de antes salvo que lo cancelen; el resto vuelve al plan Free."
+      ]
     }
   },
   "tools": {
@@ -777,6 +812,13 @@
     },
     "claude-for-startups-launch-2026": {
       "title": "Claude for Startups añade un año gratis de Claude Team y $1,000 en créditos de API"
+    },
+    "claude-api-credits-launch-2026": {
+      "title": "Claude Max y Team empiezan a incluir créditos de API mensuales ($100–$500)",
+      "description": "Se anunciaron con Claude Haiku 5.5, el mismo día en que las lecturas de caché de Sonnet 5.5 bajaron de $0.20 a $0.10 por 1M de tokens."
+    },
+    "claude-cloud-credit-expiry-2026": {
+      "title": "Vence el crédito de Claude Code en la nube que no hayas usado"
     }
   }
 }

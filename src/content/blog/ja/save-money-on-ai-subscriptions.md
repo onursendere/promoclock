@@ -114,9 +114,9 @@ Claudeの5時間のセッション上限は、Free、Pro、Max、Teamプラン�
 
 ### 10. 実施中のキャンペーンに合わせて登録する
 
-短期間のキャンペーンで、1か月分の費用を大きく下げられることがあります。2026年10月12日時点では次のとおりです。
+短期間のキャンペーンで、1か月分の費用を大きく下げられることがあります。2026年10月17日時点では次のとおりです。
 
-- **Claudeのアーティファクト**：2026年10月15日まで、アーティファクトを作成・編集した後の作業は、Free、Pro、Max、Teamのセッション上限に対して50%少なくカウントされます。[アーティファクトのキャンペーン](/deals/claude-artifact-usage-promo-oct-2026/)をご覧ください。
+- **Claude MaxとTeam**：2026年10月7日から、請求サイクルごとに失効する月$100〜$500のAPIクレジットがプランに含まれるため、Settings > Billingで1回受け取りましょう。[MaxとTeamのAPIクレジット](/deals/claude-max-team-api-credits-2026/)をご覧ください。
 - **ElevenLabs**：10月18日まで、新規契約者は[Starterの初月が$6ではなく$1](/deals/elevenlabs-starter-1-first-month-2026/)、Creatorが$22ではなく$11です。
 - **Adobe Firefly**：米国と英国の新規契約者は、12か月の契約を条件に、2026年10月21日までPro PlusまたはPremiumの初年度が30%安くなります。
 - **Gemini API**：2026年12月31日まで、開発者は[Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/)を通常料金の半額で利用できます。

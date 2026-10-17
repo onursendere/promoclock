@@ -2,7 +2,7 @@
 title: "Claude Pro mu Max mı? 2026 fiyatları, kullanım limitleri ve hangisini seçmelisin"
 metaTitle: "Claude Pro mu Max mı? 2026 fiyat, limit ve kime uygun"
 metaDescription: "Claude Pro mu Max mı? Pro aylık $20 ya da yıllık $200; Max 5x aylık $100, Max 20x aylık $200. Kullanım limitlerini, Fable erişimini ve maliyet hesabını karşılaştır."
-excerpt: "Claude Pro aylık $20 ya da yıllık $200 (aylık yaklaşık $17) ve her gün kullananların çoğuna yeter. Claude Max, oturum başına Pro'nun 5 katı kullanım için aylık $100, 20 katı için aylık $200; yalnızca aylık faturalandırılır, plan limitleri içinde Fable ve daha yüksek çıktı limitleri ekler. Yalnızca Pro'nun limitleri çoğu hafta işini durduruyorsa yükselt."
+excerpt: "Claude Pro aylık $20 ya da yıllık $200 (aylık yaklaşık $17) ve her gün kullananların çoğuna yeter. Claude Max, oturum başına Pro'nun 5 katı kullanım için aylık $100, 20 katı için aylık $200; yalnızca aylık faturalandırılır, plan limitleri içinde Fable, daha yüksek çıktı limitleri ve ayda $100–$200 API kredisi ekler. Yalnızca Pro'nun limitleri çoğu hafta işini durduruyorsa yükselt."
 imageAlt: "Ahşap bir masada beyaz bir kupa, bir telefon ve renkli posterlerin yanında duran bir MacBook Pro"
 keyTakeaways:
   - "Claude Pro aylık $20 ya da peşin ödenen yıllık $200 (aylık yaklaşık $17); Max ise yalnızca aylık faturalandırılır: $100 (Max 5x) ya da $200 (Max 20x)."
@@ -14,7 +14,7 @@ faq:
   - q: "Claude Max'e değer mi?"
     a: "Pro'nun limitleri işini haftada birkaç kez durduruyorsa ya da zaten ayda $80 veya daha fazlasını kullanım kredilerine harcıyorsan Claude Max'e değer. Max 5x aylık $100 ile Pro'nun 5 katı oturum kullanımı sunar ve limitler içinde Fable'ı kapsar. Pro'nun sınırına yalnızca ara sıra takılıyorsan Pro artı kullanım kredileri daha ucuza gelir."
   - q: "Claude Max 5x ile Max 20x arasındaki fark ne?"
-    a: "İkisi de Pro'daki her şeyi, ayrıca daha yüksek çıktı limitlerini ve haftalık limitlerin %50'sine kadar Fable kullanımını içerir. Max 5x aylık $100 ile 5 saatlik oturum başına Pro'nun 5 katı kullanım sunar. Max 20x aylık $200 ile 20 katını verir. Anthropic'in Max planı yardım makalesine göre ikisi de yalnızca aylık faturalandırılır."
+    a: "İkisi de Pro'daki her şeyi, ayrıca daha yüksek çıktı limitlerini ve haftalık limitlerin %50'sine kadar Fable kullanımını içerir. Max 5x aylık $100 ile 5 saatlik oturum başına Pro'nun 5 katı kullanım sunar. Max 20x aylık $200 ile 20 katını verir. Anthropic'in Max planı yardım makalesine göre ikisi de yalnızca aylık faturalandırılır. Max 5x ayrıca ayda $100, Max 20x ise $200 Claude API kredisi içerir."
   - q: "Claude Max'i yıllık ödeyebilir miyim?"
     a: "Hayır. Ekim 2026 itibarıyla Anthropic'in Max planı yardım makalesi, Max'in yalnızca aylık abonelik olarak sunulduğunu söylüyor; fiyat sayfasında da yıllık bir Max fiyatı yok. Yıllık faturalandırma yalnızca Pro'da var: peşin $200, bu da $20 yerine aylık yaklaşık $17 ediyor."
   - q: "Claude Pro'ya Claude Code dahil mi?"
@@ -54,15 +54,16 @@ Tablonun sığdıramadığı birkaç ayrıntı:
 - **Claude Pro'da yıllık faturalandırma** $200'ü peşin tahsil eder. Anthropic bunu aylık $17'ye yuvarlıyor; bu da aylık faturalandırmaya göre yılda $40 tasarruf demek.
 - **Max yalnızca aylık.** [Max planı yardım makalesi](https://support.claude.com/en/articles/11049741-what-is-the-max-plan), planın “şu anda yalnızca aylık abonelik olarak sunulduğunu” söylüyor.
 - **Yerel fiyatlar değişebilir.** Anthropic'in Pro yardım makalesine göre fiyatlar bölgeye göre farklılık gösteriyor ve bazı bölgelerde ödeme sırasında vergi ekleniyor.
-- **Güncel modeller.** Fiyat sayfası en yeni modeller olarak Fable 5.1, Opus 5.5, Sonnet 5.5 ve Haiku 4.5'i listeliyor. Free yalnızca Sonnet ve Haiku'ya erişiyor.
+- **Güncel modeller.** Fiyat sayfası en yeni modeller olarak Fable 5.1, Opus 5.5, Sonnet 5.5 ve Haiku 5.5'i listeliyor. Free yalnızca Sonnet ve Haiku'ya erişiyor.
 
 ## Claude Max, Pro'ya göre ne ekliyor?
 
-Claude Max; oturum başına daha fazla kullanım, plan limitleri içinde Fable, daha yüksek çıktı limitleri ve yoğun trafik saatlerinde öncelikli erişim ekler. Bunun dışında uygulamalar ve özellikler Pro ile aynı.
+Claude Max; oturum başına daha fazla kullanım, plan limitleri içinde Fable, daha yüksek çıktı limitleri, yoğun trafik saatlerinde öncelikli erişim ve aylık API kredileri ekler. Bunun dışında uygulamalar ve özellikler Pro ile aynı.
 
 - **Kullanım.** Max 5x, 5 saatlik oturum başına Pro'nun 5 katı, Max 20x ise 20 katı kullanım hakkı alır. İkisinde de hesabına atanmış sabit bir zamanda sıfırlanan, tüm modellerde geçerli bir haftalık limit var.
 - **Fable.** Pro'da Fable 5 ve 5.1 yalnızca API ücretleriyle faturalanan kullanım kredileriyle çalışır. Max, haftalık limitinin yarısına kadarını ek ücret ödemeden Fable'a harcayabilir.
 - **Öncelik ve erken erişim.** Fiyat sayfası her iki Max seviyesi için yoğun trafikte öncelikli erişim, daha yüksek çıktı limitleri ve gelişmiş özelliklere erken erişim listeliyor.
+- **Aylık API kredileri.** Ekim 2026'dan beri Max 5x ayda $100, Max 20x ayda $200 Claude Platform kredisi içeriyor; bunlar kendi uygulamaların ve ajanların için. Pro'da yok ve krediler etkileşimli Claude Code'u kapsamıyor; talebin nasıl yapıldığını [API kredileri rehberimiz](/blog/claude-max-team-api-credits/) anlatıyor.
 - **Daha büyük promosyon kredileri.** Anthropic'in [Claude Code bulut kredisi promosyonunda](/deals/claude-code-cloud-credit-2026/) bireysel Max aboneleri, Pro'daki $100'e karşılık $250 aldı. Talepler 7 Ekim 2026'da kapandı; talep edilen kredi 4 Kasım'a kadar kullanılabiliyor.
 
 Pro zaten Claude Code, Research, Opus, Claude Design, Slides ve Docs, Claude in Chrome, Microsoft 365 eklentileri ve Free'deki beş proje sınırı olmadan projeler içeriyor. Max'e geçmek sana yeni uygulamalar değil, daha fazla hareket alanı kazandırır. Plana göre tüm özellikleri [Claude araç sayfamızda](/tools/claude/) listeliyoruz.
@@ -86,7 +87,7 @@ Her planın, Pro büyüklüğündeki bir oturum hakkı başına maliyeti şöyle
 - **Max 20x birim maliyeti yarıya indirir.** Pro'nun 20 katı oturum kullanımı için $200 ile Max 20x, dolar başına en ucuz kullanımı sunar; ama yalnızca gerçekten kullanırsan.
 - **Çarpanlar oturum başına geçerli.** Anthropic 5x ve 20x rakamlarını 5 saatlik oturum hakkı için veriyor ve haftalık limitler için sabit mesaj sayısı yayımlamıyor. Darboğazın haftalık sınırsa, 20x'e atlamadan önce Max 5x'i bir ay dene.
 
-Fable bazı kullanıcılar için hesabı değiştiriyor. Pro'da Fable'ı sık kullanacaksan her Fable isteği kullanım kredisi olarak faturalanır; Max ise bunu haftalık limitin yarısına kadar karşılar.
+Fable bazı kullanıcılar için hesabı değiştiriyor. Pro'da Fable'ı sık kullanacaksan her Fable isteği kullanım kredisi olarak faturalanır; Max ise bunu haftalık limitin yarısına kadar karşılar. API kredileri de hesabı değiştiriyor: Claude API'ye zaten ayda $80 ya da daha fazlasını harcıyorsan, Max 5x'in aylık $100'lık kredisi Pro ile aradaki fiyat farkını karşılar.
 
 ## Kimler Claude Pro'da kalmalı?
 
@@ -141,7 +142,7 @@ Yoğun saatler Pro ve Max'i aynı şekilde etkiler: hafta içi 13:00–19:00 UTC
 - **Etkilenen planlar:** Free, Pro, Max ve Team. Enterprise etkilenmez, haftalık limitler de değişmez. [Yoğun saatler kaydına](/deals/claude-peak-hours-introduced/) ve [Claude Watch](/) üzerindeki canlı saate bak.
 - **Max'in öncelikli erişimi** yoğun zamanlarda sorunsuz erişmene yardım eder, ama Max'te oturum limitleri yoğun saat aralığında yine daha hızlı tükenir.
 - **Claude Code limitleri arttı.** Anthropic 6 Mayıs 2026'da ücretli planlarda [Claude Code'un 5 saatlik limitlerini iki katına çıkardı](/deals/claude-code-5h-limits-doubled/); 14 Eylül 2026'dan beri de [Claude Code haftalık limitleri eski tabana göre kalıcı olarak %25 daha yüksek](/deals/claude-code-weekly-plus25-permanent/).
-- **Güncel promosyon:** 1–15 Ekim 2026 arasında Pro, Max ve Team'de, 7 Ekim'den beri de Free'de, bir artifact oluşturduktan ya da düzenledikten sonraki işler 5 saatlik limite %50 daha az sayılıyor ([ayrıntılar](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Yakın tarihli promosyon:** 1–15 Ekim 2026 arasında Pro, Max ve Team'de, 7 Ekim'den itibaren de Free'de, bir artifact oluşturduktan ya da düzenledikten sonraki işler 5 saatlik limite %50 daha az sayıldı ([son koşullar](/deals/claude-artifact-usage-promo-oct-2026/)). Promosyon sona erdi.
 
 Zamanlama ipuçları için [Claude yoğun saatleri](/blog/claude-peak-hours/) rehberimizi oku. Oturumların ve haftalık sınırların birbirini nasıl etkilediğini [Claude kullanım limitleri rehberimizde](/blog/claude-usage-limits/) anlatıyoruz.
 
@@ -161,7 +162,7 @@ Pro'dan Max'e yükseltme, kullanılmamış süre kredi olarak aktarılarak hemen
 
 - **Hafif ya da haftada bir kullananlar:** Free; Claude Code, Research ya da Opus gerekiyorsa aylık $20'lık Pro.
 - **Her gün yazanlar, öğrenciler ve analistler:** yıllık $200'lük Pro, güvenlik supabı olarak da kullanım kredileri.
-- **Çoğu iş günü Pro'nun limitine takılan geliştiriciler:** aylık $100 ile Max 5x.
+- **Çoğu iş günü Pro'nun limitine takılan geliştiriciler:** aylık $100 ile Max 5x; ayrıca ayda $100 API kredisi de içerir.
 - **Tam zamanlı Claude Code kullananlar ve ajan ağırlıklı iş akışları:** kullanım birimi başına en düşük maliyetle aylık $200'lük Max 20x.
 - **Küçük ekipler:** koltuk başına aylık $25, yıllık faturalandırmada $20 olan Team Standard.
 

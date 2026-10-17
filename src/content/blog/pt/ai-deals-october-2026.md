@@ -1,20 +1,20 @@
 ---
 title: "Promoções de IA em outubro de 2026: todas as ofertas ativas, prazos e mudanças de preço"
 metaTitle: "Ofertas de IA em outubro de 2026: promoções e prazos"
-metaDescription: "Ofertas de IA em outubro de 2026: 50% menos uso do Claude com artefatos, ChatGPT Plus grátis para estudantes, 30% de desconto no Firefly, ElevenLabs por $1 e 11 prazos."
-excerpt: "Em 14 de outubro de 2026, as melhores ofertas de IA são o desconto de 50% do Claude no uso com artefatos (até 15 de outubro), o SWE-2 grátis no Devin Desktop (16 de outubro), o ElevenLabs Starter por $1 (18 de outubro), 30% de desconto no Adobe Firefly (21 de outubro) e 4 meses grátis de ChatGPT Plus para universitários dos EUA (31 de outubro). O preço introdutório da API do Gemini 4 Argon vai até 30 de novembro."
+metaDescription: "Ofertas de IA em outubro de 2026: ChatGPT Plus grátis para estudantes, 30% de desconto no Firefly, ElevenLabs por $1, novos créditos de API do Claude e todos os prazos."
+excerpt: "Em 17 de outubro de 2026, as melhores ofertas de IA são o ElevenLabs Starter por $1 (até 18 de outubro), 30% de desconto no Adobe Firefly (21 de outubro) e 4 meses grátis de ChatGPT Plus para universitários dos EUA (31 de outubro). O Claude Max e o Team agora incluem $100–$500 por mês em créditos de API, e o preço introdutório da API do Gemini 4 Argon vai até 30 de novembro."
 imageAlt: "Um tablet com teclado, um smartphone e uma abóbora sobre uma mesa laranja sob a luz do sol de outono"
 keyTakeaways:
-  - "Até 15 de outubro de 2026, o trabalho depois de criar ou editar um artefato no Claude conta 50% menos para o limite por sessão de 5 horas nos planos Free, Pro, Max e Team."
-  - "Onze ofertas de IA que acompanhamos terminam entre 14 e 31 de outubro de 2026, entre elas o SWE-2 grátis no Devin Desktop, o ElevenLabs Starter por $1 e 30% de desconto no Adobe Firefly."
+  - "Desde 7 de outubro de 2026, o Claude Max 5x inclui $100 e o Max 20x $200 por mês em créditos de API, os planos Team recebem até $500 em um saldo compartilhado, e o Claude Haiku 5.5 foi lançado no mesmo dia."
+  - "Onze ofertas de IA que acompanhamos terminam em outubro de 2026; em 17 de outubro, sete ainda estão ativas, entre elas o ElevenLabs Starter por $1 e 30% de desconto no Adobe Firefly."
   - "Universitários dos EUA podem resgatar 4 meses grátis de ChatGPT Plus, equivalentes a $80, até 31 de outubro de 2026, e um ano grátis de Google AI Pro até 31 de dezembro de 2026."
   - "O Google tornou o Gemini 4 Argon disponível para todos na API do Gemini em 13 de outubro de 2026, com preço introdutório de $2 por 1M de tokens de entrada e $10 por 1M de tokens de saída até 30 de novembro."
-  - "O GPT-5.5 sai do ChatGPT, do ChatGPT Work e do Codex em todos os planos em 14 de outubro de 2026, e o ChatGPT Pro agora tem faixas mensais de $100, $200 e $500."
+  - "O GPT-5.5 saiu do ChatGPT, do ChatGPT Work e do Codex em todos os planos em 14 de outubro de 2026, e o ChatGPT Pro agora tem faixas mensais de $100, $200 e $500."
 faq:
   - q: "Quais são as melhores ofertas de IA em outubro de 2026?"
-    a: "Em 14 de outubro de 2026, as melhores ofertas de IA são o desconto de 50% do Claude no uso com artefatos até 15 de outubro, o SWE-2 grátis no Devin Desktop até 16 de outubro, o primeiro mês do ElevenLabs Starter por $1 até 18 de outubro, 30% de desconto no primeiro ano do Adobe Firefly até 21 de outubro e 4 meses grátis de ChatGPT Plus para universitários dos EUA até 31 de outubro."
+    a: "Em 17 de outubro de 2026, as melhores ofertas de IA são o primeiro mês do ElevenLabs Starter por $1 até 18 de outubro, 30% de desconto no primeiro ano do Adobe Firefly até 21 de outubro e 4 meses grátis de ChatGPT Plus para universitários dos EUA até 31 de outubro. Quem assina o Claude Max ou o Team também deve resgatar os novos créditos de API mensais, de $100 a $500."
   - q: "Existe alguma promoção do Claude em outubro de 2026?"
-    a: "Sim. De 1º a 15 de outubro de 2026, o trabalho depois de você criar ou editar um artefato conta 50% menos para o limite por sessão de 5 horas do Claude. Os planos Pro, Max e Team ganharam o desconto em 1º de outubro, e o Free em 7 de outubro. Os limites semanais não mudam, e o Claude Code, a API e os planos Enterprise ficam de fora."
+    a: "Houve uma. De 1º a 15 de outubro de 2026, o trabalho depois de você criar ou editar um artefato contou 50% menos para o limite por sessão de 5 horas do Claude; a promoção terminou. Desde 7 de outubro, o Max 5x inclui $100 e o Max 20x $200 por mês em créditos de API do Claude, e os planos Team recebem até $500 em um saldo compartilhado. Os créditos cobrem a API e o Agent SDK, não o Claude Code."
   - q: "O ChatGPT Plus é grátis em outubro de 2026?"
     a: "Só para estudantes de graduação e pós-graduação elegíveis dos EUA. A oferta Back to School da OpenAI dá a eles 4 meses grátis de ChatGPT Plus, equivalentes a $80, após a verificação pelo SheerID; resgate até 31 de outubro de 2026. O plano é renovado a $20/mês, a menos que você cancele, e a oferta não vale para cobrança pela App Store ou pelo Google Play. Todos os outros pagam $20/mês pelo Plus ou $8/mês pelo Go."
   - q: "O Gemini 4 Argon é grátis?"
@@ -24,20 +24,20 @@ faq:
   - q: "O horário de pico do Claude muda quando os relógios mudam em outubro de 2026?"
     a: "A janela em UTC não muda: o horário de pico do Claude continua das 13:00 às 19:00 UTC nos dias úteis. Os horários locais mudam porque o horário de verão termina. Em Londres, o pico passa de 14:00–20:00 BST para 13:00–19:00 GMT em 25 de outubro de 2026, e em Nova York de 09:00–15:00 EDT para 08:00–14:00 EST em 1º de novembro."
 ---
-Em 14 de outubro de 2026, as ofertas de IA que valem a pena resgatar são o desconto de 50% do Claude no uso com artefatos, o SWE-2 grátis no Devin Desktop, o ElevenLabs Starter por $1, 30% de desconto no primeiro ano do Adobe Firefly e 4 meses grátis de ChatGPT Plus para universitários dos EUA. A maioria termina antes de novembro. Outubro também trouxe o Gemini 4 Argon para a API do Gemini, aposentou o GPT-5.5 no ChatGPT e no Codex e manteve as tarifas da API do Gemini 3.8 Flash pela metade do preço até 31 de dezembro.
+Em 17 de outubro de 2026, as ofertas de IA que valem a pena resgatar são o ElevenLabs Starter por $1, 30% de desconto no primeiro ano do Adobe Firefly e 4 meses grátis de ChatGPT Plus para universitários dos EUA, e quem assina o Claude Max e o Team agora ganha $100–$500 por mês em créditos de API. A maioria das ofertas termina antes de novembro. Outubro também trouxe o Claude Haiku 5.5 e o Gemini 4 Argon para suas APIs, aposentou o GPT-5.5 no ChatGPT e no Codex e manteve as tarifas da API do Gemini 3.8 Flash pela metade do preço até 31 de dezembro.
 
 Acompanhamos ofertas verificadas de 100 ferramentas de IA e conferimos cada uma na página de preços ou na central de ajuda do próprio fornecedor. A seguir: todas as ofertas ativas de outubro por ordem de prazo, o que mudou no Claude, no ChatGPT e no Gemini, e as datas para ficar de olho em novembro e dezembro.
 
 ## Quais ofertas de IA terminam em outubro de 2026?
 
-Onze ofertas de IA da nossa [página de ofertas](/deals/) terminam entre 14 e 31 de outubro de 2026, e seis delas fecham nos próximos sete dias.
+Onze ofertas de IA da nossa [página de ofertas](/deals/) terminam entre 14 e 31 de outubro de 2026. Em 17 de outubro, quatro já terminaram e sete ainda estão ativas.
 
 | Termina | Ferramenta | Oferta | Quem pode usar | Detalhes |
 |---|---|---|---|---|
-| 14 de outubro | Bolt | Prévia do Forge com até 50x mais uso; cadastros no Bolt Lite a $9/mês | Planos individuais Pro e Lite | [Prévia do Bolt Forge](/deals/bolt-forge-preview-2026/) |
-| 15 de outubro | Claude | 50% menos uso da sessão depois de criar ou editar artefatos | Free, Pro, Max e Team | [Promoção de artefatos do Claude](/deals/claude-artifact-usage-promo-oct-2026/) |
-| 15 de outubro | Magnific (Freepik) | Gerações ilimitadas de imagens no Magnific One | Premium+, Pro e Business | [Magnific One ilimitado](/deals/magnific-one-unlimited-oct-2026/) |
-| 16 de outubro | Devin Desktop (Windsurf) | Modelo de programação SWE-2 grátis | Pro, Max e Teams de autoatendimento | [SWE-2 grátis](/deals/windsurf-swe-2-free-oct-2026/) |
+| 14 de outubro (encerrada) | Bolt | Prévia do Forge com até 50x mais uso; cadastros no Bolt Lite a $9/mês | Planos individuais Pro e Lite | [Prévia do Bolt Forge](/deals/bolt-forge-preview-2026/) |
+| 15 de outubro (encerrada) | Claude | 50% menos uso da sessão depois de criar ou editar artefatos | Free, Pro, Max e Team | [Promoção de artefatos do Claude](/deals/claude-artifact-usage-promo-oct-2026/) |
+| 15 de outubro (encerrada) | Magnific (Freepik) | Gerações ilimitadas de imagens no Magnific One | Premium+, Pro e Business | [Magnific One ilimitado](/deals/magnific-one-unlimited-oct-2026/) |
+| 16 de outubro (encerrada) | Devin Desktop (Windsurf) | Modelo de programação SWE-2 grátis | Pro, Max e Teams de autoatendimento | [SWE-2 grátis](/deals/windsurf-swe-2-free-oct-2026/) |
 | 18 de outubro | ElevenLabs | Primeiro mês do Starter por $1 em vez de $6 | Novos assinantes | [ElevenLabs Starter por $1](/deals/elevenlabs-starter-1-first-month-2026/) |
 | 21 de outubro | Adobe Firefly | 30% de desconto no primeiro ano do Pro Plus e do Premium | Novos assinantes do Firefly | [30% de desconto no Firefly](/deals/adobe-firefly-30-off-first-year-2026/) |
 | 31 de outubro | ChatGPT | 4 meses de ChatGPT Plus grátis | Estudantes de graduação e pós-graduação nos EUA | [Oferta do ChatGPT para estudantes](/deals/chatgpt-plus-students-back-to-school-2026/) |
@@ -46,20 +46,21 @@ Onze ofertas de IA da nossa [página de ofertas](/deals/) terminam entre 14 e 31
 | 31 de outubro | Wispr Flow | Notetaker grátis para a equipe toda | Equipes no plano Dictation | [Notetaker do Wispr Flow](/deals/wispr-flow-notetaker-free-teams-2026/) |
 | 31 de outubro | Runway | 2 meses de uso grátis | Empresas que assinam um contrato Enterprise | [Oferta Enterprise da Runway](/deals/runway-enterprise-two-months-free-2026/) |
 
-As datas são as dos próprios fornecedores. A documentação de modelos da Devin cita 15 de outubro como o último dia grátis do SWE-2, então planeje o uso pesado com um dia de antecedência.
+As datas são as dos próprios fornecedores, e marcamos uma oferta como encerrada assim que o prazo passa.
 
 ## O que mudou no Claude em outubro de 2026?
 
-O Claude ganhou um desconto temporário de uso para trabalho com artefatos, um crédito de nuvem para o Claude Code e uma oferta para startups que lotou em poucos dias. O horário de pico e os limites semanais continuaram iguais.
+O Claude ganhou créditos de API mensais no Max e no Team, um novo modelo Haiku, um desconto temporário de uso para trabalho com artefatos, um crédito de nuvem para o Claude Code e uma oferta para startups que lotou em poucos dias. O horário de pico e os limites semanais continuaram iguais.
 
-### Promoção de uso de artefatos: 50% menos uso da sessão até 15 de outubro
+### Max e Team: $100–$500 por mês em créditos de API
 
-De 1º de outubro até 23:59 PT de 15 de outubro de 2026, o trabalho que vem depois de criar ou editar um artefato conta 50% menos para o limite por sessão de 5 horas do Claude, segundo a [Central de Ajuda da Anthropic](https://support.claude.com/en/articles/17274727-artifact-usage-promotion). Os planos Pro, Max e Team ganharam o desconto em 1º de outubro, e o Free entrou em 7 de outubro.
+Desde 7 de outubro de 2026, [o Claude Max e o Team incluem créditos de API mensais](/deals/claude-max-team-api-credits-2026/): $100 no Max 5x, $200 no Max 20x, e $20 por assento Standard e $100 por assento Premium no Team, somados até $500, segundo a [Central de Ajuda da Anthropic](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans). Os planos Free, Pro e Enterprise não recebem. Nosso [guia dos créditos de API](/blog/claude-max-team-api-credits/) mostra como resgatar.
 
-- Nos chats, as 10 mensagens seguintes à criação ou edição de um artefato têm desconto, em até 15 passos por resposta.
-- Tarefas do Cowork iniciadas em Document, Presentation ou Design ganham cerca de 45 minutos de trabalho com desconto.
-- Ficam de fora o Claude Code, a API, o Claude in Slack, as tarefas locais e agendadas do Cowork, o app independente Claude Design e os planos Enterprise.
-- Os limites semanais não mudam, então o desconto estica uma sessão, não uma semana. A Anthropic diz que pode alterar a promoção ou encerrá-la antes do prazo.
+- Você resgata os créditos uma vez, depois de sete dias no plano, vinculando uma organização do Claude Console em Configurações > Cobrança no claude.ai.
+- Eles cobrem a API do Claude, o Message Batches, o Playground do Console, o Claude Managed Agents e o Agent SDK, não o Claude Code interativo nem o uso extra.
+- Os créditos se renovam a cada ciclo de cobrança e expiram no fim dele, sem acumular.
+- No mesmo dia, a Anthropic lançou o Claude Haiku 5.5 a $0.10 por 1M de tokens de entrada em prompts de até 100.000 tokens e reduziu pela metade a leitura de cache do Sonnet 5.5, para $0.10 por 1M de tokens.
+- Mantenedores de código aberto podem pedir [6 meses de Claude Max 20x](/deals/claude-for-open-source-max-2026/), e desde 8 de outubro o OSS Scanner da Anthropic oferece análises de segurança gratuitas a projetos consolidados.
 
 ### Crédito de nuvem do Claude Code: use antes de 4 de novembro
 
@@ -75,9 +76,9 @@ O horário de pico do Claude continua nos dias úteis, das 13:00 às 19:00 UTC, 
 
 ## O que há de novo no ChatGPT e no Codex em outubro de 2026?
 
-O GPT-5.5 sai do ChatGPT e do Codex em 14 de outubro de 2026, e o ChatGPT Pro agora tem três faixas de uso: $100, $200 e $500 por mês.
+O GPT-5.5 saiu do ChatGPT e do Codex em 14 de outubro de 2026, e o ChatGPT Pro agora tem três faixas de uso: $100, $200 e $500 por mês.
 
-- **Aposentadoria do GPT-5.5:** em 14 de outubro de 2026, o GPT-5.5 deixa o ChatGPT, o ChatGPT Work e o Codex em todos os planos, segundo a [documentação de modelos da OpenAI](https://learn.chatgpt.com/docs/models). A API não é afetada. A OpenAI direciona usuários de Plus, Pro, Business, Enterprise e Edu para o GPT-6 Sol, e os de Free e Go para o GPT-6 Luna no app para desktop.
+- **Aposentadoria do GPT-5.5:** em 14 de outubro de 2026, o GPT-5.5 deixou o ChatGPT, o ChatGPT Work e o Codex em todos os planos, segundo a [documentação de modelos da OpenAI](https://learn.chatgpt.com/docs/models). A API não é afetada. A OpenAI direciona usuários de Plus, Pro, Business, Enterprise e Edu para o GPT-6 Sol, e os de Free e Go para o GPT-6 Luna no app para desktop.
 - **Planos:** o Free custa $0, o Go $8/mês nos EUA e o Plus $20/mês. O Plus inclui os modelos de raciocínio avançado do GPT-6, deep research ampliado e mais uso do Codex, sem anúncios.
 - **Faixas do Pro:** a faixa de $100 dá 5x o uso do Plus, a de $200 voltou a aceitar novos cadastros em 29 de setembro de 2026, e a nova faixa de $500 tem o maior uso. O Pro também inclui o Dot, um agente sempre ativo.
 - **Mudança no Pro de $200:** segundo a imprensa, a faixa de $200 agora inclui 10x o uso do Plus em vez de 20x. Quem já assina mantém a cota antiga até 29 de outubro de 2026.
@@ -100,15 +101,15 @@ O Gemini em si continua grátis com uma Conta do Google. Nos EUA, o Google AI Pl
 
 ## Quais ferramentas de IA para programar têm ofertas em outubro de 2026?
 
-As ferramentas de programação concentram o maior uso grátis do mês: SWE-2 grátis no Devin Desktop, a prévia do Forge do Bolt, chat grátis no Lovable e os planos gratuitos do Kiro para estudantes e startups.
+As ferramentas de programação concentraram o maior uso grátis do mês. O SWE-2 grátis no Devin Desktop e a prévia do Forge do Bolt terminaram, enquanto o chat grátis no Lovable e os planos gratuitos do Kiro para estudantes e startups continuam abertos.
 
-### Devin Desktop (antigo Windsurf): SWE-2 grátis até 16 de outubro
+### Devin Desktop (antigo Windsurf): SWE-2 grátis terminou em 16 de outubro
 
-O modelo de programação SWE-2, da Cognition, é grátis no Devin Desktop, o editor Windsurf com novo nome, e na Devin CLI até 16 de outubro de 2026 nos planos de autoatendimento, segundo a [página de preços da Devin](https://devin.ai/pricing). Isso inclui o Pro, a $20/mês, e o Max, a $200/mês. Depois do período grátis, a documentação da Devin lista o SWE-2 a $3 por 1M de tokens de entrada e $15 por 1M de tokens de saída. Planos e cotas estão na nossa [página do Windsurf](/tools/windsurf/).
+O modelo de programação SWE-2, da Cognition, foi grátis no Devin Desktop, o editor Windsurf com novo nome, e na Devin CLI até 16 de outubro de 2026 nos planos de autoatendimento, segundo a [página de preços da Devin](https://devin.ai/pricing). Isso incluía o Pro, a $20/mês, e o Max, a $200/mês. Depois do período grátis, a documentação da Devin lista o SWE-2 a $3 por 1M de tokens de entrada e $15 por 1M de tokens de saída. Planos e cotas estão na nossa [página do Windsurf](/tools/windsurf/).
 
-### Bolt: a prévia do Forge termina em 14 de outubro
+### Bolt: a prévia do Forge terminou em 14 de outubro
 
-Durante a prévia de pesquisa do Bolt Forge, os planos Bolt Pro individuais têm até 50x mais uso do Forge sem custo extra até 14 de outubro de 2026. O plano Bolt Lite, exclusivo do Forge, custa $9/mês, os cadastros fecham no mesmo dia e quem entra mantém esse preço depois. O Bolt não anunciou o preço do Forge após a prévia.
+Durante a prévia de pesquisa do Bolt Forge, os planos Bolt Pro individuais tiveram até 50x mais uso do Forge sem custo extra até 14 de outubro de 2026. O plano Bolt Lite, exclusivo do Forge, custou $9/mês, os cadastros fecharam no mesmo dia e quem entrou mantém esse preço depois. Em 14 de outubro, o Bolt não tinha anunciado o preço do Forge após a prévia.
 
 ### Lovable: chat diário grátis até 31 de outubro
 
@@ -122,11 +123,11 @@ Nosso guia das [melhores ferramentas de IA para programar](/blog/best-ai-coding-
 
 ## Quais ofertas de IA para imagem, vídeo e voz estão ativas em outubro de 2026?
 
-As ferramentas criativas têm os maiores descontos do mês: 30% de desconto no primeiro ano do Adobe Firefly, ElevenLabs Starter por $1 e imagens ilimitadas no Magnific One.
+As ferramentas criativas têm os maiores descontos do mês: 30% de desconto no primeiro ano do Adobe Firefly e ElevenLabs Starter por $1. As imagens ilimitadas no Magnific One terminaram em 15 de outubro.
 
 - **Adobe Firefly:** novos assinantes pagam 30% menos no primeiro ano até 21 de outubro de 2026. O Pro Plus custa $34.97/mês em vez de $49.99, e o Premium $139.91/mês em vez de $199.99. A oferta exige compromisso de 12 meses e exclui clientes de educação, OEM e licenciamento por volume.
 - **ElevenLabs:** o primeiro mês do plano Starter custa $1 em vez de $6 até 18 de outubro de 2026, e o primeiro mês do Creator sai por $11 em vez de $22. O bônus de lançamento do Eleven v4, com 3x créditos, terminou em 12 de outubro.
-- **Magnific (antiga suíte de IA da Freepik):** as gerações de imagens do Magnific One são ilimitadas no desktop para Premium+, Pro e Business até 15 de outubro de 2026, em Draft e Final com qualidade High, em 2K e 4K. A qualidade Max ainda usa créditos.
+- **Magnific (antiga suíte de IA da Freepik):** as gerações de imagens do Magnific One foram ilimitadas no desktop para Premium+, Pro e Business até 15 de outubro de 2026, em Draft e Final com qualidade High, em 2K e 4K. A oferta terminou.
 - **Synthesia:** o Syren, um agente de vídeo com IA, foi lançado em beta em 9 de outubro de 2026. O Syren funciona com créditos, e os créditos de lançamento permitem que todos os clientes, inclusive usuários gratuitos, façam um primeiro vídeo de até três minutos.
 - **Runway:** empresas que assinarem um contrato Enterprise até 31 de outubro de 2026 ganham 2 meses de uso grátis. Os planos Free, Standard, Pro, Max e Team ficam de fora.
 
@@ -134,14 +135,18 @@ Para comparar os planos em detalhe, veja nossos guias dos [melhores geradores de
 
 ## Quais ofertas de IA de outubro de 2026 já terminaram?
 
-Quatro ofertas de outubro terminaram antes de meados do mês, e outras quatro terminam esta semana.
+Oito ofertas de outubro terminaram em 17 de outubro de 2026.
 
 - **Crédito de nuvem do Claude Code:** o prazo para resgatar terminou em 7 de outubro de 2026; o crédito resgatado continua utilizável até 4 de novembro.
 - **Ano grátis de Team do Claude for Startups:** lotou em poucos dias após o lançamento em 6 de outubro; o programa agora não aceita novas inscrições.
 - **Seedream 5.0 Pro ilimitado no Magnific:** terminou em 10 de outubro e foi substituído pelo Magnific One ilimitado.
 - **3x créditos do Eleven v4 no ElevenLabs:** terminou em 12 de outubro para os planos Creator e superiores.
+- **Prévia do Bolt Forge:** terminou em 14 de outubro, quando os cadastros no Bolt Lite a $9/mês também fecharam.
+- **Promoção de artefatos do Claude:** os 50% menos de uso da sessão depois de criar ou editar artefatos terminaram em 15 de outubro ([condições finais](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Magnific One ilimitado:** terminou em 15 de outubro.
+- **SWE-2 grátis no Devin Desktop:** terminou em 16 de outubro.
 
-A prévia do Forge do Bolt termina em 14 de outubro; a promoção de artefatos do Claude e o Magnific One ilimitado, em 15 de outubro; e o SWE-2 grátis no Devin Desktop, em 16 de outubro. As ofertas encerradas continuam com a página no PromoClock, então você ainda pode conferir as condições finais.
+Os próximos: o ElevenLabs Starter por $1 termina em 18 de outubro e os 30% de desconto no Adobe Firefly, em 21 de outubro. As ofertas encerradas continuam com a página no PromoClock, então você ainda pode conferir as condições finais.
 
 ## Que outras mudanças de preço de IA você precisa conhecer?
 
@@ -176,8 +181,8 @@ A janela de pico do Claude continua em 13:00–19:00 UTC nas duas mudanças de h
 
 Aproveite esta semana as ofertas que terminam primeiro e espere a Black Friday para assinar planos anuais, a menos que você precise da ferramenta agora.
 
-- **Usuários do Claude:** faça antes de 15 de outubro a escrita, os documentos e os slides que dependem de artefatos, e rode sessões longas fora das 13:00–19:00 UTC.
+- **Usuários do Claude:** no Max ou no Team, resgate seus créditos de API mensais em Configurações > Cobrança e rode sessões longas fora das 13:00–19:00 UTC.
 - **Estudantes:** resgate primeiro o ano grátis do Google AI Pro e só depois o ChatGPT Plus, até 31 de outubro, se você usar o ChatGPT todo dia. Nosso [guia de descontos de IA para estudantes](/blog/ai-student-discounts/) traz as outras ofertas.
-- **Desenvolvedores:** teste o SWE-2 no Devin Desktop antes de 16 de outubro, faça benchmarks do Gemini 4 Argon antes de o preço introdutório acabar em 30 de novembro, teste o Gemini 3.8 Flash enquanto custa metade do preço e troque qualquer configuração do Codex que ainda esteja fixada no GPT-5.5.
+- **Desenvolvedores:** teste o Claude Haiku 5.5 para trabalho em grande volume, faça benchmarks do Gemini 4 Argon antes de o preço introdutório acabar em 30 de novembro, teste o Gemini 3.8 Flash enquanto custa metade do preço e troque qualquer configuração do Codex que ainda esteja fixada no GPT-5.5.
 - **Criadores:** pegue o ElevenLabs Starter por $1 até 18 de outubro. Compre o Adobe Firefly com 30% de desconto antes de 21 de outubro só se for ficar com ele durante todo o compromisso de 12 meses.
 - **Todo mundo:** coloque as datas de novembro na agenda e leia nosso guia de [como economizar em assinaturas de IA](/blog/save-money-on-ai-subscriptions/) antes da Black Friday.

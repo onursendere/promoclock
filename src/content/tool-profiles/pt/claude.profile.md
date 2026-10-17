@@ -19,12 +19,14 @@ keyFeatures:
     description: "Os planos pagos adicionam uma extensão do Chrome além do Claude for Excel, PowerPoint e Word, com um suplemento do Outlook em beta."
   - name: "Créditos de uso"
     description: "Quando um plano pago atinge seu limite, os créditos de uso mantêm o Claude funcionando nas taxas padrão da API em vez de esperar a renovação."
+  - name: "Créditos de API mensais"
+    description: "O Max 5x inclui $100 e o Max 20x $200 por mês para a API do Claude, e o Team até $500 compartilhados, para criar seus próprios apps e agentes."
 useCases:
   - "Enviar um contrato longo ou relatório anual e pedir ao Claude para extrair obrigações, riscos e prazos em uma tabela."
   - "Deixar o Claude Code refatorar um repositório pelo terminal, rodar a suíte de testes e explicar cada mudança antes de você fazer o commit."
   - "Transformar uma página de notas de reunião em uma apresentação com o Claude Slides e depois baixá-la como arquivo do PowerPoint."
   - "Conectar seus apps de trabalho para que o Claude use seus próprios arquivos ao redigir um relatório semanal de status."
-pricingSummary: "O Free custa $0. O Pro custa $20/mês, ou $17/mês na cobrança anual ($200 adiantados). O Max 5x custa $100/mês e o Max 20x $200/mês, cobrados só mensalmente. As vagas do Team Standard custam $25/mês, ou $20/mês na cobrança anual."
+pricingSummary: "O Free custa $0. O Pro custa $20/mês, ou $17/mês na cobrança anual ($200 adiantados). O Max 5x custa $100/mês e o Max 20x $200/mês, cobrados só mensalmente. As vagas do Team Standard custam $25/mês, ou $20/mês na cobrança anual. O Max e o Team também incluem créditos de API mensais: $100 no Max 5x, $200 no Max 20x e até $500 compartilhados no Team."
 savingTips:
   - "Pagar o Pro anualmente custa $200 adiantados, cerca de $17/mês em vez de $20."
   - "O plano Free já inclui busca na web, memória, conectores e criação de arquivos, então usuários leves talvez não precisem do Pro."
@@ -39,8 +41,8 @@ faq:
     a: "Ambos incluem tudo do Pro. O Max 5x custa $100/mês por cinco vezes o uso do Pro por sessão de 5 horas, e o Max 20x custa $200/mês por vinte vezes. Os dois são cobrados mensalmente e têm acesso prioritário em horários de alto tráfego."
   - q: "O Claude Code está incluído no plano Pro?"
     a: "Sim. O Claude Code está incluído no Pro, no Max, no Team e no Enterprise, mas não no Free. Ele compartilha uma cota de uso com o chat, e em 6 de maio de 2026 a Anthropic dobrou os limites de cinco horas no Pro, Max, Team e Enterprise por vaga."
-  - q: "O que aconteceu com o Claude Cowork?"
-    a: "Em 16 de setembro de 2026 a Anthropic anunciou que o Cowork agora é simplesmente parte do Claude, então seus recursos de agente funcionam em qualquer conversa. O Pro e o Max recebem a mudança primeiro ao longo de várias semanas, seguidos pelo Team e pelo Free."
+  - q: "Os planos Claude Max e Team incluem créditos de API?"
+    a: "Sim. Desde outubro de 2026, o Max 5x inclui $100 e o Max 20x $200 por mês em créditos da Claude Platform, e os planos Team recebem $20 por assento Standard e $100 por assento Premium, somados até $500. Você resgata uma vez em Configurações > Cobrança. Eles cobrem a API e o Agent SDK, não o Claude Code interativo, e expiram a cada ciclo de cobrança."
   - q: "Como funcionam os limites de uso do Claude?"
     a: "Todo plano tem um limite que se renova em uma janela contínua de cinco horas, e os planos pagos somam limites semanais. Web, desktop, celular e Claude Code consomem da mesma cota, e o Pro dá pelo menos cinco vezes o uso do Free por sessão."
 ---

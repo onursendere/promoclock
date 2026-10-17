@@ -414,6 +414,41 @@
         "Die Zulassung erfolgt im Einzelfall; Hauptzielgruppe sind Kern-Maintainer und Leiter weit verbreiteter öffentlicher Projekte.",
         "Eine Bewerbungsfrist ist nicht angegeben."
       ]
+    },
+    "claude-max-team-api-credits-2026": {
+      "title": "Claude Max und Team: monatliches API-Guthaben von $100 (Max 5x), $200 (Max 20x) oder bis zu $500 gepoolt (Team)",
+      "headline": "Claude Max & Team: $100–$500 API-Guthaben",
+      "value": "$100–$500 im Monat",
+      "audience": "Abonnenten von Max 5x, Max 20x und Team",
+      "summary": "Seit Oktober 2026 enthält Claude Max 5x monatlich $100 und Max 20x $200 an Guthaben der Claude Platform, und Team-Pläne bekommen $20 pro Standard-Platz und $100 pro Premium-Platz, gepoolt bis zu $500. Das Guthaben ist zum Bauen eigener Apps und Agenten auf der Claude API gedacht und muss einmal eingelöst werden.",
+      "scope": "Claude API, Message Batches, Playground der Console, Managed Agents und Agent SDK",
+      "steps": [
+        "Öffne nach sieben Tagen mit Max oder Team auf claude.ai im Webbrowser Einstellungen > Abrechnung (Max) oder Organisationseinstellungen > Abrechnung (Team).",
+        "Wähle im Bereich API-Guthaben die Option Organisation verknüpfen und such die Claude-Console-Organisation aus oder lege eine an, die das Guthaben bekommen soll.",
+        "Bestätige die Supplemental Credit Terms; das Guthaben erscheint auf der Abrechnungsseite der Console unter Promotional credits."
+      ],
+      "terms": [
+        "Free, Pro und Enterprise sind nicht berechtigt; vergünstigte Team-Pläne für Nonprofits und Wissenschaftler sind es.",
+        "Das interaktive Claude Code, zusätzliche Nutzung in den Claude-Apps und Claude bei Bedrock, Vertex AI oder Foundry sind nicht abgedeckt.",
+        "Das Guthaben wird in jedem Abrechnungszeitraum erneuert (bei Jahresplänen monatlich) und verfällt an dessen Ende ohne Übertrag.",
+        "Jeder Plan wird mit einer Console-Organisation verknüpft, und du kannst die Verknüpfung nicht selbst ändern."
+      ]
+    },
+    "claude-for-open-source-max-2026": {
+      "title": "Claude for Open Source: sechs Monate Claude Max 20x gratis für Open-Source-Maintainer",
+      "headline": "Claude for Open Source: 6 Monate Max 20x",
+      "value": "6 Monate Max 20x",
+      "audience": "Maintainer und Kernbeiträger weit verbreiteter Open-Source-Projekte",
+      "summary": "Anthropics Programm Claude for Open Source gibt zugelassenen Maintainern und Beitragenden sechs Monate Claude Max 20x ohne Kosten. Es ist auf 10.000 Empfänger begrenzt und prüft Bewerbungen fortlaufend, bis es schließt.",
+      "steps": [
+        "Prüfe, ob du eine der Hürden erfüllst, etwa 500+ abhängige Repositories, 200.000+ Downloads im Monat oder 100+ gemergte Pull Requests in fremden Repositories in den letzten 12 Monaten.",
+        "Bewirb dich mit deinem GitHub-Konto auf Anthropics Seite Claude for Open Source und erkläre in bis zu 500 Wörtern, warum du berechtigt bist."
+      ],
+      "terms": [
+        "Dein GitHub-Konto muss mindestens zwei Jahre alt sein und in den letzten 90 Tagen öffentliche Open-Source-Aktivität haben.",
+        "Anthropic meldet sich nur bei zugelassenen Bewerbern; Absagen werden nicht mitgeteilt.",
+        "Nach sechs Monaten gehen Mitglieder, die zuvor einen Bezahlplan hatten, wieder zu ihrem alten Preis in diesen Plan über, wenn sie nicht kündigen; alle anderen fallen auf den Free-Plan zurück."
+      ]
     }
   },
   "tools": {
@@ -777,6 +812,13 @@
     },
     "claude-for-startups-launch-2026": {
       "title": "Claude for Startups ergänzt ein Gratisjahr Claude Team und $1,000 API-Guthaben"
+    },
+    "claude-api-credits-launch-2026": {
+      "title": "Claude Max und Team enthalten jetzt monatliches API-Guthaben ($100–$500)",
+      "description": "Angekündigt mit Claude Haiku 5.5, am selben Tag, an dem die Cache-Lesepreise von Sonnet 5.5 von $0.20 auf $0.10 pro 1 Mio. Tokens sanken."
+    },
+    "claude-cloud-credit-expiry-2026": {
+      "title": "Nicht genutztes Cloud-Guthaben für Claude Code verfällt"
     }
   }
 }

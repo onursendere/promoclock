@@ -9,7 +9,7 @@ keyTakeaways:
   - "Adobe Firefly Standard kostet US$9.99/Monat mit 2.000 Credits und unbegrenzter Standard-Bildgenerierung, und laut Adobe dürfen Ergebnisse der Firefly-Modelle kommerziell genutzt werden."
   - "Ideogram ist die Wahl für lesbaren Text in Bildern: Kostenlose Konten bekommen 30 Credits pro Woche, und Plus kostet $20/Monat oder $15/Monat bei jährlicher Abrechnung."
   - "Recraft erzeugt in jedem Plan editierbare SVG-Vektoren, doch Bilder aus dem kostenlosen Plan gehören Recraft und dürfen nicht kommerziell genutzt werden; Basic kostet $12/Monat."
-  - "Mitte Oktober 2026 laufen zwei Bild-Deals: 30 % Rabatt auf Firefly Pro Plus und Premium bis 21. Oktober und unbegrenzte Magnific-One-Generierungen bei Magnific bis 15. Oktober."
+  - "Mit Stand 17. Oktober 2026 gibt Adobe Firefly neuen Abonnenten bis 21. Oktober 30 % Rabatt auf Pro Plus und Premium, während die unbegrenzten Generierungen mit Magnific One bei Magnific am 15. Oktober endeten."
 faq:
   - q: "Welcher kostenlose KI-Bildgenerator ist der beste?"
     a: "Gemini und ChatGPT erstellen und bearbeiten Bilder beide auch mit kostenlosen Konten. Unter den spezialisierten Tools erneuert Leonardo.ai jeden Tag 150 Fast Tokens, Krea gibt 100 Compute Units pro Tag, Ideogram 30 Credits pro Woche und Adobe Firefly kostenlose tägliche Generierungen. Gratis-Bilder sind oft öffentlich, und die kostenlosen Pläne von Recraft, Krea und Freepik schließen die kommerzielle Nutzung aus."
@@ -137,10 +137,9 @@ Wenn du Fotos bearbeiten statt generieren willst, liegen Photoroom und Pixelcut 
 
 ## Gibt es gerade Deals für KI-Bildgeneratoren?
 
-Ja: Mit Stand Oktober 2026 laufen bei Adobe Firefly und Magnific zeitlich begrenzte Angebote, und Studierende an US-Hochschulen können Google AI Pro oder ChatGPT Plus gratis bekommen.
+Ja: Mit Stand 17. Oktober 2026 läuft bei Adobe Firefly ein zeitlich begrenztes Angebot, und Studierende an US-Hochschulen können Google AI Pro oder ChatGPT Plus gratis bekommen. Das Angebot für unbegrenztes Magnific One bei Magnific endete am 15. Oktober.
 
 - [30 % Rabatt auf Firefly Pro Plus und Premium](/deals/adobe-firefly-30-off-first-year-2026/): Neue Abonnenten zahlen im ersten Jahr US$34.97/Monat statt US$49.99 für Pro Plus oder US$139.91 statt US$199.99 für Premium. Endet am 21. Oktober 2026.
-- [Unbegrenztes Magnific One bei Magnific](/deals/magnific-one-unlimited-oct-2026/): unbegrenzte Generierungen in der Qualitätsstufe High mit 2K und 4K für Premium+, Pro und Business bis 15. Oktober 2026, nachdem ein Angebot mit unbegrenztem Seedream 5.0 Pro am 10. Oktober endete.
 - [Ein Jahr Google AI Pro gratis](/deals/google-ai-pro-students-2026/): für berechtigte Studierende an US-Hochschulen, die bis 31. Dezember 2026 einlösen.
 - [4 Monate ChatGPT Plus gratis](/deals/chatgpt-plus-students-back-to-school-2026/): für berechtigte Studierende an US-Hochschulen, die sich das Angebot bis 31. Oktober 2026 sichern.
 

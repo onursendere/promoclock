@@ -5,7 +5,7 @@ metaDescription: "The best free AI tools in 2026: 20 free plans for chat, coding
 excerpt: "As of October 2026, the best free AI tools are ChatGPT, Gemini and DeepSeek for chat, GitHub Copilot for coding, Canva and Freepik for images, Kling and CapCut for video, ElevenLabs and Suno for audio, and NotebookLM for research. Every free plan has a cap, usually credits that reset daily or monthly."
 category: guides
 publishedAt: 2026-10-04
-updatedAt: 2026-10-12
+updatedAt: 2026-10-17
 image:
   src: "../images/best-free-ai-tools.jpg"
   alt: "Workshop pegboard wall filled with neatly hung hand tools and power tools"
@@ -215,14 +215,14 @@ Lean on tools whose caps reset daily, such as Suno, Manus, Genspark and Freepik,
 
 ## Which free trials and promos are live in October 2026?
 
-As of October 12, 2026, these offers on our [deals page](/deals/) add free or cheaper access on top of the free plans above.
+As of October 17, 2026, these offers on our [deals page](/deals/) add free or cheaper access on top of the free plans above.
 
 - [4 free months of ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/) for eligible US college students; claim by October 31, 2026.
 - [A free year of Google AI Pro](/deals/google-ai-pro-students-2026/) for eligible US college students, or Google AI Plus in 140+ markets; redeem by December 31, 2026.
 - [12 months of Google AI Pro with a Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/), Pro XL or Pro Fold bought and redeemed by October 31, 2026.
 - [Free Lovable chat](/deals/lovable-free-daily-chat-2026/) up to a daily allowance on Free, Pro and Business through October 31, 2026.
 - [ElevenLabs Starter for $1](/deals/elevenlabs-starter-1-first-month-2026/) for the first month until October 18, 2026.
-- [50% less Claude session usage after creating artifacts](/deals/claude-artifact-usage-promo-oct-2026/), on the Free plan too since October 7, until October 15, 2026.
+- [6 months of Claude Max 20x for open-source maintainers](/deals/claude-for-open-source-max-2026/) through Anthropic's Claude for Open Source program, ongoing.
 - [A free year of Kiro for university students](/deals/kiro-student-free-year-2026/), with 1,000 credits a month, ongoing.
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/) and [Notion Plus for students](/deals/notion-education-plus-free/), both ongoing.
 - [50% off a first Manus month](/deals/manus-welcome-back-bonus-2026/) for free users affected by its 2026 service change, until November 22, 2026.

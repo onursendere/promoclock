@@ -87,6 +87,65 @@
   sourceUrl: https://claude.com/programs/startups
   sourceLabel: "Claude for Startups"
 
+- id: claude-max-team-api-credits-2026
+  tool: claude
+  kind: launch
+  featured: true
+  ongoing: true
+  title:
+    en: "Claude Max and Team monthly API credits: $100 (Max 5x), $200 (Max 20x) or up to $500 pooled (Team)"
+  headline:
+    en: "Claude Max & Team: $100–$500 monthly API credit"
+  value:
+    en: "$100–$500 a month"
+  audience:
+    en: "Max 5x, Max 20x and Team subscribers"
+  summary:
+    en: "Since October 2026, Claude Max 5x includes $100 and Max 20x $200 a month in Claude Platform credits, and Team plans get $20 per Standard seat and $100 per Premium seat, pooled up to $500. The credits are for building your own apps and agents on the Claude API and must be claimed once."
+  scope:
+    en: "Claude API, Message Batches, Console Playground, Managed Agents and the Agent SDK"
+  steps:
+    - en: "After seven days on Max or Team, open Settings > Billing (Max) or Organization settings > Billing (Team) on claude.ai in a web browser."
+    - en: "In the API credits section, select Link organization and choose or create the Claude Console organization that should receive the credits."
+    - en: "Accept the Supplemental Credit Terms; the credit appears under Promotional credits on the Console's billing page."
+  terms:
+    - en: "Free, Pro and Enterprise plans aren't eligible; discounted Nonprofit and Scientists Team plans are."
+    - en: "Interactive Claude Code, extra usage in the Claude apps and Claude on Bedrock, Vertex AI or Foundry aren't covered."
+    - en: "Credits refresh each billing cycle (monthly on annual plans) and expire at its end with no rollover."
+    - en: "Each plan links to one Console organization, and you can't change the link yourself."
+  startsAt: 2026-10-07T00:00:00Z
+  verifiedAt: 2026-10-17T00:00:00Z
+  sourceUrl: https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans
+  sourceLabel: "Anthropic Help Center"
+
+- id: claude-for-open-source-max-2026
+  tool: claude
+  kind: free-trial
+  ongoing: true
+  title:
+    en: "Claude for Open Source: six months of Claude Max 20x free for open-source maintainers"
+  headline:
+    en: "Claude for Open Source: 6 months of Max 20x"
+  value:
+    en: "6 months of Max 20x"
+  audience:
+    en: "Maintainers and core contributors of widely used open-source projects"
+  summary:
+    en: "Anthropic's Claude for Open Source program gives approved maintainers and contributors six months of Claude Max 20x at no cost. It is capped at 10,000 recipients and reviews applications on a rolling basis until it closes."
+  steps:
+    - en: "Check that you meet one of the bars, such as 500+ dependent repositories, 200,000+ monthly downloads or 100+ merged pull requests to other people's repositories in the last 12 months."
+    - en: "Apply with your GitHub account on Anthropic's Claude for Open Source page and explain in up to 500 words why you qualify."
+  terms:
+    - en: "Your GitHub account must be at least two years old, with public open-source activity in the last 90 days."
+    - en: "Anthropic contacts only approved applicants; there is no notice for rejections."
+    - en: "After six months, members who had a paid plan go back to it at their old rate unless they cancel; everyone else returns to the Free plan."
+  startsAt: 2026-10-17T00:00:00Z
+  startKnown: false
+  verifiedAt: 2026-10-17T00:00:00Z
+  sourceUrl: https://claude.com/contact-sales/claude-for-oss
+  sourceLabel: "Claude for Open Source"
+  ctaUrl: https://claude.com/open-source-max
+
 - id: claude-code-weekly-plus25-permanent
   tool: claude
   kind: limit-change

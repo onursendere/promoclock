@@ -80,6 +80,8 @@ Claude Code utilise les mêmes limites de 5 heures et hebdomadaires que le chat,
 - **Heures de pointe :** la même mise à jour a supprimé la réduction aux heures de pointe pour Claude Code sur Pro et Max.
 - **Limites hebdomadaires :** une [hausse hebdomadaire de +50 %](/deals/claude-code-weekly-plus50-2026/) s’est appliquée du 13 mai au 14 septembre 2026. Elle a été remplacée par une [hausse permanente de +25 %](/deals/claude-code-weekly-plus25-permanent/). Sur une base de 100, cela donne 100 avant, 150 pendant la promotion et 125 aujourd’hui.
 - **Sessions cloud :** les abonnés Pro individuels reçoivent $100 et les abonnés Max $250 de [crédit cloud Claude Code](/deals/claude-code-cloud-credit-2026/), que les sessions cloud consomment avant les limites de la formule. La période pour l’activer s’est terminée le 7 octobre 2026, et le crédit obtenu reste utilisable jusqu’au 4 novembre 2026.
+- **Compactage en cas d’inactivité :** depuis Claude Code 2.1.299 (14 octobre 2026), une conversation de terminal de plus de 200K tokens restée inactive pendant environ 54 minutes est compactée avant l’expiration de son cache de prompt d’une heure, si bien que votre prochain message ne retraite pas toute la conversation.
+- **Crédits API :** les crédits API mensuels de Max et Team n’ajoutent pas d’utilisation à Claude Code ; ils couvrent l’API Claude et l’Agent SDK, comme l’explique notre [guide des crédits API](/blog/claude-max-team-api-credits/).
 
 Claude Code n’est pas inclus dans la formule Free.
 
@@ -93,7 +95,7 @@ Les formules Enterprise ne sont pas concernées, et Claude Code sur Pro et Max e
 
 ## Qu’est-ce qui a changé dans les limites d’utilisation de Claude en 2026 ?
 
-Nous comptons 9 changements de limites et promotions en 2026, dont 4 pour Claude Code seul. Au 12 octobre 2026, une promotion est encore en cours.
+Nous comptons 9 changements de limites et promotions en 2026, dont 4 pour Claude Code seul. Au 17 octobre 2026, aucune n’est en cours : la promotion sur les artifacts s’est terminée le 15 octobre.
 
 | Date | Changement | Formules | Statut |
 |---|---|---|---|
@@ -105,9 +107,9 @@ Nous comptons 9 changements de limites et promotions en 2026, dont 4 pour Claude
 | Juillet 2026 | Fable 5 passe aux crédits d’utilisation sur Pro et les sièges Team standard | Pro, sièges Team standard | En vigueur |
 | 14 septembre 2026 | Limites hebdomadaires de Claude Code définitivement +25 % par rapport au niveau d’avant la promotion | Pro, Max, Team, Enterprise facturé au siège | Permanent |
 | 23 septembre – 7 octobre 2026 | [Crédit cloud Claude Code](/deals/claude-code-cloud-credit-2026/) : $100 (Pro) ou $250 (Max) | Pro et Max individuels | Demandes clôturées ; crédit utilisable jusqu’au 4 novembre |
-| 1er–15 octobre 2026 | [Utilisation de session réduite de 50 % après la création ou la modification d’artifacts](/deals/claude-artifact-usage-promo-oct-2026/) | Free (à partir du 7 octobre), Pro, Max, Team | Se termine le 15 octobre |
+| 1er–15 octobre 2026 | [Utilisation de session réduite de 50 % après la création ou la modification d’artifacts](/deals/claude-artifact-usage-promo-oct-2026/) | Free (à partir du 7 octobre), Pro, Max, Team | Terminé |
 
-La promotion sur les artifacts s’applique aux 10 messages de chat qui suivent la création ou la modification d’un artifact, et se termine le 15 octobre à 23 h 59, heure du Pacifique (PT). Les formules Free l’ont rejointe le 7 octobre, tandis que Claude Code, l’API et les formules Enterprise en sont exclus, selon [la page de la promotion chez Anthropic](https://support.claude.com/en/articles/17274727-artifact-usage-promotion).
+La promotion sur les artifacts s’appliquait aux 10 messages de chat qui suivaient la création ou la modification d’un artifact et s’est terminée le 15 octobre à 23 h 59, heure du Pacifique (PT). Les formules Free l’ont rejointe le 7 octobre, tandis que Claude Code, l’API et les formules Enterprise en étaient exclus, selon [la page de la promotion chez Anthropic](https://support.claude.com/en/articles/17274727-artifact-usage-promotion).
 
 ## Le modèle choisi change-t-il la vitesse à laquelle vous atteignez la limite ?
 
@@ -151,7 +153,7 @@ Les plus gros gains viennent du bon créneau, de conversations plus courtes et d
 - **Utilisez les projets pour vos fichiers de référence.** Selon Anthropic, le contenu mis en cache dans les projets pèse moins sur vos limites.
 - **Choisissez le modèle le plus léger.** Utilisez Sonnet par défaut et baissez le niveau d’effort pour les tâches simples.
 - **Utilisez les outils à bon escient.** Research et la recherche web augmentent l’utilisation : activez-les quand la réponse en a besoin.
-- **Profitez des promotions en cours.** Jusqu’au 15 octobre 2026, créer avec des artifacts sur Free, Pro, Max ou Team consomme 50 % d’utilisation de session en moins.
+- **Donnez un cadre plus léger aux sous-agents.** Dans Claude Code, demandez des sous-agents à effort faible ou Haiku 5.5 pour les recherches et les consultations, et réservez l’effort élevé à l’étape qui exige du jugement.
 
 ## En résumé
 

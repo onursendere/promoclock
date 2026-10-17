@@ -19,12 +19,14 @@ keyFeatures:
     description: "유료 플랜은 Chrome 확장 프로그램과 Excel·PowerPoint·Word용 Claude, 베타 상태의 Outlook 애드인을 추가로 제공합니다."
   - name: "사용 크레딧"
     description: "유료 플랜이 한도에 도달하면 사용 크레딧이 초기화를 기다리지 않고 표준 API 요금으로 Claude를 계속 쓸 수 있게 해줍니다."
+  - name: "월간 API 크레딧"
+    description: "Max 5x는 월 $100, Max 20x는 월 $200, Team은 합산 최대 $500의 Claude API 크레딧을 포함해 직접 만드는 앱과 에이전트를 개발할 수 있습니다."
 useCases:
   - "긴 계약서나 연간 보고서를 업로드해 Claude에게 의무 사항, 위험, 마감일을 표로 정리해 달라고 요청합니다."
   - "Claude Code가 터미널에서 저장소를 리팩터링하고 테스트를 실행한 뒤 커밋 전에 각 변경 사항을 설명하도록 합니다."
   - "회의 메모 한 페이지를 Claude Slides로 슬라이드 덱으로 바꾼 뒤 PowerPoint 파일로 다운로드합니다."
   - "업무용 앱을 연결해 주간 상태 보고서를 작성할 때 Claude가 실제 파일을 참고하도록 합니다."
-pricingSummary: "Free는 $0입니다. Pro는 월 $20이며, 연간 결제 시 월 $17($200 선결제)입니다. Max 5x는 월 $100, Max 20x는 월 $200이며 월간 결제만 가능합니다. Team Standard 좌석은 월 $25이며 연간 결제 시 월 $20입니다."
+pricingSummary: "Free는 $0입니다. Pro는 월 $20이며, 연간 결제 시 월 $17($200 선결제)입니다. Max 5x는 월 $100, Max 20x는 월 $200이며 월간 결제만 가능합니다. Team Standard 좌석은 월 $25이며 연간 결제 시 월 $20입니다. Max와 Team에는 월간 API 크레딧도 포함됩니다. Max 5x는 $100, Max 20x는 $200, Team은 합산 최대 $500입니다."
 savingTips:
   - "Pro를 연간으로 결제하면 $200을 선결제해 월 $20 대신 약 $17이 됩니다."
   - "Free 플랜에도 이미 웹 검색, 메모리, 커넥터, 파일 생성이 포함되어 있어 가볍게 쓰는 사람은 Pro가 필요 없을 수 있습니다."
@@ -39,8 +41,8 @@ faq:
     a: "둘 다 Pro의 모든 기능을 포함합니다. Max 5x는 월 $100로 5시간 세션당 Pro 사용량의 5배를, Max 20x는 월 $200로 20배를 제공합니다. 둘 다 월간 결제이며 트래픽이 많은 시간대에 우선 접속을 제공합니다."
   - q: "Claude Code는 Pro 플랜에 포함되나요?"
     a: "네. Claude Code는 Pro, Max, Team, Enterprise에 포함되지만 Free에는 포함되지 않습니다. 채팅과 하나의 사용량 풀을 공유하며, 2026년 5월 6일 Anthropic은 Pro, Max, Team, 좌석 기반 Enterprise의 5시간 한도를 두 배로 늘렸습니다."
-  - q: "Claude Cowork는 어떻게 됐나요?"
-    a: "2026년 9월 16일 Anthropic은 Cowork가 이제 단순히 Claude의 일부가 되어 에이전트 기능이 모든 대화에서 작동한다고 발표했습니다. Pro와 Max가 몇 주에 걸쳐 먼저 이 변경을 받고, 이어서 Team과 Free가 적용받습니다."
+  - q: "Claude Max와 Team 플랜에는 API 크레딧이 포함되나요?"
+    a: "네. 2026년 10월부터 Max 5x는 월 $100, Max 20x는 월 $200의 Claude Platform 크레딧을 포함하고, Team 플랜은 Standard 좌석당 $20, Premium 좌석당 $100을 받아 합산 최대 $500입니다. claude.ai의 Settings > Billing에서 한 번 신청합니다. 크레딧은 API와 Agent SDK에 쓸 수 있고 대화형 Claude Code에는 쓸 수 없으며, 결제 주기마다 소멸합니다."
   - q: "Claude의 사용 한도는 어떻게 작동하나요?"
     a: "모든 플랜에는 5시간 단위로 돌아가며 초기화되는 한도가 있고, 유료 플랜은 주간 한도도 추가됩니다. 웹, 데스크톱, 모바일, Claude Code는 같은 풀을 사용하며, Pro는 세션당 Free 사용량의 최소 5배를 제공합니다."
 ---

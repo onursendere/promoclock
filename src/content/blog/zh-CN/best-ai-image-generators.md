@@ -9,7 +9,7 @@ keyTakeaways:
   - "Adobe Firefly Standard为US$9.99/月，含2,000积分和无限次标准图像生成，Adobe表示Firefly模型的输出可以商用。"
   - "图像里要有清晰可读的文字，就选Ideogram：免费账户每周30积分，Plus为$20/月，按年付费为$15/月。"
   - "Recraft每个套餐都能生成可编辑的SVG矢量图，但免费套餐的图像归Recraft所有，不能商用；Basic为$12/月。"
-  - "2026年10月中旬有两项绘图优惠正在进行：10月21日前Firefly Pro Plus和Premium享30%折扣，10月15日前可在Magnific上无限次使用Magnific One生成图像。"
+  - "截至2026年10月17日，Adobe Firefly为新订阅者提供Pro Plus和Premium的30%折扣，至10月21日；Magnific上不限次数的Magnific One图像生成已于10月15日结束。"
 faq:
   - q: "最好用的免费AI绘图工具是哪个？"
     a: "Gemini和ChatGPT的免费账户都能生成和编辑图像。专门的工具中，Leonardo.ai每天刷新150个快速token，Krea每天提供100个计算单位，Ideogram每周30积分，Adobe Firefly每天提供免费生成次数。免费图像往往是公开的，Recraft、Krea和Freepik的免费套餐也不允许商用。"
@@ -137,10 +137,9 @@ ChatGPT在每个套餐中都能在聊天里生成和编辑图像，Free的生成
 
 ## 现在有哪些AI绘图优惠？
 
-有：截至2026年10月，Adobe Firefly和Magnific都在进行限时优惠，美国大学生还可以免费使用Google AI Pro或ChatGPT Plus。
+有：截至2026年10月17日，Adobe Firefly正在进行限时优惠，美国大学生还可以免费使用Google AI Pro或ChatGPT Plus。Magnific的Magnific One不限次数优惠已于10月15日结束。
 
 - [Firefly Pro Plus和Premium享30%折扣](/deals/adobe-firefly-30-off-first-year-2026/)：首次订阅者首年Pro Plus只需US$34.97/月（原价US$49.99），Premium只需US$139.91（原价US$199.99）。2026年10月21日结束。
-- [Magnific无限使用Magnific One](/deals/magnific-one-unlimited-oct-2026/)：2026年10月15日前，Premium+、Pro和Business订阅者可无限次生成2K和4K的High质量图像；此前的无限Seedream 5.0 Pro优惠已于10月10日结束。
 - [免费用1年Google AI Pro](/deals/google-ai-pro-students-2026/)：面向在2026年12月31日前兑换的符合条件的美国大学生。
 - [免费用4个月ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/)：面向在2026年10月31日前领取的符合条件的美国大学生。
 

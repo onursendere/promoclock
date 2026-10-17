@@ -70,7 +70,7 @@ Claude Code, Anthropic'in terminal, VS Code, JetBrains IDE'leri ve Claude masaü
 
 Claude Code, Claude sohbetiyle tek bir havuzu paylaşıyor; kullanım, kayan 5 saatlik oturum ve haftalık bir üst sınırla ölçülüyor. Anthropic 6 Mayıs 2026'da [Claude Code'un 5 saatlik limitlerini iki katına çıkardı](/deals/claude-code-5h-limits-doubled/) ve Pro ile Max'te onu hafta içi yoğun saat kısıtlamasından muaf tuttu. 14 Eylül'den beri haftalık limitleri [kalıcı olarak %25 daha yüksek](/deals/claude-code-weekly-plus25-permanent/). [Yoğun saatleri gösteren canlı saatimizde](/) görüldüğü gibi Claude sohbeti hafta içi 13:00–19:00 UTC arasında hâlâ daha hızlı tükeniyor; ayrıntılar [Claude kullanım limitleri rehberinde](/blog/claude-usage-limits/).
 
-[$100 ya da $250 Claude Code bulut kredisini](/deals/claude-code-cloud-credit-2026/) 7 Ekim 2026'ya kadar talep eden bireysel Pro ve Max aboneleri, krediyi 4 Kasım'a kadar bulut oturumlarında harcayabilir. Kimler için: bir deponun tamamında ajanla çalışmak isteyenler.
+[$100 ya da $250 Claude Code bulut kredisini](/deals/claude-code-cloud-credit-2026/) 7 Ekim 2026'ya kadar talep eden bireysel Pro ve Max aboneleri, krediyi 4 Kasım'a kadar bulut oturumlarında harcayabilir. Max ve Team planları ayrıca Agent SDK ve kendi araçların için ayda $100–$500 [Claude API kredisi](/deals/claude-max-team-api-credits-2026/) içerir, ama etkileşimli Claude Code'u kapsamaz. Kimler için: bir deponun tamamında ajanla çalışmak isteyenler.
 
 ### OpenAI Codex
 
@@ -94,7 +94,7 @@ Cursor'ın kendi Grok ve Composer modelleri plana dahil daha büyük bir havuzda
 
 ### Devin Desktop (eski adıyla Windsurf)
 
-Windsurf, 2 Haziran 2026'daki bir güncellemeyle editörünü, eklentilerini, ayarlarını ve fiyatlarını koruyarak Devin Desktop'a dönüştü. Devin Desktop Free hafif bir kota ve sınırsız Tab tamamlama içeriyor; Pro aylık $20, Max aylık $200, Teams ise aylık $80 artı tam koltuk başına $40'tan başlıyor. 16 Ekim 2026'ya kadar [SWE-2, Pro ve Max'te ücretsiz](/deals/windsurf-swe-2-free-oct-2026/). Kimler için: yerel ve bulut ajanlarını tek bir panodan yöneten geliştiriciler.
+Windsurf, 2 Haziran 2026'daki bir güncellemeyle editörünü, eklentilerini, ayarlarını ve fiyatlarını koruyarak Devin Desktop'a dönüştü. Devin Desktop Free hafif bir kota ve sınırsız Tab tamamlama içeriyor; Pro aylık $20, Max aylık $200, Teams ise aylık $80 artı tam koltuk başına $40'tan başlıyor. Pro ve Max'te [ücretsiz SWE-2 teklifi](/deals/windsurf-swe-2-free-oct-2026/) 16 Ekim 2026'da sona erdi. Kimler için: yerel ve bulut ajanlarını tek bir panodan yöneten geliştiriciler.
 
 ### Kiro
 
@@ -142,7 +142,7 @@ Lovable Free günde 5 geliştirme kredisi veriyor, ayda en fazla 30; Pro aylık 
 
 ### Bolt.new
 
-Bolt.new Free, günlük 300K sınırıyla ayda 1M token içeriyor; Pro aylık $25'ten başlıyor ve 10M token sunuyor. 14 Ekim 2026'ya kadar [Bolt Forge önizlemesi](/deals/bolt-forge-preview-2026/) Pro'ya 50 kata kadar daha fazla Forge kullanımını ücretsiz veriyor; yalnızca Forge içeren aylık $9'luk Lite planına kayıtlar da açık. Kimler için: web ve Expo mobil uygulamaları.
+Bolt.new Free, günlük 300K sınırıyla ayda 1M token içeriyor; Pro aylık $25'ten başlıyor ve 10M token sunuyor. Pro'ya 50 kata kadar daha fazla Forge kullanımını ücretsiz veren [Bolt Forge önizlemesi](/deals/bolt-forge-preview-2026/) 14 Ekim 2026'da sona erdi. Kimler için: web ve Expo mobil uygulamaları.
 
 ### v0
 

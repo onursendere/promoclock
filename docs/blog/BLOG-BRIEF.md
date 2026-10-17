@@ -77,7 +77,8 @@ Do not add `image` — hero images are added separately. Quote YAML strings with
 8. `save-money-on-ai-subscriptions` — guides
 9. `best-ai-image-generators` — comparisons
 10. `best-ai-video-generators` — comparisons
-11. `ai-deals-october-2026` — deals (monthly roundup, published 2026-10-14; refresh or retire after October 31)
+11. `ai-deals-october-2026` — deals (monthly roundup, published 2026-10-14; refreshed 2026-10-17; refresh or retire after October 31)
+12. `claude-max-team-api-credits` — deals (Max/Team monthly API credits, Haiku 5.5, Claude Code updates, open-source offers; published 2026-10-17)
 
 Cross-link related posts where it helps the reader (2–4 per post).
 

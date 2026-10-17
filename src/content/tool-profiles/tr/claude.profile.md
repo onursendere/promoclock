@@ -19,12 +19,14 @@ keyFeatures:
     description: "Ücretli planlar bir Chrome eklentisinin yanı sıra Excel, PowerPoint ve Word için Claude ekler; Outlook eklentisi beta aşamasında."
   - name: "Kullanım kredileri"
     description: "Ücretli bir plan limitine ulaştığında kullanım kredileri, sıfırlanmayı beklemeden Claude'u standart API ücretleriyle çalışır tutar."
+  - name: "Aylık API kredileri"
+    description: "Max 5x ayda $100, Max 20x ayda $200 Claude API kredisi içerir; Team'de ortak havuzda $500'a kadar kredi, kendi uygulamalarını ve ajanlarını geliştirmen için."
 useCases:
   - "Uzun bir sözleşmeyi ya da yıllık raporu yükle, Claude'dan yükümlülükleri, riskleri ve son tarihleri bir tabloya çıkarmasını iste."
   - "Claude Code terminalden bir depoyu yeniden düzenlesin, test paketini çalıştırsın ve sen commit etmeden önce her değişikliği açıklasın."
   - "Bir sayfalık toplantı notunu Claude Slides ile slayt sunumuna dönüştür, ardından PowerPoint dosyası olarak indir."
   - "İş uygulamalarını bağla; Claude haftalık durum raporunu yazarken kendi dosyalarından yararlansın."
-pricingSummary: "Free $0. Pro aylık $20; yıllık faturalandırmada ($200 peşin) aylık $17. Max 5x aylık $100, Max 20x aylık $200 ve ikisi de yalnızca aylık faturalandırılır. Team Standard koltukları aylık $25, yıllık faturalandırmada aylık $20."
+pricingSummary: "Free $0. Pro aylık $20; yıllık faturalandırmada ($200 peşin) aylık $17. Max 5x aylık $100, Max 20x aylık $200 ve ikisi de yalnızca aylık faturalandırılır. Team Standard koltukları aylık $25, yıllık faturalandırmada aylık $20. Max ve Team ayrıca aylık API kredisi içerir: Max 5x'te $100, Max 20x'te $200, Team'de ortak havuzda $500'a kadar."
 savingTips:
   - "Pro'yu yıllık ödemek $200 peşin tutar; bu da aylık $20 yerine yaklaşık $17 demek."
   - "Free plan zaten web araması, hafıza, bağlayıcılar ve dosya oluşturma içeriyor; hafif kullanıcıların Pro'ya ihtiyacı olmayabilir."
@@ -39,8 +41,8 @@ faq:
     a: "İkisi de Pro'daki her şeyi içerir. Max 5x aylık $100 ile 5 saatlik oturum başına Pro'nun beş katı, Max 20x ise aylık $200 ile yirmi katı kullanım sunar. İkisi de aylık faturalandırılır ve yoğun trafik saatlerinde öncelikli erişim alır."
   - q: "Claude Code Pro planına dahil mi?"
     a: "Evet. Claude Code; Pro, Max, Team ve Enterprise'a dahil, Free'ye değil. Sohbetle aynı kullanım havuzunu paylaşır ve Anthropic 6 Mayıs 2026'da Pro, Max, Team ve koltuk tabanlı Enterprise'da beş saatlik limitlerini ikiye katladı."
-  - q: "Claude Cowork'e ne oldu?"
-    a: "Anthropic 16 Eylül 2026'da Cowork'ün artık doğrudan Claude'un bir parçası olduğunu duyurdu; ajan özellikleri artık her sohbette çalışıyor. Değişiklik birkaç hafta içinde önce Pro ve Max'e, ardından Team ve Free'ye geliyor."
+  - q: "Claude Max ve Team planlarına API kredisi dahil mi?"
+    a: "Evet. Ekim 2026'dan beri Max 5x ayda $100, Max 20x ayda $200 Claude Platform kredisi içeriyor; Team planları Standard koltuk başına $20, Premium koltuk başına $100 alıyor ve havuz $500'a kadar çıkıyor. Krediyi Settings > Billing altından bir kez talep edersin. Kredi API'yi ve Agent SDK'yı kapsar, etkileşimli Claude Code'u kapsamaz ve her faturalandırma döneminde sona erer."
   - q: "Claude kullanım limitleri nasıl işliyor?"
     a: "Her planın kayan beş saatlik pencereyle sıfırlanan bir limiti var, ücretli planlarda haftalık limitler de ekleniyor. Web, masaüstü, mobil ve Claude Code aynı havuzdan harcar; Pro, oturum başına Free'nin en az beş katı kullanım sunar."
 ---

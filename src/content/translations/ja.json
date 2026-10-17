@@ -414,6 +414,41 @@
         "承認は個別に判断され、主な対象はコアメンテナーと、広く使われている公開プロジェクトのリーダーです。",
         "申請期限は記載されていません。"
       ]
+    },
+    "claude-max-team-api-credits-2026": {
+      "title": "Claude MaxとTeamの月額APIクレジット：Max 5xは$100、Max 20xは$200、Teamはプール合計で最大$500",
+      "headline": "Claude MaxとTeam：月$100〜$500のAPIクレジット",
+      "value": "月$100〜$500",
+      "audience": "Max 5x、Max 20x、Teamの契約者",
+      "summary": "2026年10月から、Claude Max 5xには月$100、Max 20xには月$200のClaude Platformクレジットが付き、Teamプランは1シートあたりStandardが$20、Premiumが$100で、プール合計は$500までです。クレジットはClaude APIで自作のアプリやエージェントを開発するためのもので、1回の受け取り手続きが必要です。",
+      "scope": "Claude API、Message Batches、ConsoleのPlayground、Managed Agents、Agent SDK",
+      "steps": [
+        "MaxまたはTeamに加入して7日後、Webブラウザでclaude.aiのSettings > Billing（Max）またはOrganization settings > Billing（Team）を開きます。",
+        "API creditsの項目でLink organizationを選び、クレジットを受け取るClaude Console組織を選ぶか、新しく作成します。",
+        "Supplemental Credit Termsに同意すると、クレジットがConsoleの課金ページのPromotional creditsに表示されます。"
+      ],
+      "terms": [
+        "Free、Pro、Enterpriseのプランは対象外です。割引価格の非営利団体向けとScientists向けのTeamプランは対象です。",
+        "対話型のClaude Code、Claudeアプリでの追加利用、Bedrock・Vertex AI・Foundry上のClaudeは対象外です。",
+        "クレジットは請求サイクルごと（年払いプランでは毎月）に更新され、サイクルの終了時に繰り越しなしで失効します。",
+        "各プランが連携できるConsole組織は1つで、連携は自分では変更できません。"
+      ]
+    },
+    "claude-for-open-source-max-2026": {
+      "title": "Claude for Open Source：オープンソースのメンテナーにClaude Max 20xを6か月間無料で提供",
+      "headline": "Claude for Open Source：Max 20xを6か月",
+      "value": "Max 20xを6か月",
+      "audience": "広く使われているオープンソースプロジェクトのメンテナーとコア貢献者",
+      "summary": "AnthropicのClaude for Open Sourceプログラムは、承認されたメンテナーとコントリビューターに、Claude Max 20xを6か月間無料で提供します。承認者は最大10,000人で、受付が終了するまで随時審査されます。",
+      "steps": [
+        "次のいずれかの基準を満たしているか確認します。依存するリポジトリが500以上、月間ダウンロード数が200,000以上、直近12か月に他の人のリポジトリへマージされたプルリクエストが100件以上、など。",
+        "AnthropicのClaude for Open Sourceのページで、GitHubアカウントを使って申請し、該当する理由を500語以内で説明します。"
+      ],
+      "terms": [
+        "GitHubアカウントは作成から2年以上経っていて、直近90日間に公開のオープンソース活動がある必要があります。",
+        "Anthropicが連絡するのは承認された申請者のみで、不承認の通知はありません。",
+        "6か月が過ぎると、有料プランに入っていたメンバーは、解約しない限り以前の料金でそのプランに戻ります。それ以外の人はFreeプランに戻ります。"
+      ]
     }
   },
   "tools": {
@@ -777,6 +812,13 @@
     },
     "claude-for-startups-launch-2026": {
       "title": "Claude for StartupsにClaude Teamの1年間無料と$1,000のAPIクレジットが追加"
+    },
+    "claude-api-credits-launch-2026": {
+      "title": "Claude MaxとTeamに月額APIクレジット（$100〜$500）が付くように",
+      "description": "Claude Haiku 5.5と同時に発表され、同じ日にSonnet 5.5のキャッシュ読み取りが100万トークンあたり$0.20から$0.10に下がりました。"
+    },
+    "claude-cloud-credit-expiry-2026": {
+      "title": "未使用のClaude Codeクラウドクレジットが失効"
     }
   }
 }

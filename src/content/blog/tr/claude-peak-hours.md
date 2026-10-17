@@ -66,7 +66,7 @@ Claude yoğun saatleri, iki haftalık yoğun olmayan saat promosyonunun son gün
 - **13–27 Mart 2026:** [yoğun olmayan saatlerde 2x promosyonu](/deals/claude-march-2026-offpeak-2x/), Free, Pro, Max ve Team için oturum limitlerini hafta içi 08:00–14:00 ET dışında ve hafta sonu boyunca iki katına çıkardı. Bu promosyon sona erdi.
 - **27 Mart 2026:** [yoğun saatler yürürlüğe girdi](/deals/claude-peak-hours-introduced/). Oturum limitleri artık hafta içi 13:00–19:00 UTC arasında daha hızlı tükeniyor.
 - **6 Mayıs 2026:** Anthropic, [resmî duyurusuna](https://www.anthropic.com/news/higher-limits-spacex) göre [Claude Code'un 5 saatlik limitlerini iki katına çıkardı ve Pro ile Max'te Claude Code için yoğun saat kısıtlamasını kaldırdı](/deals/claude-code-5h-limits-doubled/).
-- **1–15 Ekim 2026:** [artifact kullanım promosyonu](/deals/claude-artifact-usage-promo-oct-2026/) sayesinde Pro, Max ve Team'de, 7 Ekim'den beri de Free'de, bir artifact oluşturduktan ya da düzenledikten sonraki 10 sohbet mesajı 5 saatlik limite %50 daha az sayılıyor. Promosyon 15 Ekim'de saat 23:59'a (PT) kadar sürüyor.
+- **1–15 Ekim 2026:** [artifact kullanım promosyonu](/deals/claude-artifact-usage-promo-oct-2026/) sayesinde Pro, Max ve Team'de, 7 Ekim'den itibaren de Free'de, bir artifact oluşturduktan ya da düzenledikten sonraki 10 sohbet mesajı 5 saatlik limite %50 daha az sayıldı. Promosyon 15 Ekim'de saat 23:59'da (PT) sona erdi.
 
 Bu yılki diğer tüm oturum ve haftalık limit değişiklikleri için [Claude kullanım limitleri](/blog/claude-usage-limits/) rehberimize bak.
 

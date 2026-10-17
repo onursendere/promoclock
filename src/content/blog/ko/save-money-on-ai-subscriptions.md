@@ -114,9 +114,9 @@ PromoClock이 추적하는 AI 할인 중 가장 큰 축에 드는 것이 학생 
 
 ### 10. 진행 중인 프로모션에 맞춰 가입하기
 
-짧은 프로모션으로 한 달 비용을 크게 줄일 수 있습니다. 2026년 10월 12일 기준 진행 중인 프로모션은 다음과 같습니다.
+짧은 프로모션으로 한 달 비용을 크게 줄일 수 있습니다. 2026년 10월 17일 기준 진행 중인 프로모션은 다음과 같습니다.
 
-- **Claude 아티팩트**: 2026년 10월 15일까지 아티팩트를 만들거나 편집한 뒤의 작업은 Free, Pro, Max, Team의 세션 한도에 50% 적게 반영됩니다. [아티팩트 프로모션](/deals/claude-artifact-usage-promo-oct-2026/)을 참고하세요.
+- **Claude Max와 Team**: 2026년 10월 7일부터 두 플랜은 결제 주기마다 소멸하는 월 $100–$500의 API 크레딧을 포함하므로 Settings > Billing에서 한 번 신청하세요. [Max·Team API 크레딧](/deals/claude-max-team-api-credits-2026/)을 참고하세요.
 - **ElevenLabs**: 10월 18일까지 신규 구독자는 [Starter 첫 달을 $6 대신 $1에](/deals/elevenlabs-starter-1-first-month-2026/), Creator 첫 달을 $22 대신 $11에 이용합니다.
 - **Adobe Firefly**: 2026년 10월 21일까지 미국과 영국의 신규 구독자는 12개월 약정 조건으로 Pro Plus나 Premium 첫해 요금을 30% 덜 냅니다.
 - **Gemini API**: 개발자는 2026년 12월 31일까지 [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/)를 정가의 절반 요금으로 이용합니다.

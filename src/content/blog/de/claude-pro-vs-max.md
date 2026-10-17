@@ -2,7 +2,7 @@
 title: "Claude Pro oder Max (2026): Preise, Nutzungslimits und welcher Plan zu dir passt"
 metaTitle: "Claude Pro oder Max 2026: Preis, Limits, wer Max braucht"
 metaDescription: "Claude Pro oder Max 2026: Pro kostet $20/Monat oder $200/Jahr, Max 5x $100 und Max 20x $200 im Monat. Nutzung, Fable-Zugang und Kostenrechnung im Vergleich."
-excerpt: "Claude Pro kostet $20/Monat oder $200/Jahr (rund $17/Monat) und reicht den meisten, die Claude täglich nutzen. Claude Max kostet $100/Monat für die 5-fache Pro-Nutzung pro Sitzung oder $200/Monat für die 20-fache, wird nur monatlich abgerechnet und bietet Fable innerhalb der Plan-Limits sowie höhere Ausgabelimits. Upgrade nur, wenn dich die Limits von Pro in den meisten Wochen ausbremsen."
+excerpt: "Claude Pro kostet $20/Monat oder $200/Jahr (rund $17/Monat) und reicht den meisten, die Claude täglich nutzen. Claude Max kostet $100/Monat für die 5-fache Pro-Nutzung pro Sitzung oder $200/Monat für die 20-fache, wird nur monatlich abgerechnet und bietet Fable innerhalb der Plan-Limits, höhere Ausgabelimits sowie $100–$200 API-Guthaben im Monat. Upgrade nur, wenn dich die Limits von Pro in den meisten Wochen ausbremsen."
 imageAlt: "MacBook Pro auf einem Holzschreibtisch neben einer weißen Tasse, einem Smartphone und bunten Postern"
 keyTakeaways:
   - "Claude Pro kostet $20/Monat oder $200/Jahr im Voraus, rund $17/Monat, während Max nur monatlich abgerechnet wird: $100 (Max 5x) oder $200 (Max 20x)."
@@ -14,7 +14,7 @@ faq:
   - q: "Lohnt sich Claude Max?"
     a: "Claude Max lohnt sich, wenn dich die Limits von Pro mehrmals pro Woche ausbremsen oder du schon $80 oder mehr im Monat für Nutzungs-Credits ausgibst. Max 5x kostet $100/Monat für die 5-fache Sitzungsnutzung von Pro und enthält Fable innerhalb der Limits. Stößt du nur gelegentlich an die Grenze von Pro, kommt dich Pro plus Nutzungs-Credits günstiger."
   - q: "Was ist der Unterschied zwischen Claude Max 5x und Max 20x?"
-    a: "Beide enthalten alles aus Pro, dazu höhere Ausgabelimits und bis zu 50 % der Wochenlimits für Fable. Max 5x kostet $100/Monat für die 5-fache Nutzung von Pro pro 5-Stunden-Sitzung, Max 20x kostet $200/Monat für die 20-fache. Laut Anthropics Hilfeartikel zum Max-Plan werden beide nur monatlich abgerechnet."
+    a: "Beide enthalten alles aus Pro, dazu höhere Ausgabelimits und bis zu 50 % der Wochenlimits für Fable. Max 5x kostet $100/Monat für die 5-fache Nutzung von Pro pro 5-Stunden-Sitzung, Max 20x kostet $200/Monat für die 20-fache. Laut Anthropics Hilfeartikel zum Max-Plan werden beide nur monatlich abgerechnet. Max 5x enthält außerdem $100 und Max 20x $200 Claude-API-Guthaben im Monat."
   - q: "Kann ich Claude Max jährlich bezahlen?"
     a: "Nein. Laut Anthropics Hilfeartikel zum Max-Plan gibt es Max mit Stand Oktober 2026 nur als Monatsabo, und die Preisseite nennt keinen Jahrespreis für Max. Nur Pro bietet jährliche Abrechnung: $200 im Voraus, das sind rund $17/Monat statt $20."
   - q: "Ist Claude Code in Claude Pro enthalten?"
@@ -54,15 +54,16 @@ Ein paar Details, die nicht in die Tabelle passen:
 - **Die jährliche Abrechnung von Claude Pro** kostet $200 im Voraus. Anthropic rundet das auf $17/Monat, eine Ersparnis von $40 im Jahr gegenüber monatlicher Zahlung.
 - **Max gibt es nur monatlich.** Laut [Hilfeartikel zum Max-Plan](https://support.claude.com/en/articles/11049741-what-is-the-max-plan) ist Max „derzeit nur als monatliches Abonnement erhältlich“.
 - **Lokale Preise variieren.** Laut Anthropics Hilfeartikel zu Pro unterscheiden sich die Preise je nach Region, und in manchen Regionen kommt beim Bezahlen noch Steuer hinzu.
-- **Aktuelle Modelle.** Die Preisseite nennt Fable 5.1, Opus 5.5, Sonnet 5.5 und Haiku 4.5 als neueste Modelle. Free bekommt nur Sonnet und Haiku.
+- **Aktuelle Modelle.** Die Preisseite nennt Fable 5.1, Opus 5.5, Sonnet 5.5 und Haiku 5.5 als neueste Modelle. Free bekommt nur Sonnet und Haiku.
 
 ## Was bietet Claude Max mehr als Pro?
 
-Claude Max bietet mehr Nutzung pro Sitzung, Fable innerhalb deiner Plan-Limits, höhere Ausgabelimits und bevorzugten Zugang zu Zeiten mit viel Andrang. Apps und Funktionen sind ansonsten dieselben wie in Pro.
+Claude Max bietet mehr Nutzung pro Sitzung, Fable innerhalb deiner Plan-Limits, höhere Ausgabelimits, bevorzugten Zugang zu Zeiten mit viel Andrang und monatliches API-Guthaben. Apps und Funktionen sind ansonsten dieselben wie in Pro.
 
 - **Nutzung.** Max 5x bekommt das 5-Fache und Max 20x das 20-Fache des Pro-Kontingents pro 5-Stunden-Sitzung. Beide haben weiterhin ein Wochenlimit über alle Modelle, das sich zu einem festen, deinem Konto zugewiesenen Zeitpunkt zurücksetzt.
 - **Fable.** In Pro laufen Fable 5 und 5.1 nur über Nutzungs-Credits, abgerechnet zu API-Preisen. Max kann bis zur Hälfte seines Wochenlimits ohne Aufpreis für Fable nutzen.
 - **Vorrang und früher Zugang.** Die Preisseite nennt für beide Max-Stufen bevorzugten Zugang bei hoher Auslastung, höhere Ausgabelimits und frühen Zugang zu neuen Funktionen.
+- **Monatliches API-Guthaben.** Seit Oktober 2026 enthält Max 5x $100 und Max 20x $200 im Monat an Guthaben der Claude Platform für deine eigenen Apps und Agenten. Pro bekommt nichts davon, und das Guthaben deckt das interaktive Claude Code nicht ab; unser [Ratgeber zum API-Guthaben](/blog/claude-max-team-api-credits/) erklärt das Einlösen.
 - **Größere Aktionsguthaben.** In Anthropics [Aktion mit Cloud-Guthaben für Claude Code](/deals/claude-code-cloud-credit-2026/) bekamen einzelne Max-Abonnenten $250, Pro-Abonnenten $100. Die Einlösung endete am 7. Oktober 2026, eingelöstes Guthaben lässt sich bis 4. November nutzen.
 
 Pro enthält bereits Claude Code, Recherche, Opus, Claude Design, Slides und Docs, Claude in Chrome, die Microsoft-365-Add-ins und Projekte ohne die Fünf-Projekte-Grenze von Free. Ein Upgrade auf Max kauft dir Spielraum, keine neuen Apps. Unsere [Claude-Toolseite](/tools/claude/) listet alle Funktionen nach Plan.
@@ -86,7 +87,7 @@ Drei Dinge fallen auf:
 - **Max 20x halbiert den Preis pro Einheit.** Mit $200 für die 20-fache Sitzungsnutzung von Pro bietet Max 20x die günstigste Nutzung pro Dollar – aber nur, wenn du sie auch ausschöpfst.
 - **Die Multiplikatoren gelten pro Sitzung.** Anthropic nennt die Werte 5x und 20x für das Kontingent pro 5-Stunden-Sitzung und veröffentlicht keine festen Nachrichtenzahlen für die Wochenlimits. Ist dein Wochenlimit der Engpass, teste Max 5x einen Monat lang, bevor du auf 20x springst.
 
-Fable verändert die Rechnung für manche Nutzer. Wenn du Fable in Pro oft nutzen würdest, wird jede Fable-Anfrage über Nutzungs-Credits abgerechnet, während Max sie bis zur Hälfte des Wochenlimits abdeckt.
+Fable verändert die Rechnung für manche Nutzer. Wenn du Fable in Pro oft nutzen würdest, wird jede Fable-Anfrage über Nutzungs-Credits abgerechnet, während Max sie bis zur Hälfte des Wochenlimits abdeckt. Auch API-Guthaben verschiebt die Rechnung: Wenn du ohnehin $80 oder mehr im Monat für die Claude API ausgibst, deckt das monatliche Guthaben von $100 bei Max 5x den Preisunterschied zu Pro.
 
 ## Für wen reicht Claude Pro?
 
@@ -141,7 +142,7 @@ Die Stoßzeiten wirken auf Pro und Max gleich: Werktags von 13:00 bis 19:00 UTC 
 - **Betroffene Pläne:** Free, Pro, Max und Team. Enterprise ist nicht betroffen, und die Wochenlimits ändern sich nicht. Sieh dir den [Eintrag zu den Stoßzeiten](/deals/claude-peak-hours-introduced/) und die Live-Uhr auf [Claude Watch](/) an.
 - **Der bevorzugte Zugang von Max** hilft dir, zu Stoßzeiten durchzukommen, doch auch die Sitzungslimits von Max sinken im Stoßzeit-Fenster schneller.
 - **Die Limits von Claude Code sind gestiegen.** Am 6. Mai 2026 hat Anthropic [die 5-Stunden-Limits von Claude Code](/deals/claude-code-5h-limits-doubled/) in den Bezahlplänen verdoppelt, und seit dem 14. September 2026 [liegen die Wochenlimits von Claude Code dauerhaft 25 % höher](/deals/claude-code-weekly-plus25-permanent/) als das alte Basisniveau.
-- **Aktuelle Aktion:** Vom 1. bis 15. Oktober 2026 zählt die Arbeit nach dem Erstellen oder Bearbeiten eines Artifacts in Pro, Max und Team sowie seit dem 7. Oktober in Free 50 % weniger auf das 5-Stunden-Limit ([Details](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Frühere Aktion:** Vom 1. bis 15. Oktober 2026 zählte die Arbeit nach dem Erstellen oder Bearbeiten eines Artifacts in Pro, Max und Team sowie ab dem 7. Oktober in Free 50 % weniger auf das 5-Stunden-Limit ([endgültige Bedingungen](/deals/claude-artifact-usage-promo-oct-2026/)). Sie ist beendet.
 
 Tipps zum Timing findest du in unserem Ratgeber zu [Claudes Stoßzeiten](/blog/claude-peak-hours/). Wie Sitzungs- und Wochenlimits zusammenspielen, zeigt [Claudes Nutzungslimits erklärt](/blog/claude-usage-limits/).
 
@@ -161,7 +162,7 @@ Die meisten sollten bei Claude Pro bleiben und jährlich zahlen. Upgrade nur, we
 
 - **Wer Claude selten oder nur wöchentlich nutzt:** Free, oder Pro für $20 monatlich, wenn du Claude Code, Recherche oder Opus brauchst.
 - **Autoren, Studierende und Analysten mit täglicher Nutzung:** Pro jährlich für $200, mit Nutzungs-Credits als Sicherheitsventil.
-- **Entwickler, die an den meisten Arbeitstagen das Pro-Limit erreichen:** Max 5x für $100/Monat.
+- **Entwickler, die an den meisten Arbeitstagen das Pro-Limit erreichen:** Max 5x für $100/Monat, das außerdem $100 API-Guthaben im Monat enthält.
 - **Vollzeit-Nutzer von Claude Code und agentenlastige Workflows:** Max 20x für $200/Monat, die niedrigsten Kosten pro Nutzungseinheit.
 - **Kleine Teams:** Team Standard für $25/Platz/Monat oder $20 bei jährlicher Abrechnung.
 

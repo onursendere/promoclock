@@ -70,7 +70,7 @@ Claude Codeは、ターミナル、VS Code、JetBrains IDE、Claudeのデスク�
 
 Claude CodeはClaudeのチャットと1つの利用枠を共有し、5時間のローリング方式のセッションと週間上限で計測されます。2026年5月6日、Anthropicは[Claude Codeの5時間上限を2倍にし](/deals/claude-code-5h-limits-doubled/)、ProとMaxでは平日のピーク時間帯の上限削減の対象外にしました。9月14日からは、週間上限が[恒久的に25%高く](/deals/claude-code-weekly-plus25-permanent/)なっています。[ピーク時間帯のライブ時計](/)のとおり、Claudeのチャットは平日の13:00〜19:00 UTCには今も消費が早くなります。詳しくは[Claudeの利用上限ガイド](/blog/claude-usage-limits/)で解説しています。
 
-[$100または$250のClaude Codeクラウドクレジット](/deals/claude-code-cloud-credit-2026/)を2026年10月7日までに受け取った個人のProとMaxの契約者は、11月4日までクラウドセッションで使えます。おすすめ：リポジトリ全体にわたるエージェント作業。
+[$100または$250のClaude Codeクラウドクレジット](/deals/claude-code-cloud-credit-2026/)を2026年10月7日までに受け取った個人のProとMaxの契約者は、11月4日までクラウドセッションで使えます。MaxとTeamのプランには、Agent SDKや自作ツール向けの月$100〜$500の[Claude APIクレジット](/deals/claude-max-team-api-credits-2026/)も付きますが、対話型のClaude Codeには使えません。おすすめ：リポジトリ全体にわたるエージェント作業。
 
 ### OpenAI Codex
 
@@ -94,7 +94,7 @@ Cursor独自のGrokとComposerのモデルはより大きな包括的な利用�
 
 ### Devin Desktop（旧Windsurf）
 
-Windsurfは2026年6月2日のアップデートでDevin Desktopになり、エディター、拡張機能、設定、料金はそのまま引き継がれました。Devin Desktop Freeには少なめの利用枠とTab補完の無制限が含まれ、Proは月額$20、Maxは月額$200、Teamsは月額$80に加えてフルシート1つあたり$40からです。2026年10月16日まで、[ProとMaxではSWE-2が無料](/deals/windsurf-swe-2-free-oct-2026/)です。おすすめ：ローカルとクラウドのエージェントを1つのボードで管理する開発者。
+Windsurfは2026年6月2日のアップデートでDevin Desktopになり、エディター、拡張機能、設定、料金はそのまま引き継がれました。Devin Desktop Freeには少なめの利用枠とTab補完の無制限が含まれ、Proは月額$20、Maxは月額$200、Teamsは月額$80に加えてフルシート1つあたり$40からです。[ProとMaxでのSWE-2無料の特典](/deals/windsurf-swe-2-free-oct-2026/)は2026年10月16日に終了しました。おすすめ：ローカルとクラウドのエージェントを1つのボードで管理する開発者。
 
 ### Kiro
 
@@ -142,7 +142,7 @@ Lovable Freeでは1日5ビルドクレジット（月30まで）を使え、Pro�
 
 ### Bolt.new
 
-Bolt.new Freeには月100万トークン（1日の上限は30万）が含まれ、Proは月額$25からで1,000万トークンです。2026年10月14日まで、[Bolt Forgeのプレビュー](/deals/bolt-forge-preview-2026/)によりProではForgeを最大50倍多く無料で使え、Forge専用の月額$9のLiteプランも引き続き登録できます。おすすめ：WebアプリとExpoのモバイルアプリ。
+Bolt.new Freeには月100万トークン（1日の上限は30万）が含まれ、Proは月額$25からで1,000万トークンです。ProでForgeを最大50倍多く無料で使えた[Bolt Forgeのプレビュー](/deals/bolt-forge-preview-2026/)は、2026年10月14日に終了しました。おすすめ：WebアプリとExpoのモバイルアプリ。
 
 ### v0
 

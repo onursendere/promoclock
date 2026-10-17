@@ -80,6 +80,8 @@ Claude Code和聊天使用同样的5小时额度和每周额度，但Anthropic�
 - **高峰时段**：同一次更新取消了Pro和Max上Claude Code的高峰时段削减。
 - **每周额度**：[每周额度+50%的提升](/deals/claude-code-weekly-plus50-2026/)从2026年5月13日持续到9月14日，随后由[永久+25%](/deals/claude-code-weekly-plus25-permanent/)取代。以基准100计算：之前是100，活动期间是150，现在是125。
 - **云会话**：个人Pro订阅者可获得$100、Max订阅者可获得$250的[Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)，云会话会先消耗这笔积分，再动用套餐额度。领取窗口已于2026年10月7日关闭，已领取的积分可用到2026年11月4日。
+- **空闲压缩**：自Claude Code 2.1.299版（2026年10月14日）起，超过200K token的终端对话如果闲置约54分钟，会在一小时提示词缓存过期前被压缩，这样你的下一条消息就不必重新处理整段对话。
+- **API额度**：Max和Team的每月API额度不会增加Claude Code用量；它们覆盖Claude API和Agent SDK，详见我们的[API额度指南](/blog/claude-max-team-api-credits/)。
 
 Free套餐不含Claude Code。
 
@@ -93,7 +95,7 @@ Enterprise套餐不受影响，Pro和Max上的Claude Code也享有豁免。我�
 
 ## 2026年Claude用量额度有哪些变化？
 
-我们统计到2026年共有9次额度调整和活动，其中4次只针对Claude Code。截至2026年10月12日，仍有一项活动正在进行。
+我们统计到2026年共有9次额度调整和活动，其中4次只针对Claude Code。截至2026年10月17日，已没有进行中的活动：Artifact活动已于10月15日结束。
 
 | 日期 | 变化 | 套餐 | 状态 |
 |---|---|---|---|
@@ -105,9 +107,9 @@ Enterprise套餐不受影响，Pro和Max上的Claude Code也享有豁免。我�
 | 2026年7月 | Pro和Team标准席位上的Fable 5改为使用用量积分 | Pro、Team标准席位 | 生效中 |
 | 2026年9月14日 | Claude Code每周额度永久比活动前基准高25% | Pro、Max、Team、按席位计费的Enterprise | 永久 |
 | 2026年9月23日–10月7日 | [Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)：$100（Pro）或$250（Max） | 个人Pro和Max | 已截止领取；积分可用到11月4日 |
-| 2026年10月1日–15日 | [创建或编辑Artifact后会话用量减少50%](/deals/claude-artifact-usage-promo-oct-2026/) | Free（自10月7日起）、Pro、Max、Team | 10月15日结束 |
+| 2026年10月1日–15日 | [创建或编辑Artifact后会话用量减少50%](/deals/claude-artifact-usage-promo-oct-2026/) | Free（自10月7日起）、Pro、Max、Team | 已结束 |
 
-根据[Anthropic的活动页面](https://support.claude.com/en/articles/17274727-artifact-usage-promotion)，Artifact活动适用于你创建或编辑Artifact之后的10条聊天消息，于太平洋时间10月15日23:59结束。Free套餐自10月7日起加入，Claude Code、API和Enterprise套餐不参与。
+根据[Anthropic的活动页面](https://support.claude.com/en/articles/17274727-artifact-usage-promotion)，Artifact活动适用于你创建或编辑Artifact之后的10条聊天消息，并已于太平洋时间10月15日23:59结束。Free套餐自10月7日起加入，Claude Code、API和Enterprise套餐不参与。
 
 ## 选用的模型会影响额度消耗速度吗？
 
@@ -151,7 +153,7 @@ Claude用量积分让Pro、Max 5x和Max 20x订阅者在达到套餐上限后继�
 - **用项目存放参考文件**。Anthropic表示，项目中的缓存内容占用的额度更少。
 - **选更轻的模型**。默认用Sonnet，简单任务调低推理强度。
 - **按需开启工具**。Research和网页搜索会增加用量，答案确实需要时再打开。
-- **利用进行中的活动**。2026年10月15日前，在Free、Pro、Max或Team上用Artifact创作，会话用量减少50%。
+- **给子智能体更轻的配置**。在Claude Code中，让搜索和查询类的子智能体使用低强度或Haiku 5.5，把高强度留给真正需要判断的那一步。
 
 ## 总结
 

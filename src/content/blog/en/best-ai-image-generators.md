@@ -5,7 +5,7 @@ metaDescription: "Best AI image generator 2026: we compare Midjourney, Firefly, 
 excerpt: "As of October 2026, Midjourney ($10/month, no free plan) is the best AI image generator for polished artwork, Ideogram ($20/month) for readable text, Recraft ($12/month) for editable vectors and Adobe Firefly (US$9.99/month) for commercial work. Free picks: Gemini, ChatGPT, Leonardo.ai's 150 daily tokens and Ideogram's 30 weekly credits."
 category: comparisons
 publishedAt: 2026-10-04
-updatedAt: 2026-10-12
+updatedAt: 2026-10-17
 image:
   src: "../images/best-ai-image-generators.jpg"
   alt: "Artist's palette covered in bright, mixed paint colors on a marbled surface"
@@ -18,7 +18,7 @@ keyTakeaways:
   - "Adobe Firefly Standard costs US$9.99/month with 2,000 credits and unlimited standard image generation, and Adobe says Firefly-model outputs can be used commercially."
   - "Ideogram is the pick for readable text in images: free accounts get 30 credits a week, and Plus costs $20/month or $15/month billed yearly."
   - "Recraft generates editable SVG vectors on every plan, but free-plan images belong to Recraft and can't be used commercially; Basic costs $12/month."
-  - "Two image deals are live in mid-October 2026: 30% off Firefly Pro Plus and Premium until October 21, and unlimited Magnific One generations on Magnific until October 15."
+  - "As of October 17, 2026, Adobe Firefly takes 30% off Pro Plus and Premium for new subscribers until October 21, while unlimited Magnific One generations on Magnific ended on October 15."
 faq:
   - q: "What is the best free AI image generator?"
     a: "Gemini and ChatGPT both generate and edit images on free accounts. Among dedicated tools, Leonardo.ai refreshes 150 fast tokens a day, Krea gives 100 compute units a day, Ideogram 30 credits a week and Adobe Firefly free daily generations. Free images are often public, and the free plans of Recraft, Krea and Freepik exclude commercial use."
@@ -159,10 +159,9 @@ For editing photos rather than generating them, Photoroom and Pixelcut lead on p
 
 ## Are there AI image generator deals right now?
 
-Yes: as of October 2026, Adobe Firefly and Magnific both run limited-time offers, and US college students can get Google AI Pro or ChatGPT Plus free.
+Yes: as of October 17, 2026, Adobe Firefly runs a limited-time offer, and US college students can get Google AI Pro or ChatGPT Plus free. Magnific's unlimited Magnific One offer ended on October 15.
 
 - [30% off Firefly Pro Plus and Premium](/deals/adobe-firefly-30-off-first-year-2026/): first-time subscribers pay US$34.97/month instead of US$49.99 for Pro Plus, or US$139.91 instead of US$199.99 for Premium, for the first year. Ends October 21, 2026.
-- [Unlimited Magnific One on Magnific](/deals/magnific-one-unlimited-oct-2026/): unlimited High-quality generations at 2K and 4K on Premium+, Pro and Business until October 15, 2026, after an unlimited Seedream 5.0 Pro offer ended on October 10.
 - [Google AI Pro free for a year](/deals/google-ai-pro-students-2026/): for eligible US college students who redeem by December 31, 2026.
 - [4 months of ChatGPT Plus free](/deals/chatgpt-plus-students-back-to-school-2026/): for eligible US college students who claim by October 31, 2026.
 

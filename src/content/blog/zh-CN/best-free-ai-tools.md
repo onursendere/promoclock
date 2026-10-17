@@ -193,14 +193,14 @@ Genspark Free每天增加100积分，直到免费积分的终身额度用完为�
 
 ## 2026年10月有哪些免费试用和活动正在进行？
 
-截至2026年10月12日，我们[优惠页面](/deals/)上的这些优惠，能在上述免费套餐之外再给你免费或更便宜的使用机会。
+截至2026年10月17日，我们[优惠页面](/deals/)上的这些优惠，能在上述免费套餐之外再给你免费或更便宜的使用机会。
 
 - 符合条件的美国大学生可[免费用4个月ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/)，需在2026年10月31日前领取。
 - 符合条件的美国大学生可[免费用1年Google AI Pro](/deals/google-ai-pro-students-2026/)，140多个市场的学生可领Google AI Plus，需在2026年12月31日前兑换。
 - 在2026年10月31日前购买并兑换Pixel 10 Pro、Pro XL或Pro Fold，可获得[12个月的Google AI Pro](/deals/pixel-10-pro-google-ai-pro-2026/)。
 - 2026年10月31日前，Free、Pro和Business用户在每日额度内可[免费和Lovable聊天](/deals/lovable-free-daily-chat-2026/)。
 - 2026年10月18日前，[ElevenLabs Starter首月只需$1](/deals/elevenlabs-starter-1-first-month-2026/)。
-- [创建Artifact后Claude会话用量减少50%](/deals/claude-artifact-usage-promo-oct-2026/)，Free套餐自10月7日起也适用，持续到2026年10月15日。
+- 开源维护者可通过Anthropic的Claude for Open Source项目[免费用6个月Claude Max 20x](/deals/claude-for-open-source-max-2026/)，长期有效。
 - 大学生可[免费用1年Kiro](/deals/kiro-student-free-year-2026/)，每月1,000积分，长期有效。
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/)和[Notion Plus学生优惠](/deals/notion-education-plus-free/)均长期有效。
 - 受2026年服务调整影响的免费用户，在2026年11月22日前可享[Manus首月50%折扣](/deals/manus-welcome-back-bonus-2026/)。

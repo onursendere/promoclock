@@ -193,14 +193,14 @@ Nos dias de uso pesado, aposte nas ferramentas cujos limites se renovam diariame
 
 ## Quais testes grátis e promoções estão ativos em outubro de 2026?
 
-Em 12 de outubro de 2026, estas ofertas da nossa [página de ofertas](/deals/) dão acesso grátis ou mais barato além dos planos gratuitos acima.
+Em 17 de outubro de 2026, estas ofertas da nossa [página de ofertas](/deals/) dão acesso grátis ou mais barato além dos planos gratuitos acima.
 
 - [4 meses grátis de ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/) para universitários elegíveis nos EUA; resgate até 31 de outubro de 2026.
 - [Um ano grátis de Google AI Pro](/deals/google-ai-pro-students-2026/) para universitários elegíveis nos EUA, ou de Google AI Plus em mais de 140 mercados; resgate até 31 de dezembro de 2026.
 - [12 meses de Google AI Pro com um Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/), Pro XL ou Pro Fold comprado e resgatado até 31 de outubro de 2026.
 - [Chat grátis no Lovable](/deals/lovable-free-daily-chat-2026/) até um limite diário no Free, no Pro e no Business, até 31 de outubro de 2026.
 - [ElevenLabs Starter por $1](/deals/elevenlabs-starter-1-first-month-2026/) no primeiro mês, até 18 de outubro de 2026.
-- [50% menos uso da sessão do Claude depois de criar artefatos](/deals/claude-artifact-usage-promo-oct-2026/), também no plano Free desde 7 de outubro, até 15 de outubro de 2026.
+- [6 meses de Claude Max 20x para mantenedores de código aberto](/deals/claude-for-open-source-max-2026/), pelo programa Claude for Open Source da Anthropic, sem data para acabar.
 - [Um ano grátis de Kiro para universitários](/deals/kiro-student-free-year-2026/), com 1.000 créditos por mês, sem data para acabar.
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/) e [Notion Plus para estudantes](/deals/notion-education-plus-free/), ambos sem data para acabar.
 - [50% de desconto no primeiro mês do Manus](/deals/manus-welcome-back-bonus-2026/) para usuários gratuitos afetados pela mudança no serviço em 2026, até 22 de novembro de 2026.

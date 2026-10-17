@@ -114,9 +114,9 @@ Testes grátis só economizam dinheiro se você decidir antes da data de renova�
 
 ### 10. Assine quando houver uma promoção ativa
 
-Promoções curtas podem reduzir bastante o custo de um mês. Em 12 de outubro de 2026:
+Promoções curtas podem reduzir bastante o custo de um mês. Em 17 de outubro de 2026:
 
-- **Artefatos do Claude**: até 15 de outubro de 2026, o trabalho depois de criar ou editar um artefato conta 50% menos para os limites por sessão do Free, do Pro, do Max e do Team. Veja [a promoção de artefatos](/deals/claude-artifact-usage-promo-oct-2026/).
+- **Claude Max e Team**: desde 7 de outubro de 2026, os planos incluem $100–$500 por mês em créditos de API que expiram a cada ciclo de cobrança, então resgate-os uma vez em Configurações > Cobrança. Veja [os créditos de API do Max e do Team](/deals/claude-max-team-api-credits-2026/).
 - **ElevenLabs**: para novos assinantes, [o primeiro mês do Starter custa $1](/deals/elevenlabs-starter-1-first-month-2026/) em vez de $6 até 18 de outubro, e o do Creator, $11 em vez de $22.
 - **Adobe Firefly**: novos assinantes nos EUA e no Reino Unido pagam 30% menos no primeiro ano do Pro Plus ou do Premium até 21 de outubro de 2026, com compromisso de 12 meses.
 - **API do Gemini**: desenvolvedores pagam metade da tarifa normal do [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/) até 31 de dezembro de 2026.

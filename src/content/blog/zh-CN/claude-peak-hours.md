@@ -66,7 +66,7 @@ Claude高峰时段于2026年3月27日生效，这天也是一项为期两周的�
 - **2026年3月13日–27日**：[非高峰2倍活动](/deals/claude-march-2026-offpeak-2x/)让Free、Pro、Max和Team在工作日美东时间（ET）08:00–14:00以外的时段和整个周末享有翻倍的会话额度。该活动已结束。
 - **2026年3月27日**：[高峰时段正式生效](/deals/claude-peak-hours-introduced/)。此后工作日13:00–19:00 UTC期间，会话额度消耗得更快。
 - **2026年5月6日**：根据[官方公告](https://www.anthropic.com/news/higher-limits-spacex)，Anthropic[把Claude Code的5小时额度翻倍，并取消了Pro和Max上Claude Code的高峰时段削减](/deals/claude-code-5h-limits-doubled/)。
-- **2026年10月1日–15日**：[Artifact用量活动](/deals/claude-artifact-usage-promo-oct-2026/)期间，在Pro、Max和Team上创建或编辑Artifact之后的10条聊天消息，计入5小时额度的用量减少50%，Free自10月7日起也适用。活动持续到太平洋时间10月15日23:59。
+- **2026年10月1日–15日**：[Artifact用量活动](/deals/claude-artifact-usage-promo-oct-2026/)期间，在Pro、Max和Team上创建或编辑Artifact之后的10条聊天消息，计入5小时额度的用量减少了50%，Free自10月7日起也适用。活动已于太平洋时间10月15日23:59结束。
 
 今年其他所有会话额度和每周额度的变化，请看我们的[Claude用量额度指南](/blog/claude-usage-limits/)。
 

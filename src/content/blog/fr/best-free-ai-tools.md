@@ -193,14 +193,14 @@ Les jours chargés, appuyez-vous sur les outils dont les plafonds se réinitiali
 
 ## Quels essais gratuits et promotions sont en cours en octobre 2026 ?
 
-Au 12 octobre 2026, ces offres de notre [page des offres](/deals/) ajoutent un accès gratuit ou moins cher aux formules gratuites ci-dessus.
+Au 17 octobre 2026, ces offres de notre [page des offres](/deals/) ajoutent un accès gratuit ou moins cher aux formules gratuites ci-dessus.
 
 - [4 mois gratuits de ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/) pour les étudiants éligibles aux États-Unis ; à activer au plus tard le 31 octobre 2026.
 - [Un an gratuit de Google AI Pro](/deals/google-ai-pro-students-2026/) pour les étudiants éligibles aux États-Unis, ou de Google AI Plus dans plus de 140 pays ; à activer au plus tard le 31 décembre 2026.
 - [12 mois de Google AI Pro avec un Pixel 10 Pro](/deals/pixel-10-pro-google-ai-pro-2026/), Pro XL ou Pro Fold acheté et activé au plus tard le 31 octobre 2026.
 - [Chat Lovable gratuit](/deals/lovable-free-daily-chat-2026/) jusqu’à une limite quotidienne sur Free, Pro et Business, jusqu’au 31 octobre 2026.
 - [ElevenLabs Starter à $1](/deals/elevenlabs-starter-1-first-month-2026/) le premier mois, jusqu’au 18 octobre 2026.
-- [50 % d’utilisation de session Claude en moins après la création d’artifacts](/deals/claude-artifact-usage-promo-oct-2026/), y compris sur la formule Free depuis le 7 octobre, jusqu’au 15 octobre 2026.
+- [6 mois de Claude Max 20x pour les mainteneurs open source](/deals/claude-for-open-source-max-2026/) via le programme Claude for Open Source d’Anthropic, sans date de fin.
 - [Un an gratuit de Kiro pour les étudiants d’université](/deals/kiro-student-free-year-2026/), avec 1 000 crédits par mois, sans date de fin.
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/) et [Notion Plus pour les étudiants](/deals/notion-education-plus-free/), tous deux sans date de fin.
 - [50 % de réduction sur un premier mois de Manus](/deals/manus-welcome-back-bonus-2026/) pour les utilisateurs gratuits concernés par son changement de service de 2026, jusqu’au 22 novembre 2026.

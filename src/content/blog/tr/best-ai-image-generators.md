@@ -9,7 +9,7 @@ keyTakeaways:
   - "Adobe Firefly Standard aylık US$9.99 ile 2.000 kredi ve sınırsız standart görsel üretimi sunuyor; Adobe, Firefly modellerinin çıktılarının ticari olarak kullanılabileceğini söylüyor."
   - "Görsellerde okunaklı metin için seçimimiz Ideogram: ücretsiz hesaplar haftada 30 kredi alıyor, Plus ise aylık $20 ya da yıllık faturalandırmada aylık $15."
   - "Recraft her planda düzenlenebilir SVG vektörler üretiyor, ama ücretsiz plandaki görseller Recraft'a ait ve ticari olarak kullanılamıyor; Basic aylık $12."
-  - "Ekim 2026 ortasında iki görsel fırsatı canlı: 21 Ekim'e kadar Firefly Pro Plus ve Premium'da %30 indirim, 15 Ekim'e kadar Magnific'te sınırsız Magnific One üretimi."
+  - "17 Ekim 2026 itibarıyla Adobe Firefly, yeni abonelere 21 Ekim'e kadar Pro Plus ve Premium'da %30 indirim sunuyor; Magnific'te sınırsız Magnific One üretimi ise 15 Ekim'de sona erdi."
 faq:
   - q: "En iyi ücretsiz AI görsel oluşturucu hangisi?"
     a: "Gemini ve ChatGPT, ücretsiz hesaplarda da görsel üretip düzenliyor. Bu işe özel araçlar arasında Leonardo.ai her gün 150 hızlı token yeniliyor; Krea günde 100 işlem birimi, Ideogram haftada 30 kredi, Adobe Firefly ise her gün ücretsiz üretim hakkı veriyor. Ücretsiz görseller çoğu zaman herkese açık; Recraft, Krea ve Freepik'in ücretsiz planları da ticari kullanımı kapsamıyor."
@@ -137,10 +137,9 @@ Fotoğraf üretmek yerine düzenlemek istiyorsan ürün çekimlerinde Photoroom 
 
 ## Şu an AI görsel oluşturucu fırsatları var mı?
 
-Evet: Ekim 2026 itibarıyla Adobe Firefly ve Magnific'te sınırlı süreli teklifler var; ABD'deki üniversite öğrencileri de Google AI Pro'yu ya da ChatGPT Plus'ı ücretsiz alabiliyor.
+Evet: 17 Ekim 2026 itibarıyla Adobe Firefly'da sınırlı süreli bir teklif var; ABD'deki üniversite öğrencileri de Google AI Pro'yu ya da ChatGPT Plus'ı ücretsiz alabiliyor. Magnific'in sınırsız Magnific One teklifi 15 Ekim'de sona erdi.
 
 - [Firefly Pro Plus ve Premium'da %30 indirim](/deals/adobe-firefly-30-off-first-year-2026/): ilk kez abone olanlar ilk yıl Pro Plus için US$49.99 yerine aylık US$34.97, Premium için US$199.99 yerine aylık US$139.91 ödüyor. 21 Ekim 2026'da sona eriyor.
-- [Magnific'te sınırsız Magnific One](/deals/magnific-one-unlimited-oct-2026/): 15 Ekim 2026'ya kadar Premium+, Pro ve Business'ta 2K ve 4K çözünürlükte sınırsız High kalite üretim; sınırsız Seedream 5.0 Pro teklifi 10 Ekim'de sona erdi.
 - [Bir yıl ücretsiz Google AI Pro](/deals/google-ai-pro-students-2026/): teklifi 31 Aralık 2026'ya kadar kullanan uygun ABD'li üniversite öğrencileri için.
 - [4 ay ücretsiz ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/): teklifi 31 Ekim 2026'ya kadar talep eden uygun ABD'li üniversite öğrencileri için.
 

@@ -414,6 +414,41 @@
         "Onay vaka bazında veriliyor; ana hedef kitle çekirdek bakımcılar ve yaygın kullanılan herkese açık projelerin liderleri.",
         "Listelenmiş bir başvuru son tarihi yok."
       ]
+    },
+    "claude-max-team-api-credits-2026": {
+      "title": "Claude Max ve Team aylık API kredileri: $100 (Max 5x), $200 (Max 20x) ya da ortak havuzda $500'a kadar (Team)",
+      "headline": "Claude Max ve Team: ayda $100–$500 API kredisi",
+      "value": "Ayda $100–$500",
+      "audience": "Max 5x, Max 20x ve Team aboneleri",
+      "summary": "Ekim 2026'dan beri Claude Max 5x ayda $100, Max 20x ayda $200 Claude Platform kredisi içeriyor; Team planları Standard koltuk başına $20, Premium koltuk başına $100 alıyor ve havuz $500'a kadar çıkıyor. Krediler Claude API'de kendi uygulamalarını ve ajanlarını geliştirmen içindir ve bir kez talep edilmelidir.",
+      "scope": "Claude API, Message Batches, Console Playground, Managed Agents ve Agent SDK",
+      "steps": [
+        "Max ya da Team'de yedi gün geçtikten sonra, bir web tarayıcısında claude.ai'da Settings > Billing (Max) ya da Organization settings > Billing (Team) sayfasını aç.",
+        "API credits bölümünde Link organization'ı seç, ardından kredilerin yatırılacağı Claude Console organizasyonunu seç ya da yeni bir tane oluştur.",
+        "Supplemental Credit Terms koşullarını kabul et; kredi, Console'un faturalandırma sayfasında Promotional credits altında görünür."
+      ],
+      "terms": [
+        "Free, Pro ve Enterprise planları uygun değil; indirimli Nonprofit ve Scientists Team planları uygun.",
+        "Etkileşimli Claude Code, Claude uygulamalarındaki ek kullanım ve Bedrock, Vertex AI ya da Foundry üzerindeki Claude kapsam dışı.",
+        "Krediler her faturalandırma döneminde yenilenir (yıllık planlarda aylık) ve dönem sonunda devretmeden sona erer.",
+        "Her plan tek bir Console organizasyonuna bağlanır ve bağlantıyı kendin değiştiremezsin."
+      ]
+    },
+    "claude-for-open-source-max-2026": {
+      "title": "Claude for Open Source: açık kaynak bakımcılarına altı ay ücretsiz Claude Max 20x",
+      "headline": "Claude for Open Source: 6 ay Max 20x",
+      "value": "6 ay Max 20x",
+      "audience": "Yaygın kullanılan açık kaynak projelerin bakımcıları ve çekirdek katkıcıları",
+      "summary": "Anthropic'in Claude for Open Source programı, onaylanan bakımcılara ve katkıcılara altı ay boyunca ücretsiz Claude Max 20x veriyor. Program 10.000 kişiyle sınırlı ve kapanana kadar başvuruları sürekli olarak inceliyor.",
+      "steps": [
+        "Ölçütlerden en az birini karşıladığını kontrol et: 500'den fazla bağımlı depo, aylık 200.000'den fazla indirme ya da son 12 ayda başkalarının depolarına birleştirilmiş 100'den fazla pull request.",
+        "Anthropic'in Claude for Open Source sayfasında GitHub hesabınla başvur ve neden uygun olduğunu en fazla 500 kelimeyle açıkla."
+      ],
+      "terms": [
+        "GitHub hesabın en az iki yıllık olmalı ve son 90 günde herkese açık açık kaynak etkinliği göstermeli.",
+        "Anthropic yalnızca onaylanan başvuru sahipleriyle iletişime geçiyor; reddedilenlere bildirim yapılmıyor.",
+        "6 ay sonra, ücretli planı olan üyeler iptal etmedikleri sürece eski fiyatlarıyla o plana geri döner; diğer herkes Free plana geçer."
+      ]
     }
   },
   "tools": {
@@ -777,6 +812,13 @@
     },
     "claude-for-startups-launch-2026": {
       "title": "Claude for Startups'a bir yıl ücretsiz Claude Team ve $1,000 API kredisi eklendi"
+    },
+    "claude-api-credits-launch-2026": {
+      "title": "Claude Max ve Team aylık API kredileri sunmaya başladı ($100–$500)",
+      "description": "Claude Haiku 5.5 ile birlikte duyuruldu; aynı gün Sonnet 5.5 önbellek okumaları 1M token başına $0.20'den $0.10'a düştü."
+    },
+    "claude-cloud-credit-expiry-2026": {
+      "title": "Kullanılmayan Claude Code bulut kredisi sona eriyor"
     }
   }
 }

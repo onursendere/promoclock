@@ -114,9 +114,9 @@ Kostenlose Testphasen sparen nur Geld, wenn du dich vor dem Verlängerungsdatum 
 
 ### 10. Plane Anmeldungen passend zu laufenden Aktionen
 
-Kurze Aktionen können die Kosten eines Monats deutlich senken. Mit Stand 12. Oktober 2026:
+Kurze Aktionen können die Kosten eines Monats deutlich senken. Mit Stand 17. Oktober 2026:
 
-- **Claude-Artifacts**: Bis 15. Oktober 2026 zählt die Arbeit nach dem Erstellen oder Bearbeiten eines Artifacts in Free, Pro, Max und Team 50 % weniger auf die Sitzungslimits. Siehe [die Artifact-Aktion](/deals/claude-artifact-usage-promo-oct-2026/).
+- **Claude Max und Team**: Seit dem 7. Oktober 2026 enthalten die Pläne $100–$500 API-Guthaben im Monat, das in jedem Abrechnungszeitraum verfällt; löse es also einmal unter Einstellungen > Abrechnung ein. Siehe [API-Guthaben für Max und Team](/deals/claude-max-team-api-credits-2026/).
 - **ElevenLabs**: Für neue Abonnenten kostet [der erste Monat Starter $1](/deals/elevenlabs-starter-1-first-month-2026/) statt $6 bis 18. Oktober und Creator $11 statt $22.
 - **Adobe Firefly**: Neue Abonnenten in den USA und Großbritannien zahlen bis 21. Oktober 2026 im ersten Jahr von Pro Plus oder Premium 30 % weniger, bei 12 Monaten Mindestlaufzeit.
 - **Gemini API**: Entwickler zahlen bis 31. Dezember 2026 die Hälfte des regulären Preises für [Gemini 3.8 Flash](/deals/gemini-3-8-flash-intro-pricing-2026/).

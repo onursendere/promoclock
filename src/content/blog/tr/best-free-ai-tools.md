@@ -193,14 +193,14 @@ Yoğun günlerde Suno, Manus, Genspark ve Freepik gibi sınırları her gün sı
 
 ## Ekim 2026'da hangi ücretsiz denemeler ve promosyonlar canlı?
 
-12 Ekim 2026 itibarıyla [fırsatlar sayfamızdaki](/deals/) şu teklifler, yukarıdaki ücretsiz planların üstüne ücretsiz ya da daha ucuz erişim ekliyor.
+17 Ekim 2026 itibarıyla [fırsatlar sayfamızdaki](/deals/) şu teklifler, yukarıdaki ücretsiz planların üstüne ücretsiz ya da daha ucuz erişim ekliyor.
 
 - Uygun ABD'li üniversite öğrencileri için [4 ay ücretsiz ChatGPT Plus](/deals/chatgpt-plus-students-back-to-school-2026/); son talep tarihi 31 Ekim 2026.
 - Uygun ABD'li üniversite öğrencileri için [bir yıl ücretsiz Google AI Pro](/deals/google-ai-pro-students-2026/), 140'tan fazla pazarda ise Google AI Plus; son kullanım tarihi 31 Aralık 2026.
 - [Pixel 10 Pro ile 12 ay Google AI Pro](/deals/pixel-10-pro-google-ai-pro-2026/); 31 Ekim 2026'ya kadar satın alınıp etkinleştirilen Pixel 10 Pro, Pro XL ya da Pro Fold için.
 - 31 Ekim 2026'ya kadar Free, Pro ve Business'ta günlük bir hakka kadar [ücretsiz Lovable sohbeti](/deals/lovable-free-daily-chat-2026/).
 - 18 Ekim 2026'ya kadar ilk ay için [$1'e ElevenLabs Starter](/deals/elevenlabs-starter-1-first-month-2026/).
-- [Artifact oluşturduktan sonra %50 daha az Claude oturum kullanımı](/deals/claude-artifact-usage-promo-oct-2026/); 7 Ekim'den beri Free planda da geçerli, 15 Ekim 2026'ya kadar.
+- Anthropic'in Claude for Open Source programı aracılığıyla açık kaynak bakımcıları için [6 ay Claude Max 20x](/deals/claude-for-open-source-max-2026/); devam ediyor.
 - Üniversite öğrencileri için ayda 1.000 krediyle [bir yıl ücretsiz Kiro](/deals/kiro-student-free-year-2026/); devam ediyor.
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/) ve [öğrencilere Notion Plus](/deals/notion-education-plus-free/); ikisi de devam ediyor.
 - 2026'daki hizmet değişikliğinden etkilenen ücretsiz kullanıcılar için 22 Kasım 2026'ya kadar [Manus'ta ilk ay %50 indirim](/deals/manus-welcome-back-bonus-2026/).

@@ -193,14 +193,14 @@ Genspark Freeはクレジットカード不要で、無料クレジットの累�
 
 ## 2026年10月に実施中の無料トライアルとキャンペーンは？
 
-2026年10月12日時点で、[特典ページ](/deals/)に掲載している以下の特典を使えば、上記の無料プランに加えて、無料または割安で利用できます。
+2026年10月17日時点で、[特典ページ](/deals/)に掲載している以下の特典を使えば、上記の無料プランに加えて、無料または割安で利用できます。
 
 - 対象となる米国の大学生向けの[ChatGPT Plus 4か月無料](/deals/chatgpt-plus-students-back-to-school-2026/)。2026年10月31日までに申し込み。
 - 対象となる米国の大学生向けの[Google AI Pro 1年間無料](/deals/google-ai-pro-students-2026/)、または140以上の市場でのGoogle AI Plus。2026年12月31日までに利用開始。
 - [Pixel 10 Proの購入でGoogle AI Proが12か月付く特典](/deals/pixel-10-pro-google-ai-pro-2026/)。Pro XLやPro Foldも対象で、2026年10月31日までに購入・利用開始。
 - Free、Pro、Businessで1日の上限まで使える[Lovableの無料チャット](/deals/lovable-free-daily-chat-2026/)。2026年10月31日まで。
 - [初月$1のElevenLabs Starter](/deals/elevenlabs-starter-1-first-month-2026/)。2026年10月18日まで。
-- [アーティファクト作成後のClaudeのセッション使用量が50%減](/deals/claude-artifact-usage-promo-oct-2026/)。10月7日からFreeプランも対象で、2026年10月15日まで。
+- AnthropicのClaude for Open Sourceプログラムによる、オープンソースのメンテナー向けの[Claude Max 20xが6か月間無料](/deals/claude-for-open-source-max-2026/)。期限なし。
 - [大学生はKiroが1年間無料](/deals/kiro-student-free-year-2026/)。毎月1,000クレジット付きで、期限なし。
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/)と[学生向けNotion Plus](/deals/notion-education-plus-free/)。どちらも期限なし。
 - 2026年のサービス変更の影響を受けた無料ユーザー向けの[Manusの初月50%オフ](/deals/manus-welcome-back-bonus-2026/)。2026年11月22日まで。

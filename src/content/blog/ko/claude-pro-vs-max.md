@@ -2,7 +2,7 @@
 title: "Claude Pro vs Max 비교 2026: 가격, 사용 한도, 어떤 플랜을 고를까"
 metaTitle: "Claude Pro vs Max 2026: 가격·한도 비교"
 metaDescription: "2026년 Claude Pro vs Max 비교: Pro는 월 $20 또는 연 $200, Max 5x는 월 $100, Max 20x는 월 $200입니다. 사용량, Fable 이용, 비용 계산까지 비교했습니다."
-excerpt: "Claude Pro는 월 $20 또는 연 $200(월 약 $17)이며, 매일 쓰는 사용자 대부분에게 맞습니다. Claude Max는 세션당 Pro의 5배 사용량에 월 $100, 20배에 월 $200이고, 월간 결제만 가능하며, 플랜 한도 안의 Fable과 더 높은 출력 한도를 추가합니다. Pro 한도 때문에 거의 매주 작업이 막힐 때만 업그레이드하세요."
+excerpt: "Claude Pro는 월 $20 또는 연 $200(월 약 $17)이며, 매일 쓰는 사용자 대부분에게 맞습니다. Claude Max는 세션당 Pro의 5배 사용량에 월 $100, 20배에 월 $200이고, 월간 결제만 가능하며, 플랜 한도 안의 Fable, 더 높은 출력 한도, 월 $100–$200의 API 크레딧을 추가합니다. Pro 한도 때문에 거의 매주 작업이 막힐 때만 업그레이드하세요."
 imageAlt: "흰색 머그잔, 휴대폰, 알록달록한 포스터 옆 나무 책상 위에 놓인 MacBook Pro"
 keyTakeaways:
   - "Claude Pro는 월 $20 또는 연 $200 선결제(월 약 $17)이고, Max는 월간 결제만 가능하며 월 $100(Max 5x) 또는 $200(Max 20x)입니다."
@@ -14,7 +14,7 @@ faq:
   - q: "Claude Max는 그만한 가치가 있나요?"
     a: "Pro 한도 때문에 일주일에 여러 번 작업이 멈추거나, 이미 사용 크레딧에 매달 $80 이상을 쓰고 있다면 Claude Max가 값어치를 합니다. Max 5x는 월 $100에 Pro의 5배 세션 사용량을 제공하고 한도 안에서 Fable을 포함합니다. Pro 한도에 가끔만 걸린다면 Pro에 사용 크레딧을 더하는 쪽이 저렴합니다."
   - q: "Claude Max 5x와 Max 20x는 무엇이 다른가요?"
-    a: "둘 다 Pro의 모든 기능에 더해 더 높은 출력 한도를 제공하고, 주간 한도의 최대 50%를 Fable에 쓸 수 있습니다. Max 5x는 월 $100에 5시간 세션당 Pro의 5배 사용량을, Max 20x는 월 $200에 20배를 제공합니다. Anthropic의 Max 플랜 도움말에 따르면 둘 다 월간 결제만 가능합니다."
+    a: "둘 다 Pro의 모든 기능에 더해 더 높은 출력 한도를 제공하고, 주간 한도의 최대 50%를 Fable에 쓸 수 있습니다. Max 5x는 월 $100에 5시간 세션당 Pro의 5배 사용량을, Max 20x는 월 $200에 20배를 제공합니다. Anthropic의 Max 플랜 도움말에 따르면 둘 다 월간 결제만 가능합니다. Max 5x에는 월 $100, Max 20x에는 월 $200의 Claude API 크레딧도 포함됩니다."
   - q: "Claude Max를 연간 결제할 수 있나요?"
     a: "아니요. 2026년 10월 기준 Anthropic의 Max 플랜 도움말은 Max를 월간 구독으로만 이용할 수 있다고 안내하며, 요금 페이지에도 Max 연간 가격은 없습니다. 연간 결제는 Pro만 가능합니다. $200 선결제로, 월 $20 대신 약 $17인 셈입니다."
   - q: "Claude Pro에 Claude Code가 포함되나요?"
@@ -54,15 +54,16 @@ Claude Pro는 월 $20 또는 연 $200 선결제이며, Claude를 매일 쓰는 �
 - **Claude Pro 연간 결제**는 $200 선결제 방식입니다. Anthropic은 이를 반올림해 월 $17로 안내하며, 월간 결제보다 1년에 $40 저렴합니다.
 - **Max는 월간 결제만 가능합니다.** [Max 플랜 도움말](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)은 Max가 ‘현재 월간 구독으로만 제공된다’고 안내합니다.
 - **현지 가격은 다를 수 있습니다.** Anthropic의 Pro 도움말에 따르면 가격은 지역마다 다르고, 일부 지역에서는 결제 시 세금이 추가됩니다.
-- **현재 모델.** 요금 페이지는 최신 모델로 Fable 5.1, Opus 5.5, Sonnet 5.5, Haiku 4.5를 소개합니다. Free는 Sonnet과 Haiku만 쓸 수 있습니다.
+- **현재 모델.** 요금 페이지는 최신 모델로 Fable 5.1, Opus 5.5, Sonnet 5.5, Haiku 5.5를 소개합니다. Free는 Sonnet과 Haiku만 쓸 수 있습니다.
 
 ## Claude Max는 Pro보다 무엇을 더 줄까?
 
-Claude Max는 세션당 더 많은 사용량, 플랜 한도 안의 Fable, 더 높은 출력 한도, 트래픽이 많은 시간대의 우선 접속을 추가합니다. 그 밖의 앱과 기능은 Pro와 같습니다.
+Claude Max는 세션당 더 많은 사용량, 플랜 한도 안의 Fable, 더 높은 출력 한도, 트래픽이 많은 시간대의 우선 접속, 월간 API 크레딧을 추가합니다. 그 밖의 앱과 기능은 Pro와 같습니다.
 
 - **사용량.** 5시간 세션당 Max 5x는 Pro의 5배, Max 20x는 20배를 받습니다. 둘 다 모든 모델에 걸친 주간 한도가 여전히 있으며, 이 한도는 계정마다 정해진 시각에 초기화됩니다.
 - **Fable.** Pro에서 Fable 5와 5.1은 API 요금으로 청구되는 사용 크레딧으로만 쓸 수 있습니다. Max는 주간 한도의 최대 절반을 추가 비용 없이 Fable에 쓸 수 있습니다.
 - **우선 접속과 얼리 액세스.** 요금 페이지에 따르면 두 Max 등급 모두 트래픽이 많을 때의 우선 접속, 더 높은 출력 한도, 고급 기능 얼리 액세스를 제공합니다.
+- **월간 API 크레딧.** 2026년 10월부터 Max 5x는 월 $100, Max 20x는 월 $200의 Claude Platform 크레딧을 포함해 직접 만드는 앱과 에이전트에 쓸 수 있습니다. Pro는 받지 못하며, 이 크레딧은 대화형 Claude Code에는 쓸 수 없습니다. 신청 방법은 [API 크레딧 가이드](/blog/claude-max-team-api-credits/)에서 설명합니다.
 - **더 큰 프로모션 크레딧.** Anthropic의 [Claude Code 클라우드 크레딧 프로모션](/deals/claude-code-cloud-credit-2026/)에서 개인 Max 구독자는 $250, Pro 구독자는 $100의 크레딧을 받았습니다. 신청은 2026년 10월 7일에 마감됐으며, 신청한 크레딧은 11월 4일까지 쓸 수 있습니다.
 
 Pro에는 이미 Claude Code, Research, Opus, Claude Design·Slides·Docs, Claude in Chrome, Microsoft 365 애드인, Free의 5개 제한이 없는 프로젝트가 포함됩니다. Max로 업그레이드하면 새 앱이 아니라 여유 사용량을 사는 셈입니다. 플랜별 전체 기능은 [Claude 도구 페이지](/tools/claude/)에 정리돼 있습니다.
@@ -86,7 +87,7 @@ Pro 한 개 분량의 세션 사용량을 기준으로 각 플랜의 비용을 �
 - **Max 20x는 단가가 절반입니다.** Pro의 20배 세션 사용량에 $200이므로 Max 20x는 1달러당 사용량이 가장 많지만, 실제로 다 쓸 때만 그렇습니다.
 - **배수는 세션 단위로 적용됩니다.** Anthropic은 5배와 20배라는 수치를 5시간 세션 사용량 기준으로 밝히며, 주간 한도의 고정 메시지 수는 공개하지 않습니다. 주간 한도가 병목이라면 20x로 바로 올리기 전에 Max 5x를 한 달 써 보세요.
 
-Fable은 일부 사용자의 계산을 바꿉니다. Pro에서 Fable을 자주 쓴다면 모든 Fable 요청이 사용 크레딧으로 청구되지만, Max는 주간 한도의 절반까지 Fable을 플랜 안에서 처리합니다.
+Fable은 일부 사용자의 계산을 바꿉니다. Pro에서 Fable을 자주 쓴다면 모든 Fable 요청이 사용 크레딧으로 청구되지만, Max는 주간 한도의 절반까지 Fable을 플랜 안에서 처리합니다. API 크레딧도 계산을 바꿉니다. Claude API에 이미 월 $80 이상을 쓰고 있다면 Max 5x의 월 $100 크레딧이 Pro와의 가격 차이를 메워 줍니다.
 
 ## Claude Pro로 충분한 사람은?
 
@@ -141,7 +142,7 @@ Anthropic의 [사용 크레딧 도움말](https://support.claude.com/en/articles
 - **적용 플랜:** Free, Pro, Max, Team. Enterprise는 영향을 받지 않고, 주간 한도도 바뀌지 않습니다. [피크 시간대 항목](/deals/claude-peak-hours-introduced/)과 [Claude Watch](/)의 실시간 시계를 확인하세요.
 - **Max의 우선 접속**은 붐비는 시간에 접속하는 데 도움이 되지만, Max의 세션 한도도 피크 시간대에는 더 빨리 소진됩니다.
 - **Claude Code 한도는 올랐습니다.** 2026년 5월 6일 Anthropic은 유료 플랜의 [Claude Code 5시간 한도를 두 배로 늘렸고](/deals/claude-code-5h-limits-doubled/), 2026년 9월 14일부터 [Claude Code 주간 한도는 이전 기준보다 영구적으로 25% 높아졌습니다](/deals/claude-code-weekly-plus25-permanent/).
-- **진행 중인 프로모션:** 2026년 10월 1일부터 15일까지 Pro, Max, Team에서(Free는 10월 7일부터) 아티팩트를 만들거나 편집한 뒤의 작업은 5시간 한도에 50% 적게 반영됩니다([자세히 보기](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **최근 프로모션:** 2026년 10월 1일부터 15일까지 Pro, Max, Team에서(Free는 10월 7일부터) 아티팩트를 만들거나 편집한 뒤의 작업은 5시간 한도에 50% 적게 반영됐습니다([최종 조건](/deals/claude-artifact-usage-promo-oct-2026/)). 프로모션은 끝났습니다.
 
 시간 활용 팁은 [Claude 피크 시간대 가이드](/blog/claude-peak-hours/)를, 세션 한도와 주간 한도가 어떻게 맞물리는지는 [Claude 사용 한도 총정리](/blog/claude-usage-limits/)를 읽어 보세요.
 
@@ -161,7 +162,7 @@ Pro에서 Max로의 업그레이드는 쓰지 않은 기간을 차감해 즉시 
 
 - **가볍게 쓰거나 일주일에 몇 번만 쓰는 사람:** Free, 또는 Claude Code, Research, Opus가 필요하다면 월 $20의 Pro 월간 결제.
 - **매일 쓰는 작가, 학생, 분석가:** 연 $200의 Pro 연간 결제. 사용 크레딧을 안전장치로 두세요.
-- **업무일 대부분 Pro 한도에 걸리는 개발자:** 월 $100의 Max 5x.
+- **업무일 대부분 Pro 한도에 걸리는 개발자:** 월 $100의 Max 5x. 월 $100의 API 크레딧도 포함됩니다.
 - **Claude Code를 종일 쓰는 사람과 에이전트 중심 워크플로:** 사용량 단위당 비용이 가장 낮은 월 $200의 Max 20x.
 - **소규모 팀:** 좌석당 월 $25, 연간 결제 시 $20인 Team Standard.
 

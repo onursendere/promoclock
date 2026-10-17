@@ -150,3 +150,21 @@
   deal: claude-for-startups-team-year-2026
   title:
     en: "Claude for Startups adds a free year of Claude Team and $1,000 in API credits"
+
+- id: claude-api-credits-launch-2026
+  date: 2026-10-07T00:00:00Z
+  kind: launch
+  tool: claude
+  deal: claude-max-team-api-credits-2026
+  title:
+    en: "Claude Max and Team start including monthly API credits ($100–$500)"
+  description:
+    en: "Announced with Claude Haiku 5.5, the same day Sonnet 5.5 cache reads dropped from $0.20 to $0.10 per 1M tokens."
+
+- id: claude-cloud-credit-expiry-2026
+  date: 2026-11-04T23:59:00Z
+  kind: deadline
+  tool: claude
+  deal: claude-code-cloud-credit-2026
+  title:
+    en: "Unused Claude Code cloud credit expires"

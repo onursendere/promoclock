@@ -70,7 +70,7 @@ Claude Code es la herramienta de programación con agentes de Anthropic para la 
 
 Claude Code comparte una reserva con el chat de Claude, medida por sesión móvil de 5 horas más un tope semanal. El 6 de mayo de 2026, Anthropic [duplicó los límites de 5 horas de Claude Code](/deals/claude-code-5h-limits-doubled/) y lo eximió de la ralentización de las horas pico entre semana en Pro y Max. Desde el 14 de septiembre, sus límites semanales son [un 25 % más altos de forma permanente](/deals/claude-code-weekly-plus25-permanent/). El chat de Claude sigue agotándose más rápido de lunes a viernes, de 13:00 a 19:00 UTC, como muestra nuestro [reloj de horas pico en vivo](/); la [guía de límites de uso de Claude](/blog/claude-usage-limits/) tiene los detalles.
 
-Los suscriptores individuales de Pro y Max que solicitaron [$100 o $250 en crédito de nube de Claude Code](/deals/claude-code-cloud-credit-2026/) hasta el 7 de octubre de 2026 pueden gastarlo en sesiones en la nube hasta el 4 de noviembre. Ideal para: trabajo con agentes en todo un repositorio.
+Los suscriptores individuales de Pro y Max que solicitaron [$100 o $250 en crédito de nube de Claude Code](/deals/claude-code-cloud-credit-2026/) hasta el 7 de octubre de 2026 pueden gastarlo en sesiones en la nube hasta el 4 de noviembre. Los planes Max y Team también incluyen $100–$500 al mes en [créditos de la API de Claude](/deals/claude-max-team-api-credits-2026/) para el Agent SDK y tus propias herramientas, aunque no para Claude Code interactivo. Ideal para: trabajo con agentes en todo un repositorio.
 
 ### OpenAI Codex
 
@@ -94,7 +94,7 @@ Los modelos propios de Cursor, Grok y Composer, usan una reserva incluida más g
 
 ### Devin Desktop (antes Windsurf)
 
-Windsurf se convirtió en Devin Desktop con una actualización el 2 de junio de 2026, y mantuvo su editor, extensiones, configuración y precios. Devin Desktop Free incluye una cuota ligera y autocompletado Tab ilimitado; Pro cuesta $20/mes, Max $200/mes, y Teams empieza en $80/mes más $40 por puesto completo. Hasta el 16 de octubre de 2026, [SWE-2 es gratis en Pro y Max](/deals/windsurf-swe-2-free-oct-2026/). Ideal para: desarrolladores que supervisan agentes locales y en la nube desde un mismo panel.
+Windsurf se convirtió en Devin Desktop con una actualización el 2 de junio de 2026, y mantuvo su editor, extensiones, configuración y precios. Devin Desktop Free incluye una cuota ligera y autocompletado Tab ilimitado; Pro cuesta $20/mes, Max $200/mes, y Teams empieza en $80/mes más $40 por puesto completo. Una [oferta de SWE-2 gratis en Pro y Max](/deals/windsurf-swe-2-free-oct-2026/) terminó el 16 de octubre de 2026. Ideal para: desarrolladores que supervisan agentes locales y en la nube desde un mismo panel.
 
 ### Kiro
 
@@ -142,7 +142,7 @@ Lovable Free da 5 créditos de creación al día, con un tope de 30 al mes; Pro 
 
 ### Bolt.new
 
-Bolt.new Free incluye 1M de tokens al mes con un tope diario de 300K, y Pro empieza en $25/mes con 10M de tokens. Hasta el 14 de octubre de 2026, la [vista previa de Bolt Forge](/deals/bolt-forge-preview-2026/) da a Pro hasta 50 veces más uso de Forge gratis, y siguen abiertos los registros al plan Lite de $9/mes, solo para Forge. Ideal para: apps web y apps móviles con Expo.
+Bolt.new Free incluye 1M de tokens al mes con un tope diario de 300K, y Pro empieza en $25/mes con 10M de tokens. La [vista previa de Bolt Forge](/deals/bolt-forge-preview-2026/), que daba a Pro hasta 50 veces más uso de Forge gratis, terminó el 14 de octubre de 2026. Ideal para: apps web y apps móviles con Expo.
 
 ### v0
 

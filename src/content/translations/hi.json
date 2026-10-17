@@ -1,5 +1,40 @@
 {
   "deals": {
+    "claude-max-team-api-credits-2026": {
+      "title": "Claude Max और Team के मासिक API क्रेडिट: $100 (Max 5x), $200 (Max 20x) या $500 तक पूल्ड (Team)",
+      "headline": "Claude Max और Team: महीने के $100–$500 API क्रेडिट",
+      "value": "महीने के $100–$500",
+      "audience": "Max 5x, Max 20x और Team सब्सक्राइबर",
+      "summary": "अक्टूबर 2026 से Claude Max 5x में महीने के $100 और Max 20x में $200 के Claude Platform क्रेडिट शामिल हैं, और Team प्लान में हर Standard सीट पर $20 व हर Premium सीट पर $100 मिलते हैं, जो $500 तक पूल होते हैं। ये क्रेडिट Claude API पर अपने ऐप और एजेंट बनाने के लिए हैं और इन्हें एक बार क्लेम करना होता है।",
+      "scope": "Claude API, Message Batches, Console Playground, Managed Agents और Agent SDK",
+      "steps": [
+        "Max या Team पर सात दिन रहने के बाद, वेब ब्राउज़र में claude.ai पर Settings > Billing (Max) या Organization settings > Billing (Team) खोलें।",
+        "API credits सेक्शन में Link organization चुनें और वह Claude Console ऑर्गनाइज़ेशन चुनें या बनाएं जिसे क्रेडिट मिलने चाहिए।",
+        "Supplemental Credit Terms स्वीकार करें; क्रेडिट Console के बिलिंग पेज पर Promotional credits के नीचे दिखता है।"
+      ],
+      "terms": [
+        "Free, Pro और Enterprise प्लान पात्र नहीं हैं; डिस्काउंटेड Nonprofit और Scientists Team प्लान पात्र हैं।",
+        "इंटरैक्टिव Claude Code, Claude ऐप्स में एक्स्ट्रा यूसेज और Bedrock, Vertex AI या Foundry पर Claude कवर नहीं हैं।",
+        "क्रेडिट हर बिलिंग साइकल में रिफ़्रेश होते हैं (सालाना प्लान पर मासिक) और साइकल के अंत में बिना रोलओवर के एक्सपायर हो जाते हैं।",
+        "हर प्लान सिर्फ़ एक Console ऑर्गनाइज़ेशन से लिंक होता है, और इस लिंक को आप ख़ुद नहीं बदल सकते।"
+      ]
+    },
+    "claude-for-open-source-max-2026": {
+      "title": "Claude for Open Source: ओपन-सोर्स मेंटेनर के लिए छह महीने Claude Max 20x फ़्री",
+      "headline": "Claude for Open Source: 6 महीने Max 20x",
+      "value": "6 महीने Max 20x",
+      "audience": "व्यापक रूप से इस्तेमाल होने वाले ओपन-सोर्स प्रोजेक्ट के मेंटेनर और कोर कंट्रीब्यूटर",
+      "summary": "Anthropic का Claude for Open Source प्रोग्राम मंज़ूर हुए मेंटेनर और कंट्रीब्यूटर को छह महीने का Claude Max 20x बिना किसी शुल्क के देता है। यह 10,000 प्राप्तकर्ताओं तक सीमित है और बंद होने तक आवेदनों की समीक्षा रोलिंग आधार पर करता है।",
+      "steps": [
+        "जाँचें कि आप इनमें से किसी एक मानदंड पर खरे उतरते हैं, जैसे 500+ डिपेंडेंट रिपॉज़िटरी, 200,000+ मंथली डाउनलोड या पिछले 12 महीनों में दूसरों की रिपॉज़िटरी में 100+ मर्ज्ड पुल रिक्वेस्ट।",
+        "अपने GitHub अकाउंट से Anthropic के Claude for Open Source पेज पर आवेदन करें और 500 शब्दों तक में बताएं कि आप योग्य क्यों हैं।"
+      ],
+      "terms": [
+        "आपका GitHub अकाउंट कम से कम दो साल पुराना होना चाहिए, और पिछले 90 दिनों में पब्लिक ओपन-सोर्स गतिविधि होनी चाहिए।",
+        "Anthropic सिर्फ़ मंज़ूर हुए आवेदकों से संपर्क करता है; अस्वीकृति की कोई सूचना नहीं दी जाती।",
+        "छह महीने बाद, जिन सदस्यों के पास पेड प्लान था वे कैंसल न करें तो पुरानी दर पर उसी प्लान में लौट जाते हैं; बाक़ी सब Free प्लान पर लौट आते हैं।"
+      ]
+    },
     "claude-code-weekly-plus25-permanent": {
       "title": "Claude Code की साप्ताहिक लिमिट: 14 सितंबर 2026 से हमेशा के लिए +25%",
       "headline": "Claude Code की साप्ताहिक लिमिट: हमेशा के लिए +25%",
@@ -777,6 +812,13 @@
     },
     "claude-for-startups-launch-2026": {
       "title": "Claude for Startups में Claude Team का एक फ़्री साल और $1,000 के API क्रेडिट जुड़े"
+    },
+    "claude-api-credits-launch-2026": {
+      "title": "Claude Max और Team में महीने के API क्रेडिट ($100–$500) शामिल होने लगे",
+      "description": "Claude Haiku 5.5 के साथ घोषित हुआ, उसी दिन जब Sonnet 5.5 के कैश रीड $0.20 से घटकर $0.10 प्रति 1M टोकन हो गए।"
+    },
+    "claude-cloud-credit-expiry-2026": {
+      "title": "अप्रयुक्त Claude Code क्लाउड क्रेडिट एक्सपायर हो जाता है"
     }
   }
 }

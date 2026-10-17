@@ -2,7 +2,7 @@
 title: "Claude Pro和Max怎么选（2026）：价格、用量额度与选购建议"
 metaTitle: "Claude Pro和Max区别（2026）：价格、额度怎么选"
 metaDescription: "2026年Claude Pro和Max怎么选：Pro为$20/月或$200/年，Max 5x为$100/月，Max 20x为$200/月。对比用量、Fable权限和成本账。"
-excerpt: "Claude Pro为$20/月，或$200/年（约合$17/月），适合大多数日常用户。Claude Max为$100/月（每次会话用量为Pro的5倍）或$200/月（20倍），仅支持按月计费，在套餐额度内包含Fable，输出上限也更高。只有当Pro的额度在大多数星期都会卡住你的工作时，才值得升级。"
+excerpt: "Claude Pro为$20/月，或$200/年（约合$17/月），适合大多数日常用户。Claude Max为$100/月（每次会话用量为Pro的5倍）或$200/月（20倍），仅支持按月计费，在套餐额度内包含Fable，输出上限更高，并且每月附带$100–$200的API额度。只有当Pro的额度在大多数星期都会卡住你的工作时，才值得升级。"
 imageAlt: "木桌上的MacBook Pro，旁边是白色马克杯、手机和色彩鲜艳的海报"
 keyTakeaways:
   - "Claude Pro为$20/月，或按年预付$200（约合$17/月）；Max仅支持按月计费，Max 5x为$100，Max 20x为$200。"
@@ -14,7 +14,7 @@ faq:
   - q: "Claude Max值得买吗？"
     a: "如果Pro的额度每周都会多次卡住你的工作，或者你每月已经在用量积分上花了$80以上，Claude Max就值得买。Max 5x为$100/月，提供Pro 5倍的会话用量，并在额度内包含Fable。如果你只是偶尔用到Pro的上限，Pro加用量积分更便宜。"
   - q: "Claude Max 5x和Max 20x有什么区别？"
-    a: "两者都包含Pro的全部功能，另有更高的输出上限，最多可把每周额度的50%用于Fable。Max 5x为$100/月，每个5小时会话的用量是Pro的5倍；Max 20x为$200/月，用量是Pro的20倍。根据Anthropic的Max套餐帮助文章，两者都只支持按月计费。"
+    a: "两者都包含Pro的全部功能，另有更高的输出上限，最多可把每周额度的50%用于Fable。Max 5x为$100/月，每个5小时会话的用量是Pro的5倍；Max 20x为$200/月，用量是Pro的20倍。根据Anthropic的Max套餐帮助文章，两者都只支持按月计费。Max 5x每月另含$100、Max 20x每月另含$200的Claude API额度。"
   - q: "Claude Max可以按年付费吗？"
     a: "不可以。截至2026年10月，Anthropic的Max套餐帮助文章写明Max目前只提供按月订阅，定价页面也没有列出Max的年付价格。只有Pro支持按年计费：预付$200，约合每月$17，而不是$20。"
   - q: "Claude Pro包含Claude Code吗？"
@@ -54,15 +54,16 @@ Claude Pro为$20/月，或按年预付$200，能满足大多数每天使用Claud
 - **Claude Pro年付**需预付$200。Anthropic将其折算为约$17/月，比按月付费每年省$40。
 - **Max只支持按月计费**。[Max套餐帮助文章](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)写明它“目前仅提供按月订阅”。
 - **各地价格不同**。Anthropic的Pro帮助文章说明，价格因地区而异，部分地区会在结账时加收税费。
-- **当前模型**。定价页面列出的最新模型是Fable 5.1、Opus 5.5、Sonnet 5.5和Haiku 4.5。Free只能用Sonnet和Haiku。
+- **当前模型**。定价页面列出的最新模型是Fable 5.1、Opus 5.5、Sonnet 5.5和Haiku 5.5。Free只能用Sonnet和Haiku。
 
 ## Claude Max比Pro多了什么？
 
-Claude Max多了每次会话更多的用量、套餐额度内的Fable、更高的输出上限，以及高流量时段的优先访问权。除此之外，应用和功能与Pro相同。
+Claude Max多了每次会话更多的用量、套餐额度内的Fable、更高的输出上限、高流量时段的优先访问权，以及每月的API额度。除此之外，应用和功能与Pro相同。
 
 - **用量**。Max 5x每个5小时会话的额度是Pro的5倍，Max 20x是20倍。两者仍有一个适用于所有模型的每周额度，在分配给你账户的固定时间重置。
 - **Fable**。在Pro上，Fable 5和5.1只能使用按API费率计费的用量积分。Max最多可以把每周额度的一半用在Fable上，不额外收费。
 - **优先访问和抢先体验**。定价页面为两档Max都列出了高流量时段优先访问、更高的输出上限和高级功能抢先体验。
+- **每月API额度**。自2026年10月起，Max 5x每月含$100、Max 20x每月含$200的Claude Platform额度，用于你自己的应用和智能体。Pro没有这项额度，这笔额度也不覆盖交互式Claude Code；领取方法见我们的[API额度指南](/blog/claude-max-team-api-credits/)。
 - **更多活动积分**。在Anthropic的[Claude Code云会话积分活动](/deals/claude-code-cloud-credit-2026/)中，个人Max订阅者获得了$250，Pro为$100。领取已于2026年10月7日截止，已领取的积分可用到11月4日。
 
 Pro已经包含Claude Code、Research、Opus、Claude Design、Slides和Docs、Claude in Chrome、Microsoft 365插件，以及不受Free套餐5个项目上限限制的项目功能。升级到Max买的是余量，而不是新应用。我们的[Claude工具页面](/tools/claude/)按套餐列出了完整功能。
@@ -86,7 +87,7 @@ Pro已经包含Claude Code、Research、Opus、Claude Design、Slides和Docs、C
 - **Max 20x把单价减半**。$200买到Pro 20倍的会话用量，Max 20x是每美元用量最多的套餐，前提是你真的用得完。
 - **倍数按会话计算**。Anthropic给出的5倍和20倍针对的是5小时会话额度，每周额度则没有公布固定的消息条数。如果你的瓶颈是每周上限，先试一个月Max 5x，再考虑升到20x。
 
-对部分用户来说，Fable会改变这笔账。如果你在Pro上经常用Fable，每次Fable请求都按用量积分计费，而Max最多可以覆盖每周额度的一半。
+对部分用户来说，Fable会改变这笔账。如果你在Pro上经常用Fable，每次Fable请求都按用量积分计费，而Max最多可以覆盖每周额度的一半。API额度也会改变这笔账：如果你每月在Claude API上已经花了$80或更多，Max 5x每月$100的额度就能覆盖它与Pro的差价。
 
 ## 哪些人留在Claude Pro就够了？
 
@@ -141,7 +142,7 @@ Pro适合这些使用方式：
 - **受影响的套餐**：Free、Pro、Max和Team。Enterprise不受影响，每周额度也不变。详见[高峰时段条目](/deals/claude-peak-hours-introduced/)和[Claude Watch](/)上的实时时钟。
 - **Max的优先访问**能帮你在繁忙时段顺利使用，但高峰时段内Max的会话额度依然消耗得更快。
 - **Claude Code额度提高了**。2026年5月6日，Anthropic[把付费套餐上Claude Code的5小时额度翻倍](/deals/claude-code-5h-limits-doubled/)；自2026年9月14日起，[Claude Code每周额度永久比旧基准高出25%](/deals/claude-code-weekly-plus25-permanent/)。
-- **当前活动**：2026年10月1日至15日，在Pro、Max和Team上创建或编辑Artifact之后的工作，计入5小时额度的用量减少50%，Free自10月7日起也适用（[详情](/deals/claude-artifact-usage-promo-oct-2026/)）。
+- **近期活动**：2026年10月1日至15日，在Pro、Max和Team上创建或编辑Artifact之后的工作，计入5小时额度的用量减少了50%，Free自10月7日起也适用（[最终条款](/deals/claude-artifact-usage-promo-oct-2026/)）。该活动已结束。
 
 想了解怎么安排时间，请看我们的[Claude高峰时段指南](/blog/claude-peak-hours/)。会话额度和每周上限如何相互作用，请看[Claude用量额度详解](/blog/claude-usage-limits/)。
 
@@ -161,7 +162,7 @@ Pro适合这些使用方式：
 
 - **轻度用户或每周用几次的用户**：用Free；如果需要Claude Code、Research或Opus，就选按月付费的Pro，$20。
 - **每天写作的人、学生和分析师**：按年付费的Pro，$200，再用用量积分兜底。
-- **大多数工作日都会用完Pro额度的开发者**：Max 5x，$100/月。
+- **大多数工作日都会用完Pro额度的开发者**：Max 5x，$100/月，另含每月$100的API额度。
 - **全职使用Claude Code、重度依赖智能体的工作流**：Max 20x，$200/月，单位用量成本最低。
 - **小团队**：Team Standard，$25/席位/月，按年计费为$20。
 

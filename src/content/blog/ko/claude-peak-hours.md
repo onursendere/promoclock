@@ -66,7 +66,7 @@ Claude 피크 시간대는 2주간의 비피크 프로모션 마지막 날인 20
 - **2026년 3월 13–27일:** [비피크 2배 프로모션](/deals/claude-march-2026-offpeak-2x/)이 Free, Pro, Max, Team을 대상으로 평일 미국 동부 시간(ET) 오전 8시–오후 2시 외 시간과 주말 내내 세션 한도를 두 배로 늘렸습니다. 이 프로모션은 종료됐습니다.
 - **2026년 3월 27일:** [피크 시간대가 적용됐습니다](/deals/claude-peak-hours-introduced/). 이제 평일 13:00–19:00 UTC에는 세션 한도가 더 빨리 소진됩니다.
 - **2026년 5월 6일:** Anthropic은 [공식 발표](https://www.anthropic.com/news/higher-limits-spacex)를 통해 [Claude Code의 5시간 한도를 두 배로 늘리고 Pro와 Max의 Claude Code에 적용되던 피크 시간대 한도 감소를 없앴습니다](/deals/claude-code-5h-limits-doubled/).
-- **2026년 10월 1–15일:** [아티팩트 사용 프로모션](/deals/claude-artifact-usage-promo-oct-2026/)으로 Pro, Max, Team에서는, 그리고 10월 7일부터는 Free에서도 아티팩트를 만들거나 편집한 뒤 보내는 다음 채팅 메시지 10개가 5시간 한도에 50% 적게 반영됩니다. 10월 15일 오후 11시 59분(PT)까지 이어집니다.
+- **2026년 10월 1–15일:** [아티팩트 사용 프로모션](/deals/claude-artifact-usage-promo-oct-2026/)으로 Pro, Max, Team에서는, 그리고 10월 7일부터는 Free에서도 아티팩트를 만들거나 편집한 뒤 보내는 다음 채팅 메시지 10개가 5시간 한도에 50% 적게 반영됐습니다. 10월 15일 오후 11시 59분(PT)에 끝났습니다.
 
 올해의 다른 세션·주간 한도 변경은 모두 [Claude 사용 한도 가이드](/blog/claude-usage-limits/)에서 확인하세요.
 

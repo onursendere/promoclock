@@ -1,20 +1,20 @@
 ---
 title: "Ekim 2026 AI fırsatları: güncel tüm teklifler, son tarihler ve fiyat değişiklikleri"
 metaTitle: "Ekim 2026 AI fırsatları: teklifler, son tarihler, fiyatlar"
-metaDescription: "Ekim 2026 AI fırsatları: artifact işlerinde %50 daha az Claude kullanımı, öğrencilere ücretsiz ChatGPT Plus, Adobe Firefly'da %30 indirim, $1'a ElevenLabs, 11 son tarih."
-excerpt: "14 Ekim 2026 itibarıyla en iyi AI fırsatları şunlar: Claude'un %50 artifact kullanım indirimi (15 Ekim'e kadar), Devin Desktop'ta ücretsiz SWE-2 (16 Ekim), $1'a ElevenLabs Starter (18 Ekim), Adobe Firefly'da %30 indirim (21 Ekim) ve ABD'li öğrenciler için 4 ay ücretsiz ChatGPT Plus (31 Ekim). Gemini 4 Argon'un API tanıtım fiyatı 30 Kasım'a kadar sürüyor."
+metaDescription: "Ekim 2026 AI fırsatları: öğrencilere ücretsiz ChatGPT Plus, Adobe Firefly'da %30 indirim, $1'a ElevenLabs, yeni Claude API kredileri ve tüm son tarihler."
+excerpt: "17 Ekim 2026 itibarıyla en iyi AI fırsatları şunlar: $1'a ElevenLabs Starter (18 Ekim'e kadar), Adobe Firefly'da %30 indirim (21 Ekim) ve ABD'li öğrenciler için 4 ay ücretsiz ChatGPT Plus (31 Ekim). Claude Max ve Team artık ayda $100–$500 API kredisi içeriyor; Gemini 4 Argon'un API tanıtım fiyatı ise 30 Kasım'a kadar sürüyor."
 imageAlt: "Sonbahar güneşinde turuncu bir masanın üzerinde klavyeli bir tablet, bir akıllı telefon ve bir balkabağı"
 keyTakeaways:
-  - "15 Ekim 2026'ya kadar, Claude'da bir artifact oluşturduktan ya da düzenledikten sonraki işler Free, Pro, Max ve Team planlarında 5 saatlik oturum limitine %50 daha az sayılıyor."
-  - "Takip ettiğimiz on bir AI teklifi 14–31 Ekim 2026 arasında sona eriyor; bunların arasında Devin Desktop'ta ücretsiz SWE-2, $1'a ElevenLabs Starter ve Adobe Firefly'da %30 indirim var."
+  - "7 Ekim 2026'dan beri Claude Max 5x ayda $100, Max 20x ayda $200 API kredisi içeriyor, Team planları ortak havuzda $500'a kadar alıyor; Claude Haiku 5.5 de aynı gün çıktı."
+  - "Takip ettiğimiz on bir AI teklifi Ekim 2026'da sona eriyor; 17 Ekim itibarıyla yedisi hâlâ canlı, aralarında $1'a ElevenLabs Starter ve Adobe Firefly'da %30 indirim var."
   - "ABD'li üniversite öğrencileri $80 değerinde 4 ay ücretsiz ChatGPT Plus'ı 31 Ekim 2026'ya kadar, bir yıl ücretsiz Google AI Pro'yu ise 31 Aralık 2026'ya kadar talep edebilir."
   - "Google, Gemini 4 Argon'u 13 Ekim 2026'da Gemini API'de genel kullanıma açtı; 30 Kasım'a kadar geçerli tanıtım fiyatı 1M girdi token'ı için $2, 1M çıktı token'ı için $10."
-  - "GPT-5.5, 14 Ekim 2026'da tüm planlarda ChatGPT'den, ChatGPT Work'ten ve Codex'ten kalkıyor; ChatGPT Pro artık aylık $100, $200 ve $500'lük üç kademede sunuluyor."
+  - "GPT-5.5, 14 Ekim 2026'da tüm planlarda ChatGPT'den, ChatGPT Work'ten ve Codex'ten kalktı; ChatGPT Pro artık aylık $100, $200 ve $500'lük üç kademede sunuluyor."
 faq:
   - q: "Ekim 2026'nın en iyi AI fırsatları neler?"
-    a: "14 Ekim 2026 itibarıyla en güçlü AI fırsatları şunlar: 15 Ekim'e kadar Claude'un %50 artifact kullanım indirimi, 16 Ekim'e kadar Devin Desktop'ta ücretsiz SWE-2, 18 Ekim'e kadar ElevenLabs Starter'ın ilk ayı $1, 21 Ekim'e kadar Adobe Firefly'ın ilk yılında %30 indirim ve 31 Ekim'e kadar ABD'li üniversite öğrencilerine 4 ay ücretsiz ChatGPT Plus."
+    a: "17 Ekim 2026 itibarıyla en güçlü AI fırsatları şunlar: 18 Ekim'e kadar ElevenLabs Starter'ın ilk ayı $1, 21 Ekim'e kadar Adobe Firefly'ın ilk yılında %30 indirim ve 31 Ekim'e kadar ABD'li üniversite öğrencilerine 4 ay ücretsiz ChatGPT Plus. Claude Max ve Team aboneleri ayrıca $100 ile $500 değerindeki yeni aylık API kredilerini talep etmeli."
   - q: "Ekim 2026'da Claude promosyonu var mı?"
-    a: "Evet. 1–15 Ekim 2026 arasında bir artifact oluşturduktan ya da düzenledikten sonraki işler Claude'un 5 saatlik oturum limitine %50 daha az sayılıyor. Pro, Max ve Team planları indirimi 1 Ekim'de, Free planlar 7 Ekim'de aldı. Haftalık limitler değişmiyor; Claude Code, API ve Enterprise planları kapsam dışı."
+    a: "Vardı. 1–15 Ekim 2026 arasında bir artifact oluşturduktan ya da düzenledikten sonraki işler Claude'un 5 saatlik oturum limitine %50 daha az sayıldı; promosyon sona erdi. 7 Ekim'den beri Max 5x ayda $100, Max 20x ayda $200 Claude API kredisi içeriyor, Team planları da ortak havuzda $500'a kadar alıyor. Krediler API'yi ve Agent SDK'yı kapsıyor, Claude Code'u kapsamıyor."
   - q: "Ekim 2026'da ChatGPT Plus ücretsiz mi?"
     a: "Yalnızca uygun ABD'li üniversite ve lisansüstü öğrencileri için. OpenAI'ın Back to School teklifi, SheerID doğrulamasının ardından $80 değerinde 4 ay ücretsiz ChatGPT Plus veriyor; teklifi 31 Ekim 2026'ya kadar talep etmen gerekiyor. İptal etmezsen aylık $20'den yenilenir ve App Store ya da Google Play faturalandırmasında geçerli değil. Diğer herkes Plus için aylık $20, Go için aylık $8 ödüyor."
   - q: "Gemini 4 Argon ücretsiz mi?"
@@ -24,20 +24,20 @@ faq:
   - q: "Ekim 2026'da saatler değişince Claude yoğun saatleri de değişir mi?"
     a: "UTC aralığı değişmez: Claude yoğun saatleri hafta içi 13:00–19:00 UTC olarak kalır. Yaz saati bittiği için yerel saatler kayar. Londra'da yoğun saatler 25 Ekim 2026'da 14:00–20:00 BST'den 13:00–19:00 GMT'ye, New York'ta 1 Kasım'da 09:00–15:00 EDT'den 08:00–14:00 EST'ye geçiyor."
 ---
-14 Ekim 2026 itibarıyla harekete geçmeye değer AI fırsatları şunlar: Claude'un %50 artifact kullanım indirimi, Devin Desktop'ta ücretsiz SWE-2, $1'a ElevenLabs Starter, Adobe Firefly'ın ilk yılında %30 indirim ve ABD'li üniversite öğrencilerine 4 ay ücretsiz ChatGPT Plus. Çoğunun süresi Kasım'dan önce doluyor. Ekim ayında ayrıca Gemini 4 Argon Gemini API'ye geldi, GPT-5.5 ChatGPT'den ve Codex'ten kalktı, Gemini 3.8 Flash API fiyatları da 31 Aralık'a kadar yarı fiyatta kaldı.
+17 Ekim 2026 itibarıyla harekete geçmeye değer AI fırsatları şunlar: $1'a ElevenLabs Starter, Adobe Firefly'ın ilk yılında %30 indirim ve ABD'li üniversite öğrencilerine 4 ay ücretsiz ChatGPT Plus; ayrıca Claude Max ve Team aboneleri artık ayda $100–$500 API kredisi alıyor. Tekliflerin çoğunun süresi Kasım'dan önce doluyor. Ekim ayında ayrıca Claude Haiku 5.5 ve Gemini 4 Argon API'lerine geldi, GPT-5.5 ChatGPT'den ve Codex'ten kalktı, Gemini 3.8 Flash API fiyatları da 31 Aralık'a kadar yarı fiyatta kaldı.
 
 100 AI aracı için doğrulanmış teklifleri takip ediyoruz ve her birini satıcının kendi fiyat sayfası ya da yardım merkeziyle karşılaştırıyoruz. Aşağıda Ekim'deki tüm canlı fırsatları son tarihe göre sıralı bulacaksın; ayrıca Claude, ChatGPT ve Gemini'de nelerin değiştiğini, Kasım ve Aralık'ta takip etmen gereken tarihleri de göreceksin.
 
 ## Ekim 2026'da hangi AI fırsatları bitiyor?
 
-[Fırsatlar sayfamızdaki](/deals/) on bir AI teklifi 14–31 Ekim 2026 arasında sona eriyor; bunlardan altısı önümüzdeki hafta içinde kapanıyor.
+[Fırsatlar sayfamızdaki](/deals/) on bir AI teklifi 14–31 Ekim 2026 arasında sona eriyor. 17 Ekim itibarıyla dördü bitti, yedisi hâlâ canlı.
 
 | Bitiş | Araç | Teklif | Kimler yararlanabilir | Ayrıntılar |
 |---|---|---|---|---|
-| 14 Ekim | Bolt | Forge önizlemesinde 50 kata kadar daha fazla kullanım; aylık $9'a Bolt Lite kayıtları | Bireysel Pro ve Lite planları | [Bolt Forge önizlemesi](/deals/bolt-forge-preview-2026/) |
-| 15 Ekim | Claude | Artifact oluşturduktan ya da düzenledikten sonra oturum kullanımı %50 daha az | Free, Pro, Max ve Team | [Claude artifact promosyonu](/deals/claude-artifact-usage-promo-oct-2026/) |
-| 15 Ekim | Magnific (Freepik) | Sınırsız Magnific One görsel üretimi | Premium+, Pro ve Business | [Sınırsız Magnific One](/deals/magnific-one-unlimited-oct-2026/) |
-| 16 Ekim | Devin Desktop (Windsurf) | SWE-2 kodlama modeli ücretsiz | Self-servis Pro, Max ve Teams | [Ücretsiz SWE-2](/deals/windsurf-swe-2-free-oct-2026/) |
+| 14 Ekim (sona erdi) | Bolt | Forge önizlemesinde 50 kata kadar daha fazla kullanım; aylık $9'a Bolt Lite kayıtları | Bireysel Pro ve Lite planları | [Bolt Forge önizlemesi](/deals/bolt-forge-preview-2026/) |
+| 15 Ekim (sona erdi) | Claude | Artifact oluşturduktan ya da düzenledikten sonra oturum kullanımı %50 daha az | Free, Pro, Max ve Team | [Claude artifact promosyonu](/deals/claude-artifact-usage-promo-oct-2026/) |
+| 15 Ekim (sona erdi) | Magnific (Freepik) | Sınırsız Magnific One görsel üretimi | Premium+, Pro ve Business | [Sınırsız Magnific One](/deals/magnific-one-unlimited-oct-2026/) |
+| 16 Ekim (sona erdi) | Devin Desktop (Windsurf) | SWE-2 kodlama modeli ücretsiz | Self-servis Pro, Max ve Teams | [Ücretsiz SWE-2](/deals/windsurf-swe-2-free-oct-2026/) |
 | 18 Ekim | ElevenLabs | Starter'ın ilk ayı $6 yerine $1 | Yeni aboneler | [$1'a ElevenLabs Starter](/deals/elevenlabs-starter-1-first-month-2026/) |
 | 21 Ekim | Adobe Firefly | Pro Plus ve Premium'un ilk yılında %30 indirim | Firefly'a ilk kez abone olanlar | [Firefly'da %30 indirim](/deals/adobe-firefly-30-off-first-year-2026/) |
 | 31 Ekim | ChatGPT | 4 ay ücretsiz ChatGPT Plus | ABD'li üniversite ve lisansüstü öğrencileri | [ChatGPT öğrenci teklifi](/deals/chatgpt-plus-students-back-to-school-2026/) |
@@ -46,20 +46,21 @@ faq:
 | 31 Ekim | Wispr Flow | Notetaker tüm ekip için ücretsiz | Dictation planındaki ekipler | [Wispr Flow Notetaker](/deals/wispr-flow-notetaker-free-teams-2026/) |
 | 31 Ekim | Runway | 2 ay ücretsiz kullanım | Enterprise sözleşmesi imzalayan şirketler | [Runway Enterprise teklifi](/deals/runway-enterprise-two-months-free-2026/) |
 
-Tarihler satıcıların kendi açıkladığı tarihler. Devin'in model dokümanları SWE-2'nin son ücretsiz günü olarak 15 Ekim'i veriyor; bu yüzden yoğun kullanımı bir gün önceye planla.
+Tarihler satıcıların kendi açıkladığı tarihler; süresi geçen bir teklifi bitmiş olarak işaretliyoruz.
 
 ## Ekim 2026'da Claude'da neler değişti?
 
-Claude'a artifact işleri için geçici bir kullanım indirimi, Claude Code için bir bulut kredisi ve birkaç günde dolan bir girişim teklifi geldi. Yoğun saatler ve haftalık limitler aynı kaldı.
+Claude'a Max ve Team'de aylık API kredileri, yeni bir Haiku modeli, artifact işleri için geçici bir kullanım indirimi, Claude Code için bir bulut kredisi ve birkaç günde dolan bir girişim teklifi geldi. Yoğun saatler ve haftalık limitler aynı kaldı.
 
-### Artifact kullanım promosyonu: 15 Ekim'e kadar %50 daha az oturum kullanımı
+### Max ve Team: ayda $100–$500 API kredisi
 
-1 Ekim ile 15 Ekim 2026 saat 23:59 (PT) arasında, bir artifact oluşturduktan ya da düzenledikten sonraki işler Claude'un 5 saatlik oturum limitine %50 daha az sayılıyor; bunu [Anthropic'in Yardım Merkezi](https://support.claude.com/en/articles/17274727-artifact-usage-promotion) belirtiyor. Pro, Max ve Team planları indirimi 1 Ekim'de aldı, Free planlar 7 Ekim'de katıldı.
+7 Ekim 2026'dan beri [Claude Max ve Team aylık API kredileri içeriyor](/deals/claude-max-team-api-credits-2026/): Max 5x'te $100, Max 20x'te $200, Team'de ise Standard koltuk başına $20 ve Premium koltuk başına $100; havuz $500'a kadar çıkıyor. Bunu [Anthropic'in Yardım Merkezi](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans) belirtiyor. Free, Pro ve Enterprise planları bu kredileri almıyor. [API kredileri rehberimiz](/blog/claude-max-team-api-credits/) talebin nasıl yapıldığını anlatıyor.
 
-- Sohbetlerde, bir artifact oluşturulduktan ya da düzenlendikten sonraki 10 mesaj indirimli sayılıyor; yanıt başına en fazla 15 adım.
-- Document, Presentation ya da Design'dan başlatılan Cowork görevleri yaklaşık 45 dakikalık indirimli çalışma alıyor.
-- Claude Code, API, Slack'teki Claude, yerel ve zamanlanmış Cowork görevleri, bağımsız Claude Design uygulaması ve Enterprise planları kapsam dışı.
-- Haftalık limitler değişmiyor; yani indirim bir haftayı değil, bir oturumu uzatıyor. Anthropic, promosyonu değiştirebileceğini ya da erken bitirebileceğini söylüyor.
+- Krediyi planda yedi gün geçtikten sonra, claude.ai'da Settings > Billing altından bir Claude Console organizasyonu bağlayarak bir kez talep edersin.
+- Krediler Claude API'yi, Message Batches'i, Console Playground'u, Claude Managed Agents'ı ve Agent SDK'yı kapsıyor; etkileşimli Claude Code'u ve ek kullanımı kapsamıyor.
+- Krediler her faturalandırma döneminde yenilenir, dönem sonunda sona erer; devretmez.
+- Aynı gün Anthropic, 100.000 token'a kadar olan istemlerde 1M girdi token'ı için $0.10'a Claude Haiku 5.5'i çıkardı ve Sonnet 5.5 önbellek okumalarını 1M token başına $0.10'a yarıya indirdi.
+- Açık kaynak bakımcıları [6 ay Claude Max 20x](/deals/claude-for-open-source-max-2026/) için başvurabilir; Anthropic'in OSS Scanner'ı da 8 Ekim'den beri yerleşik projelere ücretsiz güvenlik taraması sunuyor.
 
 ### Claude Code bulut kredisi: 4 Kasım'dan önce harca
 
@@ -75,9 +76,9 @@ Claude yoğun saatleri hâlâ hafta içi 13:00–19:00 UTC arası; bu aralıkta 
 
 ## Ekim 2026'da ChatGPT ve Codex'te neler yeni?
 
-GPT-5.5, 14 Ekim 2026'da ChatGPT'den ve Codex'ten kalkıyor; ChatGPT Pro artık üç kullanım kademesinde sunuluyor: aylık $100, $200 ve $500.
+GPT-5.5, 14 Ekim 2026'da ChatGPT'den ve Codex'ten kalktı; ChatGPT Pro artık üç kullanım kademesinde sunuluyor: aylık $100, $200 ve $500.
 
-- **GPT-5.5'in kaldırılması:** 14 Ekim 2026'da GPT-5.5, tüm planlarda ChatGPT'den, ChatGPT Work'ten ve Codex'ten çıkıyor; bunu [OpenAI'ın model dokümanları](https://learn.chatgpt.com/docs/models) belirtiyor. API etkilenmiyor. OpenAI, Plus, Pro, Business, Enterprise ve Edu kullanıcılarını GPT-6 Sol'a, Free ve Go kullanıcılarını ise masaüstü uygulamasında GPT-6 Luna'ya yönlendiriyor.
+- **GPT-5.5'in kaldırılması:** 14 Ekim 2026'da GPT-5.5, tüm planlarda ChatGPT'den, ChatGPT Work'ten ve Codex'ten çıktı; bunu [OpenAI'ın model dokümanları](https://learn.chatgpt.com/docs/models) belirtiyor. API etkilenmiyor. OpenAI, Plus, Pro, Business, Enterprise ve Edu kullanıcılarını GPT-6 Sol'a, Free ve Go kullanıcılarını ise masaüstü uygulamasında GPT-6 Luna'ya yönlendiriyor.
 - **Planlar:** Free $0, Go ABD'de aylık $8, Plus aylık $20. Plus; GPT-6 gelişmiş akıl yürütme modellerini, genişletilmiş deep research'ü, daha fazla Codex kullanımını ve reklamsız deneyimi ekliyor.
 - **Pro kademeleri:** $100'lük kademe Plus'ın 5 katı kullanım veriyor, $200'lük kademe 29 Eylül 2026'da yeni kayıtlara yeniden açıldı, yeni $500'lük kademe ise en fazla kullanımı sunuyor. Pro ayrıca her zaman açık bir ajan olan Dot'u da ekliyor.
 - **Pro $200 değişikliği:** basın haberlerine göre $200'lük kademe artık 20 kat yerine Plus'ın 10 katı kullanım içeriyor. Mevcut aboneler eski hakkı 29 Ekim 2026'ya kadar koruyor.
@@ -100,15 +101,15 @@ Gemini'nin kendisi bir Google Hesabıyla ücretsiz kalıyor. ABD'de Google AI Pl
 
 ## Ekim 2026'da hangi AI kodlama araçlarında fırsat var?
 
-Kodlama araçları bu ay en fazla ücretsiz kullanımı sunuyor: Devin Desktop'ta ücretsiz SWE-2, Bolt'un Forge önizlemesi, ücretsiz Lovable sohbeti ve Kiro'nun ücretsiz öğrenci ile girişim planları.
+Kodlama araçları bu ay en fazla ücretsiz kullanımı sundu. Devin Desktop'taki ücretsiz SWE-2 ve Bolt'un Forge önizlemesi sona erdi; ücretsiz Lovable sohbeti ile Kiro'nun ücretsiz öğrenci ve girişim planları ise hâlâ açık.
 
-### Devin Desktop (eski adıyla Windsurf): SWE-2 16 Ekim'e kadar ücretsiz
+### Devin Desktop (eski adıyla Windsurf): ücretsiz SWE-2 16 Ekim'de bitti
 
-Cognition'ın SWE-2 kodlama modeli, self-servis planlarda 16 Ekim 2026'ya kadar Devin Desktop'ta (Windsurf editörünün yeni adı) ve Devin CLI'da ücretsiz; bunu [Devin'in fiyat sayfası](https://devin.ai/pricing) belirtiyor. Aylık $20'lik Pro ve aylık $200'lük Max de buna dahil. Ücretsiz dönemden sonra Devin'in dokümanları SWE-2'yi 1M girdi token'ı için $3, 1M çıktı token'ı için $15 olarak listeliyor. Planlar ve kotalar [Windsurf sayfamızda](/tools/windsurf/).
+Cognition'ın SWE-2 kodlama modeli, self-servis planlarda 16 Ekim 2026'ya kadar Devin Desktop'ta (Windsurf editörünün yeni adı) ve Devin CLI'da ücretsizdi; bunu [Devin'in fiyat sayfası](https://devin.ai/pricing) belirtiyor. Aylık $20'lik Pro ve aylık $200'lük Max de buna dahildi. Ücretsiz dönemden sonra Devin'in dokümanları SWE-2'yi 1M girdi token'ı için $3, 1M çıktı token'ı için $15 olarak listeliyor. Planlar ve kotalar [Windsurf sayfamızda](/tools/windsurf/).
 
-### Bolt: Forge önizlemesi 14 Ekim'de bitiyor
+### Bolt: Forge önizlemesi 14 Ekim'de bitti
 
-Bolt Forge araştırma önizlemesi sırasında bireysel Bolt Pro planları, 14 Ekim 2026'ya kadar ek ücret ödemeden Forge'u 50 kata kadar daha fazla kullanabiliyor. Yalnızca Forge'a özel Bolt Lite planı aylık $9, kayıtlar aynı gün kapanıyor ve üyeler sonrasında da bu fiyatı koruyor. Bolt, önizleme sonrasındaki Forge fiyatlarını açıklamadı.
+Bolt Forge araştırma önizlemesi sırasında bireysel Bolt Pro planları, 14 Ekim 2026'ya kadar ek ücret ödemeden Forge'u 50 kata kadar daha fazla kullanabildi. Yalnızca Forge'a özel Bolt Lite planı aylık $9'du, kayıtlar aynı gün kapandı ve üyeler sonrasında da bu fiyatı koruyor. Bolt, 14 Ekim itibarıyla önizleme sonrasındaki Forge fiyatlarını açıklamamıştı.
 
 ### Lovable: 31 Ekim'e kadar günlük ücretsiz sohbet
 
@@ -122,11 +123,11 @@ Uygun üniversitelerdeki öğrenciler [bir yıl boyunca ayda 1.000 Kiro kredisin
 
 ## Ekim 2026'da görsel, video ve ses üreten AI araçlarında hangi fırsatlar var?
 
-Yaratıcı araçlarda bu ayın en büyük indirimleri var: Adobe Firefly'ın ilk yılında %30 indirim, $1'a ElevenLabs Starter ve sınırsız Magnific One görselleri.
+Yaratıcı araçlarda bu ayın en büyük indirimleri var: Adobe Firefly'ın ilk yılında %30 indirim ve $1'a ElevenLabs Starter. Sınırsız Magnific One görselleri 15 Ekim'de sona erdi.
 
 - **Adobe Firefly:** yeni aboneler ilk yıl için 21 Ekim 2026'ya kadar %30 daha az ödüyor. Pro Plus aylık $49.99 yerine $34.97, Premium aylık $199.99 yerine $139.91. Teklif 12 aylık taahhüt gerektiriyor; eğitim, OEM ve toplu lisans müşterilerini kapsamıyor.
 - **ElevenLabs:** Starter planının ilk ayı 18 Ekim 2026'ya kadar $6 yerine $1, Creator'ın ilk ayı $22 yerine $11. Eleven v4 lansman bonusu olan 3 kat kredi 12 Ekim'de sona erdi.
-- **Magnific (eski adıyla Freepik'in AI paketi):** Magnific One görsel üretimi, Premium+, Pro ve Business için masaüstünde 15 Ekim 2026'ya kadar sınırsız; 2K ve 4K High kalitede Draft ve Final için geçerli. Max kalite hâlâ kredi harcıyor.
+- **Magnific (eski adıyla Freepik'in AI paketi):** Magnific One görsel üretimi, Premium+, Pro ve Business için masaüstünde 15 Ekim 2026'ya kadar sınırsızdı; 2K ve 4K High kalitede Draft ve Final için geçerliydi. Teklif sona erdi.
 - **Synthesia:** AI video ajanı Syren, 9 Ekim 2026'da beta olarak çıktı. Syren kredi tabanlı; lansman kredileri, ücretsiz kullanıcılar dahil her müşterinin üç dakikaya kadar ilk videosunu yapmasını sağlıyor.
 - **Runway:** 31 Ekim 2026'ya kadar Enterprise sözleşmesi imzalayan şirketler 2 ay ücretsiz kullanım alıyor. Free, Standard, Pro, Max ve Team planları kapsam dışı.
 
@@ -134,14 +135,18 @@ Tam plan karşılaştırmaları için [en iyi AI görsel üreticileri](/blog/bes
 
 ## Ekim 2026'daki hangi AI fırsatları şimdiden sona erdi?
 
-Dört Ekim teklifi ay ortasından önce kapandı, dört teklif daha bu hafta bitiyor.
+17 Ekim 2026 itibarıyla sekiz Ekim teklifi sona erdi.
 
 - **Claude Code bulut kredisi:** talep süresi 7 Ekim 2026'da kapandı; talep edilen kredi 4 Kasım'a kadar kullanılabilir.
 - **Claude for Startups ücretsiz Team yılı:** 6 Ekim'deki lansmanından birkaç gün sonra kontenjanı aştı; program artık yeni başvuru almıyor.
 - **Magnific sınırsız Seedream 5.0 Pro:** 10 Ekim'de bitti, yerini sınırsız Magnific One aldı.
 - **ElevenLabs Eleven v4 3 kat kredi:** Creator ve üzeri planlar için 12 Ekim'de bitti.
+- **Bolt Forge önizlemesi:** 14 Ekim'de bitti; aylık $9'luk Bolt Lite kayıtları da aynı gün kapandı.
+- **Claude artifact promosyonu:** artifact oluşturduktan ya da düzenledikten sonra %50 daha az oturum kullanımı 15 Ekim'de bitti ([son koşullar](/deals/claude-artifact-usage-promo-oct-2026/)).
+- **Sınırsız Magnific One:** 15 Ekim'de bitti.
+- **Devin Desktop'ta ücretsiz SWE-2:** 16 Ekim'de bitti.
 
-Bolt'un Forge önizlemesi 14 Ekim'de, Claude'un artifact promosyonu ile sınırsız Magnific One 15 Ekim'de, Devin Desktop'taki ücretsiz SWE-2 ise 16 Ekim'de bitiyor. Biten teklifler PromoClock'ta sayfalarını koruyor; böylece son koşullara hâlâ bakabilirsin.
+Sırada: $1'a ElevenLabs Starter 18 Ekim'de, Adobe Firefly'da %30 indirim ise 21 Ekim'de bitiyor. Biten teklifler PromoClock'ta sayfalarını koruyor; böylece son koşullara hâlâ bakabilirsin.
 
 ## Hangi diğer AI fiyat değişikliklerini bilmelisin?
 
@@ -176,8 +181,8 @@ Claude'un yoğun saat aralığı iki saat değişikliğinde de 13:00–19:00 UTC
 
 Önce en yakın bitenlere atla; aracı hemen kullanman gerekmiyorsa yıllık planları Black Friday'e kadar beklet.
 
-- **Claude kullanıcıları:** artifact ağırlıklı yazı, doküman ve slayt işlerini 15 Ekim'den önce yap, uzun oturumları 13:00–19:00 UTC dışında çalıştır.
+- **Claude kullanıcıları:** Max ya da Team'deysen aylık API kredilerini Settings > Billing altından talep et, uzun oturumları 13:00–19:00 UTC dışında çalıştır.
 - **Öğrenciler:** önce Google AI Pro'nun ücretsiz yılını al; ChatGPT Plus'ı ise ChatGPT'yi her gün kullanıyorsan 31 Ekim'e kadar talep et. Diğer teklifler için [AI öğrenci indirimleri rehberimize](/blog/ai-student-discounts/) bak.
-- **Geliştiriciler:** SWE-2'yi 16 Ekim'den önce Devin Desktop'ta dene, Gemini 4 Argon'u 30 Kasım'daki tanıtım fiyatı bitmeden kıyasla, Gemini 3.8 Flash'ı yarı fiyattayken test et ve hâlâ GPT-5.5'e sabitlenmiş Codex kurulumlarını değiştir.
+- **Geliştiriciler:** yüksek hacimli işler için Claude Haiku 5.5'i dene, Gemini 4 Argon'u 30 Kasım'daki tanıtım fiyatı bitmeden kıyasla, Gemini 3.8 Flash'ı yarı fiyattayken test et ve hâlâ GPT-5.5'e sabitlenmiş Codex kurulumlarını değiştir.
 - **İçerik üreticileri:** ElevenLabs Starter'ı 18 Ekim'e kadar $1'a al. Adobe Firefly'ı %30 indirimle 21 Ekim'den önce, yalnızca 12 aylık taahhüdün tamamında kullanacaksan satın al.
 - **Herkes için:** Kasım tarihlerini takvimine yaz ve Black Friday'den önce [AI aboneliklerinde tasarruf](/blog/save-money-on-ai-subscriptions/) rehberimizi oku.

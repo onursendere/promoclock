@@ -70,7 +70,7 @@ Claude Code是Anthropic的智能体编程工具，可在终端、VS Code、JetBr
 
 Claude Code与Claude聊天共用一个用量池，按滚动5小时会话加每周上限计量。2026年5月6日，Anthropic[把Claude Code的5小时额度翻倍](/deals/claude-code-5h-limits-doubled/)，并让Pro和Max上的Claude Code不再受工作日高峰时段的影响。自9月14日起，它的每周额度[永久提高25%](/deals/claude-code-weekly-plus25-permanent/)。正如我们的[高峰时段实时时钟](/)所示，Claude聊天在工作日13:00–19:00 UTC仍会消耗得更快；详情见[Claude用量额度指南](/blog/claude-usage-limits/)。
 
-在2026年10月7日前领取了[$100或$250的Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)的个人Pro和Max订阅者，可在11月4日前将其用于云会话。适合：覆盖整个代码仓库的智能体工作。
+在2026年10月7日前领取了[$100或$250的Claude Code云会话积分](/deals/claude-code-cloud-credit-2026/)的个人Pro和Max订阅者，可在11月4日前将其用于云会话。Max和Team套餐另含每月$100–$500的[Claude API额度](/deals/claude-max-team-api-credits-2026/)，可用于Agent SDK和你自己的工具，但不能用于交互式Claude Code。适合：覆盖整个代码仓库的智能体工作。
 
 ### OpenAI Codex
 
@@ -94,7 +94,7 @@ Cursor自研的Grok和Composer模型使用更大的内置用量池，Claude、GP
 
 ### Devin Desktop（原Windsurf）
 
-Windsurf在2026年6月2日通过一次更新变成了Devin Desktop，编辑器、扩展、设置和价格都保持不变。Devin Desktop Free包含少量配额和无限次Tab补全；Pro为$20/月，Max为$200/月，Teams起价$80/月，每个完整席位另加$40。2026年10月16日前，[Pro和Max可免费使用SWE-2](/deals/windsurf-swe-2-free-oct-2026/)。适合：在一个面板上管理本地和云端智能体的开发者。
+Windsurf在2026年6月2日通过一次更新变成了Devin Desktop，编辑器、扩展、设置和价格都保持不变。Devin Desktop Free包含少量配额和无限次Tab补全；Pro为$20/月，Max为$200/月，Teams起价$80/月，每个完整席位另加$40。[Pro和Max上免费使用SWE-2的优惠](/deals/windsurf-swe-2-free-oct-2026/)已于2026年10月16日结束。适合：在一个面板上管理本地和云端智能体的开发者。
 
 ### Kiro
 
@@ -142,7 +142,7 @@ Lovable Free每天提供5个构建积分，每月上限30个；Pro起价$25/月�
 
 ### Bolt.new
 
-Bolt.new Free每月包含1M token，每日上限300K；Pro起价$25/月，含10M token。2026年10月14日前，[Bolt Forge预览](/deals/bolt-forge-preview-2026/)让Pro免费获得最多50倍的Forge用量，$9/月、仅含Forge的Lite套餐仍开放注册。适合：网页和Expo移动应用。
+Bolt.new Free每月包含1M token，每日上限300K；Pro起价$25/月，含10M token。让Pro免费获得最多50倍Forge用量的[Bolt Forge预览](/deals/bolt-forge-preview-2026/)已于2026年10月14日结束。适合：网页和Expo移动应用。
 
 ### v0
 

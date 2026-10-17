@@ -193,14 +193,14 @@ Genspark Free बिना क्रेडिट कार्ड के रो�
 
 ## अक्टूबर 2026 में कौन-से फ़्री ट्रायल और प्रोमो लाइव हैं?
 
-12 अक्टूबर 2026 तक हमारे [डील्स पेज](/deals/) पर मौजूद ये ऑफ़र ऊपर के फ़्री प्लान के अलावा फ़्री या सस्ता एक्सेस देते हैं।
+17 अक्टूबर 2026 तक हमारे [डील्स पेज](/deals/) पर मौजूद ये ऑफ़र ऊपर के फ़्री प्लान के अलावा फ़्री या सस्ता एक्सेस देते हैं।
 
 - योग्य US कॉलेज स्टूडेंट के लिए [ChatGPT Plus के 4 फ़्री महीने](/deals/chatgpt-plus-students-back-to-school-2026/); 31 अक्टूबर 2026 तक क्लेम करें।
 - योग्य US कॉलेज स्टूडेंट के लिए [Google AI Pro का एक फ़्री साल](/deals/google-ai-pro-students-2026/), या 140+ मार्केट में Google AI Plus; 31 दिसंबर 2026 तक रिडीम करें।
 - 31 अक्टूबर 2026 तक ख़रीदे और रिडीम किए गए [Pixel 10 Pro के साथ 12 महीने का Google AI Pro](/deals/pixel-10-pro-google-ai-pro-2026/), Pro XL या Pro Fold पर भी।
 - 31 अक्टूबर 2026 तक Free, Pro और Business पर रोज़ की सीमा तक [फ़्री Lovable चैट](/deals/lovable-free-daily-chat-2026/)।
 - 18 अक्टूबर 2026 तक पहले महीने के लिए [$1 में ElevenLabs Starter](/deals/elevenlabs-starter-1-first-month-2026/)।
-- [आर्टिफ़ैक्ट बनाने के बाद Claude का सेशन यूसेज 50% कम](/deals/claude-artifact-usage-promo-oct-2026/), 7 अक्टूबर से Free प्लान पर भी, 15 अक्टूबर 2026 तक।
+- Anthropic के Claude for Open Source प्रोग्राम के ज़रिए ओपन-सोर्स मेंटेनर के लिए [Claude Max 20x के 6 महीने](/deals/claude-for-open-source-max-2026/), लगातार चालू।
 - यूनिवर्सिटी स्टूडेंट के लिए [Kiro का एक फ़्री साल](/deals/kiro-student-free-year-2026/), हर महीने 1,000 क्रेडिट के साथ, लगातार चालू।
 - [GitHub Copilot Student](/deals/github-copilot-student-plan/) और [स्टूडेंट के लिए Notion Plus](/deals/notion-education-plus-free/), दोनों लगातार चालू।
 - Manus की 2026 की सर्विस में बदलाव से प्रभावित फ़्री यूज़र के लिए 22 नवंबर 2026 तक [Manus के पहले महीने पर 50% छूट](/deals/manus-welcome-back-bonus-2026/)।

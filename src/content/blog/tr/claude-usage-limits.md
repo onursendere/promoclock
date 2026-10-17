@@ -80,6 +80,8 @@ Claude Code sohbetle aynı 5 saatlik ve haftalık limitleri kullanır, ama Anthr
 - **Yoğun saatler:** aynı güncelleme Pro ve Max'te Claude Code için yoğun saat kısıtlamasını kaldırdı.
 - **Haftalık limitler:** 13 Mayıs – 14 Eylül 2026 arasında [haftalık +%50 artış](/deals/claude-code-weekly-plus50-2026/) uygulandı ve yerini [kalıcı +%25 artışa](/deals/claude-code-weekly-plus25-permanent/) bıraktı. 100'lük bir taban üzerinden bu; önce 100, promosyon sırasında 150, şimdi 125 demek.
 - **Bulut oturumları:** bireysel Pro aboneleri $100, Max aboneleri $250 [Claude Code bulut kredisi](/deals/claude-code-cloud-credit-2026/) alıyor; bulut oturumları plan limitlerinden önce bu krediyi kullanıyor. Talep süresi 7 Ekim 2026'da kapandı; talep edilen kredi 4 Kasım 2026'ya kadar kullanılabiliyor.
+- **Boşta sıkıştırma:** Claude Code 2.1.299'dan (14 Ekim 2026) beri, terminalde 200K token'ı aşan bir sohbet yaklaşık 54 dakika boşta kalırsa bir saatlik istem önbelleği dolmadan sıkıştırılıyor; böylece bir sonraki mesajında tüm sohbet yeniden işlenmiyor.
+- **API kredileri:** Max ve Team'deki aylık API kredileri Claude Code kullanımı eklemez; [API kredileri rehberimizin](/blog/claude-max-team-api-credits/) anlattığı gibi Claude API'yi ve Agent SDK'yı kapsar.
 
 Claude Code, Free planına dahil değil.
 
@@ -93,7 +95,7 @@ Enterprise planları etkilenmez; Pro ve Max'te Claude Code ise muaf. [Claude yo�
 
 ## 2026'da Claude kullanım limitlerinde neler değişti?
 
-2026'da 9 limit değişikliği ve promosyon sayıyoruz; bunların 4'ü yalnızca Claude Code ile ilgili. 12 Ekim 2026 itibarıyla bir promosyon hâlâ canlı.
+2026'da 9 limit değişikliği ve promosyon sayıyoruz; bunların 4'ü yalnızca Claude Code ile ilgili. 17 Ekim 2026 itibarıyla hiçbiri canlı değil: artifact promosyonu 15 Ekim'de bitti.
 
 | Tarih | Değişiklik | Planlar | Durum |
 |---|---|---|---|
@@ -105,9 +107,9 @@ Enterprise planları etkilenmez; Pro ve Max'te Claude Code ise muaf. [Claude yo�
 | Temmuz 2026 | Pro ve Team standart koltuklarında Fable 5 kullanım kredilerine taşındı | Pro, Team standart koltukları | Yürürlükte |
 | 14 Eylül 2026 | Claude Code haftalık limitleri promosyon öncesi seviyenin kalıcı olarak %25 üstünde | Pro, Max, Team, koltuk tabanlı Enterprise | Kalıcı |
 | 23 Eylül – 7 Ekim 2026 | [Claude Code bulut kredisi](/deals/claude-code-cloud-credit-2026/): $100 (Pro) ya da $250 (Max) | Bireysel Pro ve Max | Talep kapandı; kredi 4 Kasım'a kadar kullanılabilir |
-| 1–15 Ekim 2026 | [Artifact oluşturduktan ya da düzenledikten sonra %50 daha az oturum kullanımı](/deals/claude-artifact-usage-promo-oct-2026/) | Free (7 Ekim'den itibaren), Pro, Max, Team | 15 Ekim'de bitiyor |
+| 1–15 Ekim 2026 | [Artifact oluşturduktan ya da düzenledikten sonra %50 daha az oturum kullanımı](/deals/claude-artifact-usage-promo-oct-2026/) | Free (7 Ekim'den itibaren), Pro, Max, Team | Sona erdi |
 
-Artifact promosyonu, bir artifact oluşturduktan ya da düzenledikten sonraki 10 sohbet mesajına uygulanır ve 15 Ekim'de saat 23:59'da (PT) sona erer. [Anthropic'in promosyon sayfasına](https://support.claude.com/en/articles/17274727-artifact-usage-promotion) göre Free planlar 7 Ekim'de dahil oldu; Claude Code, API ve Enterprise planları kapsam dışı.
+Artifact promosyonu, bir artifact oluşturduktan ya da düzenledikten sonraki 10 sohbet mesajına uygulandı ve 15 Ekim'de saat 23:59'da (PT) sona erdi. [Anthropic'in promosyon sayfasına](https://support.claude.com/en/articles/17274727-artifact-usage-promotion) göre Free planlar 7 Ekim'de dahil oldu; Claude Code, API ve Enterprise planları kapsam dışıydı.
 
 ## Seçtiğin model limite ne kadar hızlı takılacağını değiştirir mi?
 
@@ -151,7 +153,7 @@ En büyük kazanç zamanlamadan, daha kısa sohbetlerden ve doğru modelden geli
 - **Referans dosyaları için projeleri kullan.** Anthropic'e göre projelerde önbelleğe alınan içerik limitlerinden daha az düşer.
 - **Daha hafif modeli seç.** Varsayılan olarak Sonnet kullan, basit işlerde efor seviyesini düşür.
 - **Araçları bilinçli kullan.** Research ve web araması kullanımı artırır; onları yalnızca cevap gerçekten gerektirdiğinde aç.
-- **Canlı promosyonlardan yararlan.** 15 Ekim 2026'ya kadar Free, Pro, Max ya da Team'de artifact'lerle çalışmak %50 daha az oturum kullanımı harcıyor.
+- **Alt ajanlara daha hafif bir kurulum ver.** Claude Code'da arama ve bilgi bulma işleri için düşük eforlu ya da Haiku 5.5 alt ajanları iste; yüksek eforu yalnızca yargı gerektiren tek adım için sakla.
 
 ## Sonuç
 
