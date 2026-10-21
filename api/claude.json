@@ -1,0 +1,9 @@
+{
+  "peakHours": {
+    "enabled": true,
+    "startUtc": 13,
+    "endUtc": 19,
+    "since": "2026-03-27",
+    "documented": false
+  }
+}

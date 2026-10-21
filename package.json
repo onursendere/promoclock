@@ -1,0 +1,17 @@
+{
+  "name": "promoclock-api",
+  "private": true,
+  "description": "Docs, terms, code and contract tests for the PromoClock Claude peak-hours API",
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+  },
+  "scripts": {
+    "test": "vitest run --testTimeout=20000",
+    "serve": "php -S 127.0.0.1:8000 -t api router.php"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0",
+    "vitest": "^5.0.1"
+  }
+}
